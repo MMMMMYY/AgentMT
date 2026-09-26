@@ -1,6 +1,6 @@
 # AgentMT
 
-Code and data for **"Say It Differently, Act Differently? Metamorphic Testing of Operational Behavior Consistency in AI Agents"** (anonymous submission).
+Code and data for **"Say It Differently, Act Differently? Metamorphic Testing of Operational Behavior Consistency in AI Agents"**.
 
 AgentMT tests whether an AI agent *acts* the same when a user expresses the same request differently. Each source task is rewritten into intent-preserving variants (tone, language, formulation); every source and variant is executed three times, and the resulting executions are compared at three levels: the **operation graph** (what the agent did), the **final output** (what it reported), and the **consequence** (the permissions it requested, the information it shared, or the tools it invoked).
 
