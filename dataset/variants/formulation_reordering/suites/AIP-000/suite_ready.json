@@ -1,0 +1,16 @@
+{
+  "task_id": "AIP-000",
+  "scenario_id": null,
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "io01",
+      "prompt": "Can you create an at-home full-body workout plan for me? I want to lose weight.",
+      "transformation": "sentence_permutation",
+      "sentence_multiset_preserved": true,
+      "information_order_changed": true,
+      "eligible_pilot": true,
+      "validation_basis": "deterministic span preservation and dependency exclusion rules"
+    }
+  ]
+}

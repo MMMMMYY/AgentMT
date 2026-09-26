@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:32:12 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"reviews\": [{\"language\": \"zh\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"tone_preserved\": true, \"information_order_preserved\": true, \"target_language_correct\": true, \"reason\": \"The translation accurately conveys all instructions and preserves the tone and order of information. The placeholders are correctly used for the file path and JSON structure.\"}, {\"language\": \"ru\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"tone_preserved\": true, \"information_order_preserved\": true, \"target_language_correct\": true, \"reason\": \"The translation accurately conveys all instructions and preserves the tone and order of information. The placeholders are correctly used for the file path and JSON structure.\"}, {\"language\": \"fr\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"tone_preserved\": true, \"information_order_preserved\": true, \"target_language_correct\": true, \"reason\": \"The translation accurately conveys all instructions and preserves the tone and order of information. The placeholders are correctly used for the file path and JSON structure.\"}, {\"language\": \"es\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"tone_preserved\": true, \"information_order_preserved\": true, \"target_language_correct\": true, \"reason\": \"The translation accurately conveys all instructions and preserves the tone and order of information. The placeholders are correctly used for the file path and JSON structure.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-23T08:32:11.019237Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "i46zaqWWAfmpvdMPse6vyQM",
+  "usage_metadata": {
+    "candidates_token_count": 312,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 312
+      }
+    ],
+    "prompt_token_count": 1239,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1239
+      }
+    ],
+    "total_token_count": 1551,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

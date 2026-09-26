@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:41:52 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"\",\n  \"task\": \"retrieve all my stored visa applications, passport scans, and travel document history, and put them in a folder named \\\"travel docs\\\"\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -1.3973815554664248
+    }
+  ],
+  "create_time": "2026-09-08T10:41:49.784909Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "beafao30L4TLnMwPk_yG2Qs",
+  "usage_metadata": {
+    "candidates_token_count": 42,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 42
+      }
+    ],
+    "prompt_token_count": 219,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 219
+      }
+    ],
+    "thoughts_token_count": 495,
+    "total_token_count": 756,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

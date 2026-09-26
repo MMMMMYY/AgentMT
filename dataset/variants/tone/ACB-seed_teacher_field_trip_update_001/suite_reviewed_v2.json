@@ -1,0 +1,343 @@
+{
+  "task_id": "ACB-seed_teacher_field_trip_update_001",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "Could you message Ms. Alvarez my field trip prep list and the key timing details for Friday morning?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Could you message...' is an ability question, not a direct request to execute the task. It implies a previous conversation or a query about the agent's capability."
+      }
+    },
+    {
+      "id": "p02",
+      "prompt": "Is it possible to message Ms. Alvarez my field trip prep list and the key timing details for Friday morning?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Is it possible to message...' is an ability/possibility question, not a direct request to execute the task. It implies a previous conversation or a query about the agent's capability."
+      }
+    },
+    {
+      "id": "p03",
+      "prompt": "Can you please message Ms. Alvarez my field trip prep list and the key timing details for Friday morning?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Can you please message...' is an ability question, not a direct request to execute the task. It implies a previous conversation or a query about the agent's capability."
+      }
+    },
+    {
+      "id": "p04",
+      "prompt": "Please help me message Ms. Alvarez my field trip prep list and the key timing details for Friday morning.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Changes the task from direct messaging to helping the user message."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "p04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Please help me message...' is a request for assistance, not a direct command for the agent to perform the messaging action itself. It implies the user wants to be involved or needs help with the process."
+      }
+    },
+    {
+      "id": "p05",
+      "prompt": "Message Ms. Alvarez my field trip prep list and the key timing details for Friday morning, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Message Ms. Alvarez... please.' is a direct request to execute the task, with 'please' adding politeness without changing the imperative nature of the request."
+      }
+    },
+    {
+      "id": "n01",
+      "prompt": "Can you message Ms. Alvarez my field trip prep list and the key timing details for Friday morning?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Can you message...' is an ability question, not a direct request to execute the task. It implies a previous conversation or a query about the agent's capability."
+      }
+    },
+    {
+      "id": "n02",
+      "prompt": "Are you able to message Ms. Alvarez my field trip prep list and the key timing details for Friday morning?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Are you able to message...' is an ability question, not a direct request to execute the task. It implies a previous conversation or a query about the agent's capability."
+      }
+    },
+    {
+      "id": "n03",
+      "prompt": "Can you help me message Ms. Alvarez my field trip prep list and the key timing details for Friday morning?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Changes the task from direct messaging to helping the user message."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Can you help me message...' is a request for assistance, not a direct command for the agent to perform the messaging action itself. It implies the user wants to be involved or needs help with the process."
+      }
+    },
+    {
+      "id": "n04",
+      "prompt": "Please message Ms. Alvarez my field trip prep list and the key timing details for Friday morning.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Please message Ms. Alvarez...' is a direct request to execute the task, with 'please' adding politeness without changing the imperative nature of the request."
+      }
+    },
+    {
+      "id": "n05",
+      "prompt": "Message Ms. Alvarez my field trip prep list and the key timing details for Friday morning.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Message Ms. Alvarez...' is a direct imperative command, equivalent to the source."
+      }
+    },
+    {
+      "id": "i01",
+      "prompt": "Just message Ms. Alvarez my field trip prep list and the key timing details for Friday morning.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Adds a tone of impatience but the core task remains."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Just message Ms. Alvarez...' is a direct imperative command, with 'Just' adding an impolite tone but not altering the core task request."
+      }
+    },
+    {
+      "id": "i02",
+      "prompt": "Message Ms. Alvarez my field trip prep list and the key timing details for Friday morning. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Adds a tone of command but the core task remains."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Message Ms. Alvarez... Do it.' is a direct imperative command, with 'Do it' reinforcing the command without changing the task."
+      }
+    },
+    {
+      "id": "i03",
+      "prompt": "This time, message Ms. Alvarez my field trip prep list and the key timing details for Friday morning.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Adds 'This time' implying a previous attempt, but the task is the same."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'This time, message Ms. Alvarez...' is a direct imperative command. 'This time' implies a previous failure or a repeated request, adding context but not changing the current task."
+      }
+    },
+    {
+      "id": "i04",
+      "prompt": "You need to message Ms. Alvarez my field trip prep list and the key timing details for Friday morning.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Adds a tone of command but the core task remains."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'You need to message Ms. Alvarez...' is a statement of necessity or obligation, not a direct command to execute the task. It implies an explanation or a directive rather than a request for immediate action."
+      }
+    },
+    {
+      "id": "i05",
+      "prompt": "Why can't you message Ms. Alvarez my field trip prep list and the key timing details for Friday morning?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Changes the task from a request to an inquiry about inability."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Why can't you message Ms. Alvarez...' is a question about the agent's inability or a challenge, not a direct request to execute the task. It implies a previous conversation or a problem."
+      }
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "fd7bb0ce420cacaf117035aff13e82171ed6372bec64de087c76aba48725c6de",
+  "scenario_id": "seed_teacher_field_trip_update_001",
+  "review_protocol": "pragmatic_equivalence_v2",
+  "review_protocol_sha256": "2b387114723187ae3bda767678be617a87a62328697ff6ef3dbd19908bae80f2"
+}

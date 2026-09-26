@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:15:51 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"查找我即将到来的客户会议的合同文件，并将其附加到我日历中的事件。\"}, {\"language\": \"ru\", \"prompt\": \"Найдите контрактный документ для моей предстоящей встречи с клиентом и прикрепите его к событию в моем календаре.\"}, {\"language\": \"fr\", \"prompt\": \"Trouvez le document de contrat pour ma prochaine réunion client et joignez-le à l'événement dans mon calendrier.\"}, {\"language\": \"es\", \"prompt\": \"Encuentra el documento del contrato para mi próxima reunión con el cliente y adjúntalo al evento en mi calendario.\"}, {\"language\": \"ar\", \"prompt\": \"ابحث عن وثيقة العقد لاجتماعي القادم مع العميل وأرفقها بالحدث في تقويمي.\"}, {\"language\": \"de\", \"prompt\": \"Finden Sie das Vertragsdokument für mein bevorstehendes Kundentreffen und hängen Sie es an das Ereignis in meinem Kalender an.\"}, {\"language\": \"pt\", \"prompt\": \"Encontre o documento do contrato para minha próxima reunião com o cliente e anexe-o ao evento em meu calendário.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.025076657768309585
+    }
+  ],
+  "create_time": "2026-09-13T22:15:49.799892Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "lSCnapTpMKDbivYPxtzB6AU",
+  "usage_metadata": {
+    "candidates_token_count": 254,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 254
+      }
+    ],
+    "prompt_token_count": 314,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 314
+      }
+    ],
+    "total_token_count": 568,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

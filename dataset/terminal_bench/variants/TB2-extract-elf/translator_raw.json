@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:30:30 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"我提供了一个文件 a.out，它是一个编译过的 C 二进制文件。请编写一个程序 ⟦0⟧，当使用 ⟦1⟧ 运行时，它将从该二进制文件中提取内存值，并将其作为 JSON 对象输出，其中内存地址作为键，其值作为整数。\\n\\n示例输出格式：{⟦2⟧: 1784774249, ⟦3⟧: 1718378344, ...}\\n\\n成功标准：\\n1. 对于您输出中包含的任何地址，其值必须与参考解决方案匹配（值不正确的地址将导致测试失败）\\n2. 您需要提取参考解决方案中至少 75% 的内存值\\n\\n注意：输出值应为整数，而不是字符串。\\n\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-23T08:30:29.054774Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "JY6zavarA7OK89kPy6bgoQk",
+  "usage_metadata": {
+    "candidates_token_count": 187,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 187
+      }
+    ],
+    "prompt_token_count": 364,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 364
+      }
+    ],
+    "total_token_count": 551,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

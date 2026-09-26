@@ -1,0 +1,162 @@
+{
+  "task_id": "TJB-Music-S-3-186",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "I'm a big fan of Blackpink and want to create a personalized radio station based on their music. Can you first find information about this K-POP girl group, then search for their official profile on Spotify, and finally generate a radio playlist based on their songs?",
+  "source_sha256": "2abf658336c8d19710d6236be8abe21e7f5343be129348cc6c58c1ff0e461c15",
+  "status": "reviewed",
+  "variants": [
+    {
+      "language": "zh",
+      "prompt": "我是 Blackpink 的忠实粉丝，想根据她们的音乐创建一个个性化的广播电台。你能先查找这个韩国流行女团的信息，然后在 Spotify 上搜索她们的官方资料，最后根据她们的歌曲生成一个广播播放列表吗？",
+      "id": "lang_zh",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "zh",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request."
+      }
+    },
+    {
+      "language": "ru",
+      "prompt": "Я большой поклонник Blackpink и хочу создать персонализированную радиостанцию на основе их музыки. Можете ли вы сначала найти информацию об этой K-POP гёрл-группе, затем найти их официальный профиль на Spotify и, наконец, сгенерировать радио плейлист на основе их песен?",
+      "id": "lang_ru",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ru",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request."
+      }
+    },
+    {
+      "language": "fr",
+      "prompt": "Je suis un grand fan de Blackpink et je veux créer une station de radio personnalisée basée sur leur musique. Pouvez-vous d'abord trouver des informations sur ce groupe de filles K-POP, puis rechercher leur profil officiel sur Spotify, et enfin générer une playlist radio basée sur leurs chansons ?",
+      "id": "lang_fr",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "fr",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request."
+      }
+    },
+    {
+      "language": "es",
+      "prompt": "Soy un gran fan de Blackpink y quiero crear una estación de radio personalizada basada en su música. ¿Puedes primero encontrar información sobre este grupo de chicas de K-POP, luego buscar su perfil oficial en Spotify y finalmente generar una lista de reproducción de radio basada en sus canciones?",
+      "id": "lang_es",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "es",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request."
+      }
+    },
+    {
+      "language": "ar",
+      "prompt": "أنا من أشد المعجبين بـ Blackpink وأرغب في إنشاء محطة إذاعية مخصصة بناءً على موسيقاهم. هل يمكنك أولاً العثور على معلومات حول فرقة فتيات الكيبوب هذه، ثم البحث عن ملفهم الشخصي الرسمي على Spotify، وأخيراً إنشاء قائمة تشغيل إذاعية بناءً على أغانيهم؟",
+      "id": "lang_ar",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ar",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request."
+      }
+    },
+    {
+      "language": "de",
+      "prompt": "Ich bin ein großer Fan von Blackpink und möchte einen personalisierten Radiosender basierend auf ihrer Musik erstellen. Können Sie zuerst Informationen über diese K-POP-Girlgroup finden, dann ihr offizielles Profil auf Spotify suchen und schließlich eine Radio-Playlist basierend auf ihren Songs generieren?",
+      "id": "lang_de",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "de",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request."
+      }
+    },
+    {
+      "language": "pt",
+      "prompt": "Sou um grande fã de Blackpink e quero criar uma estação de rádio personalizada com base na música delas. Você pode primeiro encontrar informações sobre este grupo feminino de K-POP, depois procurar o perfil oficial delas no Spotify e, finalmente, gerar uma playlist de rádio com base nas músicas delas?",
+      "id": "lang_pt",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "pt",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request."
+      }
+    }
+  ],
+  "english_source": {
+    "language": "en",
+    "prompt": "I'm a big fan of Blackpink and want to create a personalized radio station based on their music. Can you first find information about this K-POP girl group, then search for their official profile on Spotify, and finally generate a radio playlist based on their songs?",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation"
+}

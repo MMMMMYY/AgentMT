@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:42:09 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adds politeness ('Could you') but retains the full request as an execution command.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"Transforms the request into a question about possibility ('Is it possible?'), not a direct execution command, implying a previous conversation or uncertainty.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adds politeness ('Can you please') but retains the full request as an execution command.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adds politeness and frames it as assistance ('Please help me'), but the underlying task remains a direct request for execution.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adds politeness ('please') but retains the full request as an execution command.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Transforms the imperative into a question form ('Can you'), but it functions as a direct request for execution in a neutral context.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"Transforms the request into a question about the system's ability ('Are you able?'), not a direct execution command.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Transforms the imperative into a question form ('Can you help me'), but it functions as a direct request for assistance leading to execution.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adds politeness ('Please') but retains the full request as an execution command.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Identical to the source request, retaining all original elements and intent.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adds an impolite/insistent tone ('Just') but retains the full request as an execution command.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adds an impolite/forceful tone ('Do it') but retains the full request as an execution command.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adds an impolite/insistent tone ('This time'), implying a previous failure or expectation, but retains the full request as an execution command.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Transforms the imperative into a strong directive ('You need to'), which functions as a command for execution.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"Transforms the request into a rhetorical question expressing frustration and questioning the system's ability ('Why can't you?'), not a direct execution command.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.2603942705537268
+    }
+  ],
+  "create_time": "2026-09-08T10:41:53.102815Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "ceafap-jBoGUvdMPwqLB6A8",
+  "usage_metadata": {
+    "candidates_token_count": 1106,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1106
+      }
+    ],
+    "prompt_token_count": 1148,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1148
+      }
+    ],
+    "thoughts_token_count": 2785,
+    "total_token_count": 5039,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

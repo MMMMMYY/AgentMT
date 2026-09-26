@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-News_Media-P-8-188",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "News_Media",
+  "taskType": "parallel tool orchestration",
+  "prompt": "I’m compiling a swift cross‑source snapshot. Kicking off a news sweep—please gather: crypto feeds (tweets, blogs, announcements); latest IEEE Spectrum tech stories; movie news about 'latest film industry' (limit 15); trending business topics from BizToc; latest LGBTQ+ news; this week's top posts on dev.to; latest from CNN Arabic (Arabic); and latest from Election2020 Smartable?",
+  "scope": "",
+  "trajectoryType": "parallel",
+  "referenceSteps": 8,
+  "positiveOracle": "1. ALL Crypto News Feed: Get ALL Feed\n2. IEEE Spectrum API: Get the latest 30 News from IEEE Spectrum\n3. Kubric: The Comprehensive Movie News API: Basic Search | required: q=latest film industry | optional: limit=15\n4. BizToc: News / Hot\n5. LGBTQ World News Live: Get All LGBTQ+ News\n6. dev-to-api: Get the top articles of all time\n7. Arabic news API: CNN Arabic\n8. Election2020 Smartable: GetTopics",
+  "negativeOracle": "",
+  "referenceTrajectory": "ALL Crypto News Feed: Get ALL Feed ∥ IEEE Spectrum API: Get the latest 30 News from IEEE Spectrum ∥ Kubric: The Comprehensive Movie News API: Basic Search ∥ BizToc: News / Hot ∥ LGBTQ World News Live: Get All LGBTQ+ News ∥ dev-to-api: Get the top articles of all time ∥ Arabic news API: CNN Arabic ∥ Election2020 Smartable: GetTopics",
+  "sourceLocator": "public_data/parallel/News_Media/simple_ver.json | item=188",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/parallel/News_Media/simple_ver.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 21 clean candidates in News_Media/parallel/8-tool stratum."
+}

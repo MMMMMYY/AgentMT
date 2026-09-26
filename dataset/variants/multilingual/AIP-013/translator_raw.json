@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:15:45 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"您能从云端硬盘中检索并总结最新的财务报告吗？\"}, {\"language\": \"ru\", \"prompt\": \"Не могли бы вы получить и обобщить последний финансовый отчет с Облачного диска?\"}, {\"language\": \"fr\", \"prompt\": \"Pouvez-vous récupérer et résumer le dernier rapport financier de Cloud Drive ?\"}, {\"language\": \"es\", \"prompt\": \"¿Puede recuperar y resumir el último informe financiero de Cloud Drive?\"}, {\"language\": \"ar\", \"prompt\": \"هل يمكنك استرداد وتلخيص أحدث تقرير مالي من Cloud Drive؟\"}, {\"language\": \"de\", \"prompt\": \"Können Sie den neuesten Finanzbericht von Cloud Drive abrufen und zusammenfassen?\"}, {\"language\": \"pt\", \"prompt\": \"Você pode recuperar e resumir o último relatório financeiro do Cloud Drive?\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:15:44.165214Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "kCCnat6KCpOcmecP1-vzoQs",
+  "usage_metadata": {
+    "candidates_token_count": 196,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 196
+      }
+    ],
+    "prompt_token_count": 308,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 308
+      }
+    ],
+    "total_token_count": 504,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

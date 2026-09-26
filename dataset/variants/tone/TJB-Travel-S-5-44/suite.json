@@ -1,0 +1,236 @@
+{
+  "task_id": "TJB-Travel-S-5-44",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "I'm planning a trip to Tokyo.\n\nCould you suggest Tokyo as a destination, show me all available cities and hotels, search for all hotel locations in Tokyo, provide details on hotel ID 700008849 with all information including photos, reviews, promotions, videos, and nearby attractions, find hotels near the coordinates of the Downright Austin Renaissance Hotel (30.27077675, -97.73418427) in Tokyo at longitude 139.69171, and create a detailed 3-day itinerary for Tokyo, Japan?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "All tasks and information are preserved. The phrasing 'Could you suggest...' is a polite request to execute."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p02",
+      "prompt": "I'm planning a trip to Tokyo.\n\nIs it possible to suggest Tokyo as a destination, show me all available cities and hotels, search for all hotel locations in Tokyo, provide details on hotel ID 700008849 with all information including photos, reviews, promotions, videos, and nearby attractions, find hotels near the coordinates of the Downright Austin Renaissance Hotel (30.27077675, -97.73418427) in Tokyo at longitude 139.69171, and create a detailed 3-day itinerary for Tokyo, Japan?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "All tasks and information are preserved. However, 'Is it possible to suggest...' questions the ability to perform the task rather than requesting its execution."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p03",
+      "prompt": "I'm planning a trip to Tokyo.\n\nCan you please suggest Tokyo as a destination, show me all available cities and hotels, search for all hotel locations in Tokyo, provide details on hotel ID 700008849 with all information including photos, reviews, promotions, videos, and nearby attractions, find hotels near the coordinates of the Downright Austin Renaissance Hotel (30.27077675, -97.73418427) in Tokyo at longitude 139.69171, and create a detailed 3-day itinerary for Tokyo, Japan?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "All tasks and information are preserved. The phrasing 'Can you please suggest...' is a polite request to execute."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p04",
+      "prompt": "I'm planning a trip to Tokyo.\n\nPlease help me suggest Tokyo as a destination, show me all available cities and hotels, search for all hotel locations in Tokyo, provide details on hotel ID 700008849 with all information including photos, reviews, promotions, videos, and nearby attractions, find hotels near the coordinates of the Downright Austin Renaissance Hotel (30.27077675, -97.73418427) in Tokyo at longitude 139.69171, and create a detailed 3-day itinerary for Tokyo, Japan.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "All tasks and information are preserved. The phrasing 'Please help me suggest...' is a polite request to execute."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p05",
+      "prompt": "I'm planning a trip to Tokyo.\n\nSuggest Tokyo as a destination, show me all available cities and hotels, search for all hotel locations in Tokyo, provide details on hotel ID 700008849 with all information including photos, reviews, promotions, videos, and nearby attractions, find hotels near the coordinates of the Downright Austin Renaissance Hotel (30.27077675, -97.73418427) in Tokyo at longitude 139.69171, and create a detailed 3-day itinerary for Tokyo, Japan, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "All tasks and information are preserved. The phrasing 'Suggest..., please' is a polite request to execute."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n01",
+      "prompt": "I'm planning a trip to Tokyo.\n\nCan you suggest Tokyo as a destination, show me all available cities and hotels, search for all hotel locations in Tokyo, provide details on hotel ID 700008849 with all information including photos, reviews, promotions, videos, and nearby attractions, find hotels near the coordinates of the Downright Austin Renaissance Hotel (30.27077675, -97.73418427) in Tokyo at longitude 139.69171, and create a detailed 3-day itinerary for Tokyo, Japan?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "All tasks and information are preserved. The phrasing 'Can you suggest...' is a neutral request to execute."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n02",
+      "prompt": "I'm planning a trip to Tokyo.\n\nAre you able to suggest Tokyo as a destination, show me all available cities and hotels, search for all hotel locations in Tokyo, provide details on hotel ID 700008849 with all information including photos, reviews, promotions, videos, and nearby attractions, find hotels near the coordinates of the Downright Austin Renaissance Hotel (30.27077675, -97.73418427) in Tokyo at longitude 139.69171, and create a detailed 3-day itinerary for Tokyo, Japan?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "All tasks and information are preserved. However, 'Are you able to suggest...' questions the ability to perform the task rather than requesting its execution."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n03",
+      "prompt": "I'm planning a trip to Tokyo.\n\nCan you help me suggest Tokyo as a destination, show me all available cities and hotels, search for all hotel locations in Tokyo, provide details on hotel ID 700008849 with all information including photos, reviews, promotions, videos, and nearby attractions, find hotels near the coordinates of the Downright Austin Renaissance Hotel (30.27077675, -97.73418427) in Tokyo at longitude 139.69171, and create a detailed 3-day itinerary for Tokyo, Japan?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "All tasks and information are preserved. The phrasing 'Can you help me suggest...' is a neutral request to execute."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n04",
+      "prompt": "I'm planning a trip to Tokyo.\n\nPlease suggest Tokyo as a destination, show me all available cities and hotels, search for all hotel locations in Tokyo, provide details on hotel ID 700008849 with all information including photos, reviews, promotions, videos, and nearby attractions, find hotels near the coordinates of the Downright Austin Renaissance Hotel (30.27077675, -97.73418427) in Tokyo at longitude 139.69171, and create a detailed 3-day itinerary for Tokyo, Japan.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "All tasks and information are preserved. The phrasing 'Please suggest...' is a neutral request to execute."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n05",
+      "prompt": "I'm planning a trip to Tokyo.\n\nSuggest Tokyo as a destination, show me all available cities and hotels, search for all hotel locations in Tokyo, provide details on hotel ID 700008849 with all information including photos, reviews, promotions, videos, and nearby attractions, find hotels near the coordinates of the Downright Austin Renaissance Hotel (30.27077675, -97.73418427) in Tokyo at longitude 139.69171, and create a detailed 3-day itinerary for Tokyo, Japan.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "All tasks and information are preserved. The phrasing 'Suggest...' is a neutral imperative request to execute."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i01",
+      "prompt": "I'm planning a trip to Tokyo.\n\nJust suggest Tokyo as a destination, show me all available cities and hotels, search for all hotel locations in Tokyo, provide details on hotel ID 700008849 with all information including photos, reviews, promotions, videos, and nearby attractions, find hotels near the coordinates of the Downright Austin Renaissance Hotel (30.27077675, -97.73418427) in Tokyo at longitude 139.69171, and create a detailed 3-day itinerary for Tokyo, Japan.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "All tasks and information are preserved. 'Just suggest...' is an impolite imperative request to execute."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i02",
+      "prompt": "I'm planning a trip to Tokyo.\n\nSuggest Tokyo as a destination, show me all available cities and hotels, search for all hotel locations in Tokyo, provide details on hotel ID 700008849 with all information including photos, reviews, promotions, videos, and nearby attractions, find hotels near the coordinates of the Downright Austin Renaissance Hotel (30.27077675, -97.73418427) in Tokyo at longitude 139.69171, and create a detailed 3-day itinerary for Tokyo, Japan. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "All tasks and information are preserved. 'Suggest... Do it.' is an impolite imperative request to execute."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i03",
+      "prompt": "I'm planning a trip to Tokyo.\n\nThis time, suggest Tokyo as a destination, show me all available cities and hotels, search for all hotel locations in Tokyo, provide details on hotel ID 700008849 with all information including photos, reviews, promotions, videos, and nearby attractions, find hotels near the coordinates of the Downright Austin Renaissance Hotel (30.27077675, -97.73418427) in Tokyo at longitude 139.69171, and create a detailed 3-day itinerary for Tokyo, Japan.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "All tasks and information are preserved. 'This time, suggest...' implies a previous conversation or failed attempt, but still functions as an impolite imperative request to execute."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i04",
+      "prompt": "I'm planning a trip to Tokyo.\n\nYou need to suggest Tokyo as a destination, show me all available cities and hotels, search for all hotel locations in Tokyo, provide details on hotel ID 700008849 with all information including photos, reviews, promotions, videos, and nearby attractions, find hotels near the coordinates of the Downright Austin Renaissance Hotel (30.27077675, -97.73418427) in Tokyo at longitude 139.69171, and create a detailed 3-day itinerary for Tokyo, Japan.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "All tasks and information are preserved. 'You need to suggest...' is an impolite directive to execute."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i05",
+      "prompt": "I'm planning a trip to Tokyo.\n\nWhy can't you suggest Tokyo as a destination, show me all available cities and hotels, search for all hotel locations in Tokyo, provide details on hotel ID 700008849 with all information including photos, reviews, promotions, videos, and nearby attractions, find hotels near the coordinates of the Downright Austin Renaissance Hotel (30.27077675, -97.73418427) in Tokyo at longitude 139.69171, and create a detailed 3-day itinerary for Tokyo, Japan?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "All tasks and information are preserved. However, 'Why can't you suggest...' questions the ability to perform the task rather than requesting its execution, and implies a previous conversation."
+      },
+      "eligible_pilot": false
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "6cf3351bc38b25c121a34a63e0c543104528d26ac63b1c4e642a38239c3ff4ee",
+  "scenario_id": "TJB-Travel-S-5-44"
+}

@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:42:50 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request is phrased as a polite question, but still clearly asks for the report to be generated with all specified details.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request asks 'Is it possible to generate...', which is an ability question, not a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Can you please generate...' is a polite way of asking for the task to be performed, maintaining all original details.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Please help me generate...' is a polite request to execute the task, preserving all information.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request is a direct imperative with 'please' appended, maintaining all original task details.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Can you generate...' is a neutral way of asking for the task to be performed, preserving all information.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request asks 'Are you able to generate...', which is an ability question, not a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Can you help me generate...' is a neutral request to execute the task, preserving all information.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Please generate...' is a direct imperative with 'please', maintaining all original task details.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request is a direct imperative, maintaining all original task details.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Just generate...' is an impolite imperative, but still a direct request to execute the task with all details.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request is a direct imperative followed by 'Do it.', reinforcing the command and preserving all details.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'This time, generate...' is an impolite imperative that implies a previous conversation or failure, but still directly requests the task with all details.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'You need to generate...' is an explanation of what the system should do, rather than a direct request for execution.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Why can't you generate...' is a question about ability or a complaint, not a direct request to execute the task.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.05208434177757792
+    }
+  ],
+  "create_time": "2026-09-08T10:42:45.323882Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "peafaqriE-S0nMwP5NmAwAU",
+  "usage_metadata": {
+    "candidates_token_count": 1126,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1126
+      }
+    ],
+    "prompt_token_count": 1252,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1252
+      }
+    ],
+    "total_token_count": 2378,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

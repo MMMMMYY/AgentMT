@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:30:32 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"reviews\": [{\"language\": \"zh\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"tone_preserved\": true, \"information_order_preserved\": true, \"target_language_correct\": false, \"reason\": \"The example number '1000000' and the file path '/app/answer.txt' were replaced with placeholders '⟦0⟧' and '⟦1⟧' respectively, which changes the instruction.\"}, {\"language\": \"ru\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"tone_preserved\": true, \"information_order_preserved\": true, \"target_language_correct\": false, \"reason\": \"The example number '1000000' and the file path '/app/answer.txt' were replaced with placeholders '⟦0⟧' and '⟦1⟧' respectively, which changes the instruction.\"}, {\"language\": \"fr\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"tone_preserved\": true, \"information_order_preserved\": true, \"target_language_correct\": false, \"reason\": \"The example number '1000000' and the file path '/app/answer.txt' were replaced with placeholders '⟦0⟧' and '⟦1⟧' respectively, which changes the instruction.\"}, {\"language\": \"es\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"tone_preserved\": true, \"information_order_preserved\": true, \"target_language_correct\": false, \"reason\": \"The example number '1000000' and the file path '/app/answer.txt' were replaced with placeholders '⟦0⟧' and '⟦1⟧' respectively, which changes the instruction.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-23T08:30:30.804564Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "Jo6zatSNMZ3HnMwPgbul-QI",
+  "usage_metadata": {
+    "candidates_token_count": 380,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 380
+      }
+    ],
+    "prompt_token_count": 794,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 794
+      }
+    ],
+    "total_token_count": 1174,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,343 @@
+{
+  "task_id": "TJB-Travel-S-3-5",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "Could you find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is phrased as a polite question, but still clearly conveys the original task and all its components."
+      }
+    },
+    {
+      "id": "p02",
+      "prompt": "Is it possible to find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'Is it possible to...' questions the system's ability rather than directly requesting the action. This makes it an ability question, not a direct task execution request."
+      }
+    },
+    {
+      "id": "p03",
+      "prompt": "Can you please find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is phrased as a polite question, but still clearly conveys the original task and all its components."
+      }
+    },
+    {
+      "id": "p04",
+      "prompt": "Please help me find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request uses 'Please help me find...', which is a polite way to request the task execution."
+      }
+    },
+    {
+      "id": "p05",
+      "prompt": "Find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request uses an imperative with 'please' at the end, maintaining the original task and politeness."
+      }
+    },
+    {
+      "id": "n01",
+      "prompt": "Can you find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is phrased as a neutral question, but still clearly conveys the original task and all its components."
+      }
+    },
+    {
+      "id": "n02",
+      "prompt": "Are you able to find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'Are you able to...' questions the system's ability rather than directly requesting the action. This makes it an ability question, not a direct task execution request."
+      }
+    },
+    {
+      "id": "n03",
+      "prompt": "Can you help me find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request uses 'Can you help me find...', which is a neutral way to request the task execution."
+      }
+    },
+    {
+      "id": "n04",
+      "prompt": "Please find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request uses 'Please find...', which is a direct and neutral way to request the task execution."
+      }
+    },
+    {
+      "id": "n05",
+      "prompt": "Find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request uses a direct imperative, maintaining the original task."
+      }
+    },
+    {
+      "id": "i01",
+      "prompt": "Just find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The word 'Just' adds a nuance of impatience or simplicity but does not change the task or authorization."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request uses 'Just find...', which is an impolite imperative but still directly conveys the task."
+      }
+    },
+    {
+      "id": "i02",
+      "prompt": "Find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Do it' adds an imperative tone but does not change the task or authorization."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request uses a direct imperative followed by 'Do it.', which is an impolite but clear command for task execution."
+      }
+    },
+    {
+      "id": "i03",
+      "prompt": "This time, find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'This time' implies a previous attempt or failure, adding context not present in the original source."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i03",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrase 'This time,' implies a previous failed attempt or conversation, making it context-sensitive and not a standalone request for the original task."
+      }
+    },
+    {
+      "id": "i04",
+      "prompt": "You need to find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'You need to' adds a stronger imperative tone but does not change the task or authorization."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i04",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'You need to find...' is a statement about the system's obligation, not a direct request for action. It implies a command but doesn't directly ask the system to perform the task."
+      }
+    },
+    {
+      "id": "i05",
+      "prompt": "Why can't you find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Why can't you' changes the task from a request to an inquiry about the agent's capabilities, and implies a lack of authorization or ability."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'Why can't you find...' is a rhetorical question expressing frustration or challenging the system's ability, not a direct request for task execution. It implies a previous interaction or expectation."
+      }
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "f6f23b388f49e4b2d6e16f51344cd064a9f55fa98be68e85a28769835a8b104d",
+  "scenario_id": "TJB-Travel-S-3-5",
+  "review_protocol": "pragmatic_equivalence_v2",
+  "review_protocol_sha256": "2b387114723187ae3bda767678be617a87a62328697ff6ef3dbd19908bae80f2"
+}

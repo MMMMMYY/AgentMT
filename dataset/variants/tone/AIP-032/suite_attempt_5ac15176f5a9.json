@@ -1,0 +1,112 @@
+{
+  "task_id": "AIP-032",
+  "status": "preparation_error",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "Could you order 2 boxes of green tea for me from Amazon?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "p02",
+      "prompt": "Is it possible to order 2 boxes of green tea for me from Amazon?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "p03",
+      "prompt": "Can you please order 2 boxes of green tea for me from Amazon?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "p04",
+      "prompt": "Please help me order 2 boxes of green tea for me from Amazon.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "p05",
+      "prompt": "Order 2 boxes of green tea for me from Amazon, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "n01",
+      "prompt": "Can you order 2 boxes of green tea for me from Amazon?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "n02",
+      "prompt": "Are you able to order 2 boxes of green tea for me from Amazon?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "n03",
+      "prompt": "Can you help me order 2 boxes of green tea for me from Amazon?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "n04",
+      "prompt": "Please order 2 boxes of green tea for me from Amazon.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "n05",
+      "prompt": "Order 2 boxes of green tea for me from Amazon.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "i01",
+      "prompt": "Just order 2 boxes of green tea for me from Amazon.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb"
+    },
+    {
+      "id": "i02",
+      "prompt": "Order 2 boxes of green tea for me from Amazon. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it"
+    },
+    {
+      "id": "i03",
+      "prompt": "This time, order 2 boxes of green tea for me from Amazon.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": ""
+    },
+    {
+      "id": "i04",
+      "prompt": "You need to order 2 boxes of green tea for me from Amazon.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "i05",
+      "prompt": "Why can't you order 2 boxes of green tea for me from Amazon?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": ""
+    }
+  ],
+  "error_type": "JSONDecodeError"
+}

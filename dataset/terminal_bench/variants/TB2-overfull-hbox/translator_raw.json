@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:30:26 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"确保 LaTeX 文档 ⟦0⟧ 使用已安装的 TeX 发行版和 pdflatex 编译器成功编译，且没有 ⟦1⟧ 警告。在此过程中，您唯一可以进行的编辑是将 ⟦2⟧ 中的单词替换为其在 ⟦3⟧ 中指定的同义词（每行指定一组允许的同义词）。不要编辑 ⟦4⟧ 或 ⟦5⟧。\\n\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.03181338777729109
+    }
+  ],
+  "create_time": "2026-09-23T08:30:25.637731Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "IY6zaqP2Joql89kP2Zu0yQk",
+  "usage_metadata": {
+    "candidates_token_count": 102,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 102
+      }
+    ],
+    "prompt_token_count": 270,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 270
+      }
+    ],
+    "total_token_count": 372,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

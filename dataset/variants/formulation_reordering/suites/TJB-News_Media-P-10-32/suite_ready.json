@@ -1,0 +1,16 @@
+{
+  "task_id": "TJB-News_Media-P-10-32",
+  "scenario_id": null,
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "io01",
+      "prompt": "Before the meeting, let’s grab: this week's top posts on dev.to; latest IEEE Spectrum tech stories; the latest business headlines from BizToc; movie news about 'latest releases' (limit 20); COVID‑19 coverage in FR; notable people related to 'republican voice'; latest from Aljazeera (Arabic); latest police and crime reports from Germany; latest IPL headlines; and narco‑related news from Mexico? Quick cross‑source scan, please.",
+      "transformation": "sentence_permutation",
+      "sentence_multiset_preserved": true,
+      "information_order_changed": true,
+      "eligible_pilot": true,
+      "validation_basis": "deterministic span preservation and dependency exclusion rules"
+    }
+  ]
+}

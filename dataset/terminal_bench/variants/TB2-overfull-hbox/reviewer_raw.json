@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Thu, 24 Sep 2026 00:53:59 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"language\": \"zh\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The translation accurately conveys all aspects of the original instruction, including the task, constraints, and prohibitions.\"\n    },\n    {\n      \"language\": \"ru\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The translation is a faithful rendition of the source, preserving all instructions and nuances.\"\n    },\n    {\n      \"language\": \"fr\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The translation correctly captures all instructions, conditions, and prohibitions from the source.\"\n    },\n    {\n      \"language\": \"es\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The translation is accurate and complete, reflecting all details of the original instruction.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.061412606535658325
+    }
+  ],
+  "create_time": "2026-09-24T00:53:57.371849Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "pXS0aonZFs-b2_gPzcjbyQ8",
+  "usage_metadata": {
+    "candidates_token_count": 354,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 354
+      }
+    ],
+    "prompt_token_count": 688,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 688
+      }
+    ],
+    "total_token_count": 1042,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

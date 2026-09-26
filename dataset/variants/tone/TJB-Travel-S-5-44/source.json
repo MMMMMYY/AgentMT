@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Travel-S-5-44",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Travel",
+  "taskType": "Location Discovery → Hotel Selection → Geo-Confirmation → Itinerary Planning",
+  "prompt": "I'm planning a trip to Tokyo and need help. First, can you suggest Tokyo as a destination and show me all available cities and hotels? Then search for all hotel locations in Tokyo since it has the most accommodation options. After that, I'd like details on hotel ID 700008849 with all information including photos, reviews, promotions, videos, and nearby attractions. Next, can you find hotels near the coordinates of the Downright Austin Renaissance Hotel (30.27077675, -97.73418427) in Tokyo at longitude 139.69171? Finally, please create a detailed 3-day itinerary for Tokyo, Japan.",
+  "scope": "Priceline com Provider, AI Trip Planner",
+  "trajectoryType": "sequential",
+  "referenceSteps": 5,
+  "positiveOracle": "1. Priceline com Provider: Auto Suggest | required: string=Tokyo | optional: get_cities=true, get_hotels=true, show_all_cities=true\n2. Priceline com Provider: Search hotels locations | required: name=Tokyo, search_type=ALL\n3. Priceline com Provider: Hotel details | required: hotel_id=700008849 | optional: photos=1, reviews=1, promo=true, videos=true, guest_score_breakdown=true, important_info=true, recent=true, plugins=true, id_lookup=true, nearby=true\n4. Priceline com Provider: Search hotels locations by geolocation | required: latitude=30.27077675, -97.73418427, longitude=139.69171\n5. AI Trip Planner: Get Trip Plan | required: days=3, destination=Tokyo, Japan",
+  "negativeOracle": "",
+  "referenceTrajectory": "Priceline com Provider: Auto Suggest → Priceline com Provider: Search hotels locations → Priceline com Provider: Hotel details → Priceline com Provider: Search hotels locations by geolocation → AI Trip Planner: Get Trip Plan",
+  "sourceLocator": "public_data/sequential/Travel/traj_query.json | item=44",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/sequential/Travel/traj_query.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 4 clean candidates in Travel/sequential/5-tool stratum."
+}

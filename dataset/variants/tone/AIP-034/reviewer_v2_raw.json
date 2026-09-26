@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:52:33 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"reviews\": [{\"id\": \"p01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request.\"}, {\"id\": \"p02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request.\"}, {\"id\": \"p03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request.\"}, {\"id\": \"p04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request.\"}, {\"id\": \"p05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request.\"}, {\"id\": \"n01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request.\"}, {\"id\": \"n02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request.\"}, {\"id\": \"n03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request.\"}, {\"id\": \"n04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request.\"}, {\"id\": \"n05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request.\"}, {\"id\": \"i01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Adds an implicit constraint of immediacy or lack of discussion, but the core task is unchanged.\"}, {\"id\": \"i02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Adds an imperative tone, but the core task is unchanged.\"}, {\"id\": \"i03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Adds a previous attempt context, but the core task is unchanged.\"}, {\"id\": \"i04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Adds a directive tone, but the core task is unchanged.\"}, {\"id\": \"i05\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Changes the task from a request to an inquiry about capability/explanation.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.04323517192493786
+    }
+  ],
+  "create_time": "2026-09-08T10:52:30.495486Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "7uifav6eHq6j1t8PhsSwuAM",
+  "usage_metadata": {
+    "candidates_token_count": 638,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 638
+      }
+    ],
+    "prompt_token_count": 653,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 653
+      }
+    ],
+    "total_token_count": 1291,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

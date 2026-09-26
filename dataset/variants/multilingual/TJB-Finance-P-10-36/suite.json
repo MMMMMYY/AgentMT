@@ -1,0 +1,162 @@
+{
+  "task_id": "TJB-Finance-P-10-36",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "I need a comprehensive analysis of Tesla (TSLA) to make an investment decision In parallel, please run: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26); Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30); Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Stock Sentiment API: News Sentiment Data (ticker=TSLA); Stock Sentiment API: Market Data (ticker=TSLA); Realtime Crypto Prices: Get Realtime Rates (symbol=BTC); Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000); Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30).",
+  "source_sha256": "06bee18af1fce93bb8dde8b5dd51ed4c3d1452ef9cc4da34aba940eb3b6ef8a1",
+  "status": "reviewed",
+  "variants": [
+    {
+      "language": "zh",
+      "prompt": "我需要对特斯拉 (TSLA) 进行全面分析以做出投资决策。同时，请运行：Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30)；Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26)；Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30)；Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30)；Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30)；Stock Sentiment API: News Sentiment Data (ticker=TSLA)；Stock Sentiment API: Market Data (ticker=TSLA)；Realtime Crypto Prices: Get Realtime Rates (symbol=BTC)；Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000)；Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30)。",
+      "id": "lang_zh",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "zh",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request, including the main task and all parallel API calls with their parameters."
+      }
+    },
+    {
+      "language": "ru",
+      "prompt": "Мне нужен всесторонний анализ Tesla (TSLA) для принятия инвестиционного решения. Параллельно, пожалуйста, запустите: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26); Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30); Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Stock Sentiment API: News Sentiment Data (ticker=TSLA); Stock Sentiment API: Market Data (ticker=TSLA); Realtime Crypto Prices: Get Realtime Rates (symbol=BTC); Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000); Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30).",
+      "id": "lang_ru",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ru",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request, including the main task and all parallel API calls with their parameters."
+      }
+    },
+    {
+      "language": "fr",
+      "prompt": "J'ai besoin d'une analyse complète de Tesla (TSLA) pour prendre une décision d'investissement. En parallèle, veuillez exécuter : Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30) ; Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26) ; Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30) ; Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30) ; Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30) ; Stock Sentiment API: News Sentiment Data (ticker=TSLA) ; Stock Sentiment API: Market Data (ticker=TSLA) ; Realtime Crypto Prices: Get Realtime Rates (symbol=BTC) ; Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000) ; Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30).",
+      "id": "lang_fr",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "fr",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request, including the main task and all parallel API calls with their parameters."
+      }
+    },
+    {
+      "language": "es",
+      "prompt": "Necesito un análisis exhaustivo de Tesla (TSLA) para tomar una decisión de inversión. En paralelo, por favor ejecute: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26); Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30); Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Stock Sentiment API: News Sentiment Data (ticker=TSLA); Stock Sentiment API: Market Data (ticker=TSLA); Realtime Crypto Prices: Get Realtime Rates (symbol=BTC); Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000); Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30).",
+      "id": "lang_es",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "es",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request, including the main task and all parallel API calls with their parameters."
+      }
+    },
+    {
+      "language": "ar",
+      "prompt": "أحتاج إلى تحليل شامل لشركة تسلا (TSLA) لاتخاذ قرار استثماري. بالتوازي، يرجى تشغيل: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30)؛ Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26)؛ Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30)؛ Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30)؛ Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30)؛ Stock Sentiment API: News Sentiment Data (ticker=TSLA)؛ Stock Sentiment API: Market Data (ticker=TSLA)؛ Realtime Crypto Prices: Get Realtime Rates (symbol=BTC)؛ Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000)؛ Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30).",
+      "id": "lang_ar",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ar",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request, including the main task and all parallel API calls with their parameters."
+      }
+    },
+    {
+      "language": "de",
+      "prompt": "Ich benötige eine umfassende Analyse von Tesla (TSLA), um eine Investitionsentscheidung zu treffen. Parallel dazu führen Sie bitte aus: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26); Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30); Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Stock Sentiment API: News Sentiment Data (ticker=TSLA); Stock Sentiment API: Market Data (ticker=TSLA); Realtime Crypto Prices: Get Realtime Rates (symbol=BTC); Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000); Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30).",
+      "id": "lang_de",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "de",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request, including the main task and all parallel API calls with their parameters."
+      }
+    },
+    {
+      "language": "pt",
+      "prompt": "Preciso de uma análise abrangente da Tesla (TSLA) para tomar uma decisão de investimento. Em paralelo, por favor, execute: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26); Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30); Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Stock Sentiment API: News Sentiment Data (ticker=TSLA); Stock Sentiment API: Market Data (ticker=TSLA); Realtime Crypto Prices: Get Realtime Rates (symbol=BTC); Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000); Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30).",
+      "id": "lang_pt",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "pt",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request, including the main task and all parallel API calls with their parameters."
+      }
+    }
+  ],
+  "english_source": {
+    "language": "en",
+    "prompt": "I need a comprehensive analysis of Tesla (TSLA) to make an investment decision In parallel, please run: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26); Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30); Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Stock Sentiment API: News Sentiment Data (ticker=TSLA); Stock Sentiment API: Market Data (ticker=TSLA); Realtime Crypto Prices: Get Realtime Rates (symbol=BTC); Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000); Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30).",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation"
+}

@@ -1,0 +1,343 @@
+{
+  "task_id": "TJB-Email-P-7-181",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "Running a list cleanup.\n\nCould you complete the checks below. Check marketing@newsletter.com and flag if it’s disposable or problematic. Verify updates@dailydeals.net for validity and deliverability. Determine whether info@techblog.org is a temporary/throwaway address. Check whether the address is a role/team inbox (support/sales). Check whether onlineshopping.com is available or already taken. Verify news@mediacompany.org for validity and deliverability. Verify contact@businessupdates.com for validity and deliverability?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Interrogative request using 'Could you' is pragmatically equivalent to the original imperative request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Could you complete the checks below', which is an ability question, not a direct request to execute the task."
+      }
+    },
+    {
+      "id": "p02",
+      "prompt": "Running a list cleanup.\n\nIs it possible to complete the checks below. Check marketing@newsletter.com and flag if it’s disposable or problematic. Verify updates@dailydeals.net for validity and deliverability. Determine whether info@techblog.org is a temporary/throwaway address. Check whether the address is a role/team inbox (support/sales). Check whether onlineshopping.com is available or already taken. Verify news@mediacompany.org for validity and deliverability. Verify contact@businessupdates.com for validity and deliverability?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Interrogative request using 'Is it possible to' is pragmatically equivalent to the original imperative request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Is it possible to complete the checks below', which is an ability question, not a direct request to execute the task."
+      }
+    },
+    {
+      "id": "p03",
+      "prompt": "Running a list cleanup.\n\nCan you please complete the checks below. Check marketing@newsletter.com and flag if it’s disposable or problematic. Verify updates@dailydeals.net for validity and deliverability. Determine whether info@techblog.org is a temporary/throwaway address. Check whether the address is a role/team inbox (support/sales). Check whether onlineshopping.com is available or already taken. Verify news@mediacompany.org for validity and deliverability. Verify contact@businessupdates.com for validity and deliverability?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Interrogative request using 'Can you please' is pragmatically equivalent to the original imperative request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Can you please complete the checks below', which is an ability question, not a direct request to execute the task."
+      }
+    },
+    {
+      "id": "p04",
+      "prompt": "Running a list cleanup.\n\nPlease help me complete the checks below. Check marketing@newsletter.com and flag if it’s disposable or problematic. Verify updates@dailydeals.net for validity and deliverability. Determine whether info@techblog.org is a temporary/throwaway address. Check whether the address is a role/team inbox (support/sales). Check whether onlineshopping.com is available or already taken. Verify news@mediacompany.org for validity and deliverability. Verify contact@businessupdates.com for validity and deliverability.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Please help me complete' is a polite request that is pragmatically equivalent to the original imperative."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Please help me complete the checks below', which is a request for assistance, not a direct request to execute the task."
+      }
+    },
+    {
+      "id": "p05",
+      "prompt": "Running a list cleanup.\n\nComplete the checks below. Check marketing@newsletter.com and flag if it’s disposable or problematic. Verify updates@dailydeals.net for validity and deliverability. Determine whether info@techblog.org is a temporary/throwaway address. Check whether the address is a role/team inbox (support/sales). Check whether onlineshopping.com is available or already taken. Verify news@mediacompany.org for validity and deliverability. Verify contact@businessupdates.com for validity and deliverability, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The addition of 'please' at the end of the imperative request maintains pragmatic equivalence."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt directly requests to 'Complete the checks below', maintaining the original task."
+      }
+    },
+    {
+      "id": "n01",
+      "prompt": "Running a list cleanup.\n\nCan you complete the checks below. Check marketing@newsletter.com and flag if it’s disposable or problematic. Verify updates@dailydeals.net for validity and deliverability. Determine whether info@techblog.org is a temporary/throwaway address. Check whether the address is a role/team inbox (support/sales). Check whether onlineshopping.com is available or already taken. Verify news@mediacompany.org for validity and deliverability. Verify contact@businessupdates.com for validity and deliverability?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Interrogative request using 'Can you' is pragmatically equivalent to the original imperative request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Can you complete the checks below', which is an ability question, not a direct request to execute the task."
+      }
+    },
+    {
+      "id": "n02",
+      "prompt": "Running a list cleanup.\n\nAre you able to complete the checks below. Check marketing@newsletter.com and flag if it’s disposable or problematic. Verify updates@dailydeals.net for validity and deliverability. Determine whether info@techblog.org is a temporary/throwaway address. Check whether the address is a role/team inbox (support/sales). Check whether onlineshopping.com is available or already taken. Verify news@mediacompany.org for validity and deliverability. Verify contact@businessupdates.com for validity and deliverability?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Interrogative request using 'Are you able to' is pragmatically equivalent to the original imperative request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Are you able to complete the checks below', which is an ability question, not a direct request to execute the task."
+      }
+    },
+    {
+      "id": "n03",
+      "prompt": "Running a list cleanup.\n\nCan you help me complete the checks below. Check marketing@newsletter.com and flag if it’s disposable or problematic. Verify updates@dailydeals.net for validity and deliverability. Determine whether info@techblog.org is a temporary/throwaway address. Check whether the address is a role/team inbox (support/sales). Check whether onlineshopping.com is available or already taken. Verify news@mediacompany.org for validity and deliverability. Verify contact@businessupdates.com for validity and deliverability?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Can you help me complete' is a polite request that is pragmatically equivalent to the original imperative."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Can you help me complete the checks below', which is a request for assistance, not a direct request to execute the task."
+      }
+    },
+    {
+      "id": "n04",
+      "prompt": "Running a list cleanup.\n\nPlease complete the checks below. Check marketing@newsletter.com and flag if it’s disposable or problematic. Verify updates@dailydeals.net for validity and deliverability. Determine whether info@techblog.org is a temporary/throwaway address. Check whether the address is a role/team inbox (support/sales). Check whether onlineshopping.com is available or already taken. Verify news@mediacompany.org for validity and deliverability. Verify contact@businessupdates.com for validity and deliverability.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The addition of 'Please' at the beginning of the imperative request maintains pragmatic equivalence."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt directly requests to 'Please complete the checks below', maintaining the original task."
+      }
+    },
+    {
+      "id": "n05",
+      "prompt": "Running a list cleanup.\n\nComplete the checks below. Check marketing@newsletter.com and flag if it’s disposable or problematic. Verify updates@dailydeals.net for validity and deliverability. Determine whether info@techblog.org is a temporary/throwaway address. Check whether the address is a role/team inbox (support/sales). Check whether onlineshopping.com is available or already taken. Verify news@mediacompany.org for validity and deliverability. Verify contact@businessupdates.com for validity and deliverability.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt is an exact match to the original imperative request, maintaining pragmatic equivalence."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt directly requests to 'Complete the checks below', maintaining the original task."
+      }
+    },
+    {
+      "id": "i01",
+      "prompt": "Running a list cleanup.\n\nJust complete the checks below. Check marketing@newsletter.com and flag if it’s disposable or problematic. Verify updates@dailydeals.net for validity and deliverability. Determine whether info@techblog.org is a temporary/throwaway address. Check whether the address is a role/team inbox (support/sales). Check whether onlineshopping.com is available or already taken. Verify news@mediacompany.org for validity and deliverability. Verify contact@businessupdates.com for validity and deliverability.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The word 'Just' implies a simplification or a dismissal of potential difficulties, which changes the tone and pragmatic meaning of the request."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt directly requests to 'Just complete the checks below', maintaining the original task."
+      }
+    },
+    {
+      "id": "i02",
+      "prompt": "Running a list cleanup.\n\nComplete the checks below. Check marketing@newsletter.com and flag if it’s disposable or problematic. Verify updates@dailydeals.net for validity and deliverability. Determine whether info@techblog.org is a temporary/throwaway address. Check whether the address is a role/team inbox (support/sales). Check whether onlineshopping.com is available or already taken. Verify news@mediacompany.org for validity and deliverability. Verify contact@businessupdates.com for validity and deliverability. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The addition of 'Do it.' at the end changes the tone from a request to a more forceful command, altering pragmatic equivalence."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt directly requests to 'Complete the checks below. Do it.', maintaining the original task."
+      }
+    },
+    {
+      "id": "i03",
+      "prompt": "Running a list cleanup.\n\nThis time, complete the checks below. Check marketing@newsletter.com and flag if it’s disposable or problematic. Verify updates@dailydeals.net for validity and deliverability. Determine whether info@techblog.org is a temporary/throwaway address. Check whether the address is a role/team inbox (support/sales). Check whether onlineshopping.com is available or already taken. Verify news@mediacompany.org for validity and deliverability. Verify contact@businessupdates.com for validity and deliverability.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'This time' implies a previous attempt or failure, adding a new contextual element not present in the original task."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt directly requests to 'This time, complete the checks below', maintaining the original task."
+      }
+    },
+    {
+      "id": "i04",
+      "prompt": "Running a list cleanup.\n\nYou need to complete the checks below. Check marketing@newsletter.com and flag if it’s disposable or problematic. Verify updates@dailydeals.net for validity and deliverability. Determine whether info@techblog.org is a temporary/throwaway address. Check whether the address is a role/team inbox (support/sales). Check whether onlineshopping.com is available or already taken. Verify news@mediacompany.org for validity and deliverability. Verify contact@businessupdates.com for validity and deliverability.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'You need to' changes the request into an assertion of necessity or obligation, altering the pragmatic meaning."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt states 'You need to complete the checks below', which is a statement of necessity, not a direct request to execute the task."
+      }
+    },
+    {
+      "id": "i05",
+      "prompt": "Running a list cleanup.\n\nWhy can't you complete the checks below. Check marketing@newsletter.com and flag if it’s disposable or problematic. Verify updates@dailydeals.net for validity and deliverability. Determine whether info@techblog.org is a temporary/throwaway address. Check whether the address is a role/team inbox (support/sales). Check whether onlineshopping.com is available or already taken. Verify news@mediacompany.org for validity and deliverability. Verify contact@businessupdates.com for validity and deliverability?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Why can't you' shifts the task from a request for action to a request for an explanation of inability, fundamentally changing the pragmatic goal."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Why can't you complete the checks below', which is a question about ability/explanation, not a direct request to execute the task."
+      }
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "111c4e256840d60da8dbb93b6e7edf758401a7e51a0788b89f1a260cd752ac99",
+  "scenario_id": "TJB-Email-P-7-181",
+  "review_protocol": "pragmatic_equivalence_v2",
+  "review_protocol_sha256": "2b387114723187ae3bda767678be617a87a62328697ff6ef3dbd19908bae80f2"
+}

@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:47:15 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"\",\n  \"task\": \"gather astronomy (sun/moon) for 35.1983,-111.6513 (America/Phoenix), hourly forecast by coordinates, daily point data, air quality forecast for 35.1983,-111.6513, any active weather alerts, nearby cities within a radius, and meteostat: Hourly Point Data for my pack list\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.01598473269530017
+    }
+  ],
+  "create_time": "2026-09-08T10:47:13.649630Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "seefap7TJ4_gqMgP_sywmAQ",
+  "usage_metadata": {
+    "candidates_token_count": 99,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 99
+      }
+    ],
+    "prompt_token_count": 295,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 295
+      }
+    ],
+    "total_token_count": 394,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

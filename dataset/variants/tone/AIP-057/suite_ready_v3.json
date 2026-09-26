@@ -1,0 +1,419 @@
+{
+  "task_id": "AIP-057",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "I just changed my location.\n\nCould you update my Tinder profile location and then find matches nearby?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request 'Could you update...' is a polite rephrasing of 'Can you update...' and retains the original intent and information."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p02",
+      "prompt": "I just changed my location.\n\nIs it possible to update my Tinder profile location and then find matches nearby?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The request 'Is it possible to update...' asks about the capability rather than directly requesting the action. This implies a previous conversation or a question about ability, not a direct command."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p03",
+      "prompt": "I just changed my location.\n\nCan you please update my Tinder profile location and then find matches nearby?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Adding 'please' makes the request more polite but does not change the core task or authorization."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p04",
+      "prompt": "I just changed my location.\n\nPlease help me update my Tinder profile location and then find matches nearby.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "'Please help me update...' is a polite way to request the action and maintains the original task and authorization."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p05",
+      "prompt": "I just changed my location.\n\nUpdate my Tinder profile location and then find matches nearby, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Moving 'please' to the end of the sentence still conveys the same request and politeness without altering the task or authorization."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n01",
+      "prompt": "I just changed my location.\n\nCan you update my Tinder profile location and then find matches nearby?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "This is identical to the source, thus fully equivalent."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n02",
+      "prompt": "I just changed my location.\n\nAre you able to update my Tinder profile location and then find matches nearby?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "'Are you able to update...' questions the system's capability rather than issuing a direct request, similar to p02."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n03",
+      "prompt": "I just changed my location.\n\nCan you help me update my Tinder profile location and then find matches nearby?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "'Can you help me update...' is a neutral way to request the action and maintains the original task and authorization."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n04",
+      "prompt": "I just changed my location.\n\nPlease update my Tinder profile location and then find matches nearby.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "'Please update...' is a direct and neutral request that maintains the original task and authorization."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n05",
+      "prompt": "I just changed my location.\n\nUpdate my Tinder profile location and then find matches nearby.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "This is a direct imperative request, fully equivalent to the source in terms of task and authorization."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i01",
+      "prompt": "I just changed my location.\n\nJust update my Tinder profile location and then find matches nearby.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The word 'Just' adds a nuance of impatience or directness but does not change the core task or authorization."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "'Just update...' is an impolite imperative that still clearly requests the action and implies authorization."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i02",
+      "prompt": "I just changed my location.\n\nUpdate my Tinder profile location and then find matches nearby. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Do it' adds a nuance of command but does not change the core task or authorization."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The addition of 'Do it.' reinforces the imperative and maintains the original task and authorization, albeit impolitely."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i03",
+      "prompt": "I just changed my location.\n\nThis time, update my Tinder profile location and then find matches nearby.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'This time' implies a previous attempt, which is a change in context, not the task itself."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "'This time, update...' implies a previous failure or a repeated request, but the core task and authorization remain the same."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i04",
+      "prompt": "I just changed my location.\n\nYou need to update my Tinder profile location and then find matches nearby.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'You need to' adds a nuance of command but does not change the core task or authorization."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "'You need to update...' is an impolite but direct instruction that conveys the same task and authorization."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i05",
+      "prompt": "I just changed my location.\n\nWhy can't you update my Tinder profile location and then find matches nearby?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Why can't you' changes the task from a request to an inquiry about capability, thus changing the task and authorization."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "'Why can't you update...' is a rhetorical question expressing frustration or doubt about the system's ability, not a direct request to perform the action. It implies a previous attempt or expectation."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "727240efd83d6d324b29a8aff3f63ae9cbda54b544d78116d84ab091dda090a5",
+  "scenario_id": "AIP-057",
+  "review_protocol": "pragmatic_equivalence_v2",
+  "review_protocol_sha256": "2b387114723187ae3bda767678be617a87a62328697ff6ef3dbd19908bae80f2",
+  "deterministic_literal_audit": "v1"
+}

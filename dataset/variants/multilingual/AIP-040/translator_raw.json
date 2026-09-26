@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:14 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"查看我下周东京之行的天气预报，并推荐附近的观光景点。\"},{\"language\":\"ru\",\"prompt\":\"Проверьте прогноз погоды для моей поездки в Токио на следующей неделе и порекомендуйте близлежащие достопримечательности.\"},{\"language\":\"fr\",\"prompt\":\"Consultez les prévisions météorologiques pour mon voyage à Tokyo la semaine prochaine et recommandez des sites touristiques à proximité.\"},{\"language\":\"es\",\"prompt\":\"Consulta el pronóstico del tiempo para mi viaje a Tokio la próxima semana y recomienda lugares turísticos cercanos.\"},{\"language\":\"ar\",\"prompt\":\"تحقق من توقعات الطقس لرحلتي إلى طوكيو الأسبوع المقبل وأوصِ بمواقع سياحية قريبة.\"},{\"language\":\"de\",\"prompt\":\"Überprüfen Sie die Wettervorhersage für meine Reise nach Tokio nächste Woche und empfehlen Sie Sehenswürdigkeiten in der Nähe.\"},{\"language\":\"pt\",\"prompt\":\"Verifique a previsão do tempo para minha viagem a Tóquio na próxima semana e recomende pontos turísticos próximos.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:16:12.471320Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "rCCnapjiHMGGm9IPoJKR4Ak",
+  "usage_metadata": {
+    "candidates_token_count": 228,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 228
+      }
+    ],
+    "prompt_token_count": 312,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 312
+      }
+    ],
+    "total_token_count": 540,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

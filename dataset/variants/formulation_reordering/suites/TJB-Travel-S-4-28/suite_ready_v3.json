@@ -1,0 +1,16 @@
+{
+  "task_id": "TJB-Travel-S-4-28",
+  "scenario_id": null,
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "io01",
+      "prompt": "Could you show me the airport with the most central location to Chicago city center? Once you find it, I'd like to see details about Midway International Airport (MDW). Then, check what flights are arriving at KMDW on September 1, 2025, around noon. Finally, can you get me complete information about flight WN3764, which should be the flight departing from the easternmost airport? I need to find Chicago airports for my trip next year.",
+      "transformation": "sentence_permutation",
+      "sentence_multiset_preserved": true,
+      "information_order_changed": true,
+      "eligible_pilot": true,
+      "validation_basis": "deterministic span preservation and dependency exclusion rules"
+    }
+  ]
+}

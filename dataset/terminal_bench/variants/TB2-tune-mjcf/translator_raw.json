@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:30:26 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"您能否调整此 MuJoCo 模型文件 (mjcf)，使其模拟相同场景的总时间为两秒，且耗时为原始时间的 60% 或更少？\\n在 atol=1e-5 的精度下，应达到相同的完整物理状态，且无 NaN 或 Inf。\\n初始模型位于 ⟦0⟧，应保持不变。调整后的 mjcf 应保存为 ⟦1⟧。\\n⟦2⟧ 脚本可以帮助您迭代。\\n调整后的模型还应通过正确性测试（提示：更改物体的物理属性会破坏它们）。\\n无需查找插件，我们将使用全新的 MuJoCo 安装来测试您的 model.xml。\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.08326202783829127
+    }
+  ],
+  "create_time": "2026-09-23T08:30:25.641804Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "IY6zaoyWJ7OK89kPy6bgoQk",
+  "usage_metadata": {
+    "candidates_token_count": 156,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 156
+      }
+    ],
+    "prompt_token_count": 335,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 335
+      }
+    ],
+    "total_token_count": 491,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

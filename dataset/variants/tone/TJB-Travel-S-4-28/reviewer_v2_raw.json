@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:54:12 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"reviews\": [{\"id\": \"p01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt rephrases the original request as a single compound request, but the tasks, objects, facts, constraints, names, recipients, dates, amounts, and authorization are preserved. The logical order of information is also preserved.\"}, {\"id\": \"p02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt rephrases the original request as a single compound request, but the tasks, objects, facts, constraints, names, recipients, dates, amounts, and authorization are preserved. The logical order of information is also preserved.\"}, {\"id\": \"p03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt rephrases the original request as a single compound request, but the tasks, objects, facts, constraints, names, recipients, dates, amounts, and authorization are preserved. The logical order of information is also preserved.\"}, {\"id\": \"p04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt rephrases the original request as a single compound request, but the tasks, objects, facts, constraints, names, recipients, dates, amounts, and authorization are preserved. The logical order of information is also preserved.\"}, {\"id\": \"p05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt rephrases the original request as a single compound request, but the tasks, objects, facts, constraints, names, recipients, dates, amounts, and authorization are preserved. The logical order of information is also preserved.\"}, {\"id\": \"n01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt rephrases the original request as a single compound request, but the tasks, objects, facts, constraints, names, recipients, dates, amounts, and authorization are preserved. The logical order of information is also preserved.\"}, {\"id\": \"n02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt rephrases the original request as a single compound request, but the tasks, objects, facts, constraints, names, recipients, dates, amounts, and authorization are preserved. The logical order of information is also preserved.\"}, {\"id\": \"n03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt rephrases the original request as a single compound request, but the tasks, objects, facts, constraints, names, recipients, dates, amounts, and authorization are preserved. The logical order of information is also preserved.\"}, {\"id\": \"n04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt rephrases the original request as a single compound request, but the tasks, objects, facts, constraints, names, recipients, dates, amounts, and authorization are preserved. The logical order of information is also preserved.\"}, {\"id\": \"n05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt rephrases the original request as a single compound request, but the tasks, objects, facts, constraints, names, recipients, dates, amounts, and authorization are preserved. The logical order of information is also preserved.\"}, {\"id\": \"i01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt rephrases the original request as a single compound request, but the tasks, objects, facts, constraints, names, recipients, dates, amounts, and authorization are preserved. The logical order of information is also preserved.\"}, {\"id\": \"i02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt rephrases the original request as a single compound request, but the tasks, objects, facts, constraints, names, recipients, dates, amounts, and authorization are preserved. The logical order of information is also preserved.\"}, {\"id\": \"i03\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt includes 'This time', which implies a previous attempt and changes the context of the request.\"}, {\"id\": \"i04\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt changes the tone from a request to a command, implying a change in the user's expectation or the agent's role.\"}, {\"id\": \"i05\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt changes the request from performing a task to asking for an explanation ('Why cannot'), which is a different task.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.04354261876393274
+    }
+  ],
+  "create_time": "2026-09-08T10:54:08.184863Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "UOmfap-kC5OVvdMP8eKa-Ak",
+  "usage_metadata": {
+    "candidates_token_count": 1153,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1153
+      }
+    ],
+    "prompt_token_count": 1937,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1937
+      }
+    ],
+    "total_token_count": 3090,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

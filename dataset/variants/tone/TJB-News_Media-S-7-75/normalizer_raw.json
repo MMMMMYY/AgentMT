@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:46:57 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"I'm researching climate change news from different perspectives.\",\n  \"task\": \"show me all climate change news, then search for that headline \\\"Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM\\\" in English, then narrow down to CNN's coverage, then focus specifically on their Economy category, then search for \\\"House moves toward averting a shutdown, sidestepping a Trump demand\\\" within those economic articles, then show me all the latest articles, and finally, find the 10 most recent stories about GraphQL since it seems to be appearing frequently in tech discussions about climate solutions\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.014739511681975221
+    }
+  ],
+  "create_time": "2026-09-08T10:46:56.018322Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "oOefapKPAY2wi-8PkKu_8QY",
+  "usage_metadata": {
+    "candidates_token_count": 139,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 139
+      }
+    ],
+    "prompt_token_count": 324,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 324
+      }
+    ],
+    "total_token_count": 463,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

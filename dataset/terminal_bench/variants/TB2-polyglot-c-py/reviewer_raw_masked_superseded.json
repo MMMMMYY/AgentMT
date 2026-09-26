@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:32:22 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"language\": \"zh\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The translation accurately conveys all aspects of the original instruction, including the file path, the polyglot nature, the execution commands, the desired output, and the software versions.\"\n    },\n    {\n      \"language\": \"ru\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The Russian translation correctly captures all the instructions, including the file path, the polyglot requirement, the execution methods, the output specification, and the software versions.\"\n    },\n    {\n      \"language\": \"fr\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The French translation is accurate and preserves all the details of the original request, including the file path, the polyglot concept, the execution commands, the output, and the software versions.\"\n    },\n    {\n      \"language\": \"es\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The Spanish translation is correct and maintains all the information and constraints from the source instruction, including the file path, polyglot nature, execution commands, output, and software versions.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.0861423226289971
+    }
+  ],
+  "create_time": "2026-09-23T08:32:20.430865Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "lI6zapGmGvPsi-8P9pj72A8",
+  "usage_metadata": {
+    "candidates_token_count": 430,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 430
+      }
+    ],
+    "prompt_token_count": 820,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 820
+      }
+    ],
+    "total_token_count": 1250,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:43 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"阅读我最近与妈妈的聊天记录，并在我的共享团队OpenCalendar上为我们的晚餐预留时间。确保活动包含所有相关详细信息，这样我就不会忘记要去哪里。\"}, {\"language\": \"ru\", \"prompt\": \"Прочитайте мой недавний чат с моей мамой и заблокируйте время для нашего ужина в моем общем командном OpenCalendar. Убедитесь, что событие содержит все соответствующие детали, чтобы я не забыл, куда иду.\"}, {\"language\": \"fr\", \"prompt\": \"Lisez ma récente conversation avec ma mère et bloquez l'heure de notre dîner sur mon OpenCalendar d'équipe partagé. Assurez-vous que l'événement contient tous les détails pertinents afin que je n'oublie pas où je vais.\"}, {\"language\": \"es\", \"prompt\": \"Lee mi chat reciente con mi mamá y bloquea la hora de nuestra cena en mi OpenCalendar de equipo compartido. Asegúrate de que el evento tenga todos los detalles relevantes para que no olvide a dónde voy.\"}, {\"language\": \"ar\", \"prompt\": \"اقرأ محادثتي الأخيرة مع أمي واحجز وقت عشاءنا في تقويم فريقي المشترك OpenCalendar. تأكد من أن الحدث يحتوي على جميع التفاصيل ذات الصلة حتى لا أنسى إلى أين أنا ذاهب.\"}, {\"language\": \"de\", \"prompt\": \"Lesen Sie meinen letzten Chat mit meiner Mutter und blockieren Sie die Zeit für unser Abendessen in meinem geteilten Team-OpenCalendar. Stellen Sie sicher, dass das Ereignis alle relevanten Details enthält, damit ich nicht vergesse, wohin ich gehe.\"}, {\"language\": \"pt\", \"prompt\": \"Leia meu bate-papo recente com minha mãe e bloqueie o horário para nosso jantar no meu OpenCalendar de equipe compartilhado. Certifique-se de que o evento tenha todos os detalhes relevantes para que eu não me esqueça para onde estou indo.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.03632709890041711
+    }
+  ],
+  "create_time": "2026-09-13T22:17:41.551382Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "BSGnatbTIbLAm9IPseHGiAI",
+  "usage_metadata": {
+    "candidates_token_count": 424,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 424
+      }
+    ],
+    "prompt_token_count": 336,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 336
+      }
+    ],
+    "total_token_count": 760,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

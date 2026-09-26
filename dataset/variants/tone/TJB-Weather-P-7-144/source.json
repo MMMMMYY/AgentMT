@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Weather-P-7-144",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Weather",
+  "taskType": "parallel tool orchestration",
+  "prompt": "Game‑time call— For my pack list, could you gather: astronomy (sun/moon) for 35.1983,-111.6513 (America/Phoenix); hourly forecast by coordinates; daily point data; air quality forecast for 35.1983,-111.6513; any active weather alerts; nearby cities within a radius; and meteostat: Hourly Point Data.",
+  "scope": "",
+  "trajectoryType": "parallel",
+  "referenceSteps": 7,
+  "positiveOracle": "1. AI Weather by Meteosource: astro | optional: lat=35.1983, lon=-111.6513, timezone=America/Phoenix\n2. Forecast: RapidApiGetForecastHourlyByCoordinates | required: latitude=35.1983, longitude=-111.6513\n3. meteostat: Daily Point Data | required: lon=-111.6513, lat=35.1983, start=2022-08-07, end=2022-08-14 | optional: alt=2130\n4. Air Quality: Air Quality Forecast | required: lat=35.1983, lon=-111.6513\n5. National Weather Service: /alerts/active/region/{region} | required: region=SW\n6. RapidWeather: Cities in circle | required: lon=-111.6513, lat=35.1983 | optional: cnt=10, units=metric\n7. meteostat: Hourly Point Data | required: lon=-111.6513, lat=35.1983, end=2022-08-14, start=2022-08-07 | optional: tz=America/Phoenix, alt=2130",
+  "negativeOracle": "",
+  "referenceTrajectory": "AI Weather by Meteosource: astro ∥ Forecast: RapidApiGetForecastHourlyByCoordinates ∥ meteostat: Daily Point Data ∥ Air Quality: Air Quality Forecast ∥ National Weather Service: /alerts/active/region/{region} ∥ RapidWeather: Cities in circle ∥ meteostat: Hourly Point Data",
+  "sourceLocator": "public_data/parallel/Weather/simple_ver.json | item=144",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/parallel/Weather/simple_ver.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 18 clean candidates in Weather/parallel/7-tool stratum."
+}

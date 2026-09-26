@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:52:13 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Conventional polite request.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Conventional polite request.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Conventional polite request.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Conventional polite request.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Conventional polite request.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Conventional polite request.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Conventional polite request.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Conventional polite request.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Conventional polite request.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Conventional polite request.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The word 'Just' adds a nuance of impatience or simplicity, but does not change the core task.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Do it' adds an imperative tone, but does not change the core task.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'This time' implies a previous attempt or failure, adding context that changes the pragmatic intent.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'You need to' adds a strong imperative, but does not change the core task.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt shifts from a request to an inquiry about inability, changing the task from 'retrieve and summarize' to 'explain why not'.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.041303937757337414
+    }
+  ],
+  "create_time": "2026-09-08T10:52:09.767774Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "2eifap7uLtTJ1t8PpPbSqAs",
+  "usage_metadata": {
+    "candidates_token_count": 925,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 925
+      }
+    ],
+    "prompt_token_count": 651,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 651
+      }
+    ],
+    "total_token_count": 1576,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

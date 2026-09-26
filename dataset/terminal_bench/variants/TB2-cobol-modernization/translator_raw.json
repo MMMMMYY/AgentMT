@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:32:35 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"translations\": [\n    {\n      \"language\": \"zh\",\n      \"prompt\": \"你有一个位于 ⟦0⟧ 的 COBOL 程序。该程序从 ⟦1⟧ 读取输入数据，并修改位于 ⟦2⟧ 目录中的一个或多个 .DAT 文件。该 COBOL 程序设计为从 ⟦3⟧ 目录运行，并且应该使用 GnuCOBOL 3 进行编译和执行。\\n你的任务是用 Python 重新实现 program.cbl 的功能。你必须创建一个位于 ⟦4⟧ 的新 Python 脚本，该脚本执行与 COBOL 程序完全相同的操作。\\n具体来说，Python 脚本必须：\\n  - 从 ⟦5⟧ 读取输入\\n  - 应用相同的逻辑来修改 ⟦6⟧ 中的 .DAT 文件，就像 COBOL 程序所做的那样\\n  - 运行 ⟦7⟧ 生成的 .DAT 文件必须与使用 GnuCOBOL 运行 ⟦8⟧ 生成的文件完全相同（内容方面）\\n     \\n成功标准：\\n  - 在给定相同的 ⟦9⟧ 文件和 ⟦10⟧ 中 ACCOUNTS.DAT、BOOKS.DAT 和 TRANSACTIONS.DAT 文件的相同初始状态下，\\n    运行 ⟦11⟧ 后，⟦12⟧、⟦13⟧ 和 ⟦14⟧ 文件必须与使用 GnuCOBOL 运行 ⟦15⟧ 生成的文件完全相同（内容方面）\"\n    },\n    {\n      \"language\": \"ru\",\n      \"prompt\": \"Вам дана программа COBOL, расположенная по адресу ⟦0⟧. Эта программа считывает входные данные из ⟦1⟧ и изменяет один или несколько файлов .DAT, расположенных в каталоге ⟦2⟧. Программа COBOL предназначена для запуска из каталога ⟦3⟧ и должна быть скомпилирована и выполнена с использованием GnuCOBOL 3.\\nВаша задача — повторно реализовать функциональность program.cbl на Python. Вы должны создать новый скрипт Python, расположенный по адресу ⟦4⟧, который выполняет те же операции, что и программа COBOL.\\nВ частности, скрипт Python должен:\\n  - Считывать входные данные из ⟦5⟧\\n  - Применять ту же логику для изменения файлов .DAT в ⟦6⟧, что и программа COBOL\\n  - Файлы .DAT, созданные в результате запуска ⟦7⟧, должны быть идентичны (по содержимому) тем, которые были созданы в результате запуска ⟦8⟧ с использованием GnuCOBOL\\n     \\nКритерии успеха:\\n  - При наличии того же файла ⟦9⟧ и тех же начальных состояний файлов ACCOUNTS.DAT, BOOKS.DAT и TRANSACTIONS.DAT в ⟦10⟧,\\n    после запуска ⟦11⟧ файлы ⟦12⟧, ⟦13⟧ и ⟦14⟧ должны быть идентичны (по содержимому) тем, которые были созданы в результате запуска ⟦15⟧ с использованием GnuCOBOL\"\n    },\n    {\n      \"language\": \"fr\",\n      \"prompt\": \"Vous disposez d'un programme COBOL situé à ⟦0⟧. Ce programme lit les données d'entrée de ⟦1⟧ et modifie un ou plusieurs fichiers .DAT situés dans le répertoire ⟦2⟧. Le programme COBOL est conçu pour être exécuté à partir du répertoire ⟦3⟧ et doit être compilé et exécuté à l'aide de GnuCOBOL 3.\\nVotre tâche consiste à réimplémenter la fonctionnalité de program.cbl en Python. Vous devez créer un nouveau script Python situé à ⟦4⟧, qui effectue exactement les mêmes opérations que le programme COBOL.\\nPlus précisément, le script Python doit :\\n  - Lire les entrées de ⟦5⟧\\n  - Appliquer la même logique pour modifier les fichiers .DAT dans ⟦6⟧ que le programme COBOL\\n  - Les fichiers .DAT produits par l'exécution de ⟦7⟧ doivent être identiques (en termes de contenu) à ceux produits par l'exécution de ⟦8⟧ à l'aide de GnuCOBOL\\n     \\nCritères de succès :\\n  - Étant donné le même fichier ⟦9⟧ et les mêmes états initiaux des fichiers ACCOUNTS.DAT, BOOKS.DAT et TRANSACTIONS.DAT dans ⟦10⟧,\\n    après l'exécution de ⟦11⟧, les fichiers ⟦12⟧, ⟦13⟧ et ⟦14⟧ doivent être identiques (en termes de contenu) à ceux produits par l'exécution de ⟦15⟧ à l'aide de GnuCOBOL\"\n    },\n    {\n      \"language\": \"es\",\n      \"prompt\": \"Se le proporciona un programa COBOL ubicado en ⟦0⟧. Este programa lee datos de entrada de ⟦1⟧ y modifica uno o más archivos .DAT ubicados en el directorio ⟦2⟧. El programa COBOL está diseñado para ejecutarse desde el directorio ⟦3⟧ y debe compilarse y ejecutarse usando GnuCOBOL 3.\\nSu tarea es volver a implementar la funcionalidad de program.cbl en Python. Debe crear un nuevo script de Python ubicado en ⟦4⟧, que realice exactamente las mismas operaciones que el programa COBOL.\\nEspecíficamente, el script de Python debe:\\n  - Leer las entradas de ⟦5⟧\\n  - Aplicar la misma lógica para modificar los archivos .DAT en ⟦6⟧ como lo hace el programa COBOL\\n  - Los archivos .DAT producidos al ejecutar ⟦7⟧ deben ser idénticos (en cuanto al contenido) a los producidos al ejecutar ⟦8⟧ usando GnuCOBOL\\n     \\nCriterios de éxito:\\n  - Dado el mismo archivo ⟦9⟧ y los mismos estados iniciales de los archivos ACCOUNTS.DAT, BOOKS.DAT y TRANSACTIONS.DAT en ⟦10⟧,\\n    después de ejecutar ⟦11⟧, los archivos ⟦12⟧, ⟦13⟧ y ⟦14⟧ deben ser idénticos (en cuanto al contenido) a los producidos al ejecutar ⟦15⟧ usando GnuCOBOL\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.01709948791063219
+    }
+  ],
+  "create_time": "2026-09-23T08:32:28.741546Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "nI6zaqqhLbOK89kPy6bgoQk",
+  "usage_metadata": {
+    "candidates_token_count": 1385,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1385
+      }
+    ],
+    "prompt_token_count": 486,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 486
+      }
+    ],
+    "total_token_count": 1871,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

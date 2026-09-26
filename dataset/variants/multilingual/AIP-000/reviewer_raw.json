@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:15:39 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"language\": \"zh\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The translation accurately conveys the user's desire to lose weight and the request for an at-home full-body workout plan.\"\n    },\n    {\n      \"language\": \"ru\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The Russian translation correctly captures the intent and all details of the original request.\"\n    },\n    {\n      \"language\": \"fr\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The French translation is a faithful rendition of the source, maintaining all aspects of the request.\"\n    },\n    {\n      \"language\": \"es\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The Spanish translation accurately reflects the user's goal and the specific request for a workout plan.\"\n    },\n    {\n      \"language\": \"ar\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The Arabic translation correctly translates the desire to lose weight and the request for an at-home full-body workout plan.\"\n    },\n    {\n      \"language\": \"de\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The German translation is accurate and preserves all elements of the original request.\"\n    },\n    {\n      \"language\": \"pt\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The Portuguese translation correctly conveys the user's intention and the request for a specific workout plan.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.04082673087952629
+    }
+  ],
+  "create_time": "2026-09-13T22:15:36.707693Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "iCCnau2YK_a6ld8P5NXBoA0",
+  "usage_metadata": {
+    "candidates_token_count": 630,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 630
+      }
+    ],
+    "prompt_token_count": 449,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 449
+      }
+    ],
+    "total_token_count": 1079,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

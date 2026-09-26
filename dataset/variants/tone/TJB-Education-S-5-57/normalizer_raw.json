@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:45:41 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"I need to research the Indonesian education system for my comparative study. I'm particularly interested in finding the public school with the highest student enrollment from that list for my DEI research. I need to see the people associated with that school.\",\n  \"task\": \"first show me the number of schools in the Indonesian province with code '020000', then identify the district with the highest total number of schools from that province, after that show me the schools in sub-district '056010' within that district, and finally find English-language educational talks that are at least 5 minutes long that were recorded after January 1, 2017 to supplement my research\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.007928638489215404
+    }
+  ],
+  "create_time": "2026-09-08T10:45:40.136185Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "VOefavmnCO7wi-8PspqOyAs",
+  "usage_metadata": {
+    "candidates_token_count": 154,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 154
+      }
+    ],
+    "prompt_token_count": 337,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 337
+      }
+    ],
+    "total_token_count": 491,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

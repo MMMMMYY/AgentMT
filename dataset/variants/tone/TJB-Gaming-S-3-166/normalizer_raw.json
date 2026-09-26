@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:46:13 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"I'm looking for a free-to-play shooter game on PC.\",\n  \"task\": \"first filter PC games with the shooter tag, then search for the most common shooter genre games in the results, and finally show me the best deals for Shapeshooter since it seems to be the closest match to what I'm looking for\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.009818753864191756
+    }
+  ],
+  "create_time": "2026-09-08T10:46:12.817528Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "dOefavjyMdmjlb4P9rzUwQo",
+  "usage_metadata": {
+    "candidates_token_count": 79,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 79
+      }
+    ],
+    "prompt_token_count": 258,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 258
+      }
+    ],
+    "total_token_count": 337,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

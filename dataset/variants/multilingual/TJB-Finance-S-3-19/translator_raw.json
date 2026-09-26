@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:18:29 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"我对市场趋势感兴趣。你能从列表中的第15位开始，向我展示交易最活跃的股票吗？之后，我想看专门针对华纳兄弟探索公司的最新消息，然后分析WBD新闻的情绪，以了解市场看法。\"}, {\"language\": \"ru\", \"prompt\": \"Меня интересуют рыночные тенденции. Не могли бы вы показать мне самые активно торгуемые акции, начиная с 15-й позиции в списке? После этого я хотел бы увидеть последние новости специально для Warner Bros. Discovery, а затем проанализировать настроения этих новостей для WBD, чтобы понять рыночное восприятие.\"}, {\"language\": \"fr\", \"prompt\": \"Je suis intéressé par les tendances du marché. Pourriez-vous me montrer les actions les plus activement négociées à partir de la 15ème position dans la liste ? Après cela, j'aimerais voir les dernières nouvelles spécifiquement pour Warner Bros. Discovery, puis analyser le sentiment de ces nouvelles pour WBD afin de comprendre la perception du marché.\"}, {\"language\": \"es\", \"prompt\": \"Estoy interesado en las tendencias del mercado. ¿Podrías mostrarme las acciones más activamente negociadas a partir de la 15ª posición en la lista? Después de eso, me gustaría ver las últimas noticias específicamente para Warner Bros. Discovery, y luego analizar el sentimiento de esas noticias para WBD para entender la percepción del mercado.\"}, {\"language\": \"ar\", \"prompt\": \"أنا مهتم باتجاهات السوق. هل يمكنك أن تريني الأسهم الأكثر تداولاً بدءًا من المركز الخامس عشر في القائمة؟ بعد ذلك، أود رؤية آخر الأخبار الخاصة بشركة Warner Bros. Discovery، ثم تحليل مشاعر تلك الأخبار لـ WBD لفهم تصور السوق.\"}, {\"language\": \"de\", \"prompt\": \"Ich interessiere mich für Markttrends. Könnten Sie mir die meistgehandelten Aktien ab der 15. Position in der Liste zeigen? Danach möchte ich die neuesten Nachrichten speziell für Warner Bros. Discovery sehen und anschließend die Stimmung dieser Nachrichten für WBD analysieren, um die Marktwahrnehmung zu verstehen.\"}, {\"language\": \"pt\", \"prompt\": \"Estou interessado nas tendências do mercado. Você poderia me mostrar as ações mais ativamente negociadas a partir da 15ª posição na lista? Depois disso, gostaria de ver as últimas notícias especificamente para a Warner Bros. Discovery, e então analisar o sentimento dessas notícias para a WBD para entender a percepção do mercado.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.034633618846618315
+    }
+  ],
+  "create_time": "2026-09-13T22:18:25.961240Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "MSGnatjVOu-gi-8P-ui0wAg",
+  "usage_metadata": {
+    "candidates_token_count": 541,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 541
+      }
+    ],
+    "prompt_token_count": 359,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 359
+      }
+    ],
+    "total_token_count": 900,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,419 @@
+{
+  "task_id": "ACB-seed_manager_summary_todo_001",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "I have to step out for a couple of hours for an appointment.\n\nCould you send a quick update to my manager on OpenMessenger summarizing the work tasks I still have left on my plate for today so she knows what to expect?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the imperative 'Send' as 'Could you send', which changes the request to an ability/explanation question rather than a direct command. This implies a previous conversation or a need for the system to confirm its capability."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p02",
+      "prompt": "I have to step out for a couple of hours for an appointment.\n\nIs it possible to send a quick update to my manager on OpenMessenger summarizing the work tasks I still have left on my plate for today so she knows what to expect?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the imperative 'Send' as 'Is it possible to send', which changes the request to an ability/explanation question rather than a direct command. This implies a previous conversation or a need for the system to confirm its capability."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p03",
+      "prompt": "I have to step out for a couple of hours for an appointment.\n\nCan you please send a quick update to my manager on OpenMessenger summarizing the work tasks I still have left on my plate for today so she knows what to expect?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the imperative 'Send' as 'Can you please send', which changes the request to an ability/explanation question rather than a direct command. This implies a previous conversation or a need for the system to confirm its capability."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p04",
+      "prompt": "I have to step out for a couple of hours for an appointment.\n\nPlease help me send a quick update to my manager on OpenMessenger summarizing the work tasks I still have left on my plate for today so she knows what to expect.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The task changes from 'send' to 'help me send'."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the imperative 'Send' as 'Please help me send', which changes the request to an ability/explanation question rather than a direct command. This implies a previous conversation or a need for the system to confirm its capability."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p05",
+      "prompt": "I have to step out for a couple of hours for an appointment.\n\nSend a quick update to my manager on OpenMessenger summarizing the work tasks I still have left on my plate for today so she knows what to expect, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt retains the imperative 'Send' and adds 'please', which softens the tone but does not change the nature of the request as a direct command."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n01",
+      "prompt": "I have to step out for a couple of hours for an appointment.\n\nCan you send a quick update to my manager on OpenMessenger summarizing the work tasks I still have left on my plate for today so she knows what to expect?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the imperative 'Send' as 'Can you send', which changes the request to an ability/explanation question rather than a direct command. This implies a previous conversation or a need for the system to confirm its capability."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n02",
+      "prompt": "I have to step out for a couple of hours for an appointment.\n\nAre you able to send a quick update to my manager on OpenMessenger summarizing the work tasks I still have left on my plate for today so she knows what to expect?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the imperative 'Send' as 'Are you able to send', which changes the request to an ability/explanation question rather than a direct command. This implies a previous conversation or a need for the system to confirm its capability."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n03",
+      "prompt": "I have to step out for a couple of hours for an appointment.\n\nCan you help me send a quick update to my manager on OpenMessenger summarizing the work tasks I still have left on my plate for today so she knows what to expect?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The task changes from 'send' to 'help me send'."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the imperative 'Send' as 'Can you help me send', which changes the request to an ability/explanation question rather than a direct command. This implies a previous conversation or a need for the system to confirm its capability."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n04",
+      "prompt": "I have to step out for a couple of hours for an appointment.\n\nPlease send a quick update to my manager on OpenMessenger summarizing the work tasks I still have left on my plate for today so she knows what to expect.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt retains the imperative 'Send' and adds 'Please', which softens the tone but does not change the nature of the request as a direct command."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n05",
+      "prompt": "I have to step out for a couple of hours for an appointment.\n\nSend a quick update to my manager on OpenMessenger summarizing the work tasks I still have left on my plate for today so she knows what to expect.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Direct imperative request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt is an exact match to the original source's core request, maintaining the imperative 'Send'."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i01",
+      "prompt": "I have to step out for a couple of hours for an appointment.\n\nJust send a quick update to my manager on OpenMessenger summarizing the work tasks I still have left on my plate for today so she knows what to expect.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The word 'Just' adds a nuance of dismissiveness or simplicity, but does not change the core task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt retains the imperative 'Send' with the addition of 'Just', which emphasizes the directness of the command without altering the core request."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i02",
+      "prompt": "I have to step out for a couple of hours for an appointment.\n\nSend a quick update to my manager on OpenMessenger summarizing the work tasks I still have left on my plate for today so she knows what to expect. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The addition of 'Do it' adds a demanding tone but does not change the core task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt retains the imperative 'Send' and adds 'Do it', which reinforces the direct command without changing the core request."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i03",
+      "prompt": "I have to step out for a couple of hours for an appointment.\n\nThis time, send a quick update to my manager on OpenMessenger summarizing the work tasks I still have left on my plate for today so she knows what to expect.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'This time' implies a previous attempt or failure, which is a change in context."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt retains the imperative 'Send' with the addition of 'This time', which implies a previous interaction but does not change the current request as a direct command."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i04",
+      "prompt": "I have to step out for a couple of hours for an appointment.\n\nYou need to send a quick update to my manager on OpenMessenger summarizing the work tasks I still have left on my plate for today so she knows what to expect.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'You need to' adds a demanding tone but does not change the core task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the imperative 'Send' as 'You need to send', which changes the request to an explanation of necessity rather than a direct command. This implies a previous conversation or a justification for the action."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i05",
+      "prompt": "I have to step out for a couple of hours for an appointment.\n\nWhy can't you send a quick update to my manager on OpenMessenger summarizing the work tasks I still have left on my plate for today so she knows what to expect?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request changes from asking the agent to perform an action to asking for an explanation of why it cannot perform the action."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i05",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the imperative 'Send' as 'Why can't you send', which changes the request to an ability/explanation question rather than a direct command. This implies a previous conversation or a need for the system to justify its inability."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "ca518cc909e01b34f7f5d5e7ddc89a6df1b26c90a11149e5b17068a0aae451a5",
+  "scenario_id": "seed_manager_summary_todo_001",
+  "review_protocol": "pragmatic_equivalence_v2",
+  "review_protocol_sha256": "2b387114723187ae3bda767678be617a87a62328697ff6ef3dbd19908bae80f2",
+  "deterministic_literal_audit": "v1"
+}

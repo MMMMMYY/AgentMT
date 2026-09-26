@@ -1,0 +1,112 @@
+{
+  "task_id": "AIP-040",
+  "status": "preparation_error",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "Could you check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "p02",
+      "prompt": "Is it possible to check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "p03",
+      "prompt": "Can you please check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "p04",
+      "prompt": "Please help me check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "p05",
+      "prompt": "Check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "n01",
+      "prompt": "Can you check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "n02",
+      "prompt": "Are you able to check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "n03",
+      "prompt": "Can you help me check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "n04",
+      "prompt": "Please check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "n05",
+      "prompt": "Check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "i01",
+      "prompt": "Just check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb"
+    },
+    {
+      "id": "i02",
+      "prompt": "Check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it"
+    },
+    {
+      "id": "i03",
+      "prompt": "This time, check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": ""
+    },
+    {
+      "id": "i04",
+      "prompt": "You need to check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "i05",
+      "prompt": "Why can't you check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": ""
+    }
+  ],
+  "error_type": "JSONDecodeError"
+}

@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:43:50 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original request is a direct command to 'Send a message'. The transformed request 'Could you send a message' is an ability question, not a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original request is a direct command to 'Send a message'. The transformed request 'Is it possible to send a message' is an ability question, not a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original request is a direct command to 'Send a message'. The transformed request 'Can you please send a message' is an ability question, not a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original request is a direct command to 'Send a message'. The transformed request 'Please help me send a message' implies a request for assistance in sending, rather than a direct command to send.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request 'Send a message... please' is a direct command with added politeness, maintaining the original intent.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original request is a direct command to 'Send a message'. The transformed request 'Can you send a message' is an ability question, not a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original request is a direct command to 'Send a message'. The transformed request 'Are you able to send a message' is an ability question, not a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original request is a direct command to 'Send a message'. The transformed request 'Can you help me send a message' implies a request for assistance in sending, rather than a direct command to send.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request 'Please send a message' is a direct command with added politeness, maintaining the original intent.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request 'Send a message' is a direct command, identical in task to the original.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request 'Just send a message' is a direct command, maintaining the original intent.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request 'Send a message... Do it.' is a direct command, reinforcing the original intent.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request 'This time, send a message' is a direct command, maintaining the original intent. 'This time' implies a previous attempt or conversation, but the core task remains a direct command.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original request is a direct command to 'Send a message'. The transformed request 'You need to send a message' is an explanation of a requirement, not a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original request is a direct command to 'Send a message'. The transformed request 'Why can't you send a message' is a question about ability or explanation, not a direct request to execute the task.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-08T10:43:45.222520Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "4eafarjKDequ1t8PkoWYoA4",
+  "usage_metadata": {
+    "candidates_token_count": 1279,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1279
+      }
+    ],
+    "prompt_token_count": 1320,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1320
+      }
+    ],
+    "total_token_count": 2599,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

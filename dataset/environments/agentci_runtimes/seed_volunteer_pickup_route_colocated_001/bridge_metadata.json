@@ -1,0 +1,15 @@
+{
+  "run_name": "seed_volunteer_pickup_route_colocated_001",
+  "scenario_id": "seed_volunteer_pickup_route_colocated_001",
+  "supported_apps": [
+    "open_todo",
+    "open_messenger",
+    "open_calendar",
+    "open_maps",
+    "open_shop",
+    "open_code_editor"
+  ],
+  "warnings": [
+    "Mapped open_maps.recent_searches to maps.saved_places for OpenApps compatibility."
+  ]
+}

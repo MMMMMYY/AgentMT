@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:41:51 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"\",\n  \"task\": \"check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby.\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -5.173379898071289
+    }
+  ],
+  "create_time": "2026-09-08T10:41:45.470667Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "aeafaovdHOXsi-8PrP-WsAI",
+  "usage_metadata": {
+    "candidates_token_count": 32,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 32
+      }
+    ],
+    "prompt_token_count": 209,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 209
+      }
+    ],
+    "thoughts_token_count": 1085,
+    "total_token_count": 1326,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

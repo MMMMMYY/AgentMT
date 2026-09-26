@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:10 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"根据我的购物历史，下周我将用完哪些杂货？\"}, {\"language\": \"ru\", \"prompt\": \"Исходя из моей истории покупок, какие продукты у меня закончатся к следующей неделе?\"}, {\"language\": \"fr\", \"prompt\": \"D'après mon historique d'achats, quels produits d'épicerie me manqueront d'ici la semaine prochaine ?\"}, {\"language\": \"es\", \"prompt\": \"Según mi historial de compras, ¿qué comestibles se me acabarán la próxima semana?\"}, {\"language\": \"ar\", \"prompt\": \"بناءً على سجل تسوقي، ما هي البقالة التي ستنفد مني بحلول الأسبوع القادم؟\"}, {\"language\": \"de\", \"prompt\": \"Basierend auf meiner Einkaufshistorie, welche Lebensmittel werden mir bis nächste Woche ausgehen?\"}, {\"language\": \"pt\", \"prompt\": \"Com base no meu histórico de compras, quais mantimentos me faltarão até a próxima semana?\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.035168673084900445
+    }
+  ],
+  "create_time": "2026-09-13T22:16:09.438831Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "qSCnaq_kGry-m9IP--X-8AU",
+  "usage_metadata": {
+    "candidates_token_count": 226,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 226
+      }
+    ],
+    "prompt_token_count": 312,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 312
+      }
+    ],
+    "total_token_count": 538,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

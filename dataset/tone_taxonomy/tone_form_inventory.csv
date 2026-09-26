@@ -1,0 +1,24 @@
+tone,subcategory,surface_form,wildchat_position,wildchat_count,stanford_basis
+polite,modal_request,Can you {TASK}?,prompt_start,19119,direct pattern evidence
+polite,modal_request,Could you {TASK}?,prompt_start,2716,direct pattern evidence
+polite,modal_request,Would you {TASK}?,prompt_start,290,direct pattern evidence
+polite,modal_request,Are you able to {TASK}?,prompt_start,117,direct pattern evidence
+polite,mitigated_request,Is it possible to {TASK}?,prompt_start,524,direct pattern evidence
+polite,mitigated_request,Would you mind {TASK}?,prompt_start,13,direct pattern evidence
+polite,mitigated_request,Do you mind {TASK}?,sentence_start,21,direct pattern evidence
+polite,explicit_polite_modal,Can you please {TASK}?,prompt_start,827,direct pattern evidence
+polite,explicit_polite_modal,Could you please {TASK}?,prompt_start,315,direct pattern evidence
+polite,modal_help_seeking,Can you help me {TASK}?,prompt_start,717,inherits Stanford-supported modal strategy
+polite,modal_help_seeking,Could you help me {TASK}?,prompt_start,88,inherits Stanford-supported modal strategy
+polite,modal_help_seeking,Can you please help me {TASK}?,prompt_start,36,inherits Stanford-supported polite-modal strategy
+polite,modal_help_seeking,Could you please help me {TASK}?,prompt_start,24,inherits Stanford-supported polite-modal strategy
+polite,polite_suffix,"{TASK}, please.",prompt_end,2462,direct pattern evidence
+polite,polite_suffix,"{TASK}, thank you.",prompt_end,773,Stanford gratitude strategy
+polite,polite_suffix,"{TASK}, thanks.",prompt_end,590,Stanford gratitude strategy
+neutral,please_imperative,Please {TASK}.,prompt_start,17426,direct pattern evidence
+neutral,please_imperative,Please help me {TASK}.,prompt_start,376,inherits please-imperative pattern
+neutral,formal_polite_modal,Would you please {TASK}?,prompt_start,53,direct pattern evidence
+neutral,formal_polite_modal,"Please, can you {TASK}?",prompt_start,176,direct pattern evidence
+neutral,formal_polite_modal,"Please, could you {TASK}?",prompt_start,22,sibling pattern evidence; requires validation
+impolite,direct_imperative,{TASK}.,,,direct Stanford family evidence
+impolite,challenging_request,Why can't you {TASK}?,prompt_start,9,direct pattern evidence

@@ -1,0 +1,16 @@
+{
+  "task_id": "TJB-eCommerce-P-7-101",
+  "scenario_id": null,
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "io01",
+      "prompt": "Please fetch product info, and search Wayfair for 'furniture categories', and fetch product info, and fetch product info, and fetch product info, and list Asos categories country US, lang en-US, and search Zappos for 'home furniture' sort best_seller page 1. I'm comparing retailers and want a clear snapshot.",
+      "transformation": "sentence_permutation",
+      "sentence_multiset_preserved": true,
+      "information_order_changed": true,
+      "eligible_pilot": true,
+      "validation_basis": "deterministic span preservation and dependency exclusion rules"
+    }
+  ]
+}

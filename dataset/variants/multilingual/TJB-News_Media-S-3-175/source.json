@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-News_Media-S-3-175",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "News_Media",
+  "taskType": "Trending Tech Topic Exploration",
+  "prompt": "I need to find trending developer articles right now. After getting the latest articles, show me the top 10 latest stories about GraphQL since it seems to be appearing in multiple article titles. Then search for English language news coverage about GraphQL to see what mainstream media is saying about this technology.",
+  "scope": "dev-to-api, Medium, News Network",
+  "trajectoryType": "sequential",
+  "referenceSteps": 3,
+  "positiveOracle": "1. dev-to-api: Get all the latest articles\n2. Medium: /stories/{topic} | required: topic=graphql | optional: limit=10, filter=latest\n3. News Network: Search News | required: keyword=GraphQL, language=en",
+  "negativeOracle": "",
+  "referenceTrajectory": "dev-to-api: Get all the latest articles → Medium: /stories/{topic} → News Network: Search News",
+  "sourceLocator": "public_data/sequential/News_Media/traj_query.json | item=175",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/sequential/News_Media/traj_query.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 7 clean candidates in News_Media/sequential/3-tool stratum."
+}

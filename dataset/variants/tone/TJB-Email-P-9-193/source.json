@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Email-P-9-193",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Email",
+  "taskType": "parallel tool orchestration",
+  "prompt": "Deliverability close‑out—execute the listed items as written. Check marketing@dailydeals.com and flag if it’s disposable or problematic. Determine whether newsletter@quickoffers.net is a temporary/throwaway address. Verify updates@flashsales.org for validity and deliverability. Check if dailydeals.com is a disposable domain and suggest a better alternative. Check whether quickoffers.net is available or already taken. Check whether the address is a role/team inbox (support/sales). Confirm mail server accept‑mail status for marketing@dailydeals.com. Extract public contact emails from https://www.mycompany.org/contact. Run the corresponding check for Email API.",
+  "scope": "",
+  "trajectoryType": "parallel",
+  "referenceSteps": 9,
+  "positiveOracle": "1. Alpha Email Verification: Email Checker | required: email=marketing@dailydeals.com\n2. Email Existence Validator: Check for Disposable emails | required: email=newsletter@quickoffers.net\n3. Email Validation_v3: Validate_Email | required: email=updates@flashsales.org\n4. fast Email verifier: disposable Domain and Suggest Domain | required: domain=dailydeals.com\n5. fast Email verifier: FreeDomain | required: domain=quickoffers.net\n6. fast Email verifier: Role Account | required: domain=flashsales.org\n7. Email Existence Validator: Get the MX Records | required: email=marketing@dailydeals.com\n8. Get emails from url: Get emails | required: url=https://www.mycompany.org/contact\n9. Email API: Get Fake Email Address",
+  "negativeOracle": "",
+  "referenceTrajectory": "Alpha Email Verification: Email Checker ∥ Email Existence Validator: Check for Disposable emails ∥ Email Validation_v3: Validate_Email ∥ fast Email verifier: disposable Domain and Suggest Domain ∥ fast Email verifier: FreeDomain ∥ fast Email verifier: Role Account ∥ Email Existence Validator: Get the MX Records ∥ Get emails from url: Get emails ∥ Email API: Get Fake Email Address",
+  "sourceLocator": "public_data/parallel/Email/simple_ver.json | item=193",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/parallel/Email/simple_ver.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 25 clean candidates in Email/parallel/9-tool stratum."
+}

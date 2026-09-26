@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:47:06 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"I'm planning a trip and want to explore some unique places. I heard the Netherlands Antilles has a distinctive geographical status. I think Amsterdam's Schiphol Airport (AMS) would be ideal. I'm interested in KL861 since I want to travel to the easternmost destination possible.\",\n  \"task\": \"first show me a list of countries to browse through, then after finding information about the Netherlands Antilles, see the highest ranked airport in that region, then check flights departing from Schiphol (EHAM) on September 1, 2025, around noon, then from those flights, find KL861, then once I know where that flight lands, give me information about the arrival airport, and finally search for hotels in Mumbai to stay during my trip\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.03269315730629629
+    }
+  ],
+  "create_time": "2026-09-08T10:47:05.953958Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "qeefauacOuSBlb4PhKDE2Qo",
+  "usage_metadata": {
+    "candidates_token_count": 173,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 173
+      }
+    ],
+    "prompt_token_count": 364,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 364
+      }
+    ],
+    "total_token_count": 537,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

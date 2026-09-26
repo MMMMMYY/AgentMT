@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:46:51 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"\",\n  \"task\": \"grab this week's top posts on dev.to, latest IEEE Spectrum tech stories, the latest business headlines from BizToc, movie news about 'latest releases' (limit 20), COVID-19 coverage in FR, notable people related to 'republican voice', latest from Aljazeera (Arabic), latest police and crime reports from Germany, latest IPL headlines, and narco-related news from Mexico before the meeting\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.016819636409099285
+    }
+  ],
+  "create_time": "2026-09-08T10:46:50.173556Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "muefavTLCuSBlb4PhKDE2Qo",
+  "usage_metadata": {
+    "candidates_token_count": 104,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 104
+      }
+    ],
+    "prompt_token_count": 314,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 314
+      }
+    ],
+    "total_token_count": 418,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

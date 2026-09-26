@@ -1,0 +1,343 @@
+{
+  "task_id": "ACB-seed_brunch_event_description_001",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "Could you create a calendar event for brunch with Claire and fill in a short event description?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Could you create...', which is an ability question, not a direct command to execute. This changes the authorization from a direct request to an inquiry about capability."
+      }
+    },
+    {
+      "id": "p02",
+      "prompt": "Is it possible to create a calendar event for brunch with Claire and fill in a short event description?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Is it possible to create...', which is an ability question, not a direct command to execute. This changes the authorization from a direct request to an inquiry about capability."
+      }
+    },
+    {
+      "id": "p03",
+      "prompt": "Can you please create a calendar event for brunch with Claire and fill in a short event description?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Can you please create...', which is an ability question, not a direct command to execute. This changes the authorization from a direct request to an inquiry about capability."
+      }
+    },
+    {
+      "id": "p04",
+      "prompt": "Please help me create a calendar event for brunch with Claire and fill in a short event description.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Please help me create...' is a polite request that still conveys the intent for the action to be performed."
+      }
+    },
+    {
+      "id": "p05",
+      "prompt": "Create a calendar event for brunch with Claire and fill in a short event description, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Create a calendar event... please.' is a polite request that still conveys the intent for the action to be performed."
+      }
+    },
+    {
+      "id": "n01",
+      "prompt": "Can you create a calendar event for brunch with Claire and fill in a short event description?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Can you create...', which is an ability question, not a direct command to execute. This changes the authorization from a direct request to an inquiry about capability."
+      }
+    },
+    {
+      "id": "n02",
+      "prompt": "Are you able to create a calendar event for brunch with Claire and fill in a short event description?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Are you able to create...', which is an ability question, not a direct command to execute. This changes the authorization from a direct request to an inquiry about capability."
+      }
+    },
+    {
+      "id": "n03",
+      "prompt": "Can you help me create a calendar event for brunch with Claire and fill in a short event description?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Can you help me create...' is a neutral request that still conveys the intent for the action to be performed."
+      }
+    },
+    {
+      "id": "n04",
+      "prompt": "Please create a calendar event for brunch with Claire and fill in a short event description.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Please create...' is a direct request for the action to be performed."
+      }
+    },
+    {
+      "id": "n05",
+      "prompt": "Create a calendar event for brunch with Claire and fill in a short event description.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Create a calendar event...' is a direct command for the action to be performed."
+      }
+    },
+    {
+      "id": "i01",
+      "prompt": "Just create a calendar event for brunch with Claire and fill in a short event description.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Adds an adverb that doesn't change the core request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Just create a calendar event...' is a direct command for the action to be performed, with an impolite modifier."
+      }
+    },
+    {
+      "id": "i02",
+      "prompt": "Create a calendar event for brunch with Claire and fill in a short event description. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Adds an imperative that doesn't change the core request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Create a calendar event... Do it.' is a direct command for the action to be performed, with an impolite reinforcement."
+      }
+    },
+    {
+      "id": "i03",
+      "prompt": "This time, create a calendar event for brunch with Claire and fill in a short event description.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "This time indicates a previous attempt but the task remains the same."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'This time, create a calendar event...' is a direct command for the action to be performed, with an impolite implication of previous failure or reluctance."
+      }
+    },
+    {
+      "id": "i04",
+      "prompt": "You need to create a calendar event for brunch with Claire and fill in a short event description.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Changes tone to demanding but the task remains the same."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt 'You need to create...' states a requirement rather than directly requesting or authorizing the action. It implies a previous conversation or a directive, changing the nature of the authorization."
+      }
+    },
+    {
+      "id": "i05",
+      "prompt": "Why can't you create a calendar event for brunch with Claire and fill in a short event description?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Why cannot shifts the task from requesting an action to asking for an explanation."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i05",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Why can't you create...' is a rhetorical question about ability, not a direct command to execute. This changes the authorization from a direct request to an inquiry about capability, with an impolite tone."
+      }
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "3dfcfc593148558753c81bbd999e8432f631892b2e282783a5ce336aaad65b69",
+  "scenario_id": "seed_brunch_event_description_001",
+  "review_protocol": "pragmatic_equivalence_v2",
+  "review_protocol_sha256": "2b387114723187ae3bda767678be617a87a62328697ff6ef3dbd19908bae80f2"
+}

@@ -1,0 +1,16 @@
+{
+  "task_id": "TJB-Email-P-7-181",
+  "scenario_id": null,
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "io01",
+      "prompt": "Running a list cleanup—complete the checks below. Verify updates@dailydeals.net for validity and deliverability. Determine whether info@techblog.org is a temporary/throwaway address. Check whether the address is a role/team inbox (support/sales). Check whether onlineshopping.com is available or already taken. Verify news@mediacompany.org for validity and deliverability. Verify contact@businessupdates.com for validity and deliverability. Check marketing@newsletter.com and flag if it’s disposable or problematic.",
+      "transformation": "sentence_permutation",
+      "sentence_multiset_preserved": true,
+      "information_order_changed": true,
+      "eligible_pilot": true,
+      "validation_basis": "deterministic span preservation and dependency exclusion rules"
+    }
+  ]
+}

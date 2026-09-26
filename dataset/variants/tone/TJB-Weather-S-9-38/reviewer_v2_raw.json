@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:54:26 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Conventional polite request form.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Conventional polite request form.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Conventional polite request form.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Conventional polite request form.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Conventional polite request form.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Conventional polite request form.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Conventional polite request form.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Conventional polite request form.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Conventional polite request form.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Conventional imperative request.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The word 'Just' does not change the task or its constraints.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Do it' is an imperative that does not change the task or its constraints.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'This time' indicates a previous attempt but does not change the current task or its constraints.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'You need to' is an imperative that does not change the task or its constraints.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Why can't you' shifts the request from performing the task to asking for an explanation of inability, thus changing the pragmatic task.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.034143716545515165
+    }
+  ],
+  "create_time": "2026-09-08T10:54:21.554975Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "Xemfat_vIbHN28sP1-nsiAk",
+  "usage_metadata": {
+    "candidates_token_count": 930,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 930
+      }
+    ],
+    "prompt_token_count": 3555,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 3555
+      }
+    ],
+    "total_token_count": 4485,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

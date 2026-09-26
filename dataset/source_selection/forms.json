@@ -1,0 +1,107 @@
+[
+  {
+    "id": "p01",
+    "tone": "polite",
+    "template": "Could you {TASK}?",
+    "status": "requires_task_level_equivalence_review",
+    "note": "Provisional study tone label; not a Stanford corpus gold label."
+  },
+  {
+    "id": "p02",
+    "tone": "polite",
+    "template": "Is it possible to {TASK}?",
+    "status": "requires_task_level_equivalence_review",
+    "note": "Provisional study tone label; not a Stanford corpus gold label."
+  },
+  {
+    "id": "p03",
+    "tone": "polite",
+    "template": "Can you please {TASK}?",
+    "status": "requires_task_level_equivalence_review",
+    "note": "Provisional study tone label; not a Stanford corpus gold label."
+  },
+  {
+    "id": "p04",
+    "tone": "polite",
+    "template": "Please help me {TASK}.",
+    "status": "requires_task_level_equivalence_review",
+    "note": "Provisional study tone label; not a Stanford corpus gold label."
+  },
+  {
+    "id": "p05",
+    "tone": "polite",
+    "template": "{TASK}, please.",
+    "status": "requires_task_level_equivalence_review",
+    "note": "Provisional study tone label; not a Stanford corpus gold label."
+  },
+  {
+    "id": "n01",
+    "tone": "neutral",
+    "template": "Can you {TASK}?",
+    "status": "requires_task_level_equivalence_review",
+    "note": "Provisional study tone label; not a Stanford corpus gold label."
+  },
+  {
+    "id": "n02",
+    "tone": "neutral",
+    "template": "Are you able to {TASK}?",
+    "status": "requires_task_level_equivalence_review",
+    "note": "Provisional study tone label; not a Stanford corpus gold label."
+  },
+  {
+    "id": "n03",
+    "tone": "neutral",
+    "template": "Can you help me {TASK}?",
+    "status": "requires_task_level_equivalence_review",
+    "note": "Provisional study tone label; not a Stanford corpus gold label."
+  },
+  {
+    "id": "n04",
+    "tone": "neutral",
+    "template": "Please {TASK}.",
+    "status": "requires_task_level_equivalence_review",
+    "note": "Provisional study tone label; not a Stanford corpus gold label."
+  },
+  {
+    "id": "n05",
+    "tone": "neutral",
+    "template": "{TASK}.",
+    "status": "requires_task_level_equivalence_review",
+    "note": "Provisional study tone label; not a Stanford corpus gold label."
+  },
+  {
+    "id": "i01",
+    "tone": "impolite",
+    "template": "Just do {TASK}.",
+    "status": "requires_task_level_equivalence_review",
+    "note": "Requires grammatical realization; never blindly prepend Just do to a task verb."
+  },
+  {
+    "id": "i02",
+    "tone": "impolite",
+    "template": "Do it.",
+    "status": "requires_task_level_equivalence_review",
+    "note": "Must retain the complete task before Do it; standalone replacement is invalid."
+  },
+  {
+    "id": "i03",
+    "tone": "impolite",
+    "template": "This time, {TASK}.",
+    "status": "requires_task_level_equivalence_review",
+    "note": "Implies a previous attempt; review single-turn context equivalence."
+  },
+  {
+    "id": "i04",
+    "tone": "impolite",
+    "template": "You need to {TASK}.",
+    "status": "requires_task_level_equivalence_review",
+    "note": "Provisional study tone label; not a Stanford corpus gold label."
+  },
+  {
+    "id": "i05",
+    "tone": "impolite",
+    "template": "Why can't you {TASK}?",
+    "status": "requires_task_level_equivalence_review",
+    "note": "May elicit an explanation instead of execution; review task equivalence."
+  }
+]

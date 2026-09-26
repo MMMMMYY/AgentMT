@@ -1,0 +1,343 @@
+{
+  "task_id": "AIP-048",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "Could you book an electric car near the airport in Berlin for my trip from May 2nd to May 5th and add it to my calendar?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains the same request and information as the source, only changing 'Can you' to 'Could you' which is a polite variation of the same request."
+      }
+    },
+    {
+      "id": "p02",
+      "prompt": "Is it possible to book an electric car near the airport in Berlin for my trip from May 2nd to May 5th and add it to my calendar?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Is it possible to book...' changes the request from a direct action to an inquiry about capability, implying a previous conversation or a question about the system's abilities rather than a direct request to execute the task."
+      }
+    },
+    {
+      "id": "p03",
+      "prompt": "Can you please book an electric car near the airport in Berlin for my trip from May 2nd to May 5th and add it to my calendar?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Adding 'please' is a politeness marker and does not alter the core request or the information provided."
+      }
+    },
+    {
+      "id": "p04",
+      "prompt": "Please help me book an electric car near the airport in Berlin for my trip from May 2nd to May 5th and add it to my calendar.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p04",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Please help me book...' implies a collaborative action or assistance rather than a direct execution of the booking by the system. It shifts the nature of the request."
+      }
+    },
+    {
+      "id": "p05",
+      "prompt": "Book an electric car near the airport in Berlin for my trip from May 2nd to May 5th and add it to my calendar, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt is an imperative with 'please' at the end, which is a polite way of making the same request as the source."
+      }
+    },
+    {
+      "id": "n01",
+      "prompt": "Can you book an electric car near the airport in Berlin for my trip from May 2nd to May 5th and add it to my calendar?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Identical to source, which is a conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "This prompt is identical to the source, so all aspects are equivalent."
+      }
+    },
+    {
+      "id": "n02",
+      "prompt": "Are you able to book an electric car near the airport in Berlin for my trip from May 2nd to May 5th and add it to my calendar?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Are you able to book...' questions the system's capability rather than directly requesting the action, similar to p02. It implies an ability/explanation question."
+      }
+    },
+    {
+      "id": "n03",
+      "prompt": "Can you help me book an electric car near the airport in Berlin for my trip from May 2nd to May 5th and add it to my calendar?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Can you help me book...' implies assistance rather than direct execution, similar to p04."
+      }
+    },
+    {
+      "id": "n04",
+      "prompt": "Please book an electric car near the airport in Berlin for my trip from May 2nd to May 5th and add it to my calendar.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Please book...' is a direct and polite imperative, fully equivalent to the source's request for action."
+      }
+    },
+    {
+      "id": "n05",
+      "prompt": "Book an electric car near the airport in Berlin for my trip from May 2nd to May 5th and add it to my calendar.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt is a direct imperative, fully equivalent to the source's request for action."
+      }
+    },
+    {
+      "id": "i01",
+      "prompt": "Just book an electric car near the airport in Berlin for my trip from May 2nd to May 5th and add it to my calendar.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The word 'Just' adds a tone of impatience or urgency but does not change the task or authorization."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Just book...', which is an impolite imperative but still a direct request to perform the task with all original information."
+      }
+    },
+    {
+      "id": "i02",
+      "prompt": "Book an electric car near the airport in Berlin for my trip from May 2nd to May 5th and add it to my calendar. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Do it' adds a tone of command but does not change the task or authorization."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt includes the full request followed by 'Do it.', which is an impolite but clear command to execute the task."
+      }
+    },
+    {
+      "id": "i03",
+      "prompt": "This time, book an electric car near the airport in Berlin for my trip from May 2nd to May 5th and add it to my calendar.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'This time' implies a previous attempt or failure, adding a new constraint/context to the task."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'This time, book...' implies a previous attempt or conversation, but the core request to book the car and add to the calendar remains the same with all original information."
+      }
+    },
+    {
+      "id": "i04",
+      "prompt": "You need to book an electric car near the airport in Berlin for my trip from May 2nd to May 5th and add it to my calendar.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'You need to' adds a tone of command or instruction but does not change the task or authorization."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i04",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt 'You need to book...' states a requirement for the system to perform the action, rather than a direct request. It implies a directive based on an unstated prior context or obligation."
+      }
+    },
+    {
+      "id": "i05",
+      "prompt": "Why can't you book an electric car near the airport in Berlin for my trip from May 2nd to May 5th and add it to my calendar?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Why can't you' changes the task from a request to an inquiry about capability or reason for failure."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Why can't you book...' is a rhetorical question that challenges the system's ability or willingness to perform the task, rather than a direct request to execute it. It implies a previous conversation or a challenge to the system's capabilities."
+      }
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "d5c76965df46e07db57fd3cfe78e52bdbb272f228abcf3e12e69287da9f9385f",
+  "scenario_id": "AIP-048",
+  "review_protocol": "pragmatic_equivalence_v2",
+  "review_protocol_sha256": "2b387114723187ae3bda767678be617a87a62328697ff6ef3dbd19908bae80f2"
+}

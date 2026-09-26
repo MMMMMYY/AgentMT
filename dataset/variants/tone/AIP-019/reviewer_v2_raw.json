@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:52:19 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"reviews\": [{\"id\": \"p01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request.\"}, {\"id\": \"p02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request.\"}, {\"id\": \"p03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request.\"}, {\"id\": \"p04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Polite request with 'please help me'.\"}, {\"id\": \"p05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Polite request with 'please' at the end.\"}, {\"id\": \"n01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request.\"}, {\"id\": \"n02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request.\"}, {\"id\": \"n03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request.\"}, {\"id\": \"n04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Direct polite request.\"}, {\"id\": \"n05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Direct imperative request.\"}, {\"id\": \"i01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Adds 'Just' which implies a previous attempt or impatience, but the core task is unchanged.\"}, {\"id\": \"i02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Adds 'Do it' which implies a previous attempt or impatience, but the core task is unchanged.\"}, {\"id\": \"i03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Adds 'This time' which implies a previous attempt.\"}, {\"id\": \"i04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Changes to a command, but the task is the same.\"}, {\"id\": \"i05\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Changes from a request to an inquiry about inability, shifting the task from execution to explanation.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.056962321532096745
+    }
+  ],
+  "create_time": "2026-09-08T10:52:16.066883Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "4OifasOKBKyAlb4P9ouQsAQ",
+  "usage_metadata": {
+    "candidates_token_count": 662,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 662
+      }
+    ],
+    "prompt_token_count": 894,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 894
+      }
+    ],
+    "total_token_count": 1556,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

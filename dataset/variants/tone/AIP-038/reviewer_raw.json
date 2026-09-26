@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:43:06 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original is a direct question. The variant asks if the system 'could' tell, which is an ability question, not a direct request for the weather.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original is a direct question. The variant asks if it's 'possible' to tell, which is an ability question, not a direct request for the weather.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original is a direct question. The variant asks if the system 'can' tell, which is an ability question, not a direct request for the weather.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original is a direct question. The variant asks for 'help' to tell, which implies the user wants to be told, but the phrasing is slightly indirect and could be interpreted as asking for assistance in the act of telling, rather than a direct request for the information itself.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The variant is a direct imperative request for the weather, softened by 'please', which is equivalent to the original direct question.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original is a direct question. The variant asks if the system 'can' tell, which is an ability question, not a direct request for the weather.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original is a direct question. The variant asks if the system is 'able' to tell, which is an ability question, not a direct request for the weather.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original is a direct question. The variant asks for 'help' to tell, which implies the user wants to be told, but the phrasing is slightly indirect and could be interpreted as asking for assistance in the act of telling, rather than a direct request for the information itself.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The variant is a direct imperative request for the weather, softened by 'please', which is equivalent to the original direct question.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The variant is a direct imperative request for the weather, which is equivalent to the original direct question.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The variant is a direct imperative request for the weather, with 'just' adding an impolite tone, but the core task remains the same as the original direct question.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The variant is a direct imperative request for the weather, followed by an impolite command, but the core task remains the same as the original direct question.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The variant is a direct imperative request for the weather. 'This time' implies a previous interaction or failure, adding context but not changing the core task of asking for the weather.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The variant states a requirement for the system to tell the weather, which functions as a direct request for the weather, equivalent to the original direct question.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original is a direct question. The variant asks 'Why can't you tell me', which is a question about the system's ability or a challenge, not a direct request for the weather itself. It implies a previous conversation or expectation.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.04732416012535797
+    }
+  ],
+  "create_time": "2026-09-08T10:43:00.812091Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "tOafarvIMdmjlb4P9rzUwQo",
+  "usage_metadata": {
+    "candidates_token_count": 1304,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1304
+      }
+    ],
+    "prompt_token_count": 844,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 844
+      }
+    ],
+    "total_token_count": 2148,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

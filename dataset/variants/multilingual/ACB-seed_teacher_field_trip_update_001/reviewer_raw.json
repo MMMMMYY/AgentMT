@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:54 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"reviews\": [{\"language\": \"zh\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"tone_preserved\": true, \"information_order_preserved\": true, \"target_language_correct\": true, \"reason\": \"The translation accurately conveys the original request in Chinese.\"}, {\"language\": \"ru\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"tone_preserved\": true, \"information_order_preserved\": true, \"target_language_correct\": true, \"reason\": \"The Russian translation is a faithful rendition of the source message.\"}, {\"language\": \"fr\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"tone_preserved\": true, \"information_order_preserved\": true, \"target_language_correct\": true, \"reason\": \"The French translation correctly captures all elements of the original request.\"}, {\"language\": \"es\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"tone_preserved\": true, \"information_order_preserved\": true, \"target_language_correct\": true, \"reason\": \"The Spanish translation is accurate and preserves the meaning and intent.\"}, {\"language\": \"ar\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"tone_preserved\": true, \"information_order_preserved\": true, \"target_language_correct\": true, \"reason\": \"The Arabic translation is correct and equivalent to the source.\"}, {\"language\": \"de\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"tone_preserved\": true, \"information_order_preserved\": true, \"target_language_correct\": true, \"reason\": \"The German translation accurately conveys the request without any loss of information or change in tone.\"}, {\"language\": \"pt\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"tone_preserved\": true, \"information_order_preserved\": true, \"target_language_correct\": true, \"reason\": \"The Portuguese translation is accurate and maintains the original meaning and structure.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.05222429547991071
+    }
+  ],
+  "create_time": "2026-09-13T22:17:52.805791Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "ECGnap-XMcO_m9IPwJmQuAg",
+  "usage_metadata": {
+    "candidates_token_count": 434,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 434
+      }
+    ],
+    "prompt_token_count": 486,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 486
+      }
+    ],
+    "total_token_count": 920,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

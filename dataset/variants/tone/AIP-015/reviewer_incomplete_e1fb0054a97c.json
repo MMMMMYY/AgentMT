@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:39:11 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request is phrased as a question about ability/willingness ('Could you...') rather than a direct command to execute the task. This changes the nature of the interaction from an instruction to an inquiry.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request is phr"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "MAX_TOKENS",
+      "avg_logprobs": -2.6235240405758486
+    }
+  ],
+  "create_time": "2026-09-08T10:38:51.515216Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "u-WfapC5H9uM89kPn7Sc4Qk",
+  "usage_metadata": {
+    "candidates_token_count": 151,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 151
+      }
+    ],
+    "prompt_token_count": 1079,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1079
+      }
+    ],
+    "thoughts_token_count": 3931,
+    "total_token_count": 5161,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,15 @@
+{
+  "task_id": "TJB-Gaming-P-7-62",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "I'm preparing for the upcoming Rocket League tournament in Europe this weekend Let's run these in parallel: check Rocket League tournaments in europe; check Rocket League player population; pull Hall of Fame games for 2022 from OpenCritic; check what free games are on Epic Games Store in UK; card; list Lost Ark classes; and find the best current deals for 'batman' (up to 10 results).",
+  "source_sha256": "023245d863c2373b13b70de3e29e8461045df494031c956c7d01cc53ba344c98",
+  "status": "preparation_error",
+  "variants": [],
+  "english_source": {
+    "language": "en",
+    "prompt": "I'm preparing for the upcoming Rocket League tournament in Europe this weekend Let's run these in parallel: check Rocket League tournaments in europe; check Rocket League player population; pull Hall of Fame games for 2022 from OpenCritic; check what free games are on Epic Games Store in UK; card; list Lost Ark classes; and find the best current deals for 'batman' (up to 10 results).",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation",
+  "error_type": "ReadTimeout"
+}

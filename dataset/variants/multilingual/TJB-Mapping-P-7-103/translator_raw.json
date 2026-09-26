@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:36:47 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"我正在对大峡谷地区进行全面的地理分析。让我们并行处理几件事：列出附近的地点以感知人流量；添加快速地图检查；告诉我“36.0544,-112.1401”属于哪个社区/区域；添加快速地图检查；显示背景图块以获取上下文；显示背景图块以获取上下文；并添加快速地图检查。\"}, {\"language\": \"ru\", \"prompt\": \"Я создаю всесторонний географический анализ района Гранд-Каньона. Давайте параллельно сделаем несколько вещей: перечислим близлежащие места, чтобы оценить пешеходный трафик; добавим быструю проверку карты; скажите мне, к какому району/области относится «36.0544,-112.1401»; добавим быструю проверку карты; покажем фоновую плитку для контекста; покажем фоновую плитку для контекста; и добавим быструю проверку карты.\"}, {\"language\": \"fr\", \"prompt\": \"Je suis en train de créer une analyse géographique complète de la région du Grand Canyon. Gérons plusieurs choses en parallèle : listez les lieux à proximité pour évaluer l'affluence ; ajoutez une vérification rapide de la carte ; dites-moi dans quel quartier/zone se trouve «36.0544,-112.1401» ; ajoutez une vérification rapide de la carte ; affichez une tuile de fond pour le contexte ; affichez une tuile de fond pour le contexte ; et ajoutez une vérification rapide de la carte.\"}, {\"language\": \"es\", \"prompt\": \"Estoy creando un análisis geográfico exhaustivo del área del Gran Cañón. Hagamos varias cosas en paralelo: enumere los lugares cercanos para sentir el tráfico peatonal; agregue una verificación rápida del mapa; dígame en qué vecindario/área se encuentra '36.0544,-112.1401'; agregue una verificación rápida del mapa; muestre un mosaico de fondo para el contexto; muestre un mosaico de fondo para el contexto; y agregue una verificación rápida del mapa.\"}, {\"language\": \"ar\", \"prompt\": \"أقوم بإنشاء تحليل جغرافي شامل لمنطقة جراند كانيون. دعنا نتعامل مع بعض الأمور بالتوازي: اذكر الأماكن القريبة لاستشعار حركة المشاة؛ أضف فحصًا سريعًا للخريطة؛ أخبرني في أي حي/منطقة يقع '36.0544,-112.1401'؛ أضف فحصًا سريعًا للخريطة؛ أظهر بلاطة خلفية للسياق؛ أظهر بلاطة خلفية للسياق؛ وأضف فحصًا سريعًا للخريطة.\"}, {\"language\": \"de\", \"prompt\": \"Ich erstelle eine umfassende geografische Analyse des Grand Canyon-Gebiets. Lassen Sie uns ein paar Dinge parallel erledigen: Listen Sie Orte in der Nähe auf, um den Fußgängerverkehr zu erfassen; fügen Sie eine schnelle Kartenprüfung hinzu; sagen Sie mir, in welchem Viertel/Gebiet '36.0544,-112.1401' liegt; fügen Sie eine schnelle Kartenprüfung hinzu; zeigen Sie eine Hintergrundkachel für den Kontext an; zeigen Sie eine Hintergrundkachel für den Kontext an; und fügen Sie eine schnelle Kartenprüfung hinzu.\"}, {\"language\": \"pt\", \"prompt\": \"Estou criando uma análise geográfica abrangente da área do Grand Canyon. Vamos lidar com algumas coisas em paralelo: liste os lugares próximos para sentir o tráfego de pedestres; adicione uma verificação rápida do mapa; diga-me em qual bairro/área '36.0544,-112.1401' se encaixa; adicione uma verificação rápida do mapa; mostre um bloco de fundo para contexto; mostre um bloco de fundo para contexto; e adicione uma verificação rápida do mapa.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.03467997942381705
+    }
+  ],
+  "create_time": "2026-09-13T22:36:43.194428Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "eyWnavzuC8uLr8kP2d6K6QQ",
+  "usage_metadata": {
+    "candidates_token_count": 882,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 882
+      }
+    ],
+    "prompt_token_count": 402,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 402
+      }
+    ],
+    "total_token_count": 1284,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

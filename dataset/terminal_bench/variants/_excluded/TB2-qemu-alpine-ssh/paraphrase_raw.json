@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-ERCgpdWPLZqEGZLQfAXBJBn2J6ZcW",
+  "object": "chat.completion",
+  "created": 1790152343,
+  "model": "gpt-4o-2024-11-20",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"candidates\":[{\"prompt\":\"Launch the /app/alpine.iso image using qemu, and set up an SSH server on the Alpine Linux virtual machine. After completing this, I should be able to connect using `ssh -p 2222 root@localhost` with the password `password123` to access a shell. Note that the /app/alpine.iso image has a default username of root with no password.\",\"surface_changes\":[\"Launch the /app/alpine.iso image using qemu\",\"set up an SSH server on the Alpine Linux virtual machine\",\"After completing this, I should be able to connect using `ssh -p 2222 root@localhost` with the password `password123` to access a shell\",\"Note that the /app/alpine.iso image has a default username of root with no password.\"]},{\"prompt\":\"Use qemu to boot the /app/alpine.iso image, and configure an SSH server on the Alpine Linux VM. Once this is done, I should be able to execute `ssh -p 2222 root@localhost` with the password `password123` to log into a shell. The /app/alpine.iso image defaults to the root user without a password.\",\"surface_changes\":[\"Use qemu to boot the /app/alpine.iso image\",\"configure an SSH server on the Alpine Linux VM\",\"Once this is done, I should be able to execute `ssh -p 2222 root@localhost` with the password `password123` to log into a shell\",\"The /app/alpine.iso image defaults to the root user without a password.\"]}]}",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 385,
+    "completion_tokens": 324,
+    "total_tokens": 709,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_59530732f1"
+}

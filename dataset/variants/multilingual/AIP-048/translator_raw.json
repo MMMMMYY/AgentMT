@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:20 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"你能帮我预订一辆电动汽车吗？在柏林机场附近，用于我5月2日至5月5日的行程，并将其添加到我的日历中？\"},{\"language\":\"ru\",\"prompt\":\"Можете ли вы забронировать электромобиль рядом с аэропортом в Берлине для моей поездки со 2 по 5 мая и добавить его в мой календарь?\"},{\"language\":\"fr\",\"prompt\":\"Pouvez-vous réserver une voiture électrique près de l'aéroport de Berlin pour mon voyage du 2 au 5 mai et l'ajouter à mon calendrier ?\"},{\"language\":\"es\",\"prompt\":\"¿Puedes reservar un coche eléctrico cerca del aeropuerto de Berlín para mi viaje del 2 al 5 de mayo y añadirlo a mi calendario?\"},{\"language\":\"ar\",\"prompt\":\"هل يمكنك حجز سيارة كهربائية بالقرب من المطار في برلين لرحلتي من 2 مايو إلى 5 مايو وإضافتها إلى تقويمي؟\"},{\"language\":\"de\",\"prompt\":\"Können Sie ein Elektroauto in der Nähe des Flughafens in Berlin für meine Reise vom 2. bis 5. Mai buchen und es meinem Kalender hinzufügen?\"},{\"language\":\"pt\",\"prompt\":\"Você pode reservar um carro elétrico perto do aeroporto em Berlim para minha viagem de 2 a 5 de maio e adicioná-lo ao meu calendário?\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:16:19.272900Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "syCnaoTUELy-m9IP--X-8AU",
+  "usage_metadata": {
+    "candidates_token_count": 297,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 297
+      }
+    ],
+    "prompt_token_count": 326,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 326
+      }
+    ],
+    "total_token_count": 623,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

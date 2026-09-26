@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:38 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"查看 OpenMaps 并向我的新客户 John 发送我当前的目的地和预计到达时间，以便他确切知道何时何地与我见面。\"},{\"language\":\"ru\",\"prompt\":\"Посмотрите OpenMaps и отправьте моему новому клиенту Джону мое текущее место назначения и расчетное время прибытия, чтобы он точно знал, когда и где со мной встретиться.\"},{\"language\":\"fr\",\"prompt\":\"Jetez un œil à OpenMaps et envoyez à mon nouveau client John ma destination actuelle et mon heure d'arrivée estimée afin qu'il sache exactement quand et où me rencontrer.\"},{\"language\":\"es\",\"prompt\":\"Echa un vistazo a OpenMaps y envía a mi nuevo cliente John mi destino actual y la hora estimada de llegada para que sepa exactamente cuándo y dónde encontrarse conmigo.\"},{\"language\":\"ar\",\"prompt\":\"ألقِ نظرة على OpenMaps وأرسل إلى عميلي الجديد جون وجهتي الحالية والوقت المقدر للوصول حتى يعرف بالضبط متى وأين يقابلني.\"},{\"language\":\"de\",\"prompt\":\"Schauen Sie sich OpenMaps an und senden Sie meinem neuen Kunden John mein aktuelles Ziel und die voraussichtliche Ankunftszeit, damit er genau weiß, wann und wo er mich treffen kann.\"},{\"language\":\"pt\",\"prompt\":\"Dê uma olhada no OpenMaps e envie ao meu novo cliente John meu destino atual e ETA para que ele saiba exatamente quando e onde me encontrar.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:17:36.737970Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "ACGnarKFLYf_lb4PmLjb4QQ",
+  "usage_metadata": {
+    "candidates_token_count": 312,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 312
+      }
+    ],
+    "prompt_token_count": 323,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 323
+      }
+    ],
+    "total_token_count": 635,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

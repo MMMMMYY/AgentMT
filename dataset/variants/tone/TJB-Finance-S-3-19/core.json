@@ -1,0 +1,4 @@
+{
+  "context": "I'm interested in market trends.",
+  "task": "show me the most actively traded stocks starting from the 15th position in the list, then show me the latest news specifically for Warner Bros. Discovery, and then analyze the sentiment of that news for WBD to understand market perception"
+}

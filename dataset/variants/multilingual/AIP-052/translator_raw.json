@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:27 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"这个周末我附近有什么音乐会或活动？\"}, {\"language\": \"ru\", \"prompt\": \"Какие концерты или мероприятия проходят рядом со мной в эти выходные?\"}, {\"language\": \"fr\", \"prompt\": \"Quels concerts ou événements ont lieu près de chez moi ce week-end ?\"}, {\"language\": \"es\", \"prompt\": \"¿Qué conciertos o eventos hay cerca de mí este fin de semana?\"}, {\"language\": \"ar\", \"prompt\": \"ما هي الحفلات الموسيقية أو الفعاليات التي تقام بالقرب مني في نهاية هذا الأسبوع؟\"}, {\"language\": \"de\", \"prompt\": \"Welche Konzerte oder Veranstaltungen finden dieses Wochenende in meiner Nähe statt?\"}, {\"language\": \"pt\", \"prompt\": \"Quais shows ou eventos estão acontecendo perto de mim neste fim de semana?\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.012440550834574599
+    }
+  ],
+  "create_time": "2026-09-13T22:16:26.033511Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "uiCnaueFAuSnr8kPtsWW-AM",
+  "usage_metadata": {
+    "candidates_token_count": 188,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 188
+      }
+    ],
+    "prompt_token_count": 306,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 306
+      }
+    ],
+    "total_token_count": 494,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

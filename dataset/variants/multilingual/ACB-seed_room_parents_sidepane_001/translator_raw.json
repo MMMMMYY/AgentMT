@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:47 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"在家长群中回复，包含可见聊天中的零食轮换和周五接送提醒。\"},{\"language\":\"ru\",\"prompt\":\"Ответьте в группе родителей класса с графиком дежурства по закускам и напоминаниями о пятничной встрече из видимого чата.\"},{\"language\":\"fr\",\"prompt\":\"Répondez dans le groupe des parents de la classe avec la rotation des collations et les rappels de ramassage du vendredi à partir du chat visible.\"},{\"language\":\"es\",\"prompt\":\"Responda en el Grupo de Padres de la Sala con la rotación de refrigerios y los recordatorios de recogida del viernes del chat visible.\"},{\"language\":\"ar\",\"prompt\":\"الرد في مجموعة أولياء أمور الغرفة مع تناوب الوجبات الخفيفة وتذكيرات الاستلام يوم الجمعة من الدردشة المرئية.\"},{\"language\":\"de\",\"prompt\":\"Antworten Sie in der Eltern-Gruppe mit der Snack-Rotation und den Abholerinnerungen für Freitag aus dem sichtbaren Chat.\"},{\"language\":\"pt\",\"prompt\":\"Responda no Grupo de Pais da Sala com a rotação de lanches e os lembretes de busca de sexta-feira do chat visível.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:17:45.485650Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "CSGnapLSHby-m9IP--X-8AU",
+  "usage_metadata": {
+    "candidates_token_count": 266,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 266
+      }
+    ],
+    "prompt_token_count": 314,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 314
+      }
+    ],
+    "total_token_count": 580,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

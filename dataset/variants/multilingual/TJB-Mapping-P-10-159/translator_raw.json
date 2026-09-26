@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:36:57 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"我需要分析西雅图消防部门的应急响应能力。让我们并行处理几件事：快速进行地图检查；显示清晰的地图；快速进行地图检查；快速进行地图检查；列出47.6008682,-122.3325581周围5000米内感知人流量的地点；列出附近感知人流量的地点；快速进行地图检查；快速了解地形；显示背景瓦片以获取上下文；并快速进行地图检查。\"},{\"language\":\"ru\",\"prompt\":\"Мне нужно проанализировать возможности экстренного реагирования пожарной службы в Сиэтле. Давайте параллельно сделаем несколько вещей: быстро проверим карту; покажем четкую карту; быстро проверим карту; быстро проверим карту; перечислим места вокруг 47.6008682,-122.3325581 в радиусе 5000 м для определения пешеходного трафика; перечислим близлежащие места для определения пешеходного трафика; быстро проверим карту; быстро ознакомимся с местностью; покажем фоновую плитку для контекста; и быстро проверим карту.\"},{\"language\":\"fr\",\"prompt\":\"Je dois analyser les capacités d'intervention d'urgence d'un service d'incendie à Seattle. Gérons plusieurs choses en parallèle : ajoutez une vérification rapide de la carte ; affichez une carte claire ; ajoutez une vérification rapide de la carte ; ajoutez une vérification rapide de la carte ; listez les lieux autour de 47.6008682,-122.3325581 dans un rayon de 5000m pour détecter le trafic piétonnier ; listez les lieux à proximité pour détecter le trafic piétonnier ; ajoutez une vérification rapide de la carte ; donnez-moi une lecture rapide du terrain ; affichez une tuile de fond pour le contexte ; et ajoutez une vérification rapide de la carte.\"},{\"language\":\"es\",\"prompt\":\"Necesito analizar las capacidades de respuesta a emergencias de un departamento de bomberos en Seattle. Hagamos varias cosas en paralelo: agregue una verificación rápida del mapa; muestre un mapa claro; agregue una verificación rápida del mapa; agregue una verificación rápida del mapa; liste lugares alrededor de 47.6008682,-122.3325581 dentro de 5000m para detectar el tráfico peatonal; liste lugares cercanos para detectar el tráfico peatonal; agregue una verificación rápida del mapa; déme una lectura rápida del terreno; muestre un mosaico de fondo para el contexto; y agregue una verificación rápida del mapa.\"},{\"language\":\"ar\",\"prompt\":\"أحتاج إلى تحليل قدرات الاستجابة للطوارئ لإدارة الإطفاء في سياتل. دعنا نتعامل مع بعض الأمور بالتوازي: أضف فحصًا سريعًا للخريطة؛ اعرض خريطة واضحة؛ أضف فحصًا سريعًا للخريطة؛ أضف فحصًا سريعًا للخريطة؛ ادرج الأماكن حول 47.6008682,-122.3325581 ضمن 5000 متر لاستشعار حركة المشاة؛ ادرج الأماكن القريبة لاستشعار حركة المشاة؛ أضف فحصًا سريعًا للخريطة؛ أعطني قراءة سريعة للتضاريس؛ اعرض بلاطة خلفية للسياق؛ وأضف فحصًا سريعًا للخريطة.\"},{\"language\":\"de\",\"prompt\":\"Ich muss die Notfallreaktionsfähigkeiten einer Feuerwehr in Seattle analysieren. Lassen Sie uns ein paar Dinge parallel erledigen: einen schnellen Kartencheck hinzufügen; eine klare Karte anzeigen; einen schnellen Kartencheck hinzufügen; einen schnellen Kartencheck hinzufügen; Orte um 47.6008682,-122.3325581 innerhalb von 5000m auflisten, um den Fußgängerverkehr zu erfassen; Orte in der Nähe auflisten, um den Fußgängerverkehr zu erfassen; einen schnellen Kartencheck hinzufügen; mir einen schnellen Überblick über das Gelände geben; eine Hintergrundkachel für den Kontext anzeigen; und einen schnellen Kartencheck hinzufügen.\"},{\"language\":\"pt\",\"prompt\":\"Preciso analisar as capacidades de resposta a emergências de um corpo de bombeiros em Seattle. Vamos lidar com algumas coisas em paralelo: adicionar uma verificação rápida do mapa; mostrar um mapa claro; adicionar uma verificação rápida do mapa; adicionar uma verificação rápida do mapa; listar lugares em torno de 47.6008682,-122.3325581 dentro de 5000m para sentir o tráfego de pedestres; listar lugares próximos para sentir o tráfego de pedestres; adicionar uma verificação rápida do mapa; me dar uma leitura rápida do terreno; mostrar um bloco de fundo para contexto; e adicionar uma verificação rápida do mapa.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:36:52.737409Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "hCWnaoGBLZOcmecP1-vzoQs",
+  "usage_metadata": {
+    "candidates_token_count": 1107,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1107
+      }
+    ],
+    "prompt_token_count": 416,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 416
+      }
+    ],
+    "total_token_count": 1523,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

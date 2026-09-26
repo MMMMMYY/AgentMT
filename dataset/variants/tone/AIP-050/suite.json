@@ -1,0 +1,236 @@
+{
+  "task_id": "AIP-050",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "I recently watched Interstellar, Blade Runner 2049, and The Matrix.\n\nCould you recommend sci-fi movies based on these?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains the original request to recommend sci-fi movies based on the provided list, with added politeness."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p02",
+      "prompt": "I recently watched Interstellar, Blade Runner 2049, and The Matrix.\n\nIs it possible to recommend sci-fi movies based on these?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt asks if it's possible to recommend, which is an ability/explanation question, not a direct request to execute the recommendation."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p03",
+      "prompt": "I recently watched Interstellar, Blade Runner 2049, and The Matrix.\n\nCan you please recommend sci-fi movies based on these?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt directly asks to recommend sci-fi movies, maintaining the original task with added politeness."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p04",
+      "prompt": "I recently watched Interstellar, Blade Runner 2049, and The Matrix.\n\nPlease help me recommend sci-fi movies based on these.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks for 'help me recommend', which implies the user wants assistance in their own recommendation process, not a direct recommendation from the AI."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p05",
+      "prompt": "I recently watched Interstellar, Blade Runner 2049, and The Matrix.\n\nRecommend sci-fi movies based on these, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt is a direct request to recommend sci-fi movies, maintaining the original task with added politeness."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n01",
+      "prompt": "I recently watched Interstellar, Blade Runner 2049, and The Matrix.\n\nCan you recommend sci-fi movies based on these?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt directly asks to recommend sci-fi movies, maintaining the original task with a neutral tone."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n02",
+      "prompt": "I recently watched Interstellar, Blade Runner 2049, and The Matrix.\n\nAre you able to recommend sci-fi movies based on these?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt asks if the AI is 'able to recommend', which is an ability/explanation question, not a direct request to execute the recommendation."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n03",
+      "prompt": "I recently watched Interstellar, Blade Runner 2049, and The Matrix.\n\nCan you help me recommend sci-fi movies based on these?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks for 'help me recommend', which implies the user wants assistance in their own recommendation process, not a direct recommendation from the AI."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n04",
+      "prompt": "I recently watched Interstellar, Blade Runner 2049, and The Matrix.\n\nPlease recommend sci-fi movies based on these.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt is a direct request to recommend sci-fi movies, maintaining the original task with a neutral tone."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n05",
+      "prompt": "I recently watched Interstellar, Blade Runner 2049, and The Matrix.\n\nRecommend sci-fi movies based on these.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt is a direct request to recommend sci-fi movies, maintaining the original task with a neutral tone."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i01",
+      "prompt": "I recently watched Interstellar, Blade Runner 2049, and The Matrix.\n\nJust recommend sci-fi movies based on these.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt is a direct, albeit impolite, command to recommend sci-fi movies, maintaining the original task."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i02",
+      "prompt": "I recently watched Interstellar, Blade Runner 2049, and The Matrix.\n\nRecommend sci-fi movies based on these. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt is a direct, impolite command to recommend sci-fi movies, maintaining the original task. 'Do it' reinforces the command."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i03",
+      "prompt": "I recently watched Interstellar, Blade Runner 2049, and The Matrix.\n\nThis time, recommend sci-fi movies based on these.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt is a direct command to recommend sci-fi movies. 'This time' implies a previous interaction or expectation, but the core task remains."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i04",
+      "prompt": "I recently watched Interstellar, Blade Runner 2049, and The Matrix.\n\nYou need to recommend sci-fi movies based on these.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt states 'You need to recommend', which is an impolite but clear directive to perform the recommendation task."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i05",
+      "prompt": "I recently watched Interstellar, Blade Runner 2049, and The Matrix.\n\nWhy can't you recommend sci-fi movies based on these?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Why can't you recommend', which is a question about ability or explanation, not a direct request to execute the recommendation. It implies a previous failure or inability."
+      },
+      "eligible_pilot": false
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "f6f124ad915366970243f510ae2ab46d1e31b8d388e0408199297243a8c77725",
+  "scenario_id": "AIP-050"
+}

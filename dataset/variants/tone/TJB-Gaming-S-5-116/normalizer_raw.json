@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:46:16 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"I'm looking for some free games to play this weekend. I heard Outliver: Tribulation might be free right now. I'm also interested in horror games on PC similar to the Outlast series. I'm in the mood for something with zombies. I love games with food-related names.\",\n  \"task\": \"check what's currently free on the Epic Games Store in the US, find reviews for Outliver: Tribulation, search for horror games on PC similar to the Outlast series with a zombie theme, and show me reviews and deals for a game called Zombie Soup\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-08T10:46:15.610292Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "d-efavSfJfev1t8P8pzBiQo",
+  "usage_metadata": {
+    "candidates_token_count": 132,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 132
+      }
+    ],
+    "prompt_token_count": 320,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 320
+      }
+    ],
+    "total_token_count": 452,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

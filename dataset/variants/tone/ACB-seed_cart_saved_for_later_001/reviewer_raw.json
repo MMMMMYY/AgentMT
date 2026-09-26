@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:44:06 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"reviews\": [{\"id\": \"p01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The request maintains all original actions, facts, identities, and the sequence of operations. The polite phrasing does not alter the core request.\"}, {\"id\": \"p02\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The phrase 'Is it possible to...' transforms the direct request into a question about capability, implying a previous conversation or an inquiry rather than a direct command to execute.\"}, {\"id\": \"p03\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The phrase 'Can you please...' transforms the direct request into a question about capability, implying an inquiry rather than a direct command to execute.\"}, {\"id\": \"p04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The request maintains all original actions, facts, identities, and the sequence of operations. 'Please help me' is a polite way to request the action.\"}, {\"id\": \"p05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The request maintains all original actions, facts, identities, and the sequence of operations. 'Please' at the end is a polite modifier.\"}, {\"id\": \"n01\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The phrase 'Can you...' transforms the direct request into a question about capability, implying an inquiry rather than a direct command to execute.\"}, {\"id\": \"n02\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The phrase 'Are you able to...' transforms the direct request into a question about capability, implying an inquiry rather than a direct command to execute.\"}, {\"id\": \"n03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The request maintains all original actions, facts, identities, and the sequence of operations. 'Can you help me' is a neutral way to request the action.\"}, {\"id\": \"n04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The request maintains all original actions, facts, identities, and the sequence of operations. 'Please' is a neutral modifier.\"}, {\"id\": \"n05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The request maintains all original actions, facts, identities, and the sequence of operations. It is a direct imperative, matching the source's intent.\"}, {\"id\": \"i01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The request maintains all original actions, facts, identities, and the sequence of operations. 'Just' adds an impolite tone but does not change the core request.\"}, {\"id\": \"i02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The request maintains all original actions, facts, identities, and the sequence of operations. 'Do it' adds an impolite tone but does not change the core request.\"}, {\"id\": \"i03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The request maintains all original actions, facts, identities, and the sequence of operations. 'This time' adds an impolite, context-sensitive tone but does not change the core request.\"}, {\"id\": \"i04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The request maintains all original actions, facts, identities, and the sequence of operations. 'You need to' is an impolite way to state the request but still conveys the command.\"}, {\"id\": \"i05\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The phrase 'Why can't you...' transforms the direct request into a rhetorical question, implying frustration or an inquiry about inability rather than a direct command to execute.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.05660574393013353
+    }
+  ],
+  "create_time": "2026-09-08T10:44:01.298848Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "8eafauCeErHN28sP1-nsiAk",
+  "usage_metadata": {
+    "candidates_token_count": 994,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 994
+      }
+    ],
+    "prompt_token_count": 1207,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1207
+      }
+    ],
+    "total_token_count": 2201,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

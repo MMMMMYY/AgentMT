@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:45:27 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request uses 'Could you look' which implies an ability question rather than a direct instruction, potentially requiring an affirmative response before execution. The original is a direct request.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request uses 'Is it possible to look' which implies an ability question rather than a direct instruction, potentially requiring an affirmative response before execution. The original is a direct request.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request uses 'Can you please look' which implies an ability question rather than a direct instruction, potentially requiring an affirmative response before execution. The original is a direct request.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Please help me look' is a polite request that maintains the core task and authorization.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request is a direct instruction with 'please' appended, maintaining the original intent and authorization.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request uses 'Can you look' which implies an ability question rather than a direct instruction, potentially requiring an affirmative response before execution. The original is a direct request.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request uses 'Are you able to look' which implies an ability question rather than a direct instruction, potentially requiring an affirmative response before execution. The original is a direct request.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request uses 'Can you help me look' which implies an ability question rather than a direct instruction, potentially requiring an affirmative response before execution. The original is a direct request.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Please look' is a direct instruction, maintaining the original intent and authorization.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Look at my OpenToDo list' is a direct instruction, maintaining the original intent and authorization.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Just look' is a direct instruction, maintaining the original intent and authorization, albeit with an impolite tone.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Look at my OpenToDo list... Do it.' is a direct instruction, maintaining the original intent and authorization, albeit with an impolite tone.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'This time, look' implies a previous conversation or failed attempt, which is not present in the original source, thus altering the authorization context.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'You need to look' implies a command or obligation rather than a request, altering the authorization dynamic from the original direct request.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Why can't you look' is a question about ability or explanation, not a direct request to perform the task. It implies a previous conversation or a challenge to the recipient's capability, which is not in the original source.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-08T10:45:19.708031Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "P-efar-bK8yw1t8PkODl6AI",
+  "usage_metadata": {
+    "candidates_token_count": 1233,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1233
+      }
+    ],
+    "prompt_token_count": 1577,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1577
+      }
+    ],
+    "total_token_count": 2810,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,343 @@
+{
+  "task_id": "TJB-News_Media-P-10-32",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "Could you grab this week's top posts on dev.to, latest IEEE Spectrum tech stories, the latest business headlines from BizToc, movie news about 'latest releases' (limit 20), COVID-19 coverage in FR, notable people related to 'republican voice', latest from Aljazeera (Arabic), latest police and crime reports from Germany, latest IPL headlines, and narco-related news from Mexico before the meeting?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is phrased as an interrogative, but the core task and all parameters remain identical to the source."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt changes the direct request to an ability question, which implies a previous conversation or an inquiry about capability rather than a direct instruction."
+      }
+    },
+    {
+      "id": "p02",
+      "prompt": "Is it possible to grab this week's top posts on dev.to, latest IEEE Spectrum tech stories, the latest business headlines from BizToc, movie news about 'latest releases' (limit 20), COVID-19 coverage in FR, notable people related to 'republican voice', latest from Aljazeera (Arabic), latest police and crime reports from Germany, latest IPL headlines, and narco-related news from Mexico before the meeting?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is phrased as an interrogative, but the core task and all parameters remain identical to the source."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt changes the direct request to an ability question, which implies a previous conversation or an inquiry about capability rather than a direct instruction."
+      }
+    },
+    {
+      "id": "p03",
+      "prompt": "Can you please grab this week's top posts on dev.to, latest IEEE Spectrum tech stories, the latest business headlines from BizToc, movie news about 'latest releases' (limit 20), COVID-19 coverage in FR, notable people related to 'republican voice', latest from Aljazeera (Arabic), latest police and crime reports from Germany, latest IPL headlines, and narco-related news from Mexico before the meeting?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is phrased as an interrogative, but the core task and all parameters remain identical to the source."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt changes the direct request to an ability question, which implies a previous conversation or an inquiry about capability rather than a direct instruction."
+      }
+    },
+    {
+      "id": "p04",
+      "prompt": "Please help me grab this week's top posts on dev.to, latest IEEE Spectrum tech stories, the latest business headlines from BizToc, movie news about 'latest releases' (limit 20), COVID-19 coverage in FR, notable people related to 'republican voice', latest from Aljazeera (Arabic), latest police and crime reports from Germany, latest IPL headlines, and narco-related news from Mexico before the meeting.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is phrased with 'Please help me', but the core task and all parameters remain identical to the source."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt changes the direct request to a request for help, which implies a previous conversation or an inquiry about capability rather than a direct instruction."
+      }
+    },
+    {
+      "id": "p05",
+      "prompt": "Grab this week's top posts on dev.to, latest IEEE Spectrum tech stories, the latest business headlines from BizToc, movie news about 'latest releases' (limit 20), COVID-19 coverage in FR, notable people related to 'republican voice', latest from Aljazeera (Arabic), latest police and crime reports from Germany, latest IPL headlines, and narco-related news from Mexico before the meeting, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is phrased with 'please' at the end, but the core task and all parameters remain identical to the source."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains the imperative form of the original request, adding 'please' for politeness without altering the core instruction."
+      }
+    },
+    {
+      "id": "n01",
+      "prompt": "Can you grab this week's top posts on dev.to, latest IEEE Spectrum tech stories, the latest business headlines from BizToc, movie news about 'latest releases' (limit 20), COVID-19 coverage in FR, notable people related to 'republican voice', latest from Aljazeera (Arabic), latest police and crime reports from Germany, latest IPL headlines, and narco-related news from Mexico before the meeting?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is phrased as an interrogative, but the core task and all parameters remain identical to the source."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt changes the direct request to an ability question, which implies a previous conversation or an inquiry about capability rather than a direct instruction."
+      }
+    },
+    {
+      "id": "n02",
+      "prompt": "Are you able to grab this week's top posts on dev.to, latest IEEE Spectrum tech stories, the latest business headlines from BizToc, movie news about 'latest releases' (limit 20), COVID-19 coverage in FR, notable people related to 'republican voice', latest from Aljazeera (Arabic), latest police and crime reports from Germany, latest IPL headlines, and narco-related news from Mexico before the meeting?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is phrased as an interrogative, but the core task and all parameters remain identical to the source."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt changes the direct request to an ability question, which implies a previous conversation or an inquiry about capability rather than a direct instruction."
+      }
+    },
+    {
+      "id": "n03",
+      "prompt": "Can you help me grab this week's top posts on dev.to, latest IEEE Spectrum tech stories, the latest business headlines from BizToc, movie news about 'latest releases' (limit 20), COVID-19 coverage in FR, notable people related to 'republican voice', latest from Aljazeera (Arabic), latest police and crime reports from Germany, latest IPL headlines, and narco-related news from Mexico before the meeting?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is phrased with 'Can you help me', but the core task and all parameters remain identical to the source."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt changes the direct request to a request for help, which implies a previous conversation or an inquiry about capability rather than a direct instruction."
+      }
+    },
+    {
+      "id": "n04",
+      "prompt": "Please grab this week's top posts on dev.to, latest IEEE Spectrum tech stories, the latest business headlines from BizToc, movie news about 'latest releases' (limit 20), COVID-19 coverage in FR, notable people related to 'republican voice', latest from Aljazeera (Arabic), latest police and crime reports from Germany, latest IPL headlines, and narco-related news from Mexico before the meeting.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is phrased with 'Please', but the core task and all parameters remain identical to the source."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains the imperative form of the original request, adding 'please' without altering the core instruction."
+      }
+    },
+    {
+      "id": "n05",
+      "prompt": "Grab this week's top posts on dev.to, latest IEEE Spectrum tech stories, the latest business headlines from BizToc, movie news about 'latest releases' (limit 20), COVID-19 coverage in FR, notable people related to 'republican voice', latest from Aljazeera (Arabic), latest police and crime reports from Germany, latest IPL headlines, and narco-related news from Mexico before the meeting.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is phrased as an imperative, and the core task and all parameters remain identical to the source."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains the imperative form of the original request without altering the core instruction."
+      }
+    },
+    {
+      "id": "i01",
+      "prompt": "Just grab this week's top posts on dev.to, latest IEEE Spectrum tech stories, the latest business headlines from BizToc, movie news about 'latest releases' (limit 20), COVID-19 coverage in FR, notable people related to 'republican voice', latest from Aljazeera (Arabic), latest police and crime reports from Germany, latest IPL headlines, and narco-related news from Mexico before the meeting.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The addition of 'Just' does not change the core task or parameters."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains the imperative form of the original request, adding 'Just' which implies a direct, slightly impatient instruction."
+      }
+    },
+    {
+      "id": "i02",
+      "prompt": "Grab this week's top posts on dev.to, latest IEEE Spectrum tech stories, the latest business headlines from BizToc, movie news about 'latest releases' (limit 20), COVID-19 coverage in FR, notable people related to 'republican voice', latest from Aljazeera (Arabic), latest police and crime reports from Germany, latest IPL headlines, and narco-related news from Mexico before the meeting. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The addition of 'Do it' does not change the core task or parameters."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains the imperative form of the original request, with 'Do it' reinforcing the direct instruction."
+      }
+    },
+    {
+      "id": "i03",
+      "prompt": "This time, grab this week's top posts on dev.to, latest IEEE Spectrum tech stories, the latest business headlines from BizToc, movie news about 'latest releases' (limit 20), COVID-19 coverage in FR, notable people related to 'republican voice', latest from Aljazeera (Arabic), latest police and crime reports from Germany, latest IPL headlines, and narco-related news from Mexico before the meeting.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The addition of 'This time' implies a previous attempt or failure, which changes the pragmatic context of the request."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains the imperative form of the original request, with 'This time' implying a previous context but not changing the current instruction."
+      }
+    },
+    {
+      "id": "i04",
+      "prompt": "You need to grab this week's top posts on dev.to, latest IEEE Spectrum tech stories, the latest business headlines from BizToc, movie news about 'latest releases' (limit 20), COVID-19 coverage in FR, notable people related to 'republican voice', latest from Aljazeera (Arabic), latest police and crime reports from Germany, latest IPL headlines, and narco-related news from Mexico before the meeting.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'You need to' does not change the core task or parameters."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'You need to', which is a direct and forceful instruction, maintaining the task equivalence."
+      }
+    },
+    {
+      "id": "i05",
+      "prompt": "Why can't you grab this week's top posts on dev.to, latest IEEE Spectrum tech stories, the latest business headlines from BizToc, movie news about 'latest releases' (limit 20), COVID-19 coverage in FR, notable people related to 'republican voice', latest from Aljazeera (Arabic), latest police and crime reports from Germany, latest IPL headlines, and narco-related news from Mexico before the meeting?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request changes from asking for an action to asking for an explanation ('Why cannot'), which is a different pragmatic task."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i05",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt changes the direct request into a rhetorical question, which implies a previous conversation or a challenge to capability rather than a direct instruction."
+      }
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "b3f413d19502dad71e00249dbe13cba5a2bc3b905d08a7d4c7250a18d15456ea",
+  "scenario_id": "TJB-News_Media-P-10-32",
+  "review_protocol": "pragmatic_equivalence_v2",
+  "review_protocol_sha256": "2b387114723187ae3bda767678be617a87a62328697ff6ef3dbd19908bae80f2"
+}

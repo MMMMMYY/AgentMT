@@ -1,0 +1,162 @@
+{
+  "task_id": "TJB-Email-P-9-193",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "Deliverability close‑out—execute the listed items as written. Check marketing@dailydeals.com and flag if it’s disposable or problematic. Determine whether newsletter@quickoffers.net is a temporary/throwaway address. Verify updates@flashsales.org for validity and deliverability. Check if dailydeals.com is a disposable domain and suggest a better alternative. Check whether quickoffers.net is available or already taken. Check whether the address is a role/team inbox (support/sales). Confirm mail server accept‑mail status for marketing@dailydeals.com. Extract public contact emails from https://www.mycompany.org/contact. Run the corresponding check for Email API.",
+  "source_sha256": "423a1c8df63cf33fb2d4f6d3d32f3c2046ff65769dd3e5675bef10bf47b67b56",
+  "status": "reviewed",
+  "variants": [
+    {
+      "language": "zh",
+      "prompt": "可送达性收尾——按原文执行列出的项目。检查 marketing@dailydeals.com 并标记它是否是一次性或有问题。确定 newsletter@quickoffers.net 是否是临时/一次性地址。验证 updates@flashsales.org 的有效性和可送达性。检查 dailydeals.com 是否是一次性域名并建议一个更好的替代方案。检查 quickoffers.net 是否可用或已被占用。检查该地址是否是角色/团队收件箱（支持/销售）。确认 marketing@dailydeals.com 的邮件服务器接受邮件状态。从 https://www.mycompany.org/contact 提取公共联系电子邮件。运行 Email API 的相应检查。",
+      "id": "lang_zh",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "zh",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks, authorizations, and maintains the original tone and order of information. The target language is correct."
+      }
+    },
+    {
+      "language": "ru",
+      "prompt": "Завершение доставляемости — выполнить перечисленные пункты как написано. Проверить marketing@dailydeals.com и пометить, является ли он одноразовым или проблемным. Определить, является ли newsletter@quickoffers.net временным/одноразовым адресом. Проверить updates@flashsales.org на валидность и доставляемость. Проверить, является ли dailydeals.com одноразовым доменом, и предложить лучшую альтернативу. Проверить, доступен ли quickoffers.net или уже занят. Проверить, является ли адрес почтовым ящиком роли/команды (поддержка/продажи). Подтвердить статус приема почты почтовым сервером для marketing@dailydeals.com. Извлечь публичные контактные адреса электронной почты с https://www.mycompany.org/contact. Выполнить соответствующую проверку для Email API.",
+      "id": "lang_ru",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ru",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks, authorizations, and maintains the original tone and order of information. The target language is correct."
+      }
+    },
+    {
+      "language": "fr",
+      "prompt": "Clôture de la délivrabilité — exécuter les éléments listés tels quels. Vérifier marketing@dailydeals.com et signaler s'il est jetable ou problématique. Déterminer si newsletter@quickoffers.net est une adresse temporaire/jetable. Vérifier la validité et la délivrabilité de updates@flashsales.org. Vérifier si dailydeals.com est un domaine jetable et suggérer une meilleure alternative. Vérifier si quickoffers.net est disponible ou déjà pris. Vérifier si l'adresse est une boîte de réception de rôle/équipe (support/ventes). Confirmer le statut d'acceptation du courrier du serveur de messagerie pour marketing@dailydeals.com. Extraire les e-mails de contact publics de https://www.mycompany.org/contact. Exécuter la vérification correspondante pour l'API Email.",
+      "id": "lang_fr",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "fr",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks, authorizations, and maintains the original tone and order of information. The target language is correct."
+      }
+    },
+    {
+      "language": "es",
+      "prompt": "Cierre de entregabilidad: ejecute los elementos listados tal como están escritos. Verifique marketing@dailydeals.com y marque si es desechable o problemático. Determine si newsletter@quickoffers.net es una dirección temporal/desechable. Verifique updates@flashsales.org para su validez y entregabilidad. Verifique si dailydeals.com es un dominio desechable y sugiera una mejor alternativa. Verifique si quickoffers.net está disponible o ya está ocupado. Verifique si la dirección es una bandeja de entrada de rol/equipo (soporte/ventas). Confirme el estado de aceptación de correo del servidor de correo para marketing@dailydeals.com. Extraiga los correos electrónicos de contacto públicos de https://www.mycompany.org/contact. Ejecute la verificación correspondiente para la API de correo electrónico.",
+      "id": "lang_es",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "es",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks, authorizations, and maintains the original tone and order of information. The target language is correct."
+      }
+    },
+    {
+      "language": "ar",
+      "prompt": "إغلاق قابلية التسليم—نفّذ العناصر المدرجة كما هي مكتوبة. تحقق من marketing@dailydeals.com وقم بوضع علامة إذا كان يمكن التخلص منه أو يمثل مشكلة. حدد ما إذا كان newsletter@quickoffers.net عنوانًا مؤقتًا/يمكن التخلص منه. تحقق من updates@flashsales.org للتأكد من صلاحيته وقابليته للتسليم. تحقق مما إذا كان dailydeals.com نطاقًا يمكن التخلص منه واقترح بديلاً أفضل. تحقق مما إذا كان quickoffers.net متاحًا أم مشغولاً بالفعل. تحقق مما إذا كان العنوان عبارة عن صندوق بريد دور/فريق (دعم/مبيعات). تأكيد حالة قبول البريد لخادم البريد لـ marketing@dailydeals.com. استخرج رسائل البريد الإلكتروني العامة للاتصال من https://www.mycompany.org/contact. قم بتشغيل الفحص المقابل لواجهة برمجة تطبيقات البريد الإلكتروني.",
+      "id": "lang_ar",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ar",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks, authorizations, and maintains the original tone and order of information. The target language is correct."
+      }
+    },
+    {
+      "language": "de",
+      "prompt": "Zustellbarkeitsabschluss – führen Sie die aufgelisteten Punkte wie geschrieben aus. Überprüfen Sie marketing@dailydeals.com und markieren Sie, ob es sich um eine Wegwerf- oder problematische Adresse handelt. Bestimmen Sie, ob newsletter@quickoffers.net eine temporäre/Wegwerfadresse ist. Überprüfen Sie updates@flashsales.org auf Gültigkeit und Zustellbarkeit. Überprüfen Sie, ob dailydeals.com eine Wegwerfdomain ist und schlagen Sie eine bessere Alternative vor. Überprüfen Sie, ob quickoffers.net verfügbar oder bereits vergeben ist. Überprüfen Sie, ob die Adresse ein Rollen-/Team-Posteingang ist (Support/Vertrieb). Bestätigen Sie den E-Mail-Server-Akzeptanzstatus für marketing@dailydeals.com. Extrahieren Sie öffentliche Kontakt-E-Mails von https://www.mycompany.org/contact. Führen Sie die entsprechende Prüfung für die E-Mail-API durch.",
+      "id": "lang_de",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "de",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks, authorizations, and maintains the original tone and order of information. The target language is correct."
+      }
+    },
+    {
+      "language": "pt",
+      "prompt": "Fechamento de entregabilidade — execute os itens listados conforme escrito. Verifique marketing@dailydeals.com e sinalize se é descartável ou problemático. Determine se newsletter@quickoffers.net é um endereço temporário/descartável. Verifique updates@flashsales.org quanto à validade e entregabilidade. Verifique se dailydeals.com é um domínio descartável e sugira uma alternativa melhor. Verifique se quickoffers.net está disponível ou já foi ocupado. Verifique se o endereço é uma caixa de entrada de função/equipe (suporte/vendas). Confirme o status de aceitação de e-mail do servidor de e-mail para marketing@dailydeals.com. Extraia e-mails de contato públicos de https://www.mycompany.org/contact. Execute a verificação correspondente para a API de e-mail.",
+      "id": "lang_pt",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "pt",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks, authorizations, and maintains the original tone and order of information. The target language is correct."
+      }
+    }
+  ],
+  "english_source": {
+    "language": "en",
+    "prompt": "Deliverability close‑out—execute the listed items as written. Check marketing@dailydeals.com and flag if it’s disposable or problematic. Determine whether newsletter@quickoffers.net is a temporary/throwaway address. Verify updates@flashsales.org for validity and deliverability. Check if dailydeals.com is a disposable domain and suggest a better alternative. Check whether quickoffers.net is available or already taken. Check whether the address is a role/team inbox (support/sales). Confirm mail server accept‑mail status for marketing@dailydeals.com. Extract public contact emails from https://www.mycompany.org/contact. Run the corresponding check for Email API.",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation"
+}

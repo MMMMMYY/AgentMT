@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:23 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"查找我可能喜欢的评价最高的电影。\"}, {\"language\": \"ru\", \"prompt\": \"Найдите самые рейтинговые фильмы, которые мне могут понравиться.\"}, {\"language\": \"fr\", \"prompt\": \"Trouvez les films les mieux notés que je pourrais aimer.\"}, {\"language\": \"es\", \"prompt\": \"Encuentra películas mejor valoradas que me puedan gustar.\"}, {\"language\": \"ar\", \"prompt\": \"ابحث عن الأفلام الأعلى تقييمًا التي قد تعجبني.\"}, {\"language\": \"de\", \"prompt\": \"Finde top-bewertete Filme, die mir gefallen könnten.\"}, {\"language\": \"pt\", \"prompt\": \"Encontre filmes bem avaliados que eu possa gostar.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:16:21.874825Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "tSCnasmyNZKplb4Pj_fw-Qc",
+  "usage_metadata": {
+    "candidates_token_count": 165,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 165
+      }
+    ],
+    "prompt_token_count": 305,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 305
+      }
+    ],
+    "total_token_count": 470,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

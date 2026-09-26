@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Mapping-S-9-46",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Mapping",
+  "taskType": "Batch Geocoding → County Analysis → Reverse Geocoding → Local Discovery → Timezone & Elevation",
+  "prompt": "I'm looking for information about the Empire State Building in New York. Can you find its coordinates, then check what county is located at longitude -73.98609 and latitude 45.50737? After that, I'd like to see a list of all counties in Virginia. Then geocode King County in Washington, United States and find places within 1000 meters of its coordinates. From those results, show me details about Goatea since it's the closest spot. Also, what's the address at coordinates -123.0470199, 49.2813458? Finally, can you tell me the timezone at longitude -123.0469687 and latitude 47.3871102, and check the elevation using the GMT offset value of -8?",
+  "scope": "Address From To Latitude Longitude, boundaries-io, Geocoding by API-Ninjas, Places Nearby a Coordinates, MapFanAPI - Search, Geocode - Forward and Reverse, Reverse Geocoding and Geolocation Service, MapToolkit",
+  "trajectoryType": "sequential",
+  "referenceSteps": 9,
+  "positiveOracle": "1. Address From To Latitude Longitude: Address to Coordinates  (latitude longitude) | required: address=Empire State Building, New York, NY\n2. boundaries-io: Query by Location for County boundaries | required: longitude=-73.98609, latitude=45.50737\n3. boundaries-io: Get County names by State. | required: state=va\n4. Geocoding by API-Ninjas: /v1/geocoding | required: city=King County | optional: state=Washington, country=United States\n5. Places Nearby a Coordinates: Nearby | required: lon=-122.28427616232469, lat=47.3871102 | optional: radius=1000\n6. MapFanAPI - Search: spot | required: name=Goatea\n7. Geocode - Forward and Reverse: Reverse geocode | required: lng=-123.0470199, lat=49.2813458\n8. Reverse Geocoding and Geolocation Service: GetTimezone | required: longitude=-123.0469687, latitude=47.3871102\n9. MapToolkit: Elevation | required: points=-8",
+  "negativeOracle": "",
+  "referenceTrajectory": "Address From To Latitude Longitude: Address to Coordinates  (latitude longitude) → boundaries-io: Query by Location for County boundaries → boundaries-io: Get County names by State. → Geocoding by API-Ninjas: /v1/geocoding → Places Nearby a Coordinates: Nearby → MapFanAPI - Search: spot → Geocode - Forward and Reverse: Reverse geocode → Reverse Geocoding and Geolocation Service: GetTimezone → MapToolkit: Elevation",
+  "sourceLocator": "public_data/sequential/Mapping/traj_query.json | item=46",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/sequential/Mapping/traj_query.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 7 clean candidates in Mapping/sequential/9-tool stratum."
+}

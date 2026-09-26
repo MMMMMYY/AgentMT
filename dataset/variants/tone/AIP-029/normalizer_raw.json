@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:39:48 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"\",\n  \"task\": \"get my current credit score and full credit history\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-08T10:39:45.903951Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "8eWfao-WN7Swlb4P-s-a-QQ",
+  "usage_metadata": {
+    "candidates_token_count": 25,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 25
+      }
+    ],
+    "prompt_token_count": 159,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 159
+      }
+    ],
+    "thoughts_token_count": 293,
+    "total_token_count": 477,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

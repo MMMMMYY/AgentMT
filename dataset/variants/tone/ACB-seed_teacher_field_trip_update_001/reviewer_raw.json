@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:45:19 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Could you message...' is an ability question, not a direct request to execute the task. It implies a previous conversation or a query about the agent's capability.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Is it possible to message...' is an ability/possibility question, not a direct request to execute the task. It implies a previous conversation or a query about the agent's capability.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Can you please message...' is an ability question, not a direct request to execute the task. It implies a previous conversation or a query about the agent's capability.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Please help me message...' is a request for assistance, not a direct command for the agent to perform the messaging action itself. It implies the user wants to be involved or needs help with the process.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Message Ms. Alvarez... please.' is a direct request to execute the task, with 'please' adding politeness without changing the imperative nature of the request.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Can you message...' is an ability question, not a direct request to execute the task. It implies a previous conversation or a query about the agent's capability.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Are you able to message...' is an ability question, not a direct request to execute the task. It implies a previous conversation or a query about the agent's capability.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Can you help me message...' is a request for assistance, not a direct command for the agent to perform the messaging action itself. It implies the user wants to be involved or needs help with the process.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Please message Ms. Alvarez...' is a direct request to execute the task, with 'please' adding politeness without changing the imperative nature of the request.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Message Ms. Alvarez...' is a direct imperative command, equivalent to the source.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Just message Ms. Alvarez...' is a direct imperative command, with 'Just' adding an impolite tone but not altering the core task request.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Message Ms. Alvarez... Do it.' is a direct imperative command, with 'Do it' reinforcing the command without changing the task.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'This time, message Ms. Alvarez...' is a direct imperative command. 'This time' implies a previous failure or a repeated request, adding context but not changing the current task.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'You need to message Ms. Alvarez...' is a statement of necessity or obligation, not a direct command to execute the task. It implies an explanation or a directive rather than a request for immediate action.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Why can't you message Ms. Alvarez...' is a question about the agent's inability or a challenge, not a direct request to execute the task. It implies a previous conversation or a problem.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-08T10:45:12.699030Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "OOefapbVKp3ti-8PoLzekQU",
+  "usage_metadata": {
+    "candidates_token_count": 1328,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1328
+      }
+    ],
+    "prompt_token_count": 1006,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1006
+      }
+    ],
+    "total_token_count": 2334,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

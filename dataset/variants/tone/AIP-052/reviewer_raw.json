@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:43:26 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Could you find concerts or events happening near me this weekend?' is a polite rephrasing of the original question, maintaining the core task and information.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Is it possible to find concerts or events happening near me this weekend?' asks about the system's capability rather than directly requesting the action, making it an ability question.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Can you please find concerts or events happening near me this weekend?' is a polite rephrasing of the original question, maintaining the core task and information.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Please help me find concerts or events happening near me this weekend.' is a polite rephrasing of the original question, maintaining the core task and information.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Find concerts or events happening near me this weekend, please.' is a polite rephrasing of the original question, maintaining the core task and information.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Can you find concerts or events happening near me this weekend?' is a neutral rephrasing of the original question, maintaining the core task and information.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Are you able to find concerts or events happening near me this weekend?' asks about the system's capability rather than directly requesting the action, making it an ability question.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Can you help me find concerts or events happening near me this weekend?' is a neutral rephrasing of the original question, maintaining the core task and information.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Please find concerts or events happening near me this weekend.' is a neutral rephrasing of the original question, maintaining the core task and information.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Find concerts or events happening near me this weekend.' is a direct imperative that maintains the core task and information.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Just find concerts or events happening near me this weekend.' is an impolite imperative that maintains the core task and information.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Find concerts or events happening near me this weekend. Do it.' is an impolite imperative that maintains the core task and information.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'This time, find concerts or events happening near me this weekend.' is an impolite imperative that maintains the core task and information. 'This time' implies a previous interaction but doesn't change the current task.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'You need to find concerts or events happening near me this weekend.' is an impolite imperative that maintains the core task and information.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Why can't you find concerts or events happening near me this weekend?' is a question about the system's inability or a challenge, not a direct request to perform the action.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-08T10:43:19.902439Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "x-afaqeKN5_EqMgP_ov7qAs",
+  "usage_metadata": {
+    "candidates_token_count": 1288,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1288
+      }
+    ],
+    "prompt_token_count": 879,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 879
+      }
+    ],
+    "total_token_count": 2167,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

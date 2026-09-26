@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:38:22 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request maintains both actions (review, suggest) and their specific details. 'Could you' is a polite request, equivalent to 'Please'.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks about the possibility of performing the task ('Is it possible to...'), not directly requesting its execution. This changes the nature of the interaction from a request to an inquiry about capability.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request retains all original actions and details. 'Can you please' is a polite request, equivalent to 'Please'.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request maintains both actions and their specific details. 'Please help me review' is functionally equivalent to 'Please review' in this context, as the system is expected to perform the review.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request is an imperative with 'please' at the end, directly asking for the same actions and details as the original.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request retains all original actions and details. 'Can you' is a common way to make a direct request, implying the same authorization as 'Please'.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks about the ability to perform the task ('Are you able to...'), not directly requesting its execution. This changes the nature of the interaction from a request to an inquiry about capability.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request maintains both actions and their specific details. 'Can you help me review' is functionally equivalent to 'Can you review' in this context.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"This prompt is identical to the original source request.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request is an imperative, directly asking for the same actions and details as the original. The lack of 'please' makes it neutral but doesn't negate the authorization.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request uses an imperative with 'Just', directly asking for the same actions and details, implying a direct command.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request uses an imperative followed by a direct command ('Do it'), clearly asking for the same actions and details.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request uses an imperative with 'This time', directly asking for the same actions and details. 'This time' implies a previous conversation or attempt, but doesn't change the current request's authorization.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request uses 'You need to', which is a direct and forceful way to state the expectation for the system to perform the specified actions.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"This prompt is a rhetorical question challenging the system's ability or willingness ('Why can't you...'), not a direct request to perform the task. It asks 'why' instead of 'please do'.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.264394066690916
+    }
+  ],
+  "create_time": "2026-09-08T10:38:04.538289Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "jOWfarHtIOmx1t8P_qfo0Qs",
+  "usage_metadata": {
+    "candidates_token_count": 1235,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1235
+      }
+    ],
+    "prompt_token_count": 1060,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1060
+      }
+    ],
+    "thoughts_token_count": 2574,
+    "total_token_count": 4869,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,236 @@
+{
+  "task_id": "TJB-News_Media-S-7-75",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "I'm researching climate change news from different perspectives.\n\nCould you show me all climate change news, then search for that headline \"Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM\" in English, then narrow down to CNN's coverage, then focus specifically on their Economy category, then search for \"House moves toward averting a shutdown, sidestepping a Trump demand\" within those economic articles, then show me all the latest articles, and finally, find the 10 most recent stories about GraphQL since it seems to be appearing frequently in tech discussions about climate solutions?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request maintains all original actions and their sequence, only adding polite phrasing."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p02",
+      "prompt": "I'm researching climate change news from different perspectives.\n\nIs it possible to show me all climate change news, then search for that headline \"Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM\" in English, then narrow down to CNN's coverage, then focus specifically on their Economy category, then search for \"House moves toward averting a shutdown, sidestepping a Trump demand\" within those economic articles, then show me all the latest articles, and finally, find the 10 most recent stories about GraphQL since it seems to be appearing frequently in tech discussions about climate solutions?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'Is it possible to show me' turns the direct request into a question about capability, which is not a direct command to execute the task."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p03",
+      "prompt": "I'm researching climate change news from different perspectives.\n\nCan you please show me all climate change news, then search for that headline \"Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM\" in English, then narrow down to CNN's coverage, then focus specifically on their Economy category, then search for \"House moves toward averting a shutdown, sidestepping a Trump demand\" within those economic articles, then show me all the latest articles, and finally, find the 10 most recent stories about GraphQL since it seems to be appearing frequently in tech discussions about climate solutions?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'Can you please show me' turns the direct request into a question about capability, which is not a direct command to execute the task."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p04",
+      "prompt": "I'm researching climate change news from different perspectives.\n\nPlease help me show me all climate change news, then search for that headline \"Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM\" in English, then narrow down to CNN's coverage, then focus specifically on their Economy category, then search for \"House moves toward averting a shutdown, sidestepping a Trump demand\" within those economic articles, then show me all the latest articles, and finally, find the 10 most recent stories about GraphQL since it seems to be appearing frequently in tech discussions about climate solutions.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'Please help me show me' implies the user needs assistance in performing the action themselves, rather than requesting the system to perform it directly."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p05",
+      "prompt": "I'm researching climate change news from different perspectives.\n\nShow me all climate change news, then search for that headline \"Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM\" in English, then narrow down to CNN's coverage, then focus specifically on their Economy category, then search for \"House moves toward averting a shutdown, sidestepping a Trump demand\" within those economic articles, then show me all the latest articles, and finally, find the 10 most recent stories about GraphQL since it seems to be appearing frequently in tech discussions about climate solutions, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request maintains all original actions and their sequence, only adding polite phrasing at the end."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n01",
+      "prompt": "I'm researching climate change news from different perspectives.\n\nCan you show me all climate change news, then search for that headline \"Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM\" in English, then narrow down to CNN's coverage, then focus specifically on their Economy category, then search for \"House moves toward averting a shutdown, sidestepping a Trump demand\" within those economic articles, then show me all the latest articles, and finally, find the 10 most recent stories about GraphQL since it seems to be appearing frequently in tech discussions about climate solutions?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'Can you show me' turns the direct request into a question about capability, which is not a direct command to execute the task."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n02",
+      "prompt": "I'm researching climate change news from different perspectives.\n\nAre you able to show me all climate change news, then search for that headline \"Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM\" in English, then narrow down to CNN's coverage, then focus specifically on their Economy category, then search for \"House moves toward averting a shutdown, sidestepping a Trump demand\" within those economic articles, then show me all the latest articles, and finally, find the 10 most recent stories about GraphQL since it seems to be appearing frequently in tech discussions about climate solutions?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'Are you able to show me' turns the direct request into a question about capability, which is not a direct command to execute the task."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n03",
+      "prompt": "I'm researching climate change news from different perspectives.\n\nCan you help me show me all climate change news, then search for that headline \"Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM\" in English, then narrow down to CNN's coverage, then focus specifically on their Economy category, then search for \"House moves toward averting a shutdown, sidestepping a Trump demand\" within those economic articles, then show me all the latest articles, and finally, find the 10 most recent stories about GraphQL since it seems to be appearing frequently in tech discussions about climate solutions?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'Can you help me show me' implies the user needs assistance in performing the action themselves, rather than requesting the system to perform it directly."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n04",
+      "prompt": "I'm researching climate change news from different perspectives.\n\nPlease show me all climate change news, then search for that headline \"Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM\" in English, then narrow down to CNN's coverage, then focus specifically on their Economy category, then search for \"House moves toward averting a shutdown, sidestepping a Trump demand\" within those economic articles, then show me all the latest articles, and finally, find the 10 most recent stories about GraphQL since it seems to be appearing frequently in tech discussions about climate solutions.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request maintains all original actions and their sequence, only adding polite phrasing."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n05",
+      "prompt": "I'm researching climate change news from different perspectives.\n\nShow me all climate change news, then search for that headline \"Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM\" in English, then narrow down to CNN's coverage, then focus specifically on their Economy category, then search for \"House moves toward averting a shutdown, sidestepping a Trump demand\" within those economic articles, then show me all the latest articles, and finally, find the 10 most recent stories about GraphQL since it seems to be appearing frequently in tech discussions about climate solutions.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request maintains all original actions and their sequence, with no significant changes to the imperative nature."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i01",
+      "prompt": "I'm researching climate change news from different perspectives.\n\nJust show me all climate change news, then search for that headline \"Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM\" in English, then narrow down to CNN's coverage, then focus specifically on their Economy category, then search for \"House moves toward averting a shutdown, sidestepping a Trump demand\" within those economic articles, then show me all the latest articles, and finally, find the 10 most recent stories about GraphQL since it seems to be appearing frequently in tech discussions about climate solutions.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request maintains all original actions and their sequence, with 'Just' adding an impolite tone but not changing the imperative."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i02",
+      "prompt": "I'm researching climate change news from different perspectives.\n\nShow me all climate change news, then search for that headline \"Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM\" in English, then narrow down to CNN's coverage, then focus specifically on their Economy category, then search for \"House moves toward averting a shutdown, sidestepping a Trump demand\" within those economic articles, then show me all the latest articles, and finally, find the 10 most recent stories about GraphQL since it seems to be appearing frequently in tech discussions about climate solutions. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request maintains all original actions and their sequence, with 'Do it' reinforcing the imperative."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i03",
+      "prompt": "I'm researching climate change news from different perspectives.\n\nThis time, show me all climate change news, then search for that headline \"Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM\" in English, then narrow down to CNN's coverage, then focus specifically on their Economy category, then search for \"House moves toward averting a shutdown, sidestepping a Trump demand\" within those economic articles, then show me all the latest articles, and finally, find the 10 most recent stories about GraphQL since it seems to be appearing frequently in tech discussions about climate solutions.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request maintains all original actions and their sequence, with 'This time' implying a previous interaction but not changing the current task."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i04",
+      "prompt": "I'm researching climate change news from different perspectives.\n\nYou need to show me all climate change news, then search for that headline \"Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM\" in English, then narrow down to CNN's coverage, then focus specifically on their Economy category, then search for \"House moves toward averting a shutdown, sidestepping a Trump demand\" within those economic articles, then show me all the latest articles, and finally, find the 10 most recent stories about GraphQL since it seems to be appearing frequently in tech discussions about climate solutions.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'You need to show me' is a statement of necessity or obligation, not a direct command for the system to execute the task."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i05",
+      "prompt": "I'm researching climate change news from different perspectives.\n\nWhy can't you show me all climate change news, then search for that headline \"Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM\" in English, then narrow down to CNN's coverage, then focus specifically on their Economy category, then search for \"House moves toward averting a shutdown, sidestepping a Trump demand\" within those economic articles, then show me all the latest articles, and finally, find the 10 most recent stories about GraphQL since it seems to be appearing frequently in tech discussions about climate solutions?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'Why can't you show me' is a rhetorical question expressing frustration or doubt about capability, not a direct command to execute the task."
+      },
+      "eligible_pilot": false
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "9feef259fef5988542f6683d4ae3404b7af887632a6fcfc48a5734f27e0a051c",
+  "scenario_id": "TJB-News_Media-S-7-75"
+}

@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:45:09 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Could you reply...' is an ability question, not a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Is it possible to reply...' is an ability question, not a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Can you please reply...' is an ability question, not a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Please help me reply...' is a request for assistance, not a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Reply... please.' is a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Can you reply...' is an ability question, not a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Are you able to reply...' is an ability question, not a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Can you help me reply...' is a request for assistance, not a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Please reply...' is a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Reply...' is a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Just reply...' is a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Reply... Do it.' is a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'This time, reply...' is a direct request to execute the task, implying a previous conversation but still a command.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'You need to reply...' is a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Why can't you reply...' is a question about ability/explanation, not a direct request to execute the task.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.02019534256588409
+    }
+  ],
+  "create_time": "2026-09-08T10:45:03.898784Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "L-efauDtNrSHi-8PnN2DmA4",
+  "usage_metadata": {
+    "candidates_token_count": 1081,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1081
+      }
+    ],
+    "prompt_token_count": 1022,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1022
+      }
+    ],
+    "total_token_count": 2103,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

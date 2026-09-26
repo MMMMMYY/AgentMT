@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Travel-S-7-90",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Travel",
+  "taskType": "Country Discovery → Flight Planning → Destination Hotel Search",
+  "prompt": "I'm planning a trip and want to explore some unique places. Could you first show me a list of countries to browse through? I'm particularly interested in the Netherlands Antilles since I heard it has a distinctive geographical status. After finding information about it, I'd like to see the highest ranked airport in that region. I think Amsterdam's Schiphol Airport (AMS) would be ideal. Then I need to check flights departing from Schiphol (EHAM) on September 1, 2025, around noon. From those flights, I'm interested in KL861 since I want to travel to the easternmost destination possible. Once I know where that flight lands, could you give me information about the arrival airport? Finally, I'd like to search for hotels in Mumbai to stay during my trip.",
+  "scope": "Priceline com Provider, Flightera Flight Data",
+  "trajectoryType": "sequential",
+  "referenceSteps": 7,
+  "positiveOracle": "1. Priceline com Provider: Download countries | optional: limit=100\n2. Priceline com Provider: Auto Suggest | required: string=Netherlands Antilles | optional: get_airports=true, get_cities=true, get_regions=true, max_results=10\n3. Flightera Flight Data: airportInfo | optional: iata=AMS\n4. Flightera Flight Data: airportFlights | required: direction=departure, ident=EHAM, time=2025-09-01T12:00:00.000Z\n5. Flightera Flight Data: flightInfo | required: flnr=KL861\n6. Flightera Flight Data: airportInfo | optional: ident=VABB\n7. Priceline com Provider: Search hotels locations | required: name=Mumbai, search_type=ALL",
+  "negativeOracle": "",
+  "referenceTrajectory": "Priceline com Provider: Download countries → Priceline com Provider: Auto Suggest → Flightera Flight Data: airportInfo → Flightera Flight Data: airportFlights → Flightera Flight Data: flightInfo → Flightera Flight Data: airportInfo → Priceline com Provider: Search hotels locations",
+  "sourceLocator": "public_data/sequential/Travel/traj_query.json | item=90",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/sequential/Travel/traj_query.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 6 clean candidates in Travel/sequential/7-tool stratum."
+}

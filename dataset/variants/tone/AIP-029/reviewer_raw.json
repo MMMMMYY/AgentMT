@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:40:06 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original asks for information; this politely requests the system to perform an action to retrieve that information. The core intent is preserved.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"This prompt asks if it's 'possible' to get the information, which is a question about capability/ability, not a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original asks for information; this politely requests the system to perform an action to retrieve that information. The core intent is preserved.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original asks for information; this politely requests assistance in obtaining that information. The core intent is preserved.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original asks for information; this is a polite imperative request to retrieve that information. The core intent is preserved.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original asks for information; this neutrally requests the system to perform an action to retrieve that information. The core intent is preserved.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"This prompt asks if the system is 'able' to get the information, which is a question about capability/ability, not a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original asks for information; this neutrally requests assistance in obtaining that information. The core intent is preserved.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original asks for information; this is a neutral imperative request to retrieve that information. The core intent is preserved.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original asks for information; this is a neutral imperative request to retrieve that information. The core intent is preserved.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original asks for information; this is an impolite imperative request to retrieve that information. The core intent is preserved.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original asks for information; this is an impolite and demanding imperative request to retrieve that information. The core intent is preserved.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original asks for information; this is an impolite imperative request to retrieve that information, implying a previous context but still requesting the action.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original asks for information; this is an impolite and demanding statement that the system must retrieve that information. The core intent is preserved.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"This prompt asks 'why' the system cannot get the information, which is a question about inability/failure, not a direct request to execute the task. It implies a previous conversation or expectation.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.25331562226661897
+    }
+  ],
+  "create_time": "2026-09-08T10:39:48.450151Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "9OWfaue8G86nlb4PypPj2Ac",
+  "usage_metadata": {
+    "candidates_token_count": 1179,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1179
+      }
+    ],
+    "prompt_token_count": 879,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 879
+      }
+    ],
+    "thoughts_token_count": 2737,
+    "total_token_count": 4795,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

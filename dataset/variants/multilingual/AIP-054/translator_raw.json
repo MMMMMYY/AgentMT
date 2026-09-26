@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:32 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"设计一个“Beach Vibes”Instagram帖子，并在Instagram上分享我昨天在海滩上从我的云端硬盘拍摄的照片。\"},{\"language\":\"ru\",\"prompt\":\"Создайте пост в Instagram с надписью \\\"Beach Vibes\\\" и поделитесь фотографией, которую я сделал вчера на пляже, из моего облачного хранилища в Instagram.\"},{\"language\":\"fr\",\"prompt\":\"Concevez une publication Instagram \\\"Beach Vibes\\\" et partagez la photo que j'ai prise hier à la plage depuis mon Cloud Drive sur Instagram.\"},{\"language\":\"es\",\"prompt\":\"Diseña una publicación de Instagram \\\"Beach Vibes\\\" y comparte la foto que tomé ayer en la playa desde mi Cloud Drive en Instagram.\"},{\"language\":\"ar\",\"prompt\":\"صمم منشورًا على إنستغرام بعنوان \\\"Beach Vibes\\\" وشارك الصورة التي التقطتها أمس على الشاطئ من محرك الأقراص السحابي الخاص بي على إنستغرام.\"},{\"language\":\"de\",\"prompt\":\"Gestalte einen \\\"Beach Vibes\\\" Instagram-Post und teile das Foto, das ich gestern am Strand gemacht habe, von meinem Cloud Drive auf Instagram.\"},{\"language\":\"pt\",\"prompt\":\"Crie uma publicação \\\"Beach Vibes\\\" para o Instagram e compartilhe a foto que tirei ontem na praia do meu Cloud Drive no Instagram.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:16:30.505364Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "viCnapTsHt-OwLUP1M7HqQU",
+  "usage_metadata": {
+    "candidates_token_count": 279,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 279
+      }
+    ],
+    "prompt_token_count": 322,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 322
+      }
+    ],
+    "total_token_count": 601,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

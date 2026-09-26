@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Email-P-5-134",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Email",
+  "taskType": "parallel tool orchestration",
+  "prompt": "I need straight‑through checks for this cleanup. Verify sarah.johnson@gmail.com for validity and deliverability. Confirm mail server accept‑mail status for marketing@tempcompany.org. Determine whether procurement@supplierxyz.com is a temporary/throwaway address. Verify marketing@tempcompany.org for validity and deliverability. Run the corresponding check for Email API.",
+  "scope": "",
+  "trajectoryType": "parallel",
+  "referenceSteps": 5,
+  "positiveOracle": "1. Blaze Verify: Verify an email | required: email=sarah.johnson@gmail.com | optional: smtp=true\n2. Email Existence Validator: Get the MX Records | required: email=marketing@tempcompany.org\n3. Email Existence Validator: Check for Disposable emails | required: email=procurement@supplierxyz.com\n4. Email Address Validator: Validate Email Address | required: email=marketing@tempcompany.org\n5. Email API: Get Fake Email Address",
+  "negativeOracle": "",
+  "referenceTrajectory": "Blaze Verify: Verify an email ∥ Email Existence Validator: Get the MX Records ∥ Email Existence Validator: Check for Disposable emails ∥ Email Address Validator: Validate Email Address ∥ Email API: Get Fake Email Address",
+  "sourceLocator": "public_data/parallel/Email/simple_ver.json | item=134",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/parallel/Email/simple_ver.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 25 clean candidates in Email/parallel/5-tool stratum."
+}

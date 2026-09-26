@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:32:02 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"es\", \"prompt\": \"Asegúrese de que el documento LaTeX ⟦0⟧ se compile correctamente utilizando la distribución TeX instalada y el compilador pdflatex sin ⟦1⟧ advertencias. Al hacerlo, las únicas ediciones que puede realizar son reemplazar palabras en ⟦2⟧ con sus sinónimos especificados en ⟦3⟧ (cada línea especifica una familia de sinónimos permitidos). No edite ⟦4⟧ ni ⟦5⟧.\\n\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-23T08:32:00.919713Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "gI6zaqGROK6P89kPip69oQs",
+  "usage_metadata": {
+    "candidates_token_count": 110,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 110
+      }
+    ],
+    "prompt_token_count": 188,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 188
+      }
+    ],
+    "total_token_count": 298,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

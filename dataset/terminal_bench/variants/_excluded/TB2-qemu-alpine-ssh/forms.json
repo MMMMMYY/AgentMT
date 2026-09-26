@@ -1,0 +1,159 @@
+[
+  {
+    "id": "source",
+    "family": "source",
+    "prompt": "Start the /app/alpine.iso image in qemu, and then start an ssh server on the alpine linux vm. When you're done, I should be able to run `ssh -p 2222 root@localhost` with password `password123` and be dropped into a shell. On the /app/alpine.iso image, the default username is root with no password.\n"
+  },
+  {
+    "id": "p01",
+    "family": "tone",
+    "tone": "polite",
+    "prompt": "Could you complete the following task?\n\nStart the /app/alpine.iso image in qemu, and then start an ssh server on the alpine linux vm. When you're done, I should be able to run `ssh -p 2222 root@localhost` with password `password123` and be dropped into a shell. On the /app/alpine.iso image, the default username is root with no password.\n"
+  },
+  {
+    "id": "n01",
+    "family": "tone",
+    "tone": "neutral",
+    "prompt": "Can you complete the following task?\n\nStart the /app/alpine.iso image in qemu, and then start an ssh server on the alpine linux vm. When you're done, I should be able to run `ssh -p 2222 root@localhost` with password `password123` and be dropped into a shell. On the /app/alpine.iso image, the default username is root with no password.\n"
+  },
+  {
+    "id": "i01",
+    "family": "tone",
+    "tone": "impolite",
+    "prompt": "Just complete the following task.\n\nStart the /app/alpine.iso image in qemu, and then start an ssh server on the alpine linux vm. When you're done, I should be able to run `ssh -p 2222 root@localhost` with password `password123` and be dropped into a shell. On the /app/alpine.iso image, the default username is root with no password.\n"
+  },
+  {
+    "id": "formulation",
+    "family": "formulation",
+    "subtype": "constrained_paraphrasing",
+    "method": "gpt-4o-2024-11-20 locked-span paraphrasing",
+    "prompt": "Launch the /app/alpine.iso image using qemu, and set up an SSH server on the Alpine Linux virtual machine. After completing this, I should be able to connect using `ssh -p 2222 root@localhost` with the password `password123` to access a shell. Note that the /app/alpine.iso image has a default username of root with no password.\n",
+    "strict_mt_eligible": false,
+    "candidates": [
+      {
+        "candidate_id": "g01",
+        "prompt": "Launch the /app/alpine.iso image using qemu, and set up an SSH server on the Alpine Linux virtual machine. After completing this, I should be able to connect using `ssh -p 2222 root@localhost` with the password `password123` to access a shell. Note that the /app/alpine.iso image has a default username of root with no password.",
+        "checks": {
+          "passed": false,
+          "failures": [
+            "surface_similarity_too_low"
+          ],
+          "protected_literals": [
+            "2222"
+          ],
+          "missing_literals": [],
+          "source_negation_scope_terms": [
+            "no"
+          ],
+          "candidate_negation_scope_terms": [
+            "no"
+          ],
+          "source_modals": [
+            "should"
+          ],
+          "candidate_modals": [
+            "should"
+          ],
+          "length_ratio": 1.0545,
+          "surface_similarity": 0.2906
+        },
+        "missing_locked_spans": []
+      },
+      {
+        "candidate_id": "g02",
+        "prompt": "Use qemu to boot the /app/alpine.iso image, and configure an SSH server on the Alpine Linux VM. Once this is done, I should be able to execute `ssh -p 2222 root@localhost` with the password `password123` to log into a shell. The /app/alpine.iso image defaults to the root user without a password.",
+        "checks": {
+          "passed": false,
+          "failures": [
+            "negation_or_scope_marker_changed",
+            "surface_similarity_too_low"
+          ],
+          "protected_literals": [
+            "2222"
+          ],
+          "missing_literals": [],
+          "source_negation_scope_terms": [
+            "no"
+          ],
+          "candidate_negation_scope_terms": [
+            "without"
+          ],
+          "source_modals": [
+            "should"
+          ],
+          "candidate_modals": [
+            "should"
+          ],
+          "length_ratio": 1.0,
+          "surface_similarity": 0.2857
+        },
+        "missing_locked_spans": []
+      }
+    ],
+    "routing_reason": "'When you're done' would precede the operation it depends on"
+  },
+  {
+    "id": "lang_zh",
+    "family": "multilingual",
+    "prompt": "在qemu中启动 /app/alpine.iso 镜像，然后在alpine linux虚拟机上启动一个ssh服务器。完成后，我应该能够使用密码 `password123` 运行 `ssh -p 2222 root@localhost` 并进入shell。在 /app/alpine.iso 镜像上，默认用户名为root，没有密码。\n",
+    "placeholder_error": null,
+    "review": {
+      "language": "zh",
+      "task_equivalent": true,
+      "authorization_equivalent": true,
+      "tone_preserved": true,
+      "information_order_preserved": true,
+      "target_language_correct": true,
+      "reason": "All aspects of the task, authorization, tone, and information order are preserved. The target language is correct."
+    },
+    "strict_mt_eligible": true
+  },
+  {
+    "id": "lang_ru",
+    "family": "multilingual",
+    "prompt": "Запустите образ /app/alpine.iso в qemu, а затем запустите ssh-сервер на виртуальной машине alpine linux. Когда вы закончите, я должен иметь возможность запустить `ssh -p 2222 root@localhost` с паролем `password123` и попасть в оболочку. На образе /app/alpine.iso имя пользователя по умолчанию — root без пароля.\n",
+    "placeholder_error": null,
+    "review": {
+      "language": "ru",
+      "task_equivalent": true,
+      "authorization_equivalent": true,
+      "tone_preserved": true,
+      "information_order_preserved": true,
+      "target_language_correct": true,
+      "reason": "All aspects of the task, authorization, tone, and information order are preserved. The target language is correct."
+    },
+    "strict_mt_eligible": true
+  },
+  {
+    "id": "lang_fr",
+    "family": "multilingual",
+    "prompt": "Démarrez l'image /app/alpine.iso dans qemu, puis démarrez un serveur ssh sur la VM alpine linux. Une fois que vous avez terminé, je devrais pouvoir exécuter `ssh -p 2222 root@localhost` avec le mot de passe `password123` et être déposé dans un shell. Sur l'image /app/alpine.iso, le nom d'utilisateur par défaut est root sans mot de passe.\n",
+    "placeholder_error": null,
+    "review": {
+      "language": "fr",
+      "task_equivalent": true,
+      "authorization_equivalent": true,
+      "tone_preserved": true,
+      "information_order_preserved": true,
+      "target_language_correct": true,
+      "reason": "All aspects of the task, authorization, tone, and information order are preserved. The target language is correct."
+    },
+    "strict_mt_eligible": true
+  },
+  {
+    "id": "lang_es",
+    "family": "multilingual",
+    "prompt": "Inicie la imagen /app/alpine.iso en qemu y luego inicie un servidor ssh en la máquina virtual alpine linux. Cuando termine, debería poder ejecutar `ssh -p 2222 root@localhost` con la contraseña `password123` y acceder a un shell. En la imagen /app/alpine.iso, el nombre de usuario predeterminado es root sin contraseña.\n",
+    "placeholder_error": null,
+    "review": {
+      "language": "es",
+      "task_equivalent": true,
+      "authorization_equivalent": true,
+      "tone_preserved": true,
+      "information_order_preserved": true,
+      "target_language_correct": true,
+      "reason": "All aspects of the task, authorization, tone, and information order are preserved. The target language is correct."
+    },
+    "strict_mt_eligible": true
+  }
+]

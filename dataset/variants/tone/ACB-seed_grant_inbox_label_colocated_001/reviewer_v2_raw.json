@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:51:20 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"reviews\": [{\"id\": \"p01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request form.\"}, {\"id\": \"p02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request form.\"}, {\"id\": \"p03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request form.\"}, {\"id\": \"p04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The phrase 'help me forward' is a common way to request the agent to perform the action.\"}, {\"id\": \"p05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The addition of 'please' at the end is a conventional polite request form.\"}, {\"id\": \"n01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request form.\"}, {\"id\": \"n02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request form.\"}, {\"id\": \"n03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The phrase 'help me forward' is a common way to request the agent to perform the action.\"}, {\"id\": \"n04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The addition of 'please' at the beginning is a conventional polite request form.\"}, {\"id\": \"n05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"This is a direct imperative, which is pragmatically equivalent to the source.\"}, {\"id\": \"i01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The addition of 'Just' adds a nuance of impatience or directness but does not change the core task.\"}, {\"id\": \"i02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The addition of 'Do it' adds an imperative tone but does not change the core task.\"}, {\"id\": \"i03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The phrase 'This time' implies a previous attempt or failure, which is a change in context/history.\"}, {\"id\": \"i04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The phrase 'You need to' implies an obligation or instruction rather than a request, but the task itself remains the same.\"}, {\"id\": \"i05\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"This variant shifts from a request to an inquiry about the agent's capabilities or a challenge, rather than a direct request to perform the action.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.07830161343778344
+    }
+  ],
+  "create_time": "2026-09-08T10:51:17.066095Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "peifaq-EBLSHi-8PnN2DmA4",
+  "usage_metadata": {
+    "candidates_token_count": 758,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 758
+      }
+    ],
+    "prompt_token_count": 761,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 761
+      }
+    ],
+    "total_token_count": 1519,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:42:54 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"reviews\": [{\"id\": \"p01\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt asks if the action can be performed, not to perform it.\"}, {\"id\": \"p02\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt asks if the action is possible, not to perform it.\"}, {\"id\": \"p03\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt asks if the action can be performed, not to perform it.\"}, {\"id\": \"p04\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt asks for help to order, not to directly order.\"}, {\"id\": \"p05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt is a direct request to order, with 'please' added.\"}, {\"id\": \"n01\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt asks if the action can be performed, not to perform it.\"}, {\"id\": \"n02\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt asks about the ability to perform the action, not to perform it.\"}, {\"id\": \"n03\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt asks for help to order, not to directly order.\"}, {\"id\": \"n04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt is a direct request to order.\"}, {\"id\": \"n05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt is a direct request to order.\"}, {\"id\": \"i01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt is a direct imperative to order.\"}, {\"id\": \"i02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt is a direct imperative to order, reinforced by 'Do it'.\"}, {\"id\": \"i03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt is a direct imperative to order, with a contextual modifier.\"}, {\"id\": \"i04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt states a requirement for the action to be performed.\"}, {\"id\": \"i05\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt is a rhetorical question about inability, not a request to perform the action.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.038118114549712506
+    }
+  ],
+  "create_time": "2026-09-08T10:42:50.938321Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "quafatGiOYGUvdMPwqLB6A8",
+  "usage_metadata": {
+    "candidates_token_count": 731,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 731
+      }
+    ],
+    "prompt_token_count": 911,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 911
+      }
+    ],
+    "total_token_count": 1642,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

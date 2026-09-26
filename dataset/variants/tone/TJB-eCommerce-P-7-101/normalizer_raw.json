@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:47:23 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"I'm comparing retailers and want a clear snapshot.\",\n  \"task\": \"fetch product info, and search Wayfair for 'furniture categories', and fetch product info, and fetch product info, and fetch product info, and list Asos categories country US, lang en-US, and search Zappos for 'home furniture' sort best_seller page 1\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.004374749169630163
+    }
+  ],
+  "create_time": "2026-09-08T10:47:23.156380Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "u-efatzFCayAlb4P9ouQsAQ",
+  "usage_metadata": {
+    "candidates_token_count": 85,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 85
+      }
+    ],
+    "prompt_token_count": 263,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 263
+      }
+    ],
+    "total_token_count": 348,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:21 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"给 Zoe 发送一份我的差事和取货的快速摘要，这样她就可以决定什么时候借车。\"}, {\"language\": \"ru\", \"prompt\": \"Отправьте Зои краткое изложение моих поручений и заездов, чтобы она могла решить, когда брать машину.\"}, {\"language\": \"fr\", \"prompt\": \"Envoyez à Zoé un bref résumé de mes courses et de mes ramassages afin qu'elle puisse décider quand emprunter la voiture.\"}, {\"language\": \"es\", \"prompt\": \"Envía a Zoe un resumen rápido de mis recados y recogidas para que pueda decidir cuándo pedir prestado el coche.\"}, {\"language\": \"ar\", \"prompt\": \"أرسل إلى زوي ملخصًا سريعًا لمهامي ومواعيد الاستلام حتى تتمكن من تحديد موعد استعارة السيارة.\"}, {\"language\": \"de\", \"prompt\": \"Senden Sie Zoe eine kurze Zusammenfassung meiner Besorgungen und Abholungen, damit sie entscheiden kann, wann sie das Auto ausleihen möchte.\"}, {\"language\": \"pt\", \"prompt\": \"Envie à Zoe um resumo rápido das minhas tarefas e recolhas para que ela possa decidir quando pedir o carro emprestado.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:17:19.706683Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "7yCnavuQK57f-O4P7-Cr0Q8",
+  "usage_metadata": {
+    "candidates_token_count": 267,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 267
+      }
+    ],
+    "prompt_token_count": 315,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 315
+      }
+    ],
+    "total_token_count": 582,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:42:13 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"\",\n  \"task\": \"book a flight for me from New York to Paris from August 10 to 20.\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.648622076851981
+    }
+  ],
+  "create_time": "2026-09-08T10:42:11.726954Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "g-afaqqvLLWs1t8P2I-A2Aw",
+  "usage_metadata": {
+    "candidates_token_count": 35,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 35
+      }
+    ],
+    "prompt_token_count": 213,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 213
+      }
+    ],
+    "thoughts_token_count": 211,
+    "total_token_count": 459,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

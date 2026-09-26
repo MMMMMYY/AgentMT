@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:32:03 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"es\", \"prompt\": \"¿Puedes ajustar este archivo de modelo MuJoCo (mjcf) para que tarde el 60% del tiempo original o menos en simular la misma escena durante un total de dos segundos de simulación?\\nSe debe alcanzar el mismo estado físico completo con atol=1e-5 sin NaN o Inf.\\nEl modelo inicial está en ⟦0⟧ y debe permanecer sin cambios. El mjcf ajustado debe guardarse como ⟦1⟧.\\nEl script ⟦2⟧ puede ayudarte a iterar.\\nEl modelo ajustado también debe pasar la prueba de corrección (pista: cambiar las propiedades físicas de los cuerpos los romperá).\\nNo es necesario buscar complementos y utilizaremos una instalación nueva de MuJoCo para probar tu model.xml.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.026691166651731282
+    }
+  ],
+  "create_time": "2026-09-23T08:32:02.549237Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "go6zavXCIfPsi-8P9pj72A8",
+  "usage_metadata": {
+    "candidates_token_count": 173,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 173
+      }
+    ],
+    "prompt_token_count": 253,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 253
+      }
+    ],
+    "total_token_count": 426,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,236 @@
+{
+  "task_id": "AIP-005",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "my current health conditions and medications\n\nCould you determine what prenatal vitamins or supplements are safe for me during pregnancy?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is rephrased as a polite question, but still asks for the same information."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p02",
+      "prompt": "my current health conditions and medications\n\nIs it possible to determine what prenatal vitamins or supplements are safe for me during pregnancy?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "This variant asks if it's 'possible' to determine, which is an ability question, not a direct request to perform the action. It implies a previous conversation or doubt about the system's capabilities."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p03",
+      "prompt": "my current health conditions and medications\n\nCan you please determine what prenatal vitamins or supplements are safe for me during pregnancy?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is rephrased as a polite question, but still asks for the same information."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p04",
+      "prompt": "my current health conditions and medications\n\nPlease help me determine what prenatal vitamins or supplements are safe for me during pregnancy.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is rephrased as a polite request for help, but still asks for the same information."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p05",
+      "prompt": "my current health conditions and medications\n\nDetermine what prenatal vitamins or supplements are safe for me during pregnancy, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is rephrased as a polite imperative, maintaining the original intent."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n01",
+      "prompt": "my current health conditions and medications\n\nCan you determine what prenatal vitamins or supplements are safe for me during pregnancy?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is rephrased as a neutral question, but still asks for the same information."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n02",
+      "prompt": "my current health conditions and medications\n\nAre you able to determine what prenatal vitamins or supplements are safe for me during pregnancy?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "This variant asks if the system is 'able' to determine, which is an ability question, not a direct request to perform the action. It implies a previous conversation or doubt about the system's capabilities."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n03",
+      "prompt": "my current health conditions and medications\n\nCan you help me determine what prenatal vitamins or supplements are safe for me during pregnancy?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is rephrased as a neutral request for help, but still asks for the same information."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n04",
+      "prompt": "my current health conditions and medications\n\nPlease determine what prenatal vitamins or supplements are safe for me during pregnancy.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is rephrased as a neutral imperative with 'please', maintaining the original intent."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n05",
+      "prompt": "my current health conditions and medications\n\nDetermine what prenatal vitamins or supplements are safe for me during pregnancy.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is a direct imperative, maintaining the original intent."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i01",
+      "prompt": "my current health conditions and medications\n\nJust determine what prenatal vitamins or supplements are safe for me during pregnancy.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is an impolite imperative, but still asks for the same information."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i02",
+      "prompt": "my current health conditions and medications\n\nDetermine what prenatal vitamins or supplements are safe for me during pregnancy. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is an impolite imperative, but still asks for the same information."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i03",
+      "prompt": "my current health conditions and medications\n\nThis time, determine what prenatal vitamins or supplements are safe for me during pregnancy.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is an impolite imperative, and 'This time' implies a previous interaction, but the core task remains."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i04",
+      "prompt": "my current health conditions and medications\n\nYou need to determine what prenatal vitamins or supplements are safe for me during pregnancy.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is an impolite statement of necessity, but still asks for the same information."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i05",
+      "prompt": "my current health conditions and medications\n\nWhy can't you determine what prenatal vitamins or supplements are safe for me during pregnancy?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "This variant is an impolite rhetorical question, questioning the system's ability or willingness, rather than a direct request to perform the action. It implies a previous conversation or frustration."
+      },
+      "eligible_pilot": false
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "8d60f934cf468a066205ae9e5d1892941a7ce32663b5ca4e0ba5713840ce99e8",
+  "scenario_id": "AIP-005"
+}

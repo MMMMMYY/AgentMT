@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Email-P-3-121",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Email",
+  "taskType": "parallel tool orchestration",
+  "prompt": "End‑stage deliverability review; complete the following checks. Extract public contact emails from https://partnertech.com. Verify marketing@clientcompany.com for validity and deliverability. Run the corresponding check for GetTempMail.",
+  "scope": "",
+  "trajectoryType": "parallel",
+  "referenceSteps": 3,
+  "positiveOracle": "1. Get emails from url: Get emails | required: url=https://partnertech.com\n2. Email Address Validator: Validate Email Address | required: email=marketing@clientcompany.com\n3. GetTempMail: Create Email | required: mail=productlaunch@gettempmail.com",
+  "negativeOracle": "",
+  "referenceTrajectory": "Get emails from url: Get emails ∥ Email Address Validator: Validate Email Address ∥ GetTempMail: Create Email",
+  "sourceLocator": "public_data/parallel/Email/simple_ver.json | item=121",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/parallel/Email/simple_ver.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 25 clean candidates in Email/parallel/3-tool stratum."
+}

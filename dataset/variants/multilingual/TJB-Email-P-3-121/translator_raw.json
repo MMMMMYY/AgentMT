@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:18:12 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"最终阶段可交付性审查；完成以下检查。从 https://partnertech.com 提取公共联系电子邮件。验证 marketing@clientcompany.com 的有效性和可交付性。运行 GetTempMail 的相应检查。\"},{\"language\":\"ru\",\"prompt\":\"Проверка доставляемости на конечном этапе; выполните следующие проверки. Извлеките общедоступные контактные адреса электронной почты с https://partnertech.com. Проверьте marketing@clientcompany.com на действительность и доставляемость. Запустите соответствующую проверку для GetTempMail.\"},{\"language\":\"fr\",\"prompt\":\"Examen de la livrabilité en phase finale ; effectuez les vérifications suivantes. Extrayez les e-mails de contact publics de https://partnertech.com. Vérifiez la validité et la livrabilité de marketing@clientcompany.com. Exécutez la vérification correspondante pour GetTempMail.\"},{\"language\":\"es\",\"prompt\":\"Revisión de entregabilidad de etapa final; complete las siguientes verificaciones. Extraiga los correos electrónicos de contacto públicos de https://partnertech.com. Verifique la validez y entregabilidad de marketing@clientcompany.com. Ejecute la verificación correspondiente para GetTempMail.\"},{\"language\":\"ar\",\"prompt\":\"مراجعة قابلية التسليم في المرحلة النهائية؛ أكمل الفحوصات التالية. استخرج رسائل البريد الإلكتروني العامة للاتصال من https://partnertech.com. تحقق من صلاحية وإمكانية تسليم marketing@clientcompany.com. قم بتشغيل الفحص المقابل لـ GetTempMail.\"},{\"language\":\"de\",\"prompt\":\"Lieferbarkeitsprüfung in der Endphase; führen Sie die folgenden Prüfungen durch. Extrahieren Sie öffentliche Kontakt-E-Mails von https://partnertech.com. Überprüfen Sie marketing@clientcompany.com auf Gültigkeit und Zustellbarkeit. Führen Sie die entsprechende Prüfung für GetTempMail aus.\"},{\"language\":\"pt\",\"prompt\":\"Revisão de entregabilidade em estágio final; complete as seguintes verificações. Extraia e-mails de contato públicos de https://partnertech.com. Verifique a validade e entregabilidade de marketing@clientcompany.com. Execute a verificação correspondente para GetTempMail.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:18:10.132804Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "IiGnasSNCLLAm9IPseHGiAI",
+  "usage_metadata": {
+    "candidates_token_count": 487,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 487
+      }
+    ],
+    "prompt_token_count": 355,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 355
+      }
+    ],
+    "total_token_count": 842,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

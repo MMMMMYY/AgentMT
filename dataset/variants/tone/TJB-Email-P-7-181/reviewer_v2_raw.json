@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:53:24 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"reviews\": [{\"id\": \"p01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Interrogative request using 'Could you' is pragmatically equivalent to the original imperative request.\"}, {\"id\": \"p02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Interrogative request using 'Is it possible to' is pragmatically equivalent to the original imperative request.\"}, {\"id\": \"p03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Interrogative request using 'Can you please' is pragmatically equivalent to the original imperative request.\"}, {\"id\": \"p04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The phrase 'Please help me complete' is a polite request that is pragmatically equivalent to the original imperative.\"}, {\"id\": \"p05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The addition of 'please' at the end of the imperative request maintains pragmatic equivalence.\"}, {\"id\": \"n01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Interrogative request using 'Can you' is pragmatically equivalent to the original imperative request.\"}, {\"id\": \"n02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Interrogative request using 'Are you able to' is pragmatically equivalent to the original imperative request.\"}, {\"id\": \"n03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The phrase 'Can you help me complete' is a polite request that is pragmatically equivalent to the original imperative.\"}, {\"id\": \"n04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The addition of 'Please' at the beginning of the imperative request maintains pragmatic equivalence.\"}, {\"id\": \"n05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt is an exact match to the original imperative request, maintaining pragmatic equivalence.\"}, {\"id\": \"i01\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The word 'Just' implies a simplification or a dismissal of potential difficulties, which changes the tone and pragmatic meaning of the request.\"}, {\"id\": \"i02\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The addition of 'Do it.' at the end changes the tone from a request to a more forceful command, altering pragmatic equivalence.\"}, {\"id\": \"i03\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The phrase 'This time' implies a previous attempt or failure, adding a new contextual element not present in the original task.\"}, {\"id\": \"i04\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The phrase 'You need to' changes the request into an assertion of necessity or obligation, altering the pragmatic meaning.\"}, {\"id\": \"i05\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The phrase 'Why can't you' shifts the task from a request for action to a request for an explanation of inability, fundamentally changing the pragmatic goal.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-08T10:53:19.763677Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "H-mfap3OLq6j1t8PhsSwuAM",
+  "usage_metadata": {
+    "candidates_token_count": 856,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 856
+      }
+    ],
+    "prompt_token_count": 2275,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 2275
+      }
+    ],
+    "total_token_count": 3131,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

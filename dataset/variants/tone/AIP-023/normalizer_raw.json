@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:39:26 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"\",\n  \"task\": \"fill my tax return forms using the tax documents in the \\\"2025 tax returns\\\" folder\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -3.328463872273763
+    }
+  ],
+  "create_time": "2026-09-08T10:39:20.428523Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "2OWfauuTGq3XkNAP_8y3oQk",
+  "usage_metadata": {
+    "candidates_token_count": 36,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 36
+      }
+    ],
+    "prompt_token_count": 171,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 171
+      }
+    ],
+    "thoughts_token_count": 934,
+    "total_token_count": 1141,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

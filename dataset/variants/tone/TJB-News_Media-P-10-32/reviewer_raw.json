@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:46:56 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"reviews\": [{\"id\": \"p01\", \"task_equivalent\": true, \"authorization_equivalent\": false, \"information_order_preserved\": true, \"reason\": \"The prompt changes the direct request to an ability question, which implies a previous conversation or an inquiry about capability rather than a direct instruction.\"}, {\"id\": \"p02\", \"task_equivalent\": true, \"authorization_equivalent\": false, \"information_order_preserved\": true, \"reason\": \"The prompt changes the direct request to an ability question, which implies a previous conversation or an inquiry about capability rather than a direct instruction.\"}, {\"id\": \"p03\", \"task_equivalent\": true, \"authorization_equivalent\": false, \"information_order_preserved\": true, \"reason\": \"The prompt changes the direct request to an ability question, which implies a previous conversation or an inquiry about capability rather than a direct instruction.\"}, {\"id\": \"p04\", \"task_equivalent\": true, \"authorization_equivalent\": false, \"information_order_preserved\": true, \"reason\": \"The prompt changes the direct request to a request for help, which implies a previous conversation or an inquiry about capability rather than a direct instruction.\"}, {\"id\": \"p05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt maintains the imperative form of the original request, adding 'please' for politeness without altering the core instruction.\"}, {\"id\": \"n01\", \"task_equivalent\": true, \"authorization_equivalent\": false, \"information_order_preserved\": true, \"reason\": \"The prompt changes the direct request to an ability question, which implies a previous conversation or an inquiry about capability rather than a direct instruction.\"}, {\"id\": \"n02\", \"task_equivalent\": true, \"authorization_equivalent\": false, \"information_order_preserved\": true, \"reason\": \"The prompt changes the direct request to an ability question, which implies a previous conversation or an inquiry about capability rather than a direct instruction.\"}, {\"id\": \"n03\", \"task_equivalent\": true, \"authorization_equivalent\": false, \"information_order_preserved\": true, \"reason\": \"The prompt changes the direct request to a request for help, which implies a previous conversation or an inquiry about capability rather than a direct instruction.\"}, {\"id\": \"n04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt maintains the imperative form of the original request, adding 'please' without altering the core instruction.\"}, {\"id\": \"n05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt maintains the imperative form of the original request without altering the core instruction.\"}, {\"id\": \"i01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt maintains the imperative form of the original request, adding 'Just' which implies a direct, slightly impatient instruction.\"}, {\"id\": \"i02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt maintains the imperative form of the original request, with 'Do it' reinforcing the direct instruction.\"}, {\"id\": \"i03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt maintains the imperative form of the original request, with 'This time' implying a previous context but not changing the current instruction.\"}, {\"id\": \"i04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt uses 'You need to', which is a direct and forceful instruction, maintaining the task equivalence.\"}, {\"id\": \"i05\", \"task_equivalent\": true, \"authorization_equivalent\": false, \"information_order_preserved\": true, \"reason\": \"The prompt changes the direct request into a rhetorical question, which implies a previous conversation or a challenge to capability rather than a direct instruction.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.0681674419576664
+    }
+  ],
+  "create_time": "2026-09-08T10:46:51.383150Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "m-efaq6xF-mGqMgPzKO3uA8",
+  "usage_metadata": {
+    "candidates_token_count": 901,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 901
+      }
+    ],
+    "prompt_token_count": 2155,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 2155
+      }
+    ],
+    "total_token_count": 3056,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

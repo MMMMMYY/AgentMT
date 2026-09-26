@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:37:02 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"我需要在布鲁克林规划一条多站点驾驶路线，从湾脊区附近开始。您能用这些站点绘制一条驾驶路线吗：40.629041,-74.025606；40.630099,-73.993521；40.644895,-74.013818；和40.627177,-73.980853？之后，我想获取关于我的路线起点坐标40.629103,-74.025801附近道路的信息。最后，您能搜索该区域中名为“not found road”的地址并在地图上显示它吗？\"}, {\"language\": \"ru\", \"prompt\": \"Мне нужно спланировать маршрут с несколькими остановками в Бруклине, начиная недалеко от Бэй-Ридж. Можете ли вы проложить автомобильный маршрут с этими остановками: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; и 40.627177,-73.980853? После этого я хотел бы получить информацию о дорогах рядом с начальной точкой моего маршрута по координатам 40.629103,-74.025801. Наконец, можете ли вы найти адрес под названием \\\"not found road\\\" в этом районе и показать его на карте?\"}, {\"language\": \"fr\", \"prompt\": \"Je dois planifier un itinéraire de conduite à plusieurs arrêts à Brooklyn, en commençant près de Bay Ridge. Pouvez-vous tracer un itinéraire de conduite avec ces arrêts : 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; et 40.627177,-73.980853? Après cela, j'aimerais obtenir des informations sur les routes près du point de départ de mon itinéraire aux coordonnées 40.629103,-74.025801. Enfin, pouvez-vous rechercher une adresse appelée \\\"not found road\\\" dans cette zone et l'afficher sur une carte?\"}, {\"language\": \"es\", \"prompt\": \"Necesito planificar una ruta de conducción con varias paradas en Brooklyn, comenzando cerca de Bay Ridge. ¿Puedes trazar una ruta de conducción con estas paradas: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; y 40.627177,-73.980853? Después de eso, me gustaría obtener información sobre las carreteras cerca del punto de partida de mi ruta en las coordenadas 40.629103,-74.025801. Finalmente, ¿puedes buscar una dirección llamada \\\"not found road\\\" en esa área y mostrarla en un mapa?\"}, {\"language\": \"ar\", \"prompt\": \"أحتاج إلى تخطيط مسار قيادة متعدد التوقفات في بروكلين بدءًا من بالقرب من باي ريدج. هل يمكنك رسم مسار قيادة بهذه التوقفات: 40.629041,-74.025606؛ 40.630099,-73.993521؛ 40.644895,-74.013818؛ و 40.627177,-73.980853؟ بعد ذلك، أود الحصول على معلومات حول الطرق القريبة من نقطة بداية مساري عند الإحداثيات 40.629103,-74.025801. أخيرًا، هل يمكنك البحث عن عنوان يسمى \\\"not found road\\\" في تلك المنطقة وعرضه على الخريطة؟\"}, {\"language\": \"de\", \"prompt\": \"Ich muss eine Fahrtroute mit mehreren Stopps in Brooklyn planen, beginnend in der Nähe von Bay Ridge. Können Sie eine Fahrtroute mit diesen Stopps kartieren: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; und 40.627177,-73.980853? Danach möchte ich Informationen über die Straßen in der Nähe des Startpunkts meiner Route bei den Koordinaten 40.629103,-74.025801 erhalten. Können Sie schließlich eine Adresse namens \\\"not found road\\\" in diesem Bereich suchen und auf einer Karte anzeigen?\"}, {\"language\": \"pt\", \"prompt\": \"Preciso planejar uma rota de carro com várias paradas no Brooklyn, começando perto de Bay Ridge. Você pode mapear uma rota de carro com estas paradas: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; e 40.627177,-73.980853? Depois disso, gostaria de obter informações sobre as estradas perto do ponto de partida da minha rota nas coordenadas 40.629103,-74.025801. Finalmente, você pode procurar um endereço chamado \\\"not found road\\\" nessa área e mostrá-lo em um mapa?\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.01911366122892533
+    }
+  ],
+  "create_time": "2026-09-13T22:36:57.093418Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "iSWnaurZBcuLr8kP2d6K6QQ",
+  "usage_metadata": {
+    "candidates_token_count": 1392,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1392
+      }
+    ],
+    "prompt_token_count": 477,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 477
+      }
+    ],
+    "total_token_count": 1869,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

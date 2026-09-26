@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:39:24 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": false,\n      \"reason\": \"The request is a polite command to execute. The context 'for my upcoming client meeting' is moved to a separate introductory sentence, changing the information order.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": false,\n      \"reason\": \"The request is an ability question ('Is it possible?') rather"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "MAX_TOKENS",
+      "avg_logprobs": -1.926608092032823
+    }
+  ],
+  "create_time": "2026-09-08T10:39:03.924279Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "x-Wfave0OJ3ti-8PoLzekQU",
+  "usage_metadata": {
+    "candidates_token_count": 149,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 149
+      }
+    ],
+    "prompt_token_count": 1139,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1139
+      }
+    ],
+    "thoughts_token_count": 3933,
+    "total_token_count": 5221,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

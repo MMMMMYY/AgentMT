@@ -1,0 +1,165 @@
+{
+  "task_id": "TJB-Travel-S-3-5",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "I need to find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions.",
+  "source_sha256": "f6f23b388f49e4b2d6e16f51344cd064a9f55fa98be68e85a28769835a8b104d",
+  "status": "reviewed",
+  "variants": [
+    {
+      "language": "zh",
+      "prompt": "我需要为我的度假计划找到100个城市，然后根据经度找到最西边的城市中的酒店，最后获取关于酒店700008849的详细信息，包括照片、评论、促销、视频、客户评分、重要信息和附近景点。",
+      "id": "lang_zh",
+      "literal_check": {
+        "passed": false,
+        "missing_strings": [],
+        "missing_numeric_tokens": [
+          "100",
+          "700008849"
+        ],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": false,
+      "review": {
+        "language": "zh",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request."
+      }
+    },
+    {
+      "language": "ru",
+      "prompt": "Мне нужно найти 100 городов для планирования отпуска, затем найти отели в самом западном городе по долготе и, наконец, получить исчерпывающие сведения об отеле 700008849, включая фотографии, отзывы, акции, видео, оценки гостей, важную информацию и близлежащие достопримечательности.",
+      "id": "lang_ru",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ru",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request."
+      }
+    },
+    {
+      "language": "fr",
+      "prompt": "Je dois trouver 100 villes pour la planification de mes vacances, puis localiser les hôtels dans la ville la plus à l'ouest en fonction de la longitude, et enfin obtenir des détails complets sur l'hôtel 700008849, y compris des photos, des avis, des promotions, des vidéos, des scores des clients, des informations importantes et des attractions à proximité.",
+      "id": "lang_fr",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "fr",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request."
+      }
+    },
+    {
+      "language": "es",
+      "prompt": "Necesito encontrar 100 ciudades para la planificación de mis vacaciones, luego localizar hoteles en la ciudad más occidental según la longitud, y finalmente obtener detalles completos sobre el hotel 700008849, incluyendo fotos, reseñas, promociones, videos, puntuaciones de huéspedes, información importante y atracciones cercanas.",
+      "id": "lang_es",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "es",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request."
+      }
+    },
+    {
+      "language": "ar",
+      "prompt": "أحتاج إلى العثور على 100 مدينة لتخطيط عطلتي، ثم تحديد الفنادق في المدينة الواقعة في أقصى الغرب بناءً على خط الطول، وأخيراً الحصول على تفاصيل شاملة حول الفندق 700008849 بما في ذلك الصور والمراجعات والعروض الترويجية ومقاطع الفيديو وتقييمات الضيوف والمعلومات الهامة والمعالم السياحية القريبة.",
+      "id": "lang_ar",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ar",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request."
+      }
+    },
+    {
+      "language": "de",
+      "prompt": "Ich muss 100 Städte für meine Urlaubsplanung finden, dann Hotels in der westlichsten Stadt basierend auf dem Längengrad lokalisieren und schließlich umfassende Details über Hotel 700008849 erhalten, einschließlich Fotos, Bewertungen, Aktionen, Videos, Gästebewertungen, wichtiger Informationen und nahegelegener Attraktionen.",
+      "id": "lang_de",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "de",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request."
+      }
+    },
+    {
+      "language": "pt",
+      "prompt": "Preciso encontrar 100 cidades para o meu planejamento de férias, depois localizar hotéis na cidade mais ocidental com base na longitude e, finalmente, obter detalhes abrangentes sobre o hotel 700008849, incluindo fotos, avaliações, promoções, vídeos, pontuações de hóspedes, informações importantes e atrações próximas.",
+      "id": "lang_pt",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "pt",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request."
+      }
+    }
+  ],
+  "english_source": {
+    "language": "en",
+    "prompt": "I need to find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions.",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation"
+}

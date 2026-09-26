@@ -1,0 +1,4 @@
+{
+  "context": "I need to update the staging environment configuration.",
+  "task": "grab the new staging API key from my OpenToDo list and paste it into the settings.py file in the code editor"
+}

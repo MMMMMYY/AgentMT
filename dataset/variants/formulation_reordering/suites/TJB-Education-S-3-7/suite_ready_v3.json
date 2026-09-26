@@ -1,0 +1,16 @@
+{
+  "task_id": "TJB-Education-S-3-7",
+  "scenario_id": null,
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "io01",
+      "prompt": "Can you show me the number of schools in province with ID '020000'? Then, I'd like to see the number of schools in the district with the highest total number of schools in that province, which should be district ID '020500'. Finally, list all the schools in sub-district '056010' within that district. I'm looking for education statistics in Indonesia.",
+      "transformation": "sentence_permutation",
+      "sentence_multiset_preserved": true,
+      "information_order_changed": true,
+      "eligible_pilot": true,
+      "validation_basis": "deterministic span preservation and dependency exclusion rules"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "task_id": "TJB-Finance-P-10-36",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "I need a comprehensive analysis of Tesla (TSLA) to make an investment decision In parallel, please run: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26); Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30); Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Stock Sentiment API: News Sentiment Data (ticker=TSLA); Stock Sentiment API: Market Data (ticker=TSLA); Realtime Crypto Prices: Get Realtime Rates (symbol=BTC); Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000); Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30).",
+  "source_sha256": "06bee18af1fce93bb8dde8b5dd51ed4c3d1452ef9cc4da34aba940eb3b6ef8a1",
+  "status": "preparation_error",
+  "variants": [],
+  "english_source": {
+    "language": "en",
+    "prompt": "I need a comprehensive analysis of Tesla (TSLA) to make an investment decision In parallel, please run: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26); Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30); Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Stock Sentiment API: News Sentiment Data (ticker=TSLA); Stock Sentiment API: Market Data (ticker=TSLA); Realtime Crypto Prices: Get Realtime Rates (symbol=BTC); Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000); Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30).",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation",
+  "error_type": "ReadTimeout"
+}

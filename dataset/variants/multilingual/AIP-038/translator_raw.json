@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:10 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"天气怎么样？\"},{\"language\":\"ru\",\"prompt\":\"Как погода?\"},{\"language\":\"fr\",\"prompt\":\"Quel temps fait-il ?\"},{\"language\":\"es\",\"prompt\":\"¿Qué tiempo hace?\"},{\"language\":\"ar\",\"prompt\":\"كيف الطقس؟\"},{\"language\":\"de\",\"prompt\":\"Wie ist das Wetter?\"},{\"language\":\"pt\",\"prompt\":\"Como está o tempo?\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:16:09.817574Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "qSCnaqbzMcWAlb4PzOqGwA8",
+  "usage_metadata": {
+    "candidates_token_count": 85,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 85
+      }
+    ],
+    "prompt_token_count": 301,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 301
+      }
+    ],
+    "total_token_count": 386,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

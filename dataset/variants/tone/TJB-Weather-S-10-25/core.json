@@ -1,0 +1,4 @@
+{
+  "context": "",
+  "task": "get detailed weather information for Manhattan by looking up ZIP code 10001 in the US to find its coordinates and hardiness zone, then doing a reverse lookup for New York at longitude -74.0060 to confirm the location, then searching for \"New York\" places in English, then, once New York City is identified, getting the daily forecast in English and a detailed weather forecast summary using the exact coordinates (40.71427, -74.00597), then finding weather stations within 75 miles of those coordinates, then getting their metadata, then retrieving climate data history for station 10637, and finally showing the monthly weather data from that station from January 1, 2024 through September 7, 2024 in metric units"
+}

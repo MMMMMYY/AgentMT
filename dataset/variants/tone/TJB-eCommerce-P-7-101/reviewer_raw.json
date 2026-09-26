@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:47:28 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Could you fetch', which implies an ability question rather than a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Is it possible to fetch', which implies an ability question rather than a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Can you please fetch', which implies an ability question rather than a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Please help me fetch', which is a polite request to execute the task.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses an imperative with 'please', which is a polite request to execute the task.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Can you fetch', which implies an ability question rather than a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Are you able to fetch', which implies an ability question rather than a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Can you help me fetch', which implies an ability question rather than a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Please fetch', which is a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses an imperative, which is a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Just fetch', which is an impolite direct request to execute the task.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses an imperative followed by 'Do it', which is an impolite direct request to execute the task.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'This time, fetch', which is an impolite direct request to execute the task, implying a previous conversation or expectation.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'You need to fetch', which is an impolite direct request to execute the task.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Why can't you fetch', which is an impolite question about ability or a challenge, not a direct request to execute the task.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.023112491894793766
+    }
+  ],
+  "create_time": "2026-09-08T10:47:24.193534Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "vOefav7nC42wi-8PkKu_8QY",
+  "usage_metadata": {
+    "candidates_token_count": 1116,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1116
+      }
+    ],
+    "prompt_token_count": 1881,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1881
+      }
+    ],
+    "total_token_count": 2997,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

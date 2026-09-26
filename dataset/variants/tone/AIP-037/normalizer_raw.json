@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:41:26 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"\",\n  \"task\": \"order medications from my prescription\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.9023458390008836
+    }
+  ],
+  "create_time": "2026-09-08T10:41:23.371052Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "U-afauzSFqyAlb4P9ouQsAQ",
+  "usage_metadata": {
+    "candidates_token_count": 21,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 21
+      }
+    ],
+    "prompt_token_count": 200,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 200
+      }
+    ],
+    "thoughts_token_count": 194,
+    "total_token_count": 415,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

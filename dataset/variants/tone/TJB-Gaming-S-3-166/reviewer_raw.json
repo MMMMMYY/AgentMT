@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:46:25 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing and permissions. The 'Could you' phrasing is a polite request to execute.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing and permissions. However, 'Is it possible to' changes the request from an execution command to an ability question.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing and permissions. The 'Can you please' phrasing is a polite request to execute.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing and permissions. The 'Please help me' phrasing is a polite request to execute.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing and permissions. The imperative with 'please' at the end is a polite request to execute.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing and permissions. The 'Can you' phrasing is a neutral request to execute.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing and permissions. However, 'Are you able to' changes the request from an execution command to an ability question.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing and permissions. The 'Can you help me' phrasing is a neutral request to execute.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing and permissions. The 'Please' phrasing is a neutral request to execute.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing and permissions. The imperative phrasing is a neutral request to execute.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing and permissions. 'Just' with the imperative is an impolite request to execute.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing and permissions. The imperative followed by 'Do it' is an impolite request to execute.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing and permissions. 'This time' with the imperative implies a previous conversation and is impolite, but still a request to execute.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing and permissions. 'You need to' is an impolite directive to execute.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing and permissions. However, 'Why can't you' changes the request from an execution command to an explanation question, implying a previous failure or inability.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.025216266224047133
+    }
+  ],
+  "create_time": "2026-09-08T10:46:13.691509Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "deefarWaKuXsi-8PrP-WsAI",
+  "usage_metadata": {
+    "candidates_token_count": 1393,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1393
+      }
+    ],
+    "prompt_token_count": 1786,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1786
+      }
+    ],
+    "total_token_count": 3179,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

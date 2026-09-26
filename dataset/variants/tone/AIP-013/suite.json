@@ -1,0 +1,236 @@
+{
+  "task_id": "AIP-013",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "Could you retrieve and summarize the latest financial report from Cloud Drive?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "\"Could you\" is a polite rephrasing of \"Can you\" and retains the request for action."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p02",
+      "prompt": "Is it possible to retrieve and summarize the latest financial report from Cloud Drive?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "Changes from a direct request to an inquiry about possibility, making it an ability/explanation question rather than an execution request."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p03",
+      "prompt": "Can you please retrieve and summarize the latest financial report from Cloud Drive?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "\"Please\" adds politeness without altering the core request or its authorization."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p04",
+      "prompt": "Please help me retrieve and summarize the latest financial report from Cloud Drive.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "\"Please help me\" is a polite way to request the task, maintaining the intent to execute."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p05",
+      "prompt": "Retrieve and summarize the latest financial report from Cloud Drive, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Direct imperative followed by \"please\" retains the request for action."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n01",
+      "prompt": "Can you retrieve and summarize the latest financial report from Cloud Drive?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Identical to the source request."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n02",
+      "prompt": "Are you able to retrieve and summarize the latest financial report from Cloud Drive?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "Changes from a direct request to an inquiry about ability, making it an ability/explanation question rather than an execution request."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n03",
+      "prompt": "Can you help me retrieve and summarize the latest financial report from Cloud Drive?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "\"Can you help me\" is a common way to request the task, maintaining the intent to execute."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n04",
+      "prompt": "Please retrieve and summarize the latest financial report from Cloud Drive.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Direct imperative with \"please\" retains the request for action."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n05",
+      "prompt": "Retrieve and summarize the latest financial report from Cloud Drive.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Direct imperative retains the request for action."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i01",
+      "prompt": "Just retrieve and summarize the latest financial report from Cloud Drive.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "\"Just\" adds a tone of impatience or directness but doesn't change the core task request."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i02",
+      "prompt": "Retrieve and summarize the latest financial report from Cloud Drive. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The first sentence is a direct imperative, and \"Do it\" reinforces the command to execute the task."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i03",
+      "prompt": "This time, retrieve and summarize the latest financial report from Cloud Drive.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "\"This time\" implies a previous attempt or conversation, but the core task request remains an execution command."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i04",
+      "prompt": "You need to retrieve and summarize the latest financial report from Cloud Drive.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "\"You need to\" is a direct instruction for the AI to perform the task."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i05",
+      "prompt": "Why can't you retrieve and summarize the latest financial report from Cloud Drive?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "This is a rhetorical question or a challenge about inability, not a request to execute the task. It implies a previous conversation or failure."
+      },
+      "eligible_pilot": false
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "fe47364f44144b47b612c5bbe62a17d91600c07f9bf9b40749d9ec0dd1461712",
+  "scenario_id": "AIP-013"
+}

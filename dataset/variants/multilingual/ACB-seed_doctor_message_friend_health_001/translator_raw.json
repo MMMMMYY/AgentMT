@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:13 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"将我需要在我远程医疗访问前涵盖的偏头痛主题发送给Patel医生办公室。\"},{\"language\":\"ru\",\"prompt\":\"Отправьте в офис доктора Пателя темы мигрени, которые мне нужно осветить перед моим телемедицинским визитом.\"},{\"language\":\"fr\",\"prompt\":\"Envoyez au cabinet du Dr Patel les sujets sur la migraine que je dois aborder avant ma visite de télésanté.\"},{\"language\":\"es\",\"prompt\":\"Envíe a la oficina del Dr. Patel los temas de migraña que necesito cubrir antes de mi visita de telesalud.\"},{\"language\":\"ar\",\"prompt\":\"أرسل إلى مكتب الدكتور باتيل مواضيع الصداع النصفي التي أحتاج إلى تغطيتها قبل زيارتي للرعاية الصحية عن بعد.\"},{\"language\":\"de\",\"prompt\":\"Senden Sie Dr. Patels Büro die Migränethemen, die ich vor meinem Telemedizinbesuch besprechen muss.\"},{\"language\":\"pt\",\"prompt\":\"Envie ao consultório do Dr. Patel os tópicos sobre enxaqueca que preciso abordar antes da minha consulta de telessaúde.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.04497495005207677
+    }
+  ],
+  "create_time": "2026-09-13T22:17:10.773624Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "5iCnavibL5OcmecP1-vzoQs",
+  "usage_metadata": {
+    "candidates_token_count": 248,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 248
+      }
+    ],
+    "prompt_token_count": 312,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 312
+      }
+    ],
+    "total_token_count": 560,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

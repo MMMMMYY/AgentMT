@@ -1,0 +1,4 @@
+{
+  "context": "I'm looking for a free-to-play shooter game on PC.",
+  "task": "first filter PC games with the shooter tag, then search for the most common shooter genre games in the results, and finally show me the best deals for Shapeshooter since it seems to be the closest match to what I'm looking for"
+}

@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:45:23 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original is a direct command. The transformed request is a question about ability, which implies a previous conversation or an explanation of capabilities rather than a direct request to execute.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original is a direct command. The transformed request is a question about possibility, which implies a previous conversation or an explanation of capabilities rather than a direct request to execute.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original is a direct command. The transformed request is a question about ability, which implies a previous conversation or an explanation of capabilities rather than a direct request to execute.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Please help me' still conveys the intent for the agent to perform the action, even if framed as assistance.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The core command remains, with 'please' added for politeness, not changing the task's executability.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original is a direct command. The transformed request is a question about ability, which implies a previous conversation or an explanation of capabilities rather than a direct request to execute.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original is a direct command. The transformed request is a question about ability, which implies a previous conversation or an explanation of capabilities rather than a direct request to execute.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Can you help me' still conveys the intent for the agent to perform the action, even if framed as assistance.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The core command remains, with 'please' added, not changing the task's executability.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request is an identical direct command to the original.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The addition of 'Just' before the imperative still functions as a direct command, albeit with an impolite tone.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original command is retained and reinforced by 'Do it', maintaining task equivalence.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'This time' implies a previous attempt or context, but the core command remains a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'You need to' functions as a direct instruction or command, maintaining task equivalence.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original is a direct command. The transformed request is a rhetorical question, implying frustration or a challenge, rather than a direct request to execute the task.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.06307840347290039
+    }
+  ],
+  "create_time": "2026-09-08T10:45:17.827234Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "PeefauK-Msyw1t8PkODl6AI",
+  "usage_metadata": {
+    "candidates_token_count": 1168,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1168
+      }
+    ],
+    "prompt_token_count": 1304,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1304
+      }
+    ],
+    "total_token_count": 2472,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

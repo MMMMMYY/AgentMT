@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:37:08 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"我正在整理一份快速音乐简报。请搜索 Shazam 术语“kiss the rain”，区域设置为 en-US，限制 5，下载 https://soundcloud.com/yiruma-official/kiss-the-rain 的 Spotify 歌词，获取作曲家“yiruma”的儿童歌曲，获取 2023-10-14 周的目录专辑，使用查询“Kiss the Rain piano”搜索 YouTube Music，语言为 en，限制 20，获取 Spotify Top 200（全球）每周榜单，并按艺名获取“IU”的 K-POP 偶像。\"}, {\"language\": \"ru\", \"prompt\": \"Я собираю краткий музыкальный бриф. Пожалуйста, найдите в Shazam термин «kiss the rain», локаль en-US, лимит 5, скачайте тексты песен Spotify для https://soundcloud.com/yiruma-official/kiss-the-rain, получите детские песни композитора «yiruma», получите каталожные альбомы за неделю 2023-10-14, найдите в YouTube Music по запросу «Kiss the Rain piano», язык en, лимит 20, получите Spotify Top 200 (глобальный) за неделю и получите K-POP айдолов для «IU» по сценическому имени.\"}, {\"language\": \"fr\", \"prompt\": \"Je prépare un bref musical rapide. Veuillez rechercher le terme Shazam 'kiss the rain', locale en-US, limite 5, télécharger les paroles Spotify pour https://soundcloud.com/yiruma-official/kiss-the-rain, obtenir les chansons pour enfants du compositeur 'yiruma', obtenir les albums du catalogue pour la semaine 2023-10-14, rechercher sur YouTube Music avec la requête 'Kiss the Rain piano', langue en, limite 20, obtenir le Top 200 Spotify (mondial) période hebdomadaire, et obtenir les idoles K-POP pour 'IU' par nom de scène.\"}, {\"language\": \"es\", \"prompt\": \"Estoy preparando un breve informe musical. Por favor, busca en Shazam el término 'kiss the rain', configuración regional en-US, límite 5, descarga las letras de Spotify para https://soundcloud.com/yiruma-official/kiss-the-rain, obtén canciones infantiles del compositor 'yiruma', obtén los álbumes del catálogo para la semana 2023-10-14, busca en YouTube Music con la consulta 'Kiss the Rain piano', idioma en, límite 20, obtén el Top 200 de Spotify (global) del período semanal, y obtén los ídolos de K-POP para 'IU' por nombre artístico.\"}, {\"language\": \"ar\", \"prompt\": \"أقوم بتجميع موجز موسيقي سريع. يرجى البحث في Shazam عن المصطلح 'kiss the rain'، المنطقة en-US، الحد 5، تنزيل كلمات Spotify لـ https://soundcloud.com/yiruma-official/kiss-the-rain، الحصول على أغاني الأطفال للملحن 'yiruma'، الحصول على ألبومات الكتالوج للأسبوع 2023-10-14، البحث في YouTube Music بالاستعلام 'Kiss the Rain piano'، اللغة en، الحد 20، الحصول على Spotify Top 200 (عالمي) للفترة الأسبوعية، والحصول على نجوم K-POP لـ 'IU' بالاسم الفني.\"}, {\"language\": \"de\", \"prompt\": \"Ich stelle ein kurzes Musik-Briefing zusammen. Bitte suchen Sie den Shazam-Begriff 'kiss the rain', Gebietsschema en-US, Limit 5, laden Sie Spotify-Texte für https://soundcloud.com/yiruma-official/kiss-the-rain herunter, holen Sie Kinderlieder des Komponisten 'yiruma', holen Sie Katalogalben für die Woche 2023-10-14, suchen Sie YouTube Music mit der Abfrage 'Kiss the Rain piano', Sprache en, Limit 20, holen Sie Spotify Top 200 (global) wöchentlich und holen Sie K-POP Idols für 'IU' nach Künstlernamen.\"}, {\"language\": \"pt\", \"prompt\": \"Estou a preparar um breve resumo musical. Por favor, pesquise o termo Shazam 'kiss the rain', localidade en-US, limite 5, descarregue as letras do Spotify para https://soundcloud.com/yiruma-official/kiss-the-rain, obtenha canções infantis do compositor 'yiruma', obtenha os álbuns do catálogo para a semana 2023-10-14, pesquise no YouTube Music com a consulta 'Kiss the Rain piano', idioma en, limite 20, obtenha o Spotify Top 200 (global) do período semanal e obtenha os ídolos K-POP para 'IU' por nome artístico.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.0395327956718157
+    }
+  ],
+  "create_time": "2026-09-13T22:37:03.834869Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "jyWnarX6MuSnr8kPtsWW-AM",
+  "usage_metadata": {
+    "candidates_token_count": 1087,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1087
+      }
+    ],
+    "prompt_token_count": 455,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 455
+      }
+    ],
+    "total_token_count": 1542,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Email-P-7-181",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Email",
+  "taskType": "parallel tool orchestration",
+  "prompt": "Running a list cleanup—complete the checks below. Check marketing@newsletter.com and flag if it’s disposable or problematic. Verify updates@dailydeals.net for validity and deliverability. Determine whether info@techblog.org is a temporary/throwaway address. Check whether the address is a role/team inbox (support/sales). Check whether onlineshopping.com is available or already taken. Verify news@mediacompany.org for validity and deliverability. Verify contact@businessupdates.com for validity and deliverability.",
+  "scope": "",
+  "trajectoryType": "parallel",
+  "referenceSteps": 7,
+  "positiveOracle": "1. Alpha Email Verification: Email Checker | required: email=marketing@newsletter.com\n2. Blaze Verify: Verify an email | required: email=updates@dailydeals.net | optional: accept_all=true\n3. Email Existence Validator: Check for Disposable emails | required: email=info@techblog.org\n4. fast Email verifier: Role Account | required: domain=stockmarket.io\n5. fast Email verifier: FreeDomain | required: domain=onlineshopping.com\n6. Email Address Validator: Validate Email Address | required: email=news@mediacompany.org\n7. Email Validation_v3: Validate_Email | required: email=contact@businessupdates.com",
+  "negativeOracle": "",
+  "referenceTrajectory": "Alpha Email Verification: Email Checker ∥ Blaze Verify: Verify an email ∥ Email Existence Validator: Check for Disposable emails ∥ fast Email verifier: Role Account ∥ fast Email verifier: FreeDomain ∥ Email Address Validator: Validate Email Address ∥ Email Validation_v3: Validate_Email",
+  "sourceLocator": "public_data/parallel/Email/simple_ver.json | item=181",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/parallel/Email/simple_ver.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 24 clean candidates in Email/parallel/7-tool stratum."
+}

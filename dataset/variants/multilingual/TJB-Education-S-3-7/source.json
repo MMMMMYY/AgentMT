@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Education-S-3-7",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Education",
+  "taskType": "Province Search → District Search → Sub-District School List",
+  "prompt": "I'm looking for education statistics in Indonesia. Can you show me the number of schools in province with ID '020000'? Then, I'd like to see the number of schools in the district with the highest total number of schools in that province, which should be district ID '020500'. Finally, list all the schools in sub-district '056010' within that district.",
+  "scope": "Indonesia School List",
+  "trajectoryType": "sequential",
+  "referenceSteps": 3,
+  "positiveOracle": "1. Indonesia School List: Number of Schools in Indonesian City / District (Kabupaten / Kota) | required: kode_wilayah_propinsi_id=020000\n2. Indonesia School List: Number of Schools in Indonesia Sub-District (Kecamatan) | required: kode_wilayah_kabupaten_id=020500\n3. Indonesia School List: List of School in Sub-Disctrict (Kecamatan) | required: kode_wilayah_kecamatan_id=056010",
+  "negativeOracle": "",
+  "referenceTrajectory": "Indonesia School List: Number of Schools in Indonesian City / District (Kabupaten / Kota) → Indonesia School List: Number of Schools in Indonesia Sub-District (Kecamatan) → Indonesia School List: List of School in Sub-Disctrict (Kecamatan)",
+  "sourceLocator": "public_data/sequential/Education/traj_query.json | item=7",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/sequential/Education/traj_query.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 10 clean candidates in Education/sequential/3-tool stratum."
+}

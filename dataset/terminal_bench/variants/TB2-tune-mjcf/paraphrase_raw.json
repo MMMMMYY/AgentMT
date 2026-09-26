@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-ERCe3ErxDqoaILuAc9wBhIJ1QOqGm",
+  "object": "chat.completion",
+  "created": 1790152171,
+  "model": "gpt-4o-2024-11-20",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"candidates\":[{\"prompt\":\"Could you optimize this MuJoCo model file (mjcf) so that it simulates the same scene for two seconds in 60% or less of the original time?\\nThe simulation must reach the identical full physics state within atol=1e-5, avoiding NaN or Inf values.\\nThe original model is located at /app/model_ref.xml and should not be altered. Save the optimized mjcf file as /app/model.xml.\\nYou can use the /app/eval.py script to assist with the tuning process.\\nEnsure the optimized model passes the correctness test (note: altering the physical properties of the bodies will invalidate the test).\\nPlugins are not required, and we will validate your model.xml using a clean MuJoCo installation.\",\"surface_changes\":[\"Could you optimize this MuJoCo model file (mjcf) so that it simulates the same scene for two seconds in 60% or less of the original time?\",\"The simulation must reach the identical full physics state within atol=1e-5, avoiding NaN or Inf values.\",\"The original model is located at /app/model_ref.xml and should not be altered. Save the optimized mjcf file as /app/model.xml.\",\"You can use the /app/eval.py script to assist with the tuning process.\",\"Ensure the optimized model passes the correctness test (note: altering the physical properties of the bodies will invalidate the test).\",\"Plugins are not required, and we will validate your model.xml using a clean MuJoCo installation.\"]},{\"prompt\":\"Please adjust this MuJoCo model file (mjcf) to simulate the same scene for two seconds in 60% or less of the original simulation time.\\nThe simulation should achieve the same full physics state within atol=1e-5, without resulting in NaN or Inf values.\\nThe reference model is located at /app/model_ref.xml and must remain unmodified. Save the adjusted mjcf file as /app/model.xml.\\nThe /app/eval.py script is available to aid in the tuning process.\\nThe adjusted model must pass the correctness test (note: modifying the physical properties of the bodies will cause failure).\\nPlugins are unnecessary, and we will test your model.xml using a fresh MuJoCo installation.\",\"surface_changes\":[\"Please adjust this MuJoCo model file (mjcf) to simulate the same scene for two seconds in 60% or less of the original simulation time.\",\"The simulation should achieve the same full physics state within atol=1e-5, without resulting in NaN or Inf values.\",\"The reference model is located at /app/model_ref.xml and must remain unmodified. Save the adjusted mjcf file as /app/model.xml.\",\"The /app/eval.py script is available to aid in the tuning process.\",\"The adjusted model must pass the correctness test (note: modifying the physical properties of the bodies will cause failure).\",\"Plugins are unnecessary, and we will test your model.xml using a fresh MuJoCo installation.\"]}]}",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 454,
+    "completion_tokens": 617,
+    "total_tokens": 1071,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_59530732f1"
+}

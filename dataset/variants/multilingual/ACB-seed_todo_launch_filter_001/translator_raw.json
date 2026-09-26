@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:57 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"我要去吃午饭了。请查看我的OpenToDo列表，提取所有与V2.0产品发布相关的任务，并将其发布到#v2-launch-team频道，以便他们知道还剩下什么要做。\"}, {\"language\": \"ru\", \"prompt\": \"Я отлучаюсь на обед. Пожалуйста, просмотрите мой список OpenToDo, извлеките все задачи, связанные с запуском продукта V2.0, и опубликуйте их в канале #v2-launch-team, чтобы они знали, что еще осталось сделать.\"}, {\"language\": \"fr\", \"prompt\": \"Je m'absente pour le déjeuner. Veuillez consulter ma liste OpenToDo, extraire toutes les tâches liées au lancement du produit V2.0 et les publier dans le canal #v2-launch-team afin qu'ils sachent ce qu'il reste à faire.\"}, {\"language\": \"es\", \"prompt\": \"Me voy a almorzar. Por favor, revisa mi lista OpenToDo, extrae todas las tareas relacionadas con el lanzamiento del producto V2.0 y publícalas en el canal #v2-launch-team para que sepan qué queda por hacer.\"}, {\"language\": \"ar\", \"prompt\": \"سأذهب لتناول الغداء. يرجى الاطلاع على قائمة OpenToDo الخاصة بي، واستخراج جميع المهام المتعلقة بإطلاق منتج V2.0، ونشرها في قناة #v2-launch-team حتى يعرفوا ما تبقى للقيام به.\"}, {\"language\": \"de\", \"prompt\": \"Ich gehe zum Mittagessen. Bitte sehen Sie sich meine OpenToDo-Liste an, extrahieren Sie alle Aufgaben, die mit der V2.0-Produkteinführung zusammenhängen, und posten Sie sie im Kanal #v2-launch-team, damit sie wissen, was noch zu tun ist.\"}, {\"language\": \"pt\", \"prompt\": \"Vou sair para almoçar. Por favor, veja minha lista OpenToDo, extraia todas as tarefas relacionadas ao lançamento do produto V2.0 e publique-as no canal #v2-launch-team para que eles saibam o que resta a fazer.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.03168412269429958
+    }
+  ],
+  "create_time": "2026-09-13T22:17:55.048526Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "EyGnao77AuSnr8kPtsWW-AM",
+  "usage_metadata": {
+    "candidates_token_count": 470,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 470
+      }
+    ],
+    "prompt_token_count": 347,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 347
+      }
+    ],
+    "total_token_count": 817,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

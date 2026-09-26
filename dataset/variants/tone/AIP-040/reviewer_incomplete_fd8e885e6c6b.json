@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:42:12 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adds politeness marker 'Could you', but remains a request to execute.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"Changes from a direct request to an inquiry about possibility/ability, not a direct request to execute.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adds politeness markers 'Can you please', but remains a request to execute.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adds politeness marker 'Please help me', but remains a request to execute.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adds politeness marker 'please' at the end, but remains a request to execute.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adds a neutral request phrase 'Can you', commonly understood as a request to execute.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"Changes from a direct request to an inquiry about ability, not a direct request to execute.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adds a neutral request phrase 'Can you help me', but remains a request to execute.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adds a neutral politeness marker 'Please', but remains a request to execute.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\":"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "MAX_TOKENS",
+      "avg_logprobs": -0.46271882064338926
+    }
+  ],
+  "create_time": "2026-09-08T10:41:52.099952Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "cOafavCMBujii-8P4tOdmAI",
+  "usage_metadata": {
+    "candidates_token_count": 667,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 667
+      }
+    ],
+    "prompt_token_count": 990,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 990
+      }
+    ],
+    "thoughts_token_count": 3414,
+    "total_token_count": 5071,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

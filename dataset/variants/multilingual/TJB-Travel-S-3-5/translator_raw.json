@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:37:32 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"我需要为我的度假计划找到100个城市，然后根据经度找到最西边的城市中的酒店，最后获取关于酒店700008849的详细信息，包括照片、评论、促销、视频、客户评分、重要信息和附近景点。\"},{\"language\":\"ru\",\"prompt\":\"Мне нужно найти 100 городов для планирования отпуска, затем найти отели в самом западном городе по долготе и, наконец, получить исчерпывающие сведения об отеле 700008849, включая фотографии, отзывы, акции, видео, оценки гостей, важную информацию и близлежащие достопримечательности.\"},{\"language\":\"fr\",\"prompt\":\"Je dois trouver 100 villes pour la planification de mes vacances, puis localiser les hôtels dans la ville la plus à l'ouest en fonction de la longitude, et enfin obtenir des détails complets sur l'hôtel 700008849, y compris des photos, des avis, des promotions, des vidéos, des scores des clients, des informations importantes et des attractions à proximité.\"},{\"language\":\"es\",\"prompt\":\"Necesito encontrar 100 ciudades para la planificación de mis vacaciones, luego localizar hoteles en la ciudad más occidental según la longitud, y finalmente obtener detalles completos sobre el hotel 700008849, incluyendo fotos, reseñas, promociones, videos, puntuaciones de huéspedes, información importante y atracciones cercanas.\"},{\"language\":\"ar\",\"prompt\":\"أحتاج إلى العثور على 100 مدينة لتخطيط عطلتي، ثم تحديد الفنادق في المدينة الواقعة في أقصى الغرب بناءً على خط الطول، وأخيراً الحصول على تفاصيل شاملة حول الفندق 700008849 بما في ذلك الصور والمراجعات والعروض الترويجية ومقاطع الفيديو وتقييمات الضيوف والمعلومات الهامة والمعالم السياحية القريبة.\"},{\"language\":\"de\",\"prompt\":\"Ich muss 100 Städte für meine Urlaubsplanung finden, dann Hotels in der westlichsten Stadt basierend auf dem Längengrad lokalisieren und schließlich umfassende Details über Hotel 700008849 erhalten, einschließlich Fotos, Bewertungen, Aktionen, Videos, Gästebewertungen, wichtiger Informationen und nahegelegener Attraktionen.\"},{\"language\":\"pt\",\"prompt\":\"Preciso encontrar 100 cidades para o meu planejamento de férias, depois localizar hotéis na cidade mais ocidental com base na longitude e, finalmente, obter detalhes abrangentes sobre o hotel 700008849, incluindo fotos, avaliações, promoções, vídeos, pontuações de hóspedes, informações importantes e atrações próximas.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:37:30.228176Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "qiWnatD2DcuLr8kP2d6K6QQ",
+  "usage_metadata": {
+    "candidates_token_count": 594,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 594
+      }
+    ],
+    "prompt_token_count": 357,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 357
+      }
+    ],
+    "total_token_count": 951,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

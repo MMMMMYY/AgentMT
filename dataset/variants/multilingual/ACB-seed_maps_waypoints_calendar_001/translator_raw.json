@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:39 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"我需要我的团队知道我今天的工作地点。查看我在OpenMaps中的路线，并在我的OpenCalendar上创建一个新事件，列出我今天将要访问的工作相关地点。\"}, {\"language\": \"ru\", \"prompt\": \"Мне нужно, чтобы моя команда знала о моем профессиональном местонахождении сегодня. Посмотрите мой маршрут в OpenMaps и создайте новое событие в моем OpenCalendar, перечислив рабочие места, которые я посещу сегодня.\"}, {\"language\": \"fr\", \"prompt\": \"J'ai besoin que mon équipe connaisse mes déplacements professionnels aujourd'hui. Regardez mon itinéraire dans OpenMaps et créez un nouvel événement sur mon OpenCalendar listant les lieux de travail que je visiterai aujourd'hui.\"}, {\"language\": \"es\", \"prompt\": \"Necesito que mi equipo sepa mi paradero profesional hoy. Mira mi ruta en OpenMaps y crea un nuevo evento en mi OpenCalendar listando las ubicaciones relacionadas con el trabajo que visitaré hoy.\"}, {\"language\": \"ar\", \"prompt\": \"أحتاج أن يعرف فريقي أماكن تواجدي المهنية اليوم. انظر إلى مساري في OpenMaps وأنشئ حدثًا جديدًا في OpenCalendar الخاص بي يسرد المواقع المتعلقة بالعمل التي سأزورها اليوم.\"}, {\"language\": \"de\", \"prompt\": \"Ich muss mein Team über meinen beruflichen Aufenthaltsort heute informieren. Sehen Sie sich meine Route in OpenMaps an und erstellen Sie ein neues Ereignis in meinem OpenCalendar, in dem die arbeitsbezogenen Orte aufgeführt sind, die ich heute besuchen werde.\"}, {\"language\": \"pt\", \"prompt\": \"Preciso que minha equipe saiba meu paradeiro profissional hoje. Veja minha rota no OpenMaps e crie um novo evento no meu OpenCalendar listando os locais de trabalho que visitarei hoje.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.026265819768358643
+    }
+  ],
+  "create_time": "2026-09-13T22:17:37.234595Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "ASGnauOoDuSnr8kPtsWW-AM",
+  "usage_metadata": {
+    "candidates_token_count": 401,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 401
+      }
+    ],
+    "prompt_token_count": 334,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 334
+      }
+    ],
+    "total_token_count": 735,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

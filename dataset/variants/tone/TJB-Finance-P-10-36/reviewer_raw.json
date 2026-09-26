@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:46:05 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original task is a direct request to run the operations. The transformed request uses 'Could you run in parallel?', which is an ability question, not a direct request to execute.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original task is a direct request to run the operations. The transformed request uses 'Is it possible to run in parallel?', which is an ability question, not a direct request to execute.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original task is a direct request to run the operations. The transformed request uses 'Can you please run in parallel?', which is an ability question, not a direct request to execute.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original task is a direct request to run the operations. The transformed request uses 'Please help me run in parallel:', which implies assistance rather than a direct execution request.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request maintains the imperative 'Run in parallel' and adds 'please', which is a polite modifier but does not change the core request to execute.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original task is a direct request to run the operations. The transformed request uses 'Can you run in parallel?', which is an ability question, not a direct request to execute.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original task is a direct request to run the operations. The transformed request uses 'Are you able to run in parallel?', which is an ability question, not a direct request to execute.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original task is a direct request to run the operations. The transformed request uses 'Can you help me run in parallel?', which implies assistance rather than a direct execution request.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request maintains the imperative 'Please run in parallel', which is a direct request to execute.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request maintains the imperative 'Run in parallel', which is a direct request to execute.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request uses 'Just run in parallel', which is an imperative command to execute the task.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request uses 'Run in parallel... Do it.', which is an imperative command to execute the task.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request uses 'This time, run in parallel', which is an imperative command to execute the task. 'This time' implies a previous interaction but does not change the current task.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original task is a direct request to run the operations. The transformed request uses 'You need to run in parallel', which is an explanation of what the system needs to do, not a direct request from the user.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original task is a direct request to run the operations. The transformed request uses 'Why can't you run in parallel?', which is a question about ability or a challenge, not a request to execute the task.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-08T10:46:00.195468Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "aOefaoz3C5_EqMgP_ov7qAs",
+  "usage_metadata": {
+    "candidates_token_count": 1269,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1269
+      }
+    ],
+    "prompt_token_count": 5543,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 5543
+      }
+    ],
+    "total_token_count": 6812,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

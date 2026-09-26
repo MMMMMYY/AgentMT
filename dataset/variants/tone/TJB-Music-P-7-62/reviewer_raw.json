@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:46:39 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Could you search', which transforms the direct request into a question about ability, implying a previous conversation or an explanation is needed rather than a direct execution.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Is it possible to search', which transforms the direct request into a question about possibility, implying a previous conversation or an explanation is needed rather than a direct execution.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Can you please search', which transforms the direct request into a question about ability, implying a previous conversation or an explanation is needed rather than a direct execution.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Please help me search', which implies a request for assistance rather than a direct command to perform the search, potentially altering the authorization or the nature of the interaction.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt retains the imperative form of the original request, with 'please' added at the end, which is a politeness marker but does not change the core task or authorization.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Can you search', which transforms the direct request into a question about ability, implying a previous conversation or an explanation is needed rather than a direct execution.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Are you able to search', which transforms the direct request into a question about ability, implying a previous conversation or an explanation is needed rather than a direct execution.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Can you help me search', which implies a request for assistance rather than a direct command to perform the search, potentially altering the authorization or the nature of the interaction.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt retains the imperative form of the original request, with 'Please' at the beginning, which is a politeness marker but does not change the core task or authorization.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt retains the imperative form of the original request, directly stating the actions to be performed.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Just search', which is an imperative and retains the core task and authorization, with 'just' adding a tone of directness or impatience.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt retains the imperative form of the original request, followed by 'Do it', which reinforces the command without changing the task or authorization.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'This time, search', which is an imperative and retains the core task and authorization. 'This time' implies a previous attempt or context, but doesn't change the current request's executability.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'You need to search', which states a requirement or obligation rather than a direct request for execution. This changes the nature of the interaction from a command to an instruction about what the recipient must do.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Why can't you search', which transforms the direct request into a question about inability or a challenge, implying a previous conversation or an explanation is needed rather than a direct execution.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-08T10:46:33.493895Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "ieefaseSHo_gqMgP_sywmAQ",
+  "usage_metadata": {
+    "candidates_token_count": 1303,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1303
+      }
+    ],
+    "prompt_token_count": 2729,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 2729
+      }
+    ],
+    "total_token_count": 4032,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

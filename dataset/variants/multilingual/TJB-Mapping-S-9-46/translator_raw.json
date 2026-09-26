@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:37:10 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"translations\": [\n    {\n      \"language\": \"zh\",\n      \"prompt\": \"我正在寻找有关纽约帝国大厦的信息。你能找到它的坐标，然后检查经度-73.98609和纬度45.50737处位于哪个县吗？之后，我想查看弗吉尼亚州所有县的列表。然后对美国华盛顿州的金县进行地理编码，并查找其坐标1000米范围内的地点。从这些结果中，向我显示Goatea的详细信息，因为它是最近的地点。另外，坐标-123.0470199，49.2813458处的地址是什么？最后，你能告诉我经度-123.0469687和纬度47.3871102处的时区，并使用GMT偏移值-8检查海拔吗？\"\n    },\n    {\n      \"language\": \"ru\",\n      \"prompt\": \"Я ищу информацию об Эмпайр-стейт-билдинг в Нью-Йорке. Можете ли вы найти его координаты, а затем проверить, какой округ находится по долготе -73.98609 и широте 45.50737? После этого я хотел бы увидеть список всех округов Вирджинии. Затем выполните геокодирование округа Кинг в Вашингтоне, США, и найдите места в радиусе 1000 метров от его координат. Из этих результатов покажите мне подробности о Goatea, так как это ближайшее место. Также, какой адрес по координатам -123.0470199, 49.2813458? Наконец, можете ли вы сообщить мне часовой пояс по долготе -123.0469687 и широте 47.3871102, и проверить высоту, используя значение смещения GMT -8?\"\n    },\n    {\n      \"language\": \"fr\",\n      \"prompt\": \"Je recherche des informations sur l'Empire State Building à New York. Pouvez-vous trouver ses coordonnées, puis vérifier quel comté se trouve aux longitude -73.98609 et latitude 45.50737 ? Après cela, j'aimerais voir une liste de tous les comtés de Virginie. Ensuite, géocodez le comté de King dans l'État de Washington, aux États-Unis, et trouvez des lieux à moins de 1000 mètres de ses coordonnées. Parmi ces résultats, montrez-moi les détails sur Goatea puisque c'est l'endroit le plus proche. De plus, quelle est l'adresse aux coordonnées -123.0470199, 49.2813458 ? Enfin, pouvez-vous me dire le fuseau horaire à la longitude -123.0469687 et à la latitude 47.3871102, et vérifier l'altitude en utilisant la valeur de décalage GMT de -8 ?\"\n    },\n    {\n      \"language\": \"es\",\n      \"prompt\": \"Estoy buscando información sobre el Empire State Building en Nueva York. ¿Puedes encontrar sus coordenadas y luego verificar qué condado se encuentra en la longitud -73.98609 y latitud 45.50737? Después de eso, me gustaría ver una lista de todos los condados de Virginia. Luego, geocodifica el condado de King en Washington, Estados Unidos, y encuentra lugares dentro de los 1000 metros de sus coordenadas. De esos resultados, muéstrame los detalles sobre Goatea, ya que es el lugar más cercano. Además, ¿cuál es la dirección en las coordenadas -123.0470199, 49.2813458? Finalmente, ¿puedes decirme la zona horaria en la longitud -123.0469687 y latitud 47.3871102, y verificar la elevación usando el valor de desfase GMT de -8?\"\n    },\n    {\n      \"language\": \"ar\",\n      \"prompt\": \"أبحث عن معلومات حول مبنى إمباير ستيت في نيويورك. هل يمكنك العثور على إحداثياته، ثم التحقق من المقاطعة التي تقع عند خط الطول -73.98609 وخط العرض 45.50737؟ بعد ذلك، أود رؤية قائمة بجميع المقاطعات في فرجينيا. ثم قم بتحديد الموقع الجغرافي لمقاطعة كينغ في واشنطن، الولايات المتحدة، وابحث عن الأماكن في نطاق 1000 متر من إحداثياتها. من تلك النتائج، أظهر لي تفاصيل حول Goatea لأنه أقرب مكان. أيضًا، ما هو العنوان عند الإحداثيات -123.0470199، 49.2813458؟ أخيرًا، هل يمكنك إخباري بالمنطقة الزمنية عند خط الطول -123.0469687 وخط العرض 47.3871102، والتحقق من الارتفاع باستخدام قيمة إزاحة توقيت جرينتش -8؟\"\n    },\n    {\n      \"language\": \"de\",\n      \"prompt\": \"Ich suche Informationen über das Empire State Building in New York. Können Sie dessen Koordinaten finden und dann überprüfen, welcher Landkreis sich bei Länge -73.98609 und Breite 45.50737 befindet? Danach möchte ich eine Liste aller Landkreise in Virginia sehen. Dann geokodieren Sie King County in Washington, Vereinigte Staaten, und finden Sie Orte innerhalb von 1000 Metern seiner Koordinaten. Zeigen Sie mir aus diesen Ergebnissen Details zu Goatea, da es der nächste Ort ist. Außerdem, wie lautet die Adresse bei den Koordinaten -123.0470199, 49.2813458? Können Sie mir schließlich die Zeitzone bei Länge -123.0469687 und Breite 47.3871102 nennen und die Höhe unter Verwendung des GMT-Offset-Wertes von -8 überprüfen?\"\n    },\n    {\n      \"language\": \"pt\",\n      \"prompt\": \"Estou procurando informações sobre o Empire State Building em Nova York. Você pode encontrar suas coordenadas e depois verificar qual condado está localizado na longitude -73.98609 e latitude 45.50737? Depois disso, gostaria de ver uma lista de todos os condados na Virgínia. Em seguida, geocodifique o Condado de King em Washington, Estados Unidos, e encontre lugares a até 1000 metros de suas coordenadas. Desses resultados, mostre-me detalhes sobre Goatea, já que é o local mais próximo. Além disso, qual é o endereço nas coordenadas -123.0470199, 49.2813458? Finalmente, você pode me dizer o fuso horário na longitude -123.0469687 e latitude 47.3871102, e verificar a elevação usando o valor de deslocamento GMT de -8?\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.02634859889386648
+    }
+  ],
+  "create_time": "2026-09-13T22:37:03.506400Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "jyWnaqD0HrKcwLUPqrazoA0",
+  "usage_metadata": {
+    "candidates_token_count": 1660,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1660
+      }
+    ],
+    "prompt_token_count": 487,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 487
+      }
+    ],
+    "total_token_count": 2147,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

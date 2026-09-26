@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:32:22 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"reviews\": [{\"language\": \"zh\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"tone_preserved\": true, \"information_order_preserved\": true, \"target_language_correct\": true, \"reason\": \"The translation accurately conveys all instructions and constraints without any changes in meaning or order.\"}, {\"language\": \"ru\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"tone_preserved\": true, \"information_order_preserved\": true, \"target_language_correct\": true, \"reason\": \"The Russian translation is a faithful rendition of the source, preserving all task requirements, authorizations, and the original tone and information order.\"}, {\"language\": \"fr\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"tone_preserved\": true, \"information_order_preserved\": true, \"target_language_correct\": true, \"reason\": \"The French translation is accurate and preserves all aspects of the original instruction, including task equivalence, authorization, tone, and information order.\"}, {\"language\": \"es\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"tone_preserved\": true, \"information_order_preserved\": true, \"target_language_correct\": true, \"reason\": \"The Spanish translation is correct and maintains all the nuances, instructions, and constraints of the original text.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-23T08:32:21.030097Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "lY6zapHrAZzDlb4P3rCr2QU",
+  "usage_metadata": {
+    "candidates_token_count": 288,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 288
+      }
+    ],
+    "prompt_token_count": 1979,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1979
+      }
+    ],
+    "total_token_count": 2267,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

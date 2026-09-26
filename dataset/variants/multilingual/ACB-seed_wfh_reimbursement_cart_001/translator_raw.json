@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:59 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"向IT采购渠道发送一份我的当前购物车中WFH硬件的简洁列表。\"}, {\"language\": \"ru\", \"prompt\": \"Отправьте в канал закупок ИТ краткий список оборудования WFH из моей текущей корзины.\"}, {\"language\": \"fr\", \"prompt\": \"Envoyez au canal d'approvisionnement informatique une liste concise du matériel WFH de mon panier actuel.\"}, {\"language\": \"es\", \"prompt\": \"Envía al canal de Adquisiciones de TI una lista concisa del hardware WFH de mi carrito actual.\"}, {\"language\": \"ar\", \"prompt\": \"أرسل إلى قناة مشتريات تكنولوجيا المعلومات قائمة موجزة بأجهزة العمل من المنزل (WFH) من عربة التسوق الحالية الخاصة بي.\"}, {\"language\": \"de\", \"prompt\": \"Senden Sie dem IT-Beschaffungskanal eine prägnante Liste der WFH-Hardware aus meinem aktuellen Warenkorb.\"}, {\"language\": \"pt\", \"prompt\": \"Envie ao Canal de Aquisições de TI uma lista concisa do hardware WFH do meu carrinho atual.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.040709378767986686
+    }
+  ],
+  "create_time": "2026-09-13T22:17:57.815962Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "FSGnatrmMby-m9IP--X-8AU",
+  "usage_metadata": {
+    "candidates_token_count": 245,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 245
+      }
+    ],
+    "prompt_token_count": 313,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 313
+      }
+    ],
+    "total_token_count": 558,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

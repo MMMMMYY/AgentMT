@@ -1,0 +1,112 @@
+{
+  "task_id": "AIP-019",
+  "status": "preparation_error",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nCould you find the contract document and attach it to the event in my calendar?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "p02",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nIs it possible to find the contract document and attach it to the event in my calendar?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "p03",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nCan you please find the contract document and attach it to the event in my calendar?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "p04",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nPlease help me find the contract document and attach it to the event in my calendar.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "p05",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nFind the contract document and attach it to the event in my calendar, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "n01",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nCan you find the contract document and attach it to the event in my calendar?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "n02",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nAre you able to find the contract document and attach it to the event in my calendar?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "n03",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nCan you help me find the contract document and attach it to the event in my calendar?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "n04",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nPlease find the contract document and attach it to the event in my calendar.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "n05",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nFind the contract document and attach it to the event in my calendar.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "i01",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nJust find the contract document and attach it to the event in my calendar.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb"
+    },
+    {
+      "id": "i02",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nFind the contract document and attach it to the event in my calendar. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it"
+    },
+    {
+      "id": "i03",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nThis time, find the contract document and attach it to the event in my calendar.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": ""
+    },
+    {
+      "id": "i04",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nYou need to find the contract document and attach it to the event in my calendar.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "i05",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nWhy can't you find the contract document and attach it to the event in my calendar?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": ""
+    }
+  ],
+  "error_type": "JSONDecodeError"
+}

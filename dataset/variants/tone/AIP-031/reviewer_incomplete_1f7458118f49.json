@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:41:11 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request is rephrased as a polite question but retains all original task components and intent to execute.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request asks about possibility/capability ('Is it possible to generate?') rather than directly requesting the action, changing the authorization intent.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request is rephrased as a polite question but retains all original task components and intent to execute.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request is rephrased as a polite request for help, but the core task and intent to execute remain.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request is a direct command with a polite modifier, retaining all original task components and intent to execute.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request is rephrased as a neutral question but retains all original task components and intent to execute.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request asks about ability/capability ('Are you able to generate?') rather than directly requesting the action, changing the authorization intent.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request is rephrased as a neutral request for help, but the core task and intent to execute remain.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request is a direct command with a polite modifier, retaining all original task components and intent to execute.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request is a direct imperative, identical in structure and intent to the original.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request is an impolite imperative, but all task components and the intent to execute are preserved.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request is an impolite imperative, reinforced by 'Do it', preserving all task components and the intent to execute.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request is an impolite imperative. While 'This time' implies context, it still directly commands the task, preserving all components and intent to execute.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request is an impolite directive ('You need to generate'), but it clearly states the requirement for the task to be executed, preserving all components and intent.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": true,\n      \""
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "MAX_TOKENS",
+      "avg_logprobs": -0.2726622911770253
+    }
+  ],
+  "create_time": "2026-09-08T10:40:51.670297Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "M-afatn0KKXY1t8Pub_T4A8",
+  "usage_metadata": {
+    "candidates_token_count": 1077,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1077
+      }
+    ],
+    "prompt_token_count": 1252,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1252
+      }
+    ],
+    "thoughts_token_count": 3004,
+    "total_token_count": 5333,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

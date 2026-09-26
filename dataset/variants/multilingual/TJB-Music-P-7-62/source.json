@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Music-P-7-62",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Music",
+  "taskType": "parallel tool orchestration",
+  "prompt": "I'm pulling together a quick music brief. Please search Shazam term 'kiss the rain', locale en-US, limit 5, download Spotify lyrics for https://soundcloud.com/yiruma-official/kiss-the-rain, get childrens songs by composer 'yiruma', get Catalog Albums for week 2023-10-14, search YouTube Music with query 'Kiss the Rain piano', lang en, limit 20, get Spotify Top 200 (global) period weekly, and get K-POP Idols for 'IU' by Stage Name.",
+  "scope": "",
+  "trajectoryType": "parallel",
+  "referenceSteps": 7,
+  "positiveOracle": "1. Shazam: search | required: term=kiss the rain | optional: locale=en-US, limit=5\n2. SoundCloud Scraper: Download Lyrics on Spotify (2 Quotas) | required: track=https://soundcloud.com/yiruma-official/kiss-the-rain\n3. kjoller: Get songs by composer | optional: composer=yiruma\n4. Billboard API_v2: Catalog Albums | optional: week=2023-10-14\n5. Youtube Music API (Detailed): Search | required: lang=en, query=Kiss the Rain piano | optional: limit=20\n6. Spotify_v3: Top 200 songs by country / global | optional: country=global, period=weekly\n7. K-POP: Idols | required: q=IU | optional: by=Stage Name",
+  "negativeOracle": "",
+  "referenceTrajectory": "Shazam: search ∥ SoundCloud Scraper: Download Lyrics on Spotify (2 Quotas) ∥ kjoller: Get songs by composer ∥ Billboard API_v2: Catalog Albums ∥ Youtube Music API (Detailed): Search ∥ Spotify_v3: Top 200 songs by country / global ∥ K-POP: Idols",
+  "sourceLocator": "public_data/parallel/Music/simple_ver.json | item=62",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/parallel/Music/simple_ver.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 22 clean candidates in Music/parallel/7-tool stratum."
+}

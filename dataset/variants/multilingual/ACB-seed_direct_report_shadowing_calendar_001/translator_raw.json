@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:12 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"将我周三不可用的时间段消息发给Lina，这样她就可以计划何时来观摩我。\"},{\"language\":\"ru\",\"prompt\":\"Сообщите Лине о моих недоступных блоках на среду, чтобы она могла спланировать, когда наблюдать за мной.\"},{\"language\":\"fr\",\"prompt\":\"Envoyez un message à Lina avec mes blocs indisponibles pour mercredi afin qu'elle puisse planifier quand me suivre.\"},{\"language\":\"es\",\"prompt\":\"Envía un mensaje a Lina con mis bloques no disponibles para el miércoles para que pueda planificar cuándo observarme.\"},{\"language\":\"ar\",\"prompt\":\"أرسل رسالة إلى لينا تتضمن أوقات عدم توفري ليوم الأربعاء حتى تتمكن من التخطيط لموعد مراقبتي.\"},{\"language\":\"de\",\"prompt\":\"Nachricht an Lina mit meinen nicht verfügbaren Blöcken für Mittwoch, damit sie planen kann, wann sie mich begleiten kann.\"},{\"language\":\"pt\",\"prompt\":\"Envie uma mensagem para Lina com meus blocos indisponíveis para quarta-feira para que ela possa planejar quando me acompanhar.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:17:10.629503Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "5iCnav-1JsuLr8kP2d6K6QQ",
+  "usage_metadata": {
+    "candidates_token_count": 244,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 244
+      }
+    ],
+    "prompt_token_count": 312,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 312
+      }
+    ],
+    "total_token_count": 556,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

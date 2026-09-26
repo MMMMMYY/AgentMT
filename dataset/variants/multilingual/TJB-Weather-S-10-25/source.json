@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Weather-S-10-25",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Weather",
+  "taskType": "Geolocation and Historical Weather Profiling",
+  "prompt": "I need detailed weather information for Manhattan. Can you look up ZIP code 10001 in the US to find its coordinates and hardiness zone? After that, please do a reverse lookup for New York at longitude -74.0060 to confirm the location, then search for \"New York\" places in English. Once you've identified New York City, get the daily forecast in English and a detailed weather forecast summary using the exact coordinates (40.71427, -74.00597). Then find weather stations within 75 miles of those coordinates, get their metadata, and retrieve climate data history for station 10637. Finally, show me the monthly weather data from that station from January 1, 2024 through September 7, 2024 in metric units.",
+  "scope": "RapidWeather, Plant Hardiness Zone, AI Weather by Meteosource, Forecast, meteostat",
+  "trajectoryType": "sequential",
+  "referenceSteps": 10,
+  "positiveOracle": "1. RapidWeather: Coordinates by zip/post code | required: zip=10001,US\n2. Plant Hardiness Zone: Retrieve the Hardiness Zone | required: zipcode=10001\n3. RapidWeather: Reverse geocoding | required: lat=New York, lon=-74.0060 | optional: limit=5\n4. AI Weather by Meteosource: find_places | required: text=New York | optional: language=en\n5. AI Weather by Meteosource: daily | optional: language=en, place_id=new-york-city\n6. Forecast: RapidApiGetForecastSummaryByCoordinates | required: longitude=-74.00597, latitude=40.71427\n7. meteostat: Nearby Stations | required: lon=-74.00597, lat=40.71427 | optional: radius=75\n8. meteostat: Station Meta Data\n9. meteostat: Station Climate Data | required: station=10637\n10. meteostat: Monthly Station Data | required: station=10637, start=2024-01-01, end=2024-09-07 | optional: units=metric",
+  "negativeOracle": "",
+  "referenceTrajectory": "RapidWeather: Coordinates by zip/post code → Plant Hardiness Zone: Retrieve the Hardiness Zone → RapidWeather: Reverse geocoding → AI Weather by Meteosource: find_places → AI Weather by Meteosource: daily → Forecast: RapidApiGetForecastSummaryByCoordinates → meteostat: Nearby Stations → meteostat: Station Meta Data → meteostat: Station Climate Data → meteostat: Monthly Station Data",
+  "sourceLocator": "public_data/sequential/Weather/traj_query.json | item=25",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/sequential/Weather/traj_query.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 5 clean candidates in Weather/sequential/10-tool stratum."
+}

@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:16 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"请帮我预订一张从纽约到巴黎的机票，日期是8月10日至20日。\"},{\"language\":\"ru\",\"prompt\":\"Пожалуйста, забронируйте мне рейс из Нью-Йорка в Париж с 10 по 20 августа.\"},{\"language\":\"fr\",\"prompt\":\"Veuillez me réserver un vol de New York à Paris du 10 au 20 août.\"},{\"language\":\"es\",\"prompt\":\"Por favor, resérvame un vuelo de Nueva York a París del 10 al 20 de agosto.\"},{\"language\":\"ar\",\"prompt\":\"الرجاء حجز رحلة لي من نيويورك إلى باريس من 10 إلى 20 أغسطس.\"},{\"language\":\"de\",\"prompt\":\"Bitte buchen Sie mir einen Flug von New York nach Paris vom 10. bis 20. August.\"},{\"language\":\"pt\",\"prompt\":\"Por favor, reserve um voo para mim de Nova York para Paris de 10 a 20 de agosto.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:16:15.489158Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "ryCnasbtHZOcmecP1-vzoQs",
+  "usage_metadata": {
+    "candidates_token_count": 226,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 226
+      }
+    ],
+    "prompt_token_count": 316,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 316
+      }
+    ],
+    "total_token_count": 542,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

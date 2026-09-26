@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:32:28 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"language\": \"zh\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": false,\n      \"reason\": \"The placeholders for the JSON output are incorrect. They should be `\\\"id\\\"`, `\\\"name\\\"`, `\\\"item1\\\"`, `\\\"value\\\"`, `\\\"id\\\"`, `\\\"name\\\"`, `\\\"item2\\\"`, `\\\"value\\\"` respectively, but are `⟦2⟧`, `⟦3⟧`, `⟦4⟧`, `⟦5⟧`, `⟦6⟧`, `⟦7⟧`, `⟦8⟧`, `⟦9⟧`.\"\n    },\n    {\n      \"language\": \"ru\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": false,\n      \"reason\": \"The placeholders for the JSON output are incorrect. They should be `\\\"id\\\"`, `\\\"name\\\"`, `\\\"item1\\\"`, `\\\"value\\\"`, `\\\"id\\\"`, `\\\"name\\\"`, `\\\"item2\\\"`, `\\\"value\\\"` respectively, but are `⟦2⟧`, `⟦3⟧`, `⟦4⟧`, `⟦5⟧`, `⟦6⟧`, `⟦7⟧`, `⟦8⟧`, `⟦9⟧`.\"\n    },\n    {\n      \"language\": \"fr\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": false,\n      \"reason\": \"The placeholders for the JSON output are incorrect. They should be `\\\"id\\\"`, `\\\"name\\\"`, `\\\"item1\\\"`, `\\\"value\\\"`, `\\\"id\\\"`, `\\\"name\\\"`, `\\\"item2\\\"`, `\\\"value\\\"` respectively, but are `⟦2⟧`, `⟦3⟧`, `⟦4⟧`, `⟦5⟧`, `⟦6⟧`, `⟦7⟧`, `⟦8⟧`, `⟦9⟧`.\"\n    },\n    {\n      \"language\": \"es\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": false,\n      \"reason\": \"The placeholders for the JSON output are incorrect. They should be `\\\"id\\\"`, `\\\"name\\\"`, `\\\"item1\\\"`, `\\\"value\\\"`, `\\\"id\\\"`, `\\\"name\\\"`, `\\\"item2\\\"`, `\\\"value\\\"` respectively, but are `⟦2⟧`, `⟦3⟧`, `⟦4⟧`, `⟦5⟧`, `⟦6⟧`, `⟦7⟧`, `⟦8⟧`, `⟦9⟧`.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.017002774958024946
+    }
+  ],
+  "create_time": "2026-09-23T08:32:25.796539Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "mY6zavvOMPPsi-8P9pj72A8",
+  "usage_metadata": {
+    "candidates_token_count": 684,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 684
+      }
+    ],
+    "prompt_token_count": 1328,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1328
+      }
+    ],
+    "total_token_count": 2012,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

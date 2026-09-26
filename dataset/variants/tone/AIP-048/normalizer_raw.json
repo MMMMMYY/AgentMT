@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:42:15 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"\",\n  \"task\": \"book an electric car near the airport in Berlin for my trip from May 2nd to May 5th and add it to my calendar\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.24949307875199753
+    }
+  ],
+  "create_time": "2026-09-08T10:42:14.693521Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "huafapGqKumx1t8P_qfo0Qs",
+  "usage_metadata": {
+    "candidates_token_count": 44,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 44
+      }
+    ],
+    "prompt_token_count": 223,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 223
+      }
+    ],
+    "thoughts_token_count": 82,
+    "total_token_count": 349,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

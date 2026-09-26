@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:18:11 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"我需要为我的比较研究调查印度尼西亚的教育系统。你能先告诉我代码为“020000”的印度尼西亚省份的学校数量，然后找出该省份学校总数最多的地区吗？之后，请向我展示该地区内“056010”分区的学校。我特别感兴趣的是从该列表中找到学生入学人数最多的公立学校，用于我的DEI研究——我需要查看与该学校相关的人员。最后，你能找到2017年1月1日之后录制的至少5分钟长的英语教育讲座来补充我的研究吗？\"}, {\"language\": \"ru\", \"prompt\": \"Мне нужно исследовать индонезийскую систему образования для моего сравнительного исследования. Можете ли вы сначала показать мне количество школ в индонезийской провинции с кодом '020000', затем определить район с наибольшим общим количеством школ в этой провинции? После этого, пожалуйста, покажите мне школы в подрайоне '056010' в этом районе. Меня особенно интересует поиск государственной школы с наибольшим количеством учащихся из этого списка для моего исследования DEI — мне нужно увидеть людей, связанных с этой школой. Наконец, можете ли вы найти англоязычные образовательные лекции продолжительностью не менее 5 минут, записанные после 1 января 2017 года, чтобы дополнить мое исследование?\"}, {\"language\": \"fr\", \"prompt\": \"Je dois faire des recherches sur le système éducatif indonésien pour mon étude comparative. Pouvez-vous d'abord me montrer le nombre d'écoles dans la province indonésienne avec le code '020000', puis identifier le district avec le plus grand nombre total d'écoles de cette province ? Après cela, veuillez me montrer les écoles du sous-district '056010' au sein de ce district. Je suis particulièrement intéressé par la recherche de l'école publique avec le plus grand nombre d'inscriptions d'élèves de cette liste pour ma recherche DEI - je dois voir les personnes associées à cette école. Enfin, pouvez-vous trouver des conférences éducatives en anglais d'au moins 5 minutes qui ont été enregistrées après le 1er janvier 2017 pour compléter ma recherche ?\"}, {\"language\": \"es\", \"prompt\": \"Necesito investigar el sistema educativo indonesio para mi estudio comparativo. ¿Puedes primero mostrarme el número de escuelas en la provincia indonesia con el código '020000', luego identificar el distrito con el mayor número total de escuelas de esa provincia? Después de eso, por favor muéstrame las escuelas en el subdistrito '056010' dentro de ese distrito. Estoy particularmente interesado en encontrar la escuela pública con la mayor matrícula de estudiantes de esa lista para mi investigación DEI; necesito ver a las personas asociadas con esa escuela. Finalmente, ¿puedes encontrar charlas educativas en inglés de al menos 5 minutos de duración que se grabaron después del 1 de enero de 2017 para complementar mi investigación?\"}, {\"language\": \"ar\", \"prompt\": \"أحتاج إلى البحث في نظام التعليم الإندونيسي لدراستي المقارنة. هل يمكنك أولاً أن تريني عدد المدارس في المقاطعة الإندونيسية التي تحمل الرمز '020000'، ثم تحديد المنطقة التي تضم أكبر عدد إجمالي من المدارس من تلك المقاطعة؟ بعد ذلك، يرجى أن تريني المدارس في المنطقة الفرعية '056010' داخل تلك المنطقة. أنا مهتم بشكل خاص بالعثور على المدرسة الحكومية التي تضم أكبر عدد من الطلاب المسجلين من تلك القائمة لبحثي حول التنوع والإنصاف والشمول (DEI) - أحتاج إلى رؤية الأشخاص المرتبطين بتلك المدرسة. أخيرًا، هل يمكنك العثور على محادثات تعليمية باللغة الإنجليزية لا تقل مدتها عن 5 دقائق وتم تسجيلها بعد 1 يناير 2017 لتكملة بحثي؟\"}, {\"language\": \"de\", \"prompt\": \"Ich muss das indonesische Bildungssystem für meine vergleichende Studie recherchieren. Können Sie mir zuerst die Anzahl der Schulen in der indonesischen Provinz mit dem Code '020000' zeigen und dann den Bezirk mit der höchsten Gesamtzahl an Schulen in dieser Provinz identifizieren? Danach zeigen Sie mir bitte die Schulen im Unterbezirk '056010' innerhalb dieses Bezirks. Ich bin besonders daran interessiert, die öffentliche Schule mit der höchsten Schülerzahl aus dieser Liste für meine DEI-Forschung zu finden – ich muss die mit dieser Schule verbundenen Personen sehen. Können Sie schließlich englischsprachige Bildungsgespräche finden, die mindestens 5 Minuten lang sind und nach dem 1. Januar 2017 aufgezeichnet wurden, um meine Forschung zu ergänzen?\"}, {\"language\": \"pt\", \"prompt\": \"Preciso pesquisar o sistema educacional indonésio para meu estudo comparativo. Você pode primeiro me mostrar o número de escolas na província indonésia com o código '020000', e depois identificar o distrito com o maior número total de escolas dessa província? Depois disso, por favor, mostre-me as escolas no subdistrito '056010' dentro desse distrito. Estou particularmente interessado em encontrar a escola pública com o maior número de matrículas de alunos dessa lista para minha pesquisa de DEI – preciso ver as pessoas associadas a essa escola. Finalmente, você pode encontrar palestras educacionais em inglês com pelo menos 5 minutos de duração que foram gravadas após 1º de janeiro de 2017 para complementar minha pesquisa?\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.027565868580398927
+    }
+  ],
+  "create_time": "2026-09-13T22:18:05.650629Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "HSGnaoXbJ8GGm9IPoJKR4Ak",
+  "usage_metadata": {
+    "candidates_token_count": 1242,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1242
+      }
+    ],
+    "prompt_token_count": 454,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 454
+      }
+    ],
+    "total_token_count": 1696,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:43:49 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original request is a direct command to set up an automation. The transformed request asks if the system 'could' perform the action, which is an ability question, not a direct request to execute.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original request is a direct command to set up an automation. The transformed request asks 'is it possible' to perform the action, which is an ability question, not a direct request to execute.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original request is a direct command to set up an automation. The transformed request asks 'can you' perform the action, which is an ability question, not a direct request to execute.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original request is a direct command to set up an automation. The transformed request asks for 'help' to perform the action, which implies a collaborative effort or an explanation, not a direct request to execute the automation.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request is a direct command to perform the action, maintaining all original information and intent.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original request is a direct command to set up an automation. The transformed request asks 'can you' perform the action, which is an ability question, not a direct request to execute.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original request is a direct command to set up an automation. The transformed request asks 'are you able to' perform the action, which is an ability question, not a direct request to execute.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original request is a direct command to set up an automation. The transformed request asks for 'help' to perform the action, which implies a collaborative effort or an explanation, not a direct request to execute the automation.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request is a direct command to perform the action, maintaining all original information and intent.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request is a direct command to perform the action, maintaining all original information and intent.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request is a direct command to perform the action, maintaining all original information and intent.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request is a direct command to perform the action, maintaining all original information and intent.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'This time' implies a previous attempt or conversation, which is not present in the original source and changes the context of the request from a new instruction to a repeated or corrected one.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'You need to' implies a requirement or obligation on the part of the system, rather than a direct request from the user to execute an action. It shifts the responsibility or initiative.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request is a question asking 'Why can't you' perform the action, which is an explanation request, not a direct request to execute the automation. It implies a previous failure or inability.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.050275501924402576
+    }
+  ],
+  "create_time": "2026-09-08T10:43:43.221794Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "3-afauLEDZ_EqMgP_ov7qAs",
+  "usage_metadata": {
+    "candidates_token_count": 1275,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1275
+      }
+    ],
+    "prompt_token_count": 1047,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1047
+      }
+    ],
+    "total_token_count": 2322,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

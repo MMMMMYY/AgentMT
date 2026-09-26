@@ -1,0 +1,16 @@
+{
+  "task_id": "TJB-Weather-S-9-38",
+  "scenario_id": null,
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "io01",
+      "prompt": "First find Chicago stadiums, then get coordinates for London with just one result, and find the nearest place to coordinates -122.42282, 37.81021 in English. After that, get hourly forecast for Fisherman's Wharf in metric units using English based on the timezone, then check current weather in New York. Next, get hourly forecast data using latitude 46.95828 and New York's longitude of -74.006, followed by minute-by-minute precipitation forecast for Fisherman's Wharf. Then get a 3-day local weather report with air quality for coordinates 40.73,-73 in English, and finally determine the sun's current position using the wind direction (309) as the latitude and -73.00 as longitude. I need to analyze weather conditions for an aviation event.",
+      "transformation": "sentence_permutation",
+      "sentence_multiset_preserved": true,
+      "information_order_changed": true,
+      "eligible_pilot": true,
+      "validation_basis": "deterministic span preservation and dependency exclusion rules"
+    }
+  ]
+}

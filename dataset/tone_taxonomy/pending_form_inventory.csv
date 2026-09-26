@@ -1,0 +1,28 @@
+provisional_subcategory,surface_form,wildchat_position,wildchat_count,reason_pending
+polite_imperative,Kindly {TASK}.,prompt_start,146,insufficient direct Stanford matches
+desire_statement,I want you to {TASK}.,prompt_start,3490,no sufficient direct Stanford pattern
+need_statement,I need you to {TASK}.,prompt_start,222,no sufficient direct Stanford pattern
+desire_statement,I would like to {TASK}.,prompt_start,416,no sufficient direct Stanford pattern
+desire_statement,I'd like you to {TASK}.,prompt_start,32,no sufficient direct Stanford pattern
+indirect_request,I was wondering if {TASK}.,prompt_start,9,insufficient direct Stanford matches
+gratitude_request,I would appreciate it if {TASK}.,sentence_start,32,no sufficient direct Stanford pattern
+indirect_request,It would be great if {TASK}.,sentence_start,17,no sufficient direct Stanford pattern
+blunt_emphasis,Just {TASK}.,prompt_start,712,no sufficient direct Stanford pattern
+blunt_emphasis,Just do {TASK}.,prompt_start,15,no sufficient direct Stanford pattern
+constraint_emphasis,Make sure {TASK}.,prompt_start,90,no sufficient direct Stanford pattern
+constraint_emphasis,You need to {TASK}.,prompt_start,118,no sufficient direct Stanford pattern
+direct_followup,Do it.,prompt_start,183,no sufficient direct Stanford pattern
+correction,"No, I meant {TASK}.",prompt_start,52,dialogue repair absent from Stanford setting
+retry,Try again.,prompt_start,106,dialogue repair absent from Stanford setting
+retry,"This time, {TASK}.",prompt_start,22,dialogue repair absent from Stanford setting
+retry,Do it again.,prompt_start,67,dialogue repair absent from Stanford setting
+challenge,Why {TASK}?,prompt_start,6335,why alone does not determine tone
+challenge,Why are you {TASK}?,prompt_start,61,insufficient direct Stanford pattern
+challenge,Why did you {TASK}?,prompt_start,84,insufficient direct Stanford pattern
+greeting_preface,"Hi, {TASK}.",prompt_start,3997,greeting alone does not determine request tone
+greeting_preface,"Hello, {TASK}.",prompt_start,2145,greeting alone does not determine request tone
+greeting_preface,"Hey, {TASK}.",prompt_start,908,greeting alone does not determine request tone
+role_framing,"As a {ROLE}, {TASK}.",prompt_start,68819,strong copied-template contamination
+role_framing,"You are a {ROLE}; {TASK}.",prompt_start,4518,role framing does not determine tone
+telegraphic_query,How to {TASK}?,prompt_start,10840,may be a query rather than a request frame
+telegraphic_query,What is {OBJECT}?,prompt_start,18393,may be a query rather than an agent action request

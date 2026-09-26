@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:39:20 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"\",\n  \"task\": \"find and download the latest version of our sales pitch from my email attachments and upload it to my Cloud Drive\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-08T10:39:13.761642Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "0eWfaqq-LvrI1t8P-6b36Ak",
+  "usage_metadata": {
+    "candidates_token_count": 37,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 37
+      }
+    ],
+    "prompt_token_count": 170,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 170
+      }
+    ],
+    "thoughts_token_count": 1049,
+    "total_token_count": 1256,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

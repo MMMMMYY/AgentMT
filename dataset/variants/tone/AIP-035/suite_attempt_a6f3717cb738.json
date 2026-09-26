@@ -1,0 +1,112 @@
+{
+  "task_id": "AIP-035",
+  "status": "preparation_error",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "He is turning 13.\n\nCould you advise me on what to buy my son for his birthday?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "p02",
+      "prompt": "He is turning 13.\n\nIs it possible to advise me on what to buy my son for his birthday?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "p03",
+      "prompt": "He is turning 13.\n\nCan you please advise me on what to buy my son for his birthday?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "p04",
+      "prompt": "He is turning 13.\n\nPlease help me advise me on what to buy my son for his birthday.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "p05",
+      "prompt": "He is turning 13.\n\nAdvise me on what to buy my son for his birthday, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "n01",
+      "prompt": "He is turning 13.\n\nCan you advise me on what to buy my son for his birthday?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "n02",
+      "prompt": "He is turning 13.\n\nAre you able to advise me on what to buy my son for his birthday?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "n03",
+      "prompt": "He is turning 13.\n\nCan you help me advise me on what to buy my son for his birthday?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "n04",
+      "prompt": "He is turning 13.\n\nPlease advise me on what to buy my son for his birthday.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "n05",
+      "prompt": "He is turning 13.\n\nAdvise me on what to buy my son for his birthday.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "i01",
+      "prompt": "He is turning 13.\n\nJust advise me on what to buy my son for his birthday.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb"
+    },
+    {
+      "id": "i02",
+      "prompt": "He is turning 13.\n\nAdvise me on what to buy my son for his birthday. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it"
+    },
+    {
+      "id": "i03",
+      "prompt": "He is turning 13.\n\nThis time, advise me on what to buy my son for his birthday.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": ""
+    },
+    {
+      "id": "i04",
+      "prompt": "He is turning 13.\n\nYou need to advise me on what to buy my son for his birthday.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "i05",
+      "prompt": "He is turning 13.\n\nWhy can't you advise me on what to buy my son for his birthday?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": ""
+    }
+  ],
+  "error_type": "JSONDecodeError"
+}

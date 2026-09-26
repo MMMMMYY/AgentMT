@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:47:23 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their order, with no changes to facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, or permissions. The polite phrasing 'Could you' does not alter the executability of the request.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt changes the request into an ability question ('Is it possible to'). This implies a query about capability rather than a direct request for execution, thus altering the task and authorization equivalence.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt changes the request into an ability question ('Can you please'). This implies a query about capability rather than a direct request for execution, thus altering the task and authorization equivalence.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their order, with no changes to facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, or permissions. The polite phrasing 'Please help me' does not alter the executability of the request.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their order, with no changes to facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, or permissions. The polite addition of 'please' at the end does not alter the executability of the request.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt changes the request into an ability question ('Can you'). This implies a query about capability rather than a direct request for execution, thus altering the task and authorization equivalence.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt changes the request into an ability question ('Are you able to'). This implies a query about capability rather than a direct request for execution, thus altering the task and authorization equivalence.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt changes the request into an ability question ('Can you help me'). This implies a query about capability rather than a direct request for execution, thus altering the task and authorization equivalence.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their order, with no changes to facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, or permissions. The addition of 'Please' does not alter the executability of the request.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt is identical to the source prompt, maintaining all original requests, their order, and all associated information.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their order, with no changes to facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, or permissions. The addition of 'Just' does not alter the executability of the request.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their order, with no changes to facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, or permissions. The addition of 'Do it' reinforces the imperative nature of the request without changing its content.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their order, with no changes to facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, or permissions. The addition of 'This time' implies a previous conversation but does not change the current request's executability.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their order, with no changes to facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, or permissions. The phrasing 'You need to' is a direct command and does not alter the executability of the request.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt changes the request into a rhetorical question ('Why can't you'). This implies a challenge or an inquiry about inability rather than a direct request for execution, thus altering the task and authorization equivalence.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.04090684108959774
+    }
+  ],
+  "create_time": "2026-09-08T10:47:16.044340Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "tOefarTaAqyAlb4P9ouQsAQ",
+  "usage_metadata": {
+    "candidates_token_count": 1437,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1437
+      }
+    ],
+    "prompt_token_count": 3800,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 3800
+      }
+    ],
+    "total_token_count": 5237,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

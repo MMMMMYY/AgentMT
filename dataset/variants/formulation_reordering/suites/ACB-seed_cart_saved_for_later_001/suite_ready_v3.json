@@ -1,0 +1,16 @@
+{
+  "task_id": "ACB-seed_cart_saved_for_later_001",
+  "scenario_id": "seed_cart_saved_for_later_001",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "io01",
+      "prompt": "Open my OpenShop app, grab the items currently in my active cart, and send the list to Sarah in Procurement so she can approve the expense. I need approval for my home office setup.",
+      "transformation": "sentence_permutation",
+      "sentence_multiset_preserved": true,
+      "information_order_changed": true,
+      "eligible_pilot": true,
+      "validation_basis": "deterministic span preservation and dependency exclusion rules"
+    }
+  ]
+}

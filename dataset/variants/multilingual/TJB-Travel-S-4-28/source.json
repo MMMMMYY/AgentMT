@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Travel-S-4-28",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Travel",
+  "taskType": "Airport Search by Name → Airport Info → Flight List → Flight Details",
+  "prompt": "I need to find Chicago airports for my trip next year. Could you show me the airport with the most central location to Chicago city center? Once you find it, I'd like to see details about Midway International Airport (MDW). Then, check what flights are arriving at KMDW on September 1, 2025, around noon. Finally, can you get me complete information about flight WN3764, which should be the flight departing from the easternmost airport?",
+  "scope": "Priceline com Provider, Flightera Flight Data",
+  "trajectoryType": "sequential",
+  "referenceSteps": 4,
+  "positiveOracle": "1. Priceline com Provider: Auto Suggest | required: string=Chicago | optional: get_airports=true, sort=rank, max_results=10\n2. Flightera Flight Data: airportInfo | optional: iata=MDW\n3. Flightera Flight Data: airportFlights | required: direction=arrival, ident=KMDW, time=2025-09-01T12:00:00.000Z\n4. Flightera Flight Data: flightInfo | required: flnr=WN3764",
+  "negativeOracle": "",
+  "referenceTrajectory": "Priceline com Provider: Auto Suggest → Flightera Flight Data: airportInfo → Flightera Flight Data: airportFlights → Flightera Flight Data: flightInfo",
+  "sourceLocator": "public_data/sequential/Travel/traj_query.json | item=28",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/sequential/Travel/traj_query.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 5 clean candidates in Travel/sequential/4-tool stratum."
+}

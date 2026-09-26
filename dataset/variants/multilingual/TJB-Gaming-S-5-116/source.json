@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Gaming-S-5-116",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Gaming",
+  "taskType": "Free Epic Game → Game Review → Similar Game Search → New Game Review → New Game Deals",
+  "prompt": "I'm looking for some free games to play this weekend. Can you check what's currently free on the Epic Games Store in the US? I heard Outliver: Tribulation might be free right now - could you find reviews for that specific game? I'm also interested in horror games on PC similar to the Outlast series. Actually, I'm in the mood for something with zombies - can you search for that theme? Oh, and I'd like to see if there's a game called Zombie Soup since I love games with food-related names. Can you show me reviews and deals for that one?",
+  "scope": "Epic Games Store - Free Games, OpenCritic API, Free-to-Play Games Database, CheapShark - Game Deals",
+  "trajectoryType": "sequential",
+  "referenceSteps": 5,
+  "positiveOracle": "1. Epic Games Store - Free Games: Free Games | optional: country=US\n2. OpenCritic API: Game Search | required: criteria=Outliver: Tribulation\n3. Free-to-Play Games Database: Filter games by multiple tags | required: tag=horror | optional: platform=pc\n4. OpenCritic API: General Search | required: criteria=zombie\n5. CheapShark - Game Deals: List of Games | optional: title=Zombie Soup, exact=0, limit=60",
+  "negativeOracle": "",
+  "referenceTrajectory": "Epic Games Store - Free Games: Free Games → OpenCritic API: Game Search → Free-to-Play Games Database: Filter games by multiple tags → OpenCritic API: General Search → CheapShark - Game Deals: List of Games",
+  "sourceLocator": "public_data/sequential/Gaming/traj_query.json | item=116",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/sequential/Gaming/traj_query.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 1 clean candidates in Gaming/sequential/5-tool stratum."
+}

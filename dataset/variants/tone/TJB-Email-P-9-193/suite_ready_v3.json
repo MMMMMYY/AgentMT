@@ -1,0 +1,419 @@
+{
+  "task_id": "TJB-Email-P-9-193",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "Could you execute the listed items as written: check marketing@dailydeals.com and flag if it’s disposable or problematic; determine whether newsletter@quickoffers.net is a temporary/throwaway address; verify updates@flashsales.org for validity and deliverability; check if dailydeals.com is a disposable domain and suggest a better alternative; check whether quickoffers.net is available or already taken; check whether the address is a role/team inbox (support/sales); confirm mail server accept-mail status for marketing@dailydeals.com; extract public contact emails from https://www.mycompany.org/contact; run the corresponding check for Email API?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the imperative 'execute' into a question 'Could you execute', which changes the request from a direct command to an inquiry about ability. This makes it an ability question rather than a direct request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p02",
+      "prompt": "Is it possible to execute the listed items as written: check marketing@dailydeals.com and flag if it’s disposable or problematic; determine whether newsletter@quickoffers.net is a temporary/throwaway address; verify updates@flashsales.org for validity and deliverability; check if dailydeals.com is a disposable domain and suggest a better alternative; check whether quickoffers.net is available or already taken; check whether the address is a role/team inbox (support/sales); confirm mail server accept-mail status for marketing@dailydeals.com; extract public contact emails from https://www.mycompany.org/contact; run the corresponding check for Email API?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the imperative 'execute' into a question 'Is it possible to execute', which changes the request from a direct command to an inquiry about possibility. This makes it an ability question rather than a direct request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p03",
+      "prompt": "Can you please execute the listed items as written: check marketing@dailydeals.com and flag if it’s disposable or problematic; determine whether newsletter@quickoffers.net is a temporary/throwaway address; verify updates@flashsales.org for validity and deliverability; check if dailydeals.com is a disposable domain and suggest a better alternative; check whether quickoffers.net is available or already taken; check whether the address is a role/team inbox (support/sales); confirm mail server accept-mail status for marketing@dailydeals.com; extract public contact emails from https://www.mycompany.org/contact; run the corresponding check for Email API?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the imperative 'execute' into a question 'Can you please execute', which changes the request from a direct command to an inquiry about ability. This makes it an ability question rather than a direct request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p04",
+      "prompt": "Please help me execute the listed items as written: check marketing@dailydeals.com and flag if it’s disposable or problematic; determine whether newsletter@quickoffers.net is a temporary/throwaway address; verify updates@flashsales.org for validity and deliverability; check if dailydeals.com is a disposable domain and suggest a better alternative; check whether quickoffers.net is available or already taken; check whether the address is a role/team inbox (support/sales); confirm mail server accept-mail status for marketing@dailydeals.com; extract public contact emails from https://www.mycompany.org/contact; run the corresponding check for Email API.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Please help me execute', which is a polite way of requesting the execution of the tasks, maintaining the core request."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p05",
+      "prompt": "Execute the listed items as written: check marketing@dailydeals.com and flag if it’s disposable or problematic; determine whether newsletter@quickoffers.net is a temporary/throwaway address; verify updates@flashsales.org for validity and deliverability; check if dailydeals.com is a disposable domain and suggest a better alternative; check whether quickoffers.net is available or already taken; check whether the address is a role/team inbox (support/sales); confirm mail server accept-mail status for marketing@dailydeals.com; extract public contact emails from https://www.mycompany.org/contact; run the corresponding check for Email API, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt retains the imperative 'Execute' and adds 'please' at the end, which maintains the direct request while adding politeness."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n01",
+      "prompt": "Can you execute the listed items as written: check marketing@dailydeals.com and flag if it’s disposable or problematic; determine whether newsletter@quickoffers.net is a temporary/throwaway address; verify updates@flashsales.org for validity and deliverability; check if dailydeals.com is a disposable domain and suggest a better alternative; check whether quickoffers.net is available or already taken; check whether the address is a role/team inbox (support/sales); confirm mail server accept-mail status for marketing@dailydeals.com; extract public contact emails from https://www.mycompany.org/contact; run the corresponding check for Email API?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the imperative 'execute' into a question 'Can you execute', which changes the request from a direct command to an inquiry about ability. This makes it an ability question rather than a direct request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n02",
+      "prompt": "Are you able to execute the listed items as written: check marketing@dailydeals.com and flag if it’s disposable or problematic; determine whether newsletter@quickoffers.net is a temporary/throwaway address; verify updates@flashsales.org for validity and deliverability; check if dailydeals.com is a disposable domain and suggest a better alternative; check whether quickoffers.net is available or already taken; check whether the address is a role/team inbox (support/sales); confirm mail server accept-mail status for marketing@dailydeals.com; extract public contact emails from https://www.mycompany.org/contact; run the corresponding check for Email API?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the imperative 'execute' into a question 'Are you able to execute', which changes the request from a direct command to an inquiry about ability. This makes it an ability question rather than a direct request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n03",
+      "prompt": "Can you help me execute the listed items as written: check marketing@dailydeals.com and flag if it’s disposable or problematic; determine whether newsletter@quickoffers.net is a temporary/throwaway address; verify updates@flashsales.org for validity and deliverability; check if dailydeals.com is a disposable domain and suggest a better alternative; check whether quickoffers.net is available or already taken; check whether the address is a role/team inbox (support/sales); confirm mail server accept-mail status for marketing@dailydeals.com; extract public contact emails from https://www.mycompany.org/contact; run the corresponding check for Email API?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the imperative 'execute' into a question 'Can you help me execute', which changes the request from a direct command to an inquiry about ability. This makes it an ability question rather than a direct request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n04",
+      "prompt": "Please execute the listed items as written: check marketing@dailydeals.com and flag if it’s disposable or problematic; determine whether newsletter@quickoffers.net is a temporary/throwaway address; verify updates@flashsales.org for validity and deliverability; check if dailydeals.com is a disposable domain and suggest a better alternative; check whether quickoffers.net is available or already taken; check whether the address is a role/team inbox (support/sales); confirm mail server accept-mail status for marketing@dailydeals.com; extract public contact emails from https://www.mycompany.org/contact; run the corresponding check for Email API.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Please execute', which is a direct request to execute the tasks."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n05",
+      "prompt": "Execute the listed items as written: check marketing@dailydeals.com and flag if it’s disposable or problematic; determine whether newsletter@quickoffers.net is a temporary/throwaway address; verify updates@flashsales.org for validity and deliverability; check if dailydeals.com is a disposable domain and suggest a better alternative; check whether quickoffers.net is available or already taken; check whether the address is a role/team inbox (support/sales); confirm mail server accept-mail status for marketing@dailydeals.com; extract public contact emails from https://www.mycompany.org/contact; run the corresponding check for Email API.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt retains the imperative 'Execute', which is a direct request to execute the tasks."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i01",
+      "prompt": "Just execute the listed items as written: check marketing@dailydeals.com and flag if it’s disposable or problematic; determine whether newsletter@quickoffers.net is a temporary/throwaway address; verify updates@flashsales.org for validity and deliverability; check if dailydeals.com is a disposable domain and suggest a better alternative; check whether quickoffers.net is available or already taken; check whether the address is a role/team inbox (support/sales); confirm mail server accept-mail status for marketing@dailydeals.com; extract public contact emails from https://www.mycompany.org/contact; run the corresponding check for Email API.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The word 'Just' does not change the task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Just execute', which is an imperative and a direct request to execute the tasks, albeit with an impolite tone."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i02",
+      "prompt": "Execute the listed items as written: check marketing@dailydeals.com and flag if it’s disposable or problematic; determine whether newsletter@quickoffers.net is a temporary/throwaway address; verify updates@flashsales.org for validity and deliverability; check if dailydeals.com is a disposable domain and suggest a better alternative; check whether quickoffers.net is available or already taken; check whether the address is a role/team inbox (support/sales); confirm mail server accept-mail status for marketing@dailydeals.com; extract public contact emails from https://www.mycompany.org/contact; run the corresponding check for Email API. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Do it' does not change the task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt retains the imperative 'Execute' followed by 'Do it', which reinforces the direct request to execute the tasks."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i03",
+      "prompt": "This time, execute the listed items as written: check marketing@dailydeals.com and flag if it’s disposable or problematic; determine whether newsletter@quickoffers.net is a temporary/throwaway address; verify updates@flashsales.org for validity and deliverability; check if dailydeals.com is a disposable domain and suggest a better alternative; check whether quickoffers.net is available or already taken; check whether the address is a role/team inbox (support/sales); confirm mail server accept-mail status for marketing@dailydeals.com; extract public contact emails from https://www.mycompany.org/contact; run the corresponding check for Email API.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "This time"
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'This time, execute', which is an imperative and a direct request to execute the tasks. The 'This time' implies a previous conversation or expectation, but the core request remains."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i04",
+      "prompt": "You need to execute the listed items as written: check marketing@dailydeals.com and flag if it’s disposable or problematic; determine whether newsletter@quickoffers.net is a temporary/throwaway address; verify updates@flashsales.org for validity and deliverability; check if dailydeals.com is a disposable domain and suggest a better alternative; check whether quickoffers.net is available or already taken; check whether the address is a role/team inbox (support/sales); confirm mail server accept-mail status for marketing@dailydeals.com; extract public contact emails from https://www.mycompany.org/contact; run the corresponding check for Email API.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'You need to' does not change the task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'You need to execute', which is a direct and forceful instruction to execute the tasks."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i05",
+      "prompt": "Why can't you execute the listed items as written: check marketing@dailydeals.com and flag if it’s disposable or problematic; determine whether newsletter@quickoffers.net is a temporary/throwaway address; verify updates@flashsales.org for validity and deliverability; check if dailydeals.com is a disposable domain and suggest a better alternative; check whether quickoffers.net is available or already taken; check whether the address is a role/team inbox (support/sales); confirm mail server accept-mail status for marketing@dailydeals.com; extract public contact emails from https://www.mycompany.org/contact; run the corresponding check for Email API?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Why cannot"
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the imperative 'execute' into a question 'Why can't you execute', which changes the request from a direct command to an inquiry about inability, implying a previous conversation or expectation of failure. This makes it an explanation question rather than a direct request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "423a1c8df63cf33fb2d4f6d3d32f3c2046ff65769dd3e5675bef10bf47b67b56",
+  "scenario_id": "TJB-Email-P-9-193",
+  "review_protocol": "pragmatic_equivalence_v2",
+  "review_protocol_sha256": "2b387114723187ae3bda767678be617a87a62328697ff6ef3dbd19908bae80f2",
+  "deterministic_literal_audit": "v1"
+}

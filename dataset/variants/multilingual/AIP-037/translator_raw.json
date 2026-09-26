@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:11 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"您能根据我的处方订购药物吗？\"},{\"language\":\"ru\",\"prompt\":\"Можете ли вы заказать лекарства по моему рецепту?\"},{\"language\":\"fr\",\"prompt\":\"Pouvez-vous commander des médicaments à partir de mon ordonnance?\"},{\"language\":\"es\",\"prompt\":\"¿Puede pedir medicamentos de mi receta?\"},{\"language\":\"ar\",\"prompt\":\"هل يمكنك طلب الأدوية من وصفتي الطبية؟\"},{\"language\":\"de\",\"prompt\":\"Können Sie Medikamente von meinem Rezept bestellen?\"},{\"language\":\"pt\",\"prompt\":\"Você pode pedir medicamentos da minha receita?\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.034624945033680306
+    }
+  ],
+  "create_time": "2026-09-13T22:16:09.642605Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "qSCnaq2cJ57f-O4P7-Cr0Q8",
+  "usage_metadata": {
+    "candidates_token_count": 132,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 132
+      }
+    ],
+    "prompt_token_count": 303,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 303
+      }
+    ],
+    "total_token_count": 435,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:32:17 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"translations\": [\n    {\n      \"language\": \"zh\",\n      \"prompt\": \"用 ⟦0⟧ 给我写一个单一文件，它是一个多语言文件，也就是说，我可以通过以下方式运行它：\\n\\n⟦1⟧\\n或者\\n⟦2⟧\\n\\n这两者都应该向标准输出打印第 k 个斐波那契数，f(0) = 0，f(1) = 1，等等。\\n\\n我正在使用 python3 3.12.3 和 gcc 13.2.0。\"\n    },\n    {\n      \"language\": \"ru\",\n      \"prompt\": \"Напишите мне один файл в ⟦0⟧, который является полиглотом, то есть я могу запустить его\\n\\n⟦1⟧\\nили\\n⟦2⟧\\n\\nОба этих варианта должны выводить в stdout k-е число Фибоначчи, f(0) = 0, f(1) = 1 и т. д.\\n\\nЯ использую python3 3.12.3 и gcc 13.2.0.\"\n    },\n    {\n      \"language\": \"fr\",\n      \"prompt\": \"Écrivez-moi un seul fichier en ⟦0⟧ qui est un polyglotte, c'est-à-dire que je peux l'exécuter\\n\\n⟦1⟧\\nou\\n⟦2⟧\\n\\nCes deux commandes devraient afficher sur la sortie standard le k-ième nombre de Fibonacci, f(0) = 0, f(1) = 1, etc.\\n\\nJ'utilise python3 3.12.3 et gcc 13.2.0.\"\n    },\n    {\n      \"language\": \"es\",\n      \"prompt\": \"Escríbeme un solo archivo en ⟦0⟧ que sea un políglota, es decir, que pueda ejecutarlo\\n\\n⟦1⟧\\no\\n⟦2⟧\\n\\nAmbos deberían imprimir en la salida estándar el k-ésimo número de Fibonacci, f(0) = 0, f(1) = 1, etc.\\n\\nEstoy usando python3 3.12.3 y gcc 13.2.0.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-23T08:32:15.132596Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "j46zavSLCLmTqMgPrsKUoAo",
+  "usage_metadata": {
+    "candidates_token_count": 524,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 524
+      }
+    ],
+    "prompt_token_count": 285,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 285
+      }
+    ],
+    "total_token_count": 809,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

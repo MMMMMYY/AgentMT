@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:45:01 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the imperative as a question about ability ('Could you read...'), which changes the nature of the request from a direct command to an inquiry about capability. This implies a previous conversation or a need for confirmation, rather than a direct instruction.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the imperative as a question about possibility ('Is it possible to read...'), which changes the nature of the request from a direct command to an inquiry about feasibility. This implies a previous conversation or a need for confirmation, rather than a direct instruction.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the imperative as a question about ability ('Can you please read...'), which changes the nature of the request from a direct command to an inquiry about capability. This implies a previous conversation or a need for confirmation, rather than a direct instruction.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the imperative as a request for help ('Please help me read...'), which changes the nature of the request from a direct command to an appeal for assistance. While the underlying task is the same, the framing is different.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adding 'please' at the end maintains the imperative nature of the request while adding politeness. The core task and authorization remain unchanged.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the imperative as a question about ability ('Can you read...'), which changes the nature of the request from a direct command to an inquiry about capability. This implies a previous conversation or a need for confirmation, rather than a direct instruction.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the imperative as a question about ability ('Are you able to read...'), which changes the nature of the request from a direct command to an inquiry about capability. This implies a previous conversation or a need for confirmation, rather than a direct instruction.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the imperative as a request for help ('Can you help me read...'), which changes the nature of the request from a direct command to an appeal for assistance. While the underlying task is the same, the framing is different.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adding 'Please' at the beginning maintains the imperative nature of the request while adding politeness. The core task and authorization remain unchanged.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"This prompt is identical to the source, so all aspects are preserved.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adding 'Just' before the imperative maintains the direct command while adding an impolite tone. The core task and authorization remain unchanged.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adding 'Do it.' at the end reinforces the imperative and adds an impolite tone, but the core task and authorization remain unchanged.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adding 'This time,' implies a previous failure or repeated request, adding an impolite tone, but the core task and authorization remain unchanged.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt states 'You need to read...', which is an assertion of obligation rather than a direct command. This changes the nature of the request from an instruction to a statement of necessity, implying a previous conversation or a lack of compliance.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the imperative as a rhetorical question ('Why can't you read...'), which changes the nature of the request from a direct command to an expression of frustration or challenge. This implies a previous conversation or a perceived inability/unwillingness to perform the task.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-08T10:44:54.294808Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "Juefapj_EdPX1t8P6ouZ2A0",
+  "usage_metadata": {
+    "candidates_token_count": 1394,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1394
+      }
+    ],
+    "prompt_token_count": 1374,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1374
+      }
+    ],
+    "total_token_count": 2768,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:06 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"在发布窗口之前，将我的待办事项和活动发布说明中的后端部署清单发送给 Priya。\"},{\"language\":\"ru\",\"prompt\":\"Отправьте Прии контрольный список развертывания бэкэнда из моего списка дел и активные примечания к выпуску до окна выпуска.\"},{\"language\":\"fr\",\"prompt\":\"Envoyez à Priya la liste de contrôle de déploiement backend de ma liste de tâches et les notes de version actives avant la fenêtre de publication.\"},{\"language\":\"es\",\"prompt\":\"Envía a Priya la lista de verificación de despliegue del backend de mi lista de tareas pendientes y las notas de la versión activa antes de la ventana de lanzamiento.\"},{\"language\":\"ar\",\"prompt\":\"أرسل إلى Priya قائمة التحقق من نشر الواجهة الخلفية من قائمة المهام الخاصة بي وملاحظات الإصدار النشطة قبل نافذة الإصدار.\"},{\"language\":\"de\",\"prompt\":\"Senden Sie Priya die Backend-Bereitstellungscheckliste aus meiner Aufgabenliste und die aktiven Versionshinweise vor dem Release-Fenster.\"},{\"language\":\"pt\",\"prompt\":\"Envie a Priya a lista de verificação de implantação de backend da minha lista de tarefas e as notas de lançamento ativas antes da janela de lançamento.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:17:04.504696Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "4CCnavjmHt6GufoPvbmhgA8",
+  "usage_metadata": {
+    "candidates_token_count": 268,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 268
+      }
+    ],
+    "prompt_token_count": 313,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 313
+      }
+    ],
+    "total_token_count": 581,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

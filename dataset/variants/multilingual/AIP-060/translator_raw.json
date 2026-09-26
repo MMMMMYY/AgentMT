@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:41 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"我要睡觉了。你能关掉所有的灯，只把卧室的灯调暗一点吗？\"},{\"language\":\"ru\",\"prompt\":\"Я иду спать. Не могли бы вы выключить весь свет и немного приглушить свет в моей спальне?\"},{\"language\":\"fr\",\"prompt\":\"Je vais me coucher. Pourriez-vous éteindre toutes les lumières et juste tamiser un peu la lumière de ma chambre ?\"},{\"language\":\"es\",\"prompt\":\"Me voy a la cama. ¿Podrías apagar todas las luces y atenuar un poco la luz de mi dormitorio?\"},{\"language\":\"ar\",\"prompt\":\"أنا ذاهب للنوم. هل يمكنك إطفاء جميع الأنوار وتخفيف إضاءة غرفة نومي قليلاً؟\"},{\"language\":\"de\",\"prompt\":\"Ich gehe ins Bett. Könntest du alle Lichter ausschalten und das Licht in meinem Schlafzimmer nur ein wenig dimmen?\"},{\"language\":\"pt\",\"prompt\":\"Vou para a cama. Você poderia apagar todas as luzes e apenas diminuir um pouco a luz do meu quarto?\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:16:40.111627Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "yCCnaovoBrKcwLUPqrazoA0",
+  "usage_metadata": {
+    "candidates_token_count": 236,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 236
+      }
+    ],
+    "prompt_token_count": 318,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 318
+      }
+    ],
+    "total_token_count": 554,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

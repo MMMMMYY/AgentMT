@@ -1,0 +1,419 @@
+{
+  "task_id": "AIP-047",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "Could you book a flight for me from New York to Paris from August 10 to 20?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct request to execute the task. The transformed request is an ability question, which implies a previous conversation or a query about the system's capabilities rather than a direct instruction."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p02",
+      "prompt": "Is it possible to book a flight for me from New York to Paris from August 10 to 20?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct request to execute the task. The transformed request is an ability question, which implies a previous conversation or a query about the system's capabilities rather than a direct instruction."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p03",
+      "prompt": "Can you please book a flight for me from New York to Paris from August 10 to 20?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct request to execute the task. The transformed request is an ability question, which implies a previous conversation or a query about the system's capabilities rather than a direct instruction."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p04",
+      "prompt": "Please help me book a flight for me from New York to Paris from August 10 to 20.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The addition of 'help me' does not change the core task or authorization."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct request to execute the task. The transformed request is a request for help, which implies a collaborative action rather than a direct instruction for the system to perform the task independently."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p05",
+      "prompt": "Book a flight for me from New York to Paris from August 10 to 20, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The addition of 'please' at the end does not change the core task or authorization."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The transformed request maintains the imperative form of the original request, with 'please' added for politeness, which does not change the core task or authorization."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n01",
+      "prompt": "Can you book a flight for me from New York to Paris from August 10 to 20?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct request to execute the task. The transformed request is an ability question, which implies a previous conversation or a query about the system's capabilities rather than a direct instruction."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n02",
+      "prompt": "Are you able to book a flight for me from New York to Paris from August 10 to 20?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct request to execute the task. The transformed request is an ability question, which implies a previous conversation or a query about the system's capabilities rather than a direct instruction."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n03",
+      "prompt": "Can you help me book a flight for me from New York to Paris from August 10 to 20?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The addition of 'help me' does not change the core task or authorization."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct request to execute the task. The transformed request is a request for help, which implies a collaborative action rather than a direct instruction for the system to perform the task independently."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n04",
+      "prompt": "Please book a flight for me from New York to Paris from August 10 to 20.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Identical to source."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The transformed request is identical to the original source, maintaining all aspects."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n05",
+      "prompt": "Book a flight for me from New York to Paris from August 10 to 20.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Imperative form, but the task and authorization remain the same."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The transformed request maintains the imperative form of the original request, which does not change the core task or authorization."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i01",
+      "prompt": "Just book a flight for me from New York to Paris from August 10 to 20.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The addition of 'Just' does not change the core task or authorization."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The transformed request uses 'Just book', which is an imperative and still directly requests the task execution, maintaining all information."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i02",
+      "prompt": "Book a flight for me from New York to Paris from August 10 to 20. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The addition of 'Do it' does not change the core task or authorization."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The transformed request maintains the imperative form and adds 'Do it', which reinforces the direct instruction without changing the task or authorization."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i03",
+      "prompt": "This time, book a flight for me from New York to Paris from August 10 to 20.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'This time' implies a previous failed attempt, which is a change in context."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The transformed request uses 'This time, book', which is an imperative and still directly requests the task execution, maintaining all information. The 'This time' implies a previous interaction but doesn't change the current task request."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i04",
+      "prompt": "You need to book a flight for me from New York to Paris from August 10 to 20.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'You need to' is a stronger imperative but does not change the task or authorization."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The transformed request uses 'You need to book', which is a strong directive and still directly requests the task execution, maintaining all information."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i05",
+      "prompt": "Why can't you book a flight for me from New York to Paris from August 10 to 20?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Why can't you' shifts the task from booking a flight to asking for an explanation, and implies a lack of authorization or capability."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct request to execute the task. The transformed request is a rhetorical question about ability, which implies a previous conversation or a challenge to the system's capabilities rather than a direct instruction to perform the task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "92d207b9dff694883a6a4a54a4b7fda657b8708f966d62774cd5bd8441fc541f",
+  "scenario_id": "AIP-047",
+  "review_protocol": "pragmatic_equivalence_v2",
+  "review_protocol_sha256": "2b387114723187ae3bda767678be617a87a62328697ff6ef3dbd19908bae80f2",
+  "deterministic_literal_audit": "v1"
+}

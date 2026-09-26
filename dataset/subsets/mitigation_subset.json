@@ -1,0 +1,53 @@
+{
+  "rule": "per benchmark, first 10 task ids by sha256('mitigation:'+id)",
+  "tasks": {
+    "AI Agent Permissions": [
+      "AIP-005",
+      "AIP-010",
+      "AIP-029",
+      "AIP-031",
+      "AIP-047",
+      "AIP-049",
+      "AIP-050",
+      "AIP-051",
+      "AIP-060",
+      "AIP-064"
+    ],
+    "AgentCIBench": [
+      "ACB-seed_calendar_titles_intern_001",
+      "ACB-seed_cart_saved_for_later_001",
+      "ACB-seed_deployment_checklist_colocated_001",
+      "ACB-seed_family_potluck_group_001",
+      "ACB-seed_kitchen_client_cart_001",
+      "ACB-seed_mom_dinner_calendar_001",
+      "ACB-seed_sarah_chen_email_ambiguity_001",
+      "ACB-seed_shop_workshop_cart_colocated_001",
+      "ACB-seed_teacher_field_trip_update_001",
+      "ACB-seed_volunteer_pickup_route_colocated_001"
+    ],
+    "TRAJECT-Bench": [
+      "TJB-Education-P-9-114",
+      "TJB-Email-P-5-134",
+      "TJB-Finance-P-7-65",
+      "TJB-Gaming-P-9-35",
+      "TJB-Music-P-7-62",
+      "TJB-Music-S-8-54",
+      "TJB-News_Media-P-8-188",
+      "TJB-Weather-P-4-9",
+      "TJB-Weather-S-10-25",
+      "TJB-eCommerce-S-10-180"
+    ]
+  },
+  "forms": [
+    "source",
+    "p01",
+    "n01",
+    "i01",
+    "lang_zh",
+    "lang_ru",
+    "lang_fr",
+    "lang_es",
+    "formulation"
+  ],
+  "repeats": 3
+}

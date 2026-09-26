@@ -1,0 +1,343 @@
+{
+  "task_id": "AIP-028",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "Could you retrieve and compile all my expenses from last month for reimbursement?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The task remains the same. 'Could you' frames the request as a question about ability/willingness rather than a direct command to execute."
+      }
+    },
+    {
+      "id": "p02",
+      "prompt": "Is it possible to retrieve and compile all my expenses from last month for reimbursement?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The task remains the same. 'Is it possible' explicitly asks about possibility, not directly requesting execution."
+      }
+    },
+    {
+      "id": "p03",
+      "prompt": "Can you please retrieve and compile all my expenses from last month for reimbursement?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The task remains the same. 'Can you please' is a common and generally accepted polite form of a direct request to execute."
+      }
+    },
+    {
+      "id": "p04",
+      "prompt": "Please help me retrieve and compile all my expenses from last month for reimbursement.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Polite request, 'help me' does not change the core task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The core task is preserved, framed as a request for assistance. 'Please help me' is a direct request for the system to perform the action."
+      }
+    },
+    {
+      "id": "p05",
+      "prompt": "Retrieve and compile all my expenses from last month for reimbursement, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Polite request, 'please' at the end."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The task is identical. Adding 'please' at the end maintains the imperative nature of the request while adding politeness."
+      }
+    },
+    {
+      "id": "n01",
+      "prompt": "Can you retrieve and compile all my expenses from last month for reimbursement?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The task remains the same. 'Can you' frames the request as a question about ability rather than a direct command to execute."
+      }
+    },
+    {
+      "id": "n02",
+      "prompt": "Are you able to retrieve and compile all my expenses from last month for reimbursement?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The task remains the same. 'Are you able to' explicitly asks about capability, not directly requesting execution."
+      }
+    },
+    {
+      "id": "n03",
+      "prompt": "Can you help me retrieve and compile all my expenses from last month for reimbursement?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Polite request, 'help me' does not change the core task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The core task is preserved, framed as a request for assistance. 'Can you help me' is a direct request for the system to perform the action."
+      }
+    },
+    {
+      "id": "n04",
+      "prompt": "Please retrieve and compile all my expenses from last month for reimbursement.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Direct imperative with politeness marker."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The task is identical. Adding 'Please' at the beginning makes it a polite, direct request."
+      }
+    },
+    {
+      "id": "n05",
+      "prompt": "Retrieve and compile all my expenses from last month for reimbursement.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Direct imperative."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt is identical to the source, maintaining all aspects."
+      }
+    },
+    {
+      "id": "i01",
+      "prompt": "Just retrieve and compile all my expenses from last month for reimbursement.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "'Just' adds a nuance of simplicity or directness but doesn't change the task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The task is identical. 'Just' adds an impolite tone but does not change the imperative nature of the request."
+      }
+    },
+    {
+      "id": "i02",
+      "prompt": "Retrieve and compile all my expenses from last month for reimbursement. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "'Do it' adds an imperative tone but the task remains the same."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The task is identical. 'Do it' reinforces the direct command."
+      }
+    },
+    {
+      "id": "i03",
+      "prompt": "This time, retrieve and compile all my expenses from last month for reimbursement.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "'This time' implies a previous attempt but the task itself is unchanged."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The task is identical. 'This time' implies a previous context but the core request remains a direct command."
+      }
+    },
+    {
+      "id": "i04",
+      "prompt": "You need to retrieve and compile all my expenses from last month for reimbursement.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "'You need to' adds a strong imperative/demand but the task is the same."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The task is identical. 'You need to' functions as a direct command or instruction."
+      }
+    },
+    {
+      "id": "i05",
+      "prompt": "Why can't you retrieve and compile all my expenses from last month for reimbursement?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "'Why cannot' shifts the task from requesting an action to asking for an explanation."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i05",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The task is embedded in the question. 'Why can't you' is a rhetorical question about inability, not a request to execute the action."
+      }
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "83ddbe2e347cbd57855dcd4d1f0bc7411ca757173b80857deba5f29a2e73aa9e",
+  "scenario_id": "AIP-028",
+  "review_protocol": "pragmatic_equivalence_v2",
+  "review_protocol_sha256": "2b387114723187ae3bda767678be617a87a62328697ff6ef3dbd19908bae80f2"
+}

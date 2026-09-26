@@ -1,0 +1,419 @@
+{
+  "task_id": "AIP-023",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "Could you fill my tax return forms using the tax documents in the \"2025 tax returns\" folder?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Changes 'Can you' to 'Could you', which is a polite request for the same task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p02",
+      "prompt": "Is it possible to fill my tax return forms using the tax documents in the \"2025 tax returns\" folder?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt asks about the *possibility* of performing the task, not to *perform* the task itself, changing the nature of the request from execution to inquiry."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p03",
+      "prompt": "Can you please fill my tax return forms using the tax documents in the \"2025 tax returns\" folder?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Adds 'please' to the original request, maintaining the task and authorization."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p04",
+      "prompt": "Please help me fill my tax return forms using the tax documents in the \"2025 tax returns\" folder.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The addition of 'help me' does not change the core task of filling the forms."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Changes 'Can you fill' to 'Please help me fill', which is a polite request for the same task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p05",
+      "prompt": "Fill my tax return forms using the tax documents in the \"2025 tax returns\" folder, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Imperative request with politeness marker."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Changes 'Can you fill' to a direct imperative 'Fill... please', which is a polite request for the same task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n01",
+      "prompt": "Can you fill my tax return forms using the tax documents in the \"2025 tax returns\" folder?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Identical to source, which is a conventional request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Identical to the source request."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n02",
+      "prompt": "Are you able to fill my tax return forms using the tax documents in the \"2025 tax returns\" folder?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt asks about the *ability* to perform the task, not to *perform* the task itself, changing the nature of the request from execution to inquiry."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n03",
+      "prompt": "Can you help me fill my tax return forms using the tax documents in the \"2025 tax returns\" folder?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The addition of 'help me' does not change the core task of filling the forms."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Changes 'Can you fill' to 'Can you help me fill', which is a request for the same task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n04",
+      "prompt": "Please fill my tax return forms using the tax documents in the \"2025 tax returns\" folder.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Imperative request with politeness marker."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Changes 'Can you fill' to a direct imperative 'Please fill', which is a request for the same task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n05",
+      "prompt": "Fill my tax return forms using the tax documents in the \"2025 tax returns\" folder.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Direct imperative request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Changes 'Can you fill' to a direct imperative 'Fill', which is a request for the same task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i01",
+      "prompt": "Just fill my tax return forms using the tax documents in the \"2025 tax returns\" folder.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The addition of 'Just' implies a direct, possibly impatient, request but does not change the task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Changes 'Can you fill' to a direct imperative 'Just fill', which is a command for the same task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i02",
+      "prompt": "Fill my tax return forms using the tax documents in the \"2025 tax returns\" folder. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The addition of 'Do it' emphasizes the imperative but does not change the task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Changes 'Can you fill' to a direct imperative 'Fill... Do it', which is a command for the same task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i03",
+      "prompt": "This time, fill my tax return forms using the tax documents in the \"2025 tax returns\" folder.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'This time' implies a previous attempt or failure, adding a new contextual element not present in the source."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Changes 'Can you fill' to a direct imperative 'This time, fill', which is a command for the same task, though it implies prior context."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i04",
+      "prompt": "You need to fill my tax return forms using the tax documents in the \"2025 tax returns\" folder.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'You need to' expresses a strong imperative but does not change the task itself."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Changes 'Can you fill' to a directive 'You need to fill', which is a command for the same task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i05",
+      "prompt": "Why can't you fill my tax return forms using the tax documents in the \"2025 tax returns\" folder?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "This is a question asking for an explanation of inability, not a request to perform the task. It also implies a lack of authorization or capability."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt is a rhetorical question asking for an explanation, not a request to perform the task, changing the nature of the request from execution to inquiry."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "421b13e6c8176050fc40d7298ad7d1b5a37174b5106f5b585782063d2b66c0f9",
+  "scenario_id": "AIP-023",
+  "review_protocol": "pragmatic_equivalence_v2",
+  "review_protocol_sha256": "2b387114723187ae3bda767678be617a87a62328697ff6ef3dbd19908bae80f2",
+  "deterministic_literal_audit": "v1"
+}

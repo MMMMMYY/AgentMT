@@ -1,0 +1,419 @@
+{
+  "task_id": "TJB-Finance-P-10-36",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "I need a comprehensive analysis of Tesla (TSLA) to make an investment decision.\n\nCould you run in parallel: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26); Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30); Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Stock Sentiment API: News Sentiment Data (ticker=TSLA); Stock Sentiment API: Market Data (ticker=TSLA); Realtime Crypto Prices: Get Realtime Rates (symbol=BTC); Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000); Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30)?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request phrasing does not alter the task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original task is a direct request to run the operations. The transformed request uses 'Could you run in parallel?', which is an ability question, not a direct request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p02",
+      "prompt": "I need a comprehensive analysis of Tesla (TSLA) to make an investment decision.\n\nIs it possible to run in parallel: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26); Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30); Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Stock Sentiment API: News Sentiment Data (ticker=TSLA); Stock Sentiment API: Market Data (ticker=TSLA); Realtime Crypto Prices: Get Realtime Rates (symbol=BTC); Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000); Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30)?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request phrasing does not alter the task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original task is a direct request to run the operations. The transformed request uses 'Is it possible to run in parallel?', which is an ability question, not a direct request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p03",
+      "prompt": "I need a comprehensive analysis of Tesla (TSLA) to make an investment decision.\n\nCan you please run in parallel: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26); Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30); Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Stock Sentiment API: News Sentiment Data (ticker=TSLA); Stock Sentiment API: Market Data (ticker=TSLA); Realtime Crypto Prices: Get Realtime Rates (symbol=BTC); Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000); Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30)?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request phrasing does not alter the task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original task is a direct request to run the operations. The transformed request uses 'Can you please run in parallel?', which is an ability question, not a direct request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p04",
+      "prompt": "I need a comprehensive analysis of Tesla (TSLA) to make an investment decision.\n\nPlease help me run in parallel: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26); Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30); Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Stock Sentiment API: News Sentiment Data (ticker=TSLA); Stock Sentiment API: Market Data (ticker=TSLA); Realtime Crypto Prices: Get Realtime Rates (symbol=BTC); Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000); Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30).",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Please help me run' is a polite request and does not change the core task of running the specified operations."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original task is a direct request to run the operations. The transformed request uses 'Please help me run in parallel:', which implies assistance rather than a direct execution request."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p05",
+      "prompt": "I need a comprehensive analysis of Tesla (TSLA) to make an investment decision.\n\nRun in parallel: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26); Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30); Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Stock Sentiment API: News Sentiment Data (ticker=TSLA); Stock Sentiment API: Market Data (ticker=TSLA); Realtime Crypto Prices: Get Realtime Rates (symbol=BTC); Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000); Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30), please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Adding 'please' at the end is a polite request and does not alter the task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The transformed request maintains the imperative 'Run in parallel' and adds 'please', which is a polite modifier but does not change the core request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n01",
+      "prompt": "I need a comprehensive analysis of Tesla (TSLA) to make an investment decision.\n\nCan you run in parallel: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26); Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30); Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Stock Sentiment API: News Sentiment Data (ticker=TSLA); Stock Sentiment API: Market Data (ticker=TSLA); Realtime Crypto Prices: Get Realtime Rates (symbol=BTC); Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000); Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30)?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request phrasing does not alter the task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original task is a direct request to run the operations. The transformed request uses 'Can you run in parallel?', which is an ability question, not a direct request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n02",
+      "prompt": "I need a comprehensive analysis of Tesla (TSLA) to make an investment decision.\n\nAre you able to run in parallel: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26); Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30); Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Stock Sentiment API: News Sentiment Data (ticker=TSLA); Stock Sentiment API: Market Data (ticker=TSLA); Realtime Crypto Prices: Get Realtime Rates (symbol=BTC); Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000); Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30)?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request phrasing does not alter the task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original task is a direct request to run the operations. The transformed request uses 'Are you able to run in parallel?', which is an ability question, not a direct request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n03",
+      "prompt": "I need a comprehensive analysis of Tesla (TSLA) to make an investment decision.\n\nCan you help me run in parallel: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26); Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30); Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Stock Sentiment API: News Sentiment Data (ticker=TSLA); Stock Sentiment API: Market Data (ticker=TSLA); Realtime Crypto Prices: Get Realtime Rates (symbol=BTC); Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000); Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30)?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Can you help me run' is a polite request and does not change the core task of running the specified operations."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original task is a direct request to run the operations. The transformed request uses 'Can you help me run in parallel?', which implies assistance rather than a direct execution request."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n04",
+      "prompt": "I need a comprehensive analysis of Tesla (TSLA) to make an investment decision.\n\nPlease run in parallel: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26); Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30); Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Stock Sentiment API: News Sentiment Data (ticker=TSLA); Stock Sentiment API: Market Data (ticker=TSLA); Realtime Crypto Prices: Get Realtime Rates (symbol=BTC); Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000); Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30).",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Adding 'Please' is a polite request and does not alter the task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The transformed request maintains the imperative 'Please run in parallel', which is a direct request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n05",
+      "prompt": "I need a comprehensive analysis of Tesla (TSLA) to make an investment decision.\n\nRun in parallel: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26); Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30); Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Stock Sentiment API: News Sentiment Data (ticker=TSLA); Stock Sentiment API: Market Data (ticker=TSLA); Realtime Crypto Prices: Get Realtime Rates (symbol=BTC); Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000); Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30).",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt is an imperative request, which is equivalent to the source."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The transformed request maintains the imperative 'Run in parallel', which is a direct request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i01",
+      "prompt": "I need a comprehensive analysis of Tesla (TSLA) to make an investment decision.\n\nJust run in parallel: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26); Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30); Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Stock Sentiment API: News Sentiment Data (ticker=TSLA); Stock Sentiment API: Market Data (ticker=TSLA); Realtime Crypto Prices: Get Realtime Rates (symbol=BTC); Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000); Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30).",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The word 'Just' implies a direct request without additional conditions or changes to the task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The transformed request uses 'Just run in parallel', which is an imperative command to execute the task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i02",
+      "prompt": "I need a comprehensive analysis of Tesla (TSLA) to make an investment decision.\n\nRun in parallel: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26); Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30); Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Stock Sentiment API: News Sentiment Data (ticker=TSLA); Stock Sentiment API: Market Data (ticker=TSLA); Realtime Crypto Prices: Get Realtime Rates (symbol=BTC); Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000); Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30). Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Adding 'Do it.' is an imperative and does not change the task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The transformed request uses 'Run in parallel... Do it.', which is an imperative command to execute the task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i03",
+      "prompt": "I need a comprehensive analysis of Tesla (TSLA) to make an investment decision.\n\nThis time, run in parallel: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26); Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30); Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Stock Sentiment API: News Sentiment Data (ticker=TSLA); Stock Sentiment API: Market Data (ticker=TSLA); Realtime Crypto Prices: Get Realtime Rates (symbol=BTC); Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000); Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30).",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "This time' implies a previous attempt or context, which changes the pragmatic intent of the request."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The transformed request uses 'This time, run in parallel', which is an imperative command to execute the task. 'This time' implies a previous interaction but does not change the current task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i04",
+      "prompt": "I need a comprehensive analysis of Tesla (TSLA) to make an investment decision.\n\nYou need to run in parallel: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26); Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30); Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Stock Sentiment API: News Sentiment Data (ticker=TSLA); Stock Sentiment API: Market Data (ticker=TSLA); Realtime Crypto Prices: Get Realtime Rates (symbol=BTC); Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000); Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30).",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'You need to run' is a direct instruction and does not alter the task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original task is a direct request to run the operations. The transformed request uses 'You need to run in parallel', which is an explanation of what the system needs to do, not a direct request from the user."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i05",
+      "prompt": "I need a comprehensive analysis of Tesla (TSLA) to make an investment decision.\n\nWhy can't you run in parallel: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26); Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30); Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Stock Sentiment API: News Sentiment Data (ticker=TSLA); Stock Sentiment API: Market Data (ticker=TSLA); Realtime Crypto Prices: Get Realtime Rates (symbol=BTC); Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000); Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30)?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Why cannot' shifts the request from performing the task to asking for an explanation about the inability to perform it."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original task is a direct request to run the operations. The transformed request uses 'Why can't you run in parallel?', which is a question about ability or a challenge, not a request to execute the task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "06bee18af1fce93bb8dde8b5dd51ed4c3d1452ef9cc4da34aba940eb3b6ef8a1",
+  "scenario_id": "TJB-Finance-P-10-36",
+  "review_protocol": "pragmatic_equivalence_v2",
+  "review_protocol_sha256": "2b387114723187ae3bda767678be617a87a62328697ff6ef3dbd19908bae80f2",
+  "deterministic_literal_audit": "v1"
+}

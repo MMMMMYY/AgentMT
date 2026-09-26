@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:45:22 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"\",\n  \"task\": \"send the Food Pantry Volunteer Leads my pickup route and supplies checklist for today's pantry run\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.0024678238174494576
+    }
+  ],
+  "create_time": "2026-09-08T10:45:21.266218Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "QeefauqfEOrK1t8PrbWGuAw",
+  "usage_metadata": {
+    "candidates_token_count": 34,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 34
+      }
+    ],
+    "prompt_token_count": 211,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 211
+      }
+    ],
+    "total_token_count": 245,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

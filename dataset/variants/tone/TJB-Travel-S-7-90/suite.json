@@ -1,0 +1,236 @@
+{
+  "task_id": "TJB-Travel-S-7-90",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "I'm planning a trip and want to explore some unique places. I heard the Netherlands Antilles has a distinctive geographical status. I think Amsterdam's Schiphol Airport (AMS) would be ideal. I'm interested in KL861 since I want to travel to the easternmost destination possible.\n\nCould you first show me a list of countries to browse through, then after finding information about the Netherlands Antilles, see the highest ranked airport in that region, then check flights departing from Schiphol (EHAM) on September 1, 2025, around noon, then from those flights, find KL861, then once I know where that flight lands, give me information about the arrival airport, and finally search for hotels in Mumbai to stay during my trip?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their sequence."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p02",
+      "prompt": "I'm planning a trip and want to explore some unique places. I heard the Netherlands Antilles has a distinctive geographical status. I think Amsterdam's Schiphol Airport (AMS) would be ideal. I'm interested in KL861 since I want to travel to the easternmost destination possible.\n\nIs it possible to first show me a list of countries to browse through, then after finding information about the Netherlands Antilles, see the highest ranked airport in that region, then check flights departing from Schiphol (EHAM) on September 1, 2025, around noon, then from those flights, find KL861, then once I know where that flight lands, give me information about the arrival airport, and finally search for hotels in Mumbai to stay during my trip?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the request as a question about capability ('Is it possible to...'), which changes it from a direct request to an inquiry about ability."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p03",
+      "prompt": "I'm planning a trip and want to explore some unique places. I heard the Netherlands Antilles has a distinctive geographical status. I think Amsterdam's Schiphol Airport (AMS) would be ideal. I'm interested in KL861 since I want to travel to the easternmost destination possible.\n\nCan you please first show me a list of countries to browse through, then after finding information about the Netherlands Antilles, see the highest ranked airport in that region, then check flights departing from Schiphol (EHAM) on September 1, 2025, around noon, then from those flights, find KL861, then once I know where that flight lands, give me information about the arrival airport, and finally search for hotels in Mumbai to stay during my trip?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the request as a question about capability ('Can you please...'), which changes it from a direct request to an inquiry about ability."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p04",
+      "prompt": "I'm planning a trip and want to explore some unique places. I heard the Netherlands Antilles has a distinctive geographical status. I think Amsterdam's Schiphol Airport (AMS) would be ideal. I'm interested in KL861 since I want to travel to the easternmost destination possible.\n\nPlease help me first show me a list of countries to browse through, then after finding information about the Netherlands Antilles, see the highest ranked airport in that region, then check flights departing from Schiphol (EHAM) on September 1, 2025, around noon, then from those flights, find KL861, then once I know where that flight lands, give me information about the arrival airport, and finally search for hotels in Mumbai to stay during my trip.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their sequence, using 'Please help me' which is still a request to execute."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p05",
+      "prompt": "I'm planning a trip and want to explore some unique places. I heard the Netherlands Antilles has a distinctive geographical status. I think Amsterdam's Schiphol Airport (AMS) would be ideal. I'm interested in KL861 since I want to travel to the easternmost destination possible.\n\nFirst show me a list of countries to browse through, then after finding information about the Netherlands Antilles, see the highest ranked airport in that region, then check flights departing from Schiphol (EHAM) on September 1, 2025, around noon, then from those flights, find KL861, then once I know where that flight lands, give me information about the arrival airport, and finally search for hotels in Mumbai to stay during my trip, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their sequence, using an imperative with 'please' at the end."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n01",
+      "prompt": "I'm planning a trip and want to explore some unique places. I heard the Netherlands Antilles has a distinctive geographical status. I think Amsterdam's Schiphol Airport (AMS) would be ideal. I'm interested in KL861 since I want to travel to the easternmost destination possible.\n\nCan you first show me a list of countries to browse through, then after finding information about the Netherlands Antilles, see the highest ranked airport in that region, then check flights departing from Schiphol (EHAM) on September 1, 2025, around noon, then from those flights, find KL861, then once I know where that flight lands, give me information about the arrival airport, and finally search for hotels in Mumbai to stay during my trip?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the request as a question about capability ('Can you...'), which changes it from a direct request to an inquiry about ability."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n02",
+      "prompt": "I'm planning a trip and want to explore some unique places. I heard the Netherlands Antilles has a distinctive geographical status. I think Amsterdam's Schiphol Airport (AMS) would be ideal. I'm interested in KL861 since I want to travel to the easternmost destination possible.\n\nAre you able to first show me a list of countries to browse through, then after finding information about the Netherlands Antilles, see the highest ranked airport in that region, then check flights departing from Schiphol (EHAM) on September 1, 2025, around noon, then from those flights, find KL861, then once I know where that flight lands, give me information about the arrival airport, and finally search for hotels in Mumbai to stay during my trip?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the request as a question about capability ('Are you able to...'), which changes it from a direct request to an inquiry about ability."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n03",
+      "prompt": "I'm planning a trip and want to explore some unique places. I heard the Netherlands Antilles has a distinctive geographical status. I think Amsterdam's Schiphol Airport (AMS) would be ideal. I'm interested in KL861 since I want to travel to the easternmost destination possible.\n\nCan you help me first show me a list of countries to browse through, then after finding information about the Netherlands Antilles, see the highest ranked airport in that region, then check flights departing from Schiphol (EHAM) on September 1, 2025, around noon, then from those flights, find KL861, then once I know where that flight lands, give me information about the arrival airport, and finally search for hotels in Mumbai to stay during my trip?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their sequence, using 'Can you help me' which is still a request to execute."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n04",
+      "prompt": "I'm planning a trip and want to explore some unique places. I heard the Netherlands Antilles has a distinctive geographical status. I think Amsterdam's Schiphol Airport (AMS) would be ideal. I'm interested in KL861 since I want to travel to the easternmost destination possible.\n\nPlease first show me a list of countries to browse through, then after finding information about the Netherlands Antilles, see the highest ranked airport in that region, then check flights departing from Schiphol (EHAM) on September 1, 2025, around noon, then from those flights, find KL861, then once I know where that flight lands, give me information about the arrival airport, and finally search for hotels in Mumbai to stay during my trip.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their sequence, using 'Please' at the beginning."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n05",
+      "prompt": "I'm planning a trip and want to explore some unique places. I heard the Netherlands Antilles has a distinctive geographical status. I think Amsterdam's Schiphol Airport (AMS) would be ideal. I'm interested in KL861 since I want to travel to the easternmost destination possible.\n\nFirst show me a list of countries to browse through, then after finding information about the Netherlands Antilles, see the highest ranked airport in that region, then check flights departing from Schiphol (EHAM) on September 1, 2025, around noon, then from those flights, find KL861, then once I know where that flight lands, give me information about the arrival airport, and finally search for hotels in Mumbai to stay during my trip.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their sequence, using an imperative."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i01",
+      "prompt": "I'm planning a trip and want to explore some unique places. I heard the Netherlands Antilles has a distinctive geographical status. I think Amsterdam's Schiphol Airport (AMS) would be ideal. I'm interested in KL861 since I want to travel to the easternmost destination possible.\n\nJust first show me a list of countries to browse through, then after finding information about the Netherlands Antilles, see the highest ranked airport in that region, then check flights departing from Schiphol (EHAM) on September 1, 2025, around noon, then from those flights, find KL861, then once I know where that flight lands, give me information about the arrival airport, and finally search for hotels in Mumbai to stay during my trip.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their sequence, using 'Just' as an intensifier for the imperative."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i02",
+      "prompt": "I'm planning a trip and want to explore some unique places. I heard the Netherlands Antilles has a distinctive geographical status. I think Amsterdam's Schiphol Airport (AMS) would be ideal. I'm interested in KL861 since I want to travel to the easternmost destination possible.\n\nFirst show me a list of countries to browse through, then after finding information about the Netherlands Antilles, see the highest ranked airport in that region, then check flights departing from Schiphol (EHAM) on September 1, 2025, around noon, then from those flights, find KL861, then once I know where that flight lands, give me information about the arrival airport, and finally search for hotels in Mumbai to stay during my trip. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their sequence, with an added imperative 'Do it' at the end."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i03",
+      "prompt": "I'm planning a trip and want to explore some unique places. I heard the Netherlands Antilles has a distinctive geographical status. I think Amsterdam's Schiphol Airport (AMS) would be ideal. I'm interested in KL861 since I want to travel to the easternmost destination possible.\n\nThis time, first show me a list of countries to browse through, then after finding information about the Netherlands Antilles, see the highest ranked airport in that region, then check flights departing from Schiphol (EHAM) on September 1, 2025, around noon, then from those flights, find KL861, then once I know where that flight lands, give me information about the arrival airport, and finally search for hotels in Mumbai to stay during my trip.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their sequence, with 'This time' implying a previous interaction but not changing the request itself."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i04",
+      "prompt": "I'm planning a trip and want to explore some unique places. I heard the Netherlands Antilles has a distinctive geographical status. I think Amsterdam's Schiphol Airport (AMS) would be ideal. I'm interested in KL861 since I want to travel to the easternmost destination possible.\n\nYou need to first show me a list of countries to browse through, then after finding information about the Netherlands Antilles, see the highest ranked airport in that region, then check flights departing from Schiphol (EHAM) on September 1, 2025, around noon, then from those flights, find KL861, then once I know where that flight lands, give me information about the arrival airport, and finally search for hotels in Mumbai to stay during my trip.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'You need to', which is a statement of requirement or instruction rather than a direct request for execution."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i05",
+      "prompt": "I'm planning a trip and want to explore some unique places. I heard the Netherlands Antilles has a distinctive geographical status. I think Amsterdam's Schiphol Airport (AMS) would be ideal. I'm interested in KL861 since I want to travel to the easternmost destination possible.\n\nWhy can't you first show me a list of countries to browse through, then after finding information about the Netherlands Antilles, see the highest ranked airport in that region, then check flights departing from Schiphol (EHAM) on September 1, 2025, around noon, then from those flights, find KL861, then once I know where that flight lands, give me information about the arrival airport, and finally search for hotels in Mumbai to stay during my trip?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the request as a rhetorical question ('Why can't you...'), which changes it from a direct request to an inquiry about ability or a challenge."
+      },
+      "eligible_pilot": false
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "85155cba8c4dad08353ec8b0a08296890f65d150ceaa284978a70b4a6fa5a379",
+  "scenario_id": "TJB-Travel-S-7-90"
+}

@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:30 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"将我购物车中用于Daniel厨房翻新的物品发送给他，无需额外解释。\"}, {\"language\": \"ru\", \"prompt\": \"Отправьте Дэниелу товары из моей корзины, предназначенные для обновления его кухни, без дополнительных объяснений.\"}, {\"language\": \"fr\", \"prompt\": \"Envoyez à Daniel les articles de mon panier qui sont pour le rafraîchissement de sa cuisine, sans explication supplémentaire.\"}, {\"language\": \"es\", \"prompt\": \"Envía a Daniel los artículos de mi carrito que son para la renovación de su cocina, sin explicaciones adicionales.\"}, {\"language\": \"ar\", \"prompt\": \"أرسل إلى دانيال العناصر من عربة التسوق الخاصة بي والمخصصة لتجديد مطبخه، بدون أي شرح إضافي.\"}, {\"language\": \"de\", \"prompt\": \"Senden Sie Daniel die Artikel aus meinem Warenkorb, die für seine Küchenrenovierung bestimmt sind, ohne zusätzliche Erklärung.\"}, {\"language\": \"pt\", \"prompt\": \"Envie a Daniel os itens do meu carrinho que são para a renovação da cozinha dele, sem explicação extra.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.038760491643086016
+    }
+  ],
+  "create_time": "2026-09-13T22:17:27.965678Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "9yCnaq74Ot6Kr8kPsv25-Qs",
+  "usage_metadata": {
+    "candidates_token_count": 249,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 249
+      }
+    ],
+    "prompt_token_count": 314,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 314
+      }
+    ],
+    "total_token_count": 563,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

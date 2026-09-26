@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:18:05 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"我正在整理材料；请精确收集这些。从 Numbers API 获取关于数字 17 的数学事实。从 Numbers API 获取关于数字 42 的琐事事实。从元素周期表获取元素详细信息。在 Helioviewer 上，获取相关的太阳数据/资产。在 Kanji alive 上，列出有 5 画的汉字。从 Uncovered Treasure 获取相关物品。从 Random Words 抓取 15 个随机单词。\"},{\"language\":\"ru\",\"prompt\":\"Я занимаюсь подборкой материалов; соберите их точно. Из Numbers API получите математический факт о числе 17. Из Numbers API получите факт-викторину о числе 42. Из периодической таблицы получите детали элемента. На Helioviewer получите соответствующие солнечные данные/актив. На Kanji alive перечислите кандзи с 5 чертами. Из Uncovered Treasure получите соответствующий предмет. Из Random Words возьмите 15 случайных слов.\"},{\"language\":\"fr\",\"prompt\":\"Je suis en train de rassembler des matériaux ; veuillez les collecter exactement. Depuis l'API Numbers, obtenez un fait mathématique sur le nombre 17. Depuis l'API Numbers, obtenez un fait anecdotique sur le nombre 42. Depuis le tableau périodique, obtenez les détails de l'élément. Sur Helioviewer, récupérez les données/actifs solaires pertinents. Sur Kanji alive, listez les kanji avec 5 traits. Depuis Uncovered Treasure, récupérez l'objet pertinent. Depuis Random Words, prenez 15 mots aléatoires.\"},{\"language\":\"es\",\"prompt\":\"Estoy curando materiales; recopile estos exactamente. De la API de Numbers, obtenga un dato matemático sobre el número 17. De la API de Numbers, obtenga un dato de trivia sobre el número 42. De la tabla periódica, obtenga los detalles del elemento. En Helioviewer, obtenga los datos/activos solares relevantes. En Kanji alive, liste los kanji con 5 trazos. De Uncovered Treasure, obtenga el artículo relevante. De Random Words, tome 15 palabras aleatorias.\"},{\"language\":\"ar\",\"prompt\":\"أقوم بتنسيق المواد؛ اجمع هذه بالضبط. من Numbers API، احصل على حقيقة رياضية عن الرقم 17. من Numbers API، احصل على حقيقة تافهة عن الرقم 42. من الجدول الدوري، احصل على تفاصيل العنصر. على Helioviewer، جلب البيانات/الأصول الشمسية ذات الصلة. على Kanji alive، ادرج الكانجي ذي الـ 5 ضربات. من Uncovered Treasure، جلب العنصر ذي الصلة. من Random Words، احصل على 15 كلمة عشوائية.\"},{\"language\":\"de\",\"prompt\":\"Ich kuratiere Materialien; sammeln Sie diese genau. Von der Numbers API erhalten Sie eine mathematische Tatsache über die Zahl 17. Von der Numbers API erhalten Sie eine Trivia-Tatsache über die Zahl 42. Aus dem Periodensystem erhalten Sie Elementdetails. Auf Helioviewer rufen Sie die relevanten Solardaten/Assets ab. Auf Kanji alive listen Sie Kanji mit 5 Strichen auf. Von Uncovered Treasure rufen Sie den relevanten Gegenstand ab. Von Random Words nehmen Sie 15 zufällige Wörter.\"},{\"language\":\"pt\",\"prompt\":\"Estou a curar materiais; recolha estes exatamente. Da API Numbers, obtenha um facto matemático sobre o número 17. Da API Numbers, obtenha um facto de curiosidade sobre o número 42. Da tabela periódica, obtenha os detalhes do elemento. No Helioviewer, obtenha os dados/ativos solares relevantes. No Kanji alive, liste os kanji com 5 traços. Do Uncovered Treasure, obtenha o item relevante. Do Random Words, pegue 15 palavras aleatórias.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:18:00.850592Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "GCGnaqD1M8uLr8kP2d6K6QQ",
+  "usage_metadata": {
+    "candidates_token_count": 842,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 842
+      }
+    ],
+    "prompt_token_count": 394,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 394
+      }
+    ],
+    "total_token_count": 1236,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

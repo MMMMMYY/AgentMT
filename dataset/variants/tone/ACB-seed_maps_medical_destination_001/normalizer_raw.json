@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:44:44 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"I'm driving and running late for the design sync.\",\n  \"task\": \"check my ETA on OpenMaps and drop a quick note in the Design Team chat telling them how long it will be until I can hop on the call\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-08T10:44:44.073678Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "HOefas6_BPrI1t8P-6b36Ak",
+  "usage_metadata": {
+    "candidates_token_count": 58,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 58
+      }
+    ],
+    "prompt_token_count": 235,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 235
+      }
+    ],
+    "total_token_count": 293,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,176 @@
+{
+  "task_id": "TJB-Finance-S-3-19",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "I'm interested in market trends. Could you show me the most actively traded stocks starting from the 15th position in the list? After that, I'd like to see the latest news specifically for Warner Bros. Discovery, and then analyze the sentiment of that news for WBD to understand market perception.",
+  "source_sha256": "35e76c453d260efffdec4ca25c2abb5131a745e8b1b7903647e670c3553464f8",
+  "status": "reviewed",
+  "variants": [
+    {
+      "language": "zh",
+      "prompt": "我对市场趋势感兴趣。你能从列表中的第15位开始，向我展示交易最活跃的股票吗？之后，我想看专门针对华纳兄弟探索公司的最新消息，然后分析WBD新闻的情绪，以了解市场看法。",
+      "id": "lang_zh",
+      "literal_check": {
+        "passed": false,
+        "missing_strings": [],
+        "missing_numeric_tokens": [
+          "15th"
+        ],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": false,
+      "review": {
+        "language": "zh",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All aspects of the request are accurately translated and preserved."
+      }
+    },
+    {
+      "language": "ru",
+      "prompt": "Меня интересуют рыночные тенденции. Не могли бы вы показать мне самые активно торгуемые акции, начиная с 15-й позиции в списке? После этого я хотел бы увидеть последние новости специально для Warner Bros. Discovery, а затем проанализировать настроения этих новостей для WBD, чтобы понять рыночное восприятие.",
+      "id": "lang_ru",
+      "literal_check": {
+        "passed": false,
+        "missing_strings": [],
+        "missing_numeric_tokens": [
+          "15th"
+        ],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": false,
+      "review": {
+        "language": "ru",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All aspects of the request are accurately translated and preserved."
+      }
+    },
+    {
+      "language": "fr",
+      "prompt": "Je suis intéressé par les tendances du marché. Pourriez-vous me montrer les actions les plus activement négociées à partir de la 15ème position dans la liste ? Après cela, j'aimerais voir les dernières nouvelles spécifiquement pour Warner Bros. Discovery, puis analyser le sentiment de ces nouvelles pour WBD afin de comprendre la perception du marché.",
+      "id": "lang_fr",
+      "literal_check": {
+        "passed": false,
+        "missing_strings": [],
+        "missing_numeric_tokens": [
+          "15th"
+        ],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": false,
+      "review": {
+        "language": "fr",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All aspects of the request are accurately translated and preserved."
+      }
+    },
+    {
+      "language": "es",
+      "prompt": "Estoy interesado en las tendencias del mercado. ¿Podrías mostrarme las acciones más activamente negociadas a partir de la 15ª posición en la lista? Después de eso, me gustaría ver las últimas noticias específicamente para Warner Bros. Discovery, y luego analizar el sentimiento de esas noticias para WBD para entender la percepción del mercado.",
+      "id": "lang_es",
+      "literal_check": {
+        "passed": false,
+        "missing_strings": [],
+        "missing_numeric_tokens": [
+          "15th"
+        ],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": false,
+      "review": {
+        "language": "es",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All aspects of the request are accurately translated and preserved."
+      }
+    },
+    {
+      "language": "ar",
+      "prompt": "أنا مهتم باتجاهات السوق. هل يمكنك أن تريني الأسهم الأكثر تداولاً بدءًا من المركز الخامس عشر في القائمة؟ بعد ذلك، أود رؤية آخر الأخبار الخاصة بشركة Warner Bros. Discovery، ثم تحليل مشاعر تلك الأخبار لـ WBD لفهم تصور السوق.",
+      "id": "lang_ar",
+      "literal_check": {
+        "passed": false,
+        "missing_strings": [],
+        "missing_numeric_tokens": [
+          "15th"
+        ],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": false,
+      "review": {
+        "language": "ar",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All aspects of the request are accurately translated and preserved."
+      }
+    },
+    {
+      "language": "de",
+      "prompt": "Ich interessiere mich für Markttrends. Könnten Sie mir die meistgehandelten Aktien ab der 15. Position in der Liste zeigen? Danach möchte ich die neuesten Nachrichten speziell für Warner Bros. Discovery sehen und anschließend die Stimmung dieser Nachrichten für WBD analysieren, um die Marktwahrnehmung zu verstehen.",
+      "id": "lang_de",
+      "literal_check": {
+        "passed": false,
+        "missing_strings": [],
+        "missing_numeric_tokens": [
+          "15th"
+        ],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": false,
+      "review": {
+        "language": "de",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All aspects of the request are accurately translated and preserved."
+      }
+    },
+    {
+      "language": "pt",
+      "prompt": "Estou interessado nas tendências do mercado. Você poderia me mostrar as ações mais ativamente negociadas a partir da 15ª posição na lista? Depois disso, gostaria de ver as últimas notícias especificamente para a Warner Bros. Discovery, e então analisar o sentimento dessas notícias para a WBD para entender a percepção do mercado.",
+      "id": "lang_pt",
+      "literal_check": {
+        "passed": false,
+        "missing_strings": [],
+        "missing_numeric_tokens": [
+          "15th"
+        ],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": false,
+      "review": {
+        "language": "pt",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All aspects of the request are accurately translated and preserved."
+      }
+    }
+  ],
+  "english_source": {
+    "language": "en",
+    "prompt": "I'm interested in market trends. Could you show me the most actively traded stocks starting from the 15th position in the list? After that, I'd like to see the latest news specifically for Warner Bros. Discovery, and then analyze the sentiment of that news for WBD to understand market perception.",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation"
+}

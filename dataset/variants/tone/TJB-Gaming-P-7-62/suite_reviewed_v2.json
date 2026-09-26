@@ -1,0 +1,343 @@
+{
+  "task_id": "TJB-Gaming-P-7-62",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "I'm preparing for the upcoming Rocket League tournament in Europe this weekend.\n\nCould you run these in parallel: check Rocket League tournaments in europe; check Rocket League player population; pull Hall of Fame games for 2022 from OpenCritic; check what free games are on Epic Games Store in UK; card; list Lost Ark classes; and find the best current deals for 'batman' (up to 10 results)?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original request is a direct command. The transformed request uses 'Could you run these in parallel', which is an ability question, not a direct command."
+      }
+    },
+    {
+      "id": "p02",
+      "prompt": "I'm preparing for the upcoming Rocket League tournament in Europe this weekend.\n\nIs it possible to run these in parallel: check Rocket League tournaments in europe; check Rocket League player population; pull Hall of Fame games for 2022 from OpenCritic; check what free games are on Epic Games Store in UK; card; list Lost Ark classes; and find the best current deals for 'batman' (up to 10 results)?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original request is a direct command. The transformed request uses 'Is it possible to run these in parallel', which is an ability question, not a direct command."
+      }
+    },
+    {
+      "id": "p03",
+      "prompt": "I'm preparing for the upcoming Rocket League tournament in Europe this weekend.\n\nCan you please run these in parallel: check Rocket League tournaments in europe; check Rocket League player population; pull Hall of Fame games for 2022 from OpenCritic; check what free games are on Epic Games Store in UK; card; list Lost Ark classes; and find the best current deals for 'batman' (up to 10 results)?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original request is a direct command. The transformed request uses 'Can you please run these in parallel', which is an ability question, not a direct command."
+      }
+    },
+    {
+      "id": "p04",
+      "prompt": "I'm preparing for the upcoming Rocket League tournament in Europe this weekend.\n\nPlease help me run these in parallel: check Rocket League tournaments in europe; check Rocket League player population; pull Hall of Fame games for 2022 from OpenCritic; check what free games are on Epic Games Store in UK; card; list Lost Ark classes; and find the best current deals for 'batman' (up to 10 results).",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original request is a direct command. The transformed request uses 'Please help me run these in parallel', which is a request for assistance, not a direct command."
+      }
+    },
+    {
+      "id": "p05",
+      "prompt": "I'm preparing for the upcoming Rocket League tournament in Europe this weekend.\n\nRun these in parallel: check Rocket League tournaments in europe; check Rocket League player population; pull Hall of Fame games for 2022 from OpenCritic; check what free games are on Epic Games Store in UK; card; list Lost Ark classes; and find the best current deals for 'batman' (up to 10 results), please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original request is a direct command. The transformed request is also a direct command, with 'please' added for politeness."
+      }
+    },
+    {
+      "id": "n01",
+      "prompt": "I'm preparing for the upcoming Rocket League tournament in Europe this weekend.\n\nCan you run these in parallel: check Rocket League tournaments in europe; check Rocket League player population; pull Hall of Fame games for 2022 from OpenCritic; check what free games are on Epic Games Store in UK; card; list Lost Ark classes; and find the best current deals for 'batman' (up to 10 results)?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original request is a direct command. The transformed request uses 'Can you run these in parallel', which is an ability question, not a direct command."
+      }
+    },
+    {
+      "id": "n02",
+      "prompt": "I'm preparing for the upcoming Rocket League tournament in Europe this weekend.\n\nAre you able to run these in parallel: check Rocket League tournaments in europe; check Rocket League player population; pull Hall of Fame games for 2022 from OpenCritic; check what free games are on Epic Games Store in UK; card; list Lost Ark classes; and find the best current deals for 'batman' (up to 10 results)?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original request is a direct command. The transformed request uses 'Are you able to run these in parallel', which is an ability question, not a direct command."
+      }
+    },
+    {
+      "id": "n03",
+      "prompt": "I'm preparing for the upcoming Rocket League tournament in Europe this weekend.\n\nCan you help me run these in parallel: check Rocket League tournaments in europe; check Rocket League player population; pull Hall of Fame games for 2022 from OpenCritic; check what free games are on Epic Games Store in UK; card; list Lost Ark classes; and find the best current deals for 'batman' (up to 10 results)?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original request is a direct command. The transformed request uses 'Can you help me run these in parallel', which is a request for assistance, not a direct command."
+      }
+    },
+    {
+      "id": "n04",
+      "prompt": "I'm preparing for the upcoming Rocket League tournament in Europe this weekend.\n\nPlease run these in parallel: check Rocket League tournaments in europe; check Rocket League player population; pull Hall of Fame games for 2022 from OpenCritic; check what free games are on Epic Games Store in UK; card; list Lost Ark classes; and find the best current deals for 'batman' (up to 10 results).",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original request is a direct command. The transformed request is also a direct command, with 'please' added for politeness."
+      }
+    },
+    {
+      "id": "n05",
+      "prompt": "I'm preparing for the upcoming Rocket League tournament in Europe this weekend.\n\nRun these in parallel: check Rocket League tournaments in europe; check Rocket League player population; pull Hall of Fame games for 2022 from OpenCritic; check what free games are on Epic Games Store in UK; card; list Lost Ark classes; and find the best current deals for 'batman' (up to 10 results).",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original request is a direct command. The transformed request is also a direct command."
+      }
+    },
+    {
+      "id": "i01",
+      "prompt": "I'm preparing for the upcoming Rocket League tournament in Europe this weekend.\n\nJust run these in parallel: check Rocket League tournaments in europe; check Rocket League player population; pull Hall of Fame games for 2022 from OpenCritic; check what free games are on Epic Games Store in UK; card; list Lost Ark classes; and find the best current deals for 'batman' (up to 10 results).",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The word 'Just' does not change the core request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original request is a direct command. The transformed request is also a direct command, with 'Just' added for tone."
+      }
+    },
+    {
+      "id": "i02",
+      "prompt": "I'm preparing for the upcoming Rocket League tournament in Europe this weekend.\n\nRun these in parallel: check Rocket League tournaments in europe; check Rocket League player population; pull Hall of Fame games for 2022 from OpenCritic; check what free games are on Epic Games Store in UK; card; list Lost Ark classes; and find the best current deals for 'batman' (up to 10 results). Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Do it' does not change the core request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original request is a direct command. The transformed request is also a direct command, with 'Do it' added for tone."
+      }
+    },
+    {
+      "id": "i03",
+      "prompt": "I'm preparing for the upcoming Rocket League tournament in Europe this weekend.\n\nThis time, run these in parallel: check Rocket League tournaments in europe; check Rocket League player population; pull Hall of Fame games for 2022 from OpenCritic; check what free games are on Epic Games Store in UK; card; list Lost Ark classes; and find the best current deals for 'batman' (up to 10 results).",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'This time' implies a previous attempt or failure, changing the context of the request."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original request is a direct command. The transformed request is also a direct command, with 'This time' added for tone, implying a previous conversation but not changing the core request."
+      }
+    },
+    {
+      "id": "i04",
+      "prompt": "I'm preparing for the upcoming Rocket League tournament in Europe this weekend.\n\nYou need to run these in parallel: check Rocket League tournaments in europe; check Rocket League player population; pull Hall of Fame games for 2022 from OpenCritic; check what free games are on Epic Games Store in UK; card; list Lost Ark classes; and find the best current deals for 'batman' (up to 10 results).",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'You need to' does not change the core request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original request is a direct command. The transformed request uses 'You need to run these in parallel', which is a statement of necessity, not a direct command."
+      }
+    },
+    {
+      "id": "i05",
+      "prompt": "I'm preparing for the upcoming Rocket League tournament in Europe this weekend.\n\nWhy can't you run these in parallel: check Rocket League tournaments in europe; check Rocket League player population; pull Hall of Fame games for 2022 from OpenCritic; check what free games are on Epic Games Store in UK; card; list Lost Ark classes; and find the best current deals for 'batman' (up to 10 results)?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Why can't you' changes the task from a request to an inquiry about capability, and implies a lack of authorization or ability."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original request is a direct command. The transformed request uses 'Why can't you run these in parallel', which is an explanation question, not a direct command."
+      }
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "023245d863c2373b13b70de3e29e8461045df494031c956c7d01cc53ba344c98",
+  "scenario_id": "TJB-Gaming-P-7-62",
+  "review_protocol": "pragmatic_equivalence_v2",
+  "review_protocol_sha256": "2b387114723187ae3bda767678be617a87a62328697ff6ef3dbd19908bae80f2"
+}

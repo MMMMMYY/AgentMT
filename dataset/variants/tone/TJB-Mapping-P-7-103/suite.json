@@ -1,0 +1,236 @@
+{
+  "task_id": "TJB-Mapping-P-7-103",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "I'm creating a comprehensive geographic analysis of the Grand Canyon area.\n\nCould you list places nearby to sense foot traffic; add a quick map check; tell me what neighborhood/area '36.0544,-112.1401' falls in; add a quick map check; show a background tile for context; show a background tile for context; and add a quick map check?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the original request as a polite question, but all actions and information are preserved."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p02",
+      "prompt": "I'm creating a comprehensive geographic analysis of the Grand Canyon area.\n\nIs it possible to list places nearby to sense foot traffic; add a quick map check; tell me what neighborhood/area '36.0544,-112.1401' falls in; add a quick map check; show a background tile for context; show a background tile for context; and add a quick map check?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Is it possible to...' which changes the request to an inquiry about capability rather than a direct instruction to perform the tasks. This implies a previous conversation or a need for confirmation, altering the authorization."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p03",
+      "prompt": "I'm creating a comprehensive geographic analysis of the Grand Canyon area.\n\nCan you please list places nearby to sense foot traffic; add a quick map check; tell me what neighborhood/area '36.0544,-112.1401' falls in; add a quick map check; show a background tile for context; show a background tile for context; and add a quick map check?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the original request as a polite question, but all actions and information are preserved."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p04",
+      "prompt": "I'm creating a comprehensive geographic analysis of the Grand Canyon area.\n\nPlease help me list places nearby to sense foot traffic; add a quick map check; tell me what neighborhood/area '36.0544,-112.1401' falls in; add a quick map check; show a background tile for context; show a background tile for context; and add a quick map check.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Please help me' which is a polite way to request assistance in performing the tasks, maintaining the original intent."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p05",
+      "prompt": "I'm creating a comprehensive geographic analysis of the Grand Canyon area.\n\nList places nearby to sense foot traffic; add a quick map check; tell me what neighborhood/area '36.0544,-112.1401' falls in; add a quick map check; show a background tile for context; show a background tile for context; and add a quick map check, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt adds 'please' at the end, making it a polite request while preserving all original actions and information."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n01",
+      "prompt": "I'm creating a comprehensive geographic analysis of the Grand Canyon area.\n\nCan you list places nearby to sense foot traffic; add a quick map check; tell me what neighborhood/area '36.0544,-112.1401' falls in; add a quick map check; show a background tile for context; show a background tile for context; and add a quick map check?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the original request as a neutral question, but all actions and information are preserved."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n02",
+      "prompt": "I'm creating a comprehensive geographic analysis of the Grand Canyon area.\n\nAre you able to list places nearby to sense foot traffic; add a quick map check; tell me what neighborhood/area '36.0544,-112.1401' falls in; add a quick map check; show a background tile for context; show a background tile for context; and add a quick map check?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Are you able to...' which changes the request to an inquiry about capability rather than a direct instruction to perform the tasks. This implies a previous conversation or a need for confirmation, altering the authorization."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n03",
+      "prompt": "I'm creating a comprehensive geographic analysis of the Grand Canyon area.\n\nCan you help me list places nearby to sense foot traffic; add a quick map check; tell me what neighborhood/area '36.0544,-112.1401' falls in; add a quick map check; show a background tile for context; show a background tile for context; and add a quick map check?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Can you help me' which is a neutral way to request assistance in performing the tasks, maintaining the original intent."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n04",
+      "prompt": "I'm creating a comprehensive geographic analysis of the Grand Canyon area.\n\nPlease list places nearby to sense foot traffic; add a quick map check; tell me what neighborhood/area '36.0544,-112.1401' falls in; add a quick map check; show a background tile for context; show a background tile for context; and add a quick map check.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt adds 'Please' at the beginning, making it a neutral request while preserving all original actions and information."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n05",
+      "prompt": "I'm creating a comprehensive geographic analysis of the Grand Canyon area.\n\nList places nearby to sense foot traffic; add a quick map check; tell me what neighborhood/area '36.0544,-112.1401' falls in; add a quick map check; show a background tile for context; show a background tile for context; and add a quick map check.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt is an exact match to the imperative part of the original source, preserving all actions and information."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i01",
+      "prompt": "I'm creating a comprehensive geographic analysis of the Grand Canyon area.\n\nJust list places nearby to sense foot traffic; add a quick map check; tell me what neighborhood/area '36.0544,-112.1401' falls in; add a quick map check; show a background tile for context; show a background tile for context; and add a quick map check.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Just' before the imperative, which can imply impatience or a direct command, but the core tasks and information are preserved."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i02",
+      "prompt": "I'm creating a comprehensive geographic analysis of the Grand Canyon area.\n\nList places nearby to sense foot traffic; add a quick map check; tell me what neighborhood/area '36.0544,-112.1401' falls in; add a quick map check; show a background tile for context; show a background tile for context; and add a quick map check. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt adds 'Do it.' at the end, which is an impolite command reinforcing the original tasks. All actions and information are preserved."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i03",
+      "prompt": "I'm creating a comprehensive geographic analysis of the Grand Canyon area.\n\nThis time, list places nearby to sense foot traffic; add a quick map check; tell me what neighborhood/area '36.0544,-112.1401' falls in; add a quick map check; show a background tile for context; show a background tile for context; and add a quick map check.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'This time,' which implies a previous attempt or conversation, but the core tasks and information are preserved as a direct command."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i04",
+      "prompt": "I'm creating a comprehensive geographic analysis of the Grand Canyon area.\n\nYou need to list places nearby to sense foot traffic; add a quick map check; tell me what neighborhood/area '36.0544,-112.1401' falls in; add a quick map check; show a background tile for context; show a background tile for context; and add a quick map check.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt states 'You need to...', which is an assertion of necessity rather than a direct request or command. This changes the nature of the interaction from a request to an instruction about what the system 'must' do, altering the authorization."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i05",
+      "prompt": "I'm creating a comprehensive geographic analysis of the Grand Canyon area.\n\nWhy can't you list places nearby to sense foot traffic; add a quick map check; tell me what neighborhood/area '36.0544,-112.1401' falls in; add a quick map check; show a background tile for context; show a background tile for context; and add a quick map check?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Why can't you...', which is a challenge or an inquiry about inability, not a request to perform the tasks. This implies a previous failure or a question about capability, fundamentally changing the task from execution to explanation."
+      },
+      "eligible_pilot": false
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "96477afd5d67db861d84933292967bc4cb82ce4049a54e308d4cef536fe28c90",
+  "scenario_id": "TJB-Mapping-P-7-103"
+}

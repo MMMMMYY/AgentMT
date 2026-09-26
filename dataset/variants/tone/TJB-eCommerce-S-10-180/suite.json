@@ -1,0 +1,236 @@
+{
+  "task_id": "TJB-eCommerce-S-10-180",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "I'm looking at a Wayfair dresser with SKU W003078383. I'm also interested in financing options for professional assembly service W010630670. I want to compare this with similar iPhones at BestBuy, specifically looking for the highest-rated iPhone model (MQ623LL/A) on Amazon Germany. I want to search for this same model on Zappos.\n\nCould you see all available product information and images for Wayfair dresser with SKU W003078383, then after checking the reviews for this product, know about its warranty options and any home services Wayfair offers for it, then show me detailed information about product 9098084 on Zappos?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": false,
+        "reason": "The prompt omits the request for financing options for professional assembly service W010630670, and the comparison of iPhones at BestBuy and Amazon Germany. It also changes the Zappos search from the iPhone model to product 9098084."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p02",
+      "prompt": "I'm looking at a Wayfair dresser with SKU W003078383. I'm also interested in financing options for professional assembly service W010630670. I want to compare this with similar iPhones at BestBuy, specifically looking for the highest-rated iPhone model (MQ623LL/A) on Amazon Germany. I want to search for this same model on Zappos.\n\nIs it possible to see all available product information and images for Wayfair dresser with SKU W003078383, then after checking the reviews for this product, know about its warranty options and any home services Wayfair offers for it, then show me detailed information about product 9098084 on Zappos?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": false,
+        "reason": "The prompt omits the request for financing options for professional assembly service W010630670, and the comparison of iPhones at BestBuy and Amazon Germany. It also changes the Zappos search from the iPhone model to product 9098084. The phrasing 'Is it possible to...' turns the request into a question about capability rather than a direct instruction."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p03",
+      "prompt": "I'm looking at a Wayfair dresser with SKU W003078383. I'm also interested in financing options for professional assembly service W010630670. I want to compare this with similar iPhones at BestBuy, specifically looking for the highest-rated iPhone model (MQ623LL/A) on Amazon Germany. I want to search for this same model on Zappos.\n\nCan you please see all available product information and images for Wayfair dresser with SKU W003078383, then after checking the reviews for this product, know about its warranty options and any home services Wayfair offers for it, then show me detailed information about product 9098084 on Zappos?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": false,
+        "reason": "The prompt omits the request for financing options for professional assembly service W010630670, and the comparison of iPhones at BestBuy and Amazon Germany. It also changes the Zappos search from the iPhone model to product 9098084. The phrasing 'Can you please...' turns the request into a question about capability rather than a direct instruction."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p04",
+      "prompt": "I'm looking at a Wayfair dresser with SKU W003078383. I'm also interested in financing options for professional assembly service W010630670. I want to compare this with similar iPhones at BestBuy, specifically looking for the highest-rated iPhone model (MQ623LL/A) on Amazon Germany. I want to search for this same model on Zappos.\n\nPlease help me see all available product information and images for Wayfair dresser with SKU W003078383, then after checking the reviews for this product, know about its warranty options and any home services Wayfair offers for it, then show me detailed information about product 9098084 on Zappos.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": false,
+        "reason": "The prompt omits the request for financing options for professional assembly service W010630670, and the comparison of iPhones at BestBuy and Amazon Germany. It also changes the Zappos search from the iPhone model to product 9098084."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p05",
+      "prompt": "I'm looking at a Wayfair dresser with SKU W003078383. I'm also interested in financing options for professional assembly service W010630670. I want to compare this with similar iPhones at BestBuy, specifically looking for the highest-rated iPhone model (MQ623LL/A) on Amazon Germany. I want to search for this same model on Zappos.\n\nSee all available product information and images for Wayfair dresser with SKU W003078383, then after checking the reviews for this product, know about its warranty options and any home services Wayfair offers for it, then show me detailed information about product 9098084 on Zappos, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": false,
+        "reason": "The prompt omits the request for financing options for professional assembly service W010630670, and the comparison of iPhones at BestBuy and Amazon Germany. It also changes the Zappos search from the iPhone model to product 9098084."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n01",
+      "prompt": "I'm looking at a Wayfair dresser with SKU W003078383. I'm also interested in financing options for professional assembly service W010630670. I want to compare this with similar iPhones at BestBuy, specifically looking for the highest-rated iPhone model (MQ623LL/A) on Amazon Germany. I want to search for this same model on Zappos.\n\nCan you see all available product information and images for Wayfair dresser with SKU W003078383, then after checking the reviews for this product, know about its warranty options and any home services Wayfair offers for it, then show me detailed information about product 9098084 on Zappos?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": false,
+        "reason": "The prompt omits the request for financing options for professional assembly service W010630670, and the comparison of iPhones at BestBuy and Amazon Germany. It also changes the Zappos search from the iPhone model to product 9098084. The phrasing 'Can you...' turns the request into a question about capability rather than a direct instruction."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n02",
+      "prompt": "I'm looking at a Wayfair dresser with SKU W003078383. I'm also interested in financing options for professional assembly service W010630670. I want to compare this with similar iPhones at BestBuy, specifically looking for the highest-rated iPhone model (MQ623LL/A) on Amazon Germany. I want to search for this same model on Zappos.\n\nAre you able to see all available product information and images for Wayfair dresser with SKU W003078383, then after checking the reviews for this product, know about its warranty options and any home services Wayfair offers for it, then show me detailed information about product 9098084 on Zappos?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": false,
+        "reason": "The prompt omits the request for financing options for professional assembly service W010630670, and the comparison of iPhones at BestBuy and Amazon Germany. It also changes the Zappos search from the iPhone model to product 9098084. The phrasing 'Are you able to...' turns the request into a question about capability rather than a direct instruction."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n03",
+      "prompt": "I'm looking at a Wayfair dresser with SKU W003078383. I'm also interested in financing options for professional assembly service W010630670. I want to compare this with similar iPhones at BestBuy, specifically looking for the highest-rated iPhone model (MQ623LL/A) on Amazon Germany. I want to search for this same model on Zappos.\n\nCan you help me see all available product information and images for Wayfair dresser with SKU W003078383, then after checking the reviews for this product, know about its warranty options and any home services Wayfair offers for it, then show me detailed information about product 9098084 on Zappos?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": false,
+        "reason": "The prompt omits the request for financing options for professional assembly service W010630670, and the comparison of iPhones at BestBuy and Amazon Germany. It also changes the Zappos search from the iPhone model to product 9098084. The phrasing 'Can you help me...' turns the request into a question about capability rather than a direct instruction."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n04",
+      "prompt": "I'm looking at a Wayfair dresser with SKU W003078383. I'm also interested in financing options for professional assembly service W010630670. I want to compare this with similar iPhones at BestBuy, specifically looking for the highest-rated iPhone model (MQ623LL/A) on Amazon Germany. I want to search for this same model on Zappos.\n\nPlease see all available product information and images for Wayfair dresser with SKU W003078383, then after checking the reviews for this product, know about its warranty options and any home services Wayfair offers for it, then show me detailed information about product 9098084 on Zappos.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": false,
+        "reason": "The prompt omits the request for financing options for professional assembly service W010630670, and the comparison of iPhones at BestBuy and Amazon Germany. It also changes the Zappos search from the iPhone model to product 9098084."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n05",
+      "prompt": "I'm looking at a Wayfair dresser with SKU W003078383. I'm also interested in financing options for professional assembly service W010630670. I want to compare this with similar iPhones at BestBuy, specifically looking for the highest-rated iPhone model (MQ623LL/A) on Amazon Germany. I want to search for this same model on Zappos.\n\nSee all available product information and images for Wayfair dresser with SKU W003078383, then after checking the reviews for this product, know about its warranty options and any home services Wayfair offers for it, then show me detailed information about product 9098084 on Zappos.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": false,
+        "reason": "The prompt omits the request for financing options for professional assembly service W010630670, and the comparison of iPhones at BestBuy and Amazon Germany. It also changes the Zappos search from the iPhone model to product 9098084."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i01",
+      "prompt": "I'm looking at a Wayfair dresser with SKU W003078383. I'm also interested in financing options for professional assembly service W010630670. I want to compare this with similar iPhones at BestBuy, specifically looking for the highest-rated iPhone model (MQ623LL/A) on Amazon Germany. I want to search for this same model on Zappos.\n\nJust see all available product information and images for Wayfair dresser with SKU W003078383, then after checking the reviews for this product, know about its warranty options and any home services Wayfair offers for it, then show me detailed information about product 9098084 on Zappos.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": false,
+        "reason": "The prompt omits the request for financing options for professional assembly service W010630670, and the comparison of iPhones at BestBuy and Amazon Germany. It also changes the Zappos search from the iPhone model to product 9098084."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i02",
+      "prompt": "I'm looking at a Wayfair dresser with SKU W003078383. I'm also interested in financing options for professional assembly service W010630670. I want to compare this with similar iPhones at BestBuy, specifically looking for the highest-rated iPhone model (MQ623LL/A) on Amazon Germany. I want to search for this same model on Zappos.\n\nSee all available product information and images for Wayfair dresser with SKU W003078383, then after checking the reviews for this product, know about its warranty options and any home services Wayfair offers for it, then show me detailed information about product 9098084 on Zappos. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": false,
+        "reason": "The prompt omits the request for financing options for professional assembly service W010630670, and the comparison of iPhones at BestBuy and Amazon Germany. It also changes the Zappos search from the iPhone model to product 9098084."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i03",
+      "prompt": "I'm looking at a Wayfair dresser with SKU W003078383. I'm also interested in financing options for professional assembly service W010630670. I want to compare this with similar iPhones at BestBuy, specifically looking for the highest-rated iPhone model (MQ623LL/A) on Amazon Germany. I want to search for this same model on Zappos.\n\nThis time, see all available product information and images for Wayfair dresser with SKU W003078383, then after checking the reviews for this product, know about its warranty options and any home services Wayfair offers for it, then show me detailed information about product 9098084 on Zappos.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": false,
+        "reason": "The prompt omits the request for financing options for professional assembly service W010630670, and the comparison of iPhones at BestBuy and Amazon Germany. It also changes the Zappos search from the iPhone model to product 9098084."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i04",
+      "prompt": "I'm looking at a Wayfair dresser with SKU W003078383. I'm also interested in financing options for professional assembly service W010630670. I want to compare this with similar iPhones at BestBuy, specifically looking for the highest-rated iPhone model (MQ623LL/A) on Amazon Germany. I want to search for this same model on Zappos.\n\nYou need to see all available product information and images for Wayfair dresser with SKU W003078383, then after checking the reviews for this product, know about its warranty options and any home services Wayfair offers for it, then show me detailed information about product 9098084 on Zappos.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": false,
+        "reason": "The prompt omits the request for financing options for professional assembly service W010630670, and the comparison of iPhones at BestBuy and Amazon Germany. It also changes the Zappos search from the iPhone model to product 9098084."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i05",
+      "prompt": "I'm looking at a Wayfair dresser with SKU W003078383. I'm also interested in financing options for professional assembly service W010630670. I want to compare this with similar iPhones at BestBuy, specifically looking for the highest-rated iPhone model (MQ623LL/A) on Amazon Germany. I want to search for this same model on Zappos.\n\nWhy can't you see all available product information and images for Wayfair dresser with SKU W003078383, then after checking the reviews for this product, know about its warranty options and any home services Wayfair offers for it, then show me detailed information about product 9098084 on Zappos?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": false,
+        "reason": "The prompt omits the request for financing options for professional assembly service W010630670, and the comparison of iPhones at BestBuy and Amazon Germany. It also changes the Zappos search from the iPhone model to product 9098084. The phrasing 'Why can't you...' turns the request into a question about capability rather than a direct instruction."
+      },
+      "eligible_pilot": false
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "0fd61ad7ec91ba9f4dc614d6879eb9d186a98ee9132fe21460050d29f5464f72",
+  "scenario_id": "TJB-eCommerce-S-10-180"
+}

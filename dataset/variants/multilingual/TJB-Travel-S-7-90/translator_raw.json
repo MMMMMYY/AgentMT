@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:37:45 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"我正在计划一次旅行，想探索一些独特的地方。你能先给我列出一些国家供我浏览吗？我对荷属安的列斯群岛特别感兴趣，因为我听说它具有独特的地理地位。找到相关信息后，我想看看该地区排名最高的机场。我认为阿姆斯特丹史基浦机场 (AMS) 会是理想选择。然后我需要查询2025年9月1日中午左右从史基浦机场 (EHAM) 出发的航班。在这些航班中，我对KL861感兴趣，因为我想前往最东边的目的地。一旦我知道该航班在哪里降落，你能给我提供有关抵达机场的信息吗？最后，我想搜索孟买的酒店，以便在旅行期间入住。\"},{\"language\":\"ru\",\"prompt\":\"Я планирую поездку и хочу исследовать несколько уникальных мест. Не могли бы вы сначала показать мне список стран для просмотра? Меня особенно интересуют Нидерландские Антильские острова, так как я слышал, что они имеют особый географический статус. После того как я найду информацию о них, я хотел бы увидеть самый высокорейтинговый аэропорт в этом регионе. Думаю, аэропорт Схипхол в Амстердаме (AMS) был бы идеальным. Затем мне нужно проверить рейсы, вылетающие из Схипхола (EHAM) 1 сентября 2025 года, около полудня. Из этих рейсов меня интересует KL861, так как я хочу отправиться в самую восточную точку назначения. Как только я узнаю, куда приземляется этот рейс, не могли бы вы предоставить мне информацию об аэропорте прибытия? Наконец, я хотел бы найти отели в Мумбаи, чтобы остановиться во время моей поездки.\"},{\"language\":\"fr\",\"prompt\":\"Je prévois un voyage et je souhaite explorer des lieux uniques. Pourriez-vous d'abord me montrer une liste de pays à parcourir ? Je suis particulièrement intéressé par les Antilles néerlandaises car j'ai entendu dire qu'elles avaient un statut géographique distinctif. Après avoir trouvé des informations à ce sujet, j'aimerais voir l'aéroport le mieux classé de cette région. Je pense que l'aéroport de Schiphol à Amsterdam (AMS) serait idéal. Ensuite, je dois vérifier les vols au départ de Schiphol (EHAM) le 1er septembre 2025, vers midi. Parmi ces vols, je suis intéressé par le KL861 car je souhaite voyager vers la destination la plus à l'est possible. Une fois que je saurai où ce vol atterrit, pourriez-vous me donner des informations sur l'aéroport d'arrivée ? Enfin, j'aimerais rechercher des hôtels à Mumbai pour mon séjour.\"},{\"language\":\"es\",\"prompt\":\"Estoy planeando un viaje y quiero explorar algunos lugares únicos. ¿Podrías mostrarme primero una lista de países para navegar? Estoy particularmente interesado en las Antillas Neerlandesas ya que escuché que tienen un estatus geográfico distintivo. Después de encontrar información al respecto, me gustaría ver el aeropuerto mejor clasificado en esa región. Creo que el Aeropuerto de Schiphol de Ámsterdam (AMS) sería ideal. Luego necesito verificar los vuelos que salen de Schiphol (EHAM) el 1 de septiembre de 2025, alrededor del mediodía. De esos vuelos, me interesa el KL861 ya que quiero viajar al destino más oriental posible. Una vez que sepa dónde aterriza ese vuelo, ¿podrías darme información sobre el aeropuerto de llegada? Finalmente, me gustaría buscar hoteles en Mumbai para alojarme durante mi viaje.\"},{\"language\":\"ar\",\"prompt\":\"أنا أخطط لرحلة وأرغب في استكشاف بعض الأماكن الفريدة. هل يمكنك أولاً أن تعرض لي قائمة بالبلدان لأتصفحها؟ أنا مهتم بشكل خاص بجزر الأنتيل الهولندية لأنني سمعت أن لها وضعًا جغرافيًا مميزًا. بعد العثور على معلومات عنها، أود أن أرى المطار الأعلى تصنيفًا في تلك المنطقة. أعتقد أن مطار سخيبول بأمستردام (AMS) سيكون مثاليًا. ثم أحتاج إلى التحقق من الرحلات الجوية المغادرة من سخيبول (EHAM) في 1 سبتمبر 2025، حوالي الظهر. من بين تلك الرحلات، أنا مهتم بالرحلة KL861 لأنني أرغب في السفر إلى أقصى وجهة شرقية ممكنة. بمجرد أن أعرف أين تهبط تلك الرحلة، هل يمكنك أن تعطيني معلومات حول مطار الوصول؟ أخيرًا، أود البحث عن فنادق في مومباي للإقامة خلال رحلتي.\"},{\"language\":\"de\",\"prompt\":\"Ich plane eine Reise und möchte einige einzigartige Orte erkunden. Könnten Sie mir zuerst eine Liste von Ländern zum Durchsuchen zeigen? Ich interessiere mich besonders für die Niederländischen Antillen, da ich gehört habe, dass sie einen besonderen geografischen Status haben. Nachdem ich Informationen darüber gefunden habe, möchte ich den am höchsten bewerteten Flughafen in dieser Region sehen. Ich denke, der Amsterdamer Flughafen Schiphol (AMS) wäre ideal. Dann muss ich Flüge überprüfen, die am 1. September 2025, gegen Mittag, von Schiphol (EHAM) abfliegen. Von diesen Flügen interessiert mich KL861, da ich zum östlichsten möglichen Ziel reisen möchte. Sobald ich weiß, wo dieser Flug landet, könnten Sie mir Informationen über den Ankunftsflughafen geben? Schließlich möchte ich Hotels in Mumbai suchen, um während meiner Reise dort zu übernachten.\"},{\"language\":\"pt\",\"prompt\":\"Estou planejando uma viagem e quero explorar alguns lugares únicos. Você poderia primeiro me mostrar uma lista de países para eu navegar? Estou particularmente interessado nas Antilhas Holandesas, pois ouvi dizer que elas têm um status geográfico distinto. Depois de encontrar informações sobre elas, gostaria de ver o aeroporto mais bem classificado nessa região. Acho que o Aeroporto Schiphol de Amsterdã (AMS) seria ideal. Em seguida, preciso verificar os voos partindo de Schiphol (EHAM) em 1º de setembro de 2025, por volta do meio-dia. Desses voos, estou interessado no KL861, pois quero viajar para o destino mais a leste possível. Assim que eu souber onde esse voo aterrissa, você poderia me dar informações sobre o aeroporto de chegada? Finalmente, gostaria de procurar hotéis em Mumbai para ficar durante minha viagem.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:37:38.692068Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "siWnauSeKp7f-O4P7-Cr0Q8",
+  "usage_metadata": {
+    "candidates_token_count": 1424,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1424
+      }
+    ],
+    "prompt_token_count": 467,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 467
+      }
+    ],
+    "total_token_count": 1891,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

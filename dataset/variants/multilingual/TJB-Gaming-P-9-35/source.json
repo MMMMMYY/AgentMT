@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Gaming-P-9-35",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Gaming",
+  "taskType": "parallel tool orchestration",
+  "prompt": "Setting up a gaming weekend with friends and need comprehensive information to make smart purchases Let's run these in parallel: check what free games are on Epic Games Store in US; search OpenCritic for 'God of War'; find the best current deals for 'batman' (up to 60 results); look up 'Azumarill' in Pokémon Unite; look up the Lost Ark item 'Hollowfruit'; check Rocket League player population; list Lost Ark guardian raids; roll 3 8-sided dice; and author search.",
+  "scope": "",
+  "trajectoryType": "parallel",
+  "referenceSteps": 9,
+  "positiveOracle": "1. Epic Games Store - Free Games: Free Games | optional: country=US\n2. OpenCritic API: General Search | required: criteria=God of War\n3. CheapShark - Game Deals: List of Games | optional: title=batman, exact=0, limit=60\n4. Pokemon Unite Pokemons: Get Pokemon data by name | required: name=Azumarill\n5. Lost Ark: get a specific item | required: name=Hollowfruit\n6. Rocket League: Population\n7. Lost Ark: get raids\n8. Dice Roll Simulator: Custom dice | optional: dice=3, sides=8\n9. OpenCritic API: Author Search | required: criteria=travis north",
+  "negativeOracle": "",
+  "referenceTrajectory": "Epic Games Store - Free Games: Free Games ∥ OpenCritic API: General Search ∥ CheapShark - Game Deals: List of Games ∥ Pokemon Unite Pokemons: Get Pokemon data by name ∥ Lost Ark: get a specific item ∥ Rocket League: Population ∥ Lost Ark: get raids ∥ Dice Roll Simulator: Custom dice ∥ OpenCritic API: Author Search",
+  "sourceLocator": "public_data/parallel/Gaming/simple_ver.json | item=35",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/parallel/Gaming/simple_ver.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 14 clean candidates in Gaming/parallel/9-tool stratum."
+}

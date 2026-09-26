@@ -1,0 +1,236 @@
+{
+  "task_id": "AIP-001",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "my health data from the past month\n\nCould you give a summary?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request 'Could you give a summary?' is a polite way to ask for the same action as 'Can you give me a summary?'"
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p02",
+      "prompt": "my health data from the past month\n\nIs it possible to give a summary?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request 'Is it possible to give a summary?' asks about the ability to perform the task, not a direct request to perform it."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p03",
+      "prompt": "my health data from the past month\n\nCan you please give a summary?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request 'Can you please give a summary?' is a polite way to ask for the same action as 'Can you give me a summary?'"
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p04",
+      "prompt": "my health data from the past month\n\nPlease help me give a summary.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request 'Please help me give a summary.' implies the user wants assistance in creating a summary, not for the AI to provide one directly."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p05",
+      "prompt": "my health data from the past month\n\nGive a summary, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request 'Give a summary, please.' is a polite imperative, directly asking for the summary."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n01",
+      "prompt": "my health data from the past month\n\nCan you give a summary?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request 'Can you give a summary?' is a direct and neutral way to ask for the summary."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n02",
+      "prompt": "my health data from the past month\n\nAre you able to give a summary?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request 'Are you able to give a summary?' asks about the AI's capability, not a direct request to perform the action."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n03",
+      "prompt": "my health data from the past month\n\nCan you help me give a summary?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request 'Can you help me give a summary?' implies the user wants assistance in creating a summary, not for the AI to provide one directly."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n04",
+      "prompt": "my health data from the past month\n\nPlease give a summary.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request 'Please give a summary.' is a direct and neutral imperative, asking for the summary."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n05",
+      "prompt": "my health data from the past month\n\nGive a summary.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request 'Give a summary.' is a direct imperative, asking for the summary."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i01",
+      "prompt": "my health data from the past month\n\nJust give a summary.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request 'Just give a summary.' is an impolite but direct imperative, asking for the summary."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i02",
+      "prompt": "my health data from the past month\n\nGive a summary. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request 'Give a summary. Do it.' is an impolite and direct imperative, asking for the summary."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i03",
+      "prompt": "my health data from the past month\n\nThis time, give a summary.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request 'This time, give a summary.' is an impolite and direct imperative, implying a previous interaction but still requesting the summary."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i04",
+      "prompt": "my health data from the past month\n\nYou need to give a summary.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request 'You need to give a summary.' states a requirement but is not a direct request for the AI to perform the action immediately."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i05",
+      "prompt": "my health data from the past month\n\nWhy can't you give a summary?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request 'Why can't you give a summary?' is a question about ability or explanation, not a direct request to perform the task."
+      },
+      "eligible_pilot": false
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "6ba3a48599c4771fb7cc31bbb4ca1bd92b2c58979f0c3a991ffceecbfe25eef4",
+  "scenario_id": "AIP-001"
+}

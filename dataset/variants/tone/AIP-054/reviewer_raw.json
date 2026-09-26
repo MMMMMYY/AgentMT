@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:43:31 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"reviews\": [{\"id\": \"p01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt maintains all original task elements and information, rephrasing as a polite request.\"}, {\"id\": \"p02\", \"task_equivalent\": false, \"authorization_equivalent\": false, \"information_order_preserved\": true, \"reason\": \"The prompt asks if it's 'possible' to perform the actions, which is an ability question, not a direct request to execute. This changes the task from a command to an inquiry about capability.\"}, {\"id\": \"p03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt maintains all original task elements and information, rephrasing as a polite request.\"}, {\"id\": \"p04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt maintains all original task elements and information, rephrasing as a polite request for help.\"}, {\"id\": \"p05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt maintains all original task elements and information, rephrasing as a polite request.\"}, {\"id\": \"n01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt maintains all original task elements and information, rephrasing as a neutral request.\"}, {\"id\": \"n02\", \"task_equivalent\": false, \"authorization_equivalent\": false, \"information_order_preserved\": true, \"reason\": \"The prompt asks if the system is 'able' to perform the actions, which is an ability question, not a direct request to execute. This changes the task from a command to an inquiry about capability.\"}, {\"id\": \"n03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt maintains all original task elements and information, rephrasing as a neutral request for help.\"}, {\"id\": \"n04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt maintains all original task elements and information, rephrasing as a neutral request.\"}, {\"id\": \"n05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt maintains all original task elements and information, rephrasing as a neutral command.\"}, {\"id\": \"i01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt maintains all original task elements and information, rephrasing as an impolite command. 'Just' implies a direct, unadorned instruction.\"}, {\"id\": \"i02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt maintains all original task elements and information, adding an impolite imperative 'Do it' at the end, reinforcing the command.\"}, {\"id\": \"i03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt maintains all original task elements and information, adding 'This time' which implies a previous conversation or failed attempt, but still functions as a command.\"}, {\"id\": \"i04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt maintains all original task elements and information, rephrasing as an impolite directive using 'You need to'.\"}, {\"id\": \"i05\", \"task_equivalent\": false, \"authorization_equivalent\": false, \"information_order_preserved\": true, \"reason\": \"The prompt asks 'Why can't you...', which is an explanation question, not a direct request to execute. This changes the task from a command to an inquiry about inability or refusal.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.0648379501706866
+    }
+  ],
+  "create_time": "2026-09-08T10:43:26.810320Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "zuafatC6MY2wi-8PkKu_8QY",
+  "usage_metadata": {
+    "candidates_token_count": 922,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 922
+      }
+    ],
+    "prompt_token_count": 1205,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1205
+      }
+    ],
+    "total_token_count": 2127,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

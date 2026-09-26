@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:45:46 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"\",\n  \"task\": \"perform straight-through checks for this cleanup, verify sarah.johnson@gmail.com for validity and deliverability, confirm mail server accept-mail status for marketing@tempcompany.org, determine whether procurement@supplierxyz.com is a temporary/throwaway address, verify marketing@tempcompany.org for validity and deliverability, and run the corresponding check for Email API\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.018052129335300898
+    }
+  ],
+  "create_time": "2026-09-08T10:45:46.130663Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "Wuefauf8B-Xsi-8PrP-WsAI",
+  "usage_metadata": {
+    "candidates_token_count": 93,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 93
+      }
+    ],
+    "prompt_token_count": 280,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 280
+      }
+    ],
+    "total_token_count": 373,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

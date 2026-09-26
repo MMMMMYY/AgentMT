@@ -1,0 +1,162 @@
+{
+  "task_id": "TJB-Gaming-S-3-166",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "I'm looking for a free-to-play shooter game on PC. Can you first filter PC games with the shooter tag, then search for the most common shooter genre games in the results, and finally show me the best deals for Shapeshooter since it seems to be the closest match to what I'm looking for?",
+  "source_sha256": "019b6db67da12aab819a8ec00ec4ecdeb9cdf2e7ed05e3a24c33c27e0cc32c11",
+  "status": "reviewed",
+  "variants": [
+    {
+      "language": "zh",
+      "prompt": "我正在寻找一款PC上的免费射击游戏。你能先筛选带有射击标签的PC游戏，然后在结果中搜索最常见的射击类型游戏，最后向我展示Shapeshooter的最佳优惠吗，因为它似乎与我正在寻找的最接近？",
+      "id": "lang_zh",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "zh",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks, authorizations, tone, and information order from the source. The target language is correct."
+      }
+    },
+    {
+      "language": "ru",
+      "prompt": "Я ищу бесплатную игру-шутер на ПК. Можете ли вы сначала отфильтровать игры для ПК с тегом «шутер», затем найти самые распространенные игры жанра шутер в результатах и, наконец, показать мне лучшие предложения для Shapeshooter, так как это, кажется, наиболее близко к тому, что я ищу?",
+      "id": "lang_ru",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ru",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks, authorizations, tone, and information order from the source. The target language is correct."
+      }
+    },
+    {
+      "language": "fr",
+      "prompt": "Je cherche un jeu de tir gratuit sur PC. Pouvez-vous d'abord filtrer les jeux PC avec le tag «tireur», puis rechercher les jeux de genre tireur les plus courants dans les résultats, et enfin me montrer les meilleures offres pour Shapeshooter car il semble être le plus proche de ce que je recherche?",
+      "id": "lang_fr",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "fr",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks, authorizations, tone, and information order from the source. The target language is correct."
+      }
+    },
+    {
+      "language": "es",
+      "prompt": "Estoy buscando un juego de disparos gratuito para PC. ¿Puedes primero filtrar los juegos de PC con la etiqueta de disparos, luego buscar los juegos de género de disparos más comunes en los resultados y finalmente mostrarme las mejores ofertas para Shapeshooter, ya que parece ser lo más parecido a lo que estoy buscando?",
+      "id": "lang_es",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "es",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks, authorizations, tone, and information order from the source. The target language is correct."
+      }
+    },
+    {
+      "language": "ar",
+      "prompt": "أبحث عن لعبة إطلاق نار مجانية للكمبيوتر الشخصي. هل يمكنك أولاً تصفية ألعاب الكمبيوتر التي تحمل علامة مطلق النار، ثم البحث عن ألعاب نوع مطلق النار الأكثر شيوعًا في النتائج، وأخيرًا عرض أفضل العروض للعبة Shapeshooter نظرًا لأنها تبدو الأقرب لما أبحث عنه؟",
+      "id": "lang_ar",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ar",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks, authorizations, tone, and information order from the source. The target language is correct."
+      }
+    },
+    {
+      "language": "de",
+      "prompt": "Ich suche ein kostenloses Shooter-Spiel für den PC. Können Sie zuerst PC-Spiele mit dem Shooter-Tag filtern, dann in den Ergebnissen nach den gängigsten Shooter-Genre-Spielen suchen und mir schließlich die besten Angebote für Shapeshooter anzeigen, da es dem, was ich suche, am nächsten zu kommen scheint?",
+      "id": "lang_de",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "de",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks, authorizations, tone, and information order from the source. The target language is correct."
+      }
+    },
+    {
+      "language": "pt",
+      "prompt": "Estou procurando um jogo de tiro gratuito para PC. Você pode primeiro filtrar jogos de PC com a tag de tiro, depois procurar os jogos de gênero de tiro mais comuns nos resultados e, finalmente, me mostrar as melhores ofertas para Shapeshooter, já que parece ser o mais próximo do que estou procurando?",
+      "id": "lang_pt",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "pt",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks, authorizations, tone, and information order from the source. The target language is correct."
+      }
+    }
+  ],
+  "english_source": {
+    "language": "en",
+    "prompt": "I'm looking for a free-to-play shooter game on PC. Can you first filter PC games with the shooter tag, then search for the most common shooter genre games in the results, and finally show me the best deals for Shapeshooter since it seems to be the closest match to what I'm looking for?",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation"
+}

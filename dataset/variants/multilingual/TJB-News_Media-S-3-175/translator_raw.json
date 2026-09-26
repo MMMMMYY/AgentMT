@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:37:22 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"我需要立即找到热门的开发者文章。在获取最新文章后，向我展示关于 GraphQL 的最新 10 篇报道，因为它似乎出现在多个文章标题中。然后搜索关于 GraphQL 的英文新闻报道，看看主流媒体对这项技术有何评价。\"},{\"language\":\"ru\",\"prompt\":\"Мне нужно найти трендовые статьи для разработчиков прямо сейчас. После получения последних статей покажите мне 10 последних историй о GraphQL, так как он, кажется, появляется в нескольких заголовках статей. Затем найдите англоязычные новости о GraphQL, чтобы узнать, что говорят основные СМИ об этой технологии.\"},{\"language\":\"fr\",\"prompt\":\"Je dois trouver les articles de développeurs tendance en ce moment. Après avoir obtenu les derniers articles, montrez-moi les 10 dernières histoires sur GraphQL, car il semble apparaître dans plusieurs titres d'articles. Ensuite, recherchez la couverture médiatique en anglais sur GraphQL pour voir ce que les médias grand public disent de cette technologie.\"},{\"language\":\"es\",\"prompt\":\"Necesito encontrar artículos de desarrolladores de moda ahora mismo. Después de obtener los últimos artículos, muéstrame las 10 últimas historias sobre GraphQL, ya que parece estar apareciendo en varios títulos de artículos. Luego busca cobertura de noticias en inglés sobre GraphQL para ver qué dicen los medios de comunicación principales sobre esta tecnología.\"},{\"language\":\"ar\",\"prompt\":\"أحتاج إلى العثور على مقالات المطورين الشائعة الآن. بعد الحصول على أحدث المقالات، أظهر لي أحدث 10 قصص حول GraphQL لأنه يبدو أنه يظهر في عناوين مقالات متعددة. ثم ابحث عن تغطية إخبارية باللغة الإنجليزية حول GraphQL لمعرفة ما تقوله وسائل الإعلام الرئيسية عن هذه التقنية.\"},{\"language\":\"de\",\"prompt\":\"Ich muss jetzt angesagte Entwicklerartikel finden. Nachdem ich die neuesten Artikel erhalten habe, zeigen Sie mir die Top 10 der neuesten Geschichten über GraphQL, da es in mehreren Artikeltiteln aufzutauchen scheint. Suchen Sie dann nach englischsprachiger Nachrichtenberichterstattung über GraphQL, um zu sehen, was die Mainstream-Medien über diese Technologie sagen.\"},{\"language\":\"pt\",\"prompt\":\"Preciso encontrar artigos de desenvolvedores em alta agora. Depois de obter os artigos mais recentes, mostre-me as 10 últimas histórias sobre GraphQL, já que parece estar aparecendo em vários títulos de artigos. Em seguida, procure por cobertura de notícias em inglês sobre GraphQL para ver o que a mídia mainstream está dizendo sobre esta tecnologia.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:37:19.545435Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "nyWnapulIfa6ld8P5NXBoA0",
+  "usage_metadata": {
+    "candidates_token_count": 538,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 538
+      }
+    ],
+    "prompt_token_count": 353,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 353
+      }
+    ],
+    "total_token_count": 891,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

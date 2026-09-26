@@ -1,0 +1,343 @@
+{
+  "task_id": "TJB-News_Media-P-8-188",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "I’m compiling a swift cross‑source snapshot.\n\nCould you gather crypto feeds (tweets, blogs, announcements); latest IEEE Spectrum tech stories; movie news about 'latest film industry' (limit 15); trending business topics from BizToc; latest LGBTQ+ news; this week's top posts on dev.to; latest from CNN Arabic (Arabic); and latest from Election2020 Smartable?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request maintains all original information and is a direct request to execute the task."
+      }
+    },
+    {
+      "id": "p02",
+      "prompt": "I’m compiling a swift cross‑source snapshot.\n\nIs it possible to gather crypto feeds (tweets, blogs, announcements); latest IEEE Spectrum tech stories; movie news about 'latest film industry' (limit 15); trending business topics from BizToc; latest LGBTQ+ news; this week's top posts on dev.to; latest from CNN Arabic (Arabic); and latest from Election2020 Smartable?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'Is it possible to gather' turns the request into an ability question rather than a direct command to execute the task."
+      }
+    },
+    {
+      "id": "p03",
+      "prompt": "I’m compiling a swift cross‑source snapshot.\n\nCan you please gather crypto feeds (tweets, blogs, announcements); latest IEEE Spectrum tech stories; movie news about 'latest film industry' (limit 15); trending business topics from BizToc; latest LGBTQ+ news; this week's top posts on dev.to; latest from CNN Arabic (Arabic); and latest from Election2020 Smartable?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p03",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'Can you please gather' turns the request into an ability question rather than a direct command to execute the task."
+      }
+    },
+    {
+      "id": "p04",
+      "prompt": "I’m compiling a swift cross‑source snapshot.\n\nPlease help me gather crypto feeds (tweets, blogs, announcements); latest IEEE Spectrum tech stories; movie news about 'latest film industry' (limit 15); trending business topics from BizToc; latest LGBTQ+ news; this week's top posts on dev.to; latest from CNN Arabic (Arabic); and latest from Election2020 Smartable.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request maintains all original information and is a direct request to execute the task."
+      }
+    },
+    {
+      "id": "p05",
+      "prompt": "I’m compiling a swift cross‑source snapshot.\n\nGather crypto feeds (tweets, blogs, announcements); latest IEEE Spectrum tech stories; movie news about 'latest film industry' (limit 15); trending business topics from BizToc; latest LGBTQ+ news; this week's top posts on dev.to; latest from CNN Arabic (Arabic); and latest from Election2020 Smartable, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request maintains all original information and is a direct request to execute the task."
+      }
+    },
+    {
+      "id": "n01",
+      "prompt": "I’m compiling a swift cross‑source snapshot.\n\nCan you gather crypto feeds (tweets, blogs, announcements); latest IEEE Spectrum tech stories; movie news about 'latest film industry' (limit 15); trending business topics from BizToc; latest LGBTQ+ news; this week's top posts on dev.to; latest from CNN Arabic (Arabic); and latest from Election2020 Smartable?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n01",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'Can you gather' turns the request into an ability question rather than a direct command to execute the task."
+      }
+    },
+    {
+      "id": "n02",
+      "prompt": "I’m compiling a swift cross‑source snapshot.\n\nAre you able to gather crypto feeds (tweets, blogs, announcements); latest IEEE Spectrum tech stories; movie news about 'latest film industry' (limit 15); trending business topics from BizToc; latest LGBTQ+ news; this week's top posts on dev.to; latest from CNN Arabic (Arabic); and latest from Election2020 Smartable?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'Are you able to gather' turns the request into an ability question rather than a direct command to execute the task."
+      }
+    },
+    {
+      "id": "n03",
+      "prompt": "I’m compiling a swift cross‑source snapshot.\n\nCan you help me gather crypto feeds (tweets, blogs, announcements); latest IEEE Spectrum tech stories; movie news about 'latest film industry' (limit 15); trending business topics from BizToc; latest LGBTQ+ news; this week's top posts on dev.to; latest from CNN Arabic (Arabic); and latest from Election2020 Smartable?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'Can you help me gather' turns the request into an ability question rather than a direct command to execute the task."
+      }
+    },
+    {
+      "id": "n04",
+      "prompt": "I’m compiling a swift cross‑source snapshot.\n\nPlease gather crypto feeds (tweets, blogs, announcements); latest IEEE Spectrum tech stories; movie news about 'latest film industry' (limit 15); trending business topics from BizToc; latest LGBTQ+ news; this week's top posts on dev.to; latest from CNN Arabic (Arabic); and latest from Election2020 Smartable.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request maintains all original information and is a direct request to execute the task."
+      }
+    },
+    {
+      "id": "n05",
+      "prompt": "I’m compiling a swift cross‑source snapshot.\n\nGather crypto feeds (tweets, blogs, announcements); latest IEEE Spectrum tech stories; movie news about 'latest film industry' (limit 15); trending business topics from BizToc; latest LGBTQ+ news; this week's top posts on dev.to; latest from CNN Arabic (Arabic); and latest from Election2020 Smartable.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request maintains all original information and is a direct request to execute the task."
+      }
+    },
+    {
+      "id": "i01",
+      "prompt": "I’m compiling a swift cross‑source snapshot.\n\nJust gather crypto feeds (tweets, blogs, announcements); latest IEEE Spectrum tech stories; movie news about 'latest film industry' (limit 15); trending business topics from BizToc; latest LGBTQ+ news; this week's top posts on dev.to; latest from CNN Arabic (Arabic); and latest from Election2020 Smartable.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The word 'Just' adds a nuance of urgency or simplicity, but does not change the core task or authorization."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request maintains all original information and is a direct request to execute the task, albeit with an impolite tone."
+      }
+    },
+    {
+      "id": "i02",
+      "prompt": "I’m compiling a swift cross‑source snapshot.\n\nGather crypto feeds (tweets, blogs, announcements); latest IEEE Spectrum tech stories; movie news about 'latest film industry' (limit 15); trending business topics from BizToc; latest LGBTQ+ news; this week's top posts on dev.to; latest from CNN Arabic (Arabic); and latest from Election2020 Smartable. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Do it' adds an imperative tone but does not change the core task or authorization."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request maintains all original information and is a direct request to execute the task, albeit with an impolite tone."
+      }
+    },
+    {
+      "id": "i03",
+      "prompt": "I’m compiling a swift cross‑source snapshot.\n\nThis time, gather crypto feeds (tweets, blogs, announcements); latest IEEE Spectrum tech stories; movie news about 'latest film industry' (limit 15); trending business topics from BizToc; latest LGBTQ+ news; this week's top posts on dev.to; latest from CNN Arabic (Arabic); and latest from Election2020 Smartable.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'This time' implies a previous attempt or expectation, but does not change the core task or authorization."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request maintains all original information and is a direct request to execute the task, albeit with an impolite tone and implying a previous conversation."
+      }
+    },
+    {
+      "id": "i04",
+      "prompt": "I’m compiling a swift cross‑source snapshot.\n\nYou need to gather crypto feeds (tweets, blogs, announcements); latest IEEE Spectrum tech stories; movie news about 'latest film industry' (limit 15); trending business topics from BizToc; latest LGBTQ+ news; this week's top posts on dev.to; latest from CNN Arabic (Arabic); and latest from Election2020 Smartable.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'You need to' adds a demanding tone but does not change the core task or authorization."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request maintains all original information and is a direct request to execute the task, albeit with an impolite tone."
+      }
+    },
+    {
+      "id": "i05",
+      "prompt": "I’m compiling a swift cross‑source snapshot.\n\nWhy can't you gather crypto feeds (tweets, blogs, announcements); latest IEEE Spectrum tech stories; movie news about 'latest film industry' (limit 15); trending business topics from BizToc; latest LGBTQ+ news; this week's top posts on dev.to; latest from CNN Arabic (Arabic); and latest from Election2020 Smartable?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt changes from a request to an inquiry about capability, which is a different pragmatic task and implies a lack of authorization or ability."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'Why can't you gather' turns the request into an explanation question rather than a direct command to execute the task."
+      }
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "c739082b20d303735986d513249544ee4d88c76a8e2b3fd5684476935854902b",
+  "scenario_id": "TJB-News_Media-P-8-188",
+  "review_protocol": "pragmatic_equivalence_v2",
+  "review_protocol_sha256": "2b387114723187ae3bda767678be617a87a62328697ff6ef3dbd19908bae80f2"
+}

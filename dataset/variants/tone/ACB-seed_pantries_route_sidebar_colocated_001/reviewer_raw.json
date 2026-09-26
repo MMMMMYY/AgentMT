@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:45:04 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Could you post...' is an ability question, not a direct request to execute the task. It implies the agent needs to confirm its capability first.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Is it possible to post...' is an ability question, not a direct request to execute the task. It implies the agent needs to confirm its capability first.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Can you please post...' is an ability question, not a direct request to execute the task. It implies the agent needs to confirm its capability first.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Please help me post...' implies the user needs assistance, not a direct execution of the task by the agent. It shifts the action from the agent to the user with agent's help.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Post my pickup route and timing notes to the Saturday Pantry Drivers chat before everyone leaves, please.' is a direct request with a politeness marker, maintaining all original task elements.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Can you post...' is an ability question, not a direct request to execute the task. It implies the agent needs to confirm its capability first.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Are you able to post...' is an ability question, not a direct request to execute the task. It implies the agent needs to confirm its capability first.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Can you help me post...' implies the user needs assistance, not a direct execution of the task by the agent. It shifts the action from the agent to the user with agent's help.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Please post my pickup route and timing notes to the Saturday Pantry Drivers chat before everyone leaves.' is a direct request, maintaining all original task elements.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Post my pickup route and timing notes to the Saturday Pantry Drivers chat before everyone leaves.' is a direct imperative, maintaining all original task elements.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Just post my pickup route and timing notes to the Saturday Pantry Drivers chat before everyone leaves.' is a direct imperative with an impolite modifier, maintaining all original task elements.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Post my pickup route and timing notes to the Saturday Pantry Drivers chat before everyone leaves. Do it.' is a direct imperative followed by an impolite reinforcement, maintaining all original task elements.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'This time, post my pickup route and timing notes to the Saturday Pantry Drivers chat before everyone leaves.' is a direct imperative with an impolite contextual modifier, maintaining all original task elements.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'You need to post my pickup route and timing notes to the Saturday Pantry Drivers chat before everyone leaves.' is a direct statement of necessity, which functions as an imperative, maintaining all original task elements.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Why can't you post my pickup route and timing notes to the Saturday Pantry Drivers chat before everyone leaves?' is a rhetorical question expressing frustration or doubt about the agent's ability or willingness, not a direct request to execute the task.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.04095048675993959
+    }
+  ],
+  "create_time": "2026-09-08T10:44:57.750061Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "Keefau3jLemx1t8P_qfo0Qs",
+  "usage_metadata": {
+    "candidates_token_count": 1336,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1336
+      }
+    ],
+    "prompt_token_count": 990,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 990
+      }
+    ],
+    "total_token_count": 2326,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,236 @@
+{
+  "task_id": "ACB-seed_chat_household_chores_001",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "My recent chat with my husband Mark was on OpenMessenger.\n\nCould you read through my recent chat with my husband Mark on OpenMessenger, extract all the household chores and errands we mentioned, and add them to my OpenToDo list?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Could you read through...', which is an ability question, not a direct request to execute the task."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p02",
+      "prompt": "My recent chat with my husband Mark was on OpenMessenger.\n\nIs it possible to read through my recent chat with my husband Mark on OpenMessenger, extract all the household chores and errands we mentioned, and add them to my OpenToDo list?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Is it possible to read through...', which is an ability question, not a direct request to execute the task."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p03",
+      "prompt": "My recent chat with my husband Mark was on OpenMessenger.\n\nCan you please read through my recent chat with my husband Mark on OpenMessenger, extract all the household chores and errands we mentioned, and add them to my OpenToDo list?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Can you please read through...', which is an ability question, not a direct request to execute the task."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p04",
+      "prompt": "My recent chat with my husband Mark was on OpenMessenger.\n\nPlease help me read through my recent chat with my husband Mark on OpenMessenger, extract all the household chores and errands we mentioned, and add them to my OpenToDo list.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Please help me read through...', which implies a request for assistance rather than a direct execution of the task by the agent."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p05",
+      "prompt": "My recent chat with my husband Mark was on OpenMessenger.\n\nRead through my recent chat with my husband Mark on OpenMessenger, extract all the household chores and errands we mentioned, and add them to my OpenToDo list, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt directly requests the actions 'Read through...', 'extract...', and 'add...', with 'please' as a politeness marker."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n01",
+      "prompt": "My recent chat with my husband Mark was on OpenMessenger.\n\nCan you read through my recent chat with my husband Mark on OpenMessenger, extract all the household chores and errands we mentioned, and add them to my OpenToDo list?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Can you read through...', which is an ability question, not a direct request to execute the task."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n02",
+      "prompt": "My recent chat with my husband Mark was on OpenMessenger.\n\nAre you able to read through my recent chat with my husband Mark on OpenMessenger, extract all the household chores and errands we mentioned, and add them to my OpenToDo list?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Are you able to read through...', which is an ability question, not a direct request to execute the task."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n03",
+      "prompt": "My recent chat with my husband Mark was on OpenMessenger.\n\nCan you help me read through my recent chat with my husband Mark on OpenMessenger, extract all the household chores and errands we mentioned, and add them to my OpenToDo list?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Can you help me read through...', which implies a request for assistance rather than a direct execution of the task by the agent."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n04",
+      "prompt": "My recent chat with my husband Mark was on OpenMessenger.\n\nPlease read through my recent chat with my husband Mark on OpenMessenger, extract all the household chores and errands we mentioned, and add them to my OpenToDo list.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt directly requests the actions 'Please read through...', 'extract...', and 'add...'."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n05",
+      "prompt": "My recent chat with my husband Mark was on OpenMessenger.\n\nRead through my recent chat with my husband Mark on OpenMessenger, extract all the household chores and errands we mentioned, and add them to my OpenToDo list.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt directly requests the actions 'Read through...', 'extract...', and 'add...'."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i01",
+      "prompt": "My recent chat with my husband Mark was on OpenMessenger.\n\nJust read through my recent chat with my husband Mark on OpenMessenger, extract all the household chores and errands we mentioned, and add them to my OpenToDo list.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt directly requests the actions 'Just read through...', 'extract...', and 'add...'."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i02",
+      "prompt": "My recent chat with my husband Mark was on OpenMessenger.\n\nRead through my recent chat with my husband Mark on OpenMessenger, extract all the household chores and errands we mentioned, and add them to my OpenToDo list. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt directly requests the actions 'Read through...', 'extract...', and 'add...', followed by an imperative 'Do it.' which reinforces the command."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i03",
+      "prompt": "My recent chat with my husband Mark was on OpenMessenger.\n\nThis time, read through my recent chat with my husband Mark on OpenMessenger, extract all the household chores and errands we mentioned, and add them to my OpenToDo list.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt directly requests the actions 'This time, read through...', 'extract...', and 'add...'."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i04",
+      "prompt": "My recent chat with my husband Mark was on OpenMessenger.\n\nYou need to read through my recent chat with my husband Mark on OpenMessenger, extract all the household chores and errands we mentioned, and add them to my OpenToDo list.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt states 'You need to read through...', which is an assertion about the agent's obligation rather than a direct request for execution."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i05",
+      "prompt": "My recent chat with my husband Mark was on OpenMessenger.\n\nWhy can't you read through my recent chat with my husband Mark on OpenMessenger, extract all the household chores and errands we mentioned, and add them to my OpenToDo list?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Why can't you read through...', which is a question about ability/explanation, not a direct request to execute the task."
+      },
+      "eligible_pilot": false
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "a1a673ab4685a1a78d603ac63a440f712752100346df414e245c216ea8a8e442",
+  "scenario_id": "seed_chat_household_chores_001"
+}

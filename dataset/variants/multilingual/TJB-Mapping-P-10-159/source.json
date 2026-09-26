@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Mapping-P-10-159",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Mapping",
+  "taskType": "parallel tool orchestration",
+  "prompt": "I need to analyze emergency response capabilities for a fire department in Seattle Let’s handle a few things in parallel: add a quick map check; show a clear map; add a quick map check; add a quick map check; list places around 47.6008682,-122.3325581 within 5000m to sense foot traffic; list places nearby to sense foot traffic; add a quick map check; give me a quick read on the terrain; show a background tile for context; and add a quick map check.",
+  "scope": "",
+  "trajectoryType": "parallel",
+  "referenceSteps": 10,
+  "positiveOracle": "1. Geocode - Forward and Reverse: Forward geocode | required: address=301 2nd Ave S, Seattle, WA 98104\n2. MapFanAPI - Route: altcalcroute | required: start=47.6008682,-122.3325581, destination=47.6205099,-122.3492798 | optional: priority=0, saveresult=1\n3. TrueWay Directions: FindDrivingRoute | required: stops=47.6008682,-122.3325581;47.6607351,-122.3109603 | optional: avoid_highways=false, geometry_format=latlng\n4. boundaries-io: Query by Location for County boundaries | required: latitude=47.6008682, longitude=-122.3325581\n5. Places Nearby a Coordinates: Nearby | required: lat=47.6008682, lon=-122.3325581 | optional: categories=healthcare.hospital, radius=5000\n6. Places Nearby a Coordinates: Categories\n7. Reverse Geocoding and Geolocation Service: GetTimezone | required: latitude=47.6008682, longitude=-122.3325581\n8. MapToolkit: Elevation | required: points=[[47.6008682,-122.3325581],[47.6205099,-122.3492798],[47.6607351,-122.3109603]]\n9. Mapilion - Vector and Raster Map Tiles: Get Hillshading Tile | required: x=164, y=357, z=10, version=v2\n10. MapToolkit: Staticmaps | required: size=800x600, center=47.6008682,-122.3325581, zoom=13 | optional: maptype=toursprung-terrain, path=points:47.6008682,-122.3325581|47.6205099,-122.3492798|color:FF0000FF|width:4, marker=center:47.6008682,-122.3325581|icon:https://maps.google.com/mapfiles/ms/icons/red-dot.png",
+  "negativeOracle": "",
+  "referenceTrajectory": "Geocode - Forward and Reverse: Forward geocode ∥ MapFanAPI - Route: altcalcroute ∥ TrueWay Directions: FindDrivingRoute ∥ boundaries-io: Query by Location for County boundaries ∥ Places Nearby a Coordinates: Nearby ∥ Places Nearby a Coordinates: Categories ∥ Reverse Geocoding and Geolocation Service: GetTimezone ∥ MapToolkit: Elevation ∥ Mapilion - Vector and Raster Map Tiles: Get Hillshading Tile ∥ MapToolkit: Staticmaps",
+  "sourceLocator": "public_data/parallel/Mapping/simple_ver.json | item=159",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/parallel/Mapping/simple_ver.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 11 clean candidates in Mapping/parallel/10-tool stratum."
+}

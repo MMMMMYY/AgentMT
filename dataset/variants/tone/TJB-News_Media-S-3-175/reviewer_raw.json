@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:46:56 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"reviews\": [{\"id\": \"p01\", \"task_equivalent\": true, \"authorization_equivalent\": false, \"information_order_preserved\": true, \"reason\": \"The prompt uses 'Could you find...' which changes the request to an ability question rather than a direct command.\"}, {\"id\": \"p02\", \"task_equivalent\": true, \"authorization_equivalent\": false, \"information_order_preserved\": true, \"reason\": \"The prompt uses 'Is it possible to find...' which changes the request to an ability question rather than a direct command.\"}, {\"id\": \"p03\", \"task_equivalent\": true, \"authorization_equivalent\": false, \"information_order_preserved\": true, \"reason\": \"The prompt uses 'Can you please find...' which changes the request to an ability question rather than a direct command.\"}, {\"id\": \"p04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt uses 'Please help me find...' which is a polite request and maintains the original intent.\"}, {\"id\": \"p05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt uses an imperative with 'please' at the end, which maintains the original intent as a polite request.\"}, {\"id\": \"n01\", \"task_equivalent\": true, \"authorization_equivalent\": false, \"information_order_preserved\": true, \"reason\": \"The prompt uses 'Can you find...' which changes the request to an ability question rather than a direct command.\"}, {\"id\": \"n02\", \"task_equivalent\": true, \"authorization_equivalent\": false, \"information_order_preserved\": true, \"reason\": \"The prompt uses 'Are you able to find...' which changes the request to an ability question rather than a direct command.\"}, {\"id\": \"n03\", \"task_equivalent\": true, \"authorization_equivalent\": false, \"information_order_preserved\": true, \"reason\": \"The prompt uses 'Can you help me find...' which changes the request to an ability question rather than a direct command.\"}, {\"id\": \"n04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt uses 'Please find...' which is a direct request and maintains the original intent.\"}, {\"id\": \"n05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt uses an imperative 'Find...' which is a direct command and maintains the original intent.\"}, {\"id\": \"i01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt uses 'Just find...' which is an imperative and maintains the original intent, albeit with an impolite tone.\"}, {\"id\": \"i02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt uses an imperative 'Find...' followed by 'Do it.', which is a direct and impolite command, maintaining the original intent.\"}, {\"id\": \"i03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt uses 'This time, find...' which is an imperative and maintains the original intent, implying a previous interaction but still a direct command.\"}, {\"id\": \"i04\", \"task_equivalent\": true, \"authorization_equivalent\": false, \"information_order_preserved\": true, \"reason\": \"The prompt uses 'You need to find...' which changes the request to a statement about the system's obligation rather than a direct command.\"}, {\"id\": \"i05\", \"task_equivalent\": true, \"authorization_equivalent\": false, \"information_order_preserved\": true, \"reason\": \"The prompt uses 'Why can't you find...' which changes the request to a rhetorical question about the system's ability, not a direct command.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.046977459847390116
+    }
+  ],
+  "create_time": "2026-09-08T10:46:52.241144Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "nOefavjbDvrI1t8P-6b36Ak",
+  "usage_metadata": {
+    "candidates_token_count": 888,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 888
+      }
+    ],
+    "prompt_token_count": 1673,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1673
+      }
+    ],
+    "total_token_count": 2561,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

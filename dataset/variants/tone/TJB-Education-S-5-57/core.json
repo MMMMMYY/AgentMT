@@ -1,0 +1,4 @@
+{
+  "context": "I need to research the Indonesian education system for my comparative study. I'm particularly interested in finding the public school with the highest student enrollment from that list for my DEI research. I need to see the people associated with that school.",
+  "task": "first show me the number of schools in the Indonesian province with code '020000', then identify the district with the highest total number of schools from that province, after that show me the schools in sub-district '056010' within that district, and finally find English-language educational talks that are at least 5 minutes long that were recorded after January 1, 2017 to supplement my research"
+}

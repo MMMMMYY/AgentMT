@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:15:36 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"你能给我总结一下我过去一个月的健康数据吗？\"}, {\"language\": \"ru\", \"prompt\": \"Не могли бы вы предоставить мне сводку моих данных о здоровье за последний месяц?\"}, {\"language\": \"fr\", \"prompt\": \"Pouvez-vous me donner un résumé de mes données de santé du mois dernier ?\"}, {\"language\": \"es\", \"prompt\": \"¿Me puedes dar un resumen de mis datos de salud del mes pasado?\"}, {\"language\": \"ar\", \"prompt\": \"هل يمكنك أن تعطيني ملخصًا لبياناتي الصحية من الشهر الماضي؟\"}, {\"language\": \"de\", \"prompt\": \"Können Sie mir eine Zusammenfassung meiner Gesundheitsdaten vom letzten Monat geben?\"}, {\"language\": \"pt\", \"prompt\": \"Você pode me dar um resumo dos meus dados de saúde do mês passado?\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:15:35.167275Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "hyCnauuaCraSivYP0tT0wQY",
+  "usage_metadata": {
+    "candidates_token_count": 188,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 188
+      }
+    ],
+    "prompt_token_count": 310,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 310
+      }
+    ],
+    "total_token_count": 498,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

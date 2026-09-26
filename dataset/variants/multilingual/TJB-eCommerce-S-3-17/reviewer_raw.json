@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:38:04 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"language\": \"zh\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The translation accurately conveys all aspects of the original request, including the sequence of actions and specific conditions.\"\n    },\n    {\n      \"language\": \"ru\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The Russian translation maintains all the original instructions, conditions, and the order of operations.\"\n    },\n    {\n      \"language\": \"fr\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The French translation is a faithful rendition of the source, preserving all details and the sequential nature of the request.\"\n    },\n    {\n      \"language\": \"es\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The Spanish translation correctly translates all instructions, conditions, and the order of information from the source.\"\n    },\n    {\n      \"language\": \"ar\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The Arabic translation accurately reflects the source request in its entirety, including all specific details and the order of tasks.\"\n    },\n    {\n      \"language\": \"de\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The German translation is accurate and preserves all the nuances, conditions, and the sequence of the original request.\"\n    },\n    {\n      \"language\": \"pt\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The Portuguese translation is correct and maintains all the instructions, conditions, and the order of information as presented in the source.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.07205047011375428
+    }
+  ],
+  "create_time": "2026-09-13T22:38:00.204986Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "yCWnarrBDPa6ld8P5NXBoA0",
+  "usage_metadata": {
+    "candidates_token_count": 640,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 640
+      }
+    ],
+    "prompt_token_count": 1034,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1034
+      }
+    ],
+    "total_token_count": 1674,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

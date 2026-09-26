@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:43:26 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"I took a photo yesterday at the beach from my Cloud Drive.\",\n  \"task\": \"design a \\\"Beach Vibes\\\" Instagram post and share the photo on Instagram\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.01463289177694986
+    }
+  ],
+  "create_time": "2026-09-08T10:43:25.842262Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "zeafapa0M4_gqMgP_sywmAQ",
+  "usage_metadata": {
+    "candidates_token_count": 43,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 43
+      }
+    ],
+    "prompt_token_count": 217,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 217
+      }
+    ],
+    "total_token_count": 260,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

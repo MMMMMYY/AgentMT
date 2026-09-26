@@ -1,0 +1,4 @@
+{
+  "context": "",
+  "task": "pull together a quick music brief by searching Shazam term 'bad guy billie eilish', locale en-US, limit 5, offset 0, getting Shazam song details (key 40333609) locale en-US, getting Shazam song count (key 40333609), getting Billboard chart (Billboard Global 200) for 2020-09-19, getting Billboard Japan Hot 100 for 2019-05-11, range 1-20, getting Billboard chart (Billboard 200) for 2019-05-11, searching Spotify q 'billie eilish bad guy', type tracks, limit 10, getting Independent Albums for week 2019-05-11, and listing radio channels keyword 'billie eilish'"
+}

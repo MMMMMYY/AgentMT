@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:38 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"我的车库里一团糟。查看访问历史和安全摄像头，看看发生了什么。\"}, {\"language\": \"ru\", \"prompt\": \"В моем гараже беспорядок. Проверьте историю доступа и камеры видеонаблюдения, чтобы узнать, что произошло.\"}, {\"language\": \"fr\", \"prompt\": \"Il y a du désordre dans mon garage. Vérifiez l'historique d'accès et les caméras de sécurité pour voir ce qui s'est passé.\"}, {\"language\": \"es\", \"prompt\": \"Hay un desorden en mi garaje. Revisa el historial de acceso y las cámaras de seguridad para ver qué pasó.\"}, {\"language\": \"ar\", \"prompt\": \"هناك فوضى في مرآبي. تحقق من سجل الوصول وكاميرات المراقبة لمعرفة ما حدث.\"}, {\"language\": \"de\", \"prompt\": \"In meiner Garage herrscht ein Chaos. Überprüfen Sie die Zugriffshistorie und die Überwachungskameras, um zu sehen, was passiert ist.\"}, {\"language\": \"pt\", \"prompt\": \"Há uma bagunça na minha garagem. Verifique o histórico de acesso e as câmeras de segurança para ver o que aconteceu.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:16:36.444518Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "xCCnauaQG57f-O4P7-Cr0Q8",
+  "usage_metadata": {
+    "candidates_token_count": 265,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 265
+      }
+    ],
+    "prompt_token_count": 315,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 315
+      }
+    ],
+    "total_token_count": 580,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

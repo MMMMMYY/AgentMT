@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Mapping-S-3-197",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Mapping",
+  "taskType": "Find Route → Analyze Route Point → Visualize Point",
+  "prompt": "I need to plan a multi-stop driving route in Brooklyn starting near Bay Ridge. Can you map a driving route with these stops: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; and 40.627177,-73.980853? After that, I'd like to get information about the roads near the starting point of my route at coordinates 40.629103,-74.025801. Finally, can you search for an address called \"not found road\" in that area and show it on a map?",
+  "scope": "TrueWay Directions, MapFanAPI - Route, MapFanAPI - Search",
+  "trajectoryType": "sequential",
+  "referenceSteps": 3,
+  "positiveOracle": "1. TrueWay Directions: FindDrivingRoute | required: stops=40.629041,-74.025606;40.630099,-73.993521;40.644895,-74.013818;40.627177,-73.980853\n2. MapFanAPI - Route: nearroadinfo | required: lonlat=40.629103,-74.025801\n3. MapFanAPI - Search: addr | required: addr=not found road",
+  "negativeOracle": "",
+  "referenceTrajectory": "TrueWay Directions: FindDrivingRoute → MapFanAPI - Route: nearroadinfo → MapFanAPI - Search: addr",
+  "sourceLocator": "public_data/sequential/Mapping/traj_query.json | item=197",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/sequential/Mapping/traj_query.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 18 clean candidates in Mapping/sequential/3-tool stratum."
+}

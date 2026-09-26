@@ -1,0 +1,162 @@
+{
+  "task_id": "TJB-Education-S-3-7",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "I'm looking for education statistics in Indonesia. Can you show me the number of schools in province with ID '020000'? Then, I'd like to see the number of schools in the district with the highest total number of schools in that province, which should be district ID '020500'. Finally, list all the schools in sub-district '056010' within that district.",
+  "source_sha256": "446bb138ce0379c84d365c6f1454755921c12456d001f798b7cd5ef2b0ebdbd1",
+  "status": "reviewed",
+  "variants": [
+    {
+      "language": "zh",
+      "prompt": "我正在寻找印度尼西亚的教育统计数据。你能告诉我ID为“020000”的省份的学校数量吗？然后，我想看看该省学校总数最多的地区的学校数量，该地区的ID应该是“020500”。最后，列出该地区内ID为“056010”的街道的所有学校。",
+      "id": "lang_zh",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": false,
+      "review": {
+        "language": "zh",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": false,
+        "reason": "The translation uses '街道' (street/neighborhood) for 'sub-district', which is not the correct administrative division. It should be '街道' or '乡镇' depending on the context, but '街道' is not the best fit here."
+      }
+    },
+    {
+      "language": "ru",
+      "prompt": "Я ищу статистику образования в Индонезии. Можете ли вы показать мне количество школ в провинции с ID '020000'? Затем я хотел бы увидеть количество школ в районе с наибольшим общим количеством школ в этой провинции, который должен быть районом с ID '020500'. Наконец, перечислите все школы в подрайоне '056010' в этом районе.",
+      "id": "lang_ru",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ru",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request, including the specific IDs and the sequence of information."
+      }
+    },
+    {
+      "language": "fr",
+      "prompt": "Je recherche des statistiques sur l'éducation en Indonésie. Pouvez-vous me montrer le nombre d'écoles dans la province avec l'ID '020000'? Ensuite, j'aimerais voir le nombre d'écoles dans le district avec le plus grand nombre total d'écoles dans cette province, qui devrait être le district avec l'ID '020500'. Enfin, listez toutes les écoles du sous-district '056010' au sein de ce district.",
+      "id": "lang_fr",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "fr",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation is accurate and preserves all the details and the flow of the original request."
+      }
+    },
+    {
+      "language": "es",
+      "prompt": "Estoy buscando estadísticas de educación en Indonesia. ¿Puedes mostrarme el número de escuelas en la provincia con ID '020000'? Luego, me gustaría ver el número de escuelas en el distrito con el mayor número total de escuelas en esa provincia, que debería ser el distrito con ID '020500'. Finalmente, enumera todas las escuelas en el subdistrito '056010' dentro de ese distrito.",
+      "id": "lang_es",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "es",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation correctly captures all the conditions, IDs, and the sequence of actions requested."
+      }
+    },
+    {
+      "language": "ar",
+      "prompt": "أبحث عن إحصائيات التعليم في إندونيسيا. هل يمكنك أن تريني عدد المدارس في المقاطعة التي تحمل المعرف '020000'؟ ثم، أود أن أرى عدد المدارس في المنطقة التي بها أكبر عدد إجمالي من المدارس في تلك المقاطعة، والتي يجب أن تكون المنطقة التي تحمل المعرف '020500'. أخيرًا، اذكر جميع المدارس في المنطقة الفرعية '056010' داخل تلك المنطقة.",
+      "id": "lang_ar",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ar",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation is precise, maintaining all the specific details and the order of the requests."
+      }
+    },
+    {
+      "language": "de",
+      "prompt": "Ich suche Bildungsstatistiken in Indonesien. Können Sie mir die Anzahl der Schulen in der Provinz mit der ID '020000' zeigen? Dann möchte ich die Anzahl der Schulen im Bezirk mit der höchsten Gesamtzahl an Schulen in dieser Provinz sehen, der die Bezirks-ID '020500' haben sollte. Listen Sie schließlich alle Schulen im Unterbezirk '056010' innerhalb dieses Bezirks auf.",
+      "id": "lang_de",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "de",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation is accurate and maintains the original meaning, tone, and all specified conditions."
+      }
+    },
+    {
+      "language": "pt",
+      "prompt": "Estou procurando estatísticas de educação na Indonésia. Você pode me mostrar o número de escolas na província com ID '020000'? Em seguida, gostaria de ver o número de escolas no distrito com o maior número total de escolas nessa província, que deve ser o distrito com ID '020500'. Finalmente, liste todas as escolas no subdistrito '056010' dentro desse distrito.",
+      "id": "lang_pt",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "pt",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation is correct and preserves all the factual information, IDs, and the sequence of the request."
+      }
+    }
+  ],
+  "english_source": {
+    "language": "en",
+    "prompt": "I'm looking for education statistics in Indonesia. Can you show me the number of schools in province with ID '020000'? Then, I'd like to see the number of schools in the district with the highest total number of schools in that province, which should be district ID '020500'. Finally, list all the schools in sub-district '056010' within that district.",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation"
+}

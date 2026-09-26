@@ -1,0 +1,419 @@
+{
+  "task_id": "TJB-Mapping-P-10-159",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "I need to analyze emergency response capabilities for a fire department in Seattle.\n\nCould you add a quick map check; show a clear map; add a quick map check; add a quick map check; list places around 47.6008682,-122.3325581 within 5000m to sense foot traffic; list places nearby to sense foot traffic; add a quick map check; give me a quick read on the terrain; show a background tile for context; and add a quick map check?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Could you' transforms the direct request into a question about ability, which is not a direct request to execute the task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p02",
+      "prompt": "I need to analyze emergency response capabilities for a fire department in Seattle.\n\nIs it possible to add a quick map check; show a clear map; add a quick map check; add a quick map check; list places around 47.6008682,-122.3325581 within 5000m to sense foot traffic; list places nearby to sense foot traffic; add a quick map check; give me a quick read on the terrain; show a background tile for context; and add a quick map check?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Is it possible to' transforms the direct request into a question about possibility, which is not a direct request to execute the task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p03",
+      "prompt": "I need to analyze emergency response capabilities for a fire department in Seattle.\n\nCan you please add a quick map check; show a clear map; add a quick map check; add a quick map check; list places around 47.6008682,-122.3325581 within 5000m to sense foot traffic; list places nearby to sense foot traffic; add a quick map check; give me a quick read on the terrain; show a background tile for context; and add a quick map check?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Can you please' transforms the direct request into a question about ability, which is not a direct request to execute the task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p04",
+      "prompt": "I need to analyze emergency response capabilities for a fire department in Seattle.\n\nPlease help me add a quick map check; show a clear map; add a quick map check; add a quick map check; list places around 47.6008682,-122.3325581 within 5000m to sense foot traffic; list places nearby to sense foot traffic; add a quick map check; give me a quick read on the terrain; show a background tile for context; and add a quick map check.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Please help me' transforms the direct request into a request for assistance, which is not a direct request to execute the task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p05",
+      "prompt": "I need to analyze emergency response capabilities for a fire department in Seattle.\n\nAdd a quick map check; show a clear map; add a quick map check; add a quick map check; list places around 47.6008682,-122.3325581 within 5000m to sense foot traffic; list places nearby to sense foot traffic; add a quick map check; give me a quick read on the terrain; show a background tile for context; and add a quick map check, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Adding 'please' at the end maintains the imperative nature of the request."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n01",
+      "prompt": "I need to analyze emergency response capabilities for a fire department in Seattle.\n\nCan you add a quick map check; show a clear map; add a quick map check; add a quick map check; list places around 47.6008682,-122.3325581 within 5000m to sense foot traffic; list places nearby to sense foot traffic; add a quick map check; give me a quick read on the terrain; show a background tile for context; and add a quick map check?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Can you' transforms the direct request into a question about ability, which is not a direct request to execute the task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n02",
+      "prompt": "I need to analyze emergency response capabilities for a fire department in Seattle.\n\nAre you able to add a quick map check; show a clear map; add a quick map check; add a quick map check; list places around 47.6008682,-122.3325581 within 5000m to sense foot traffic; list places nearby to sense foot traffic; add a quick map check; give me a quick read on the terrain; show a background tile for context; and add a quick map check?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Are you able to' transforms the direct request into a question about ability, which is not a direct request to execute the task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n03",
+      "prompt": "I need to analyze emergency response capabilities for a fire department in Seattle.\n\nCan you help me add a quick map check; show a clear map; add a quick map check; add a quick map check; list places around 47.6008682,-122.3325581 within 5000m to sense foot traffic; list places nearby to sense foot traffic; add a quick map check; give me a quick read on the terrain; show a background tile for context; and add a quick map check?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Can you help me' transforms the direct request into a request for assistance, which is not a direct request to execute the task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n04",
+      "prompt": "I need to analyze emergency response capabilities for a fire department in Seattle.\n\nPlease add a quick map check; show a clear map; add a quick map check; add a quick map check; list places around 47.6008682,-122.3325581 within 5000m to sense foot traffic; list places nearby to sense foot traffic; add a quick map check; give me a quick read on the terrain; show a background tile for context; and add a quick map check.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Adding 'Please' at the beginning maintains the imperative nature of the request."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n05",
+      "prompt": "I need to analyze emergency response capabilities for a fire department in Seattle.\n\nAdd a quick map check; show a clear map; add a quick map check; add a quick map check; list places around 47.6008682,-122.3325581 within 5000m to sense foot traffic; list places nearby to sense foot traffic; add a quick map check; give me a quick read on the terrain; show a background tile for context; and add a quick map check.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request remains a direct imperative."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i01",
+      "prompt": "I need to analyze emergency response capabilities for a fire department in Seattle.\n\nJust add a quick map check; show a clear map; add a quick map check; add a quick map check; list places around 47.6008682,-122.3325581 within 5000m to sense foot traffic; list places nearby to sense foot traffic; add a quick map check; give me a quick read on the terrain; show a background tile for context; and add a quick map check.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The word 'Just' adds a nuance of impatience or simplicity but does not change the core request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Adding 'Just' before the imperative maintains the direct request."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i02",
+      "prompt": "I need to analyze emergency response capabilities for a fire department in Seattle.\n\nAdd a quick map check; show a clear map; add a quick map check; add a quick map check; list places around 47.6008682,-122.3325581 within 5000m to sense foot traffic; list places nearby to sense foot traffic; add a quick map check; give me a quick read on the terrain; show a background tile for context; and add a quick map check. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Do it' adds an imperative tone but does not change the core request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Adding 'Do it' at the end reinforces the imperative nature of the request."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i03",
+      "prompt": "I need to analyze emergency response capabilities for a fire department in Seattle.\n\nThis time, add a quick map check; show a clear map; add a quick map check; add a quick map check; list places around 47.6008682,-122.3325581 within 5000m to sense foot traffic; list places nearby to sense foot traffic; add a quick map check; give me a quick read on the terrain; show a background tile for context; and add a quick map check.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'This time' implies a previous attempt or expectation, but the task itself remains the same."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Adding 'This time' before the imperative maintains the direct request."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i04",
+      "prompt": "I need to analyze emergency response capabilities for a fire department in Seattle.\n\nYou need to add a quick map check; show a clear map; add a quick map check; add a quick map check; list places around 47.6008682,-122.3325581 within 5000m to sense foot traffic; list places nearby to sense foot traffic; add a quick map check; give me a quick read on the terrain; show a background tile for context; and add a quick map check.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'You need to' adds a demanding tone but does not change the core request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'You need to' implies a command or instruction rather than a direct request for execution by the system."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i05",
+      "prompt": "I need to analyze emergency response capabilities for a fire department in Seattle.\n\nWhy can't you add a quick map check; show a clear map; add a quick map check; add a quick map check; list places around 47.6008682,-122.3325581 within 5000m to sense foot traffic; list places nearby to sense foot traffic; add a quick map check; give me a quick read on the terrain; show a background tile for context; and add a quick map check?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Why can't you' shifts the task from a request for action to a request for explanation."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Why can't you' transforms the direct request into a question about inability, which is not a direct request to execute the task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "013f42a928f02d0300281752ff1c38727a78979c32db5cca5aaf4a61f241ad86",
+  "scenario_id": "TJB-Mapping-P-10-159",
+  "review_protocol": "pragmatic_equivalence_v2",
+  "review_protocol_sha256": "2b387114723187ae3bda767678be617a87a62328697ff6ef3dbd19908bae80f2",
+  "deterministic_literal_audit": "v1"
+}

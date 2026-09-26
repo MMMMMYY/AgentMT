@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:46:45 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains the original request for information finding, Spotify profile search, and playlist generation in the same order and with equivalent authorization.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks 'Is it possible to...' which questions the ability to perform the tasks rather than directly requesting their execution. This implies a previous conversation or a query about capability, not a direct command.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains the original request for information finding, Spotify profile search, and playlist generation in the same order and with equivalent authorization.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains the original request for information finding, Spotify profile search, and playlist generation in the same order and with equivalent authorization.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains the original request for information finding, Spotify profile search, and playlist generation in the same order and with equivalent authorization.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains the original request for information finding, Spotify profile search, and playlist generation in the same order and with equivalent authorization.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks 'Are you able to...' which questions the ability to perform the tasks rather than directly requesting their execution. This implies a previous conversation or a query about capability, not a direct command.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains the original request for information finding, Spotify profile search, and playlist generation in the same order and with equivalent authorization.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains the original request for information finding, Spotify profile search, and playlist generation in the same order and with equivalent authorization.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains the original request for information finding, Spotify profile search, and playlist generation in the same order and with equivalent authorization.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains the original request for information finding, Spotify profile search, and playlist generation in the same order and with equivalent authorization.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains the original request for information finding, Spotify profile search, and playlist generation in the same order and with equivalent authorization. 'Do it' reinforces the command.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains the original request for information finding, Spotify profile search, and playlist generation in the same order and with equivalent authorization. 'This time' implies a previous attempt or conversation, but the core request remains.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt states 'You need to...' which is an explanation of a requirement rather than a direct request to execute the tasks. It implies a pre-existing obligation or a statement of fact, not a command.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks 'Why can't you...' which is a question about the inability to perform the tasks, implying a previous conversation or a challenge to capability, rather than a direct request for execution.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-08T10:46:39.814661Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "j-efasXcMbWs1t8P2I-A2Aw",
+  "usage_metadata": {
+    "candidates_token_count": 1250,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1250
+      }
+    ],
+    "prompt_token_count": 1430,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1430
+      }
+    ],
+    "total_token_count": 2680,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:38:43 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"\",\n  \"task\": \"retrieve and summarize the latest financial report from Cloud Drive\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-08T10:38:40.648605Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "sOWfap3LJ9Ka89kPkdLvgQU",
+  "usage_metadata": {
+    "candidates_token_count": 26,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 26
+      }
+    ],
+    "prompt_token_count": 161,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 161
+      }
+    ],
+    "thoughts_token_count": 410,
+    "total_token_count": 597,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

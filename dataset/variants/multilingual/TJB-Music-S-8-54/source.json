@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Music-S-8-54",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Music",
+  "taskType": "Top Album Chart to Artist and Song Analysis",
+  "prompt": "I want to check what was trending on the Billboard 200 chart on May 20, 2023, and find the highest-ranked female artist album. Can you search for Taylor Swift Midnights on Spotify, but get me the original album release rather than any special editions? Then show me details about Taylor Swift as the artist. After that, I'd like to see the top 10 songs on this week's pop chart from Genius. Finally, search Shazam for the song \"HUNTR/X - Golden\" and tell me how popular it is by getting its play count and full song details.",
+  "scope": "Billboard, Spotify, Spotify Web, Spotify _v2, Genius - Song Lyrics, Shazam",
+  "trajectoryType": "sequential",
+  "referenceSteps": 8,
+  "positiveOracle": "1. Billboard: Billboard 200 | required: date=2023-05-20\n2. Spotify: Search | required: q=Taylor Swift Midnights, type=albums\n3. Spotify Web: Get albums | required: ids=151w1FgRZfnKZA9FEcg9Z3\n4. Spotify _v2: Artist Details (Single) | required: artist_id=06HL4z0CvFAxyc27GXpf02\n5. Genius - Song Lyrics: Chart: Songs | optional: chart_genre=pop, time_period=week, per_page=10, page=1\n6. Shazam: search | required: term=HUNTR/X - Golden | optional: locale=en-US, limit=5\n7. Shazam: songs/get-count | required: key=828086589\n8. Shazam: songs/get-details | required: key=828086589 | optional: locale=en-US",
+  "negativeOracle": "",
+  "referenceTrajectory": "Billboard: Billboard 200 → Spotify: Search → Spotify Web: Get albums → Spotify _v2: Artist Details (Single) → Genius - Song Lyrics: Chart: Songs → Shazam: search → Shazam: songs/get-count → Shazam: songs/get-details",
+  "sourceLocator": "public_data/sequential/Music/traj_query.json | item=54",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/sequential/Music/traj_query.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 8 clean candidates in Music/sequential/8-tool stratum."
+}

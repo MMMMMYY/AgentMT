@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:43:58 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks 'Could you create...', which is an ability question, not a direct command to execute. This changes the authorization from a direct request to an inquiry about capability.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks 'Is it possible to create...', which is an ability question, not a direct command to execute. This changes the authorization from a direct request to an inquiry about capability.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks 'Can you please create...', which is an ability question, not a direct command to execute. This changes the authorization from a direct request to an inquiry about capability.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Please help me create...' is a polite request that still conveys the intent for the action to be performed.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Create a calendar event... please.' is a polite request that still conveys the intent for the action to be performed.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks 'Can you create...', which is an ability question, not a direct command to execute. This changes the authorization from a direct request to an inquiry about capability.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks 'Are you able to create...', which is an ability question, not a direct command to execute. This changes the authorization from a direct request to an inquiry about capability.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Can you help me create...' is a neutral request that still conveys the intent for the action to be performed.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Please create...' is a direct request for the action to be performed.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Create a calendar event...' is a direct command for the action to be performed.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Just create a calendar event...' is a direct command for the action to be performed, with an impolite modifier.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Create a calendar event... Do it.' is a direct command for the action to be performed, with an impolite reinforcement.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'This time, create a calendar event...' is a direct command for the action to be performed, with an impolite implication of previous failure or reluctance.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'You need to create...' states a requirement rather than directly requesting or authorizing the action. It implies a previous conversation or a directive, changing the nature of the authorization.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Why can't you create...' is a rhetorical question about ability, not a direct command to execute. This changes the authorization from a direct request to an inquiry about capability, with an impolite tone.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.04889503818774513
+    }
+  ],
+  "create_time": "2026-09-08T10:43:52.701648Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "6OafatDpKurK1t8PrbWGuAw",
+  "usage_metadata": {
+    "candidates_token_count": 1235,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1235
+      }
+    ],
+    "prompt_token_count": 974,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 974
+      }
+    ],
+    "total_token_count": 2209,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

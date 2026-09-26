@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:46:08 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"I'm preparing for the upcoming Rocket League tournament in Europe this weekend.\",\n  \"task\": \"run these in parallel: check Rocket League tournaments in europe; check Rocket League player population; pull Hall of Fame games for 2022 from OpenCritic; check what free games are on Epic Games Store in UK; card; list Lost Ark classes; and find the best current deals for 'batman' (up to 10 results)\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.011012548267251194
+    }
+  ],
+  "create_time": "2026-09-08T10:46:08.034253Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "cOefas2LAtfGqMgPu_izuAQ",
+  "usage_metadata": {
+    "candidates_token_count": 101,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 101
+      }
+    ],
+    "prompt_token_count": 280,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 280
+      }
+    ],
+    "total_token_count": 381,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

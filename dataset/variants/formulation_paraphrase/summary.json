@@ -1,0 +1,47 @@
+{
+  "model": "gpt-4o-2024-11-20",
+  "temperature": 0,
+  "paraphrase_source_tasks": 73,
+  "tasks_with_surface_valid_candidate": 57,
+  "tasks_without_surface_valid_candidate": 16,
+  "by_dataset": {
+    "AgentCIBench": {
+      "tasks": 28,
+      "surface_valid": 25
+    },
+    "AI Agent Permissions": {
+      "tasks": 33,
+      "surface_valid": 29
+    },
+    "TRAJECT-Bench": {
+      "tasks": 12,
+      "surface_valid": 3
+    }
+  },
+  "failed_task_ids": [
+    "ACB-seed_kitchen_client_cart_001",
+    "ACB-seed_mom_dinner_calendar_001",
+    "ACB-seed_wrong_thread_reply_001",
+    "AIP-004",
+    "AIP-029",
+    "AIP-037",
+    "AIP-038",
+    "TJB-Finance-P-7-65",
+    "TJB-Gaming-P-7-62",
+    "TJB-Gaming-P-9-35",
+    "TJB-Mapping-P-10-159",
+    "TJB-Mapping-P-7-103",
+    "TJB-Music-S-8-54",
+    "TJB-News_Media-S-3-175",
+    "TJB-Travel-S-3-5",
+    "TJB-eCommerce-S-10-180"
+  ],
+  "full_formulation_coverage_including_43_reorderings": 100,
+  "total_source_tasks": 116,
+  "api_calls": 92,
+  "billed_input_tokens": 31104,
+  "billed_output_tokens": 16536,
+  "semantic_review_complete": false,
+  "authorization_review_complete": false,
+  "note": "Surface guards are conservative and are not a semantic-equivalence oracle."
+}

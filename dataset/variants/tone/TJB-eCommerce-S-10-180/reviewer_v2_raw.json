@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:54:34 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"reviews\": [{\"id\": \"p01\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": false, \"reason\": \"The original task includes requests for financing options for assembly service and comparing iPhones, which are omitted in the variant. The order of operations for the Wayfair dresser is also changed, and the Zappos product ID is moved to the end.\"}, {\"id\": \"p02\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": false, \"reason\": \"The original task includes requests for financing options for assembly service and comparing iPhones, which are omitted in the variant. The order of operations for the Wayfair dresser is also changed, and the Zappos product ID is moved to the end.\"}, {\"id\": \"p03\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": false, \"reason\": \"The original task includes requests for financing options for assembly service and comparing iPhones, which are omitted in the variant. The order of operations for the Wayfair dresser is also changed, and the Zappos product ID is moved to the end.\"}, {\"id\": \"p04\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": false, \"reason\": \"The original task includes requests for financing options for assembly service and comparing iPhones, which are omitted in the variant. The order of operations for the Wayfair dresser is also changed, and the Zappos product ID is moved to the end.\"}, {\"id\": \"p05\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": false, \"reason\": \"The original task includes requests for financing options for assembly service and comparing iPhones, which are omitted in the variant. The order of operations for the Wayfair dresser is also changed, and the Zappos product ID is moved to the end.\"}, {\"id\": \"n01\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": false, \"reason\": \"The original task includes requests for financing options for assembly service and comparing iPhones, which are omitted in the variant. The order of operations for the Wayfair dresser is also changed, and the Zappos product ID is moved to the end.\"}, {\"id\": \"n02\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": false, \"reason\": \"The original task includes requests for financing options for assembly service and comparing iPhones, which are omitted in the variant. The order of operations for the Wayfair dresser is also changed, and the Zappos product ID is moved to the end.\"}, {\"id\": \"n03\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": false, \"reason\": \"The original task includes requests for financing options for assembly service and comparing iPhones, which are omitted in the variant. The order of operations for the Wayfair dresser is also changed, and the Zappos product ID is moved to the end.\"}, {\"id\": \"n04\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": false, \"reason\": \"The original task includes requests for financing options for assembly service and comparing iPhones, which are omitted in the variant. The order of operations for the Wayfair dresser is also changed, and the Zappos product ID is moved to the end.\"}, {\"id\": \"n05\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": false, \"reason\": \"The original task includes requests for financing options for assembly service and comparing iPhones, which are omitted in the variant. The order of operations for the Wayfair dresser is also changed, and the Zappos product ID is moved to the end.\"}, {\"id\": \"i01\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": false, \"reason\": \"The original task includes requests for financing options for assembly service and comparing iPhones, which are omitted in the variant. The order of operations for the Wayfair dresser is also changed, and the Zappos product ID is moved to the end.\"}, {\"id\": \"i02\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": false, \"reason\": \"The original task includes requests for financing options for assembly service and comparing iPhones, which are omitted in the variant. The order of operations for the Wayfair dresser is also changed, and the Zappos product ID is moved to the end.\"}, {\"id\": \"i03\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": false, \"reason\": \"This time. The original task includes requests for financing options for assembly service and comparing iPhones, which are omitted in the variant. The order of operations for the Wayfair dresser is also changed, and the Zappos product ID is moved to the end.\"}, {\"id\": \"i04\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": false, \"reason\": \"The original task includes requests for financing options for assembly service and comparing iPhones, which are omitted in the variant. The order of operations for the Wayfair dresser is also changed, and the Zappos product ID is moved to the end.\"}, {\"id\": \"i05\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": false, \"reason\": \"Why cannot. The original task includes requests for financing options for assembly service and comparing iPhones, which are omitted in the variant. The order of operations for the Wayfair dresser is also changed, and the Zappos product ID is moved to the end.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.01869354855966758
+    }
+  ],
+  "create_time": "2026-09-08T10:54:27.396794Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "Y-mfavqbGN6w1t8PuYfk0A0",
+  "usage_metadata": {
+    "candidates_token_count": 1255,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1255
+      }
+    ],
+    "prompt_token_count": 3061,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 3061
+      }
+    ],
+    "total_token_count": 4316,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

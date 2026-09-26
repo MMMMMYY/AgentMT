@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Finance-S-3-19",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Finance",
+  "taskType": "Find Active Stocks → Get News → Analyze News Sentiment",
+  "prompt": "I'm interested in market trends. Could you show me the most actively traded stocks starting from the 15th position in the list? After that, I'd like to see the latest news specifically for Warner Bros. Discovery, and then analyze the sentiment of that news for WBD to understand market perception.",
+  "scope": "Mboum Finance, Stock Sentiment API",
+  "trajectoryType": "sequential",
+  "referenceSteps": 3,
+  "positiveOracle": "1. Mboum Finance: market/most_actives | optional: start=15\n2. Mboum Finance: market/news/{stock} | required: symbol=WBD\n3. Stock Sentiment API: News Sentiment Data | required: ticker=WBD",
+  "negativeOracle": "",
+  "referenceTrajectory": "Mboum Finance: market/most_actives → Mboum Finance: market/news/{stock} → Stock Sentiment API: News Sentiment Data",
+  "sourceLocator": "public_data/sequential/Finance/traj_query.json | item=19",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/sequential/Finance/traj_query.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 5 clean candidates in Finance/sequential/3-tool stratum."
+}

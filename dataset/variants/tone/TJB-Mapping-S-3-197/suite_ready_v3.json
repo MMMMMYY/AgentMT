@@ -1,0 +1,419 @@
+{
+  "task_id": "TJB-Mapping-S-3-197",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "I need to plan a multi-stop driving route in Brooklyn starting near Bay Ridge.\n\nCould you map a driving route with these stops: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; and 40.627177,-73.980853, then get information about the roads near the starting point of my route at coordinates 40.629103,-74.025801, and finally search for an address called \"not found road\" in that area and show it on a map?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the original three requests into a single, continuous request using 'then' and 'finally', but the tasks and their logical order remain the same."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, and permissions. The 'Could you' phrasing is a polite request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p02",
+      "prompt": "I need to plan a multi-stop driving route in Brooklyn starting near Bay Ridge.\n\nIs it possible to map a driving route with these stops: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; and 40.627177,-73.980853, then get information about the roads near the starting point of my route at coordinates 40.629103,-74.025801, and finally search for an address called \"not found road\" in that area and show it on a map?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the original three requests into a single, continuous request using 'then' and 'finally', but the tasks and their logical order remain the same."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt changes the request to an ability question ('Is it possible to map...'), which is not a direct request to execute the task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p03",
+      "prompt": "I need to plan a multi-stop driving route in Brooklyn starting near Bay Ridge.\n\nCan you please map a driving route with these stops: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; and 40.627177,-73.980853, then get information about the roads near the starting point of my route at coordinates 40.629103,-74.025801, and finally search for an address called \"not found road\" in that area and show it on a map?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the original three requests into a single, continuous request using 'then' and 'finally', but the tasks and their logical order remain the same."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, and permissions. The 'Can you please' phrasing is a polite request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p04",
+      "prompt": "I need to plan a multi-stop driving route in Brooklyn starting near Bay Ridge.\n\nPlease help me map a driving route with these stops: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; and 40.627177,-73.980853, then get information about the roads near the starting point of my route at coordinates 40.629103,-74.025801, and finally search for an address called \"not found road\" in that area and show it on a map.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the original three requests into a single, continuous request using 'then' and 'finally', but the tasks and their logical order remain the same."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, and permissions. The 'Please help me map' phrasing is a polite request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p05",
+      "prompt": "I need to plan a multi-stop driving route in Brooklyn starting near Bay Ridge.\n\nMap a driving route with these stops: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; and 40.627177,-73.980853, then get information about the roads near the starting point of my route at coordinates 40.629103,-74.025801, and finally search for an address called \"not found road\" in that area and show it on a map, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the original three requests into a single, continuous request using 'then' and 'finally', but the tasks and their logical order remain the same."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, and permissions. The imperative 'Map' followed by 'please' is a polite request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n01",
+      "prompt": "I need to plan a multi-stop driving route in Brooklyn starting near Bay Ridge.\n\nCan you map a driving route with these stops: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; and 40.627177,-73.980853, then get information about the roads near the starting point of my route at coordinates 40.629103,-74.025801, and finally search for an address called \"not found road\" in that area and show it on a map?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the original three requests into a single, continuous request using 'then' and 'finally', but the tasks and their logical order remain the same."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, and permissions. The 'Can you' phrasing is a neutral request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n02",
+      "prompt": "I need to plan a multi-stop driving route in Brooklyn starting near Bay Ridge.\n\nAre you able to map a driving route with these stops: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; and 40.627177,-73.980853, then get information about the roads near the starting point of my route at coordinates 40.629103,-74.025801, and finally search for an address called \"not found road\" in that area and show it on a map?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the original three requests into a single, continuous request using 'then' and 'finally', but the tasks and their logical order remain the same."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt changes the request to an ability question ('Are you able to map...'), which is not a direct request to execute the task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n03",
+      "prompt": "I need to plan a multi-stop driving route in Brooklyn starting near Bay Ridge.\n\nCan you help me map a driving route with these stops: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; and 40.627177,-73.980853, then get information about the roads near the starting point of my route at coordinates 40.629103,-74.025801, and finally search for an address called \"not found road\" in that area and show it on a map?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the original three requests into a single, continuous request using 'then' and 'finally', but the tasks and their logical order remain the same."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, and permissions. The 'Can you help me map' phrasing is a neutral request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n04",
+      "prompt": "I need to plan a multi-stop driving route in Brooklyn starting near Bay Ridge.\n\nPlease map a driving route with these stops: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; and 40.627177,-73.980853, then get information about the roads near the starting point of my route at coordinates 40.629103,-74.025801, and finally search for an address called \"not found road\" in that area and show it on a map.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the original three requests into a single, continuous request using 'then' and 'finally', but the tasks and their logical order remain the same."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, and permissions. The 'Please map' phrasing is a neutral request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n05",
+      "prompt": "I need to plan a multi-stop driving route in Brooklyn starting near Bay Ridge.\n\nMap a driving route with these stops: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; and 40.627177,-73.980853, then get information about the roads near the starting point of my route at coordinates 40.629103,-74.025801, and finally search for an address called \"not found road\" in that area and show it on a map.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the original three requests into a single, continuous request using 'then' and 'finally', but the tasks and their logical order remain the same."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, and permissions. The imperative 'Map' is a neutral request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i01",
+      "prompt": "I need to plan a multi-stop driving route in Brooklyn starting near Bay Ridge.\n\nJust map a driving route with these stops: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; and 40.627177,-73.980853, then get information about the roads near the starting point of my route at coordinates 40.629103,-74.025801, and finally search for an address called \"not found road\" in that area and show it on a map.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The word 'Just' adds a nuance of limiting the request to only these actions, but the core tasks and their order are preserved."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, and permissions. The 'Just map' phrasing is an impolite request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i02",
+      "prompt": "I need to plan a multi-stop driving route in Brooklyn starting near Bay Ridge.\n\nMap a driving route with these stops: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; and 40.627177,-73.980853, then get information about the roads near the starting point of my route at coordinates 40.629103,-74.025801, and finally search for an address called \"not found road\" in that area and show it on a map. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The word 'Do it' adds an imperative tone but does not change the tasks or their order."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, and permissions. The imperative 'Map' followed by 'Do it' is an impolite request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i03",
+      "prompt": "I need to plan a multi-stop driving route in Brooklyn starting near Bay Ridge.\n\nThis time, map a driving route with these stops: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; and 40.627177,-73.980853, then get information about the roads near the starting point of my route at coordinates 40.629103,-74.025801, and finally search for an address called \"not found road\" in that area and show it on a map.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'This time' implies a previous attempt or failure, which adds context not present in the original prompt."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, and permissions. The 'This time, map' phrasing is an impolite request to execute, implying a previous interaction."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i04",
+      "prompt": "I need to plan a multi-stop driving route in Brooklyn starting near Bay Ridge.\n\nYou need to map a driving route with these stops: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; and 40.627177,-73.980853, then get information about the roads near the starting point of my route at coordinates 40.629103,-74.025801, and finally search for an address called \"not found road\" in that area and show it on a map.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'You need to' adds a stronger imperative tone but does not change the tasks or their order."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original actions, facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, and permissions. The 'You need to map' phrasing is an impolite request to execute."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i05",
+      "prompt": "I need to plan a multi-stop driving route in Brooklyn starting near Bay Ridge.\n\nWhy can't you map a driving route with these stops: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; and 40.627177,-73.980853, then get information about the roads near the starting point of my route at coordinates 40.629103,-74.025801, and finally search for an address called \"not found road\" in that area and show it on a map?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Why can't you' changes the request from an action to an explanation for inability, which is a different pragmatic task."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt changes the request to a challenge or explanation question ('Why can't you map...'), which is not a direct request to execute the task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "b47b92defd4890baccb7aeffda658c767672d8ca23529c645b1009352fc65f24",
+  "scenario_id": "TJB-Mapping-S-3-197",
+  "review_protocol": "pragmatic_equivalence_v2",
+  "review_protocol_sha256": "2b387114723187ae3bda767678be617a87a62328697ff6ef3dbd19908bae80f2",
+  "deterministic_literal_audit": "v1"
+}

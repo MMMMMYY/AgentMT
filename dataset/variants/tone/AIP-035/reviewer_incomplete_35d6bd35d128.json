@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:41:43 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The polite phrasing 'Could you advise' is a direct request for the task, maintaining the original intent.\"\n     pulsed\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrasing 'Is it possible to advise' questions the AI's capability rather than directly requesting the advice, making it less of a direct task execution request.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The polite phrasing 'Can you please advise' is a direct request for the task, maintaining the original intent.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'help me advise me' is grammatically incorrect and changes the core task from seeking advice to seeking help in self-advising.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The direct imperative 'Advise me' with 'please' directly requests the task, maintaining the original intent.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrasing 'Can you advise' is a direct request for the task, maintaining the original intent.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrasing 'Are you able to advise' questions the AI's capability rather than directly requesting the advice, making it less of a direct task execution request.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Can you help me advise me' is grammatically incorrect and changes the core task from seeking advice to seeking help in self-advising.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The direct imperative 'Please advise me' directly requests the task, maintaining the original intent.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The direct imperative 'Advise me' directly requests the task, maintaining the original intent.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The direct imperative 'Just advise me' directly requests the task, maintaining the original intent.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The direct imperative 'Advise me' followed by 'Do it' directly requests the task, maintaining the original intent.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'This time' implies a previous interaction or failure, which is not present in the original source, altering the context of the request.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'You need to advise me' frames the task as an obligation for the AI, rather than a direct request for assistance, altering the nature of the authorization.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "MAX_TOKENS"
+    }
+  ],
+  "create_time": "2026-09-08T10:41:16.819960Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "TOafaviFMpymlb4P56O2sAo",
+  "usage_metadata": {
+    "candidates_token_count": 1104,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1104
+      }
+    ],
+    "prompt_token_count": 1065,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1065
+      }
+    ],
+    "thoughts_token_count": 2977,
+    "total_token_count": 5146,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

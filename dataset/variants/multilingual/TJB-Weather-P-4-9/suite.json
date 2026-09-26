@@ -1,0 +1,164 @@
+{
+  "task_id": "TJB-Weather-P-4-9",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "Keeping it brief: To compare a few angles, please collect: daily forecast; any active weather alerts; air quality history; and astronomy for 47.8021,-121.8364?",
+  "source_sha256": "e41650fac06ea82292b480bc8ee918d409bb2bfe9f2c35fe28a024baa3eb3b2a",
+  "status": "reviewed",
+  "variants": [
+    {
+      "language": "zh",
+      "prompt": "保持简洁：为了比较几个角度，请收集：每日预报；任何活跃的天气警报；空气质量历史记录；以及47.8021,-121.8364的天文信息？",
+      "id": "lang_zh",
+      "literal_check": {
+        "passed": false,
+        "missing_strings": [],
+        "missing_numeric_tokens": [
+          "47.8021"
+        ],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": false,
+      "review": {
+        "language": "zh",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all elements of the request, including the brevity, the comparison purpose, the items to collect, and the coordinates."
+      }
+    },
+    {
+      "language": "ru",
+      "prompt": "Кратко: Чтобы сравнить несколько аспектов, пожалуйста, соберите: ежедневный прогноз; любые активные погодные предупреждения; историю качества воздуха; и астрономию для 47.8021,-121.8364?",
+      "id": "lang_ru",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ru",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation correctly captures all aspects of the source request, maintaining the tone and information order."
+      }
+    },
+    {
+      "language": "fr",
+      "prompt": "Pour faire court : Pour comparer quelques angles, veuillez collecter : les prévisions quotidiennes ; toutes les alertes météo actives ; l'historique de la qualité de l'air ; et l'astronomie pour 47.8021,-121.8364 ?",
+      "id": "lang_fr",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "fr",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The French translation is accurate and preserves all the original request's conditions and information."
+      }
+    },
+    {
+      "language": "es",
+      "prompt": "Para ser breve: Para comparar algunos ángulos, por favor recoja: pronóstico diario; cualquier alerta meteorológica activa; historial de calidad del aire; y astronomía para 47.8021,-121.8364?",
+      "id": "lang_es",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "es",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The Spanish translation is a faithful rendition of the source, preserving all details and the polite request."
+      }
+    },
+    {
+      "language": "ar",
+      "prompt": "لإيجاز الأمر: لمقارنة بعض الزوايا، يرجى جمع: التوقعات اليومية؛ أي تنبيهات طقس نشطة؛ سجل جودة الهواء؛ وعلم الفلك لـ 47.8021,-121.8364؟",
+      "id": "lang_ar",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ar",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The Arabic translation accurately reflects the source request, including the brevity, items to collect, and coordinates."
+      }
+    },
+    {
+      "language": "de",
+      "prompt": "Kurz gesagt: Um einige Aspekte zu vergleichen, sammeln Sie bitte: tägliche Vorhersage; alle aktiven Wetterwarnungen; Luftqualitätsverlauf; und Astronomie für 47.8021,-121.8364?",
+      "id": "lang_de",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "de",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The German translation is correct and maintains all the conditions and information from the original request."
+      }
+    },
+    {
+      "language": "pt",
+      "prompt": "Para ser breve: Para comparar alguns ângulos, por favor, colete: previsão diária; quaisquer alertas meteorológicos ativos; histórico da qualidade do ar; e astronomia para 47.8021,-121.8364?",
+      "id": "lang_pt",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "pt",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The Portuguese translation is accurate, preserving the tone, task, and all specific data points from the source."
+      }
+    }
+  ],
+  "english_source": {
+    "language": "en",
+    "prompt": "Keeping it brief: To compare a few angles, please collect: daily forecast; any active weather alerts; air quality history; and astronomy for 47.8021,-121.8364?",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation"
+}

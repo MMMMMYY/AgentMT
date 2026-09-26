@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:18:12 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"language\": \"zh\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": false,\n      \"reason\": \"The translation uses '街道' (street/neighborhood) for 'sub-district', which is not the correct administrative division. It should be '街道' or '乡镇' depending on the context, but '街道' is not the best fit here.\"\n    },\n    {\n      \"language\": \"ru\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The translation accurately conveys all aspects of the original request, including the specific IDs and the sequence of information.\"\n    },\n    {\n      \"language\": \"fr\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The translation is accurate and preserves all the details and the flow of the original request.\"\n    },\n    {\n      \"language\": \"es\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The translation correctly captures all the conditions, IDs, and the sequence of actions requested.\"\n    },\n    {\n      \"language\": \"ar\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The translation is precise, maintaining all the specific details and the order of the requests.\"\n    },\n    {\n      \"language\": \"de\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The translation is accurate and maintains the original meaning, tone, and all specified conditions.\"\n    },\n    {\n      \"language\": \"pt\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The translation is correct and preserves all the factual information, IDs, and the sequence of the request.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.10432664359488138
+    }
+  ],
+  "create_time": "2026-09-13T22:18:09.055627Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "ISGnasuyA5r6lb4P9_C8-AI",
+  "usage_metadata": {
+    "candidates_token_count": 656,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 656
+      }
+    ],
+    "prompt_token_count": 1051,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1051
+      }
+    ],
+    "total_token_count": 1707,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

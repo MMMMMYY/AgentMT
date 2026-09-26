@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:47:11 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"All tasks and information are preserved. The phrasing 'Could you suggest...' is a polite request to execute.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"All tasks and information are preserved. However, 'Is it possible to suggest...' questions the ability to perform the task rather than requesting its execution.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"All tasks and information are preserved. The phrasing 'Can you please suggest...' is a polite request to execute.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"All tasks and information are preserved. The phrasing 'Please help me suggest...' is a polite request to execute.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"All tasks and information are preserved. The phrasing 'Suggest..., please' is a polite request to execute.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"All tasks and information are preserved. The phrasing 'Can you suggest...' is a neutral request to execute.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"All tasks and information are preserved. However, 'Are you able to suggest...' questions the ability to perform the task rather than requesting its execution.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"All tasks and information are preserved. The phrasing 'Can you help me suggest...' is a neutral request to execute.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"All tasks and information are preserved. The phrasing 'Please suggest...' is a neutral request to execute.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"All tasks and information are preserved. The phrasing 'Suggest...' is a neutral imperative request to execute.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"All tasks and information are preserved. 'Just suggest...' is an impolite imperative request to execute.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"All tasks and information are preserved. 'Suggest... Do it.' is an impolite imperative request to execute.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"All tasks and information are preserved. 'This time, suggest...' implies a previous conversation or failed attempt, but still functions as an impolite imperative request to execute.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"All tasks and information are preserved. 'You need to suggest...' is an impolite directive to execute.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"All tasks and information are preserved. However, 'Why can't you suggest...' questions the ability to perform the task rather than requesting its execution, and implies a previous conversation.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-08T10:47:06.736739Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "quefauP7LLSwlb4P-s-a-QQ",
+  "usage_metadata": {
+    "candidates_token_count": 1137,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1137
+      }
+    ],
+    "prompt_token_count": 2851,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 2851
+      }
+    ],
+    "total_token_count": 3988,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

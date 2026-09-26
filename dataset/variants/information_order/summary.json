@@ -1,0 +1,13 @@
+{
+  "method": "lossless field-order permutation",
+  "source_tasks": 116,
+  "task_families": 116,
+  "variants": 232,
+  "metamorphic_pairs": 116,
+  "coverage": 1.0,
+  "source_prompt_verbatim_in_every_variant": true,
+  "generative_model_used": false,
+  "independent_human_validation_required_for_text_preservation": false,
+  "agent_experiments_run": false,
+  "scope_note": "Tests field/instruction position, not intra-sentence constituent order."
+}

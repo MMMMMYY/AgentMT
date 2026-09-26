@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:39:38 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"a one-time payment of $1,200 to my landlord next Monday, to be labeled \\\"Rent Payment\\\" and include my address for reference\",\n  \"task\": \"schedule a one-time payment of $1,200 to my landlord next Monday, label it \\\"Rent Payment\\\", and include my address for reference\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -4.0725557351414166
+    }
+  ],
+  "create_time": "2026-09-08T10:39:26.390551Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "3uWfapfrF-WbkNAPl4-JuQ0",
+  "usage_metadata": {
+    "candidates_token_count": 79,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 79
+      }
+    ],
+    "prompt_token_count": 181,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 181
+      }
+    ],
+    "thoughts_token_count": 1963,
+    "total_token_count": 2223,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

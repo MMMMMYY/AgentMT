@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:47:03 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request maintains all original actions and their sequence, only adding polite phrasing.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrasing 'Is it possible to show me' turns the direct request into a question about capability, which is not a direct command to execute the task.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrasing 'Can you please show me' turns the direct request into a question about capability, which is not a direct command to execute the task.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrasing 'Please help me show me' implies the user needs assistance in performing the action themselves, rather than requesting the system to perform it directly.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request maintains all original actions and their sequence, only adding polite phrasing at the end.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrasing 'Can you show me' turns the direct request into a question about capability, which is not a direct command to execute the task.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrasing 'Are you able to show me' turns the direct request into a question about capability, which is not a direct command to execute the task.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrasing 'Can you help me show me' implies the user needs assistance in performing the action themselves, rather than requesting the system to perform it directly.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request maintains all original actions and their sequence, only adding polite phrasing.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request maintains all original actions and their sequence, with no significant changes to the imperative nature.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request maintains all original actions and their sequence, with 'Just' adding an impolite tone but not changing the imperative.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request maintains all original actions and their sequence, with 'Do it' reinforcing the imperative.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request maintains all original actions and their sequence, with 'This time' implying a previous interaction but not changing the current task.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrasing 'You need to show me' is a statement of necessity or obligation, not a direct command for the system to execute the task.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrasing 'Why can't you show me' is a rhetorical question expressing frustration or doubt about capability, not a direct command to execute the task.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.044467530036055095
+    }
+  ],
+  "create_time": "2026-09-08T10:46:57.494274Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "oeefasKVHqyAlb4P9ouQsAQ",
+  "usage_metadata": {
+    "candidates_token_count": 1156,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1156
+      }
+    ],
+    "prompt_token_count": 2752,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 2752
+      }
+    ],
+    "total_token_count": 3908,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,55 @@
+{
+  "inputs": {
+    "source": "Send Jane the six busy times from my calendar today.",
+    "variants": [
+      {
+        "id": "positive",
+        "prompt": "Could you please send Jane the six busy times from my calendar today?"
+      },
+      {
+        "id": "recipient_change",
+        "prompt": "Send David the six busy times from my calendar today."
+      },
+      {
+        "id": "scope_change",
+        "prompt": "Send Jane all event titles and the six busy times from my calendar today."
+      },
+      {
+        "id": "date_change",
+        "prompt": "Send Jane the six busy times from my calendar tomorrow."
+      }
+    ]
+  },
+  "reviews": {
+    "positive": {
+      "id": "positive",
+      "task_equivalent": true,
+      "authorization_equivalent": true,
+      "information_order_preserved": true,
+      "reason": "Conventional request phrasing, no change to task."
+    },
+    "recipient_change": {
+      "id": "recipient_change",
+      "task_equivalent": false,
+      "authorization_equivalent": true,
+      "information_order_preserved": true,
+      "reason": "Recipient changed from Jane to David."
+    },
+    "scope_change": {
+      "id": "scope_change",
+      "task_equivalent": false,
+      "authorization_equivalent": true,
+      "information_order_preserved": true,
+      "reason": "Additional information requested (all event titles)."
+    },
+    "date_change": {
+      "id": "date_change",
+      "task_equivalent": false,
+      "authorization_equivalent": true,
+      "information_order_preserved": true,
+      "reason": "Date changed from today to tomorrow."
+    }
+  },
+  "passed": true,
+  "scope": "Four sanity checks, not a measured accuracy estimate"
+}

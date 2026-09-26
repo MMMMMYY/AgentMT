@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-eCommerce-S-10-180",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "eCommerce",
+  "taskType": "Product Vetting → Info, Images, Reviews, Services & Financing → Competitor Deep Dive",
+  "prompt": "I'm looking at a Wayfair dresser with SKU W003078383 and want to see all available product information and images. After checking the reviews for this product, I'd like to know about its warranty options and any home services Wayfair offers for it. I'm also interested in financing options for professional assembly service W010630670. Then, I want to compare this with similar iPhones at BestBuy, specifically looking for the highest-rated iPhone model (MQ623LL/A) on Amazon Germany. Finally, search for this same model on Zappos and show me detailed information about product 9098084.",
+  "scope": "Wayfair, BestBuy Product Data, Amazon Pricing and Product Info, Zappos Realtime Data",
+  "trajectoryType": "sequential",
+  "referenceSteps": 10,
+  "positiveOracle": "1. Wayfair: products/get-common-info | required: sku=W003078383\n2. Wayfair: products/get-images | required: sku=W003078383\n3. Wayfair: reviews/list | required: sku=171296105 | optional: page=1, sort_order=RELEVANCE\n4. Wayfair: products/get-warranty-services | required: sku=W003078383\n5. Wayfair: products/get-home-services | required: sku=W003078383\n6. Wayfair: products/get-financing-offers | required: sku=W010630670, Professional Assembly\n7. BestBuy Product Data: BestBuyProductData | required: keyword=iphone, page=1\n8. Amazon Pricing and Product Info: Main Endpoint | required: asin=MQ623LL/A, domain=de\n9. Zappos Realtime Data: Zappos search product | required: keyword=MQ623LL/A | optional: sort=relevance, page=1\n10. Zappos Realtime Data: Zappos product detail by Product ID | required: product_id=9098084",
+  "negativeOracle": "",
+  "referenceTrajectory": "Wayfair: products/get-common-info → Wayfair: products/get-images → Wayfair: reviews/list → Wayfair: products/get-warranty-services → Wayfair: products/get-home-services → Wayfair: products/get-financing-offers → BestBuy Product Data: BestBuyProductData → Amazon Pricing and Product Info: Main Endpoint → Zappos Realtime Data: Zappos search product → Zappos Realtime Data: Zappos product detail by Product ID",
+  "sourceLocator": "public_data/sequential/eCommerce/traj_query.json | item=180",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/sequential/eCommerce/traj_query.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 7 clean candidates in eCommerce/sequential/10-tool stratum."
+}

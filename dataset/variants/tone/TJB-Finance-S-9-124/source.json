@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Finance-S-9-124",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Finance",
+  "taskType": "Mutual Fund Holding Deep Dive to Options Strategy",
+  "prompt": "I'm looking to analyze top-performing mutual funds for my portfolio. Can you first show me a list of Fidelity fund families, then get me a list of Vanguard mutual funds? I'd like to examine the composition of VFIAX since it has the highest performance rating for a large blend fund. After that, I want to do a deep dive on NVIDIA, which I believe is a significant technology holding in the fund but not in the top 3 positions. Please provide NVIDIA's company profile, recent earnings data, and relevant market news. Also, search for news specifically about \"Nvidia earnings\" since that seems to be getting a lot of attention. Can you check NVIDIA's upcoming calendar events, and finally show me options data for NVIDIA around their August 2025 earnings date (timestamp 1756324800)?",
+  "scope": "Twelve Data, Yahoo Finance_v2, Mboum Finance, Webull",
+  "trajectoryType": "sequential",
+  "referenceSteps": 9,
+  "positiveOracle": "1. Twelve Data: MFs Family List | optional: fund_family=Fidelity\n2. Twelve Data: MFs List | optional: apikey=demo, fund_family=Vanguard\n3. Twelve Data: Composition | required: symbol=VFIAX\n4. Yahoo Finance_v2: stock/profile | required: symbol=NVDA\n5. Yahoo Finance_v2: stock/earnings | required: symbol=NVDA\n6. Mboum Finance: market/news/{stock} | required: symbol=NVDA\n7. Webull: news/search | required: keyword=Nvidia earnings\n8. Mboum Finance: stock/calendar-events/{stock} | required: symbol=NVDA\n9. Yahoo Finance_v2: options | required: symbol=NVDA,1756324800 | optional: expiration=1756324800",
+  "negativeOracle": "",
+  "referenceTrajectory": "Twelve Data: MFs Family List → Twelve Data: MFs List → Twelve Data: Composition → Yahoo Finance_v2: stock/profile → Yahoo Finance_v2: stock/earnings → Mboum Finance: market/news/{stock} → Webull: news/search → Mboum Finance: stock/calendar-events/{stock} → Yahoo Finance_v2: options",
+  "sourceLocator": "public_data/sequential/Finance/traj_query.json | item=124",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/sequential/Finance/traj_query.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 1 clean candidates in Finance/sequential/9-tool stratum."
+}

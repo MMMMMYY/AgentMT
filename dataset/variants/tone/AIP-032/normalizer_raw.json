@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:40:05 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"context\": \"\", \"task\": \"order 2 boxes of green tea for me from Amazon\"}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -7.850150299072266
+    }
+  ],
+  "create_time": "2026-09-08T10:40:01.188538Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "AeafavrAC-jKvdMPzJf58As",
+  "usage_metadata": {
+    "candidates_token_count": 20,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 20
+      }
+    ],
+    "prompt_token_count": 161,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 161
+      }
+    ],
+    "thoughts_token_count": 777,
+    "total_token_count": 958,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

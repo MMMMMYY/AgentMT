@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:37:58 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"I want to lose weight.\",\n  \"task\": \"create an at-home full-body workout plan for me\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.4040919752681957
+    }
+  ],
+  "create_time": "2026-09-08T10:37:57.009708Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "heWfauxLsc3byw_X6eyICQ",
+  "usage_metadata": {
+    "candidates_token_count": 34,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 34
+      }
+    ],
+    "prompt_token_count": 169,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 169
+      }
+    ],
+    "thoughts_token_count": 137,
+    "total_token_count": 340,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

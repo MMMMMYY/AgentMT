@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:47:06 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"I'm planning a trip to Tokyo.\",\n  \"task\": \"suggest Tokyo as a destination, show me all available cities and hotels, search for all hotel locations in Tokyo, provide details on hotel ID 700008849 with all information including photos, reviews, promotions, videos, and nearby attractions, find hotels near the coordinates of the Downright Austin Renaissance Hotel (30.27077675, -97.73418427) in Tokyo at longitude 139.69171, and create a detailed 3-day itinerary for Tokyo, Japan\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.02302176919248369
+    }
+  ],
+  "create_time": "2026-09-08T10:47:05.391642Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "qeefatrzF-jii-8P4tOdmAI",
+  "usage_metadata": {
+    "candidates_token_count": 144,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 144
+      }
+    ],
+    "prompt_token_count": 348,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 348
+      }
+    ],
+    "total_token_count": 492,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

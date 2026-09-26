@@ -1,0 +1,236 @@
+{
+  "task_id": "TJB-Education-S-3-7",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "I'm looking for education statistics in Indonesia.\n\nCould you show me the number of schools in province with ID '020000', then show me the number of schools in the district with the highest total number of schools in that province, which should be district ID '020500', and finally list all the schools in sub-district '056010' within that district?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p02",
+      "prompt": "I'm looking for education statistics in Indonesia.\n\nIs it possible to show me the number of schools in province with ID '020000', then show me the number of schools in the district with the highest total number of schools in that province, which should be district ID '020500', and finally list all the schools in sub-district '056010' within that district?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Is it possible to show me...', which is an ability question, not a direct request to execute the task."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p03",
+      "prompt": "I'm looking for education statistics in Indonesia.\n\nCan you please show me the number of schools in province with ID '020000', then show me the number of schools in the district with the highest total number of schools in that province, which should be district ID '020500', and finally list all the schools in sub-district '056010' within that district?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p04",
+      "prompt": "I'm looking for education statistics in Indonesia.\n\nPlease help me show me the number of schools in province with ID '020000', then show me the number of schools in the district with the highest total number of schools in that province, which should be district ID '020500', and finally list all the schools in sub-district '056010' within that district.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p05",
+      "prompt": "I'm looking for education statistics in Indonesia.\n\nShow me the number of schools in province with ID '020000', then show me the number of schools in the district with the highest total number of schools in that province, which should be district ID '020500', and finally list all the schools in sub-district '056010' within that district, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n01",
+      "prompt": "I'm looking for education statistics in Indonesia.\n\nCan you show me the number of schools in province with ID '020000', then show me the number of schools in the district with the highest total number of schools in that province, which should be district ID '020500', and finally list all the schools in sub-district '056010' within that district?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n02",
+      "prompt": "I'm looking for education statistics in Indonesia.\n\nAre you able to show me the number of schools in province with ID '020000', then show me the number of schools in the district with the highest total number of schools in that province, which should be district ID '020500', and finally list all the schools in sub-district '056010' within that district?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Are you able to show me...', which is an ability question, not a direct request to execute the task."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n03",
+      "prompt": "I'm looking for education statistics in Indonesia.\n\nCan you help me show me the number of schools in province with ID '020000', then show me the number of schools in the district with the highest total number of schools in that province, which should be district ID '020500', and finally list all the schools in sub-district '056010' within that district?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n04",
+      "prompt": "I'm looking for education statistics in Indonesia.\n\nPlease show me the number of schools in province with ID '020000', then show me the number of schools in the district with the highest total number of schools in that province, which should be district ID '020500', and finally list all the schools in sub-district '056010' within that district.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n05",
+      "prompt": "I'm looking for education statistics in Indonesia.\n\nShow me the number of schools in province with ID '020000', then show me the number of schools in the district with the highest total number of schools in that province, which should be district ID '020500', and finally list all the schools in sub-district '056010' within that district.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i01",
+      "prompt": "I'm looking for education statistics in Indonesia.\n\nJust show me the number of schools in province with ID '020000', then show me the number of schools in the district with the highest total number of schools in that province, which should be district ID '020500', and finally list all the schools in sub-district '056010' within that district.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order, with 'Just' adding an impolite tone but not changing the core request."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i02",
+      "prompt": "I'm looking for education statistics in Indonesia.\n\nShow me the number of schools in province with ID '020000', then show me the number of schools in the district with the highest total number of schools in that province, which should be district ID '020500', and finally list all the schools in sub-district '056010' within that district. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order, with 'Do it.' adding an impolite tone but not changing the core request."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i03",
+      "prompt": "I'm looking for education statistics in Indonesia.\n\nThis time, show me the number of schools in province with ID '020000', then show me the number of schools in the district with the highest total number of schools in that province, which should be district ID '020500', and finally list all the schools in sub-district '056010' within that district.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order, with 'This time' implying a previous conversation but not changing the core request."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i04",
+      "prompt": "I'm looking for education statistics in Indonesia.\n\nYou need to show me the number of schools in province with ID '020000', then show me the number of schools in the district with the highest total number of schools in that province, which should be district ID '020500', and finally list all the schools in sub-district '056010' within that district.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order, with 'You need to' adding an impolite tone but not changing the core request."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i05",
+      "prompt": "I'm looking for education statistics in Indonesia.\n\nWhy can't you show me the number of schools in province with ID '020000', then show me the number of schools in the district with the highest total number of schools in that province, which should be district ID '020500', and finally list all the schools in sub-district '056010' within that district?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Why can't you show me...', which is an explanation question, not a direct request to execute the task."
+      },
+      "eligible_pilot": false
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "446bb138ce0379c84d365c6f1454755921c12456d001f798b7cd5ef2b0ebdbd1",
+  "scenario_id": "TJB-Education-S-3-7"
+}

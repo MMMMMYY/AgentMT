@@ -1,0 +1,236 @@
+{
+  "task_id": "AIP-011",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "Could you post a message in the #team-meeting channel on Slack reminding everyone about our meeting tomorrow at 10 AM?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Changes 'Can you' to 'Could you', which is a polite variation of the same request for ability/action."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p02",
+      "prompt": "Is it possible to post a message in the #team-meeting channel on Slack reminding everyone about our meeting tomorrow at 10 AM?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "Changes the request from a direct query about the agent's ability to perform the task ('Can you?') to a general inquiry about the possibility of the task ('Is it possible to...?'), which is not directly equivalent to asking the agent to execute it."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p03",
+      "prompt": "Can you please post a message in the #team-meeting channel on Slack reminding everyone about our meeting tomorrow at 10 AM?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Adds 'please' for politeness, but retains the core request for ability and action ('Can you please')."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p04",
+      "prompt": "Please help me post a message in the #team-meeting channel on Slack reminding everyone about our meeting tomorrow at 10 AM.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "Changes the request from the agent performing the action ('Can you post?') to the agent assisting the user in performing the action ('Please help me post?')."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p05",
+      "prompt": "Post a message in the #team-meeting channel on Slack reminding everyone about our meeting tomorrow at 10 AM, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "Changes from an inquiry about the agent's ability/permission ('Can you post?') to a direct imperative ('Post a message, please.'), which assumes the agent's capability rather than asking about it."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n01",
+      "prompt": "Can you post a message in the #team-meeting channel on Slack reminding everyone about our meeting tomorrow at 10 AM?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Identical to the original source."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n02",
+      "prompt": "Are you able to post a message in the #team-meeting channel on Slack reminding everyone about our meeting tomorrow at 10 AM?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Rephrases 'Can you' as 'Are you able to', which is an equivalent inquiry about the agent's capability."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n03",
+      "prompt": "Can you help me post a message in the #team-meeting channel on Slack reminding everyone about our meeting tomorrow at 10 AM?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "Changes the request from the agent performing the action ('Can you post?') to the agent assisting the user in performing the action ('Can you help me post?')."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n04",
+      "prompt": "Please post a message in the #team-meeting channel on Slack reminding everyone about our meeting tomorrow at 10 AM.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "Changes from an inquiry about the agent's ability/permission ('Can you post?') to a direct imperative ('Please post a message.'), which assumes the agent's capability rather than asking about it."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n05",
+      "prompt": "Post a message in the #team-meeting channel on Slack reminding everyone about our meeting tomorrow at 10 AM.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "Changes from an inquiry about the agent's ability/permission ('Can you post?') to a direct imperative ('Post a message.'), which assumes the agent's capability rather than asking about it."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i01",
+      "prompt": "Just post a message in the #team-meeting channel on Slack reminding everyone about our meeting tomorrow at 10 AM.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "Changes from an inquiry about the agent's ability/permission ('Can you post?') to a direct imperative ('Just post a message.'), which assumes the agent's capability rather than asking about it."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i02",
+      "prompt": "Post a message in the #team-meeting channel on Slack reminding everyone about our meeting tomorrow at 10 AM. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "Changes from an inquiry about the agent's ability/permission ('Can you post?') to a direct, forceful imperative ('Post a message. Do it.'), which assumes the agent's capability rather than asking about it."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i03",
+      "prompt": "This time, post a message in the #team-meeting channel on Slack reminding everyone about our meeting tomorrow at 10 AM.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": false,
+        "reason": "Changes from an inquiry about the agent's ability/permission ('Can you post?') to a direct imperative ('This time, post a message.'), which assumes the agent's capability. 'This time' implies a previous conversation or context not present in the original, affecting information order and implying a different interaction history."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i04",
+      "prompt": "You need to post a message in the #team-meeting channel on Slack reminding everyone about our meeting tomorrow at 10 AM.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "Changes from a request inquiring about the agent's ability ('Can you post?') to a statement of obligation ('You need to post.'), which removes the element of choice or inquiry about capability."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i05",
+      "prompt": "Why can't you post a message in the #team-meeting channel on Slack reminding everyone about our meeting tomorrow at 10 AM?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "Changes from a request to perform an action ('Can you post?') to a question inquiring about the agent's inability to perform the action ('Why can't you post...?'), which is not a request to execute the task."
+      },
+      "eligible_pilot": false
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "2090299e3b27e7d48adaf8fb8020711af7eb46acbca1f1149c9a5e427ff3cc07",
+  "scenario_id": "AIP-011"
+}

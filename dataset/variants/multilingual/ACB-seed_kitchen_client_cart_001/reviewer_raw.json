@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:33 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"language\": \"zh\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The translation accurately conveys the request to send items from the cart for Daniel's kitchen refresh without extra explanation.\"\n    },\n    {\n      \"language\": \"ru\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The Russian translation correctly captures all elements of the original request, including the recipient, items, purpose, and constraint.\"\n    },\n    {\n      \"language\": \"fr\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The French translation is a faithful rendition of the source, maintaining all conditions and the direct tone.\"\n    },\n    {\n      \"language\": \"es\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The Spanish translation accurately translates the request, including the specific items, recipient, purpose, and the 'no extra explanation' constraint.\"\n    },\n    {\n      \"language\": \"ar\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The Arabic translation correctly conveys the action, recipient, items, purpose, and the negative constraint without any loss of meaning.\"\n    },\n    {\n      \"language\": \"de\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The German translation is accurate and preserves all aspects of the original request, including the directness and all conditions.\"\n    },\n    {\n      \"language\": \"pt\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The Portuguese translation correctly translates the request, maintaining the recipient, items, purpose, and the 'no extra explanation' condition.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:17:30.545480Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "-iCnasilIZuJr8kPitOZoQk",
+  "usage_metadata": {
+    "candidates_token_count": 656,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 656
+      }
+    ],
+    "prompt_token_count": 472,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 472
+      }
+    ],
+    "total_token_count": 1128,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

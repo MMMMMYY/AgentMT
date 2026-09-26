@@ -1,0 +1,236 @@
+{
+  "task_id": "AIP-019",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nCould you find the contract document and attach it to the event in my calendar?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is phrased as a polite question, but still clearly asks for the same actions and information as the source."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p02",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nIs it possible to find the contract document and attach it to the event in my calendar?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is phrased as a polite question about possibility, but still clearly asks for the same actions and information as the source."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p03",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nCan you please find the contract document and attach it to the event in my calendar?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is phrased as a polite question, but still clearly asks for the same actions and information as the source."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p04",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nPlease help me find the contract document and attach it to the event in my calendar.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request uses 'please help me' which is a polite way to ask for the same actions and information as the source."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p05",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nFind the contract document and attach it to the event in my calendar, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request uses 'please' at the end, maintaining the same actions and information as the source."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n01",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nCan you find the contract document and attach it to the event in my calendar?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is phrased as a neutral question, but still clearly asks for the same actions and information as the source."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n02",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nAre you able to find the contract document and attach it to the event in my calendar?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is phrased as a neutral question about ability, but still clearly asks for the same actions and information as the source."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n03",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nCan you help me find the contract document and attach it to the event in my calendar?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request uses 'Can you help me' which is a neutral way to ask for the same actions and information as the source."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n04",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nPlease find the contract document and attach it to the event in my calendar.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request uses 'Please' at the beginning, maintaining the same actions and information as the source."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n05",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nFind the contract document and attach it to the event in my calendar.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is a direct imperative, identical in task to the source."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i01",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nJust find the contract document and attach it to the event in my calendar.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request uses 'Just' before the imperative, which is impolite but still clearly asks for the same actions and information as the source."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i02",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nFind the contract document and attach it to the event in my calendar. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request includes 'Do it' after the imperative, which is impolite but still clearly asks for the same actions and information as the source."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i03",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nThis time, find the contract document and attach it to the event in my calendar.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request uses 'This time' which implies a previous conversation or failure, making it impolite but still clearly asks for the same actions and information as the source."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i04",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nYou need to find the contract document and attach it to the event in my calendar.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request uses 'You need to' which is an impolite way to state the same actions and information as the source."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i05",
+      "prompt": "The contract document is for my upcoming client meeting.\n\nWhy can't you find the contract document and attach it to the event in my calendar?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "This is a rhetorical question asking 'Why can't you...', which is an explanation question rather than a direct request to execute the task. It does not directly ask for the actions to be performed."
+      },
+      "eligible_pilot": false
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "ab0a034c2dfb817074c8707c4207f4d3f64acc82776279c3a3ab515e9dbb75ff",
+  "scenario_id": "AIP-019"
+}

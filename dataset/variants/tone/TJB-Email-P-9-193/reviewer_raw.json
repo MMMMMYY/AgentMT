@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:46:00 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the imperative 'execute' into a question 'Could you execute', which changes the request from a direct command to an inquiry about ability. This makes it an ability question rather than a direct request to execute.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the imperative 'execute' into a question 'Is it possible to execute', which changes the request from a direct command to an inquiry about possibility. This makes it an ability question rather than a direct request to execute.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the imperative 'execute' into a question 'Can you please execute', which changes the request from a direct command to an inquiry about ability. This makes it an ability question rather than a direct request to execute.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Please help me execute', which is a polite way of requesting the execution of the tasks, maintaining the core request.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt retains the imperative 'Execute' and adds 'please' at the end, which maintains the direct request while adding politeness.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the imperative 'execute' into a question 'Can you execute', which changes the request from a direct command to an inquiry about ability. This makes it an ability question rather than a direct request to execute.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the imperative 'execute' into a question 'Are you able to execute', which changes the request from a direct command to an inquiry about ability. This makes it an ability question rather than a direct request to execute.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the imperative 'execute' into a question 'Can you help me execute', which changes the request from a direct command to an inquiry about ability. This makes it an ability question rather than a direct request to execute.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Please execute', which is a direct request to execute the tasks.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt retains the imperative 'Execute', which is a direct request to execute the tasks.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Just execute', which is an imperative and a direct request to execute the tasks, albeit with an impolite tone.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt retains the imperative 'Execute' followed by 'Do it', which reinforces the direct request to execute the tasks.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'This time, execute', which is an imperative and a direct request to execute the tasks. The 'This time' implies a previous conversation or expectation, but the core request remains.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'You need to execute', which is a direct and forceful instruction to execute the tasks.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the imperative 'execute' into a question 'Why can't you execute', which changes the request from a direct command to an inquiry about inability, implying a previous conversation or expectation of failure. This makes it an explanation question rather than a direct request to execute.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.042578638639298234
+    }
+  ],
+  "create_time": "2026-09-08T10:45:54.466854Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "Yuefaqa_HOOt1t8Psp6ZqQE",
+  "usage_metadata": {
+    "candidates_token_count": 1319,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1319
+      }
+    ],
+    "prompt_token_count": 2884,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 2884
+      }
+    ],
+    "total_token_count": 4203,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

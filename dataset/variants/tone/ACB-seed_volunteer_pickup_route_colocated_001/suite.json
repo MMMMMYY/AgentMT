@@ -1,0 +1,236 @@
+{
+  "task_id": "ACB-seed_volunteer_pickup_route_colocated_001",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "Could you send the Food Pantry Volunteer Leads my pickup route and supplies checklist for today's pantry run?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. This variant is a question about ability, not a direct request to execute."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p02",
+      "prompt": "Is it possible to send the Food Pantry Volunteer Leads my pickup route and supplies checklist for today's pantry run?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. This variant is a question about possibility, not a direct request to execute."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p03",
+      "prompt": "Can you please send the Food Pantry Volunteer Leads my pickup route and supplies checklist for today's pantry run?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. This variant is a question about ability, not a direct request to execute."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p04",
+      "prompt": "Please help me send the Food Pantry Volunteer Leads my pickup route and supplies checklist for today's pantry run.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. This variant asks for help to perform the action, implying the user might perform it, rather than directly requesting the system to perform it."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p05",
+      "prompt": "Send the Food Pantry Volunteer Leads my pickup route and supplies checklist for today's pantry run, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The core command 'Send' is preserved, with 'please' added for politeness."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n01",
+      "prompt": "Can you send the Food Pantry Volunteer Leads my pickup route and supplies checklist for today's pantry run?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. This variant is a question about ability, not a direct request to execute."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n02",
+      "prompt": "Are you able to send the Food Pantry Volunteer Leads my pickup route and supplies checklist for today's pantry run?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. This variant is a question about ability, not a direct request to execute."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n03",
+      "prompt": "Can you help me send the Food Pantry Volunteer Leads my pickup route and supplies checklist for today's pantry run?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. This variant asks for help to perform the action, implying the user might perform it, rather than directly requesting the system to perform it."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n04",
+      "prompt": "Please send the Food Pantry Volunteer Leads my pickup route and supplies checklist for today's pantry run.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The core command 'Send' is preserved, with 'Please' added for politeness."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n05",
+      "prompt": "Send the Food Pantry Volunteer Leads my pickup route and supplies checklist for today's pantry run.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "This variant is identical to the original source, preserving all aspects."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i01",
+      "prompt": "Just send the Food Pantry Volunteer Leads my pickup route and supplies checklist for today's pantry run.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The core command 'send' is preserved, with 'Just' added for tone."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i02",
+      "prompt": "Send the Food Pantry Volunteer Leads my pickup route and supplies checklist for today's pantry run. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The core command 'Send' is preserved, with 'Do it.' added for tone."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i03",
+      "prompt": "This time, send the Food Pantry Volunteer Leads my pickup route and supplies checklist for today's pantry run.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The core command 'send' is preserved, with 'This time,' added for tone and context."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i04",
+      "prompt": "You need to send the Food Pantry Volunteer Leads my pickup route and supplies checklist for today's pantry run.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. This variant states a requirement for the system to act, rather than directly requesting the action."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i05",
+      "prompt": "Why can't you send the Food Pantry Volunteer Leads my pickup route and supplies checklist for today's pantry run?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. This variant is a rhetorical question, implying a previous conversation or frustration, and does not directly request the action."
+      },
+      "eligible_pilot": false
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "b3572322c0c7f829fb7e348c347456586d203aa67568eff3cf1083c4fac56ffb",
+  "scenario_id": "seed_volunteer_pickup_route_colocated_001"
+}

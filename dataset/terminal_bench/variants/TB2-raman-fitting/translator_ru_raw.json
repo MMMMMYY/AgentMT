@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:32:00 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"ru\", \"prompt\": \"Вам дан выходной файл установки комбинационного рассеяния. Мы использовали его для измерения образца графена.\\nПодогнать пики G и 2D спектра и вернуть x0, гамму, амплитуду и смещение пиков и записать их в файл с именем ⟦0⟧.\\n\\nФайл должен иметь следующий формат:\\n{\\n  ⟦1⟧: {\\n    ⟦2⟧: <⟦3⟧>,\\n    ⟦4⟧: <⟦5⟧>,\\n    ⟦6⟧: <⟦7⟧>,\\n    ⟦8⟧: <⟦9⟧>\\n  },\\n  ⟦10⟧: {\\n    ⟦11⟧: <⟦12⟧>,\\n    ⟦13⟧: <⟦14⟧>,\\n    ⟦15⟧: <⟦16⟧>,\\n    ⟦17⟧: <⟦18⟧>\\n  }\\n}\\n\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-23T08:31:59.234391Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "f46zapenDr66lb4Pmo2joQ4",
+  "usage_metadata": {
+    "candidates_token_count": 221,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 221
+      }
+    ],
+    "prompt_token_count": 301,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 301
+      }
+    ],
+    "total_token_count": 522,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

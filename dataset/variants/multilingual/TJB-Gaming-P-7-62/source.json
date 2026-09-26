@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Gaming-P-7-62",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Gaming",
+  "taskType": "parallel tool orchestration",
+  "prompt": "I'm preparing for the upcoming Rocket League tournament in Europe this weekend Let's run these in parallel: check Rocket League tournaments in europe; check Rocket League player population; pull Hall of Fame games for 2022 from OpenCritic; check what free games are on Epic Games Store in UK; card; list Lost Ark classes; and find the best current deals for 'batman' (up to 10 results).",
+  "scope": "",
+  "trajectoryType": "parallel",
+  "referenceSteps": 7,
+  "positiveOracle": "1. Rocket League: Tournaments | required: region=europe\n2. Rocket League: Population\n3. OpenCritic API: /game/hall-of-fame/{year} | required: year=2022\n4. Epic Games Store - Free Games: Free Games | optional: country=UK\n5. Card Draw Simulator: Card | optional: suit=all, value=all\n6. Lost Ark: get classes\n7. CheapShark - Game Deals: List of Games | optional: title=batman, exact=0, limit=10",
+  "negativeOracle": "",
+  "referenceTrajectory": "Rocket League: Tournaments ∥ Rocket League: Population ∥ OpenCritic API: /game/hall-of-fame/{year} ∥ Epic Games Store - Free Games: Free Games ∥ Card Draw Simulator: Card ∥ Lost Ark: get classes ∥ CheapShark - Game Deals: List of Games",
+  "sourceLocator": "public_data/parallel/Gaming/simple_ver.json | item=62",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/parallel/Gaming/simple_ver.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 18 clean candidates in Gaming/parallel/7-tool stratum."
+}

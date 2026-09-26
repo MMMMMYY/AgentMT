@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:15:56 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"下周一安排向我的房东支付一次性款项1,200美元。请将其标记为“Rent Payment”并附上我的地址以供参考。\"},{\"language\":\"ru\",\"prompt\":\"Запланируйте единовременный платеж в размере 1200 долларов моему арендодателю в следующий понедельник. Пожалуйста, пометьте его как \\\"Rent Payment\\\" и укажите мой адрес для справки.\"},{\"language\":\"fr\",\"prompt\":\"Planifiez un paiement unique de 1 200 $ à mon propriétaire lundi prochain. Veuillez l'étiqueter \\\"Rent Payment\\\" et inclure mon adresse pour référence.\"},{\"language\":\"es\",\"prompt\":\"Programa un pago único de $1,200 a mi arrendador el próximo lunes. Por favor, etiquétalo como \\\"Rent Payment\\\" e incluye mi dirección para referencia.\"},{\"language\":\"ar\",\"prompt\":\"جدولة دفعة لمرة واحدة بقيمة 1,200 دولار لمالك العقار الخاص بي يوم الاثنين القادم. يرجى تسميتها \\\"Rent Payment\\\" وتضمين عنواني للرجوع إليه.\"},{\"language\":\"de\",\"prompt\":\"Planen Sie eine einmalige Zahlung von 1.200 $ an meinen Vermieter nächsten Montag. Bitte kennzeichnen Sie sie als \\\"Rent Payment\\\" und geben Sie meine Adresse als Referenz an.\"},{\"language\":\"pt\",\"prompt\":\"Agende um pagamento único de $1.200 ao meu senhorio na próxima segunda-feira. Por favor, rotule-o como \\\"Rent Payment\\\" e inclua meu endereço para referência.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:15:54.517614Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "miCnau7LH8iAzbIPtpHzoQo",
+  "usage_metadata": {
+    "candidates_token_count": 347,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 347
+      }
+    ],
+    "prompt_token_count": 330,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 330
+      }
+    ],
+    "total_token_count": 677,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

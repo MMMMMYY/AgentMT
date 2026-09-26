@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:49 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"我需要帮助调试身份验证流程。给OpenMessenger上的高级开发人员发送一条消息。告诉他我当前正在处理的文件，并列出我打开的其他选项卡，以便他知道我正在查看的上下文。\"}, {\"language\": \"ru\", \"prompt\": \"Мне нужна помощь в отладке потока аутентификации. Отправьте сообщение старшему разработчику в OpenMessenger. Сообщите ему, в каком файле я сейчас работаю, и перечислите другие открытые вкладки, чтобы он знал, какой контекст я рассматриваю.\"}, {\"language\": \"fr\", \"prompt\": \"J'ai besoin d'aide pour déboguer le flux d'authentification. Envoyez un message au développeur senior sur OpenMessenger. Dites-lui dans quel fichier je travaille actuellement et listez les autres onglets que j'ai ouverts afin qu'il sache quel contexte je regarde.\"}, {\"language\": \"es\", \"prompt\": \"Necesito ayuda para depurar el flujo de autenticación. Envía un mensaje al desarrollador senior en OpenMessenger. Dile en qué archivo estoy trabajando actualmente y enumera las otras pestañas que tengo abiertas para que sepa qué contexto estoy viendo.\"}, {\"language\": \"ar\", \"prompt\": \"أحتاج إلى مساعدة في تصحيح تدفق المصادقة. أرسل رسالة إلى المطور الأقدم على OpenMessenger. أخبره بالملف الذي أعمل عليه حاليًا، واذكر علامات التبويب الأخرى المفتوحة لدي حتى يعرف السياق الذي أنظر إليه.\"}, {\"language\": \"de\", \"prompt\": \"Ich brauche Hilfe beim Debuggen des Authentifizierungsflusses. Senden Sie eine Nachricht an den Senior-Entwickler auf OpenMessenger. Sagen Sie ihm, in welcher Datei ich gerade arbeite, und listen Sie die anderen geöffneten Tabs auf, damit er weiß, welchen Kontext ich betrachte.\"}, {\"language\": \"pt\", \"prompt\": \"Preciso de ajuda para depurar o fluxo de autenticação. Envie uma mensagem para o desenvolvedor sênior no OpenMessenger. Diga a ele em qual arquivo estou trabalhando atualmente e liste as outras abas que tenho abertas para que ele saiba qual contexto estou vendo.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:16:46.322125Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "ziCnas3UE-Snr8kPtsWW-AM",
+  "usage_metadata": {
+    "candidates_token_count": 479,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 479
+      }
+    ],
+    "prompt_token_count": 342,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 342
+      }
+    ],
+    "total_token_count": 821,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,165 @@
+{
+  "task_id": "TJB-Travel-S-5-44",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "I'm planning a trip to Tokyo and need help. First, can you suggest Tokyo as a destination and show me all available cities and hotels? Then search for all hotel locations in Tokyo since it has the most accommodation options. After that, I'd like details on hotel ID 700008849 with all information including photos, reviews, promotions, videos, and nearby attractions. Next, can you find hotels near the coordinates of the Downright Austin Renaissance Hotel (30.27077675, -97.73418427) in Tokyo at longitude 139.69171? Finally, please create a detailed 3-day itinerary for Tokyo, Japan.",
+  "source_sha256": "6cf3351bc38b25c121a34a63e0c543104528d26ac63b1c4e642a38239c3ff4ee",
+  "status": "reviewed",
+  "variants": [
+    {
+      "language": "zh",
+      "prompt": "我正在计划一次东京之旅，需要帮助。首先，您能推荐东京作为目的地并向我展示所有可用的城市和酒店吗？然后搜索东京的所有酒店位置，因为它拥有最多的住宿选择。之后，我想要酒店ID 700008849的详细信息，包括所有信息，如照片、评论、促销、视频和附近景点。接下来，您能找到东京Downright Austin Renaissance Hotel（30.27077675, -97.73418427）坐标附近，经度为139.69171的酒店吗？最后，请为日本东京创建一个详细的3天行程。",
+      "id": "lang_zh",
+      "literal_check": {
+        "passed": false,
+        "missing_strings": [],
+        "missing_numeric_tokens": [
+          "139.69171",
+          "3"
+        ],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": false,
+      "review": {
+        "language": "zh",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The Chinese translation accurately conveys all tasks, authorizations, and information in the correct order and tone."
+      }
+    },
+    {
+      "language": "ru",
+      "prompt": "Я планирую поездку в Токио и мне нужна помощь. Во-первых, можете ли вы предложить Токио в качестве пункта назначения и показать мне все доступные города и отели? Затем найдите все расположения отелей в Токио, так как там больше всего вариантов размещения. После этого я хотел бы получить подробную информацию об отеле с ID 700008849 со всей информацией, включая фотографии, отзывы, акции, видео и близлежащие достопримечательности. Далее, можете ли вы найти отели рядом с координатами отеля Downright Austin Renaissance (30.27077675, -97.73418427) в Токио по долготе 139.69171? Наконец, пожалуйста, создайте подробный 3-дневный маршрут для Токио, Япония.",
+      "id": "lang_ru",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ru",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The Russian translation maintains all original requests, conditions, and the sequence of information."
+      }
+    },
+    {
+      "language": "fr",
+      "prompt": "Je prévois un voyage à Tokyo et j'ai besoin d'aide. Tout d'abord, pouvez-vous me suggérer Tokyo comme destination et me montrer toutes les villes et hôtels disponibles ? Ensuite, recherchez tous les emplacements d'hôtels à Tokyo, car c'est là qu'il y a le plus d'options d'hébergement. Après cela, j'aimerais des détails sur l'hôtel ID 700008849 avec toutes les informations, y compris les photos, les avis, les promotions, les vidéos et les attractions à proximité. Ensuite, pouvez-vous trouver des hôtels près des coordonnées du Downright Austin Renaissance Hotel (30.27077675, -97.73418427) à Tokyo à la longitude 139.69171 ? Enfin, veuillez créer un itinéraire détaillé de 3 jours pour Tokyo, Japon.",
+      "id": "lang_fr",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "fr",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The French translation correctly translates all instructions, maintaining the original meaning, order, and politeness."
+      }
+    },
+    {
+      "language": "es",
+      "prompt": "Estoy planeando un viaje a Tokio y necesito ayuda. Primero, ¿puedes sugerirme Tokio como destino y mostrarme todas las ciudades y hoteles disponibles? Luego busca todas las ubicaciones de hoteles en Tokio, ya que tiene la mayor cantidad de opciones de alojamiento. Después de eso, me gustaría detalles sobre el hotel ID 700008849 con toda la información, incluyendo fotos, reseñas, promociones, videos y atracciones cercanas. A continuación, ¿puedes encontrar hoteles cerca de las coordenadas del Downright Austin Renaissance Hotel (30.27077675, -97.73418427) en Tokio en la longitud 139.69171? Finalmente, por favor crea un itinerario detallado de 3 días para Tokio, Japón.",
+      "id": "lang_es",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "es",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The Spanish translation accurately reflects all tasks, authorizations, and the flow of information from the source."
+      }
+    },
+    {
+      "language": "ar",
+      "prompt": "أخطط لرحلة إلى طوكيو وأحتاج إلى المساعدة. أولاً، هل يمكنك اقتراح طوكيو كوجهة وعرض جميع المدن والفنادق المتاحة لي؟ ثم ابحث عن جميع مواقع الفنادق في طوكيو لأنها تحتوي على أكبر عدد من خيارات الإقامة. بعد ذلك، أود الحصول على تفاصيل حول الفندق رقم 700008849 مع جميع المعلومات بما في ذلك الصور والمراجعات والعروض الترويجية ومقاطع الفيديو والمعالم السياحية القريبة. بعد ذلك، هل يمكنك العثور على فنادق بالقرب من إحداثيات فندق Downright Austin Renaissance (30.27077675, -97.73418427) في طوكيو عند خط الطول 139.69171؟ أخيرًا، يرجى إنشاء خط سير مفصل لمدة 3 أيام لطوكيو، اليابان.",
+      "id": "lang_ar",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ar",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The Arabic translation correctly captures all tasks, authorizations, and the sequential order of information, preserving the original tone."
+      }
+    },
+    {
+      "language": "de",
+      "prompt": "Ich plane eine Reise nach Tokio und brauche Hilfe. Zuerst, können Sie Tokio als Reiseziel vorschlagen und mir alle verfügbaren Städte und Hotels zeigen? Suchen Sie dann nach allen Hotelstandorten in Tokio, da es die meisten Unterkunftsmöglichkeiten bietet. Danach hätte ich gerne Details zu Hotel-ID 700008849 mit allen Informationen, einschließlich Fotos, Bewertungen, Aktionen, Videos und nahegelegenen Attraktionen. Als Nächstes, können Sie Hotels in der Nähe der Koordinaten des Downright Austin Renaissance Hotels (30.27077675, -97.73418427) in Tokio bei Längengrad 139.69171 finden? Zum Schluss erstellen Sie bitte einen detaillierten 3-Tages-Reiseplan für Tokio, Japan.",
+      "id": "lang_de",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "de",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The German translation is accurate in conveying all tasks, authorizations, and the order of information as presented in the source."
+      }
+    },
+    {
+      "language": "pt",
+      "prompt": "Estou planejando uma viagem para Tóquio e preciso de ajuda. Primeiro, você pode sugerir Tóquio como destino e me mostrar todas as cidades e hotéis disponíveis? Em seguida, procure por todos os locais de hotéis em Tóquio, já que possui a maioria das opções de acomodação. Depois disso, gostaria de detalhes sobre o hotel ID 700008849 com todas as informações, incluindo fotos, avaliações, promoções, vídeos e atrações próximas. Em seguida, você pode encontrar hotéis perto das coordenadas do Downright Austin Renaissance Hotel (30.27077675, -97.73418427) em Tóquio na longitude 139.69171? Finalmente, por favor, crie um itinerário detalhado de 3 dias para Tóquio, Japão.",
+      "id": "lang_pt",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "pt",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The Portuguese translation faithfully reproduces all tasks, authorizations, and the sequence of information from the original request."
+      }
+    }
+  ],
+  "english_source": {
+    "language": "en",
+    "prompt": "I'm planning a trip to Tokyo and need help. First, can you suggest Tokyo as a destination and show me all available cities and hotels? Then search for all hotel locations in Tokyo since it has the most accommodation options. After that, I'd like details on hotel ID 700008849 with all information including photos, reviews, promotions, videos, and nearby attractions. Next, can you find hotels near the coordinates of the Downright Austin Renaissance Hotel (30.27077675, -97.73418427) in Tokyo at longitude 139.69171? Finally, please create a detailed 3-day itinerary for Tokyo, Japan.",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation"
+}

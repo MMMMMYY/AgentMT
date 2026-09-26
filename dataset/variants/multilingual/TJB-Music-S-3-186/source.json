@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Music-S-3-186",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Music",
+  "taskType": "K-POP Group to Personalized Radio",
+  "prompt": "I'm a big fan of Blackpink and want to create a personalized radio station based on their music. Can you first find information about this K-POP girl group, then search for their official profile on Spotify, and finally generate a radio playlist based on their songs?",
+  "scope": "K-POP, Spotify",
+  "trajectoryType": "sequential",
+  "referenceSteps": 3,
+  "positiveOracle": "1. K-POP: girl-groups | required: q=Blackpink\n2. Spotify: Search | required: q=BLACKPINK, type=artists\n3. Spotify: Get radio playlist | required: uri=spotify:artist:41MozSoPIsD1dJM0CLPjZF",
+  "negativeOracle": "",
+  "referenceTrajectory": "K-POP: girl-groups → Spotify: Search → Spotify: Get radio playlist",
+  "sourceLocator": "public_data/sequential/Music/traj_query.json | item=186",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/sequential/Music/traj_query.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 15 clean candidates in Music/sequential/3-tool stratum."
+}

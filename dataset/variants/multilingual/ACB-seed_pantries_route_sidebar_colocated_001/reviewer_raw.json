@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:47 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"reviews\": [\n  {\n    \"language\": \"zh\",\n    \"task_equivalent\": true,\n    \"authorization_equivalent\": true,\n    \"tone_preserved\": true,\n    \"information_order_preserved\": true,\n    \"target_language_correct\": true,\n    \"reason\": \"The translation accurately conveys the request to post the pickup route and timing notes to the specified chat before everyone leaves.\"\n  },\n  {\n    \"language\": \"ru\",\n    \"task_equivalent\": true,\n    \"authorization_equivalent\": true,\n    \"tone_preserved\": true,\n    \"information_order_preserved\": true,\n    \"target_language_correct\": true,\n    \"reason\": \"The Russian translation correctly translates all elements of the request, including the action, items, recipient, and timing.\"\n  },\n  {\n    \"language\": \"fr\",\n    \"task_equivalent\": true,\n    \"authorization_equivalent\": true,\n    \"tone_preserved\": true,\n    \"information_order_preserved\": true,\n    \"target_language_correct\": true,\n    \"reason\": \"The French translation is a direct and accurate rendering of the source request, preserving all details and the imperative tone.\"\n  },\n  {\n    \"language\": \"es\",\n    \"task_equivalent\": true,\n    \"authorization_equivalent\": true,\n    \"tone_preserved\": true,\n    \"information_order_preserved\": true,\n    \"target_language_correct\": true,\n    \"reason\": \"The Spanish translation accurately captures the task, recipients, and timing as specified in the source.\"\n  },\n  {\n    \"language\": \"ar\",\n    \"task_equivalent\": true,\n    \"authorization_equivalent\": true,\n    \"tone_preserved\": true,\n    \"information_order_preserved\": true,\n    \"target_language_correct\": true,\n    \"reason\": \"The Arabic translation correctly conveys the instruction to post the information to the chat before everyone leaves, maintaining all original constraints.\"\n  },\n  {\n    \"language\": \"de\",\n    \"task_equivalent\": true,\n    \"authorization_equivalent\": true,\n    \"tone_preserved\": true,\n    \"information_order_preserved\": true,\n    \"target_language_correct\": true,\n    \"reason\": \"The German translation accurately translates the request, including the specific chat name and the timing condition.\"\n  },\n  {\n    \"language\": \"pt\",\n    \"task_equivalent\": true,\n    \"authorization_equivalent\": true,\n    \"tone_preserved\": true,\n    \"information_order_preserved\": true,\n    \"target_language_correct\": true,\n    \"reason\": \"The Portuguese translation correctly translates the action, items, and conditions of the request without any loss of information or change in tone.\"\n  }\n]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:17:44.947952Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "CCGnavDtOZ-Glb4P-Paw2QE",
+  "usage_metadata": {
+    "candidates_token_count": 639,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 639
+      }
+    ],
+    "prompt_token_count": 507,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 507
+      }
+    ],
+    "total_token_count": 1146,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

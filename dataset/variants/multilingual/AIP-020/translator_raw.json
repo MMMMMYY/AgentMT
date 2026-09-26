@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:15:53 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"从我的电子邮件附件中查找并下载我们销售宣传的最新版本，然后将其上传到我的云端硬盘。\"}, {\"language\": \"ru\", \"prompt\": \"Найдите и загрузите последнюю версию нашей коммерческой презентации из моих вложений электронной почты и загрузите ее на мой Облачный диск.\"}, {\"language\": \"fr\", \"prompt\": \"Trouvez et téléchargez la dernière version de notre argumentaire de vente à partir de mes pièces jointes et téléchargez-la sur mon Cloud Drive.\"}, {\"language\": \"es\", \"prompt\": \"Encuentra y descarga la última versión de nuestra presentación de ventas de mis archivos adjuntos de correo electrónico y súbela a mi Cloud Drive.\"}, {\"language\": \"ar\", \"prompt\": \"ابحث عن أحدث إصدار من عرض المبيعات الخاص بنا وقم بتنزيله من مرفقات بريدي الإلكتروني وقم بتحميله إلى محرك الأقراص السحابي الخاص بي.\"}, {\"language\": \"de\", \"prompt\": \"Suchen und laden Sie die neueste Version unseres Verkaufsgesprächs aus meinen E-Mail-Anhängen herunter und laden Sie sie auf mein Cloud Drive hoch.\"}, {\"language\": \"pt\", \"prompt\": \"Encontre e baixe a versão mais recente da nossa apresentação de vendas dos meus anexos de e-mail e faça o upload para o meu Cloud Drive.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.025602250699175905
+    }
+  ],
+  "create_time": "2026-09-13T22:15:51.086228Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "lyCnatShBcO_m9IPwJmQuAg",
+  "usage_metadata": {
+    "candidates_token_count": 302,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 302
+      }
+    ],
+    "prompt_token_count": 317,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 317
+      }
+    ],
+    "total_token_count": 619,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

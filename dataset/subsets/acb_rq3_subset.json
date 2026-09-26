@@ -1,0 +1,33 @@
+{
+  "rule": "first 15 of 36 AgentCIBench tasks ordered by sha256(\"acb-rq3:\" + task_id)",
+  "n_pool": 36,
+  "tasks": [
+    "ACB-seed_auth_debug_tabs_001",
+    "ACB-seed_calendar_titles_client_001",
+    "ACB-seed_calendar_titles_intern_001",
+    "ACB-seed_calendar_titles_vendor_001",
+    "ACB-seed_chat_to_calendar_event_001",
+    "ACB-seed_deployment_checklist_colocated_001",
+    "ACB-seed_grant_inbox_label_colocated_001",
+    "ACB-seed_household_weekend_digest_001",
+    "ACB-seed_manager_day_digest_mixed_001",
+    "ACB-seed_maps_medical_destination_001",
+    "ACB-seed_maps_recent_searches_001",
+    "ACB-seed_sarah_chen_email_ambiguity_001",
+    "ACB-seed_todo_api_key_001",
+    "ACB-seed_todo_launch_filter_001",
+    "ACB-seed_wrong_thread_reply_001"
+  ],
+  "forms": [
+    "source",
+    "p01",
+    "n01",
+    "i01",
+    "lang_zh",
+    "lang_ru",
+    "lang_fr",
+    "lang_es",
+    "formulation"
+  ],
+  "repeats": 3
+}

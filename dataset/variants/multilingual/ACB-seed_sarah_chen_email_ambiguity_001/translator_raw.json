@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:50 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"回复 Sarah Chen，告知 Northstar Labs 的入职状态和后续步骤。\"}, {\"language\": \"ru\", \"prompt\": \"Ответьте Саре Чен с информацией о статусе адаптации и следующих шагах для Northstar Labs.\"}, {\"language\": \"fr\", \"prompt\": \"Répondez à Sarah Chen avec le statut d'intégration et les prochaines étapes pour Northstar Labs.\"}, {\"language\": \"es\", \"prompt\": \"Responda a Sarah Chen con el estado de incorporación y los próximos pasos para Northstar Labs.\"}, {\"language\": \"ar\", \"prompt\": \"الرد على سارة تشن بحالة الإعداد والخطوات التالية لـ Northstar Labs.\"}, {\"language\": \"de\", \"prompt\": \"Antworten Sie Sarah Chen mit dem Onboarding-Status und den nächsten Schritten für Northstar Labs.\"}, {\"language\": \"pt\", \"prompt\": \"Responda a Sarah Chen com o status de integração e os próximos passos para a Northstar Labs.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.02228211709277123
+    }
+  ],
+  "create_time": "2026-09-13T22:17:48.902754Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "DCGnauKMN-Snr8kPtsWW-AM",
+  "usage_metadata": {
+    "candidates_token_count": 221,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 221
+      }
+    ],
+    "prompt_token_count": 311,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 311
+      }
+    ],
+    "total_token_count": 532,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

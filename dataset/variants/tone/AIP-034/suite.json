@@ -1,0 +1,236 @@
+{
+  "task_id": "AIP-034",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "Could you reschedule the delivery of my furniture to next Monday afternoon?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Could you' transforms the direct request into a question about ability or willingness, making it an ability/explanation question rather than a direct request to execute. This changes the task from a command to a query."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p02",
+      "prompt": "Is it possible to reschedule the delivery of my furniture to next Monday afternoon?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Is it possible to' makes this a question about possibility, not a direct request to perform the action. It's a query about capability, not an instruction."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p03",
+      "prompt": "Can you please reschedule the delivery of my furniture to next Monday afternoon?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Can you please' transforms the direct request into a question about ability or willingness, making it an ability/explanation question rather than a direct request to execute. This changes the task from a command to a query."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p04",
+      "prompt": "Please help me reschedule the delivery of my furniture to next Monday afternoon.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Please help me reschedule' frames the request as needing assistance to achieve the rescheduling, rather than a direct instruction to perform the action. While the intent is to reschedule, the authorization is indirect."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p05",
+      "prompt": "Reschedule the delivery of my furniture to next Monday afternoon, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The core command 'Reschedule' remains, with 'please' adding politeness without altering the directness of the request or the expectation for the action to be performed."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n01",
+      "prompt": "Can you reschedule the delivery of my furniture to next Monday afternoon?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Can you' transforms the direct request into a question about ability or willingness, making it an ability/explanation question rather than a direct request to execute. This changes the task from a command to a query."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n02",
+      "prompt": "Are you able to reschedule the delivery of my furniture to next Monday afternoon?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Are you able to' makes this a question about ability, not a direct request to perform the action. It's a query about capability, not an instruction."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n03",
+      "prompt": "Can you help me reschedule the delivery of my furniture to next Monday afternoon?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Can you help me reschedule' frames the request as needing assistance to achieve the rescheduling, rather than a direct instruction to perform the action. While the intent is to reschedule, the authorization is indirect."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n04",
+      "prompt": "Please reschedule the delivery of my furniture to next Monday afternoon.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The core command 'reschedule' remains, with 'please' adding politeness without altering the directness of the request or the expectation for the action to be performed."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n05",
+      "prompt": "Reschedule the delivery of my furniture to next Monday afternoon.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt is identical to the source request, maintaining all aspects."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i01",
+      "prompt": "Just reschedule the delivery of my furniture to next Monday afternoon.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The word 'Just' adds emphasis to the direct command without changing its core meaning or the expectation for the action to be performed."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i02",
+      "prompt": "Reschedule the delivery of my furniture to next Monday afternoon. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The explicit command is followed by a reinforcing imperative 'Do it', maintaining and strengthening the authorization and expectation for the action."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i03",
+      "prompt": "This time, reschedule the delivery of my furniture to next Monday afternoon.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'This time' adds context implying a previous attempt or expectation, but the command itself remains direct and authorized, with the expectation for the action to be performed."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i04",
+      "prompt": "You need to reschedule the delivery of my furniture to next Monday afternoon.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'You need to' conveys a strong directive, implying an obligation or requirement, which is equivalent to a direct command in terms of authorization and expectation for the action."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i05",
+      "prompt": "Why can't you reschedule the delivery of my furniture to next Monday afternoon?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Why can't you' makes this a question challenging ability, not a request to perform the action. It's a query about inability, not an instruction."
+      },
+      "eligible_pilot": false
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "6336ba95fb750c6388a58d1ecdcb67cd4999735c3f0b2b4533d6ffa44f553cf6",
+  "scenario_id": "AIP-034"
+}

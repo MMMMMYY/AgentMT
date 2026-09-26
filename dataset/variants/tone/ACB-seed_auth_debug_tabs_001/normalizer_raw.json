@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:43:44 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"\",\n  \"task\": \"send a message to the senior dev on OpenMessenger telling him which file I am currently working in and listing the other tabs I have open so he knows what context I am looking at\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.027478880607164823
+    }
+  ],
+  "create_time": "2026-09-08T10:43:44.458771Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "4OafapOAHK6j1t8PhsSwuAM",
+  "usage_metadata": {
+    "candidates_token_count": 52,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 52
+      }
+    ],
+    "prompt_token_count": 239,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 239
+      }
+    ],
+    "total_token_count": 291,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,14 @@
+{
+  "status": "blocked_before_generation_and_execution",
+  "source_tasks": 116,
+  "planned_variants": 1740,
+  "planned_source_baselines": 116,
+  "executed_episodes": 0,
+  "generated_validated_variants": 0,
+  "blockers": [
+    "Existing finance runner covers only five older tasks, not the selected 116 tasks.",
+    "Published fixed-fixture replacement requested by the user has not been implemented.",
+    "Dataset-native environments need adapters and success/event instrumentation before running.",
+    "All complete variants require task/authorization equivalence review, especially context-sensitive forms."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:45:35 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"I'm closing out lesson prep.\",\n  \"task\": \"pull clear references; using the Stars API, list planets in star system id 4; from the Numbers API, get a math fact about the number 17; from Random Words, grab 10 random words; on Kanji alive, list kanji with 8 strokes; on TED, find a talk (speaker yuval noah harari, topic politics, min 300s); from the Numbers API, get a historical fact about the year 1969; from Dr. Almotawa Quotes, share a random quote under 50 characters; from Uncovered Treasure, fetch the relevant item; from Indonesia School List, list schools in sub-district (kecamatan) ID 056010\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.008874314853123256
+    }
+  ],
+  "create_time": "2026-09-08T10:45:34.827978Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "TuefasrEMumGqMgPzKO3uA8",
+  "usage_metadata": {
+    "candidates_token_count": 175,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 175
+      }
+    ],
+    "prompt_token_count": 357,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 357
+      }
+    ],
+    "total_token_count": 532,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

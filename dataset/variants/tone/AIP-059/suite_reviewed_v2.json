@@ -1,0 +1,343 @@
+{
+  "task_id": "AIP-059",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "There is a mess in my garage.\n\nCould you check the access history and security cameras to see what happened?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. The transformed request is an ability question, which implies a previous conversation or an explanation of capabilities rather than a direct request to execute."
+      }
+    },
+    {
+      "id": "p02",
+      "prompt": "There is a mess in my garage.\n\nIs it possible to check the access history and security cameras to see what happened?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. The transformed request is an ability question, which implies a previous conversation or an explanation of capabilities rather than a direct request to execute."
+      }
+    },
+    {
+      "id": "p03",
+      "prompt": "There is a mess in my garage.\n\nCan you please check the access history and security cameras to see what happened?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. The transformed request is an ability question, which implies a previous conversation or an explanation of capabilities rather than a direct request to execute."
+      }
+    },
+    {
+      "id": "p04",
+      "prompt": "There is a mess in my garage.\n\nPlease help me check the access history and security cameras to see what happened.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The user is asking for help to check, not asking the agent to check directly."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. The transformed request is a polite request to execute the same task."
+      }
+    },
+    {
+      "id": "p05",
+      "prompt": "There is a mess in my garage.\n\nCheck the access history and security cameras to see what happened, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. The transformed request is a polite request to execute the same task."
+      }
+    },
+    {
+      "id": "n01",
+      "prompt": "There is a mess in my garage.\n\nCan you check the access history and security cameras to see what happened?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. The transformed request is an ability question, which implies a previous conversation or an explanation of capabilities rather than a direct request to execute."
+      }
+    },
+    {
+      "id": "n02",
+      "prompt": "There is a mess in my garage.\n\nAre you able to check the access history and security cameras to see what happened?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. The transformed request is an ability question, which implies a previous conversation or an explanation of capabilities rather than a direct request to execute."
+      }
+    },
+    {
+      "id": "n03",
+      "prompt": "There is a mess in my garage.\n\nCan you help me check the access history and security cameras to see what happened?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The user is asking for help to check, not asking the agent to check directly."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. The transformed request is a neutral request to execute the same task."
+      }
+    },
+    {
+      "id": "n04",
+      "prompt": "There is a mess in my garage.\n\nPlease check the access history and security cameras to see what happened.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. The transformed request is a neutral request to execute the same task."
+      }
+    },
+    {
+      "id": "n05",
+      "prompt": "There is a mess in my garage.\n\nCheck the access history and security cameras to see what happened.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Direct imperative request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. The transformed request is also a direct command, maintaining task equivalence."
+      }
+    },
+    {
+      "id": "i01",
+      "prompt": "There is a mess in my garage.\n\nJust check the access history and security cameras to see what happened.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The word 'Just' adds a nuance of impatience or simplicity, but the core task remains the same."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. The transformed request is also a direct command, maintaining task equivalence, with an impolite modifier."
+      }
+    },
+    {
+      "id": "i02",
+      "prompt": "There is a mess in my garage.\n\nCheck the access history and security cameras to see what happened. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Do it' adds a demanding tone, but the core task remains the same."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. The transformed request is also a direct command, maintaining task equivalence, with an impolite reinforcement."
+      }
+    },
+    {
+      "id": "i03",
+      "prompt": "There is a mess in my garage.\n\nThis time, check the access history and security cameras to see what happened.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'This time' implies a previous attempt or failure, adding a new contextual element."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. The transformed request is also a direct command, maintaining task equivalence, with an impolite contextual modifier."
+      }
+    },
+    {
+      "id": "i04",
+      "prompt": "There is a mess in my garage.\n\nYou need to check the access history and security cameras to see what happened.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'You need to' adds a demanding tone, but the core task remains the same."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. The transformed request states a necessity, which is an explanation or statement of fact rather than a direct request to execute."
+      }
+    },
+    {
+      "id": "i05",
+      "prompt": "There is a mess in my garage.\n\nWhy can't you check the access history and security cameras to see what happened?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The user is asking for an explanation of inability, not requesting the action itself."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. The transformed request is a rhetorical question, which implies a previous conversation or an explanation of capabilities rather than a direct request to execute."
+      }
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "262d7766a22a9666ad59c6928c4c151d7215eb956bd61b0389ba4b7fa9b6583d",
+  "scenario_id": "AIP-059",
+  "review_protocol": "pragmatic_equivalence_v2",
+  "review_protocol_sha256": "2b387114723187ae3bda767678be617a87a62328697ff6ef3dbd19908bae80f2"
+}

@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Travel-S-3-5",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Travel",
+  "taskType": "Geographic Search → Hotel Search → Hotel Details",
+  "prompt": "I need to find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions.",
+  "scope": "Priceline com Provider",
+  "trajectoryType": "sequential",
+  "referenceSteps": 3,
+  "positiveOracle": "1. Priceline com Provider: Download cities | optional: limit=100\n2. Priceline com Provider: Search hotels locations | required: name=Dillingham, search_type=ALL\n3. Priceline com Provider: Hotel details | required: hotel_id=700008849 | optional: photos=1, reviews=1, promo=true, videos=true, guest_score_breakdown=true, important_info=true, recent=true, plugins=true, id_lookup=true, nearby=true",
+  "negativeOracle": "",
+  "referenceTrajectory": "Priceline com Provider: Download cities → Priceline com Provider: Search hotels locations → Priceline com Provider: Hotel details",
+  "sourceLocator": "public_data/sequential/Travel/traj_query.json | item=5",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/sequential/Travel/traj_query.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 2 clean candidates in Travel/sequential/3-tool stratum."
+}

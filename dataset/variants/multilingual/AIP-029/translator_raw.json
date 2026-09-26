@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:00 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"我当前的信用评分和完整的信用历史记录是什么？\"}, {\"language\": \"ru\", \"prompt\": \"Какой у меня текущий кредитный рейтинг и полная кредитная история?\"}, {\"language\": \"fr\", \"prompt\": \"Quel est mon score de crédit actuel et mon historique de crédit complet ?\"}, {\"language\": \"es\", \"prompt\": \"¿Cuál es mi puntaje de crédito actual y mi historial de crédito completo?\"}, {\"language\": \"ar\", \"prompt\": \"ما هو تقييمي الائتماني الحالي وتاريخي الائتماني الكامل؟\"}, {\"language\": \"de\", \"prompt\": \"Wie ist meine aktuelle Kreditwürdigkeit und meine vollständige Kredithistorie?\"}, {\"language\": \"pt\", \"prompt\": \"Qual é a minha pontuação de crédito atual e o histórico de crédito completo?\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:15:58.699187Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "niCnarPWKp-Glb4P-Paw2QE",
+  "usage_metadata": {
+    "candidates_token_count": 188,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 188
+      }
+    ],
+    "prompt_token_count": 306,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 306
+      }
+    ],
+    "total_token_count": 494,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

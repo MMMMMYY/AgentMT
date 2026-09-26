@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:38:26 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": null,\n  \"task\": \"give me a report of my workout\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.9851559003194174
+    }
+  ],
+  "create_time": "2026-09-08T10:38:24.595073Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "oOWfaoGpJL2J89kPzOtu",
+  "usage_metadata": {
+    "candidates_token_count": 24,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 24
+      }
+    ],
+    "prompt_token_count": 158,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 158
+      }
+    ],
+    "thoughts_token_count": 138,
+    "total_token_count": 320,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

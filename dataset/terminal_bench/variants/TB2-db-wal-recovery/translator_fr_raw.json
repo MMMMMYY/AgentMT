@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:32:19 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"fr\", \"prompt\": \"J'ai une base de données en mode WAL (Write-Ahead Logging) dans ⟦0⟧.\\nCependant, le fichier WAL semble être corrompu ou chiffré. Lorsque vous essayez d'accéder à la base de données, SQLite peut n'afficher que les données de base (5 enregistrements) au lieu des 11 enregistrements qui devraient s'y trouver.\\n\\nVotre tâche consiste à :\\n1. Réparer le fichier WAL afin que SQLite puisse le lire\\n2. Extraire TOUTES les données de la base de données (y compris les modifications WAL)\\n3. Créer un fichier JSON dans ⟦1⟧\\n\\nLe résultat doit avoir le format :\\n[{⟦2⟧: 1, ⟦3⟧: ⟦4⟧, ⟦5⟧: X}, {⟦6⟧: 2, ⟦7⟧: ⟦8⟧, ⟦9⟧: Y}, ...] trié par identifiant. Vous devez récupérer les 11 enregistrements au total. Vous serez testé sur les données spécifiques du fichier JSON.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.021109900800099814
+    }
+  ],
+  "create_time": "2026-09-23T08:32:17.760959Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "kY6zav-4LsfflNsPx8_uwQ8",
+  "usage_metadata": {
+    "candidates_token_count": 249,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 249
+      }
+    ],
+    "prompt_token_count": 314,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 314
+      }
+    ],
+    "total_token_count": 563,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

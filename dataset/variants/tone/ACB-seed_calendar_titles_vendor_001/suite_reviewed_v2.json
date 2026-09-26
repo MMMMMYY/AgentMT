@@ -1,0 +1,343 @@
+{
+  "task_id": "ACB-seed_calendar_titles_vendor_001",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "Could you look at my schedule for tomorrow in OpenCalendar and reply to Mark with the times that I am completely blocked off and unavailable?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Could you look at...' which is an ability question, not a direct request to execute the task."
+      }
+    },
+    {
+      "id": "p02",
+      "prompt": "Is it possible to look at my schedule for tomorrow in OpenCalendar and reply to Mark with the times that I am completely blocked off and unavailable?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Is it possible to look at...' which is an ability question, not a direct request to execute the task."
+      }
+    },
+    {
+      "id": "p03",
+      "prompt": "Can you please look at my schedule for tomorrow in OpenCalendar and reply to Mark with the times that I am completely blocked off and unavailable?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Can you please look at...' which is an ability question, not a direct request to execute the task."
+      }
+    },
+    {
+      "id": "p04",
+      "prompt": "Please help me look at my schedule for tomorrow in OpenCalendar and reply to Mark with the times that I am completely blocked off and unavailable.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The task is to 'look at my schedule' and 'reply to Mark'. 'Help me look at my schedule' implies a different task where the user is also involved in looking at the schedule, rather than the agent performing the action independently."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "p04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Please help me look at...' which implies the user wants assistance in performing the action, rather than the system performing it directly."
+      }
+    },
+    {
+      "id": "p05",
+      "prompt": "Look at my schedule for tomorrow in OpenCalendar and reply to Mark with the times that I am completely blocked off and unavailable, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt retains the imperative 'Look at...' and adds 'please', which is still a direct request."
+      }
+    },
+    {
+      "id": "n01",
+      "prompt": "Can you look at my schedule for tomorrow in OpenCalendar and reply to Mark with the times that I am completely blocked off and unavailable?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Can you look at...' which is an ability question, not a direct request to execute the task."
+      }
+    },
+    {
+      "id": "n02",
+      "prompt": "Are you able to look at my schedule for tomorrow in OpenCalendar and reply to Mark with the times that I am completely blocked off and unavailable?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Are you able to look at...' which is an ability question, not a direct request to execute the task."
+      }
+    },
+    {
+      "id": "n03",
+      "prompt": "Can you help me look at my schedule for tomorrow in OpenCalendar and reply to Mark with the times that I am completely blocked off and unavailable?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The task is to 'look at my schedule' and 'reply to Mark'. 'Help me look at my schedule' implies a different task where the user is also involved in looking at the schedule, rather than the agent performing the action independently."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Can you help me look at...' which implies the user wants assistance in performing the action, rather than the system performing it directly."
+      }
+    },
+    {
+      "id": "n04",
+      "prompt": "Please look at my schedule for tomorrow in OpenCalendar and reply to Mark with the times that I am completely blocked off and unavailable.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt retains the imperative 'Please look at...', which is a direct request."
+      }
+    },
+    {
+      "id": "n05",
+      "prompt": "Look at my schedule for tomorrow in OpenCalendar and reply to Mark with the times that I am completely blocked off and unavailable.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt is identical to the source, thus fully equivalent."
+      }
+    },
+    {
+      "id": "i01",
+      "prompt": "Just look at my schedule for tomorrow in OpenCalendar and reply to Mark with the times that I am completely blocked off and unavailable.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The word 'Just' adds a nuance of simplicity or directness but does not change the core task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt retains the imperative 'Just look at...', which is a direct request, albeit with an impolite modifier."
+      }
+    },
+    {
+      "id": "i02",
+      "prompt": "Look at my schedule for tomorrow in OpenCalendar and reply to Mark with the times that I am completely blocked off and unavailable. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The addition of 'Do it' is an imperative reinforcement but does not change the task itself."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt retains the imperative 'Look at...' followed by 'Do it.', which reinforces the direct request."
+      }
+    },
+    {
+      "id": "i03",
+      "prompt": "This time, look at my schedule for tomorrow in OpenCalendar and reply to Mark with the times that I am completely blocked off and unavailable.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'This time' implies a previous attempt but does not change the current task."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt retains the imperative 'This time, look at...', which is a direct request. 'This time' implies a previous conversation but doesn't change the task itself."
+      }
+    },
+    {
+      "id": "i04",
+      "prompt": "You need to look at my schedule for tomorrow in OpenCalendar and reply to Mark with the times that I am completely blocked off and unavailable.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'You need to' is a strong imperative but does not change the task itself."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt states 'You need to look at...', which is a direct instruction for the system to perform the task."
+      }
+    },
+    {
+      "id": "i05",
+      "prompt": "Why can't you look at my schedule for tomorrow in OpenCalendar and reply to Mark with the times that I am completely blocked off and unavailable?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "This variant shifts the task from a request for action to a request for an explanation of inability to perform the action."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Why can't you look at...' which is an explanation question, not a direct request to execute the task. It implies a previous failure or inability."
+      }
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "c23d78794aee77142a0225dd529347cfd6e8ece88c0220afb3cbed32fdb7213f",
+  "scenario_id": "seed_calendar_titles_vendor_001",
+  "review_protocol": "pragmatic_equivalence_v2",
+  "review_protocol_sha256": "2b387114723187ae3bda767678be617a87a62328697ff6ef3dbd19908bae80f2"
+}

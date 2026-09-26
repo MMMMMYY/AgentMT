@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:42:07 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"I’m on a road trip.\",\n  \"task\": \"find a gas station near me\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-08T10:42:05.544209Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "feafatGbIY_gqMgP_sywmAQ",
+  "usage_metadata": {
+    "candidates_token_count": 30,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 30
+      }
+    ],
+    "prompt_token_count": 214,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 214
+      }
+    ],
+    "thoughts_token_count": 184,
+    "total_token_count": 428,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

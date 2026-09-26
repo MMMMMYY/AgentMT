@@ -1,0 +1,16 @@
+{
+  "task_id": "TJB-Gaming-S-5-116",
+  "scenario_id": null,
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "io01",
+      "prompt": "Can you check what's currently free on the Epic Games Store in the US? I heard Outliver: Tribulation might be free right now - could you find reviews for that specific game? I'm also interested in horror games on PC similar to the Outlast series. Actually, I'm in the mood for something with zombies - can you search for that theme? Oh, and I'd like to see if there's a game called Zombie Soup since I love games with food-related names. Can you show me reviews and deals for that one? I'm looking for some free games to play this weekend.",
+      "transformation": "sentence_permutation",
+      "sentence_multiset_preserved": true,
+      "information_order_changed": true,
+      "eligible_pilot": true,
+      "validation_basis": "deterministic span preservation and dependency exclusion rules"
+    }
+  ]
+}

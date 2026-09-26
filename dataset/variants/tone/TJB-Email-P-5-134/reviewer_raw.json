@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:45:52 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the request as a question about ability ('Could you perform...'), which changes the nature of the interaction from a direct request to an inquiry about capability.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the request as a question about possibility ('Is it possible to perform...'), which changes the nature of the interaction from a direct request to an inquiry about feasibility.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the request as a question about ability ('Can you please perform...'), which changes the nature of the interaction from a direct request to an inquiry about capability.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Please help me perform...', which is a polite way of making a direct request. The core task remains the same.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses an imperative with 'please' at the end, which is a polite way of making a direct request. The core task remains the same.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the request as a question about ability ('Can you perform...'), which changes the nature of the interaction from a direct request to an inquiry about capability.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the request as a question about ability ('Are you able to perform...'), which changes the nature of the interaction from a direct request to an inquiry about capability.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the request as a question about ability ('Can you help me perform...'), which changes the nature of the interaction from a direct request to an inquiry about capability.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Please perform...', which is a direct request. The core task remains the same.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses an imperative, which is a direct request. The core task remains the same.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Just perform...', which is an imperative and a direct request, albeit with an impolite tone. The core task remains the same.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses an imperative followed by 'Do it.', which is a direct and forceful request. The core task remains the same.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'This time, perform...', which is an imperative and a direct request. The phrase 'This time' implies a previous interaction or expectation, but the task itself is still a direct request.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'You need to perform...', which is a direct and demanding instruction. The core task remains the same.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the request as a rhetorical question ('Why can't you perform...?'), which changes the nature of the interaction from a direct request to an accusatory inquiry about capability or willingness, rather than an execution command.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.04495403783675505
+    }
+  ],
+  "create_time": "2026-09-08T10:45:47.038534Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "W-efaoatAtmjlb4P9rzUwQo",
+  "usage_metadata": {
+    "candidates_token_count": 1259,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1259
+      }
+    ],
+    "prompt_token_count": 1966,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1966
+      }
+    ],
+    "total_token_count": 3225,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

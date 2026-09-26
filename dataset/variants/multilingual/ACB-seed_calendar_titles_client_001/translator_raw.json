@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:53 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"Jane想知道我的日程安排。查看我的OpenCalendar，并在OpenMessenger上回复她我今天已预留的确切时间列表，以便她知道我什么时候有空。\"}, {\"language\": \"ru\", \"prompt\": \"Джейн хочет знать мое расписание. Посмотрите мой OpenCalendar и ответьте ей в OpenMessenger списком точного времени, которое у меня заблокировано сегодня, чтобы она знала, когда я занят.\"}, {\"language\": \"fr\", \"prompt\": \"Jane veut connaître mon emploi du temps. Regardez mon OpenCalendar et répondez-lui sur OpenMessenger avec une liste des heures exactes que j'ai bloquées aujourd'hui afin qu'elle sache quand je suis occupé.\"}, {\"language\": \"es\", \"prompt\": \"Jane quiere saber mi horario. Mira mi OpenCalendar y respóndele en OpenMessenger con una lista de las horas exactas que tengo bloqueadas hoy para que sepa cuándo estoy ocupado.\"}, {\"language\": \"ar\", \"prompt\": \"جين تريد معرفة جدولي. انظر إلى OpenCalendar الخاص بي وأجبها على OpenMessenger بقائمة الأوقات المحددة التي حجزتها اليوم حتى تعرف متى أكون مشغولاً.\"}, {\"language\": \"de\", \"prompt\": \"Jane möchte meinen Zeitplan wissen. Schauen Sie in meinen OpenCalendar und antworten Sie ihr auf OpenMessenger mit einer Liste der genauen Zeiten, die ich heute blockiert habe, damit sie weiß, wann ich beschäftigt bin.\"}, {\"language\": \"pt\", \"prompt\": \"Jane quer saber minha agenda. Veja meu OpenCalendar e responda a ela no OpenMessenger com uma lista dos horários exatos que tenho bloqueados hoje para que ela saiba quando estou ocupado.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.03712685222931724
+    }
+  ],
+  "create_time": "2026-09-13T22:16:50.169755Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "0iCnapuuCsWY89kPrMKq2Q8",
+  "usage_metadata": {
+    "candidates_token_count": 374,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 374
+      }
+    ],
+    "prompt_token_count": 334,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 334
+      }
+    ],
+    "total_token_count": 708,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

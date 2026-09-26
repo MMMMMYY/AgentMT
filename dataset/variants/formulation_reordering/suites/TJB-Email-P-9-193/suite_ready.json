@@ -1,0 +1,16 @@
+{
+  "task_id": "TJB-Email-P-9-193",
+  "scenario_id": null,
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "io01",
+      "prompt": "Deliverability close‑out—execute the listed items as written. Determine whether newsletter@quickoffers.net is a temporary/throwaway address. Verify updates@flashsales.org for validity and deliverability. Check if dailydeals.com is a disposable domain and suggest a better alternative. Check whether quickoffers.net is available or already taken. Check whether the address is a role/team inbox (support/sales). Confirm mail server accept‑mail status for marketing@dailydeals.com. Extract public contact emails from https://www.mycompany.org/contact. Run the corresponding check for Email API. Check marketing@dailydeals.com and flag if it’s disposable or problematic.",
+      "transformation": "sentence_permutation",
+      "sentence_multiset_preserved": true,
+      "information_order_changed": true,
+      "eligible_pilot": true,
+      "validation_basis": "deterministic span preservation and dependency exclusion rules"
+    }
+  ]
+}

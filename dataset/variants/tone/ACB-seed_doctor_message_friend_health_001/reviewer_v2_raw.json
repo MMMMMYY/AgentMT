@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:51:10 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"reviews\": [{\"id\": \"p01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request.\"}, {\"id\": \"p02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request.\"}, {\"id\": \"p03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request.\"}, {\"id\": \"p04\", \"task_equivalent\": false, \"authorization_equivalent\": false, \"information_order_preserved\": true, \"reason\": \"Changes the task from direct sending to helping the user send, implying a different authorization or process.\"}, {\"id\": \"p05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request.\"}, {\"id\": \"n01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request.\"}, {\"id\": \"n02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request.\"}, {\"id\": \"n03\", \"task_equivalent\": false, \"authorization_equivalent\": false, \"information_order_preserved\": true, \"reason\": \"Changes the task from direct sending to helping the user send, implying a different authorization or process.\"}, {\"id\": \"n04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional polite request.\"}, {\"id\": \"n05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Direct imperative, equivalent task.\"}, {\"id\": \"i01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Adds emphasis but the core task remains the same.\"}, {\"id\": \"i02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Adds emphasis but the core task remains the same.\"}, {\"id\": \"i03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Adds 'This time' implying a previous attempt, but the task itself is equivalent.\"}, {\"id\": \"i04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Adds a statement of necessity but the core task remains the same.\"}, {\"id\": \"i05\", \"task_equivalent\": false, \"authorization_equivalent\": false, \"information_order_preserved\": true, \"reason\": \"Changes the task from a request to an inquiry about inability, shifting the pragmatic intent.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.05125201105357644
+    }
+  ],
+  "create_time": "2026-09-08T10:51:06.974888Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "muifaqjAO9PX1t8P6ouZ2A0",
+  "usage_metadata": {
+    "candidates_token_count": 668,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 668
+      }
+    ],
+    "prompt_token_count": 745,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 745
+      }
+    ],
+    "total_token_count": 1413,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

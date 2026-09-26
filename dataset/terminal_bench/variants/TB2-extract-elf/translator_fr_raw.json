@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:32:00 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"fr\", \"prompt\": \"J'ai fourni un fichier a.out qui est un binaire C compilé. Écrivez-moi un programme ⟦0⟧ qui, lorsqu'il est exécuté avec ⟦1⟧, extraira les valeurs de la mémoire du binaire et les affichera sous forme d'objet JSON avec les adresses mémoire comme clés et leurs valeurs comme entiers.\\n\\nExemple de format de sortie : {⟦2⟧: 1784774249, ⟦3⟧: 1718378344, ...}\\n\\nCritères de succès :\\n1. Pour toute adresse que vous incluez dans votre sortie, la valeur DOIT correspondre à la solution de référence (les adresses avec des valeurs incorrectes échoueront au test)\\n2. Vous devez extraire au moins 75 % des valeurs de mémoire présentes dans la solution de référence\\n\\nRemarque : Les valeurs de sortie doivent être des entiers, pas des chaînes de caractères.\\n\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.015398388720573263
+    }
+  ],
+  "create_time": "2026-09-23T08:31:59.780847Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "f46zaq_UL9vWqMgP8rux6AE",
+  "usage_metadata": {
+    "candidates_token_count": 235,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 235
+      }
+    ],
+    "prompt_token_count": 282,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 282
+      }
+    ],
+    "total_token_count": 517,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:15:58 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"检索并整理我上个月的所有报销费用。\"},{\"language\":\"ru\",\"prompt\":\"Получить и скомпилировать все мои расходы за прошлый месяц для возмещения.\"},{\"language\":\"fr\",\"prompt\":\"Récupérer et compiler toutes mes dépenses du mois dernier pour remboursement.\"},{\"language\":\"es\",\"prompt\":\"Recuperar y compilar todos mis gastos del mes pasado para reembolso.\"},{\"language\":\"ar\",\"prompt\":\"استرداد وتجميع جميع نفقاتي من الشهر الماضي للسداد.\"},{\"language\":\"de\",\"prompt\":\"Alle meine Ausgaben vom letzten Monat zur Erstattung abrufen und zusammenstellen.\"},{\"language\":\"pt\",\"prompt\":\"Recuperar e compilar todas as minhas despesas do mês passado para reembolso.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:15:57.275787Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "nSCnasvqELLAm9IPseHGiAI",
+  "usage_metadata": {
+    "candidates_token_count": 160,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 160
+      }
+    ],
+    "prompt_token_count": 307,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 307
+      }
+    ],
+    "total_token_count": 467,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

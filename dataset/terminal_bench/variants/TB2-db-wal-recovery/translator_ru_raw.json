@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:32:15 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"ru\",\"prompt\":\"У меня есть база данных в режиме WAL (Write-Ahead Logging) в ⟦0⟧. \\nОднако файл WAL, по-видимому, поврежден или зашифрован. При попытке \\nдоступа к базе данных SQLite может показывать только базовые данные (5 записей) вместо \\nвсех 11 записей, которые должны быть там.\\n\\nВаша задача:\\n1. Исправить файл WAL, чтобы SQLite мог его прочитать\\n2. Извлечь ВСЕ данные из базы данных (включая изменения WAL)\\n3. Создать файл JSON в ⟦1⟧\\n\\nВывод должен иметь формат:\\n[{⟦2⟧: 1, ⟦3⟧: ⟦4⟧, ⟦5⟧: X}, {⟦6⟧: 2, ⟦7⟧: ⟦8⟧, ⟦9⟧: Y}, ...] \\nотсортированный по id. Вы должны восстановить все 11 записей. Вы будете проверены на конкретные\\nданные в файле JSON.\\n\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-23T08:32:13.709720Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "jY6zatioK_mpvdMPse6vyQM",
+  "usage_metadata": {
+    "candidates_token_count": 241,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 241
+      }
+    ],
+    "prompt_token_count": 314,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 314
+      }
+    ],
+    "total_token_count": 555,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

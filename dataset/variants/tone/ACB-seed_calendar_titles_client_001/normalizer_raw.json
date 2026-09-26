@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:43:52 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"Jane wants to know my schedule.\",\n  \"task\": \"look at my OpenCalendar and reply to her on OpenMessenger with a list of the exact times I have blocked off today so she knows when I am busy\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.001236002892255783
+    }
+  ],
+  "create_time": "2026-09-08T10:43:51.826556Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "5-afary5MqyAlb4P9ouQsAQ",
+  "usage_metadata": {
+    "candidates_token_count": 54,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 54
+      }
+    ],
+    "prompt_token_count": 231,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 231
+      }
+    ],
+    "total_token_count": 285,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

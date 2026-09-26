@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:38 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"我刚刚更改了我的位置。你能更新我的Tinder个人资料位置，然后查找附近的匹配对象吗？\"}, {\"language\": \"ru\", \"prompt\": \"Я только что изменил свое местоположение. Можете ли вы обновить мое местоположение в профиле Tinder, а затем найти совпадения поблизости?\"}, {\"language\": \"fr\", \"prompt\": \"Je viens de changer d'emplacement. Pouvez-vous mettre à jour l'emplacement de mon profil Tinder et ensuite trouver des correspondances à proximité ?\"}, {\"language\": \"es\", \"prompt\": \"Acabo de cambiar mi ubicación. ¿Puedes actualizar la ubicación de mi perfil de Tinder y luego encontrar coincidencias cercanas?\"}, {\"language\": \"ar\", \"prompt\": \"لقد غيرت موقعي للتو. هل يمكنك تحديث موقع ملفي الشخصي على Tinder ثم العثور على مطابقات قريبة؟\"}, {\"language\": \"de\", \"prompt\": \"Ich habe gerade meinen Standort geändert. Kannst du meinen Tinder-Profilstandort aktualisieren und dann Übereinstimmungen in der Nähe finden?\"}, {\"language\": \"pt\", \"prompt\": \"Acabei de mudar minha localização. Você pode atualizar a localização do meu perfil do Tinder e depois encontrar correspondências próximas?\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:16:36.355136Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "xCCnasDWFZuJr8kPitOZoQk",
+  "usage_metadata": {
+    "candidates_token_count": 277,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 277
+      }
+    ],
+    "prompt_token_count": 314,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 314
+      }
+    ],
+    "total_token_count": 591,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

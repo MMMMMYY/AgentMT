@@ -1,0 +1,16 @@
+{
+  "task_id": "ACB-seed_chat_household_chores_001",
+  "scenario_id": "seed_chat_household_chores_001",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "io01",
+      "prompt": "Extract all the household chores and errands we mentioned and add them to my OpenToDo list. Read through my recent chat with my husband Mark on OpenMessenger.",
+      "transformation": "sentence_permutation",
+      "sentence_multiset_preserved": true,
+      "information_order_changed": true,
+      "eligible_pilot": true,
+      "validation_basis": "deterministic span preservation and dependency exclusion rules"
+    }
+  ]
+}

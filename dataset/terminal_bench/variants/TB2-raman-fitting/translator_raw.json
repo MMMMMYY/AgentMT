@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:31:56 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"你得到了拉曼设备的输出文件。我们用它来测量一些石墨烯样品。\\n拟合光谱的G和2D峰，并返回峰的x0、gamma、amplitude和offset，然后将它们写入名为⟦0⟧的文件中。\\n\\n文件应具有以下格式：\\n{\\n  ⟦1⟧: {\\n    ⟦2⟧: <⟦3⟧>,\\n    ⟦4⟧: <⟦5⟧>,\\n    ⟦6⟧: <⟦7⟧>,\\n    ⟦8⟧: <⟦9⟧>\\n  },\\n  ⟦10⟧: {\\n    ⟦11⟧: <⟦12⟧>,\\n    ⟦13⟧: <⟦14⟧>,\\n    ⟦15⟧: <⟦16⟧>,\\n    ⟦17⟧: <⟦18⟧>\\n  }\\n}\\n\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-23T08:31:55.213245Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "e46zav2BDYql89kP2Zu0yQk",
+  "usage_metadata": {
+    "candidates_token_count": 203,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 203
+      }
+    ],
+    "prompt_token_count": 383,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 383
+      }
+    ],
+    "total_token_count": 586,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,15 @@
+{
+  "task_id": "TJB-eCommerce-S-10-180",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "I'm looking at a Wayfair dresser with SKU W003078383 and want to see all available product information and images. After checking the reviews for this product, I'd like to know about its warranty options and any home services Wayfair offers for it. I'm also interested in financing options for professional assembly service W010630670. Then, I want to compare this with similar iPhones at BestBuy, specifically looking for the highest-rated iPhone model (MQ623LL/A) on Amazon Germany. Finally, search for this same model on Zappos and show me detailed information about product 9098084.",
+  "source_sha256": "0fd61ad7ec91ba9f4dc614d6879eb9d186a98ee9132fe21460050d29f5464f72",
+  "status": "preparation_error",
+  "variants": [],
+  "english_source": {
+    "language": "en",
+    "prompt": "I'm looking at a Wayfair dresser with SKU W003078383 and want to see all available product information and images. After checking the reviews for this product, I'd like to know about its warranty options and any home services Wayfair offers for it. I'm also interested in financing options for professional assembly service W010630670. Then, I want to compare this with similar iPhones at BestBuy, specifically looking for the highest-rated iPhone model (MQ623LL/A) on Amazon Germany. Finally, search for this same model on Zappos and show me detailed information about product 9098084.",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation",
+  "error_type": "ReadTimeout"
+}

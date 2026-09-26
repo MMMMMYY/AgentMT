@@ -1,0 +1,162 @@
+{
+  "task_id": "TJB-Email-P-5-134",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "I need straight‑through checks for this cleanup. Verify sarah.johnson@gmail.com for validity and deliverability. Confirm mail server accept‑mail status for marketing@tempcompany.org. Determine whether procurement@supplierxyz.com is a temporary/throwaway address. Verify marketing@tempcompany.org for validity and deliverability. Run the corresponding check for Email API.",
+  "source_sha256": "68fecb2a663b450bc25dc0e01e0e19441c4e821cf4e6186adb514445e141d96c",
+  "status": "reviewed",
+  "variants": [
+    {
+      "language": "zh",
+      "prompt": "我需要对这次清理进行直接检查。验证 sarah.johnson@gmail.com 的有效性和可送达性。确认 marketing@tempcompany.org 的邮件服务器接受邮件状态。确定 procurement@supplierxyz.com 是否是临时/一次性地址。验证 marketing@tempcompany.org 的有效性和可送达性。运行 Email API 的相应检查。",
+      "id": "lang_zh",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "zh",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All tasks and information are accurately translated and preserved in the correct order."
+      }
+    },
+    {
+      "language": "ru",
+      "prompt": "Мне нужны сквозные проверки для этой очистки. Проверьте sarah.johnson@gmail.com на валидность и доставляемость. Подтвердите статус приема почты почтовым сервером для marketing@tempcompany.org. Определите, является ли procurement@supplierxyz.com временным/одноразовым адресом. Проверьте marketing@tempcompany.org на валидность и доставляемость. Запустите соответствующую проверку для Email API.",
+      "id": "lang_ru",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ru",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All tasks and information are accurately translated and preserved in the correct order."
+      }
+    },
+    {
+      "language": "fr",
+      "prompt": "J'ai besoin de vérifications directes pour ce nettoyage. Vérifiez la validité et la délivrabilité de sarah.johnson@gmail.com. Confirmez le statut d'acceptation du courrier par le serveur de messagerie pour marketing@tempcompany.org. Déterminez si procurement@supplierxyz.com est une adresse temporaire/jetable. Vérifiez la validité et la délivrabilité de marketing@tempcompany.org. Exécutez la vérification correspondante pour l'API Email.",
+      "id": "lang_fr",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "fr",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All tasks and information are accurately translated and preserved in the correct order."
+      }
+    },
+    {
+      "language": "es",
+      "prompt": "Necesito verificaciones directas para esta limpieza. Verifique la validez y la capacidad de entrega de sarah.johnson@gmail.com. Confirme el estado de aceptación de correo del servidor de correo para marketing@tempcompany.org. Determine si procurement@supplierxyz.com es una dirección temporal/desechable. Verifique la validez y la capacidad de entrega de marketing@tempcompany.org. Ejecute la verificación correspondiente para la API de correo electrónico.",
+      "id": "lang_es",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "es",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All tasks and information are accurately translated and preserved in the correct order."
+      }
+    },
+    {
+      "language": "ar",
+      "prompt": "أحتاج إلى فحوصات مباشرة لهذا التنظيف. تحقق من صلاحية وإمكانية تسليم sarah.johnson@gmail.com. تأكيد حالة قبول خادم البريد للبريد لـ marketing@tempcompany.org. تحديد ما إذا كان procurement@supplierxyz.com عنوانًا مؤقتًا/يمكن التخلص منه. تحقق من صلاحية وإمكانية تسليم marketing@tempcompany.org. قم بتشغيل الفحص المقابل لـ Email API.",
+      "id": "lang_ar",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ar",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All tasks and information are accurately translated and preserved in the correct order."
+      }
+    },
+    {
+      "language": "de",
+      "prompt": "Ich benötige durchgängige Prüfungen für diese Bereinigung. Überprüfen Sie sarah.johnson@gmail.com auf Gültigkeit und Zustellbarkeit. Bestätigen Sie den E-Mail-Server-Akzeptanzstatus für marketing@tempcompany.org. Bestimmen Sie, ob procurement@supplierxyz.com eine temporäre/Wegwerfadresse ist. Überprüfen Sie marketing@tempcompany.org auf Gültigkeit und Zustellbarkeit. Führen Sie die entsprechende Prüfung für die E-Mail-API aus.",
+      "id": "lang_de",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "de",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All tasks and information are accurately translated and preserved in the correct order."
+      }
+    },
+    {
+      "language": "pt",
+      "prompt": "Preciso de verificações diretas para esta limpeza. Verifique sarah.johnson@gmail.com quanto à validade e entregabilidade. Confirme o status de aceitação de e-mail do servidor de e-mail para marketing@tempcompany.org. Determine se procurement@supplierxyz.com é um endereço temporário/descartável. Verifique marketing@tempcompany.org quanto à validade e entregabilidade. Execute a verificação correspondente para a API de e-mail.",
+      "id": "lang_pt",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "pt",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All tasks and information are accurately translated and preserved in the correct order."
+      }
+    }
+  ],
+  "english_source": {
+    "language": "en",
+    "prompt": "I need straight‑through checks for this cleanup. Verify sarah.johnson@gmail.com for validity and deliverability. Confirm mail server accept‑mail status for marketing@tempcompany.org. Determine whether procurement@supplierxyz.com is a temporary/throwaway address. Verify marketing@tempcompany.org for validity and deliverability. Run the corresponding check for Email API.",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation"
+}

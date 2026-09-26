@@ -1,0 +1,162 @@
+{
+  "task_id": "TJB-Mapping-P-7-103",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "I'm creating a comprehensive geographic analysis of the Grand Canyon area Let’s handle a few things in parallel: list places nearby to sense foot traffic; add a quick map check; tell me what neighborhood/area '36.0544,-112.1401' falls in; add a quick map check; show a background tile for context; show a background tile for context; and add a quick map check.",
+  "source_sha256": "96477afd5d67db861d84933292967bc4cb82ce4049a54e308d4cef536fe28c90",
+  "status": "reviewed",
+  "variants": [
+    {
+      "language": "zh",
+      "prompt": "我正在对大峡谷地区进行全面的地理分析。让我们并行处理几件事：列出附近的地点以感知人流量；添加快速地图检查；告诉我“36.0544,-112.1401”属于哪个社区/区域；添加快速地图检查；显示背景图块以获取上下文；显示背景图块以获取上下文；并添加快速地图检查。",
+      "id": "lang_zh",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "zh",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks and information in the correct order and tone."
+      }
+    },
+    {
+      "language": "ru",
+      "prompt": "Я создаю всесторонний географический анализ района Гранд-Каньона. Давайте параллельно сделаем несколько вещей: перечислим близлежащие места, чтобы оценить пешеходный трафик; добавим быструю проверку карты; скажите мне, к какому району/области относится «36.0544,-112.1401»; добавим быструю проверку карты; покажем фоновую плитку для контекста; покажем фоновую плитку для контекста; и добавим быструю проверку карты.",
+      "id": "lang_ru",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ru",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks and information in the correct order and tone."
+      }
+    },
+    {
+      "language": "fr",
+      "prompt": "Je suis en train de créer une analyse géographique complète de la région du Grand Canyon. Gérons plusieurs choses en parallèle : listez les lieux à proximité pour évaluer l'affluence ; ajoutez une vérification rapide de la carte ; dites-moi dans quel quartier/zone se trouve «36.0544,-112.1401» ; ajoutez une vérification rapide de la carte ; affichez une tuile de fond pour le contexte ; affichez une tuile de fond pour le contexte ; et ajoutez une vérification rapide de la carte.",
+      "id": "lang_fr",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "fr",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks and information in the correct order and tone."
+      }
+    },
+    {
+      "language": "es",
+      "prompt": "Estoy creando un análisis geográfico exhaustivo del área del Gran Cañón. Hagamos varias cosas en paralelo: enumere los lugares cercanos para sentir el tráfico peatonal; agregue una verificación rápida del mapa; dígame en qué vecindario/área se encuentra '36.0544,-112.1401'; agregue una verificación rápida del mapa; muestre un mosaico de fondo para el contexto; muestre un mosaico de fondo para el contexto; y agregue una verificación rápida del mapa.",
+      "id": "lang_es",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "es",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks and information in the correct order and tone."
+      }
+    },
+    {
+      "language": "ar",
+      "prompt": "أقوم بإنشاء تحليل جغرافي شامل لمنطقة جراند كانيون. دعنا نتعامل مع بعض الأمور بالتوازي: اذكر الأماكن القريبة لاستشعار حركة المشاة؛ أضف فحصًا سريعًا للخريطة؛ أخبرني في أي حي/منطقة يقع '36.0544,-112.1401'؛ أضف فحصًا سريعًا للخريطة؛ أظهر بلاطة خلفية للسياق؛ أظهر بلاطة خلفية للسياق؛ وأضف فحصًا سريعًا للخريطة.",
+      "id": "lang_ar",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ar",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks and information in the correct order and tone."
+      }
+    },
+    {
+      "language": "de",
+      "prompt": "Ich erstelle eine umfassende geografische Analyse des Grand Canyon-Gebiets. Lassen Sie uns ein paar Dinge parallel erledigen: Listen Sie Orte in der Nähe auf, um den Fußgängerverkehr zu erfassen; fügen Sie eine schnelle Kartenprüfung hinzu; sagen Sie mir, in welchem Viertel/Gebiet '36.0544,-112.1401' liegt; fügen Sie eine schnelle Kartenprüfung hinzu; zeigen Sie eine Hintergrundkachel für den Kontext an; zeigen Sie eine Hintergrundkachel für den Kontext an; und fügen Sie eine schnelle Kartenprüfung hinzu.",
+      "id": "lang_de",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "de",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks and information in the correct order and tone."
+      }
+    },
+    {
+      "language": "pt",
+      "prompt": "Estou criando uma análise geográfica abrangente da área do Grand Canyon. Vamos lidar com algumas coisas em paralelo: liste os lugares próximos para sentir o tráfego de pedestres; adicione uma verificação rápida do mapa; diga-me em qual bairro/área '36.0544,-112.1401' se encaixa; adicione uma verificação rápida do mapa; mostre um bloco de fundo para contexto; mostre um bloco de fundo para contexto; e adicione uma verificação rápida do mapa.",
+      "id": "lang_pt",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "pt",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks and information in the correct order and tone."
+      }
+    }
+  ],
+  "english_source": {
+    "language": "en",
+    "prompt": "I'm creating a comprehensive geographic analysis of the Grand Canyon area Let’s handle a few things in parallel: list places nearby to sense foot traffic; add a quick map check; tell me what neighborhood/area '36.0544,-112.1401' falls in; add a quick map check; show a background tile for context; show a background tile for context; and add a quick map check.",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation"
+}

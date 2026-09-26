@@ -1,0 +1,162 @@
+{
+  "task_id": "TJB-Weather-P-7-144",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "Game‑time call— For my pack list, could you gather: astronomy (sun/moon) for 35.1983,-111.6513 (America/Phoenix); hourly forecast by coordinates; daily point data; air quality forecast for 35.1983,-111.6513; any active weather alerts; nearby cities within a radius; and meteostat: Hourly Point Data.",
+  "source_sha256": "ab1f91a0848704ebe21fc309dc8cee3e25c9cc168a03712fccf7f0cfc2c22eb0",
+  "status": "reviewed",
+  "variants": [
+    {
+      "language": "zh",
+      "prompt": "比赛时间通知——对于我的行李清单，你能收集一下：35.1983,-111.6513（America/Phoenix）的天文信息（日/月）；按坐标划分的小时预报；每日点数据；35.1983,-111.6513的空气质量预报；任何活跃的天气警报；半径范围内的附近城市；以及meteostat：小时点数据。",
+      "id": "lang_zh",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "zh",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all information and maintains the original tone and structure."
+      }
+    },
+    {
+      "language": "ru",
+      "prompt": "Звонок в игровое время — Для моего списка вещей, не могли бы вы собрать: астрономию (солнце/луна) для 35.1983,-111.6513 (America/Phoenix); почасовой прогноз по координатам; ежедневные точечные данные; прогноз качества воздуха для 35.1983,-111.6513; любые активные погодные предупреждения; близлежащие города в радиусе; и meteostat: почасовые точечные данные.",
+      "id": "lang_ru",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ru",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation is accurate and preserves all aspects of the original request."
+      }
+    },
+    {
+      "language": "fr",
+      "prompt": "Appel de dernière minute — Pour ma liste de colisage, pourriez-vous rassembler : l'astronomie (soleil/lune) pour 35.1983,-111.6513 (America/Phoenix) ; les prévisions horaires par coordonnées ; les données ponctuelles quotidiennes ; les prévisions de qualité de l'air pour 35.1983,-111.6513 ; toute alerte météo active ; les villes proches dans un rayon ; et meteostat : données ponctuelles horaires.",
+      "id": "lang_fr",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "fr",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation is correct and maintains the original meaning, tone, and structure."
+      }
+    },
+    {
+      "language": "es",
+      "prompt": "Llamada de última hora — Para mi lista de equipaje, ¿podrías recopilar: astronomía (sol/luna) para 35.1983,-111.6513 (America/Phoenix); pronóstico horario por coordenadas; datos de puntos diarios; pronóstico de calidad del aire para 35.1983,-111.6513; cualquier alerta meteorológica activa; ciudades cercanas dentro de un radio; y meteostat: datos de puntos horarios?",
+      "id": "lang_es",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "es",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately reflects the source in terms of task, authorization, tone, and information order."
+      }
+    },
+    {
+      "language": "ar",
+      "prompt": "مكالمة وقت اللعب — لقائمة أغراضي، هل يمكنك جمع: علم الفلك (الشمس/القمر) لـ 35.1983,-111.6513 (America/Phoenix)؛ توقعات كل ساعة بالإحداثيات؛ بيانات النقطة اليومية؛ توقعات جودة الهواء لـ 35.1983,-111.6513؛ أي تنبيهات طقس نشطة؛ المدن القريبة ضمن دائرة نصف قطرها؛ و meteostat: بيانات النقطة كل ساعة.",
+      "id": "lang_ar",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ar",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation is accurate and preserves all elements of the original request, including the specific English literals."
+      }
+    },
+    {
+      "language": "de",
+      "prompt": "Spielzeit-Anruf — Für meine Packliste, könnten Sie sammeln: Astronomie (Sonne/Mond) für 35.1983,-111.6513 (America/Phoenix); stündliche Vorhersage nach Koordinaten; tägliche Punktdaten; Luftqualitätsvorhersage für 35.1983,-111.6513; alle aktiven Wetterwarnungen; nahegelegene Städte innerhalb eines Radius; und meteostat: Stündliche Punktdaten.",
+      "id": "lang_de",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "de",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation is accurate and maintains the original meaning, tone, and structure of the request."
+      }
+    },
+    {
+      "language": "pt",
+      "prompt": "Chamada de última hora — Para minha lista de embalagem, você poderia reunir: astronomia (sol/lua) para 35.1983,-111.6513 (America/Phoenix); previsão horária por coordenadas; dados de ponto diários; previsão da qualidade do ar para 35.1983,-111.6513; quaisquer alertas meteorológicos ativos; cidades próximas dentro de um raio; e meteostat: Dados de Ponto Horários.",
+      "id": "lang_pt",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "pt",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation is accurate and preserves all aspects of the original request, including the specific English literals."
+      }
+    }
+  ],
+  "english_source": {
+    "language": "en",
+    "prompt": "Game‑time call— For my pack list, could you gather: astronomy (sun/moon) for 35.1983,-111.6513 (America/Phoenix); hourly forecast by coordinates; daily point data; air quality forecast for 35.1983,-111.6513; any active weather alerts; nearby cities within a radius; and meteostat: Hourly Point Data.",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation"
+}

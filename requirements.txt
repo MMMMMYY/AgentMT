@@ -1,0 +1,10 @@
+# analysis, tables and figures (run_all.sh)
+numpy>=1.26
+matplotlib>=3.8
+certifi
+# agent execution and LLM judging (only needed to re-run experiments)
+google-genai>=1.0        # Gemini 2.5 Flash via Vertex AI
+nltk>=3.8                # sentence splitting for the formulation (reordering) variants
+torch>=2.2               # locked-span NER for constrained paraphrasing
+transformers>=4.40
+# Terminal-Bench 2.0 runs: harbor (https://github.com/laude-institute/harbor) and Docker

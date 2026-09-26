@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:07 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"language\": \"zh\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The translation accurately conveys the request to order 2 boxes of green tea from Amazon, maintaining the polite tone and all original information.\"\n    },\n    {\n      \"language\": \"ru\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The Russian translation correctly translates the request, including the quantity, item, source, and recipient, while preserving the polite tone.\"\n    },\n    {\n      \"language\": \"fr\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The French translation is accurate and preserves all aspects of the original request, including the polite 'Veuillez' and the specific details.\"\n    },\n    {\n      \"language\": \"es\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The Spanish translation correctly conveys the request to order 2 boxes of green tea from Amazon, maintaining the polite tone and all original information.\"\n    },\n    {\n      \"language\": \"ar\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The Arabic translation accurately translates the request, including the quantity, item, source, and recipient, while preserving the polite tone.\"\n    },\n    {\n      \"language\": \"de\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The German translation is accurate and preserves all aspects of the original request, including the polite 'Bitte' and the specific details.\"\n    },\n    {\n      \"language\": \"pt\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The Portuguese translation correctly conveys the request to order 2 boxes of green tea from Amazon, maintaining the polite tone and all original information.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.041233169803591214
+    }
+  ],
+  "create_time": "2026-09-13T22:16:04.881442Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "pCCnaqLmNeSnr8kPtsWW-AM",
+  "usage_metadata": {
+    "candidates_token_count": 677,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 677
+      }
+    ],
+    "prompt_token_count": 402,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 402
+      }
+    ],
+    "total_token_count": 1079,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:37:41 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"保持简洁：为了比较几个角度，请收集：每日预报；任何活跃的天气警报；空气质量历史记录；以及47.8021,-121.8364的天文信息？\"},{\"language\":\"ru\",\"prompt\":\"Кратко: Чтобы сравнить несколько аспектов, пожалуйста, соберите: ежедневный прогноз; любые активные погодные предупреждения; историю качества воздуха; и астрономию для 47.8021,-121.8364?\"},{\"language\":\"fr\",\"prompt\":\"Pour faire court : Pour comparer quelques angles, veuillez collecter : les prévisions quotidiennes ; toutes les alertes météo actives ; l'historique de la qualité de l'air ; et l'astronomie pour 47.8021,-121.8364 ?\"},{\"language\":\"es\",\"prompt\":\"Para ser breve: Para comparar algunos ángulos, por favor recoja: pronóstico diario; cualquier alerta meteorológica activa; historial de calidad del aire; y astronomía para 47.8021,-121.8364?\"},{\"language\":\"ar\",\"prompt\":\"لإيجاز الأمر: لمقارنة بعض الزوايا، يرجى جمع: التوقعات اليومية؛ أي تنبيهات طقس نشطة؛ سجل جودة الهواء؛ وعلم الفلك لـ 47.8021,-121.8364؟\"},{\"language\":\"de\",\"prompt\":\"Kurz gesagt: Um einige Aspekte zu vergleichen, sammeln Sie bitte: tägliche Vorhersage; alle aktiven Wetterwarnungen; Luftqualitätsverlauf; und Astronomie für 47.8021,-121.8364?\"},{\"language\":\"pt\",\"prompt\":\"Para ser breve: Para comparar alguns ângulos, por favor, colete: previsão diária; quaisquer alertas meteorológicos ativos; histórico da qualidade do ar; e astronomia para 47.8021,-121.8364?\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:37:38.616540Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "siWnatzQJcO_m9IPwJmQuAg",
+  "usage_metadata": {
+    "candidates_token_count": 447,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 447
+      }
+    ],
+    "prompt_token_count": 341,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 341
+      }
+    ],
+    "total_token_count": 788,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

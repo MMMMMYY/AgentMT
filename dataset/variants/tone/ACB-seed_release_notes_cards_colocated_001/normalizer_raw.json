@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:45:00 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"\",\n  \"task\": \"post the visible mobile release handoff notes to the #mobile-release channel before standup starts\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.0012025028467178346
+    }
+  ],
+  "create_time": "2026-09-08T10:44:59.681304Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "K-efatjKKeXsi-8PrP-WsAI",
+  "usage_metadata": {
+    "candidates_token_count": 35,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 35
+      }
+    ],
+    "prompt_token_count": 212,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 212
+      }
+    ],
+    "total_token_count": 247,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

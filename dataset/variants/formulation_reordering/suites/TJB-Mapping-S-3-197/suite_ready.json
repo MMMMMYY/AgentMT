@@ -1,0 +1,16 @@
+{
+  "task_id": "TJB-Mapping-S-3-197",
+  "scenario_id": null,
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "io01",
+      "prompt": "Can you map a driving route with these stops: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; and 40.627177,-73.980853? After that, I'd like to get information about the roads near the starting point of my route at coordinates 40.629103,-74.025801. Finally, can you search for an address called \"not found road\" in that area and show it on a map? I need to plan a multi-stop driving route in Brooklyn starting near Bay Ridge.",
+      "transformation": "sentence_permutation",
+      "sentence_multiset_preserved": true,
+      "information_order_changed": true,
+      "eligible_pilot": true,
+      "validation_basis": "deterministic span preservation and dependency exclusion rules"
+    }
+  ]
+}

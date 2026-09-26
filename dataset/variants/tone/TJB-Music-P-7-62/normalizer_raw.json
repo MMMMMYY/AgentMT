@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:46:33 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"I'm pulling together a quick music brief.\",\n  \"task\": \"search Shazam term 'kiss the rain', locale en-US, limit 5, download Spotify lyrics for https://soundcloud.com/yiruma-official/kiss-the-rain, get childrens songs by composer 'yiruma', get Catalog Albums for week 2023-10-14, search YouTube Music with query 'Kiss the Rain piano', lang en, limit 20, get Spotify Top 200 (global) period weekly, and get K-POP Idols for 'IU' by Stage Name\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.003945007272388624
+    }
+  ],
+  "create_time": "2026-09-08T10:46:32.040189Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "iOefav25Aujii-8P4tOdmAI",
+  "usage_metadata": {
+    "candidates_token_count": 138,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 138
+      }
+    ],
+    "prompt_token_count": 316,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 316
+      }
+    ],
+    "total_token_count": 454,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

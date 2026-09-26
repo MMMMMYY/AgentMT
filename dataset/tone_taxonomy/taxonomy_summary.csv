@@ -1,0 +1,10 @@
+tone,subcategory,number_of_surface_forms
+polite,modal_request,4
+polite,mitigated_request,3
+polite,explicit_polite_modal,2
+polite,modal_help_seeking,4
+polite,polite_suffix,3
+neutral,please_imperative,2
+neutral,formal_polite_modal,3
+impolite,direct_imperative,1
+impolite,challenging_request,1

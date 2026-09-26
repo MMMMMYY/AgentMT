@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:32:08 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"reviews\": [{\"language\": \"zh\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"tone_preserved\": true, \"information_order_preserved\": true, \"target_language_correct\": true, \"reason\": \"The translation accurately conveys all information and instructions from the source. The placeholders are correctly used for the omitted parts.\"}, {\"language\": \"ru\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"tone_preserved\": true, \"information_order_preserved\": true, \"target_language_correct\": true, \"reason\": \"The translation is accurate and preserves all the details, instructions, and tone of the original. Placeholders are correctly used.\"}, {\"language\": \"fr\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"tone_preserved\": true, \"information_order_preserved\": true, \"target_language_correct\": true, \"reason\": \"The translation is faithful to the source, maintaining all instructions, conditions, and the overall tone. Placeholders are correctly implemented.\"}, {\"language\": \"es\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"tone_preserved\": true, \"information_order_preserved\": true, \"target_language_correct\": true, \"reason\": \"The translation accurately reflects the source content, including all instructions, constraints, and the original tone. Placeholders are used correctly.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-23T08:32:07.065324Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "h46zaqz-A4ql89kP2Zu0yQk",
+  "usage_metadata": {
+    "candidates_token_count": 296,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 296
+      }
+    ],
+    "prompt_token_count": 1256,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1256
+      }
+    ],
+    "total_token_count": 1552,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:37:09 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"language\": \"zh\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The translation accurately conveys all tasks, authorizations, and maintains the original tone and order of information. The target language is correct.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:37:08.962896Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "lCWnatDiOt6Kr8kPsv25-Qs",
+  "usage_metadata": {
+    "candidates_token_count": 106,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 106
+      }
+    ],
+    "prompt_token_count": 1415,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1415
+      }
+    ],
+    "total_token_count": 1521,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

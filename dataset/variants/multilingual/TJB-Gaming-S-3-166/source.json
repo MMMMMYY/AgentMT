@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Gaming-S-3-166",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Gaming",
+  "taskType": "Game Discovery → Game Review Search → Game Deal Search",
+  "prompt": "I'm looking for a free-to-play shooter game on PC. Can you first filter PC games with the shooter tag, then search for the most common shooter genre games in the results, and finally show me the best deals for Shapeshooter since it seems to be the closest match to what I'm looking for?",
+  "scope": "Free-to-Play Games Database, OpenCritic API, CheapShark - Game Deals",
+  "trajectoryType": "sequential",
+  "referenceSteps": 3,
+  "positiveOracle": "1. Free-to-Play Games Database: Filter games by multiple tags | required: tag=shooter | optional: platform=pc\n2. OpenCritic API: Game Search | required: criteria=Shooter\n3. CheapShark - Game Deals: List of Games | optional: title=Shapeshooter, exact=1",
+  "negativeOracle": "",
+  "referenceTrajectory": "Free-to-Play Games Database: Filter games by multiple tags → OpenCritic API: Game Search → CheapShark - Game Deals: List of Games",
+  "sourceLocator": "public_data/sequential/Gaming/traj_query.json | item=166",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/sequential/Gaming/traj_query.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 2 clean candidates in Gaming/sequential/3-tool stratum."
+}

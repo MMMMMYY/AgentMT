@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Education-S-5-57",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Education",
+  "taskType": "Province Search → District Search → Sub-District School List",
+  "prompt": "I need to research the Indonesian education system for my comparative study. Can you first show me the number of schools in the Indonesian province with code '020000', then identify the district with the highest total number of schools from that province? After that, please show me the schools in sub-district '056010' within that district. I'm particularly interested in finding the public school with the highest student enrollment from that list for my DEI research - I need to see the people associated with that school. Finally, can you find English-language educational talks that are at least 5 minutes long that were recorded after January 1, 2017 to supplement my research?",
+  "scope": "Indonesia School List, DEI, TED Talks API",
+  "trajectoryType": "sequential",
+  "referenceSteps": 5,
+  "positiveOracle": "1. Indonesia School List: Number of Schools in Indonesian City / District (Kabupaten / Kota) | required: kode_wilayah_propinsi_id=020000\n2. Indonesia School List: Number of Schools in Indonesia Sub-District (Kecamatan) | required: kode_wilayah_kabupaten_id=020500\n3. Indonesia School List: List of School in Sub-Disctrict (Kecamatan) | required: kode_wilayah_kecamatan_id=056010\n4. DEI: GetPeople | required: page=TK NEGERI PEMBINA II\n5. TED Talks API: getTalks | optional: audio_lang=en, topic=education, min_duration=300, from_record_date=2017-01-01",
+  "negativeOracle": "",
+  "referenceTrajectory": "Indonesia School List: Number of Schools in Indonesian City / District (Kabupaten / Kota) → Indonesia School List: Number of Schools in Indonesia Sub-District (Kecamatan) → Indonesia School List: List of School in Sub-Disctrict (Kecamatan) → DEI: GetPeople → TED Talks API: getTalks",
+  "sourceLocator": "public_data/sequential/Education/traj_query.json | item=57",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/sequential/Education/traj_query.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 17 clean candidates in Education/sequential/5-tool stratum."
+}

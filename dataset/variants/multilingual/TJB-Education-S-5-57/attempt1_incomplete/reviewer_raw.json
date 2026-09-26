@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:18:12 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"language\": \"zh\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"All conditions and requests are accurately translated and preserved in the correct order.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:18:11.805819Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "IyGnaruXMbLAm9IPseHGiAI",
+  "usage_metadata": {
+    "candidates_token_count": 95,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 95
+      }
+    ],
+    "prompt_token_count": 1591,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1591
+      }
+    ],
+    "total_token_count": 1686,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

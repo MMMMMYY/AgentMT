@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:31:59 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"fr\",\"prompt\":\"Pouvez-vous régler ce fichier de modèle MuJoCo (mjcf) de manière à ce qu'il prenne 60 % du temps original ou moins pour simuler la même scène pendant un total de deux secondes de simulation ?\\nLe même état physique complet doit être atteint avec atol=1e-5 sans NaN ni Inf.\\nLe modèle initial est à ⟦0⟧ et doit rester inchangé. Le mjcf réglé doit être enregistré sous ⟦1⟧.\\nLe script ⟦2⟧ peut vous aider à itérer.\\nLe modèle réglé doit également passer le test de correction (indice : modifier les propriétés physiques des corps les brisera).\\nIl n'est pas nécessaire de chercher des plugins et nous utiliserons une nouvelle installation de MuJoCo pour tester votre model.xml.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-23T08:31:58.704088Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "fo6zatj8KrDSkNAPwJu_iAo",
+  "usage_metadata": {
+    "candidates_token_count": 181,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 181
+      }
+    ],
+    "prompt_token_count": 253,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 253
+      }
+    ],
+    "total_token_count": 434,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

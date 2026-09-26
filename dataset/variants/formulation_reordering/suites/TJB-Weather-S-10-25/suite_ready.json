@@ -1,0 +1,16 @@
+{
+  "task_id": "TJB-Weather-S-10-25",
+  "scenario_id": null,
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "io01",
+      "prompt": "Can you look up ZIP code 10001 in the US to find its coordinates and hardiness zone? After that, please do a reverse lookup for New York at longitude -74.0060 to confirm the location, then search for \"New York\" places in English. Once you've identified New York City, get the daily forecast in English and a detailed weather forecast summary using the exact coordinates (40.71427, -74.00597). Then find weather stations within 75 miles of those coordinates, get their metadata, and retrieve climate data history for station 10637. Finally, show me the monthly weather data from that station from January 1, 2024 through September 7, 2024 in metric units. I need detailed weather information for Manhattan.",
+      "transformation": "sentence_permutation",
+      "sentence_multiset_preserved": true,
+      "information_order_changed": true,
+      "eligible_pilot": true,
+      "validation_basis": "deterministic span preservation and dependency exclusion rules"
+    }
+  ]
+}

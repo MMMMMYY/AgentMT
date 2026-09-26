@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:46:42 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"\",\n  \"task\": \"check what was trending on the Billboard 200 chart on May 20, 2023, and find the highest-ranked female artist album, then search for Taylor Swift Midnights on Spotify, but get me the original album release rather than any special editions, then show me details about Taylor Swift as the artist, then see the top 10 songs on this week's pop chart from Genius, and finally, search Shazam for the song \\\"HUNTR/X - Golden\\\" and tell me how popular it is by getting its play count and full song details\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.02155762110183488
+    }
+  ],
+  "create_time": "2026-09-08T10:46:41.951416Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "keefaviIOtfGqMgPu_izuAQ",
+  "usage_metadata": {
+    "candidates_token_count": 134,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 134
+      }
+    ],
+    "prompt_token_count": 321,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 321
+      }
+    ],
+    "total_token_count": 455,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

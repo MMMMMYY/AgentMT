@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:43:40 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Could you update...' is a polite rephrasing of 'Can you update...' and retains the original intent and information.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request 'Is it possible to update...' asks about the capability rather than directly requesting the action. This implies a previous conversation or a question about ability, not a direct command.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adding 'please' makes the request more polite but does not change the core task or authorization.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"'Please help me update...' is a polite way to request the action and maintains the original task and authorization.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Moving 'please' to the end of the sentence still conveys the same request and politeness without altering the task or authorization.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"This is identical to the source, thus fully equivalent.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"'Are you able to update...' questions the system's capability rather than issuing a direct request, similar to p02.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"'Can you help me update...' is a neutral way to request the action and maintains the original task and authorization.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"'Please update...' is a direct and neutral request that maintains the original task and authorization.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"This is a direct imperative request, fully equivalent to the source in terms of task and authorization.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"'Just update...' is an impolite imperative that still clearly requests the action and implies authorization.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The addition of 'Do it.' reinforces the imperative and maintains the original task and authorization, albeit impolitely.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"'This time, update...' implies a previous failure or a repeated request, but the core task and authorization remain the same.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"'You need to update...' is an impolite but direct instruction that conveys the same task and authorization.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"'Why can't you update...' is a rhetorical question expressing frustration or doubt about the system's ability, not a direct request to perform the action. It implies a previous attempt or expectation.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.08142839207768016
+    }
+  ],
+  "create_time": "2026-09-08T10:43:34.202800Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "1uafarCwDI2wi-8PkKu_8QY",
+  "usage_metadata": {
+    "candidates_token_count": 1124,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1124
+      }
+    ],
+    "prompt_token_count": 1034,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1034
+      }
+    ],
+    "total_token_count": 2158,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

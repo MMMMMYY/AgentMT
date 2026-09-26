@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:46:32 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"I'm looking for information about the Empire State Building in New York.\",\n  \"task\": \"find its coordinates, then check what county is located at longitude -73.98609 and latitude 45.50737, then see a list of all counties in Virginia, then geocode King County in Washington, United States and find places within 1000 meters of its coordinates, then from those results show me details about Goatea since it's the closest spot, then find the address at coordinates -123.0470199, 49.2813458, then tell me the timezone at longitude -123.0469687 and latitude 47.3871102, and check the elevation using the GMT offset value of -8\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.01628020902474721
+    }
+  ],
+  "create_time": "2026-09-08T10:46:31.115977Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "h-efaomKB-Xsi-8PrP-WsAI",
+  "usage_metadata": {
+    "candidates_token_count": 192,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 192
+      }
+    ],
+    "prompt_token_count": 384,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 384
+      }
+    ],
+    "total_token_count": 576,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

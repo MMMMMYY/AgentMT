@@ -1,0 +1,16 @@
+{
+  "task_id": "TJB-Music-S-3-186",
+  "scenario_id": null,
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "io01",
+      "prompt": "Can you first find information about this K-POP girl group, then search for their official profile on Spotify, and finally generate a radio playlist based on their songs? I'm a big fan of Blackpink and want to create a personalized radio station based on their music.",
+      "transformation": "sentence_permutation",
+      "sentence_multiset_preserved": true,
+      "information_order_changed": true,
+      "eligible_pilot": true,
+      "validation_basis": "deterministic span preservation and dependency exclusion rules"
+    }
+  ]
+}

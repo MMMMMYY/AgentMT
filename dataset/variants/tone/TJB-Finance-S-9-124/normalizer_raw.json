@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:46:04 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"I'm looking to analyze top-performing mutual funds for my portfolio. VFIAX has the highest performance rating for a large blend fund. I believe NVIDIA is a significant technology holding in the fund but not in the top 3 positions. \\\"Nvidia earnings\\\" seems to be getting a lot of attention.\",\n  \"task\": \"first show me a list of Fidelity fund families, then get me a list of Vanguard mutual funds, then examine the composition of VFIAX, then do a deep dive on NVIDIA, then provide NVIDIA's company profile, recent earnings data, and relevant market news, then search for news specifically about \\\"Nvidia earnings\\\", then check NVIDIA's upcoming calendar events, and finally show me options data for NVIDIA around their August 2025 earnings date (timestamp 1756324800)\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-08T10:46:03.319843Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "a-efauPCE5_EqMgP_ov7qAs",
+  "usage_metadata": {
+    "candidates_token_count": 184,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 184
+      }
+    ],
+    "prompt_token_count": 370,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 370
+      }
+    ],
+    "total_token_count": 554,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

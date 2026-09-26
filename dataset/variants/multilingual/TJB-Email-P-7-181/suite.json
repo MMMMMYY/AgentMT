@@ -1,0 +1,162 @@
+{
+  "task_id": "TJB-Email-P-7-181",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "Running a list cleanup—complete the checks below. Check marketing@newsletter.com and flag if it’s disposable or problematic. Verify updates@dailydeals.net for validity and deliverability. Determine whether info@techblog.org is a temporary/throwaway address. Check whether the address is a role/team inbox (support/sales). Check whether onlineshopping.com is available or already taken. Verify news@mediacompany.org for validity and deliverability. Verify contact@businessupdates.com for validity and deliverability.",
+  "source_sha256": "111c4e256840d60da8dbb93b6e7edf758401a7e51a0788b89f1a260cd752ac99",
+  "status": "reviewed",
+  "variants": [
+    {
+      "language": "zh",
+      "prompt": "正在进行列表清理——完成以下检查。检查 marketing@newsletter.com，如果是临时或有问题则进行标记。验证 updates@dailydeals.net 的有效性和可送达性。确定 info@techblog.org 是否为临时/一次性地址。检查该地址是否为角色/团队收件箱（支持/销售）。检查 onlineshopping.com 是否可用或已被占用。验证 news@mediacompany.org 的有效性和可送达性。验证 contact@businessupdates.com 的有效性和可送达性。",
+      "id": "lang_zh",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "zh",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks and conditions in the correct order and tone."
+      }
+    },
+    {
+      "language": "ru",
+      "prompt": "Выполняется очистка списка — завершите проверки ниже. Проверьте marketing@newsletter.com и пометьте, если это одноразовый или проблемный адрес. Проверьте updates@dailydeals.net на действительность и доставляемость. Определите, является ли info@techblog.org временным/одноразовым адресом. Проверьте, является ли адрес почтовым ящиком роли/команды (поддержка/продажи). Проверьте, доступен ли onlineshopping.com или уже занят. Проверьте news@mediacompany.org на действительность и доставляемость. Проверьте contact@businessupdates.com на действительность и доставляемость.",
+      "id": "lang_ru",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ru",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation maintains all task requirements, authorization, tone, and information order correctly."
+      }
+    },
+    {
+      "language": "fr",
+      "prompt": "Exécution d'un nettoyage de liste — effectuez les vérifications ci-dessous. Vérifiez marketing@newsletter.com et signalez s'il s'agit d'une adresse jetable ou problématique. Vérifiez la validité et la délivrabilité de updates@dailydeals.net. Déterminez si info@techblog.org est une adresse temporaire/jetable. Vérifiez si l'adresse est une boîte de réception de rôle/équipe (support/ventes). Vérifiez si onlineshopping.com est disponible ou déjà pris. Vérifiez la validité et la délivrabilité de news@mediacompany.org. Vérifiez la validité et la délivrability de contact@businessupdates.com.",
+      "id": "lang_fr",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "fr",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All tasks, conditions, and the overall tone are preserved. The information order is also correct."
+      }
+    },
+    {
+      "language": "es",
+      "prompt": "Ejecutando una limpieza de lista — complete las verificaciones a continuación. Verifique marketing@newsletter.com y marque si es desechable o problemático. Verifique updates@dailydeals.net para su validez y capacidad de entrega. Determine si info@techblog.org es una dirección temporal/desechable. Verifique si la dirección es un buzón de rol/equipo (soporte/ventas). Verifique si onlineshopping.com está disponible o ya está ocupado. Verifique news@mediacompany.org para su validez y capacidad de entrega. Verifique contact@businessupdates.com para su validez y capacidad de entrega.",
+      "id": "lang_es",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "es",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The Spanish translation accurately reflects all aspects of the source, including tasks, conditions, and tone."
+      }
+    },
+    {
+      "language": "ar",
+      "prompt": "جارٍ تنظيف القائمة — أكمل الفحوصات أدناه. تحقق من marketing@newsletter.com وقم بوضع علامة إذا كان بريدًا مؤقتًا أو إشكاليًا. تحقق من updates@dailydeals.net للتأكد من صلاحيته وقابليته للتسليم. حدد ما إذا كان info@techblog.org عنوانًا مؤقتًا/يمكن التخلص منه. تحقق مما إذا كان العنوان عبارة عن صندوق بريد دور/فريق (دعم/مبيعات). تحقق مما إذا كان onlineshopping.com متاحًا أم مشغولًا بالفعل. تحقق من news@mediacompany.org للتأكد من صلاحيته وقابليته للتسليم. تحقق من contact@businessupdates.com للتأكد من صلاحيته وقابليته للتسليم.",
+      "id": "lang_ar",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ar",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The Arabic translation correctly conveys all instructions, conditions, and the original tone, maintaining information order."
+      }
+    },
+    {
+      "language": "de",
+      "prompt": "Führe eine Listenbereinigung durch — schließe die folgenden Prüfungen ab. Überprüfe marketing@newsletter.com und markiere, ob es sich um eine Wegwerf- oder problematische Adresse handelt. Überprüfe updates@dailydeals.net auf Gültigkeit und Zustellbarkeit. Ermittle, ob info@techblog.org eine temporäre/Wegwerfadresse ist. Überprüfe, ob die Adresse ein Rollen-/Team-Posteingang ist (Support/Vertrieb). Überprüfe, ob onlineshopping.com verfügbar oder bereits vergeben ist. Überprüfe news@mediacompany.org auf Gültigkeit und Zustellbarkeit. Überprüfe contact@businessupdates.com auf Gültigkeit und Zustellbarkeit.",
+      "id": "lang_de",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "de",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The German translation is accurate in terms of tasks, authorization, tone, and the sequence of information."
+      }
+    },
+    {
+      "language": "pt",
+      "prompt": "Executando uma limpeza de lista — complete as verificações abaixo. Verifique marketing@newsletter.com e sinalize se for descartável ou problemático. Verifique updates@dailydeals.net quanto à validade e entregabilidade. Determine se info@techblog.org é um endereço temporário/descartável. Verifique se o endereço é uma caixa de entrada de função/equipe (suporte/vendas). Verifique se onlineshopping.com está disponível ou já foi ocupado. Verifique news@mediacompany.org quanto à validade e entregabilidade. Verifique contact@businessupdates.com quanto à validade e entregabilidade.",
+      "id": "lang_pt",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "pt",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The Portuguese translation correctly captures all tasks, conditions, and the tone of the original request, with proper information order."
+      }
+    }
+  ],
+  "english_source": {
+    "language": "en",
+    "prompt": "Running a list cleanup—complete the checks below. Check marketing@newsletter.com and flag if it’s disposable or problematic. Verify updates@dailydeals.net for validity and deliverability. Determine whether info@techblog.org is a temporary/throwaway address. Check whether the address is a role/team inbox (support/sales). Check whether onlineshopping.com is available or already taken. Verify news@mediacompany.org for validity and deliverability. Verify contact@businessupdates.com for validity and deliverability.",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation"
+}

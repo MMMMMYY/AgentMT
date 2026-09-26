@@ -1,0 +1,170 @@
+{
+  "task_id": "TJB-Weather-S-10-25",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "I need detailed weather information for Manhattan. Can you look up ZIP code 10001 in the US to find its coordinates and hardiness zone? After that, please do a reverse lookup for New York at longitude -74.0060 to confirm the location, then search for \"New York\" places in English. Once you've identified New York City, get the daily forecast in English and a detailed weather forecast summary using the exact coordinates (40.71427, -74.00597). Then find weather stations within 75 miles of those coordinates, get their metadata, and retrieve climate data history for station 10637. Finally, show me the monthly weather data from that station from January 1, 2024 through September 7, 2024 in metric units.",
+  "source_sha256": "25989bcb50d928cb69272f0fe8ca98b346a6f113287cf63b379b7439db5c8afa",
+  "status": "reviewed",
+  "variants": [
+    {
+      "language": "zh",
+      "prompt": "我需要曼哈顿的详细天气信息。你能查一下美国邮政编码10001，找到它的坐标和耐寒区吗？之后，请对经度-74.0060的“New York”进行反向查找以确认位置，然后用英文搜索“New York”地点。一旦你确定了纽约市，获取英文的每日预报和使用精确坐标（40.71427, -74.00597）的详细天气预报摘要。然后查找这些坐标75英里范围内的气象站，获取它们的元数据，并检索气象站10637的气候数据历史。最后，显示该气象站从2024年1月1日到2024年9月7日的月度天气数据，使用公制单位。",
+      "id": "lang_zh",
+      "literal_check": {
+        "passed": false,
+        "missing_strings": [],
+        "missing_numeric_tokens": [
+          "-74.0060",
+          "1",
+          "10001",
+          "10637",
+          "2024",
+          "7",
+          "75"
+        ],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": false,
+      "review": {
+        "language": "zh",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all instructions and details from the source in the correct order and tone."
+      }
+    },
+    {
+      "language": "ru",
+      "prompt": "Мне нужна подробная информация о погоде для Манхэттена. Можете ли вы найти почтовый индекс 10001 в США, чтобы узнать его координаты и зону морозостойкости? После этого, пожалуйста, выполните обратный поиск для \"New York\" по долготе -74.0060, чтобы подтвердить местоположение, затем найдите места \"New York\" на английском языке. Как только вы определите Нью-Йорк, получите ежедневный прогноз на английском языке и подробный сводный прогноз погоды, используя точные координаты (40.71427, -74.00597). Затем найдите метеостанции в радиусе 75 миль от этих координат, получите их метаданные и извлеките историю климатических данных для станции 10637. Наконец, покажите мне ежемесячные данные о погоде с этой станции с 1 января 2024 года по 7 сентября 2024 года в метрических единицах.",
+      "id": "lang_ru",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ru",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation is accurate and preserves all aspects of the original request, including task, authorization, tone, order, and language correctness."
+      }
+    },
+    {
+      "language": "fr",
+      "prompt": "J'ai besoin d'informations météorologiques détaillées pour Manhattan. Pouvez-vous rechercher le code postal 10001 aux États-Unis pour trouver ses coordonnées et sa zone de rusticité ? Après cela, veuillez effectuer une recherche inversée pour \"New York\" à la longitude -74.0060 pour confirmer l'emplacement, puis rechercher les lieux \"New York\" en anglais. Une fois que vous avez identifié New York City, obtenez les prévisions quotidiennes en anglais et un résumé détaillé des prévisions météorologiques en utilisant les coordonnées exactes (40.71427, -74.00597). Ensuite, trouvez les stations météorologiques dans un rayon de 75 miles de ces coordonnées, obtenez leurs métadonnées et récupérez l'historique des données climatiques pour la station 10637. Enfin, montrez-moi les données météorologiques mensuelles de cette station du 1er janvier 2024 au 7 septembre 2024 en unités métriques.",
+      "id": "lang_fr",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "fr",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The French translation is a faithful rendition of the source, maintaining all specified conditions and information."
+      }
+    },
+    {
+      "language": "es",
+      "prompt": "Necesito información meteorológica detallada para Manhattan. ¿Puedes buscar el código postal 10001 en EE. UU. para encontrar sus coordenadas y zona de rusticidad? Después de eso, por favor, haz una búsqueda inversa para \"New York\" en la longitud -74.0060 para confirmar la ubicación, luego busca lugares \"New York\" en inglés. Una vez que hayas identificado la ciudad de Nueva York, obtén el pronóstico diario en inglés y un resumen detallado del pronóstico del tiempo usando las coordenadas exactas (40.71427, -74.00597). Luego, encuentra estaciones meteorológicas dentro de un radio de 75 millas de esas coordenadas, obtén sus metadatos y recupera el historial de datos climáticos para la estación 10637. Finalmente, muéstrame los datos meteorológicos mensuales de esa estación desde el 1 de enero de 2024 hasta el 7 de septiembre de 2024 en unidades métricas.",
+      "id": "lang_es",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "es",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The Spanish translation correctly translates all instructions, maintaining the original meaning, order, and tone."
+      }
+    },
+    {
+      "language": "ar",
+      "prompt": "أحتاج إلى معلومات مفصلة عن الطقس لمانهاتن. هل يمكنك البحث عن الرمز البريدي 10001 في الولايات المتحدة للعثور على إحداثياته ومنطقة مقاومته؟ بعد ذلك، يرجى إجراء بحث عكسي عن \"New York\" عند خط الطول -74.0060 لتأكيد الموقع، ثم البحث عن أماكن \"New York\" باللغة الإنجليزية. بمجرد تحديد مدينة نيويورك، احصل على التوقعات اليومية باللغة الإنجليزية وملخص مفصل لتوقعات الطقس باستخدام الإحداثيات الدقيقة (40.71427, -74.00597). ثم ابحث عن محطات الطقس في نطاق 75 ميلاً من تلك الإحداثيات، واحصل على بياناتها الوصفية، واسترجع سجل البيانات المناخية للمحطة 10637. أخيرًا، اعرض لي بيانات الطقس الشهرية من تلك المحطة من 1 يناير 2024 حتى 7 سبتمبر 2024 بالوحدات المترية.",
+      "id": "lang_ar",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ar",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The Arabic translation accurately reflects all the details and instructions from the source text, preserving the original intent and sequence."
+      }
+    },
+    {
+      "language": "de",
+      "prompt": "Ich benötige detaillierte Wetterinformationen für Manhattan. Können Sie die Postleitzahl 10001 in den USA nachschlagen, um ihre Koordinaten und Winterhärtezone zu finden? Danach führen Sie bitte eine umgekehrte Suche nach \"New York\" bei Längengrad -74.0060 durch, um den Standort zu bestätigen, und suchen Sie dann nach \"New York\"-Orten auf Englisch. Sobald Sie New York City identifiziert haben, rufen Sie die tägliche Vorhersage auf Englisch und eine detaillierte Wettervorhersagezusammenfassung unter Verwendung der genauen Koordinaten (40.71427, -74.00597) ab. Suchen Sie dann Wetterstationen innerhalb von 75 Meilen von diesen Koordinaten, rufen Sie deren Metadaten ab und rufen Sie den Klimadatenverlauf für Station 10637 ab. Zeigen Sie mir schließlich die monatlichen Wetterdaten dieser Station vom 1. Januar 2024 bis zum 7. September 2024 in metrischen Einheiten.",
+      "id": "lang_de",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "de",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The German translation is accurate and preserves all aspects of the original request, including task, authorization, tone, order, and language correctness."
+      }
+    },
+    {
+      "language": "pt",
+      "prompt": "Preciso de informações meteorológicas detalhadas para Manhattan. Você pode pesquisar o CEP 10001 nos EUA para encontrar suas coordenadas e zona de rusticidade? Depois disso, por favor, faça uma pesquisa inversa para \"New York\" na longitude -74.0060 para confirmar o local, então procure por lugares \"New York\" em inglês. Assim que você identificar a cidade de Nova York, obtenha a previsão diária em inglês e um resumo detalhado da previsão do tempo usando as coordenadas exatas (40.71427, -74.00597). Em seguida, encontre estações meteorológicas dentro de 75 milhas dessas coordenadas, obtenha seus metadados e recupere o histórico de dados climáticos para a estação 10637. Finalmente, mostre-me os dados meteorológicos mensais dessa estação de 1º de janeiro de 2024 a 7 de setembro de 2024 em unidades métricas.",
+      "id": "lang_pt",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "pt",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The Portuguese translation is accurate and preserves all aspects of the original request, including task, authorization, tone, order, and language correctness."
+      }
+    }
+  ],
+  "english_source": {
+    "language": "en",
+    "prompt": "I need detailed weather information for Manhattan. Can you look up ZIP code 10001 in the US to find its coordinates and hardiness zone? After that, please do a reverse lookup for New York at longitude -74.0060 to confirm the location, then search for \"New York\" places in English. Once you've identified New York City, get the daily forecast in English and a detailed weather forecast summary using the exact coordinates (40.71427, -74.00597). Then find weather stations within 75 miles of those coordinates, get their metadata, and retrieve climate data history for station 10637. Finally, show me the monthly weather data from that station from January 1, 2024 through September 7, 2024 in metric units.",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation"
+}

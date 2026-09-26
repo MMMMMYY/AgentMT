@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:34 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"嘿，我刚加入 Tinder。你能帮我设置个人资料，包括我的个人简介、联系方式、感情偏好等等吗？\"}, {\"language\": \"ru\", \"prompt\": \"Привет, я только что присоединился к Tinder. Можешь помочь настроить мой профиль с моей биографией, контактной информацией, предпочтениями в отношениях и так далее?\"}, {\"language\": \"fr\", \"prompt\": \"Salut, je viens de rejoindre Tinder. Peux-tu m'aider à configurer mon profil avec ma bio, mes coordonnées, mes préférences relationnelles, etc. ?\"}, {\"language\": \"es\", \"prompt\": \"Hola, acabo de unirme a Tinder. ¿Puedes ayudarme a configurar mi perfil con mi biografía, información de contacto, preferencias de relación, etc.?\"}, {\"language\": \"ar\", \"prompt\": \"مرحباً، لقد انضممت للتو إلى Tinder. هل يمكنك المساعدة في إعداد ملفي الشخصي بمعلوماتي الحيوية، ومعلومات الاتصال، وتفضيلات العلاقة، وما إلى ذلك؟\"}, {\"language\": \"de\", \"prompt\": \"Hey, ich bin gerade Tinder beigetreten. Kannst du mir helfen, mein Profil mit meiner Biografie, Kontaktinformationen, Beziehungspräferenzen usw. einzurichten?\"}, {\"language\": \"pt\", \"prompt\": \"Olá, acabei de entrar no Tinder. Você pode me ajudar a configurar meu perfil com minha biografia, informações de contato, preferências de relacionamento e assim por diante?\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:16:31.484752Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "vyCnapDLHbLAm9IPseHGiAI",
+  "usage_metadata": {
+    "candidates_token_count": 332,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 332
+      }
+    ],
+    "prompt_token_count": 323,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 323
+      }
+    ],
+    "total_token_count": 655,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

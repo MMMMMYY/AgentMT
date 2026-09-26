@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:44:42 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"I have to step out for a couple of hours for an appointment.\",\n  \"task\": \"send a quick update to my manager on OpenMessenger summarizing the work tasks I still have left on my plate for today so she knows what to expect\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-08T10:44:42.402782Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "Guefat7KGLSwlb4P-s-a-QQ",
+  "usage_metadata": {
+    "candidates_token_count": 59,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 59
+      }
+    ],
+    "prompt_token_count": 236,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 236
+      }
+    ],
+    "total_token_count": 295,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

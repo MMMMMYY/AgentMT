@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-News_Media-S-7-75",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "News_Media",
+  "taskType": "Niche News (Climate) to Broader Media Analysis",
+  "prompt": "I'm researching climate change news from different perspectives. First, show me all climate change news, then search for that headline \"Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM\" in English. After that, I want to narrow down to CNN's coverage, then focus specifically on their Economy category. Next, search for \"House moves toward averting a shutdown, sidestepping a Trump demand\" within those economic articles. Then show me all the latest articles, and finally, find the 10 most recent stories about GraphQL since it seems to be appearing frequently in tech discussions about climate solutions.",
+  "scope": "Climate Change News_v5, News Network, Moka News, BizToc, dev-to-api, Medium",
+  "trajectoryType": "sequential",
+  "referenceSteps": 7,
+  "positiveOracle": "1. Climate Change News_v5: All Climate Change News\n2. News Network: Search News | required: keyword=Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM, language=en\n3. Moka News: By Source (New) | required: source=cnn\n4. Moka News: by Category | required: cat=Economy\n5. BizToc: Search | required: q=House moves toward averting a shutdown, sidestepping a Trump demand\n6. dev-to-api: Get all the latest articles\n7. Medium: /stories/{topic} | required: topic=graphql | optional: limit=10, filter=latest",
+  "negativeOracle": "",
+  "referenceTrajectory": "Climate Change News_v5: All Climate Change News → News Network: Search News → Moka News: By Source (New) → Moka News: by Category → BizToc: Search → dev-to-api: Get all the latest articles → Medium: /stories/{topic}",
+  "sourceLocator": "public_data/sequential/News_Media/traj_query.json | item=75",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/sequential/News_Media/traj_query.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 1 clean candidates in News_Media/sequential/7-tool stratum."
+}

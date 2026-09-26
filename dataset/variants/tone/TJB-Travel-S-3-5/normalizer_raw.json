@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:46:58 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"\",\n  \"task\": \"find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.0031575830401601016
+    }
+  ],
+  "create_time": "2026-09-08T10:46:58.116493Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "ouefao2OB4CZ28sPtJDxwQY",
+  "usage_metadata": {
+    "candidates_token_count": 74,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 74
+      }
+    ],
+    "prompt_token_count": 254,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 254
+      }
+    ],
+    "total_token_count": 328,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

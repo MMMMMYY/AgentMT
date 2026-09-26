@@ -1,0 +1,236 @@
+{
+  "task_id": "TJB-Gaming-S-5-116",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "I'm looking for some free games to play this weekend. I heard Outliver: Tribulation might be free right now. I'm also interested in horror games on PC similar to the Outlast series. I'm in the mood for something with zombies. I love games with food-related names.\n\nCould you check what's currently free on the Epic Games Store in the US, find reviews for Outliver: Tribulation, search for horror games on PC similar to the Outlast series with a zombie theme, and show me reviews and deals for a game called Zombie Soup?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "All original requests are present and combined into a single, clear instruction."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p02",
+      "prompt": "I'm looking for some free games to play this weekend. I heard Outliver: Tribulation might be free right now. I'm also interested in horror games on PC similar to the Outlast series. I'm in the mood for something with zombies. I love games with food-related names.\n\nIs it possible to check what's currently free on the Epic Games Store in the US, find reviews for Outliver: Tribulation, search for horror games on PC similar to the Outlast series with a zombie theme, and show me reviews and deals for a game called Zombie Soup?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'Is it possible to check...' changes the request to an ability question rather than a direct request to perform the actions."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p03",
+      "prompt": "I'm looking for some free games to play this weekend. I heard Outliver: Tribulation might be free right now. I'm also interested in horror games on PC similar to the Outlast series. I'm in the mood for something with zombies. I love games with food-related names.\n\nCan you please check what's currently free on the Epic Games Store in the US, find reviews for Outliver: Tribulation, search for horror games on PC similar to the Outlast series with a zombie theme, and show me reviews and deals for a game called Zombie Soup?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "All original requests are present and combined into a single, clear instruction."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p04",
+      "prompt": "I'm looking for some free games to play this weekend. I heard Outliver: Tribulation might be free right now. I'm also interested in horror games on PC similar to the Outlast series. I'm in the mood for something with zombies. I love games with food-related names.\n\nPlease help me check what's currently free on the Epic Games Store in the US, find reviews for Outliver: Tribulation, search for horror games on PC similar to the Outlast series with a zombie theme, and show me reviews and deals for a game called Zombie Soup.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "All original requests are present and combined into a single, clear instruction."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p05",
+      "prompt": "I'm looking for some free games to play this weekend. I heard Outliver: Tribulation might be free right now. I'm also interested in horror games on PC similar to the Outlast series. I'm in the mood for something with zombies. I love games with food-related names.\n\nCheck what's currently free on the Epic Games Store in the US, find reviews for Outliver: Tribulation, search for horror games on PC similar to the Outlast series with a zombie theme, and show me reviews and deals for a game called Zombie Soup, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "All original requests are present and combined into a single, clear instruction."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n01",
+      "prompt": "I'm looking for some free games to play this weekend. I heard Outliver: Tribulation might be free right now. I'm also interested in horror games on PC similar to the Outlast series. I'm in the mood for something with zombies. I love games with food-related names.\n\nCan you check what's currently free on the Epic Games Store in the US, find reviews for Outliver: Tribulation, search for horror games on PC similar to the Outlast series with a zombie theme, and show me reviews and deals for a game called Zombie Soup?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "All original requests are present and combined into a single, clear instruction."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n02",
+      "prompt": "I'm looking for some free games to play this weekend. I heard Outliver: Tribulation might be free right now. I'm also interested in horror games on PC similar to the Outlast series. I'm in the mood for something with zombies. I love games with food-related names.\n\nAre you able to check what's currently free on the Epic Games Store in the US, find reviews for Outliver: Tribulation, search for horror games on PC similar to the Outlast series with a zombie theme, and show me reviews and deals for a game called Zombie Soup?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'Are you able to check...' changes the request to an ability question rather than a direct request to perform the actions."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n03",
+      "prompt": "I'm looking for some free games to play this weekend. I heard Outliver: Tribulation might be free right now. I'm also interested in horror games on PC similar to the Outlast series. I'm in the mood for something with zombies. I love games with food-related names.\n\nCan you help me check what's currently free on the Epic Games Store in the US, find reviews for Outliver: Tribulation, search for horror games on PC similar to the Outlast series with a zombie theme, and show me reviews and deals for a game called Zombie Soup?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'Can you help me check...' changes the request to an offer of assistance rather than a direct request to perform the actions."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n04",
+      "prompt": "I'm looking for some free games to play this weekend. I heard Outliver: Tribulation might be free right now. I'm also interested in horror games on PC similar to the Outlast series. I'm in the mood for something with zombies. I love games with food-related names.\n\nPlease check what's currently free on the Epic Games Store in the US, find reviews for Outliver: Tribulation, search for horror games on PC similar to the Outlast series with a zombie theme, and show me reviews and deals for a game called Zombie Soup.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "All original requests are present and combined into a single, clear instruction."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n05",
+      "prompt": "I'm looking for some free games to play this weekend. I heard Outliver: Tribulation might be free right now. I'm also interested in horror games on PC similar to the Outlast series. I'm in the mood for something with zombies. I love games with food-related names.\n\nCheck what's currently free on the Epic Games Store in the US, find reviews for Outliver: Tribulation, search for horror games on PC similar to the Outlast series with a zombie theme, and show me reviews and deals for a game called Zombie Soup.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "All original requests are present and combined into a single, clear instruction."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i01",
+      "prompt": "I'm looking for some free games to play this weekend. I heard Outliver: Tribulation might be free right now. I'm also interested in horror games on PC similar to the Outlast series. I'm in the mood for something with zombies. I love games with food-related names.\n\nJust check what's currently free on the Epic Games Store in the US, find reviews for Outliver: Tribulation, search for horror games on PC similar to the Outlast series with a zombie theme, and show me reviews and deals for a game called Zombie Soup.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "All original requests are present and combined into a single, clear instruction. The 'Just' adds impoliteness but doesn't change the core task."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i02",
+      "prompt": "I'm looking for some free games to play this weekend. I heard Outliver: Tribulation might be free right now. I'm also interested in horror games on PC similar to the Outlast series. I'm in the mood for something with zombies. I love games with food-related names.\n\nCheck what's currently free on the Epic Games Store in the US, find reviews for Outliver: Tribulation, search for horror games on PC similar to the Outlast series with a zombie theme, and show me reviews and deals for a game called Zombie Soup. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "All original requests are present and combined into a single, clear instruction. 'Do it' adds impoliteness but doesn't change the core task."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i03",
+      "prompt": "I'm looking for some free games to play this weekend. I heard Outliver: Tribulation might be free right now. I'm also interested in horror games on PC similar to the Outlast series. I'm in the mood for something with zombies. I love games with food-related names.\n\nThis time, check what's currently free on the Epic Games Store in the US, find reviews for Outliver: Tribulation, search for horror games on PC similar to the Outlast series with a zombie theme, and show me reviews and deals for a game called Zombie Soup.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "All original requests are present and combined into a single, clear instruction. 'This time' implies a previous conversation, but the task itself is equivalent."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i04",
+      "prompt": "I'm looking for some free games to play this weekend. I heard Outliver: Tribulation might be free right now. I'm also interested in horror games on PC similar to the Outlast series. I'm in the mood for something with zombies. I love games with food-related names.\n\nYou need to check what's currently free on the Epic Games Store in the US, find reviews for Outliver: Tribulation, search for horror games on PC similar to the Outlast series with a zombie theme, and show me reviews and deals for a game called Zombie Soup.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'You need to check...' is a statement of necessity or obligation, not a direct request for action."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i05",
+      "prompt": "I'm looking for some free games to play this weekend. I heard Outliver: Tribulation might be free right now. I'm also interested in horror games on PC similar to the Outlast series. I'm in the mood for something with zombies. I love games with food-related names.\n\nWhy can't you check what's currently free on the Epic Games Store in the US, find reviews for Outliver: Tribulation, search for horror games on PC similar to the Outlast series with a zombie theme, and show me reviews and deals for a game called Zombie Soup?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'Why can't you check...' is a rhetorical question, not a direct request for action. It implies a previous conversation or a challenge to ability."
+      },
+      "eligible_pilot": false
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "ddbf93bc235929f9ddd3f011322bc76f080e26d4ae96750e2bdd3d65afb38efb",
+  "scenario_id": "TJB-Gaming-S-5-116"
+}

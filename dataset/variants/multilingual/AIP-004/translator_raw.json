@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:15:37 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"请查看我的胆固醇测试结果，并提出饮食改变建议以降低我的胆固醇。\"}, {\"language\": \"ru\", \"prompt\": \"Пожалуйста, просмотрите результаты моего анализа на холестерин и предложите изменения в диете для снижения уровня холестерина.\"}, {\"language\": \"fr\", \"prompt\": \"Veuillez examiner les résultats de mon test de cholestérol et suggérer des changements alimentaires pour réduire mon cholestérol.\"}, {\"language\": \"es\", \"prompt\": \"Por favor, revise los resultados de mi prueba de colesterol y sugiera cambios dietéticos para reducir mi colesterol.\"}, {\"language\": \"ar\", \"prompt\": \"الرجاء مراجعة نتائج اختبار الكوليسترول الخاص بي واقتراح تغييرات غذائية لخفض الكوليسترول لدي.\"}, {\"language\": \"de\", \"prompt\": \"Bitte überprüfen Sie meine Cholesterintestergebnisse und schlagen Sie Ernährungsumstellungen vor, um mein Cholesterin zu senken.\"}, {\"language\": \"pt\", \"prompt\": \"Por favor, revise os resultados do meu exame de colesterol e sugira mudanças dietéticas para reduzir meu colesterol.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.028652656509215575
+    }
+  ],
+  "create_time": "2026-09-13T22:15:35.098892Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "hyCnasyEBs-pr8kPwNDvwA4",
+  "usage_metadata": {
+    "candidates_token_count": 249,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 249
+      }
+    ],
+    "prompt_token_count": 310,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 310
+      }
+    ],
+    "total_token_count": 559,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

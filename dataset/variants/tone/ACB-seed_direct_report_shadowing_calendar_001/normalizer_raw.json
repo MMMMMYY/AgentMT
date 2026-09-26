@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:44:10 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"\",\n  \"task\": \"message Lina with my unavailable blocks for Wednesday so she can plan when to shadow me\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.006000871304422617
+    }
+  ],
+  "create_time": "2026-09-08T10:44:10.099638Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "-uafaraKBrSHi-8PnN2DmA4",
+  "usage_metadata": {
+    "candidates_token_count": 32,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 32
+      }
+    ],
+    "prompt_token_count": 209,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 209
+      }
+    ],
+    "total_token_count": 241,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

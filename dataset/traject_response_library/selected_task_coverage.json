@@ -1,0 +1,2394 @@
+{
+  "tasks": [
+    {
+      "task_id": "TJB-Education-P-7-101",
+      "calls": [
+        {
+          "name": "Numbers: Get math fact",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Numbers: Get trivia fact",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "periodicTable: periodic table",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Helioviewer v1: getDataSources",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Learn to read and write Japanese kanji: Kanji stroke number",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Uncovered Treasure: /verse/{verse}",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Random Words: Get multiple random words",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-Education-P-9-114",
+      "calls": [
+        {
+          "name": "Stars API: Planet list",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Numbers: Get math fact",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Random Words: Get multiple random words",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Learn to read and write Japanese kanji: Kanji stroke number",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "TED Talks API: getTalks",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": false,
+          "conflicting_source_responses": true
+        },
+        {
+          "name": "Numbers: Get year fact",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Dr Almotawa Quotes: Get random quote",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Uncovered Treasure: /verse/{verse}",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": false,
+          "conflicting_source_responses": true
+        },
+        {
+          "name": "Indonesia School List: List of School in Sub-Disctrict (Kecamatan)",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": false
+    },
+    {
+      "task_id": "TJB-Education-S-3-7",
+      "calls": [
+        {
+          "name": "Indonesia School List: Number of Schools in Indonesian City / District (Kabupaten / Kota)",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Indonesia School List: Number of Schools in Indonesia Sub-District (Kecamatan)",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Indonesia School List: List of School in Sub-Disctrict (Kecamatan)",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-Education-S-5-57",
+      "calls": [
+        {
+          "name": "Indonesia School List: Number of Schools in Indonesian City / District (Kabupaten / Kota)",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Indonesia School List: Number of Schools in Indonesia Sub-District (Kecamatan)",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Indonesia School List: List of School in Sub-Disctrict (Kecamatan)",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "DEI: GetPeople",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": true
+        },
+        {
+          "name": "TED Talks API: getTalks",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": false,
+          "conflicting_source_responses": true
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": false
+    },
+    {
+      "task_id": "TJB-Email-P-3-121",
+      "calls": [
+        {
+          "name": "Get emails from url: Get emails",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Email Address Validator: Validate Email Address",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "GetTempMail: Create Email",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-Email-P-5-134",
+      "calls": [
+        {
+          "name": "Blaze Verify: Verify an email",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Email Existence Validator: Get the MX Records",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Email Existence Validator: Check for Disposable emails",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Email Address Validator: Validate Email Address",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Email API: Get Fake Email Address",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-Email-P-7-181",
+      "calls": [
+        {
+          "name": "Alpha Email Verification: Email Checker",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Blaze Verify: Verify an email",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Email Existence Validator: Check for Disposable emails",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "fast Email verifier: Role Account",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "fast Email verifier: FreeDomain",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Email Address Validator: Validate Email Address",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Email Validation_v3: Validate_Email",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-Email-P-9-193",
+      "calls": [
+        {
+          "name": "Alpha Email Verification: Email Checker",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Email Existence Validator: Check for Disposable emails",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Email Validation_v3: Validate_Email",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "fast Email verifier: disposable Domain and Suggest Domain",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "fast Email verifier: FreeDomain",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "fast Email verifier: Role Account",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Email Existence Validator: Get the MX Records",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Get emails from url: Get emails",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Email API: Get Fake Email Address",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-Finance-P-7-65",
+      "calls": [
+        {
+          "name": "Twelve Data: KAMA",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Twelve Data: AROON",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Twelve Data: CRSI",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Twelve Data: HT_PHASOR",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Twelve Data: MIDPOINT",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Twelve Data: MOM",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Yahoo Finance_v2: stock/institution-ownership",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-Finance-P-10-36",
+      "calls": [
+        {
+          "name": "Twelve Data: RSI",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": false,
+          "conflicting_source_responses": true
+        },
+        {
+          "name": "Twelve Data: MACD",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Twelve Data: BBANDS",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Twelve Data: LINEARREGSLOPE",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Twelve Data: MFI",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Stock Sentiment API: News Sentiment Data",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Stock Sentiment API: Market Data",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Realtime Crypto Prices: Get Realtime Rates",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Bybit: Get Index Price Kline",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": false,
+          "reference_response_matches_fixed": false,
+          "conflicting_source_responses": null
+        },
+        {
+          "name": "Twelve Data: NATR",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": false,
+      "reference_data_unchanged": false
+    },
+    {
+      "task_id": "TJB-Finance-S-3-19",
+      "calls": [
+        {
+          "name": "Mboum Finance: market/most_actives",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Mboum Finance: market/news/{stock}",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Stock Sentiment API: News Sentiment Data",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-Finance-S-9-124",
+      "calls": [
+        {
+          "name": "Twelve Data: MFs Family List",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Twelve Data: MFs List",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": true
+        },
+        {
+          "name": "Twelve Data: Composition",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Yahoo Finance_v2: stock/profile",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Yahoo Finance_v2: stock/earnings",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Mboum Finance: market/news/{stock}",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Webull: news/search",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Mboum Finance: stock/calendar-events/{stock}",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Yahoo Finance_v2: options",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-Gaming-P-7-62",
+      "calls": [
+        {
+          "name": "Rocket League: Tournaments",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Rocket League: Population",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "OpenCritic API: /game/hall-of-fame/{year}",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Epic Games Store - Free Games: Free Games",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Card Draw Simulator: Card",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Lost Ark: get classes",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "CheapShark - Game Deals: List of Games",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-Gaming-P-9-35",
+      "calls": [
+        {
+          "name": "Epic Games Store - Free Games: Free Games",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "OpenCritic API: General Search",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "CheapShark - Game Deals: List of Games",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Pokemon Unite Pokemons: Get Pokemon data by name",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Lost Ark: get a specific item",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Rocket League: Population",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Lost Ark: get raids",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Dice Roll Simulator: Custom dice",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "OpenCritic API: Author Search",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-Gaming-S-3-166",
+      "calls": [
+        {
+          "name": "Free-to-Play Games Database: Filter games by multiple tags",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "OpenCritic API: Game Search",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "CheapShark - Game Deals: List of Games",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-Gaming-S-5-116",
+      "calls": [
+        {
+          "name": "Epic Games Store - Free Games: Free Games",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "OpenCritic API: Game Search",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Free-to-Play Games Database: Filter games by multiple tags",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "OpenCritic API: General Search",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "CheapShark - Game Deals: List of Games",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-Mapping-P-7-103",
+      "calls": [
+        {
+          "name": "Heightmap from Latitude and Longitude: get heightmap from two geopoints",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "TrueWay Directions: FindDrivingPath",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Geocoding by API-Ninjas: /v1/reversegeocoding",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "MapToolkit: Global Terrain Raster",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Mapilion - Vector and Raster Map Tiles: Get Vector Tile",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Mapilion - Vector and Raster Map Tiles: Get Hillshading Tile",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "boundaries-io: Query by Location for County boundaries",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-Mapping-P-10-159",
+      "calls": [
+        {
+          "name": "Geocode - Forward and Reverse: Forward geocode",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "MapFanAPI - Route: altcalcroute",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "TrueWay Directions: FindDrivingRoute",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "boundaries-io: Query by Location for County boundaries",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Places Nearby a Coordinates: Nearby",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Places Nearby a Coordinates: Categories",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Reverse Geocoding and Geolocation Service: GetTimezone",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "MapToolkit: Elevation",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Mapilion - Vector and Raster Map Tiles: Get Hillshading Tile",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "MapToolkit: Staticmaps",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-Mapping-S-3-197",
+      "calls": [
+        {
+          "name": "TrueWay Directions: FindDrivingRoute",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "MapFanAPI - Route: nearroadinfo",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "MapFanAPI - Search: addr",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-Mapping-S-9-46",
+      "calls": [
+        {
+          "name": "Address From To Latitude Longitude: Address to Coordinates  (latitude longitude)",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "boundaries-io: Query by Location for County boundaries",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "boundaries-io: Get County names by State.",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Geocoding by API-Ninjas: /v1/geocoding",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Places Nearby a Coordinates: Nearby",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "MapFanAPI - Search: spot",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Geocode - Forward and Reverse: Reverse geocode",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Reverse Geocoding and Geolocation Service: GetTimezone",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "MapToolkit: Elevation",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-Music-P-7-62",
+      "calls": [
+        {
+          "name": "Shazam: search",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "SoundCloud Scraper: Download Lyrics on Spotify (2 Quotas)",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "kjoller: Get songs by composer",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Billboard API_v2: Catalog Albums",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Youtube Music API (Detailed): Search",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Spotify_v3: Top 200 songs by country / global",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "K-POP: Idols",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": false,
+          "conflicting_source_responses": true
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": false
+    },
+    {
+      "task_id": "TJB-Music-P-9-152",
+      "calls": [
+        {
+          "name": "Shazam: search",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Shazam: songs/get-details",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Shazam: songs/get-count",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Billboard: Billboard Global 200",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Billboard-API: BILLBOARD JAPAN HOT 100",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Billboard: Billboard 200",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Spotify: Search",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Billboard API_v2: Independent Albums",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "50K Radio Stations: Get Channels",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-Music-S-3-186",
+      "calls": [
+        {
+          "name": "K-POP: girl-groups",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Spotify: Search",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": false,
+          "conflicting_source_responses": true
+        },
+        {
+          "name": "Spotify: Get radio playlist",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": false
+    },
+    {
+      "task_id": "TJB-Music-S-8-54",
+      "calls": [
+        {
+          "name": "Billboard: Billboard 200",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Spotify: Search",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Spotify Web: Get albums",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Spotify _v2: Artist Details (Single)",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Genius - Song Lyrics: Chart: Songs",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Shazam: search",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Shazam: songs/get-count",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Shazam: songs/get-details",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-News_Media-P-8-188",
+      "calls": [
+        {
+          "name": "ALL Crypto News Feed: Get ALL Feed",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "IEEE Spectrum API: Get the latest 30 News from IEEE Spectrum",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Kubric: The Comprehensive Movie News API: Basic Search",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "BizToc: News / Hot",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "LGBTQ World News Live: Get All LGBTQ+ News",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "dev-to-api: Get the top articles of all time",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Arabic news API: CNN Arabic",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Election2020 Smartable: GetTopics",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-News_Media-P-10-32",
+      "calls": [
+        {
+          "name": "dev-to-api: Get all the top articles of the week by default",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "IEEE Spectrum API: Get the latest 30 News from IEEE Spectrum",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "BizToc: News / Latest / Page",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Kubric: The Comprehensive Movie News API: Basic Search",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Coronavirus Smartable: GetNews",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Election2020 Smartable: GetPeopleByTopic",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Arabic news API: Aljazeera",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "German Police and Crime News Live: Get all Police News",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Latest IPL News: Get All IPL News",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Narco in Mexico: Get All Narco News",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-News_Media-S-3-175",
+      "calls": [
+        {
+          "name": "dev-to-api: Get all the latest articles",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Medium: /stories/{topic}",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": true
+        },
+        {
+          "name": "News Network: Search News",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-News_Media-S-7-75",
+      "calls": [
+        {
+          "name": "Climate Change News_v5: All Climate Change News",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "News Network: Search News",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Moka News: By Source (New)",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Moka News: by Category",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "BizToc: Search",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "dev-to-api: Get all the latest articles",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Medium: /stories/{topic}",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": true
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-Travel-S-3-5",
+      "calls": [
+        {
+          "name": "Priceline com Provider: Download cities",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Priceline com Provider: Search hotels locations",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Priceline com Provider: Hotel details",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": true
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-Travel-S-4-28",
+      "calls": [
+        {
+          "name": "Priceline com Provider: Auto Suggest",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Flightera Flight Data: airportInfo",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Flightera Flight Data: airportFlights",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Flightera Flight Data: flightInfo",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-Travel-S-5-44",
+      "calls": [
+        {
+          "name": "Priceline com Provider: Auto Suggest",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Priceline com Provider: Search hotels locations",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Priceline com Provider: Hotel details",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": true
+        },
+        {
+          "name": "Priceline com Provider: Search hotels locations by geolocation",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "AI Trip Planner: Get Trip Plan",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": true
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-Travel-S-7-90",
+      "calls": [
+        {
+          "name": "Priceline com Provider: Download countries",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Priceline com Provider: Auto Suggest",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": false,
+          "conflicting_source_responses": true
+        },
+        {
+          "name": "Flightera Flight Data: airportInfo",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Flightera Flight Data: airportFlights",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Flightera Flight Data: flightInfo",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Flightera Flight Data: airportInfo",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Priceline com Provider: Search hotels locations",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": false
+    },
+    {
+      "task_id": "TJB-Weather-P-4-9",
+      "calls": [
+        {
+          "name": "AI Weather by Meteosource: daily",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "National Weather Service: /alerts/active",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Air Quality: Air Quality History",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "WeatherAPI.com: Astronomy API",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-Weather-P-7-144",
+      "calls": [
+        {
+          "name": "AI Weather by Meteosource: astro",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Forecast: RapidApiGetForecastHourlyByCoordinates",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "meteostat: Daily Point Data",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Air Quality: Air Quality Forecast",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": true
+        },
+        {
+          "name": "National Weather Service: /alerts/active/region/{region}",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "RapidWeather: Cities in circle",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "meteostat: Hourly Point Data",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-Weather-S-9-38",
+      "calls": [
+        {
+          "name": "WeatherAPI.com: Sports API",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "RapidWeather: Coordinates by location name",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "AI Weather by Meteosource: nearest_place",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "AI Weather by Meteosource: hourly",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Cloud Cast: Get current weather",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Forecast: RapidApiGetForecastHourlyByCoordinates",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "AI Weather by Meteosource: minutely",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "World Weather Online API: Local Weather API",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": false,
+          "conflicting_source_responses": true
+        },
+        {
+          "name": "Sun Seeker API: sunposition",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": false
+    },
+    {
+      "task_id": "TJB-Weather-S-10-25",
+      "calls": [
+        {
+          "name": "RapidWeather: Coordinates by zip/post code",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Plant Hardiness Zone: Retrieve the Hardiness Zone",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "RapidWeather: Reverse geocoding",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "AI Weather by Meteosource: find_places",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "AI Weather by Meteosource: daily",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Forecast: RapidApiGetForecastSummaryByCoordinates",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "meteostat: Nearby Stations",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "meteostat: Station Meta Data",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "meteostat: Station Climate Data",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "meteostat: Monthly Station Data",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-eCommerce-P-7-101",
+      "calls": [
+        {
+          "name": "Ikea API: Countries",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Wayfair: auto-complete",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Asos: countries/list",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Wayfair: products/get-common-info",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Lazada DataHub: Lazada - Item Search",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": false,
+          "conflicting_source_responses": true
+        },
+        {
+          "name": "Asos: categories/list",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Zappos Realtime Data: Zappos search product",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": true
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": false
+    },
+    {
+      "task_id": "TJB-eCommerce-P-9-71",
+      "calls": [
+        {
+          "name": "Asos: categories/list",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Wayfair: reviews/list",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Amazon Pricing and Product Info: Main Endpoint",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Zappos Realtime Data: Zappos search product",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Aliexpress DataHub: Aliexpress - Item Search 3",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Lazada DataHub: Lazada - Item Search",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Wayfair: products/get-financing-offers",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Ikea API: Countries",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Wayfair: products/get-similar-items",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-eCommerce-S-3-17",
+      "calls": [
+        {
+          "name": "Asos: countries/list",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Asos: categories/list",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Asos: v2/auto-complete",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    },
+    {
+      "task_id": "TJB-eCommerce-S-10-180",
+      "calls": [
+        {
+          "name": "Wayfair: products/get-common-info",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Wayfair: products/get-images",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Wayfair: reviews/list",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Wayfair: products/get-warranty-services",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Wayfair: products/get-home-services",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Wayfair: products/get-financing-offers",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "BestBuy Product Data: BestBuyProductData",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Amazon Pricing and Product Info: Main Endpoint",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Zappos Realtime Data: Zappos search product",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        },
+        {
+          "name": "Zappos Realtime Data: Zappos product detail by Product ID",
+          "schema_resolved": true,
+          "in_domain_pool": true,
+          "response_covered": true,
+          "reference_response_matches_fixed": true,
+          "conflicting_source_responses": false
+        }
+      ],
+      "all_reference_calls_covered": true,
+      "reference_data_unchanged": true
+    }
+  ],
+  "selected_tasks": 40,
+  "reference_calls": 263,
+  "covered_reference_calls": 262,
+  "fully_covered_reference_tasks": 39,
+  "unchanged_reference_data_tasks": 32,
+  "warning": "Reference-call coverage is not coverage of arbitrary agent calls and not evidence of task completion"
+}

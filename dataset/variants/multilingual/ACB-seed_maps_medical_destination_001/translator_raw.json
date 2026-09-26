@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:38 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"我正在开车，设计同步会议要迟到了。在 OpenMaps 上查看我的预计到达时间，并在设计团队聊天中快速留言，告诉他们我还需要多久才能加入通话。\"},{\"language\":\"ru\",\"prompt\":\"Я за рулем и опаздываю на синхронизацию дизайна. Проверьте мое расчетное время прибытия на OpenMaps и напишите короткое сообщение в чат команды дизайнеров, сообщив им, сколько времени пройдет, прежде чем я смогу присоединиться к звонку.\"},{\"language\":\"fr\",\"prompt\":\"Je conduis et je suis en retard pour la synchronisation de la conception. Vérifiez mon heure d'arrivée estimée sur OpenMaps et laissez une courte note dans le chat de l'équipe de conception pour leur dire combien de temps il me faudra avant de pouvoir me joindre à l'appel.\"},{\"language\":\"es\",\"prompt\":\"Estoy conduciendo y llego tarde a la sincronización de diseño. Revisa mi ETA en OpenMaps y deja una nota rápida en el chat del equipo de diseño diciéndoles cuánto tiempo pasará hasta que pueda unirme a la llamada.\"},{\"language\":\"ar\",\"prompt\":\"أنا أقود السيارة ومتأخر عن مزامنة التصميم. تحقق من وقت وصولي المقدر على OpenMaps واترك ملاحظة سريعة في دردشة فريق التصميم لإخبارهم بالمدة التي ستستغرقها حتى أتمكن من الانضمام إلى المكالمة.\"},{\"language\":\"de\",\"prompt\":\"Ich fahre Auto und bin zu spät für die Design-Synchronisierung. Überprüfen Sie meine voraussichtliche Ankunftszeit auf OpenMaps und hinterlassen Sie eine kurze Notiz im Design-Team-Chat, in der Sie ihnen mitteilen, wie lange es dauern wird, bis ich am Anruf teilnehmen kann.\"},{\"language\":\"pt\",\"prompt\":\"Estou dirigindo e atrasado para a sincronização de design. Verifique minha ETA no OpenMaps e deixe uma nota rápida no chat da Equipe de Design informando-os quanto tempo levará até que eu possa entrar na chamada.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:17:35.848071Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "_yCnasfhM8-pr8kPwNDvwA4",
+  "usage_metadata": {
+    "candidates_token_count": 442,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 442
+      }
+    ],
+    "prompt_token_count": 338,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 338
+      }
+    ],
+    "total_token_count": 780,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

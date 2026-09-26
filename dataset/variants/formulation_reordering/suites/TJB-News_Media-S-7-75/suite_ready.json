@@ -1,0 +1,16 @@
+{
+  "task_id": "TJB-News_Media-S-7-75",
+  "scenario_id": null,
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "io01",
+      "prompt": "First, show me all climate change news, then search for that headline \"Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM\" in English. After that, I want to narrow down to CNN's coverage, then focus specifically on their Economy category. Next, search for \"House moves toward averting a shutdown, sidestepping a Trump demand\" within those economic articles. Then show me all the latest articles, and finally, find the 10 most recent stories about GraphQL since it seems to be appearing frequently in tech discussions about climate solutions. I'm researching climate change news from different perspectives.",
+      "transformation": "sentence_permutation",
+      "sentence_multiset_preserved": true,
+      "information_order_changed": true,
+      "eligible_pilot": true,
+      "validation_basis": "deterministic span preservation and dependency exclusion rules"
+    }
+  ]
+}

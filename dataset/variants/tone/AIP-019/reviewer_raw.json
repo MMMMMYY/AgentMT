@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:42:48 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"reviews\": [{\"id\": \"p01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The request is phrased as a polite question, but still clearly asks for the same actions and information as the source.\"}, {\"id\": \"p02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The request is phrased as a polite question about possibility, but still clearly asks for the same actions and information as the source.\"}, {\"id\": \"p03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The request is phrased as a polite question, but still clearly asks for the same actions and information as the source.\"}, {\"id\": \"p04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The request uses 'please help me' which is a polite way to ask for the same actions and information as the source.\"}, {\"id\": \"p05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The request uses 'please' at the end, maintaining the same actions and information as the source.\"}, {\"id\": \"n01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The request is phrased as a neutral question, but still clearly asks for the same actions and information as the source.\"}, {\"id\": \"n02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The request is phrased as a neutral question about ability, but still clearly asks for the same actions and information as the source.\"}, {\"id\": \"n03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The request uses 'Can you help me' which is a neutral way to ask for the same actions and information as the source.\"}, {\"id\": \"n04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The request uses 'Please' at the beginning, maintaining the same actions and information as the source.\"}, {\"id\": \"n05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The request is a direct imperative, identical in task to the source.\"}, {\"id\": \"i01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The request uses 'Just' before the imperative, which is impolite but still clearly asks for the same actions and information as the source.\"}, {\"id\": \"i02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The request includes 'Do it' after the imperative, which is impolite but still clearly asks for the same actions and information as the source.\"}, {\"id\": \"i03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The request uses 'This time' which implies a previous conversation or failure, making it impolite but still clearly asks for the same actions and information as the source.\"}, {\"id\": \"i04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The request uses 'You need to' which is an impolite way to state the same actions and information as the source.\"}, {\"id\": \"i05\", \"task_equivalent\": false, \"authorization_equivalent\": false, \"information_order_preserved\": true, \"reason\": \"This is a rhetorical question asking 'Why can't you...', which is an explanation question rather than a direct request to execute the task. It does not directly ask for the actions to be performed.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.06625053263702894
+    }
+  ],
+  "create_time": "2026-09-08T10:42:44.111179Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "pOafasvkBumGqMgPzKO3uA8",
+  "usage_metadata": {
+    "candidates_token_count": 913,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 913
+      }
+    ],
+    "prompt_token_count": 1139,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1139
+      }
+    ],
+    "total_token_count": 2052,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

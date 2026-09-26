@@ -1,0 +1,144 @@
+{
+  "source_rows": 5670,
+  "observed_calls": 36794,
+  "accepted_observations": 34280,
+  "excluded_missing_or_error_response": 2514,
+  "unresolved_tool_schema": 0,
+  "source_repository": "https://github.com/PengfeiHePower/TRAJECT-Bench",
+  "tools": 674,
+  "ambiguous_schemas": [],
+  "unique_calls": 9416,
+  "conflicting_call_keys": 546,
+  "selection_rule": "Most frequent usable response per exact call; tie broken by response SHA256",
+  "cross_call_temporal_coherence": "not_guaranteed; published records may come from different dates",
+  "library_sha256": "c7f2eef4dd7f5a1d433c3d2db008703d87adfd79777b1f0dad33e7b9d929cf1e",
+  "source_files": [
+    {
+      "path": "parallel/Education/hard_ver.json",
+      "sha256": "1879d3377b980cffeabb8559564d61c70ae93aba7a09fd682aa355962fa1efd6"
+    },
+    {
+      "path": "parallel/Education/simple_ver.json",
+      "sha256": "0c3fca4656baad0d6fee54108dfbdf46cd6eace6a5eb9d3e0bddc50bd6f1f7b9"
+    },
+    {
+      "path": "parallel/Email/hard_ver.json",
+      "sha256": "9a52b55c471bf8ae3483cf61224b62e57f12ad32a835ed7ae78146ac707f1249"
+    },
+    {
+      "path": "parallel/Email/simple_ver.json",
+      "sha256": "52d00604440e9a3a53569f2da28ecff7bf0ade35fdbf32e53bbbed6b0bbce5b4"
+    },
+    {
+      "path": "parallel/Finance/hard_ver.json",
+      "sha256": "b96150dd89b0d8c1fccf701b8966df6039f9944eb4977458ba46bd92e09d0ddb"
+    },
+    {
+      "path": "parallel/Finance/simple_ver.json",
+      "sha256": "30d967fdf6ff57bbde8bbac70f73b6e4f869043751242a4e3a1d5052f40c82d3"
+    },
+    {
+      "path": "parallel/Gaming/hard_ver.json",
+      "sha256": "8d6e3e6f7e37eb8f6b559380fe1f0a9aa9c109303b42ccfb332676d415338301"
+    },
+    {
+      "path": "parallel/Gaming/simple_ver.json",
+      "sha256": "cad02891474ca0f7e9807f6fc2d68ce820538d2ebe806a9e7dbfdc2715834194"
+    },
+    {
+      "path": "parallel/Mapping/hard_ver.json",
+      "sha256": "e3306e6be733f769f5cd1245d15c9eab5cdda6a3f3154570178eacd125cef7ce"
+    },
+    {
+      "path": "parallel/Mapping/simple_ver.json",
+      "sha256": "719e8959e599e60f94e55a7fe00ffe7cc4a021d4b36f88684fe79fd2b6f54a68"
+    },
+    {
+      "path": "parallel/Music/hard_ver.json",
+      "sha256": "34e9a5a378175696d0c22684e5b70e62c73bb20e99e4f9196e4f4d547747de26"
+    },
+    {
+      "path": "parallel/Music/simple_ver.json",
+      "sha256": "615b1eb1276de62657fd9eade8f0204e1a07aef55985dc8ab3498121ee4702c7"
+    },
+    {
+      "path": "parallel/News_Media/hard_ver.json",
+      "sha256": "d81395cb0569b97f74e22d2d7b830f658ba455ac2edf3d07c80dabc194b55a1e"
+    },
+    {
+      "path": "parallel/News_Media/simple_ver.json",
+      "sha256": "bb7d9ef94fc608f6d2ab01e74037a60e909a87f11cac434907ea09e07d6d8a83"
+    },
+    {
+      "path": "parallel/Travel/hard_ver.json",
+      "sha256": "aa10593257a1c4eb8939e85249381fe5f696cfda5469294d28107c493dca433a"
+    },
+    {
+      "path": "parallel/Travel/simple_ver.json",
+      "sha256": "4d2e8564227c57d741836981d9ce462fff95685917fb36eb46d1e36f921f0009"
+    },
+    {
+      "path": "parallel/Weather/hard_ver.json",
+      "sha256": "2240daa2728f7e880e6475d49326745974451f0128bfd3c355ee1765352604de"
+    },
+    {
+      "path": "parallel/Weather/simple_ver.json",
+      "sha256": "931aa11ab20faa4d14e0eaf30f298a9daa8be5e2f200251c2fe7b52a59b4fd19"
+    },
+    {
+      "path": "parallel/eCommerce/hard_ver.json",
+      "sha256": "77d7002dccb6972a1b335671cc56adb0cbc8d692bccbf8b6d5efef768880bfaf"
+    },
+    {
+      "path": "parallel/eCommerce/simple_ver.json",
+      "sha256": "09e2754b7f9ff4c163fc0e722c96917b04aedb9897768c4a808672d838e68232"
+    },
+    {
+      "path": "sequential/Education/traj_query.json",
+      "sha256": "75722de47d4eff31a1b144d26d07a7054580ebb901323ecf0cd68490a83c9a16"
+    },
+    {
+      "path": "sequential/Finance/traj_query.json",
+      "sha256": "b7482938283f6dc310aba52e2c36affc4d4feac6f10e93b49d182f3366649d6e"
+    },
+    {
+      "path": "sequential/Gaming/traj_query.json",
+      "sha256": "5bb6a7930ca8a193961b754b93b7b1c741fc3844e2095d6399ef211d2d6fc8d4"
+    },
+    {
+      "path": "sequential/Mapping/traj_query.json",
+      "sha256": "0936b15136bdb3835d4fae4218b9a3bac439cc6486927ba21fa99a7ba21ca605"
+    },
+    {
+      "path": "sequential/Music/traj_query.json",
+      "sha256": "6d59c83a7f9e50444a2f0663638051b3eedce391d6e6587149a4aca686a8fb8e"
+    },
+    {
+      "path": "sequential/News_Media/traj_query.json",
+      "sha256": "95f7857b5f8d0c05433e54f0c72e3f5b8c00e3ce063a66344502defbe14a520a"
+    },
+    {
+      "path": "sequential/Travel/sequence.json",
+      "sha256": "8d5464dbc0ff2721355c553b3838e13d29480ff97d57ac599208e90525aed8b7"
+    },
+    {
+      "path": "sequential/Travel/simple_ver.json",
+      "sha256": "136ab8dfa9fe264f648bf038643703897323e659c8eee9464078e08ce1a3899e"
+    },
+    {
+      "path": "sequential/Travel/traj_query.json",
+      "sha256": "c2852630d63a439f407a5302aa4602f67f690b1f1bab8b75f26f69082d1d9faa"
+    },
+    {
+      "path": "sequential/Weather/traj_query.json",
+      "sha256": "0c04f9310bff8316a2ade4a1d2c2d7c3461e085ff731cf756f689d41e1c46da7"
+    },
+    {
+      "path": "sequential/eCommerce/traj_query.json",
+      "sha256": "4d70a7f2a8d54c72d90a0335da52c2e19553fc5df8cfa6cdbdd4525ac95b407c"
+    }
+  ],
+  "normalization": "JSON key order only; no type coercion, inferred defaults, or argument invention",
+  "task_selection_used_for_build": false,
+  "source_commit": "2723fd890778dbfb6af9e3aa8ee1c22272979468"
+}

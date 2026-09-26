@@ -1,0 +1,343 @@
+{
+  "task_id": "ACB-seed_household_weekend_digest_001",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "Could you summarize my weekend plans for Sam so we can coordinate rides, groceries, and errands?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. The transformed request is a question about ability, not a direct command to execute."
+      }
+    },
+    {
+      "id": "p02",
+      "prompt": "Is it possible to summarize my weekend plans for Sam so we can coordinate rides, groceries, and errands?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. The transformed request is a question about possibility, not a direct command to execute."
+      }
+    },
+    {
+      "id": "p03",
+      "prompt": "Can you please summarize my weekend plans for Sam so we can coordinate rides, groceries, and errands?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. The transformed request is a question about ability, not a direct command to execute."
+      }
+    },
+    {
+      "id": "p04",
+      "prompt": "Please help me summarize my weekend plans for Sam so we can coordinate rides, groceries, and errands.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Polite request, 'help me' does not change the core task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. The transformed request asks for help, which implies the user might perform the action with assistance, rather than the system performing it entirely."
+      }
+    },
+    {
+      "id": "p05",
+      "prompt": "Summarize my weekend plans for Sam so we can coordinate rides, groceries, and errands, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Polite request, 'please' at the end does not change the core task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Adding 'please' at the end maintains the imperative nature of the request."
+      }
+    },
+    {
+      "id": "n01",
+      "prompt": "Can you summarize my weekend plans for Sam so we can coordinate rides, groceries, and errands?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. The transformed request is a question about ability, not a direct command to execute."
+      }
+    },
+    {
+      "id": "n02",
+      "prompt": "Are you able to summarize my weekend plans for Sam so we can coordinate rides, groceries, and errands?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional polite request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. The transformed request is a question about ability, not a direct command to execute."
+      }
+    },
+    {
+      "id": "n03",
+      "prompt": "Can you help me summarize my weekend plans for Sam so we can coordinate rides, groceries, and errands?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Polite request, 'help me' does not change the core task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. The transformed request is a question about ability to help, not a direct command to execute."
+      }
+    },
+    {
+      "id": "n04",
+      "prompt": "Please summarize my weekend plans for Sam so we can coordinate rides, groceries, and errands.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Polite imperative."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Adding 'please' at the beginning maintains the imperative nature of the request."
+      }
+    },
+    {
+      "id": "n05",
+      "prompt": "Summarize my weekend plans for Sam so we can coordinate rides, groceries, and errands.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Direct imperative."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt is identical to the source, thus fully equivalent."
+      }
+    },
+    {
+      "id": "i01",
+      "prompt": "Just summarize my weekend plans for Sam so we can coordinate rides, groceries, and errands.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "'Just' adds emphasis but does not change the task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The addition of 'Just' emphasizes the command without changing its core meaning or intent."
+      }
+    },
+    {
+      "id": "i02",
+      "prompt": "Summarize my weekend plans for Sam so we can coordinate rides, groceries, and errands. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "'Do it' adds emphasis but does not change the task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The addition of 'Do it.' reinforces the command without altering the original request's meaning."
+      }
+    },
+    {
+      "id": "i03",
+      "prompt": "This time, summarize my weekend plans for Sam so we can coordinate rides, groceries, and errands.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "'This time' implies a previous attempt, which is a change in context."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The addition of 'This time,' implies a previous interaction but does not change the current command's execution."
+      }
+    },
+    {
+      "id": "i04",
+      "prompt": "You need to summarize my weekend plans for Sam so we can coordinate rides, groceries, and errands.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "'You need to' adds emphasis but does not change the task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. The transformed request states a necessity, which is an assertion, not a direct command to execute."
+      }
+    },
+    {
+      "id": "i05",
+      "prompt": "Why can't you summarize my weekend plans for Sam so we can coordinate rides, groceries, and errands?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Changes the task from a request to an inquiry about capability."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The original is a direct command. The transformed request is a rhetorical question, not a direct command to execute."
+      }
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "ef9998264ef31d511a7b2bcd73acd459b7c20d5d82678c0a169fae9dc1d0be00",
+  "scenario_id": "seed_household_weekend_digest_001",
+  "review_protocol": "pragmatic_equivalence_v2",
+  "review_protocol_sha256": "2b387114723187ae3bda767678be617a87a62328697ff6ef3dbd19908bae80f2"
+}

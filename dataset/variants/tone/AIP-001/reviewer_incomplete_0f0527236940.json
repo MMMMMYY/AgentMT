@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:38:20 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": false,\n      \"reason\": \"The request for a summary of health data from the past month is maintained. The 'Could you' is a polite way to ask for the action. However, the order of information is changed, with the data context preceding the action request.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": false,\n      "
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "MAX_TOKENS",
+      "avg_logprobs": -2.9753033447265627
+    }
+  ],
+  "create_time": "2026-09-08T10:37:58.854659Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "huWfaoOVNKyAlb4P9ouQsAQ",
+  "usage_metadata": {
+    "candidates_token_count": 150,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 150
+      }
+    ],
+    "prompt_token_count": 955,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 955
+      }
+    ],
+    "thoughts_token_count": 3932,
+    "total_token_count": 5037,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:58 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"在 OpenCalendar 中查看我明天的日程安排，并回复 Mark 我完全被占用且不可用的时间。\"}, {\"language\": \"ru\", \"prompt\": \"Посмотрите мое расписание на завтра в OpenCalendar и ответьте Марку с указанием времени, когда я полностью занят и недоступен.\"}, {\"language\": \"fr\", \"prompt\": \"Regardez mon emploi du temps pour demain dans OpenCalendar et répondez à Mark avec les heures où je suis complètement bloqué et indisponible.\"}, {\"language\": \"es\", \"prompt\": \"Mira mi horario para mañana en OpenCalendar y responde a Mark con los horarios en los que estoy completamente ocupado e indisponible.\"}, {\"language\": \"ar\", \"prompt\": \"انظر إلى جدولي ليوم غد في OpenCalendar وأجب مارك بالأوقات التي أكون فيها مشغولاً تمامًا وغير متاح.\"}, {\"language\": \"de\", \"prompt\": \"Schauen Sie in OpenCalendar meinen Zeitplan für morgen an und antworten Sie Mark mit den Zeiten, zu denen ich komplett blockiert und nicht verfügbar bin.\"}, {\"language\": \"pt\", \"prompt\": \"Veja minha agenda para amanhã no OpenCalendar e responda a Mark com os horários em que estou completamente bloqueado e indisponível.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:16:55.583816Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "1yCnaojRI8WY89kPrMKq2Q8",
+  "usage_metadata": {
+    "candidates_token_count": 278,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 278
+      }
+    ],
+    "prompt_token_count": 320,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 320
+      }
+    ],
+    "total_token_count": 598,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Mapping-P-7-103",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Mapping",
+  "taskType": "parallel tool orchestration",
+  "prompt": "I'm creating a comprehensive geographic analysis of the Grand Canyon area Let’s handle a few things in parallel: list places nearby to sense foot traffic; add a quick map check; tell me what neighborhood/area '36.0544,-112.1401' falls in; add a quick map check; show a background tile for context; show a background tile for context; and add a quick map check.",
+  "scope": "",
+  "trajectoryType": "parallel",
+  "referenceSteps": 7,
+  "positiveOracle": "1. Heightmap from Latitude and Longitude: get heightmap from two geopoints | required: lat0=36.0544, lng0=-112.1401, lat1=36.2544, lng1=-111.9401\n2. TrueWay Directions: FindDrivingPath | required: origin=35.1983,-111.6513, destination=36.0544,-112.1401 | optional: avoid_tolls=true\n3. Geocoding by API-Ninjas: /v1/reversegeocoding | required: lat=36.0544, lon=-112.1401\n4. MapToolkit: Global Terrain Raster | required: z=10, x=193, y=399 | optional: ratio=2\n5. Mapilion - Vector and Raster Map Tiles: Get Vector Tile | required: z=10, x=193, y=399\n6. Mapilion - Vector and Raster Map Tiles: Get Hillshading Tile | required: version=v2, z=10, x=193, y=399\n7. boundaries-io: Query by Location for County boundaries | required: latitude=36.0544, longitude=-112.1401",
+  "negativeOracle": "",
+  "referenceTrajectory": "Heightmap from Latitude and Longitude: get heightmap from two geopoints ∥ TrueWay Directions: FindDrivingPath ∥ Geocoding by API-Ninjas: /v1/reversegeocoding ∥ MapToolkit: Global Terrain Raster ∥ Mapilion - Vector and Raster Map Tiles: Get Vector Tile ∥ Mapilion - Vector and Raster Map Tiles: Get Hillshading Tile ∥ boundaries-io: Query by Location for County boundaries",
+  "sourceLocator": "public_data/parallel/Mapping/simple_ver.json | item=103",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/parallel/Mapping/simple_ver.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 12 clean candidates in Mapping/parallel/7-tool stratum."
+}

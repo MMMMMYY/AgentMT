@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:44:15 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Could you send...' asks about the ability to perform the task, not a direct request to perform it. This implies a previous conversation or an ability check.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Is it possible to send...' asks about the possibility of performing the task, not a direct request to perform it. This implies an ability check.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Can you please send...' asks about the ability to perform the task, not a direct request to perform it. This implies an ability check.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Please help me send...' implies the user wants assistance in sending, rather than a direct request for the agent to send the items. This changes the nature of the action.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Send Priya... please.' is a direct request with added politeness, maintaining the original task.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Can you send...' asks about the ability to perform the task, not a direct request to perform it. This implies an ability check.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Are you able to send...' asks about the ability to perform the task, not a direct request to perform it. This implies an ability check.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Can you help me send...' implies the user wants assistance in sending, rather than a direct request for the agent to send the items. This changes the nature of the action.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Please send...' is a direct request, maintaining the original task.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Send Priya...' is a direct imperative, maintaining the original task.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Just send Priya...' is a direct imperative with an impolite modifier, maintaining the original task.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Send Priya... Do it.' is a direct imperative followed by an impolite reinforcement, maintaining the original task.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'This time, send Priya...' is a direct imperative with an impolite contextual modifier, maintaining the original task.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'You need to send Priya...' is a direct statement of necessity, which functions as an impolite command, maintaining the original task.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Why can't you send...' is a question about the agent's ability or a challenge, not a direct request to perform the task. This implies a previous conversation or a challenge to ability.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-08T10:44:09.010493Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "-eafav1R7vCL7w-ymo7ICw",
+  "usage_metadata": {
+    "candidates_token_count": 1209,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1209
+      }
+    ],
+    "prompt_token_count": 1006,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1006
+      }
+    ],
+    "total_token_count": 2215,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

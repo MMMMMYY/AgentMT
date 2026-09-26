@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Weather-P-4-9",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Weather",
+  "taskType": "parallel tool orchestration",
+  "prompt": "Keeping it brief: To compare a few angles, please collect: daily forecast; any active weather alerts; air quality history; and astronomy for 47.8021,-121.8364?",
+  "scope": "",
+  "trajectoryType": "parallel",
+  "referenceSteps": 4,
+  "positiveOracle": "1. AI Weather by Meteosource: daily | optional: lat=47.8021, lon=-121.8364, units=metric, language=en\n2. National Weather Service: /alerts/active\n3. Air Quality: Air Quality History | required: lat=47.8021, lon=-121.8364\n4. WeatherAPI.com: Astronomy API | required: q=47.8021,-121.8364",
+  "negativeOracle": "",
+  "referenceTrajectory": "AI Weather by Meteosource: daily ∥ National Weather Service: /alerts/active ∥ Air Quality: Air Quality History ∥ WeatherAPI.com: Astronomy API",
+  "sourceLocator": "public_data/parallel/Weather/simple_ver.json | item=9",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/parallel/Weather/simple_ver.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 24 clean candidates in Weather/parallel/4-tool stratum."
+}

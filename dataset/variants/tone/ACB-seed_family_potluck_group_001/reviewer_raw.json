@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:44:31 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"reviews\": [{\"id\": \"p01\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt asks if the action can be performed, rather than directly requesting it.\"}, {\"id\": \"p02\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt asks if the action is possible, rather than directly requesting it.\"}, {\"id\": \"p03\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt asks if the action can be performed, rather than directly requesting it.\"}, {\"id\": \"p04\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt asks for help to perform the action, rather than directly requesting the action itself.\"}, {\"id\": \"p05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt is a direct request with an added politeness marker.\"}, {\"id\": \"n01\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt asks if the action can be performed, rather than directly requesting it.\"}, {\"id\": \"n02\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt asks if the action is possible, rather than directly requesting it.\"}, {\"id\": \"n03\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt asks for help to perform the action, rather than directly requesting the action itself.\"}, {\"id\": \"n04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt is a direct request with an added politeness marker.\"}, {\"id\": \"n05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt is a direct imperative, identical to the source.\"}, {\"id\": \"i01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt is a direct imperative with an added emphasis, but still a request to execute.\"}, {\"id\": \"i02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt is a direct imperative followed by an emphatic command.\"}, {\"id\": \"i03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt is a direct imperative with an added contextual phrase, but still a request to execute.\"}, {\"id\": \"i04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt states a necessity for the action to be performed, which implies a request to execute.\"}, {\"id\": \"i05\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt is a rhetorical question, questioning ability rather than directly requesting the action.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.04433160420336754
+    }
+  ],
+  "create_time": "2026-09-08T10:44:27.102646Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "C-efavahBumGqMgPzKO3uA8",
+  "usage_metadata": {
+    "candidates_token_count": 765,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 765
+      }
+    ],
+    "prompt_token_count": 1038,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1038
+      }
+    ],
+    "total_token_count": 1803,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

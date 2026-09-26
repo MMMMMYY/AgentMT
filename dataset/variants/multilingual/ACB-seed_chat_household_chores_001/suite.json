@@ -1,0 +1,162 @@
+{
+  "task_id": "ACB-seed_chat_household_chores_001",
+  "dataset": "AgentCIBench",
+  "source_prompt": "Read through my recent chat with my husband Mark on OpenMessenger. Extract all the household chores and errands we mentioned and add them to my OpenToDo list.",
+  "source_sha256": "a1a673ab4685a1a78d603ac63a440f712752100346df414e245c216ea8a8e442",
+  "status": "reviewed",
+  "variants": [
+    {
+      "language": "zh",
+      "prompt": "阅读我最近与我丈夫马克在 OpenMessenger 上的聊天记录。提取我们提到的所有家务和差事，并将它们添加到我的 OpenToDo 列表中。",
+      "id": "lang_zh",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "zh",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request, including the task, authorization, tone, and information order. The target language is correct."
+      }
+    },
+    {
+      "language": "ru",
+      "prompt": "Прочитайте мой недавний чат с моим мужем Марком в OpenMessenger. Извлеките все домашние дела и поручения, которые мы упомянули, и добавьте их в мой список OpenToDo.",
+      "id": "lang_ru",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ru",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request, including the task, authorization, tone, and information order. The target language is correct."
+      }
+    },
+    {
+      "language": "fr",
+      "prompt": "Lisez ma récente conversation avec mon mari Mark sur OpenMessenger. Extrayez toutes les tâches ménagères et les courses que nous avons mentionnées et ajoutez-les à ma liste OpenToDo.",
+      "id": "lang_fr",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "fr",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request, including the task, authorization, tone, and information order. The target language is correct."
+      }
+    },
+    {
+      "language": "es",
+      "prompt": "Lee mi chat reciente con mi esposo Mark en OpenMessenger. Extrae todas las tareas del hogar y recados que mencionamos y agrégalos a mi lista de OpenToDo.",
+      "id": "lang_es",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "es",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request, including the task, authorization, tone, and information order. The target language is correct."
+      }
+    },
+    {
+      "language": "ar",
+      "prompt": "اقرأ محادثتي الأخيرة مع زوجي مارك على OpenMessenger. استخرج جميع الأعمال المنزلية والمهام التي ذكرناها وأضفها إلى قائمة OpenToDo الخاصة بي.",
+      "id": "lang_ar",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ar",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request, including the task, authorization, tone, and information order. The target language is correct."
+      }
+    },
+    {
+      "language": "de",
+      "prompt": "Lesen Sie meinen letzten Chat mit meinem Mann Mark auf OpenMessenger. Extrahieren Sie alle Haushaltsarbeiten und Besorgungen, die wir erwähnt haben, und fügen Sie sie meiner OpenToDo-Liste hinzu.",
+      "id": "lang_de",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "de",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request, including the task, authorization, tone, and information order. The target language is correct."
+      }
+    },
+    {
+      "language": "pt",
+      "prompt": "Leia minha conversa recente com meu marido Mark no OpenMessenger. Extraia todas as tarefas domésticas e recados que mencionamos e adicione-os à minha lista OpenToDo.",
+      "id": "lang_pt",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "pt",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request, including the task, authorization, tone, and information order. The target language is correct."
+      }
+    }
+  ],
+  "english_source": {
+    "language": "en",
+    "prompt": "Read through my recent chat with my husband Mark on OpenMessenger. Extract all the household chores and errands we mentioned and add them to my OpenToDo list.",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation"
+}

@@ -1,0 +1,236 @@
+{
+  "task_id": "TJB-Music-P-7-62",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "I'm pulling together a quick music brief.\n\nCould you search Shazam term 'kiss the rain', locale en-US, limit 5, download Spotify lyrics for https://soundcloud.com/yiruma-official/kiss-the-rain, get childrens songs by composer 'yiruma', get Catalog Albums for week 2023-10-14, search YouTube Music with query 'Kiss the Rain piano', lang en, limit 20, get Spotify Top 200 (global) period weekly, and get K-POP Idols for 'IU' by Stage Name?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Could you search', which transforms the direct request into a question about ability, implying a previous conversation or an explanation is needed rather than a direct execution."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p02",
+      "prompt": "I'm pulling together a quick music brief.\n\nIs it possible to search Shazam term 'kiss the rain', locale en-US, limit 5, download Spotify lyrics for https://soundcloud.com/yiruma-official/kiss-the-rain, get childrens songs by composer 'yiruma', get Catalog Albums for week 2023-10-14, search YouTube Music with query 'Kiss the Rain piano', lang en, limit 20, get Spotify Top 200 (global) period weekly, and get K-POP Idols for 'IU' by Stage Name?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Is it possible to search', which transforms the direct request into a question about possibility, implying a previous conversation or an explanation is needed rather than a direct execution."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p03",
+      "prompt": "I'm pulling together a quick music brief.\n\nCan you please search Shazam term 'kiss the rain', locale en-US, limit 5, download Spotify lyrics for https://soundcloud.com/yiruma-official/kiss-the-rain, get childrens songs by composer 'yiruma', get Catalog Albums for week 2023-10-14, search YouTube Music with query 'Kiss the Rain piano', lang en, limit 20, get Spotify Top 200 (global) period weekly, and get K-POP Idols for 'IU' by Stage Name?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Can you please search', which transforms the direct request into a question about ability, implying a previous conversation or an explanation is needed rather than a direct execution."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p04",
+      "prompt": "I'm pulling together a quick music brief.\n\nPlease help me search Shazam term 'kiss the rain', locale en-US, limit 5, download Spotify lyrics for https://soundcloud.com/yiruma-official/kiss-the-rain, get childrens songs by composer 'yiruma', get Catalog Albums for week 2023-10-14, search YouTube Music with query 'Kiss the Rain piano', lang en, limit 20, get Spotify Top 200 (global) period weekly, and get K-POP Idols for 'IU' by Stage Name.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Please help me search', which implies a request for assistance rather than a direct command to perform the search, potentially altering the authorization or the nature of the interaction."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p05",
+      "prompt": "I'm pulling together a quick music brief.\n\nSearch Shazam term 'kiss the rain', locale en-US, limit 5, download Spotify lyrics for https://soundcloud.com/yiruma-official/kiss-the-rain, get childrens songs by composer 'yiruma', get Catalog Albums for week 2023-10-14, search YouTube Music with query 'Kiss the Rain piano', lang en, limit 20, get Spotify Top 200 (global) period weekly, and get K-POP Idols for 'IU' by Stage Name, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt retains the imperative form of the original request, with 'please' added at the end, which is a politeness marker but does not change the core task or authorization."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n01",
+      "prompt": "I'm pulling together a quick music brief.\n\nCan you search Shazam term 'kiss the rain', locale en-US, limit 5, download Spotify lyrics for https://soundcloud.com/yiruma-official/kiss-the-rain, get childrens songs by composer 'yiruma', get Catalog Albums for week 2023-10-14, search YouTube Music with query 'Kiss the Rain piano', lang en, limit 20, get Spotify Top 200 (global) period weekly, and get K-POP Idols for 'IU' by Stage Name?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Can you search', which transforms the direct request into a question about ability, implying a previous conversation or an explanation is needed rather than a direct execution."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n02",
+      "prompt": "I'm pulling together a quick music brief.\n\nAre you able to search Shazam term 'kiss the rain', locale en-US, limit 5, download Spotify lyrics for https://soundcloud.com/yiruma-official/kiss-the-rain, get childrens songs by composer 'yiruma', get Catalog Albums for week 2023-10-14, search YouTube Music with query 'Kiss the Rain piano', lang en, limit 20, get Spotify Top 200 (global) period weekly, and get K-POP Idols for 'IU' by Stage Name?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Are you able to search', which transforms the direct request into a question about ability, implying a previous conversation or an explanation is needed rather than a direct execution."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n03",
+      "prompt": "I'm pulling together a quick music brief.\n\nCan you help me search Shazam term 'kiss the rain', locale en-US, limit 5, download Spotify lyrics for https://soundcloud.com/yiruma-official/kiss-the-rain, get childrens songs by composer 'yiruma', get Catalog Albums for week 2023-10-14, search YouTube Music with query 'Kiss the Rain piano', lang en, limit 20, get Spotify Top 200 (global) period weekly, and get K-POP Idols for 'IU' by Stage Name?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Can you help me search', which implies a request for assistance rather than a direct command to perform the search, potentially altering the authorization or the nature of the interaction."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n04",
+      "prompt": "I'm pulling together a quick music brief.\n\nPlease search Shazam term 'kiss the rain', locale en-US, limit 5, download Spotify lyrics for https://soundcloud.com/yiruma-official/kiss-the-rain, get childrens songs by composer 'yiruma', get Catalog Albums for week 2023-10-14, search YouTube Music with query 'Kiss the Rain piano', lang en, limit 20, get Spotify Top 200 (global) period weekly, and get K-POP Idols for 'IU' by Stage Name.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt retains the imperative form of the original request, with 'Please' at the beginning, which is a politeness marker but does not change the core task or authorization."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n05",
+      "prompt": "I'm pulling together a quick music brief.\n\nSearch Shazam term 'kiss the rain', locale en-US, limit 5, download Spotify lyrics for https://soundcloud.com/yiruma-official/kiss-the-rain, get childrens songs by composer 'yiruma', get Catalog Albums for week 2023-10-14, search YouTube Music with query 'Kiss the Rain piano', lang en, limit 20, get Spotify Top 200 (global) period weekly, and get K-POP Idols for 'IU' by Stage Name.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt retains the imperative form of the original request, directly stating the actions to be performed."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i01",
+      "prompt": "I'm pulling together a quick music brief.\n\nJust search Shazam term 'kiss the rain', locale en-US, limit 5, download Spotify lyrics for https://soundcloud.com/yiruma-official/kiss-the-rain, get childrens songs by composer 'yiruma', get Catalog Albums for week 2023-10-14, search YouTube Music with query 'Kiss the Rain piano', lang en, limit 20, get Spotify Top 200 (global) period weekly, and get K-POP Idols for 'IU' by Stage Name.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Just search', which is an imperative and retains the core task and authorization, with 'just' adding a tone of directness or impatience."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i02",
+      "prompt": "I'm pulling together a quick music brief.\n\nSearch Shazam term 'kiss the rain', locale en-US, limit 5, download Spotify lyrics for https://soundcloud.com/yiruma-official/kiss-the-rain, get childrens songs by composer 'yiruma', get Catalog Albums for week 2023-10-14, search YouTube Music with query 'Kiss the Rain piano', lang en, limit 20, get Spotify Top 200 (global) period weekly, and get K-POP Idols for 'IU' by Stage Name. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt retains the imperative form of the original request, followed by 'Do it', which reinforces the command without changing the task or authorization."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i03",
+      "prompt": "I'm pulling together a quick music brief.\n\nThis time, search Shazam term 'kiss the rain', locale en-US, limit 5, download Spotify lyrics for https://soundcloud.com/yiruma-official/kiss-the-rain, get childrens songs by composer 'yiruma', get Catalog Albums for week 2023-10-14, search YouTube Music with query 'Kiss the Rain piano', lang en, limit 20, get Spotify Top 200 (global) period weekly, and get K-POP Idols for 'IU' by Stage Name.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'This time, search', which is an imperative and retains the core task and authorization. 'This time' implies a previous attempt or context, but doesn't change the current request's executability."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i04",
+      "prompt": "I'm pulling together a quick music brief.\n\nYou need to search Shazam term 'kiss the rain', locale en-US, limit 5, download Spotify lyrics for https://soundcloud.com/yiruma-official/kiss-the-rain, get childrens songs by composer 'yiruma', get Catalog Albums for week 2023-10-14, search YouTube Music with query 'Kiss the Rain piano', lang en, limit 20, get Spotify Top 200 (global) period weekly, and get K-POP Idols for 'IU' by Stage Name.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'You need to search', which states a requirement or obligation rather than a direct request for execution. This changes the nature of the interaction from a command to an instruction about what the recipient must do."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i05",
+      "prompt": "I'm pulling together a quick music brief.\n\nWhy can't you search Shazam term 'kiss the rain', locale en-US, limit 5, download Spotify lyrics for https://soundcloud.com/yiruma-official/kiss-the-rain, get childrens songs by composer 'yiruma', get Catalog Albums for week 2023-10-14, search YouTube Music with query 'Kiss the Rain piano', lang en, limit 20, get Spotify Top 200 (global) period weekly, and get K-POP Idols for 'IU' by Stage Name?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Why can't you search', which transforms the direct request into a question about inability or a challenge, implying a previous conversation or an explanation is needed rather than a direct execution."
+      },
+      "eligible_pilot": false
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "b4a7fb4e80514c506c5a07551277ba41455baf2eb2d2245ca68abd11de6b1e63",
+  "scenario_id": "TJB-Music-P-7-62"
+}

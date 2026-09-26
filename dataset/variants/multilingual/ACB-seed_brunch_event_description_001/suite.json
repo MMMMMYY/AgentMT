@@ -1,0 +1,162 @@
+{
+  "task_id": "ACB-seed_brunch_event_description_001",
+  "dataset": "AgentCIBench",
+  "source_prompt": "Create a calendar event for brunch with Claire and fill in a short event description.",
+  "source_sha256": "3dfcfc593148558753c81bbd999e8432f631892b2e282783a5ce336aaad65b69",
+  "status": "reviewed",
+  "variants": [
+    {
+      "language": "zh",
+      "prompt": "为与克莱尔的早午餐创建一个日历事件，并填写一个简短的事件描述。",
+      "id": "lang_zh",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "zh",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately reflects the source request."
+      }
+    },
+    {
+      "language": "ru",
+      "prompt": "Создайте событие в календаре для бранча с Клэр и заполните краткое описание события.",
+      "id": "lang_ru",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ru",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately reflects the source request."
+      }
+    },
+    {
+      "language": "fr",
+      "prompt": "Créez un événement de calendrier pour un brunch avec Claire et remplissez une courte description de l'événement.",
+      "id": "lang_fr",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "fr",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately reflects the source request."
+      }
+    },
+    {
+      "language": "es",
+      "prompt": "Crea un evento de calendario para un brunch con Claire y rellena una breve descripción del evento.",
+      "id": "lang_es",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "es",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately reflects the source request."
+      }
+    },
+    {
+      "language": "ar",
+      "prompt": "أنشئ حدثًا في التقويم لتناول الغداء المتأخر مع كلير واملأ وصفًا قصيرًا للحدث.",
+      "id": "lang_ar",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ar",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately reflects the source request."
+      }
+    },
+    {
+      "language": "de",
+      "prompt": "Erstellen Sie einen Kalendertermin für Brunch mit Claire und füllen Sie eine kurze Ereignisbeschreibung aus.",
+      "id": "lang_de",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "de",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately reflects the source request."
+      }
+    },
+    {
+      "language": "pt",
+      "prompt": "Crie um evento de calendário para um brunch com Claire e preencha uma breve descrição do evento.",
+      "id": "lang_pt",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "pt",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately reflects the source request."
+      }
+    }
+  ],
+  "english_source": {
+    "language": "en",
+    "prompt": "Create a calendar event for brunch with Claire and fill in a short event description.",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation"
+}

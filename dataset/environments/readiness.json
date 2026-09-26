@@ -1,0 +1,677 @@
+{
+  "source_sha256": "9849bc00b40dc89c8ef50d5a20803e238cd9f97e0789f633a08a9e3b0ff5faee",
+  "model_calls": 0,
+  "full_experiment_ready": false,
+  "agentci": [
+    {
+      "id": "seed_auth_debug_tabs_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_auth_debug_tabs_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_brunch_event_description_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_brunch_event_description_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_calendar_titles_client_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_calendar_titles_client_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_calendar_titles_intern_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_calendar_titles_intern_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_calendar_titles_vendor_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_calendar_titles_vendor_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_cart_saved_for_later_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_cart_saved_for_later_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_chat_household_chores_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_chat_household_chores_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_chat_to_calendar_event_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_chat_to_calendar_event_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_deployment_checklist_colocated_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_deployment_checklist_colocated_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_direct_report_shadowing_calendar_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_direct_report_shadowing_calendar_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_doctor_message_friend_health_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_doctor_message_friend_health_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_env_secrets_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_env_secrets_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_errands_maps_shop_wildcard_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_errands_maps_shop_wildcard_001/config/config.yaml",
+      "warnings": [
+        "Mapped open_maps.recent_searches to maps.saved_places for OpenApps compatibility."
+      ],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_family_potluck_group_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_family_potluck_group_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_freelance_client_availability_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_freelance_client_availability_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_grant_inbox_label_colocated_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_grant_inbox_label_colocated_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_household_weekend_digest_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_household_weekend_digest_001/config/config.yaml",
+      "warnings": [
+        "Mapped open_maps.recent_searches to maps.saved_places for OpenApps compatibility."
+      ],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_kitchen_client_cart_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_kitchen_client_cart_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_leadership_sync_summary_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_leadership_sync_summary_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_manager_day_digest_mixed_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_manager_day_digest_mixed_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_manager_summary_todo_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_manager_summary_todo_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_maps_medical_destination_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_maps_medical_destination_001/config/config.yaml",
+      "warnings": [
+        "Mapped open_maps current route/destination into one saved place entry."
+      ],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_maps_recent_searches_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_maps_recent_searches_001/config/config.yaml",
+      "warnings": [
+        "Mapped open_maps current route/destination into one saved place entry."
+      ],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_maps_waypoints_calendar_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_maps_waypoints_calendar_001/config/config.yaml",
+      "warnings": [
+        "Mapped open_maps current route/destination into one saved place entry."
+      ],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_mom_dinner_calendar_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_mom_dinner_calendar_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_pantries_route_sidebar_colocated_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_pantries_route_sidebar_colocated_001/config/config.yaml",
+      "warnings": [
+        "Mapped open_maps.recent_searches to maps.saved_places for OpenApps compatibility."
+      ],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_release_notes_cards_colocated_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_release_notes_cards_colocated_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_room_parents_sidepane_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_room_parents_sidepane_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_sarah_chen_email_ambiguity_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_sarah_chen_email_ambiguity_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_shop_workshop_cart_colocated_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_shop_workshop_cart_colocated_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_teacher_field_trip_update_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_teacher_field_trip_update_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_todo_api_key_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_todo_api_key_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_todo_launch_filter_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_todo_launch_filter_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_volunteer_pickup_route_colocated_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_volunteer_pickup_route_colocated_001/config/config.yaml",
+      "warnings": [
+        "Mapped open_maps.recent_searches to maps.saved_places for OpenApps compatibility."
+      ],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_wfh_reimbursement_cart_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_wfh_reimbursement_cart_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    },
+    {
+      "id": "seed_wrong_thread_reply_001",
+      "status": "official_config_prepared_not_launched",
+      "config": "./artifacts/benchmark_environments_v1/agentci_runtimes/seed_wrong_thread_reply_001/config/config.yaml",
+      "warnings": [],
+      "local_adapter": "Preserves empty destination todo list; otherwise upstream converter"
+    }
+  ],
+  "traject": [
+    {
+      "index": 0,
+      "status": "recorded_replay_only",
+      "calls": 7
+    },
+    {
+      "index": 1,
+      "status": "recorded_replay_only",
+      "calls": 9
+    },
+    {
+      "index": 2,
+      "status": "recorded_replay_only",
+      "calls": 3
+    },
+    {
+      "index": 3,
+      "status": "recorded_replay_only",
+      "calls": 5
+    },
+    {
+      "index": 4,
+      "status": "recorded_replay_only",
+      "calls": 3
+    },
+    {
+      "index": 5,
+      "status": "recorded_replay_only",
+      "calls": 5
+    },
+    {
+      "index": 6,
+      "status": "recorded_replay_only",
+      "calls": 7
+    },
+    {
+      "index": 7,
+      "status": "recorded_replay_only",
+      "calls": 9
+    },
+    {
+      "index": 8,
+      "status": "recorded_replay_only",
+      "calls": 7
+    },
+    {
+      "index": 9,
+      "status": "recorded_replay_only",
+      "calls": 10
+    },
+    {
+      "index": 10,
+      "status": "recorded_replay_only",
+      "calls": 3
+    },
+    {
+      "index": 11,
+      "status": "recorded_replay_only",
+      "calls": 9
+    },
+    {
+      "index": 12,
+      "status": "recorded_replay_only",
+      "calls": 7
+    },
+    {
+      "index": 13,
+      "status": "recorded_replay_only",
+      "calls": 9
+    },
+    {
+      "index": 14,
+      "status": "recorded_replay_only",
+      "calls": 3
+    },
+    {
+      "index": 15,
+      "status": "recorded_replay_only",
+      "calls": 5
+    },
+    {
+      "index": 16,
+      "status": "recorded_replay_only",
+      "calls": 7
+    },
+    {
+      "index": 17,
+      "status": "recorded_replay_only",
+      "calls": 10
+    },
+    {
+      "index": 18,
+      "status": "recorded_replay_only",
+      "calls": 3
+    },
+    {
+      "index": 19,
+      "status": "recorded_replay_only",
+      "calls": 9
+    },
+    {
+      "index": 20,
+      "status": "recorded_replay_only",
+      "calls": 7
+    },
+    {
+      "index": 21,
+      "status": "recorded_replay_only",
+      "calls": 9
+    },
+    {
+      "index": 22,
+      "status": "recorded_replay_only",
+      "calls": 3
+    },
+    {
+      "index": 23,
+      "status": "recorded_replay_only",
+      "calls": 8
+    },
+    {
+      "index": 24,
+      "status": "recorded_replay_only",
+      "calls": 8
+    },
+    {
+      "index": 25,
+      "status": "recorded_replay_only",
+      "calls": 10
+    },
+    {
+      "index": 26,
+      "status": "recorded_replay_only",
+      "calls": 3
+    },
+    {
+      "index": 27,
+      "status": "recorded_replay_only",
+      "calls": 7
+    },
+    {
+      "index": 28,
+      "status": "recorded_replay_only",
+      "calls": 3
+    },
+    {
+      "index": 29,
+      "status": "recorded_replay_only",
+      "calls": 4
+    },
+    {
+      "index": 30,
+      "status": "recorded_replay_only",
+      "calls": 5
+    },
+    {
+      "index": 31,
+      "status": "recorded_replay_only",
+      "calls": 7
+    },
+    {
+      "index": 32,
+      "status": "recorded_replay_only",
+      "calls": 4
+    },
+    {
+      "index": 33,
+      "status": "recorded_replay_only",
+      "calls": 7
+    },
+    {
+      "index": 34,
+      "status": "recorded_replay_only",
+      "calls": 9
+    },
+    {
+      "index": 35,
+      "status": "recorded_replay_only",
+      "calls": 10
+    },
+    {
+      "index": 36,
+      "status": "recorded_replay_only",
+      "calls": 7
+    },
+    {
+      "index": 37,
+      "status": "recorded_replay_only",
+      "calls": 9
+    },
+    {
+      "index": 38,
+      "status": "recorded_replay_only",
+      "calls": 3
+    },
+    {
+      "index": 39,
+      "status": "recorded_replay_only",
+      "calls": 10
+    }
+  ],
+  "aiap": [
+    {
+      "id": 0,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 1,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 4,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 5,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 9,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 10,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 11,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 13,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 15,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 16,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 19,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 20,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 23,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 26,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 28,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 29,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 31,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 32,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 34,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 35,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 36,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 37,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 38,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 40,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 43,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 44,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 47,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 48,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 49,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 50,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 51,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 52,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 53,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 54,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 55,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 57,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 59,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 60,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 62,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    },
+    {
+      "id": 64,
+      "status": "blocked",
+      "reason": "Published value fixtures and task-specific completion executor not mapped"
+    }
+  ]
+}

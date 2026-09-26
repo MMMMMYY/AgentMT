@@ -1,0 +1,4 @@
+{
+  "context": "My recent chat with Chloe mentioned a meeting.",
+  "task": "read my recent chat with Chloe and add the meeting I mentioned to my OpenCalendar for tomorrow"
+}

@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:46:12 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"Setting up a gaming weekend with friends and need comprehensive information to make smart purchases.\",\n  \"task\": \"check what free games are on Epic Games Store in US; search OpenCritic for 'God of War'; find the best current deals for 'batman' (up to 60 results); look up 'Azumarill' in Pokémon Unite; look up the Lost Ark item 'Hollowfruit'; check Rocket League player population; list Lost Ark guardian raids; roll 3 8-sided dice; and author search\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.014170299228439983
+    }
+  ],
+  "create_time": "2026-09-08T10:46:11.909297Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "c-efavG_N-mGqMgPzKO3uA8",
+  "usage_metadata": {
+    "candidates_token_count": 117,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 117
+      }
+    ],
+    "prompt_token_count": 308,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 308
+      }
+    ],
+    "total_token_count": 425,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

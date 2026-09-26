@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:17 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"阅读我最近与我丈夫马克在 OpenMessenger 上的聊天记录。提取我们提到的所有家务和差事，并将它们添加到我的 OpenToDo 列表中。\"}, {\"language\": \"ru\", \"prompt\": \"Прочитайте мой недавний чат с моим мужем Марком в OpenMessenger. Извлеките все домашние дела и поручения, которые мы упомянули, и добавьте их в мой список OpenToDo.\"}, {\"language\": \"fr\", \"prompt\": \"Lisez ma récente conversation avec mon mari Mark sur OpenMessenger. Extrayez toutes les tâches ménagères et les courses que nous avons mentionnées et ajoutez-les à ma liste OpenToDo.\"}, {\"language\": \"es\", \"prompt\": \"Lee mi chat reciente con mi esposo Mark en OpenMessenger. Extrae todas las tareas del hogar y recados que mencionamos y agrégalos a mi lista de OpenToDo.\"}, {\"language\": \"ar\", \"prompt\": \"اقرأ محادثتي الأخيرة مع زوجي مارك على OpenMessenger. استخرج جميع الأعمال المنزلية والمهام التي ذكرناها وأضفها إلى قائمة OpenToDo الخاصة بي.\"}, {\"language\": \"de\", \"prompt\": \"Lesen Sie meinen letzten Chat mit meinem Mann Mark auf OpenMessenger. Extrahieren Sie alle Haushaltsarbeiten und Besorgungen, die wir erwähnt haben, und fügen Sie sie meiner OpenToDo-Liste hinzu.\"}, {\"language\": \"pt\", \"prompt\": \"Leia minha conversa recente com meu marido Mark no OpenMessenger. Extraia todas as tarefas domésticas e recados que mencionamos e adicione-os à minha lista OpenToDo.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.023665644291777786
+    }
+  ],
+  "create_time": "2026-09-13T22:17:01.213489Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "3SCnavGDDZOcmecP1-vzoQs",
+  "usage_metadata": {
+    "candidates_token_count": 353,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 353
+      }
+    ],
+    "prompt_token_count": 326,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 326
+      }
+    ],
+    "total_token_count": 679,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

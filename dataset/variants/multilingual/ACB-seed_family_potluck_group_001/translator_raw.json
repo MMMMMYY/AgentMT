@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:22 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"周日向Aunties Group发送聚餐详情以及我说要带的物品。\"},{\"language\":\"ru\",\"prompt\":\"Отправьте в группу Aunties Group информацию о вечеринке и список вещей, которые я обещал принести в воскресенье.\"},{\"language\":\"fr\",\"prompt\":\"Envoyez au groupe des tantes les détails du repas-partage et les articles que j'ai dit que j'apporterais dimanche.\"},{\"language\":\"es\",\"prompt\":\"Envía al grupo de las tías los detalles de la comida compartida y los artículos que dije que traería el domingo.\"},{\"language\":\"ar\",\"prompt\":\"أرسل إلى مجموعة Aunties Group تفاصيل حفل الطعام المشترك والأصناف التي قلت إنني سأحضرها يوم الأحد.\"},{\"language\":\"de\",\"prompt\":\"Senden Sie der Aunties Group am Sonntag die Details zum Potluck und die Dinge, die ich gesagt habe, dass ich mitbringen werde.\"},{\"language\":\"pt\",\"prompt\":\"Envie ao Grupo das Tias os detalhes do potluck e os itens que eu disse que traria no domingo.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:17:21.029834Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "8SCnaorpAby-m9IP--X-8AU",
+  "usage_metadata": {
+    "candidates_token_count": 238,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 238
+      }
+    ],
+    "prompt_token_count": 315,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 315
+      }
+    ],
+    "total_token_count": 553,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

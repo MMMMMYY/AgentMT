@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:43:08 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The task remains the same: finding a gas station near the user. The polite phrasing 'Could you find' is a common way to request an action.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original is a direct request to execute. 'Is it possible to find' questions the system's ability rather than requesting the action itself. This implies a previous conversation or a lack of understanding of the system's capabilities.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The task remains the same: finding a gas station near the user. The polite phrasing 'Can you please find' is a common way to request an action.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The task remains the same: finding a gas station near the user. 'Please help me find' is a polite way to request assistance in performing the action.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The task remains the same: finding a gas station near the user. The imperative 'Find a gas station near me, please' is a polite request for the action.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The task remains the same: finding a gas station near the user. 'Can you find' is a direct request for the action.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original is a direct request to execute. 'Are you able to find' questions the system's ability rather than requesting the action itself. This implies a previous conversation or a lack of understanding of the system's capabilities.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The task remains the same: finding a gas station near the user. 'Can you help me find' is a direct request for assistance in performing the action.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The task remains the same: finding a gas station near the user. 'Please find' is a direct request for the action.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The task remains the same: finding a gas station near the user. The imperative 'Find a gas station near me' is a direct request for the action.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The task remains the same: finding a gas station near the user. 'Just find' is an impolite but clear request for the action.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The task remains the same: finding a gas station near the user. 'Find a gas station near me. Do it.' is an impolite but clear request for the action.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The task remains the same: finding a gas station near the user. 'This time, find' is an impolite but clear request for the action, implying a previous failure or interaction.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The task remains the same: finding a gas station near the user. 'You need to find' is an impolite but clear directive for the action.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original is a direct request to execute. 'Why can't you find' questions the system's ability or past performance rather than requesting the action itself. This implies a previous conversation or a perceived failure.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.04327772866830737
+    }
+  ],
+  "create_time": "2026-09-08T10:43:02.487134Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "tuafat7dHemGqMgPzKO3uA8",
+  "usage_metadata": {
+    "candidates_token_count": 1292,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1292
+      }
+    ],
+    "prompt_token_count": 1002,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1002
+      }
+    ],
+    "total_token_count": 2294,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

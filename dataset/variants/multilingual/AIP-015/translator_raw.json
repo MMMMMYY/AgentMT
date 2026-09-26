@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:15:49 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"在我的云端硬盘中查找最新版本的销售报告，并将其通过电子邮件发送给我的经理。\"}, {\"language\": \"ru\", \"prompt\": \"Найдите последнюю версию отчета о продажах на моем Облачном диске и отправьте его по электронной почте моему менеджеру.\"}, {\"language\": \"fr\", \"prompt\": \"Trouvez la dernière version du rapport de ventes dans mon Cloud Drive et envoyez-la par e-mail à mon responsable.\"}, {\"language\": \"es\", \"prompt\": \"Encuentra la última versión del informe de ventas en mi Cloud Drive y envíamela por correo electrónico a mi gerente.\"}, {\"language\": \"ar\", \"prompt\": \"ابحث عن أحدث إصدار من تقرير المبيعات في محرك الأقراص السحابي الخاص بي وأرسله بالبريد الإلكتروني إلى مديري.\"}, {\"language\": \"de\", \"prompt\": \"Finden Sie die neueste Version des Verkaufsberichts in meinem Cloud Drive und senden Sie ihn per E-Mail an meinen Manager.\"}, {\"language\": \"pt\", \"prompt\": \"Encontre a versão mais recente do relatório de vendas no meu Cloud Drive e envie-o por e-mail para o meu gerente.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.018526505021487966
+    }
+  ],
+  "create_time": "2026-09-13T22:15:47.646497Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "kyCnauG6J4KJnMwPksC84QY",
+  "usage_metadata": {
+    "candidates_token_count": 272,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 272
+      }
+    ],
+    "prompt_token_count": 314,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 314
+      }
+    ],
+    "total_token_count": 586,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

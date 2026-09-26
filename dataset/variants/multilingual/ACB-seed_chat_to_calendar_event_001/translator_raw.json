@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:05 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"阅读我最近与 Chloe 的聊天记录，并将我提到的会议添加到我明天的 OpenCalendar 中。\"},{\"language\":\"ru\",\"prompt\":\"Прочитайте мой недавний чат с Хлоей и добавьте упомянутую мной встречу в мой OpenCalendar на завтра.\"},{\"language\":\"fr\",\"prompt\":\"Lisez ma récente conversation avec Chloé et ajoutez la réunion que j'ai mentionnée à mon OpenCalendar pour demain.\"},{\"language\":\"es\",\"prompt\":\"Lee mi chat reciente con Chloe y añade la reunión que mencioné a mi OpenCalendar para mañana.\"},{\"language\":\"ar\",\"prompt\":\"اقرأ محادثتي الأخيرة مع كلوي وأضف الاجتماع الذي ذكرته إلى تقويمي المفتوح (OpenCalendar) ليوم غد.\"},{\"language\":\"de\",\"prompt\":\"Lies meinen letzten Chat mit Chloe und füge das Meeting, das ich erwähnt habe, morgen zu meinem OpenCalendar hinzu.\"},{\"language\":\"pt\",\"prompt\":\"Leia meu bate-papo recente com Chloe e adicione a reunião que mencionei ao meu OpenCalendar para amanhã.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:17:03.732467Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "3yCnarPaLJbLgrYPr4LPyAo",
+  "usage_metadata": {
+    "candidates_token_count": 236,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 236
+      }
+    ],
+    "prompt_token_count": 314,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 314
+      }
+    ],
+    "total_token_count": 550,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

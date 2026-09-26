@@ -1,0 +1,4 @@
+{
+  "context": "I'm comparing retailers and want a clear snapshot.",
+  "task": "fetch product info, and search Wayfair for 'furniture categories', and fetch product info, and fetch product info, and fetch product info, and list Asos categories country US, lang en-US, and search Zappos for 'home furniture' sort best_seller page 1"
+}

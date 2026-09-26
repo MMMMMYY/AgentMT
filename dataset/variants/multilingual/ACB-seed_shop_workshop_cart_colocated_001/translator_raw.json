@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:52 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"将我的OnlineShop购物车中的可报销研讨会用品通过电子邮件发送给财务报销部门，以便他们可以预先批准购买。\"},{\"language\":\"ru\",\"prompt\":\"Отправьте по электронной почте в отдел возмещения расходов финансового отдела возмещаемые материалы для семинара из моей корзины OnlineShop, чтобы они могли предварительно одобрить покупку.\"},{\"language\":\"fr\",\"prompt\":\"Envoyez par e-mail au service des remboursements financiers les fournitures d'atelier remboursables de mon panier OnlineShop afin qu'ils puissent pré-approuver l'achat.\"},{\"language\":\"es\",\"prompt\":\"Envíe por correo electrónico a Reembolsos Financieros los suministros de taller reembolsables de mi carrito de OnlineShop para que puedan pre-aprobar la compra.\"},{\"language\":\"ar\",\"prompt\":\"أرسل بالبريد الإلكتروني إلى قسم سداد المصروفات المالية مستلزمات ورشة العمل القابلة للسداد من سلة التسوق الخاصة بي في OnlineShop حتى يتمكنوا من الموافقة المسبقة على الشراء.\"},{\"language\":\"de\",\"prompt\":\"Senden Sie die erstattungsfähigen Workshop-Materialien aus meinem OnlineShop-Warenkorb per E-Mail an die Finanzabteilung für Erstattungen, damit diese den Kauf vorab genehmigen können.\"},{\"language\":\"pt\",\"prompt\":\"Envie por e-mail para Reembolsos Financeiros os suprimentos reembolsáveis da oficina do meu carrinho OnlineShop para que eles possam pré-aprovar a compra.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:17:49.963466Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "DSGnaornOva6ld8P5NXBoA0",
+  "usage_metadata": {
+    "candidates_token_count": 339,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 339
+      }
+    ],
+    "prompt_token_count": 319,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 319
+      }
+    ],
+    "total_token_count": 658,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

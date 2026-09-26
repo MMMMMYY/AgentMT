@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:31:57 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"ru\", \"prompt\": \"Я предоставил файл a.out, который является скомпилированным бинарным файлом C. Напишите мне программу ⟦0⟧, которая при запуске с ⟦1⟧ будет извлекать значения памяти из бинарного файла и выводить их в виде объекта JSON, где адреса памяти являются ключами, а их значения — целыми числами.\\n\\nПример формата вывода: {⟦2⟧: 1784774249, ⟦3⟧: 1718378344, ...}\\n\\nКритерии успеха:\\n1. Для любого адреса, который вы включаете в свой вывод, значение ДОЛЖНО соответствовать эталонному решению (адреса с неверными значениями не пройдут тест)\\n2. Вам необходимо извлечь не менее 75% значений памяти, присутствующих в эталонном решении\\n\\nПримечание: Выходные значения должны быть целыми числами, а не строками.\\n\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-23T08:31:55.948473Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "e46zavnxObCM89kPv9LQ-AM",
+  "usage_metadata": {
+    "candidates_token_count": 238,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 238
+      }
+    ],
+    "prompt_token_count": 282,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 282
+      }
+    ],
+    "total_token_count": 520,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,162 @@
+{
+  "task_id": "TJB-eCommerce-S-3-17",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "I'd like to browse an international shopping site. First, show me the list of supported countries in French. Then, I want to see product categories available in the United Arab Emirates since I heard they offer the most currency options. Finally, I'm looking for swimwear - can you show me auto-complete suggestions for \"bikini top\" in the US store using USD currency?",
+  "source_sha256": "595069d03e47c206fe13d51f7e2b62bc7e98d1ef3ce77d5cb17c061e8566aa7f",
+  "status": "reviewed",
+  "variants": [
+    {
+      "language": "zh",
+      "prompt": "我想浏览一个国际购物网站。首先，用法文向我显示支持的国家列表。然后，我想看看阿拉伯联合酋长国提供的产品类别，因为我听说他们提供最多的货币选择。最后，我正在寻找泳装——您能使用美元货币在美国商店中向我显示“bikini top”的自动完成建议吗？",
+      "id": "lang_zh",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "zh",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request, including the sequence of actions and specific conditions."
+      }
+    },
+    {
+      "language": "ru",
+      "prompt": "Я хотел бы просмотреть международный торговый сайт. Сначала покажите мне список поддерживаемых стран на французском языке. Затем я хочу увидеть категории товаров, доступные в Объединенных Арабских Эмиратах, так как я слышал, что они предлагают наибольшее количество валютных опций. Наконец, я ищу купальники — можете ли вы показать мне предложения автозаполнения для «bikini top» в магазине США, используя валюту USD?",
+      "id": "lang_ru",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ru",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The Russian translation maintains all the original instructions, conditions, and the order of operations."
+      }
+    },
+    {
+      "language": "fr",
+      "prompt": "J'aimerais parcourir un site d'achat international. Tout d'abord, montrez-moi la liste des pays pris en charge en français. Ensuite, je veux voir les catégories de produits disponibles aux Émirats arabes unis, car j'ai entendu dire qu'ils offraient le plus d'options de devises. Enfin, je cherche des maillots de bain - pouvez-vous me montrer des suggestions de saisie semi-automatique pour «bikini top» dans le magasin américain en utilisant la devise USD?",
+      "id": "lang_fr",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "fr",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The French translation is a faithful rendition of the source, preserving all details and the sequential nature of the request."
+      }
+    },
+    {
+      "language": "es",
+      "prompt": "Me gustaría navegar por un sitio de compras internacional. Primero, muéstrame la lista de países admitidos en francés. Luego, quiero ver las categorías de productos disponibles en los Emiratos Árabes Unidos, ya que escuché que ofrecen la mayor cantidad de opciones de moneda. Finalmente, estoy buscando trajes de baño, ¿puedes mostrarme sugerencias de autocompletar para «bikini top» en la tienda de EE. UU. usando la moneda USD?",
+      "id": "lang_es",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "es",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The Spanish translation correctly translates all instructions, conditions, and the order of information from the source."
+      }
+    },
+    {
+      "language": "ar",
+      "prompt": "أود تصفح موقع تسوق دولي. أولاً، أرني قائمة الدول المدعومة باللغة الفرنسية. ثم، أرغب في رؤية فئات المنتجات المتاحة في الإمارات العربية المتحدة حيث سمعت أنهم يقدمون معظم خيارات العملات. أخيرًا، أبحث عن ملابس السباحة - هل يمكنك أن تريني اقتراحات الإكمال التلقائي لـ \"bikini top\" في المتجر الأمريكي باستخدام عملة الدولار الأمريكي؟",
+      "id": "lang_ar",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ar",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The Arabic translation accurately reflects the source request in its entirety, including all specific details and the order of tasks."
+      }
+    },
+    {
+      "language": "de",
+      "prompt": "Ich möchte eine internationale Shopping-Website durchsuchen. Zeigen Sie mir zuerst die Liste der unterstützten Länder auf Französisch. Dann möchte ich die in den Vereinigten Arabischen Emiraten verfügbaren Produktkategorien sehen, da ich gehört habe, dass sie die meisten Währungsoptionen anbieten. Schließlich suche ich nach Bademode – können Sie mir Autovervollständigungsvorschläge für „bikini top“ im US-Store mit USD-Währung anzeigen?",
+      "id": "lang_de",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "de",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The German translation is accurate and preserves all the nuances, conditions, and the sequence of the original request."
+      }
+    },
+    {
+      "language": "pt",
+      "prompt": "Gostaria de navegar em um site de compras internacional. Primeiro, mostre-me a lista de países suportados em francês. Em seguida, quero ver as categorias de produtos disponíveis nos Emirados Árabes Unidos, já que ouvi dizer que eles oferecem a maioria das opções de moeda. Finalmente, estou procurando por moda praia - você pode me mostrar sugestões de preenchimento automático para \"bikini top\" na loja dos EUA usando a moeda USD?",
+      "id": "lang_pt",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "pt",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The Portuguese translation is correct and maintains all the instructions, conditions, and the order of information as presented in the source."
+      }
+    }
+  ],
+  "english_source": {
+    "language": "en",
+    "prompt": "I'd like to browse an international shopping site. First, show me the list of supported countries in French. Then, I want to see product categories available in the United Arab Emirates since I heard they offer the most currency options. Finally, I'm looking for swimwear - can you show me auto-complete suggestions for \"bikini top\" in the US store using USD currency?",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation"
+}

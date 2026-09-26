@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Mon, 14 Sep 2026 01:39:37 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"我正在准备本周末在欧洲举行的火箭联盟锦标赛。让我们并行运行这些：查看欧洲的火箭联盟锦标赛；查看火箭联盟玩家数量；从OpenCritic中提取2022年的名人堂游戏；查看Epic Games Store在英国有哪些免费游戏；卡片；列出失落的方舟职业；并查找“batman”的最佳当前交易（最多10个结果）。\"}, {\"language\": \"ru\", \"prompt\": \"Я готовлюсь к предстоящему турниру Rocket League в Европе в эти выходные. Давайте запустим их параллельно: проверить турниры Rocket League в Европе; проверить количество игроков Rocket League; вытащить игры Зала славы за 2022 год из OpenCritic; проверить, какие бесплатные игры есть в Epic Games Store в Великобритании; карта; перечислить классы Lost Ark; и найти лучшие текущие предложения для 'batman' (до 10 результатов).\"}, {\"language\": \"fr\", \"prompt\": \"Je me prépare pour le prochain tournoi Rocket League en Europe ce week-end. Exécutons ces tâches en parallèle : vérifier les tournois Rocket League en Europe ; vérifier la population de joueurs de Rocket League ; extraire les jeux du Hall of Fame pour 2022 depuis OpenCritic ; vérifier quels jeux gratuits sont disponibles sur l'Epic Games Store au Royaume-Uni ; carte ; lister les classes de Lost Ark ; et trouver les meilleures offres actuelles pour 'batman' (jusqu'à 10 résultats).\"}, {\"language\": \"es\", \"prompt\": \"Me estoy preparando para el próximo torneo de Rocket League en Europa este fin de semana. Ejecutemos esto en paralelo: verificar torneos de Rocket League en Europa; verificar la población de jugadores de Rocket League; extraer juegos del Salón de la Fama de 2022 de OpenCritic; verificar qué juegos gratuitos hay en Epic Games Store en el Reino Unido; tarjeta; listar clases de Lost Ark; y encontrar las mejores ofertas actuales para 'batman' (hasta 10 resultados).\"}, {\"language\": \"ar\", \"prompt\": \"أستعد لبطولة Rocket League القادمة في أوروبا نهاية هذا الأسبوع. دعنا ننفذ هذه المهام بالتوازي: التحقق من بطولات Rocket League في أوروبا؛ التحقق من عدد لاعبي Rocket League؛ سحب ألعاب قاعة المشاهير لعام 2022 من OpenCritic؛ التحقق من الألعاب المجانية المتوفرة في Epic Games Store في المملكة المتحدة؛ بطاقة؛ سرد فئات Lost Ark؛ والعثور على أفضل العروض الحالية لـ 'batman' (حتى 10 نتائج).\"}, {\"language\": \"de\", \"prompt\": \"Ich bereite mich auf das bevorstehende Rocket League Turnier in Europa dieses Wochenende vor. Lassen Sie uns diese parallel ausführen: Rocket League Turniere in Europa überprüfen; Rocket League Spielerpopulation überprüfen; Hall of Fame Spiele für 2022 von OpenCritic abrufen; überprüfen, welche kostenlosen Spiele im Epic Games Store in Großbritannien verfügbar sind; Karte; Lost Ark Klassen auflisten; und die besten aktuellen Angebote für 'batman' finden (bis zu 10 Ergebnisse).\"}, {\"language\": \"pt\", \"prompt\": \"Estou me preparando para o próximo torneio de Rocket League na Europa neste fim de semana. Vamos executar estas tarefas em paralelo: verificar torneios de Rocket League na Europa; verificar a população de jogadores de Rocket League; extrair jogos do Hall da Fama de 2022 do OpenCritic; verificar quais jogos gratuitos estão na Epic Games Store no Reino Unido; cartão; listar classes de Lost Ark; e encontrar as melhores ofertas atuais para 'batman' (até 10 resultados).\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.0335953528420967
+    }
+  ],
+  "create_time": "2026-09-14T01:39:34.657319Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "VlCnaqePKI-AtrIP2__h6As",
+  "usage_metadata": {
+    "candidates_token_count": 798,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 798
+      }
+    ],
+    "prompt_token_count": 386,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 386
+      }
+    ],
+    "total_token_count": 1184,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

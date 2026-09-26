@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:04 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"请帮我从亚马逊订购2盒绿茶。\"}, {\"language\": \"ru\", \"prompt\": \"Пожалуйста, закажите для меня 2 коробки зеленого чая на Amazon.\"}, {\"language\": \"fr\", \"prompt\": \"Veuillez me commander 2 boîtes de thé vert sur Amazon.\"}, {\"language\": \"es\", \"prompt\": \"Por favor, pídeme 2 cajas de té verde de Amazon.\"}, {\"language\": \"ar\", \"prompt\": \"الرجاء طلب علبتين من الشاي الأخضر لي من أمازون.\"}, {\"language\": \"de\", \"prompt\": \"Bitte bestellen Sie 2 Schachteln grünen Tee für mich bei Amazon.\"}, {\"language\": \"pt\", \"prompt\": \"Por favor, peça 2 caixas de chá verde para mim na Amazon.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.0182819482442495
+    }
+  ],
+  "create_time": "2026-09-13T22:16:03.145082Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "oyCnarrtCJuJr8kPitOZoQk",
+  "usage_metadata": {
+    "candidates_token_count": 185,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 185
+      }
+    ],
+    "prompt_token_count": 308,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 308
+      }
+    ],
+    "total_token_count": 493,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

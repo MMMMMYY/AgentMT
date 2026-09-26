@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:31:56 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"ru\", \"prompt\": \"Можете ли вы настроить этот файл модели MuJoCo (mjcf) так, чтобы симуляция одной и той же сцены в течение двух секунд занимала 60% от исходного времени или меньше?\\nТо же самое полное физическое состояние должно быть достигнуто с atol=1e-5 без NaN или Inf.\\nИсходная модель находится по адресу ⟦0⟧ и должна оставаться неизменной. Настроенный mjcf должен быть сохранен как ⟦1⟧.\\nСкрипт ⟦2⟧ может помочь вам в итерациях.\\nНастроенная модель также должна пройти тест на корректность (подсказка: изменение физических свойств тел приведет к их поломке).\\nНет необходимости искать плагины, и мы будем использовать свежую установку MuJoCo для тестирования вашего model.xml.\\n\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-23T08:31:54.800175Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "eo6zaq_rMK__lb4Pp-PHsAM",
+  "usage_metadata": {
+    "candidates_token_count": 197,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 197
+      }
+    ],
+    "prompt_token_count": 253,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 253
+      }
+    ],
+    "total_token_count": 450,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

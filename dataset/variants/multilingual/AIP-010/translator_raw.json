@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:15:42 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"您能给我一份我的锻炼报告吗？\"}, {\"language\": \"ru\", \"prompt\": \"Не могли бы вы предоставить мне отчет о моей тренировке?\"}, {\"language\": \"fr\", \"prompt\": \"Pourriez-vous me donner un rapport de mon entraînement ?\"}, {\"language\": \"es\", \"prompt\": \"¿Podrías darme un informe de mi entrenamiento?\"}, {\"language\": \"ar\", \"prompt\": \"هل يمكنك أن تعطيني تقريراً عن تماريني؟\"}, {\"language\": \"de\", \"prompt\": \"Könnten Sie mir einen Bericht über mein Training geben?\"}, {\"language\": \"pt\", \"prompt\": \"Você poderia me dar um relatório do meu treino?\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.017902514949348403
+    }
+  ],
+  "create_time": "2026-09-13T22:15:41.448218Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "jSCnatqtG5OcmecP1-vzoQs",
+  "usage_metadata": {
+    "candidates_token_count": 161,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 161
+      }
+    ],
+    "prompt_token_count": 305,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 305
+      }
+    ],
+    "total_token_count": 466,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:32:29 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"translations\": [\n    {\n      \"language\": \"zh\",\n      \"prompt\": \"在qemu中启动 ⟦0⟧ 镜像，然后在alpine linux虚拟机上启动一个ssh服务器。完成后，我应该能够使用密码 ⟦2⟧ 运行 ⟦1⟧ 并进入shell。在 ⟦3⟧ 镜像上，默认用户名为root，没有密码。\\n\"\n    },\n    {\n      \"language\": \"ru\",\n      \"prompt\": \"Запустите образ ⟦0⟧ в qemu, а затем запустите ssh-сервер на виртуальной машине alpine linux. Когда вы закончите, я должен иметь возможность запустить ⟦1⟧ с паролем ⟦2⟧ и попасть в оболочку. На образе ⟦3⟧ имя пользователя по умолчанию — root без пароля.\\n\"\n    },\n    {\n      \"language\": \"fr\",\n      \"prompt\": \"Démarrez l'image ⟦0⟧ dans qemu, puis démarrez un serveur ssh sur la VM alpine linux. Une fois que vous avez terminé, je devrais pouvoir exécuter ⟦1⟧ avec le mot de passe ⟦2⟧ et être déposé dans un shell. Sur l'image ⟦3⟧, le nom d'utilisateur par défaut est root sans mot de passe.\\n\"\n    },\n    {\n      \"language\": \"es\",\n      \"prompt\": \"Inicie la imagen ⟦0⟧ en qemu y luego inicie un servidor ssh en la máquina virtual alpine linux. Cuando termine, debería poder ejecutar ⟦1⟧ con la contraseña ⟦2⟧ y acceder a un shell. En la imagen ⟦3⟧, el nombre de usuario predeterminado es root sin contraseña.\\n\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-23T08:32:27.426765Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "m46zao2GGs6DqMgPutzZ8Q4",
+  "usage_metadata": {
+    "candidates_token_count": 383,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 383
+      }
+    ],
+    "prompt_token_count": 257,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 257
+      }
+    ],
+    "total_token_count": 640,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

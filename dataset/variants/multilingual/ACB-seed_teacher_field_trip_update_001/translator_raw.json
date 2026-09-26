@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:52 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"将我的实地考察准备清单和周五上午的关键时间细节发送给阿尔瓦雷斯女士。\"}, {\"language\": \"ru\", \"prompt\": \"Отправьте г-же Альварес мой список подготовки к экскурсии и ключевые детали расписания на утро пятницы.\"}, {\"language\": \"fr\", \"prompt\": \"Envoyez à Mme Alvarez ma liste de préparation pour la sortie scolaire et les détails clés du calendrier pour vendredi matin.\"}, {\"language\": \"es\", \"prompt\": \"Envíele a la Sra. Álvarez mi lista de preparación para la excursión y los detalles clave de los horarios para el viernes por la mañana.\"}, {\"language\": \"ar\", \"prompt\": \"أرسل إلى السيدة ألفاريز قائمة التحضير لرحلتي الميدانية وتفاصيل التوقيت الرئيسية لصباح الجمعة.\"}, {\"language\": \"de\", \"prompt\": \"Senden Sie Frau Alvarez meine Packliste für den Ausflug und die wichtigen Zeitdetails für Freitagmorgen.\"}, {\"language\": \"pt\", \"prompt\": \"Envie à Sra. Alvarez minha lista de preparação para a excursão e os detalhes chave de horários para sexta-feira de manhã.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.03997843193285393
+    }
+  ],
+  "create_time": "2026-09-13T22:17:50.102582Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "DiGnarahBsGGm9IPoJKR4Ak",
+  "usage_metadata": {
+    "candidates_token_count": 264,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 264
+      }
+    ],
+    "prompt_token_count": 313,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 313
+      }
+    ],
+    "total_token_count": 577,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

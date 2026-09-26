@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:37:55 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"我正在比较零售商，想要一个清晰的快照。请获取产品信息，并在 Wayfair 上搜索“furniture categories”，然后获取产品信息，然后获取产品信息，然后获取产品信息，并列出 Asos 类别，国家 US，语言 en-US，并在 Zappos 上搜索“home furniture”，按 best_seller 排序，第 1 页。\"},{\"language\":\"ru\",\"prompt\":\"Я сравниваю розничных продавцов и хочу получить четкий снимок. Пожалуйста, получите информацию о продукте, найдите на Wayfair 'furniture categories', получите информацию о продукте, получите информацию о продукте, получите информацию о продукте, перечислите категории Asos для страны US, языка en-US, и найдите на Zappos 'home furniture', отсортируйте по best_seller, страница 1.\"},{\"language\":\"fr\",\"prompt\":\"Je compare des détaillants et je veux un aperçu clair. Veuillez récupérer les informations sur les produits, rechercher sur Wayfair 'furniture categories', récupérer les informations sur les produits, récupérer les informations sur les produits, récupérer les informations sur les produits, et lister les catégories Asos pour le pays US, la langue en-US, et rechercher sur Zappos 'home furniture' trié par best_seller page 1.\"},{\"language\":\"es\",\"prompt\":\"Estoy comparando minoristas y quiero una instantánea clara. Por favor, obtén información del producto, busca en Wayfair 'furniture categories', obtén información del producto, obtén información del producto, obtén información del producto, y lista las categorías de Asos para el país US, idioma en-US, y busca en Zappos 'home furniture' ordenar por best_seller página 1.\"},{\"language\":\"ar\",\"prompt\":\"أنا أقارن تجار التجزئة وأريد لقطة واضحة. الرجاء جلب معلومات المنتج، والبحث في Wayfair عن 'furniture categories'، وجلب معلومات المنتج، وجلب معلومات المنتج، وجلب معلومات المنتج، وسرد فئات Asos للبلد US، واللغة en-US، والبحث في Zappos عن 'home furniture' ترتيب best_seller الصفحة 1.\"},{\"language\":\"de\",\"prompt\":\"Ich vergleiche Einzelhändler und möchte eine klare Momentaufnahme. Bitte rufen Sie Produktinformationen ab, suchen Sie bei Wayfair nach 'furniture categories', rufen Sie Produktinformationen ab, rufen Sie Produktinformationen ab, rufen Sie Produktinformationen ab, listen Sie Asos-Kategorien für Land US, Sprache en-US auf und suchen Sie bei Zappos nach 'home furniture' sortiert nach best_seller Seite 1.\"},{\"language\":\"pt\",\"prompt\":\"Estou comparando varejistas e quero um panorama claro. Por favor, busque informações do produto, e pesquise na Wayfair por 'furniture categories', e busque informações do produto, e busque informações do produto, e busque informações do produto, e liste as categorias da Asos para o país US, idioma en-US, e pesquise na Zappos por 'home furniture' ordenar por best_seller página 1.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:37:50.091427Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "viWnaqPKBZKplb4Pj_fw-Qc",
+  "usage_metadata": {
+    "candidates_token_count": 671,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 671
+      }
+    ],
+    "prompt_token_count": 372,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 372
+      }
+    ],
+    "total_token_count": 1043,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

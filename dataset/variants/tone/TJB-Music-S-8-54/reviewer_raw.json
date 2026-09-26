@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:46:49 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their order, with 'Could you' adding politeness without altering the core task.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the request as a question about capability ('Is it possible to'), which implies an explanation or confirmation is needed before execution, rather than a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their order, with 'Can you please' adding politeness without altering the core task.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their order, with 'Please help me' adding politeness without altering the core task.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their order, with 'please' at the end adding politeness without altering the core task.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their order, with 'Can you' as a neutral request to execute the task.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the request as a question about capability ('Are you able to'), which implies an explanation or confirmation is needed before execution, rather than a direct request to execute the task.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their order, with 'Can you help me' as a neutral request to execute the task.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their order, with 'Please' as a neutral request to execute the task.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their order, using an imperative verb which directly requests execution.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their order. 'Just' adds an impolite tone but does not change the executability of the task.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their order. 'Do it' adds an impolite tone but does not change the executability of the task.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their order. 'This time' implies a previous conversation or failed attempt, but the task itself is still a direct request for execution.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their order. 'You need to' adds an impolite tone but does not change the executability of the task.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the request as a question about capability ('Why can't you'), which implies an explanation is needed before execution, rather than a direct request to execute the task. It also implies a previous conversation or a challenge to the system's ability.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.052367833974410076
+    }
+  ],
+  "create_time": "2026-09-08T10:46:43.124441Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "k-efapnMB_uWi-8P0_LL0AY",
+  "usage_metadata": {
+    "candidates_token_count": 1225,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1225
+      }
+    ],
+    "prompt_token_count": 2632,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 2632
+      }
+    ],
+    "total_token_count": 3857,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

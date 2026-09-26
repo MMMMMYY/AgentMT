@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:38:38 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The core task and all necessary information are present. 'Could you' is a polite request for execution, implying ability and asking for action.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks about the possibility of performing the task ('Is it possible to determine?'), not to perform the task itself. This is an ability question, not a request for execution.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The core task and all necessary information are present. 'Can you please' is a polite request for execution, implying ability and asking for action.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The core task and all necessary information are present. 'Please help me determine' is a polite request for assistance in performing the task, which is equivalent to asking the AI to perform it.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The core task and all necessary information are present. 'Determine..., please' is a direct, polite command/request for execution.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The core task and all necessary information are present. 'Can you' is a direct request for execution, implying ability and asking for action.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks about the AI's ability to perform the task ('Are you able to determine?'), not to perform the task itself. This is an ability question, not a request for execution.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The core task and all necessary information are present. 'Can you help me determine' is a direct request for assistance, equivalent to asking the AI to perform it.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The core task and all necessary information are present. 'Please determine' is a direct, polite command/request for execution.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The core task and all necessary information are present. This is a direct imperative request for execution.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The core task and all necessary information are present. 'Just determine' is a direct, demanding request for execution.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The core task and all necessary information are present. 'Determine... Do it' is a direct, forceful request for execution.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The core task and all necessary information are present. 'This time' implies a previous interaction, but the request for execution is still clear and direct.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The core task and all necessary information are present. 'You need to determine' is a direct, demanding statement of requirement for execution.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks for an explanation of inability ('Why can't"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "MAX_TOKENS",
+      "avg_logprobs": -0.26601313743270744
+    }
+  ],
+  "create_time": "2026-09-08T10:38:20.532731Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "nOWfavvBILij89kPlvyXqQ8",
+  "usage_metadata": {
+    "candidates_token_count": 1190,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1190
+      }
+    ],
+    "prompt_token_count": 1080,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1080
+      }
+    ],
+    "thoughts_token_count": 2891,
+    "total_token_count": 5161,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

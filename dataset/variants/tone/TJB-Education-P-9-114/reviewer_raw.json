@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:45:41 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Could you pull' which changes the direct command to a question about ability, implying a previous conversation or a request for permission rather than a direct instruction to execute.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Is it possible to pull' which changes the direct command to a question about possibility, implying a previous conversation or a request for permission rather than a direct instruction to execute.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Can you please pull' which changes the direct command to a question about ability, implying a previous conversation or a request for permission rather than a direct instruction to execute.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Please help me pull' which changes the direct command to a request for assistance, implying a previous conversation or a request for permission rather than a direct instruction to execute.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt retains the imperative 'Pull' and adds 'please' at the end, which is a polite modifier but does not change the core command.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Can you pull' which changes the direct command to a question about ability, implying a previous conversation or a request for permission rather than a direct instruction to execute.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Are you able to pull' which changes the direct command to a question about ability, implying a previous conversation or a request for permission rather than a direct instruction to execute.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Can you help me pull' which changes the direct command to a question about assistance, implying a previous conversation or a request for permission rather than a direct instruction to execute.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Please pull' which is a polite imperative and retains the direct command.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt retains the imperative 'Pull' and is a direct command.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Just pull' which is an imperative and retains the direct command.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt retains the imperative 'Pull' and adds 'Do it' which reinforces the command.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'This time, pull' which is an imperative and retains the direct command, with 'This time' implying a previous attempt or context.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'You need to pull' which states a requirement rather than directly commanding the action, implying a previous conversation or a statement of obligation.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Why can't you pull' which is a question about ability or explanation, not a direct command to execute the task.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-08T10:45:36.056420Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "UOefauS4A5ymlb4P56O2sAo",
+  "usage_metadata": {
+    "candidates_token_count": 1225,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1225
+      }
+    ],
+    "prompt_token_count": 3320,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 3320
+      }
+    ],
+    "total_token_count": 4545,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:46:24 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"I need to analyze emergency response capabilities for a fire department in Seattle.\",\n  \"task\": \"add a quick map check; show a clear map; add a quick map check; add a quick map check; list places around 47.6008682,-122.3325581 within 5000m to sense foot traffic; list places nearby to sense foot traffic; add a quick map check; give me a quick read on the terrain; show a background tile for context; and add a quick map check\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.008056208843321313
+    }
+  ],
+  "create_time": "2026-09-08T10:46:23.162201Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "f-efapnzCdqn5PgPmIq5oQ0",
+  "usage_metadata": {
+    "candidates_token_count": 127,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 127
+      }
+    ],
+    "prompt_token_count": 318,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 318
+      }
+    ],
+    "total_token_count": 445,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

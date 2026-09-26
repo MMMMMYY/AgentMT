@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:43:28 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"\",\n  \"task\": \"help set up my profile with my bio, contact info, relationship preferences, and so on\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.01325602040571325
+    }
+  ],
+  "create_time": "2026-09-08T10:43:28.216621Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "0Oafaq2cDe7wi-8PspqOyAs",
+  "usage_metadata": {
+    "candidates_token_count": 34,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 34
+      }
+    ],
+    "prompt_token_count": 220,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 220
+      }
+    ],
+    "total_token_count": 254,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

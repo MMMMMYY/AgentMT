@@ -1,0 +1,16 @@
+{
+  "task_id": "TJB-Education-P-9-114",
+  "scenario_id": null,
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "io01",
+      "prompt": "I'm closing out lesson prep—pull clear references. From the Numbers API, get a math fact about the number 17. From Random Words, grab 10 random words. On Kanji alive, list kanji with 8 strokes. On TED, find a talk (speaker yuval noah harari, topic politics, min 300s). From the Numbers API, get a historical fact about the year 1969. From Dr. Almotawa Quotes, share a random quote under 50 characters. From Uncovered Treasure, fetch the relevant item. From Indonesia School List, list schools in sub-district (kecamatan) ID 056010. Using the Stars API, list planets in star system id 4.",
+      "transformation": "sentence_permutation",
+      "sentence_multiset_preserved": true,
+      "information_order_changed": true,
+      "eligible_pilot": true,
+      "validation_basis": "deterministic span preservation and dependency exclusion rules"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "task_id": "TJB-Mapping-S-9-46",
+  "scenario_id": null,
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "io01",
+      "prompt": "Can you find its coordinates, then check what county is located at longitude -73.98609 and latitude 45.50737? After that, I'd like to see a list of all counties in Virginia. Then geocode King County in Washington, United States and find places within 1000 meters of its coordinates. From those results, show me details about Goatea since it's the closest spot. Also, what's the address at coordinates -123.0470199, 49.2813458? Finally, can you tell me the timezone at longitude -123.0469687 and latitude 47.3871102, and check the elevation using the GMT offset value of -8? I'm looking for information about the Empire State Building in New York.",
+      "transformation": "sentence_permutation",
+      "sentence_multiset_preserved": true,
+      "information_order_changed": true,
+      "eligible_pilot": true,
+      "validation_basis": "deterministic span preservation and dependency exclusion rules"
+    }
+  ]
+}

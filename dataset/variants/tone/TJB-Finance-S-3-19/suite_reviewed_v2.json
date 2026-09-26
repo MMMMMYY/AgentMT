@@ -1,0 +1,343 @@
+{
+  "task_id": "TJB-Finance-S-3-19",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "I'm interested in market trends.\n\nCould you show me the most actively traded stocks starting from the 15th position in the list, then show me the latest news specifically for Warner Bros. Discovery, and then analyze the sentiment of that news for WBD to understand market perception?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Could you show me...' which is a conventional request construction and maintains all task details and order."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order, using 'Could you' which is a polite way to ask for execution."
+      }
+    },
+    {
+      "id": "p02",
+      "prompt": "I'm interested in market trends.\n\nIs it possible to show me the most actively traded stocks starting from the 15th position in the list, then show me the latest news specifically for Warner Bros. Discovery, and then analyze the sentiment of that news for WBD to understand market perception?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Is it possible to show me...' which is a conventional request construction and maintains all task details and order."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt changes the request to an ability question ('Is it possible to show me...'), which asks about the system's capability rather than directly requesting execution. This implies a previous conversation or a need for confirmation before execution."
+      }
+    },
+    {
+      "id": "p03",
+      "prompt": "I'm interested in market trends.\n\nCan you please show me the most actively traded stocks starting from the 15th position in the list, then show me the latest news specifically for Warner Bros. Discovery, and then analyze the sentiment of that news for WBD to understand market perception?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Can you please show me...' which is a conventional request construction and maintains all task details and order."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p03",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt changes the request to an ability question ('Can you please show me...'), which asks about the system's capability rather than directly requesting execution. This implies a previous conversation or a need for confirmation before execution."
+      }
+    },
+    {
+      "id": "p04",
+      "prompt": "I'm interested in market trends.\n\nPlease help me show me the most actively traded stocks starting from the 15th position in the list, then show me the latest news specifically for Warner Bros. Discovery, and then analyze the sentiment of that news for WBD to understand market perception.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks the agent to 'help me show me' which changes the agent's role from performing the action to assisting the user in performing it."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "p04",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Please help me show me...', which is grammatically awkward and implies the user wants assistance in performing the action themselves, rather than the system performing it directly. It's an indirect request for execution."
+      }
+    },
+    {
+      "id": "p05",
+      "prompt": "I'm interested in market trends.\n\nShow me the most actively traded stocks starting from the 15th position in the list, then show me the latest news specifically for Warner Bros. Discovery, and then analyze the sentiment of that news for WBD to understand market perception, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses an imperative 'Show me...' followed by 'please', which is a conventional request and maintains all task details and order."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses a direct imperative with 'please' at the end, which is a polite request for execution and maintains all original tasks and their order."
+      }
+    },
+    {
+      "id": "n01",
+      "prompt": "I'm interested in market trends.\n\nCan you show me the most actively traded stocks starting from the 15th position in the list, then show me the latest news specifically for Warner Bros. Discovery, and then analyze the sentiment of that news for WBD to understand market perception?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Can you show me...' which is a conventional request construction and maintains all task details and order."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n01",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt changes the request to an ability question ('Can you show me...'), which asks about the system's capability rather than directly requesting execution. This implies a previous conversation or a need for confirmation before execution."
+      }
+    },
+    {
+      "id": "n02",
+      "prompt": "I'm interested in market trends.\n\nAre you able to show me the most actively traded stocks starting from the 15th position in the list, then show me the latest news specifically for Warner Bros. Discovery, and then analyze the sentiment of that news for WBD to understand market perception?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Are you able to show me...' which is a conventional request construction and maintains all task details and order."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt changes the request to an ability question ('Are you able to show me...'), which asks about the system's capability rather than directly requesting execution. This implies a previous conversation or a need for confirmation before execution."
+      }
+    },
+    {
+      "id": "n03",
+      "prompt": "I'm interested in market trends.\n\nCan you help me show me the most actively traded stocks starting from the 15th position in the list, then show me the latest news specifically for Warner Bros. Discovery, and then analyze the sentiment of that news for WBD to understand market perception?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks the agent to 'help me show me' which changes the agent's role from performing the action to assisting the user in performing it."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Can you help me show me...', which is grammatically awkward and implies the user wants assistance in performing the action themselves, rather than the system performing it directly. It's an indirect request for execution."
+      }
+    },
+    {
+      "id": "n04",
+      "prompt": "I'm interested in market trends.\n\nPlease show me the most actively traded stocks starting from the 15th position in the list, then show me the latest news specifically for Warner Bros. Discovery, and then analyze the sentiment of that news for WBD to understand market perception.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Please show me...' which is a conventional request and maintains all task details and order."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Please show me...', which is a direct and polite request for execution, maintaining all original tasks and their order."
+      }
+    },
+    {
+      "id": "n05",
+      "prompt": "I'm interested in market trends.\n\nShow me the most actively traded stocks starting from the 15th position in the list, then show me the latest news specifically for Warner Bros. Discovery, and then analyze the sentiment of that news for WBD to understand market perception.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses an imperative 'Show me...' which is a conventional request and maintains all task details and order."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses a direct imperative 'Show me...', which is a clear request for execution and maintains all original tasks and their order."
+      }
+    },
+    {
+      "id": "i01",
+      "prompt": "I'm interested in market trends.\n\nJust show me the most actively traded stocks starting from the 15th position in the list, then show me the latest news specifically for Warner Bros. Discovery, and then analyze the sentiment of that news for WBD to understand market perception.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Just show me...' which is an imperative request and maintains all task details and order. 'Just' adds emphasis but doesn't change the task."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Just show me...', which is an impolite but direct request for execution, maintaining all original tasks and their order."
+      }
+    },
+    {
+      "id": "i02",
+      "prompt": "I'm interested in market trends.\n\nShow me the most actively traded stocks starting from the 15th position in the list, then show me the latest news specifically for Warner Bros. Discovery, and then analyze the sentiment of that news for WBD to understand market perception. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses an imperative 'Show me...' followed by 'Do it.', which is a direct request and maintains all task details and order."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses a direct imperative 'Show me...' followed by 'Do it.', which is an impolite but clear request for execution, maintaining all original tasks and their order."
+      }
+    },
+    {
+      "id": "i03",
+      "prompt": "I'm interested in market trends.\n\nThis time, show me the most actively traded stocks starting from the 15th position in the list, then show me the latest news specifically for Warner Bros. Discovery, and then analyze the sentiment of that news for WBD to understand market perception.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'This time, show me...' which is an imperative request and maintains all task details and order. 'This time' implies a previous attempt but doesn't change the current task."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'This time, show me...', which implies a previous interaction or failed attempt, but still directly requests the execution of the tasks in the original order."
+      }
+    },
+    {
+      "id": "i04",
+      "prompt": "I'm interested in market trends.\n\nYou need to show me the most actively traded stocks starting from the 15th position in the list, then show me the latest news specifically for Warner Bros. Discovery, and then analyze the sentiment of that news for WBD to understand market perception.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'You need to show me...' which is a direct and demanding request, but still requests the same task without alteration."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'You need to show me...', which is an impolite but direct command for execution, maintaining all original tasks and their order."
+      }
+    },
+    {
+      "id": "i05",
+      "prompt": "I'm interested in market trends.\n\nWhy can't you show me the most actively traded stocks starting from the 15th position in the list, then show me the latest news specifically for Warner Bros. Discovery, and then analyze the sentiment of that news for WBD to understand market perception?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Why can't you show me...' which is an interrogative asking for an explanation, not a request for the agent to perform the task."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt changes the request to a rhetorical question ('Why can't you show me...?'), which expresses frustration or doubt about the system's ability or willingness, rather than directly requesting execution. This implies a previous conversation or a challenge to the system."
+      }
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "35e76c453d260efffdec4ca25c2abb5131a745e8b1b7903647e670c3553464f8",
+  "scenario_id": "TJB-Finance-S-3-19",
+  "review_protocol": "pragmatic_equivalence_v2",
+  "review_protocol_sha256": "2b387114723187ae3bda767678be617a87a62328697ff6ef3dbd19908bae80f2"
+}

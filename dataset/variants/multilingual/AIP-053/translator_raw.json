@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:31 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"你能给我的家庭群发消息，提醒他们我们今晚7:30在奶奶家吃晚饭吗？\"}, {\"language\": \"ru\", \"prompt\": \"Можешь отправить сообщение моей семейной группе, чтобы напомнить им, что мы ужинаем сегодня у бабушки в 19:30?\"}, {\"language\": \"fr\", \"prompt\": \"Peux-tu envoyer un message à mon groupe familial pour leur rappeler que nous dînons chez grand-mère aujourd'hui à 19h30 ?\"}, {\"language\": \"es\", \"prompt\": \"¿Puedes enviar un mensaje a mi grupo familiar para recordarles que cenamos en casa de la abuela hoy a las 7:30 PM?\"}, {\"language\": \"ar\", \"prompt\": \"هل يمكنك إرسال رسالة إلى مجموعتي العائلية لتذكيرهم بأننا سنتناول العشاء في منزل الجدة اليوم الساعة 7:30 مساءً؟\"}, {\"language\": \"de\", \"prompt\": \"Kannst du meiner Familiengruppe eine Nachricht schicken, um sie daran zu erinnern, dass wir heute um 19:30 Uhr bei Oma zu Abend essen?\"}, {\"language\": \"pt\", \"prompt\": \"Você pode enviar uma mensagem para o meu grupo familiar para lembrá-los de que vamos jantar na casa da vovó hoje às 19h30?\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:16:28.869258Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "vCCnaoqHNfa6ld8P5NXBoA0",
+  "usage_metadata": {
+    "candidates_token_count": 309,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 309
+      }
+    ],
+    "prompt_token_count": 324,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 324
+      }
+    ],
+    "total_token_count": 633,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

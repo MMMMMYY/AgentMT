@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:45:59 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"I need a comprehensive analysis of Tesla (TSLA) to make an investment decision.\",\n  \"task\": \"run in parallel: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26); Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30); Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Stock Sentiment API: News Sentiment Data (ticker=TSLA); Stock Sentiment API: Market Data (ticker=TSLA); Realtime Crypto Prices: Get Realtime Rates (symbol=BTC); Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000); Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30)\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.005164728758814997
+    }
+  ],
+  "create_time": "2026-09-08T10:45:58.338359Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "ZuefarfTFOXsi-8PrP-WsAI",
+  "usage_metadata": {
+    "candidates_token_count": 313,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 313
+      }
+    ],
+    "prompt_token_count": 491,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 491
+      }
+    ],
+    "total_token_count": 804,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:27 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"向萨姆总结我的周末计划，以便我们协调乘车、购物和差事。\"}, {\"language\": \"ru\", \"prompt\": \"Кратко изложите мои планы на выходные для Сэма, чтобы мы могли скоординировать поездки, покупки продуктов и поручения.\"}, {\"language\": \"fr\", \"prompt\": \"Résumez mes plans de week-end pour Sam afin que nous puissions coordonner les trajets, les courses et les petites tâches.\"}, {\"language\": \"es\", \"prompt\": \"Resume mis planes de fin de semana para Sam para que podamos coordinar los viajes, las compras y los recados.\"}, {\"language\": \"ar\", \"prompt\": \"لخص خطط عطلة نهاية الأسبوع الخاصة بي لسام حتى نتمكن من تنسيق المشاوير ومشتريات البقالة والمهام.\"}, {\"language\": \"de\", \"prompt\": \"Fassen Sie meine Wochenendpläne für Sam zusammen, damit wir Fahrten, Einkäufe und Besorgungen koordinieren können.\"}, {\"language\": \"pt\", \"prompt\": \"Resuma meus planos de fim de semana para Sam para que possamos coordenar caronas, compras e recados.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.047698608914712316
+    }
+  ],
+  "create_time": "2026-09-13T22:17:26.157457Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "9iCnapHOCZv-grYPma3O8Ak",
+  "usage_metadata": {
+    "candidates_token_count": 266,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 266
+      }
+    ],
+    "prompt_token_count": 313,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 313
+      }
+    ],
+    "total_token_count": 579,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

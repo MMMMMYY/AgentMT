@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:44:28 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"\",\n  \"task\": \"forward the relevant Grant Prep materials from my Email inbox to the Grant Review Committee before noon\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-08T10:44:27.676533Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "C-efarWlKdKu1t8P2ajtmQg",
+  "usage_metadata": {
+    "candidates_token_count": 33,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 33
+      }
+    ],
+    "prompt_token_count": 210,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 210
+      }
+    ],
+    "total_token_count": 243,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

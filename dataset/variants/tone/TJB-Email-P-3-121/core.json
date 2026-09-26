@@ -1,0 +1,4 @@
+{
+  "context": "End-stage deliverability review; complete the following checks.",
+  "task": "extract public contact emails from https://partnertech.com, verify marketing@clientcompany.com for validity and deliverability, and run the corresponding check for GetTempMail"
+}

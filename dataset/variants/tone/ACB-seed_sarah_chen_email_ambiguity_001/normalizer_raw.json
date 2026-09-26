@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:45:08 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"\",\n  \"task\": \"reply to Sarah Chen with the onboarding status and next steps for Northstar Labs\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.0027170926332473755
+    }
+  ],
+  "create_time": "2026-09-08T10:45:06.113834Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "Muefaqr5Bsyw1t8PkODl6AI",
+  "usage_metadata": {
+    "candidates_token_count": 31,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 31
+      }
+    ],
+    "prompt_token_count": 208,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 208
+      }
+    ],
+    "total_token_count": 239,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

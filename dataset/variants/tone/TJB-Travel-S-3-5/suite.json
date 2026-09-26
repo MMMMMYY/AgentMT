@@ -1,0 +1,236 @@
+{
+  "task_id": "TJB-Travel-S-3-5",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "Could you find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is phrased as a polite question, but still clearly conveys the original task and all its components."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p02",
+      "prompt": "Is it possible to find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'Is it possible to...' questions the system's ability rather than directly requesting the action. This makes it an ability question, not a direct task execution request."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p03",
+      "prompt": "Can you please find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is phrased as a polite question, but still clearly conveys the original task and all its components."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p04",
+      "prompt": "Please help me find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request uses 'Please help me find...', which is a polite way to request the task execution."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p05",
+      "prompt": "Find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request uses an imperative with 'please' at the end, maintaining the original task and politeness."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n01",
+      "prompt": "Can you find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request is phrased as a neutral question, but still clearly conveys the original task and all its components."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n02",
+      "prompt": "Are you able to find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'Are you able to...' questions the system's ability rather than directly requesting the action. This makes it an ability question, not a direct task execution request."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n03",
+      "prompt": "Can you help me find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request uses 'Can you help me find...', which is a neutral way to request the task execution."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n04",
+      "prompt": "Please find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request uses 'Please find...', which is a direct and neutral way to request the task execution."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n05",
+      "prompt": "Find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request uses a direct imperative, maintaining the original task."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i01",
+      "prompt": "Just find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request uses 'Just find...', which is an impolite imperative but still directly conveys the task."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i02",
+      "prompt": "Find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The request uses a direct imperative followed by 'Do it.', which is an impolite but clear command for task execution."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i03",
+      "prompt": "This time, find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrase 'This time,' implies a previous failed attempt or conversation, making it context-sensitive and not a standalone request for the original task."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i04",
+      "prompt": "You need to find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'You need to find...' is a statement about the system's obligation, not a direct request for action. It implies a command but doesn't directly ask the system to perform the task."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i05",
+      "prompt": "Why can't you find 100 cities for my vacation planning, then locate hotels in the westernmost city based on longitude, and finally get comprehensive details about hotel 700008849 including photos, reviews, promotions, videos, guest scores, important information, and nearby attractions?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrasing 'Why can't you find...' is a rhetorical question expressing frustration or challenging the system's ability, not a direct request for task execution. It implies a previous interaction or expectation."
+      },
+      "eligible_pilot": false
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "f6f23b388f49e4b2d6e16f51344cd064a9f55fa98be68e85a28769835a8b104d",
+  "scenario_id": "TJB-Travel-S-3-5"
+}

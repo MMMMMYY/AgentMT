@@ -1,0 +1,15 @@
+{
+  "task_id": "TJB-Finance-S-9-124",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "I'm looking to analyze top-performing mutual funds for my portfolio. Can you first show me a list of Fidelity fund families, then get me a list of Vanguard mutual funds? I'd like to examine the composition of VFIAX since it has the highest performance rating for a large blend fund. After that, I want to do a deep dive on NVIDIA, which I believe is a significant technology holding in the fund but not in the top 3 positions. Please provide NVIDIA's company profile, recent earnings data, and relevant market news. Also, search for news specifically about \"Nvidia earnings\" since that seems to be getting a lot of attention. Can you check NVIDIA's upcoming calendar events, and finally show me options data for NVIDIA around their August 2025 earnings date (timestamp 1756324800)?",
+  "source_sha256": "d9ae837e3eb9f0d6b85f83f048a9704fc46d4bb5620b49bc9dd0554ada7e6180",
+  "status": "preparation_error",
+  "variants": [],
+  "english_source": {
+    "language": "en",
+    "prompt": "I'm looking to analyze top-performing mutual funds for my portfolio. Can you first show me a list of Fidelity fund families, then get me a list of Vanguard mutual funds? I'd like to examine the composition of VFIAX since it has the highest performance rating for a large blend fund. After that, I want to do a deep dive on NVIDIA, which I believe is a significant technology holding in the fund but not in the top 3 positions. Please provide NVIDIA's company profile, recent earnings data, and relevant market news. Also, search for news specifically about \"Nvidia earnings\" since that seems to be getting a lot of attention. Can you check NVIDIA's upcoming calendar events, and finally show me options data for NVIDIA around their August 2025 earnings date (timestamp 1756324800)?",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation",
+  "error_type": "ReadTimeout"
+}

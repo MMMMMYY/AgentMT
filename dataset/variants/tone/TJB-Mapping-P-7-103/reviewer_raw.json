@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:46:29 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the original request as a polite question, but all actions and information are preserved.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks 'Is it possible to...' which changes the request to an inquiry about capability rather than a direct instruction to perform the tasks. This implies a previous conversation or a need for confirmation, altering the authorization.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the original request as a polite question, but all actions and information are preserved.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Please help me' which is a polite way to request assistance in performing the tasks, maintaining the original intent.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt adds 'please' at the end, making it a polite request while preserving all original actions and information.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt rephrases the original request as a neutral question, but all actions and information are preserved.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks 'Are you able to...' which changes the request to an inquiry about capability rather than a direct instruction to perform the tasks. This implies a previous conversation or a need for confirmation, altering the authorization.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Can you help me' which is a neutral way to request assistance in performing the tasks, maintaining the original intent.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt adds 'Please' at the beginning, making it a neutral request while preserving all original actions and information.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt is an exact match to the imperative part of the original source, preserving all actions and information.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Just' before the imperative, which can imply impatience or a direct command, but the core tasks and information are preserved.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt adds 'Do it.' at the end, which is an impolite command reinforcing the original tasks. All actions and information are preserved.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'This time,' which implies a previous attempt or conversation, but the core tasks and information are preserved as a direct command.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt states 'You need to...', which is an assertion of necessity rather than a direct request or command. This changes the nature of the interaction from a request to an instruction about what the system 'must' do, altering the authorization.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks 'Why can't you...', which is a challenge or an inquiry about inability, not a request to perform the tasks. This implies a previous failure or a question about capability, fundamentally changing the task from execution to explanation.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-08T10:46:22.899039Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "fuefat_vNumGqMgPzKO3uA8",
+  "usage_metadata": {
+    "candidates_token_count": 1227,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1227
+      }
+    ],
+    "prompt_token_count": 2081,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 2081
+      }
+    ],
+    "total_token_count": 3308,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,14 @@
+{
+  "task_ids": [
+    "ACB-seed_calendar_titles_client_001",
+    "TJB-Education-S-5-57",
+    "TJB-Email-P-9-193",
+    "TJB-Finance-P-10-36",
+    "TJB-Finance-S-9-124",
+    "TJB-Gaming-P-7-62",
+    "TJB-Music-P-7-62",
+    "TJB-eCommerce-S-10-180"
+  ],
+  "source_sha256": "4d9459c7827bc40f24acc2455fada884bf869c19491899a8a6622dcd9ca460a4",
+  "script": "\"\"\"One explicit retry for incomplete preparation; preserve the failed attempt.\"\"\"\nfrom concurrent.futures import ThreadPoolExecutor,as_completed\nimport json\nfrom pathlib import Path\nimport sys\n\nROOT=Path(__file__).resolve().parents[1]\nsys.path.insert(0,str(ROOT))\nfrom privacy_mt.prepare_multilingual_variants import prepare,compile_all\nfrom privacy_mt.benchmark_environments import fixture_digest\n\n\ndef main():\n    out=ROOT/'artifacts/multilingual_source116_20260914'\n    rows=json.loads((ROOT/'artifacts/benchmark_environments_v1/fixed_sources.json').read_text())['unified']\n    pending=[]\n    for row in rows:\n        folder=out/row['taskId']\n        suite=json.loads((folder/'suite.json').read_text())\n        if suite['status']=='reviewed': continue\n        archive=folder/'attempt1_incomplete'\n        archive.mkdir(exist_ok=False)\n        # Keep successful translations cached; retry only failed generation/review.\n        names=['suite.json']\n        names+=['reviewer_raw.json','reviewer_request.json'] if suite['variants'] else ['translator_raw.json','translator_request.json']\n        for name in names:\n            if (folder/name).exists(): (folder/name).rename(archive/name)\n        pending.append(row)\n    (out/'retry1_manifest.json').write_text(json.dumps({'task_ids':[r['taskId'] for r in pending],\n        'source_sha256':fixture_digest(rows),'script':Path(__file__).read_text()},ensure_ascii=False,indent=2)+'\\n')\n    with ThreadPoolExecutor(max_workers=3) as pool:\n        for f in as_completed([pool.submit(prepare,row,out) for row in pending]):\n            s=f.result();print(json.dumps({'task_id':s['task_id'],'status':s['status'],'variants':len(s['variants'])}),flush=True)\n    print(json.dumps(compile_all(rows,out)))\n\n\nif __name__=='__main__': main()\n"
+}

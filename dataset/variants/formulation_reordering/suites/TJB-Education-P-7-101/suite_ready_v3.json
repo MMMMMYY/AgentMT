@@ -1,0 +1,16 @@
+{
+  "task_id": "TJB-Education-P-7-101",
+  "scenario_id": null,
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "io01",
+      "prompt": "I'm curating materials; gather these exactly. From the Numbers API, get a trivia fact about the number 42. From the periodic table, get element details. On Helioviewer, fetch the relevant solar data/asset. On Kanji alive, list kanji with 5 strokes. From Uncovered Treasure, fetch the relevant item. From Random Words, grab 15 random words. From the Numbers API, get a math fact about the number 17.",
+      "transformation": "sentence_permutation",
+      "sentence_multiset_preserved": true,
+      "information_order_changed": true,
+      "eligible_pilot": true,
+      "validation_basis": "deterministic span preservation and dependency exclusion rules"
+    }
+  ]
+}

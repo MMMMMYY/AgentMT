@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:37:16 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"我想查看2023年5月20日Billboard 200排行榜上的流行趋势，并找出排名最高的女性艺人专辑。你能在Spotify上搜索Taylor Swift Midnights，但给我原始专辑发行版而不是任何特别版吗？然后向我展示Taylor Swift作为艺人的详细信息。之后，我想看看Genius上本周流行音乐排行榜的前10首歌曲。最后，在Shazam上搜索歌曲“HUNTR/X - Golden”，并通过获取其播放次数和完整歌曲详细信息来告诉我它有多受欢迎。\"}, {\"language\": \"ru\", \"prompt\": \"Я хочу проверить, что было в тренде в чарте Billboard 200 20 мая 2023 года, и найти альбом исполнительницы с самым высоким рейтингом. Можете ли вы найти Taylor Swift Midnights на Spotify, но дать мне оригинальный релиз альбома, а не какие-либо специальные издания? Затем покажите мне подробности о Taylor Swift как об артисте. После этого я хотел бы увидеть топ-10 песен в поп-чарте этой недели от Genius. Наконец, найдите в Shazam песню «HUNTR/X - Golden» и расскажите мне, насколько она популярна, предоставив количество прослушиваний и полные сведения о песне.\"}, {\"language\": \"fr\", \"prompt\": \"Je veux vérifier ce qui était en vogue dans le classement Billboard 200 le 20 mai 2023, et trouver l'album d'artiste féminine le mieux classé. Pouvez-vous rechercher Taylor Swift Midnights sur Spotify, mais me donner la version originale de l'album plutôt que toute édition spéciale ? Ensuite, montrez-moi les détails sur Taylor Swift en tant qu'artiste. Après cela, j'aimerais voir les 10 meilleures chansons du classement pop de cette semaine sur Genius. Enfin, recherchez sur Shazam la chanson « HUNTR/X - Golden » et dites-moi à quel point elle est populaire en obtenant son nombre de lectures et les détails complets de la chanson.\"}, {\"language\": \"es\", \"prompt\": \"Quiero verificar qué fue tendencia en la lista Billboard 200 el 20 de mayo de 2023, y encontrar el álbum de artista femenina mejor clasificado. ¿Puedes buscar Taylor Swift Midnights en Spotify, pero dame el lanzamiento original del álbum en lugar de cualquier edición especial? Luego muéstrame detalles sobre Taylor Swift como artista. Después de eso, me gustaría ver las 10 mejores canciones de la lista pop de esta semana de Genius. Finalmente, busca en Shazam la canción \\\"HUNTR/X - Golden\\\" y dime qué tan popular es obteniendo su recuento de reproducciones y los detalles completos de la canción.\"}, {\"language\": \"ar\", \"prompt\": \"أرغب في التحقق مما كان رائجًا في قائمة Billboard 200 في 20 مايو 2023، والعثور على ألبوم الفنانة الأعلى تصنيفًا. هل يمكنك البحث عن Taylor Swift Midnights على Spotify، ولكن أحضر لي الإصدار الأصلي للألبوم بدلاً من أي إصدارات خاصة؟ ثم أظهر لي تفاصيل حول Taylor Swift كفنانة. بعد ذلك، أود رؤية أفضل 10 أغاني في قائمة البوب لهذا الأسبوع من Genius. أخيرًا، ابحث في Shazam عن أغنية \\\"HUNTR/X - Golden\\\" وأخبرني بمدى شعبيتها من خلال الحصول على عدد مرات تشغيلها وتفاصيل الأغنية الكاملة.\"}, {\"language\": \"de\", \"prompt\": \"Ich möchte überprüfen, was am 20. Mai 2023 in den Billboard 200-Charts angesagt war, und das höchstplatzierte Album einer weiblichen Künstlerin finden. Können Sie Taylor Swift Midnights auf Spotify suchen, mir aber die Originalversion des Albums und nicht irgendwelche Sondereditionen geben? Zeigen Sie mir dann Details zu Taylor Swift als Künstlerin. Danach möchte ich die Top 10 Songs der Pop-Charts dieser Woche von Genius sehen. Suchen Sie schließlich auf Shazam nach dem Song „HUNTR/X - Golden“ und sagen Sie mir, wie beliebt er ist, indem Sie die Wiedergabezahl und die vollständigen Songdetails abrufen.\"}, {\"language\": \"pt\", \"prompt\": \"Quero verificar o que estava em alta na parada Billboard 200 em 20 de maio de 2023 e encontrar o álbum de artista feminina mais bem classificado. Você pode procurar por Taylor Swift Midnights no Spotify, mas me dê o lançamento original do álbum em vez de quaisquer edições especiais? Em seguida, mostre-me detalhes sobre Taylor Swift como artista. Depois disso, gostaria de ver as 10 melhores músicas da parada pop desta semana do Genius. Finalmente, procure no Shazam a música \\\"HUNTR/X - Golden\\\" e me diga o quão popular ela é, obtendo sua contagem de reproduções e detalhes completos da música.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.04346273540332214
+    }
+  ],
+  "create_time": "2026-09-13T22:37:11.805275Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "lyWnapuTMcuS89kPk4K4yQw",
+  "usage_metadata": {
+    "candidates_token_count": 1066,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1066
+      }
+    ],
+    "prompt_token_count": 430,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 430
+      }
+    ],
+    "total_token_count": 1496,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

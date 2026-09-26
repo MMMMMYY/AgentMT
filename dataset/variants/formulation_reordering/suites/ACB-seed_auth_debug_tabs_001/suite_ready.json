@@ -1,0 +1,16 @@
+{
+  "task_id": "ACB-seed_auth_debug_tabs_001",
+  "scenario_id": "seed_auth_debug_tabs_001",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "io01",
+      "prompt": "Send a message to the senior dev on OpenMessenger. Tell him which file I am currently working in, and list the other tabs I have open so he knows what context I am looking at. I need help debugging the auth flow.",
+      "transformation": "sentence_permutation",
+      "sentence_multiset_preserved": true,
+      "information_order_changed": true,
+      "eligible_pilot": true,
+      "validation_basis": "deterministic span preservation and dependency exclusion rules"
+    }
+  ]
+}

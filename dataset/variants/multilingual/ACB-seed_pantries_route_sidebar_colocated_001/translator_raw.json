@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:44 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"在所有人离开之前，将我的取货路线和时间备注发布到“周六食品储藏室司机”聊天中。\"}, {\"language\": \"ru\", \"prompt\": \"Опубликуйте мой маршрут получения и примечания по времени в чате водителей субботней кладовой до того, как все уйдут.\"}, {\"language\": \"fr\", \"prompt\": \"Publiez mon itinéraire de ramassage et mes notes de timing dans le chat des chauffeurs du garde-manger du samedi avant que tout le monde ne parte.\"}, {\"language\": \"es\", \"prompt\": \"Publica mi ruta de recogida y notas de horario en el chat de conductores de la despensa del sábado antes de que todos se vayan.\"}, {\"language\": \"ar\", \"prompt\": \"انشر مسار الالتقاط الخاص بي وملاحظات التوقيت في دردشة سائقي مخزن الطعام يوم السبت قبل مغادرة الجميع.\"}, {\"language\": \"de\", \"prompt\": \"Veröffentlichen Sie meine Abholroute und Zeitnotizen im Chat der Samstags-Pantry-Fahrer, bevor alle gehen.\"}, {\"language\": \"pt\", \"prompt\": \"Publique minha rota de coleta e notas de horário no chat dos motoristas da Despensa de Sábado antes que todos saiam.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.05352611475057535
+    }
+  ],
+  "create_time": "2026-09-13T22:17:42.914018Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "BiGnauLkN--gi-8P-ui0wAg",
+  "usage_metadata": {
+    "candidates_token_count": 286,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 286
+      }
+    ],
+    "prompt_token_count": 312,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 312
+      }
+    ],
+    "total_token_count": 598,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Education-P-9-114",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Education",
+  "taskType": "parallel tool orchestration",
+  "prompt": "I'm closing out lesson prep—pull clear references. Using the Stars API, list planets in star system id 4. From the Numbers API, get a math fact about the number 17. From Random Words, grab 10 random words. On Kanji alive, list kanji with 8 strokes. On TED, find a talk (speaker yuval noah harari, topic politics, min 300s). From the Numbers API, get a historical fact about the year 1969. From Dr. Almotawa Quotes, share a random quote under 50 characters. From Uncovered Treasure, fetch the relevant item. From Indonesia School List, list schools in sub-district (kecamatan) ID 056010.",
+  "scope": "",
+  "trajectoryType": "parallel",
+  "referenceSteps": 9,
+  "positiveOracle": "1. Stars API: Planet list | optional: starid=4\n2. Numbers: Get math fact | required: number=17 | optional: fragment=true, json=true\n3. Random Words: Get multiple random words | required: count=10\n4. Learn to read and write Japanese kanji: Kanji stroke number | required: ks=8\n5. TED Talks API: getTalks | optional: speaker=yuval_noah_harari, topic=politics, min_duration=300\n6. Numbers: Get year fact | required: year=1969 | optional: fragment=true, json=true\n7. Dr Almotawa Quotes: Get random quote | optional: limit=50\n8. Uncovered Treasure: /verse/{verse} | required: verse=Genesis 1 | optional: callback=\n9. Indonesia School List: List of School in Sub-Disctrict (Kecamatan) | required: kode_wilayah_kecamatan_id=056010",
+  "negativeOracle": "",
+  "referenceTrajectory": "Stars API: Planet list ∥ Numbers: Get math fact ∥ Random Words: Get multiple random words ∥ Learn to read and write Japanese kanji: Kanji stroke number ∥ TED Talks API: getTalks ∥ Numbers: Get year fact ∥ Dr Almotawa Quotes: Get random quote ∥ Uncovered Treasure: /verse/{verse} ∥ Indonesia School List: List of School in Sub-Disctrict (Kecamatan)",
+  "sourceLocator": "public_data/parallel/Education/simple_ver.json | item=114",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/parallel/Education/simple_ver.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 25 clean candidates in Education/parallel/9-tool stratum."
+}

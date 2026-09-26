@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:15:42 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"您能将我与李医生的复诊预约改到下周五上午 10 点吗？\"}, {\"language\": \"ru\", \"prompt\": \"Не могли бы вы перенести мой повторный прием к доктору Ли на следующую пятницу в 10 утра?\"}, {\"language\": \"fr\", \"prompt\": \"Pouvez-vous reporter mon rendez-vous de suivi avec le Dr Lee à vendredi prochain à 10h du matin ?\"}, {\"language\": \"es\", \"prompt\": \"¿Puede reprogramar mi cita de seguimiento con el Dr. Lee para el próximo viernes a las 10 AM?\"}, {\"language\": \"ar\", \"prompt\": \"هل يمكنك إعادة جدولة موعد المتابعة الخاص بي مع الدكتور لي إلى الجمعة القادمة الساعة 10 صباحًا؟\"}, {\"language\": \"de\", \"prompt\": \"Können Sie meinen Folgetermin bei Dr. Lee auf nächsten Freitag um 10 Uhr verschieben?\"}, {\"language\": \"pt\", \"prompt\": \"Você pode reagendar minha consulta de acompanhamento com o Dr. Lee para a próxima sexta-feira às 10h?\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.026337804981306487
+    }
+  ],
+  "create_time": "2026-09-13T22:15:40.988173Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "jCCnao2oPMyOivYP3KeQwQc",
+  "usage_metadata": {
+    "candidates_token_count": 255,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 255
+      }
+    ],
+    "prompt_token_count": 316,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 316
+      }
+    ],
+    "total_token_count": 571,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

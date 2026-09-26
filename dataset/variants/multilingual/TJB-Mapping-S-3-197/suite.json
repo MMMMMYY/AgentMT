@@ -1,0 +1,165 @@
+{
+  "task_id": "TJB-Mapping-S-3-197",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "I need to plan a multi-stop driving route in Brooklyn starting near Bay Ridge. Can you map a driving route with these stops: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; and 40.627177,-73.980853? After that, I'd like to get information about the roads near the starting point of my route at coordinates 40.629103,-74.025801. Finally, can you search for an address called \"not found road\" in that area and show it on a map?",
+  "source_sha256": "b47b92defd4890baccb7aeffda658c767672d8ca23529c645b1009352fc65f24",
+  "status": "reviewed",
+  "variants": [
+    {
+      "language": "zh",
+      "prompt": "我需要在布鲁克林规划一条多站点驾驶路线，从湾脊区附近开始。您能用这些站点绘制一条驾驶路线吗：40.629041,-74.025606；40.630099,-73.993521；40.644895,-74.013818；和40.627177,-73.980853？之后，我想获取关于我的路线起点坐标40.629103,-74.025801附近道路的信息。最后，您能搜索该区域中名为“not found road”的地址并在地图上显示它吗？",
+      "id": "lang_zh",
+      "literal_check": {
+        "passed": false,
+        "missing_strings": [],
+        "missing_numeric_tokens": [
+          "40.627177",
+          "40.629103"
+        ],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": false,
+      "review": {
+        "language": "zh",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks, authorizations, and information in the correct order and tone."
+      }
+    },
+    {
+      "language": "ru",
+      "prompt": "Мне нужно спланировать маршрут с несколькими остановками в Бруклине, начиная недалеко от Бэй-Ридж. Можете ли вы проложить автомобильный маршрут с этими остановками: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; и 40.627177,-73.980853? После этого я хотел бы получить информацию о дорогах рядом с начальной точкой моего маршрута по координатам 40.629103,-74.025801. Наконец, можете ли вы найти адрес под названием \"not found road\" в этом районе и показать его на карте?",
+      "id": "lang_ru",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ru",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks, authorizations, and information in the correct order and tone."
+      }
+    },
+    {
+      "language": "fr",
+      "prompt": "Je dois planifier un itinéraire de conduite à plusieurs arrêts à Brooklyn, en commençant près de Bay Ridge. Pouvez-vous tracer un itinéraire de conduite avec ces arrêts : 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; et 40.627177,-73.980853? Après cela, j'aimerais obtenir des informations sur les routes près du point de départ de mon itinéraire aux coordonnées 40.629103,-74.025801. Enfin, pouvez-vous rechercher une adresse appelée \"not found road\" dans cette zone et l'afficher sur une carte?",
+      "id": "lang_fr",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "fr",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks, authorizations, and information in the correct order and tone."
+      }
+    },
+    {
+      "language": "es",
+      "prompt": "Necesito planificar una ruta de conducción con varias paradas en Brooklyn, comenzando cerca de Bay Ridge. ¿Puedes trazar una ruta de conducción con estas paradas: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; y 40.627177,-73.980853? Después de eso, me gustaría obtener información sobre las carreteras cerca del punto de partida de mi ruta en las coordenadas 40.629103,-74.025801. Finalmente, ¿puedes buscar una dirección llamada \"not found road\" en esa área y mostrarla en un mapa?",
+      "id": "lang_es",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "es",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks, authorizations, and information in the correct order and tone."
+      }
+    },
+    {
+      "language": "ar",
+      "prompt": "أحتاج إلى تخطيط مسار قيادة متعدد التوقفات في بروكلين بدءًا من بالقرب من باي ريدج. هل يمكنك رسم مسار قيادة بهذه التوقفات: 40.629041,-74.025606؛ 40.630099,-73.993521؛ 40.644895,-74.013818؛ و 40.627177,-73.980853؟ بعد ذلك، أود الحصول على معلومات حول الطرق القريبة من نقطة بداية مساري عند الإحداثيات 40.629103,-74.025801. أخيرًا، هل يمكنك البحث عن عنوان يسمى \"not found road\" في تلك المنطقة وعرضه على الخريطة؟",
+      "id": "lang_ar",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ar",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks, authorizations, and information in the correct order and tone."
+      }
+    },
+    {
+      "language": "de",
+      "prompt": "Ich muss eine Fahrtroute mit mehreren Stopps in Brooklyn planen, beginnend in der Nähe von Bay Ridge. Können Sie eine Fahrtroute mit diesen Stopps kartieren: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; und 40.627177,-73.980853? Danach möchte ich Informationen über die Straßen in der Nähe des Startpunkts meiner Route bei den Koordinaten 40.629103,-74.025801 erhalten. Können Sie schließlich eine Adresse namens \"not found road\" in diesem Bereich suchen und auf einer Karte anzeigen?",
+      "id": "lang_de",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "de",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks, authorizations, and information in the correct order and tone."
+      }
+    },
+    {
+      "language": "pt",
+      "prompt": "Preciso planejar uma rota de carro com várias paradas no Brooklyn, começando perto de Bay Ridge. Você pode mapear uma rota de carro com estas paradas: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; e 40.627177,-73.980853? Depois disso, gostaria de obter informações sobre as estradas perto do ponto de partida da minha rota nas coordenadas 40.629103,-74.025801. Finalmente, você pode procurar um endereço chamado \"not found road\" nessa área e mostrá-lo em um mapa?",
+      "id": "lang_pt",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "pt",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks, authorizations, and information in the correct order and tone."
+      }
+    }
+  ],
+  "english_source": {
+    "language": "en",
+    "prompt": "I need to plan a multi-stop driving route in Brooklyn starting near Bay Ridge. Can you map a driving route with these stops: 40.629041,-74.025606; 40.630099,-73.993521; 40.644895,-74.013818; and 40.627177,-73.980853? After that, I'd like to get information about the roads near the starting point of my route at coordinates 40.629103,-74.025801. Finally, can you search for an address called \"not found road\" in that area and show it on a map?",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation"
+}

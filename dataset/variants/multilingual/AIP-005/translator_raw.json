@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:15:38 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"根据我目前的健康状况和药物，怀孕期间哪些产前维生素或补充剂对我来说是安全的？\"}, {\"language\": \"ru\", \"prompt\": \"Учитывая мои текущие состояния здоровья и принимаемые лекарства, какие пренатальные витамины или добавки безопасны для меня во время беременности?\"}, {\"language\": \"fr\", \"prompt\": \"Compte tenu de mes problèmes de santé actuels et de mes médicaments, quelles vitamines prénatales ou quels suppléments sont sûrs pour moi pendant la grossesse ?\"}, {\"language\": \"es\", \"prompt\": \"Dadas mis condiciones de salud actuales y mis medicamentos, ¿qué vitaminas o suplementos prenatales son seguros para mí durante el embarazo?\"}, {\"language\": \"ar\", \"prompt\": \"بالنظر إلى حالتي الصحية الحالية والأدوية التي أتناولها، ما هي الفيتامينات أو المكملات الغذائية الآمنة لي أثناء الحمل؟\"}, {\"language\": \"de\", \"prompt\": \"Welche pränatalen Vitamine oder Nahrungsergänzungsmittel sind für mich während der Schwangerschaft sicher, angesichts meiner aktuellen Gesundheitszustände und Medikamente?\"}, {\"language\": \"pt\", \"prompt\": \"Dadas as minhas condições de saúde atuais e medicamentos, quais vitaminas ou suplementos pré-natais são seguros para mim durante a gravidez?\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:15:35.095200Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "hyCnauDnBaDbivYPxtzB6AU",
+  "usage_metadata": {
+    "candidates_token_count": 297,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 297
+      }
+    ],
+    "prompt_token_count": 315,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 315
+      }
+    ],
+    "total_token_count": 612,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

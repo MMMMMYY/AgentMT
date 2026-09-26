@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:41:17 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"My shopping history is available.\",\n  \"task\": \"determine which groceries I will run out of by next week\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -1.0614382425944011
+    }
+  ],
+  "create_time": "2026-09-08T10:41:14.551939Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "SuafaoPYIa6j1t8PhsSwuAM",
+  "usage_metadata": {
+    "candidates_token_count": 33,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 33
+      }
+    ],
+    "prompt_token_count": 209,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 209
+      }
+    ],
+    "thoughts_token_count": 384,
+    "total_token_count": 626,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

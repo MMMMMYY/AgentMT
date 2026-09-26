@@ -1,0 +1,4 @@
+{
+  "context": "I need to find Chicago airports for my trip next year.",
+  "task": "show me the airport with the most central location to Chicago city center, then see details about Midway International Airport (MDW), then check what flights are arriving at KMDW on September 1, 2025, around noon, and finally get me complete information about flight WN3764, which should be the flight departing from the easternmost airport"
+}

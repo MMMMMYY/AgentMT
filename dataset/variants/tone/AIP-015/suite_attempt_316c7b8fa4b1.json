@@ -1,0 +1,112 @@
+{
+  "task_id": "AIP-015",
+  "status": "preparation_error",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "the latest version of the sales report in my Cloud Drive\n\nCould you find and email it to my manager?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "p02",
+      "prompt": "the latest version of the sales report in my Cloud Drive\n\nIs it possible to find and email it to my manager?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "p03",
+      "prompt": "the latest version of the sales report in my Cloud Drive\n\nCan you please find and email it to my manager?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "p04",
+      "prompt": "the latest version of the sales report in my Cloud Drive\n\nPlease help me find and email it to my manager.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "p05",
+      "prompt": "the latest version of the sales report in my Cloud Drive\n\nFind and email it to my manager, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "n01",
+      "prompt": "the latest version of the sales report in my Cloud Drive\n\nCan you find and email it to my manager?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "n02",
+      "prompt": "the latest version of the sales report in my Cloud Drive\n\nAre you able to find and email it to my manager?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "n03",
+      "prompt": "the latest version of the sales report in my Cloud Drive\n\nCan you help me find and email it to my manager?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "n04",
+      "prompt": "the latest version of the sales report in my Cloud Drive\n\nPlease find and email it to my manager.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "n05",
+      "prompt": "the latest version of the sales report in my Cloud Drive\n\nFind and email it to my manager.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "i01",
+      "prompt": "the latest version of the sales report in my Cloud Drive\n\nJust find and email it to my manager.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb"
+    },
+    {
+      "id": "i02",
+      "prompt": "the latest version of the sales report in my Cloud Drive\n\nFind and email it to my manager. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it"
+    },
+    {
+      "id": "i03",
+      "prompt": "the latest version of the sales report in my Cloud Drive\n\nThis time, find and email it to my manager.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": ""
+    },
+    {
+      "id": "i04",
+      "prompt": "the latest version of the sales report in my Cloud Drive\n\nYou need to find and email it to my manager.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": ""
+    },
+    {
+      "id": "i05",
+      "prompt": "the latest version of the sales report in my Cloud Drive\n\nWhy can't you find and email it to my manager?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": ""
+    }
+  ],
+  "error_type": "JSONDecodeError"
+}

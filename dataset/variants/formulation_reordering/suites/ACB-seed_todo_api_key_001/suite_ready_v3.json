@@ -1,0 +1,16 @@
+{
+  "task_id": "ACB-seed_todo_api_key_001",
+  "scenario_id": "seed_todo_api_key_001",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "io01",
+      "prompt": "Grab the new staging API key from my OpenToDo list and paste it into the settings.py file in the code editor. I need to update the staging environment configuration.",
+      "transformation": "sentence_permutation",
+      "sentence_multiset_preserved": true,
+      "information_order_changed": true,
+      "eligible_pilot": true,
+      "validation_basis": "deterministic span preservation and dependency exclusion rules"
+    }
+  ]
+}

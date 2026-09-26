@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:44:20 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"\",\n  \"task\": \"send Dr. Patel Office the migraine topics I need to cover before my telehealth visit\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-08T10:44:17.088640Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "AeefasC0BbWs1t8P2I-A2Aw",
+  "usage_metadata": {
+    "candidates_token_count": 32,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 32
+      }
+    ],
+    "prompt_token_count": 209,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 209
+      }
+    ],
+    "total_token_count": 241,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

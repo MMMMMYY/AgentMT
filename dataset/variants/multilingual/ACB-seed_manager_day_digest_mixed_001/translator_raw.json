@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:32 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"在我离开之前，给Nora发送一个快速状态更新，总结我今天的工作安排。\"},{\"language\":\"ru\",\"prompt\":\"Отправьте Норе быстрое обновление статуса, кратко изложив, что у меня сегодня на повестке дня, прежде чем я уйду.\"},{\"language\":\"fr\",\"prompt\":\"Envoyez à Nora une brève mise à jour de mon statut résumant ce que j'ai à faire aujourd'hui avant de partir.\"},{\"language\":\"es\",\"prompt\":\"Envía a Nora una actualización de estado rápida resumiendo lo que tengo pendiente hoy antes de irme.\"},{\"language\":\"ar\",\"prompt\":\"أرسل إلى نورا تحديثًا سريعًا للحالة يلخص ما لدي اليوم قبل أن أغادر.\"},{\"language\":\"de\",\"prompt\":\"Senden Sie Nora ein kurzes Status-Update, das zusammenfasst, was ich heute vorhabe, bevor ich gehe.\"},{\"language\":\"pt\",\"prompt\":\"Envie à Nora uma atualização de status rápida resumindo o que tenho para hoje antes de sair.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:17:30.339226Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "-iCnapraFLLAm9IPseHGiAI",
+  "usage_metadata": {
+    "candidates_token_count": 226,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 226
+      }
+    ],
+    "prompt_token_count": 312,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 312
+      }
+    ],
+    "total_token_count": 538,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

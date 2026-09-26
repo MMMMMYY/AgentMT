@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:50 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"为与克莱尔的早午餐创建一个日历事件，并填写一个简短的事件描述。\"},{\"language\":\"ru\",\"prompt\":\"Создайте событие в календаре для бранча с Клэр и заполните краткое описание события.\"},{\"language\":\"fr\",\"prompt\":\"Créez un événement de calendrier pour un brunch avec Claire et remplissez une courte description de l'événement.\"},{\"language\":\"es\",\"prompt\":\"Crea un evento de calendario para un brunch con Claire y rellena una breve descripción del evento.\"},{\"language\":\"ar\",\"prompt\":\"أنشئ حدثًا في التقويم لتناول الغداء المتأخر مع كلير واملأ وصفًا قصيرًا للحدث.\"},{\"language\":\"de\",\"prompt\":\"Erstellen Sie einen Kalendertermin für Brunch mit Claire und füllen Sie eine kurze Ereignisbeschreibung aus.\"},{\"language\":\"pt\",\"prompt\":\"Crie um evento de calendário para um brunch com Claire e preencha uma breve descrição do evento.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:16:49.482157Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "0SCnau22Hc-pr8kPwNDvwA4",
+  "usage_metadata": {
+    "candidates_token_count": 213,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 213
+      }
+    ],
+    "prompt_token_count": 311,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 311
+      }
+    ],
+    "total_token_count": 524,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

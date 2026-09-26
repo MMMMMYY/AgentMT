@@ -1,0 +1,164 @@
+{
+  "task_id": "TJB-News_Media-P-10-32",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "Quick cross‑source scan, please. Before the meeting, let’s grab: this week's top posts on dev.to; latest IEEE Spectrum tech stories; the latest business headlines from BizToc; movie news about 'latest releases' (limit 20); COVID‑19 coverage in FR; notable people related to 'republican voice'; latest from Aljazeera (Arabic); latest police and crime reports from Germany; latest IPL headlines; and narco‑related news from Mexico?",
+  "source_sha256": "b3f413d19502dad71e00249dbe13cba5a2bc3b905d08a7d4c7250a18d15456ea",
+  "status": "reviewed",
+  "variants": [
+    {
+      "language": "zh",
+      "prompt": "请快速进行跨来源扫描。会议开始前，我们来获取：本周 dev.to 上的热门帖子；IEEE Spectrum 最新的科技故事；BizToc 最新的商业头条；关于“latest releases”的电影新闻（限制20条）；法国的 COVID-19 报道；与“republican voice”相关的知名人物；Aljazeera（阿拉伯语）的最新消息；德国最新的警方和犯罪报告；最新的 IPL 头条新闻；以及墨西哥与毒品相关的新闻？",
+      "id": "lang_zh",
+      "literal_check": {
+        "passed": false,
+        "missing_strings": [],
+        "missing_numeric_tokens": [
+          "20"
+        ],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": false,
+      "review": {
+        "language": "zh",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All elements of the request are accurately translated and preserved."
+      }
+    },
+    {
+      "language": "ru",
+      "prompt": "Быстрое сканирование по нескольким источникам, пожалуйста. Перед встречей давайте возьмем: лучшие посты этой недели на dev.to; последние технологические истории IEEE Spectrum; последние деловые заголовки от BizToc; новости кино о 'latest releases' (лимит 20); освещение COVID-19 во Франции; известные люди, связанные с 'republican voice'; последние новости от Aljazeera (на арабском); последние отчеты полиции и криминала из Германии; последние заголовки IPL; и новости, связанные с наркотиками, из Мексики?",
+      "id": "lang_ru",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ru",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All elements of the request are accurately translated and preserved."
+      }
+    },
+    {
+      "language": "fr",
+      "prompt": "Veuillez effectuer un scan rapide inter-sources. Avant la réunion, prenons : les meilleurs articles de cette semaine sur dev.to ; les dernières histoires technologiques d'IEEE Spectrum ; les derniers titres économiques de BizToc ; les nouvelles cinématographiques sur les 'latest releases' (limite 20) ; la couverture du COVID-19 en FR ; les personnalités notables liées à la 'republican voice' ; les dernières nouvelles d'Aljazeera (arabe) ; les derniers rapports de police et de criminalité d'Allemagne ; les derniers titres de l'IPL ; et les nouvelles liées au narco du Mexique ?",
+      "id": "lang_fr",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "fr",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All elements of the request are accurately translated and preserved."
+      }
+    },
+    {
+      "language": "es",
+      "prompt": "Por favor, un escaneo rápido entre fuentes. Antes de la reunión, busquemos: las publicaciones principales de esta semana en dev.to; las últimas historias de tecnología de IEEE Spectrum; los últimos titulares de negocios de BizToc; noticias de películas sobre 'latest releases' (límite 20); cobertura de COVID-19 en FR; personas notables relacionadas con 'republican voice'; lo último de Aljazeera (árabe); los últimos informes policiales y de crímenes de Alemania; los últimos titulares de la IPL; y noticias relacionadas con el narcotráfico de México?",
+      "id": "lang_es",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "es",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All elements of the request are accurately translated and preserved."
+      }
+    },
+    {
+      "language": "ar",
+      "prompt": "مسح سريع عبر المصادر، من فضلك. قبل الاجتماع، دعنا نحصل على: أهم منشورات هذا الأسبوع على dev.to؛ أحدث قصص التكنولوجيا من IEEE Spectrum؛ أحدث عناوين الأعمال من BizToc؛ أخبار الأفلام حول 'latest releases' (الحد الأقصى 20)؛ تغطية كوفيد-19 في فرنسا؛ شخصيات بارزة مرتبطة بـ 'republican voice'؛ آخر الأخبار من الجزيرة (بالعربية)؛ أحدث تقارير الشرطة والجريمة من ألمانيا؛ أحدث عناوين IPL؛ والأخبار المتعلقة بالمخدرات من المكسيك؟",
+      "id": "lang_ar",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ar",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All elements of the request are accurately translated and preserved."
+      }
+    },
+    {
+      "language": "de",
+      "prompt": "Bitte einen schnellen Cross-Source-Scan. Vor dem Meeting holen wir uns: die Top-Beiträge dieser Woche auf dev.to; die neuesten Tech-Storys von IEEE Spectrum; die neuesten Wirtschaftsschlagzeilen von BizToc; Filmnachrichten über 'latest releases' (Limit 20); COVID-19-Berichterstattung in FR; bemerkenswerte Personen im Zusammenhang mit 'republican voice'; das Neueste von Aljazeera (Arabisch); die neuesten Polizei- und Kriminalberichte aus Deutschland; die neuesten IPL-Schlagzeilen; und Drogen-bezogene Nachrichten aus Mexiko?",
+      "id": "lang_de",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "de",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All elements of the request are accurately translated and preserved."
+      }
+    },
+    {
+      "language": "pt",
+      "prompt": "Por favor, uma varredura rápida entre fontes. Antes da reunião, vamos pegar: as principais postagens desta semana no dev.to; as últimas histórias de tecnologia da IEEE Spectrum; as últimas manchetes de negócios da BizToc; notícias de filmes sobre 'latest releases' (limite 20); cobertura de COVID-19 na França; pessoas notáveis relacionadas a 'republican voice'; as últimas notícias da Aljazeera (árabe); os últimos relatórios policiais e de crimes da Alemanha; as últimas manchetes da IPL; e notícias relacionadas a narcóticos do México?",
+      "id": "lang_pt",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "pt",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All elements of the request are accurately translated and preserved."
+      }
+    }
+  ],
+  "english_source": {
+    "language": "en",
+    "prompt": "Quick cross‑source scan, please. Before the meeting, let’s grab: this week's top posts on dev.to; latest IEEE Spectrum tech stories; the latest business headlines from BizToc; movie news about 'latest releases' (limit 20); COVID‑19 coverage in FR; notable people related to 'republican voice'; latest from Aljazeera (Arabic); latest police and crime reports from Germany; latest IPL headlines; and narco‑related news from Mexico?",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation"
+}

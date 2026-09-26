@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-News_Media-P-10-32",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "News_Media",
+  "taskType": "parallel tool orchestration",
+  "prompt": "Quick cross‑source scan, please. Before the meeting, let’s grab: this week's top posts on dev.to; latest IEEE Spectrum tech stories; the latest business headlines from BizToc; movie news about 'latest releases' (limit 20); COVID‑19 coverage in FR; notable people related to 'republican voice'; latest from Aljazeera (Arabic); latest police and crime reports from Germany; latest IPL headlines; and narco‑related news from Mexico?",
+  "scope": "",
+  "trajectoryType": "parallel",
+  "referenceSteps": 10,
+  "positiveOracle": "1. dev-to-api: Get all the top articles of the week by default\n2. IEEE Spectrum API: Get the latest 30 News from IEEE Spectrum\n3. BizToc: News / Latest / Page | required: page_id=main\n4. Kubric: The Comprehensive Movie News API: Basic Search | required: q=latest releases | optional: limit=20\n5. Coronavirus Smartable: GetNews | required: location=FR\n6. Election2020 Smartable: GetPeopleByTopic | required: page=1, topic=republican-voice\n7. Arabic news API: Aljazeera\n8. German Police and Crime News Live: Get all Police News\n9. Latest IPL News: Get All IPL News\n10. Narco in Mexico: Get All Narco News",
+  "negativeOracle": "",
+  "referenceTrajectory": "dev-to-api: Get all the top articles of the week by default ∥ IEEE Spectrum API: Get the latest 30 News from IEEE Spectrum ∥ BizToc: News / Latest / Page ∥ Kubric: The Comprehensive Movie News API: Basic Search ∥ Coronavirus Smartable: GetNews ∥ Election2020 Smartable: GetPeopleByTopic ∥ Arabic news API: Aljazeera ∥ German Police and Crime News Live: Get all Police News ∥ Latest IPL News: Get All IPL News ∥ Narco in Mexico: Get All Narco News",
+  "sourceLocator": "public_data/parallel/News_Media/simple_ver.json | item=32",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/parallel/News_Media/simple_ver.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 23 clean candidates in News_Media/parallel/10-tool stratum."
+}

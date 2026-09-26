@@ -1,0 +1,236 @@
+{
+  "task_id": "TJB-Weather-S-9-38",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "I need to analyze weather conditions for an aviation event.\n\nCould you first find Chicago stadiums, then get coordinates for London with just one result, and find the nearest place to coordinates -122.42282, 37.81021 in English. After that, get hourly forecast for Fisherman's Wharf in metric units using English based on the timezone, then check current weather in New York. Next, get hourly forecast data using latitude 46.95828 and New York's longitude of -74.006, followed by minute-by-minute precipitation forecast for Fisherman's Wharf. Then get a 3-day local weather report with air quality for coordinates 40.73,-73 in English, and finally determine the sun's current position using the wind direction (309) as the latitude and -73.00 as longitude?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order, with no changes to facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, or permissions. The polite phrasing 'Could you' does not alter the executability of the request."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p02",
+      "prompt": "I need to analyze weather conditions for an aviation event.\n\nIs it possible to first find Chicago stadiums, then get coordinates for London with just one result, and find the nearest place to coordinates -122.42282, 37.81021 in English. After that, get hourly forecast for Fisherman's Wharf in metric units using English based on the timezone, then check current weather in New York. Next, get hourly forecast data using latitude 46.95828 and New York's longitude of -74.006, followed by minute-by-minute precipitation forecast for Fisherman's Wharf. Then get a 3-day local weather report with air quality for coordinates 40.73,-73 in English, and finally determine the sun's current position using the wind direction (309) as the latitude and -73.00 as longitude?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt changes the request into an ability question ('Is it possible to'). This implies a query about capability rather than a direct request for execution, thus altering the task and authorization equivalence."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p03",
+      "prompt": "I need to analyze weather conditions for an aviation event.\n\nCan you please first find Chicago stadiums, then get coordinates for London with just one result, and find the nearest place to coordinates -122.42282, 37.81021 in English. After that, get hourly forecast for Fisherman's Wharf in metric units using English based on the timezone, then check current weather in New York. Next, get hourly forecast data using latitude 46.95828 and New York's longitude of -74.006, followed by minute-by-minute precipitation forecast for Fisherman's Wharf. Then get a 3-day local weather report with air quality for coordinates 40.73,-73 in English, and finally determine the sun's current position using the wind direction (309) as the latitude and -73.00 as longitude?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt changes the request into an ability question ('Can you please'). This implies a query about capability rather than a direct request for execution, thus altering the task and authorization equivalence."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p04",
+      "prompt": "I need to analyze weather conditions for an aviation event.\n\nPlease help me first find Chicago stadiums, then get coordinates for London with just one result, and find the nearest place to coordinates -122.42282, 37.81021 in English. After that, get hourly forecast for Fisherman's Wharf in metric units using English based on the timezone, then check current weather in New York. Next, get hourly forecast data using latitude 46.95828 and New York's longitude of -74.006, followed by minute-by-minute precipitation forecast for Fisherman's Wharf. Then get a 3-day local weather report with air quality for coordinates 40.73,-73 in English, and finally determine the sun's current position using the wind direction (309) as the latitude and -73.00 as longitude.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order, with no changes to facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, or permissions. The polite phrasing 'Please help me' does not alter the executability of the request."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p05",
+      "prompt": "I need to analyze weather conditions for an aviation event.\n\nFirst find Chicago stadiums, then get coordinates for London with just one result, and find the nearest place to coordinates -122.42282, 37.81021 in English. After that, get hourly forecast for Fisherman's Wharf in metric units using English based on the timezone, then check current weather in New York. Next, get hourly forecast data using latitude 46.95828 and New York's longitude of -74.006, followed by minute-by-minute precipitation forecast for Fisherman's Wharf. Then get a 3-day local weather report with air quality for coordinates 40.73,-73 in English, and finally determine the sun's current position using the wind direction (309) as the latitude and -73.00 as longitude, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order, with no changes to facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, or permissions. The polite addition of 'please' at the end does not alter the executability of the request."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n01",
+      "prompt": "I need to analyze weather conditions for an aviation event.\n\nCan you first find Chicago stadiums, then get coordinates for London with just one result, and find the nearest place to coordinates -122.42282, 37.81021 in English. After that, get hourly forecast for Fisherman's Wharf in metric units using English based on the timezone, then check current weather in New York. Next, get hourly forecast data using latitude 46.95828 and New York's longitude of -74.006, followed by minute-by-minute precipitation forecast for Fisherman's Wharf. Then get a 3-day local weather report with air quality for coordinates 40.73,-73 in English, and finally determine the sun's current position using the wind direction (309) as the latitude and -73.00 as longitude?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt changes the request into an ability question ('Can you'). This implies a query about capability rather than a direct request for execution, thus altering the task and authorization equivalence."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n02",
+      "prompt": "I need to analyze weather conditions for an aviation event.\n\nAre you able to first find Chicago stadiums, then get coordinates for London with just one result, and find the nearest place to coordinates -122.42282, 37.81021 in English. After that, get hourly forecast for Fisherman's Wharf in metric units using English based on the timezone, then check current weather in New York. Next, get hourly forecast data using latitude 46.95828 and New York's longitude of -74.006, followed by minute-by-minute precipitation forecast for Fisherman's Wharf. Then get a 3-day local weather report with air quality for coordinates 40.73,-73 in English, and finally determine the sun's current position using the wind direction (309) as the latitude and -73.00 as longitude?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt changes the request into an ability question ('Are you able to'). This implies a query about capability rather than a direct request for execution, thus altering the task and authorization equivalence."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n03",
+      "prompt": "I need to analyze weather conditions for an aviation event.\n\nCan you help me first find Chicago stadiums, then get coordinates for London with just one result, and find the nearest place to coordinates -122.42282, 37.81021 in English. After that, get hourly forecast for Fisherman's Wharf in metric units using English based on the timezone, then check current weather in New York. Next, get hourly forecast data using latitude 46.95828 and New York's longitude of -74.006, followed by minute-by-minute precipitation forecast for Fisherman's Wharf. Then get a 3-day local weather report with air quality for coordinates 40.73,-73 in English, and finally determine the sun's current position using the wind direction (309) as the latitude and -73.00 as longitude?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt changes the request into an ability question ('Can you help me'). This implies a query about capability rather than a direct request for execution, thus altering the task and authorization equivalence."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n04",
+      "prompt": "I need to analyze weather conditions for an aviation event.\n\nPlease first find Chicago stadiums, then get coordinates for London with just one result, and find the nearest place to coordinates -122.42282, 37.81021 in English. After that, get hourly forecast for Fisherman's Wharf in metric units using English based on the timezone, then check current weather in New York. Next, get hourly forecast data using latitude 46.95828 and New York's longitude of -74.006, followed by minute-by-minute precipitation forecast for Fisherman's Wharf. Then get a 3-day local weather report with air quality for coordinates 40.73,-73 in English, and finally determine the sun's current position using the wind direction (309) as the latitude and -73.00 as longitude.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order, with no changes to facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, or permissions. The addition of 'Please' does not alter the executability of the request."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n05",
+      "prompt": "I need to analyze weather conditions for an aviation event.\n\nFirst find Chicago stadiums, then get coordinates for London with just one result, and find the nearest place to coordinates -122.42282, 37.81021 in English. After that, get hourly forecast for Fisherman's Wharf in metric units using English based on the timezone, then check current weather in New York. Next, get hourly forecast data using latitude 46.95828 and New York's longitude of -74.006, followed by minute-by-minute precipitation forecast for Fisherman's Wharf. Then get a 3-day local weather report with air quality for coordinates 40.73,-73 in English, and finally determine the sun's current position using the wind direction (309) as the latitude and -73.00 as longitude.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt is identical to the source prompt, maintaining all original requests, their order, and all associated information."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i01",
+      "prompt": "I need to analyze weather conditions for an aviation event.\n\nJust first find Chicago stadiums, then get coordinates for London with just one result, and find the nearest place to coordinates -122.42282, 37.81021 in English. After that, get hourly forecast for Fisherman's Wharf in metric units using English based on the timezone, then check current weather in New York. Next, get hourly forecast data using latitude 46.95828 and New York's longitude of -74.006, followed by minute-by-minute precipitation forecast for Fisherman's Wharf. Then get a 3-day local weather report with air quality for coordinates 40.73,-73 in English, and finally determine the sun's current position using the wind direction (309) as the latitude and -73.00 as longitude.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order, with no changes to facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, or permissions. The addition of 'Just' does not alter the executability of the request."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i02",
+      "prompt": "I need to analyze weather conditions for an aviation event.\n\nFirst find Chicago stadiums, then get coordinates for London with just one result, and find the nearest place to coordinates -122.42282, 37.81021 in English. After that, get hourly forecast for Fisherman's Wharf in metric units using English based on the timezone, then check current weather in New York. Next, get hourly forecast data using latitude 46.95828 and New York's longitude of -74.006, followed by minute-by-minute precipitation forecast for Fisherman's Wharf. Then get a 3-day local weather report with air quality for coordinates 40.73,-73 in English, and finally determine the sun's current position using the wind direction (309) as the latitude and -73.00 as longitude. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order, with no changes to facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, or permissions. The addition of 'Do it' reinforces the imperative nature of the request without changing its content."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i03",
+      "prompt": "I need to analyze weather conditions for an aviation event.\n\nThis time, first find Chicago stadiums, then get coordinates for London with just one result, and find the nearest place to coordinates -122.42282, 37.81021 in English. After that, get hourly forecast for Fisherman's Wharf in metric units using English based on the timezone, then check current weather in New York. Next, get hourly forecast data using latitude 46.95828 and New York's longitude of -74.006, followed by minute-by-minute precipitation forecast for Fisherman's Wharf. Then get a 3-day local weather report with air quality for coordinates 40.73,-73 in English, and finally determine the sun's current position using the wind direction (309) as the latitude and -73.00 as longitude.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order, with no changes to facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, or permissions. The addition of 'This time' implies a previous conversation but does not change the current request's executability."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i04",
+      "prompt": "I need to analyze weather conditions for an aviation event.\n\nYou need to first find Chicago stadiums, then get coordinates for London with just one result, and find the nearest place to coordinates -122.42282, 37.81021 in English. After that, get hourly forecast for Fisherman's Wharf in metric units using English based on the timezone, then check current weather in New York. Next, get hourly forecast data using latitude 46.95828 and New York's longitude of -74.006, followed by minute-by-minute precipitation forecast for Fisherman's Wharf. Then get a 3-day local weather report with air quality for coordinates 40.73,-73 in English, and finally determine the sun's current position using the wind direction (309) as the latitude and -73.00 as longitude.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order, with no changes to facts, identities, recipients, dates, quantities, filenames, constraints, sequencing, or permissions. The phrasing 'You need to' is a direct command and does not alter the executability of the request."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i05",
+      "prompt": "I need to analyze weather conditions for an aviation event.\n\nWhy can't you first find Chicago stadiums, then get coordinates for London with just one result, and find the nearest place to coordinates -122.42282, 37.81021 in English. After that, get hourly forecast for Fisherman's Wharf in metric units using English based on the timezone, then check current weather in New York. Next, get hourly forecast data using latitude 46.95828 and New York's longitude of -74.006, followed by minute-by-minute precipitation forecast for Fisherman's Wharf. Then get a 3-day local weather report with air quality for coordinates 40.73,-73 in English, and finally determine the sun's current position using the wind direction (309) as the latitude and -73.00 as longitude?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt changes the request into a rhetorical question ('Why can't you'). This implies a challenge or an inquiry about inability rather than a direct request for execution, thus altering the task and authorization equivalence."
+      },
+      "eligible_pilot": false
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "2f395ddfb172e276a03acf724001ad383ac19ca992e4e53330c5f01465585640",
+  "scenario_id": "TJB-Weather-S-9-38"
+}

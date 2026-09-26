@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:37:32 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"我正在研究来自不同视角的 F 气候变化新闻。首先，向我展示所有气候变化新闻，然后搜索英文标题“Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM”。之后，我想缩小范围到 CNN 的报道，然后专门关注他们的经济类别。接下来，在这些经济文章中搜索“House moves toward averting a shutdown, sidestepping a Trump demand”。然后向我展示所有最新文章，最后，找出关于 GraphQL 的 10 篇最新报道，因为它似乎经常出现在关于气候解决方案的技术讨论中。\"}, {\"language\": \"ru\", \"prompt\": \"Я исследую новости об изменении климата с разных точек зрения. Сначала покажите мне все новости об изменении климата, затем найдите заголовок «Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM» на английском языке. После этого я хочу сузить поиск до освещения CNN, затем сосредоточиться конкретно на их категории «Экономика». Далее найдите «House moves toward averting a shutdown, sidestepping a Trump demand» в этих экономических статьях. Затем покажите мне все последние статьи и, наконец, найдите 10 самых свежих историй о GraphQL, так как он, похоже, часто появляется в технических дискуссиях о климатических решениях.\"}, {\"language\": \"fr\", \"prompt\": \"Je recherche des nouvelles sur le changement climatique sous différents angles. Tout d'abord, montrez-moi toutes les nouvelles sur le changement climatique, puis recherchez le titre «Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM» en anglais. Après cela, je veux me limiter à la couverture de CNN, puis me concentrer spécifiquement sur leur catégorie Économie. Ensuite, recherchez «House moves toward averting a shutdown, sidestepping a Trump demand» dans ces articles économiques. Ensuite, montrez-moi tous les derniers articles, et enfin, trouvez les 10 histoires les plus récentes sur GraphQL, car il semble apparaître fréquemment dans les discussions techniques sur les solutions climatiques.\"}, {\"language\": \"es\", \"prompt\": \"Estoy investigando noticias sobre el cambio climático desde diferentes perspectivas. Primero, muéstrame todas las noticias sobre el cambio climático, luego busca el titular \\\"Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM\\\" en inglés. Después de eso, quiero reducir la búsqueda a la cobertura de CNN, luego centrarme específicamente en su categoría de Economía. A continuación, busca \\\"House moves toward averting a shutdown, sidestepping a Trump demand\\\" dentro de esos artículos económicos. Luego muéstrame todos los artículos más recientes, y finalmente, encuentra las 10 historias más recientes sobre GraphQL, ya que parece estar apareciendo con frecuencia en las discusiones tecnológicas sobre soluciones climáticas.\"}, {\"language\": \"ar\", \"prompt\": \"أبحث عن أخبار تغير المناخ من وجهات نظر مختلفة. أولاً، أرني جميع أخبار تغير المناخ، ثم ابحث عن العنوان \\\"Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM\\\" باللغة الإنجليزية. بعد ذلك، أريد تضييق النطاق إلى تغطية CNN، ثم التركيز بشكل خاص على فئة الاقتصاد لديهم. بعد ذلك، ابحث عن \\\"House moves toward averting a shutdown, sidestepping a Trump demand\\\" ضمن تلك المقالات الاقتصادية. ثم أرني جميع أحدث المقالات، وأخيرًا، ابحث عن أحدث 10 قصص حول GraphQL حيث يبدو أنه يظهر بشكل متكرر في المناقشات التقنية حول حلول المناخ.\"}, {\"language\": \"de\", \"prompt\": \"Ich recherchiere Nachrichten zum Klimawandel aus verschiedenen Perspektiven. Zeigen Sie mir zuerst alle Nachrichten zum Klimawandel, dann suchen Sie nach der Überschrift „Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM“ auf Englisch. Danach möchte ich die Suche auf die Berichterstattung von CNN eingrenzen und mich dann speziell auf deren Kategorie Wirtschaft konzentrieren. Als Nächstes suchen Sie nach „House moves toward averting a shutdown, sidestepping a Trump demand“ in diesen Wirtschaftsartikeln. Dann zeigen Sie mir alle neuesten Artikel und finden Sie schließlich die 10 neuesten Geschichten über GraphQL, da es in technischen Diskussionen über Klimalösungen häufig aufzutauchen scheint.\"}, {\"language\": \"pt\", \"prompt\": \"Estou pesquisando notícias sobre mudanças climáticas de diferentes perspectivas. Primeiro, mostre-me todas as notícias sobre mudanças climáticas, depois procure a manchete \\\"Cops needs to crack down on climate yobs & be like Jonny Bairstow, says PM\\\" em inglês. Depois disso, quero restringir a cobertura da CNN e, em seguida, focar especificamente na categoria Economia deles. Em seguida, procure por \\\"House moves toward averting a shutdown, sidestepping a Trump demand\\\" dentro desses artigos econômicos. Depois, mostre-me todos os artigos mais recentes e, finalmente, encontre as 10 histórias mais recentes sobre GraphQL, já que parece estar aparecendo com frequência em discussões técnicas sobre soluções climáticas.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.031533387207900075
+    }
+  ],
+  "create_time": "2026-09-13T22:37:24.853304Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "pCWnariKNLLAm9IPseHGiAI",
+  "usage_metadata": {
+    "candidates_token_count": 1124,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1124
+      }
+    ],
+    "prompt_token_count": 463,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 463
+      }
+    ],
+    "total_token_count": 1587,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

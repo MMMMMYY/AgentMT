@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-eCommerce-P-7-101",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "eCommerce",
+  "taskType": "parallel tool orchestration",
+  "prompt": "I'm comparing retailers and want a clear snapshot. Please fetch product info, and search Wayfair for 'furniture categories', and fetch product info, and fetch product info, and fetch product info, and list Asos categories country US, lang en-US, and search Zappos for 'home furniture' sort best_seller page 1.",
+  "scope": "",
+  "trajectoryType": "parallel",
+  "referenceSteps": 7,
+  "positiveOracle": "1. Ikea API: Countries\n2. Wayfair: auto-complete | required: query=furniture categories\n3. Asos: countries/list | optional: lang=en-US\n4. Wayfair: products/get-common-info | required: sku=W003078383\n5. Lazada DataHub: Lazada - Item Search | required: region=SG, q=furniture | optional: locale=en_SG, page=1\n6. Asos: categories/list | optional: lang=en-US, country=US\n7. Zappos Realtime Data: Zappos search product | required: keyword=home furniture | optional: sort=best_seller, page=1",
+  "negativeOracle": "",
+  "referenceTrajectory": "Ikea API: Countries ∥ Wayfair: auto-complete ∥ Asos: countries/list ∥ Wayfair: products/get-common-info ∥ Lazada DataHub: Lazada - Item Search ∥ Asos: categories/list ∥ Zappos Realtime Data: Zappos search product",
+  "sourceLocator": "public_data/parallel/eCommerce/simple_ver.json | item=101",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/parallel/eCommerce/simple_ver.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 3 clean candidates in eCommerce/parallel/7-tool stratum."
+}

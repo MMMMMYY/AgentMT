@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:59 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"将我今天的食品储藏室运行的取货路线和物资清单发送给食品储藏室志愿者负责人。\"}, {\"language\": \"ru\", \"prompt\": \"Отправьте руководителям волонтеров продовольственного склада мой маршрут получения и контрольный список припасов для сегодняшнего похода в продовольственный склад.\"}, {\"language\": \"fr\", \"prompt\": \"Envoyez aux responsables des bénévoles du garde-manger mon itinéraire de ramassage et ma liste de contrôle des fournitures pour la tournée du garde-manger d'aujourd'hui.\"}, {\"language\": \"es\", \"prompt\": \"Envíe a los líderes voluntarios de la despensa de alimentos mi ruta de recogida y la lista de verificación de suministros para la carrera de despensa de hoy.\"}, {\"language\": \"ar\", \"prompt\": \"أرسل إلى قادة متطوعي مخزن الطعام مسار الالتقاط الخاص بي وقائمة التحقق من الإمدادات لتشغيل مخزن الطعام اليوم.\"}, {\"language\": \"de\", \"prompt\": \"Senden Sie den Food Pantry Volunteer Leads meine Abholroute und Checkliste für die heutige Pantry-Tour.\"}, {\"language\": \"pt\", \"prompt\": \"Envie aos Líderes Voluntários da Despensa de Alimentos minha rota de coleta e lista de verificação de suprimentos para a corrida da despensa de hoje.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:17:56.742315Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "FCGnaqunLYf_lb4PmLjb4QQ",
+  "usage_metadata": {
+    "candidates_token_count": 306,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 306
+      }
+    ],
+    "prompt_token_count": 314,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 314
+      }
+    ],
+    "total_token_count": 620,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

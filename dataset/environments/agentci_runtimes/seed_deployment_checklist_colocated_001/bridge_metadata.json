@@ -1,0 +1,13 @@
+{
+  "run_name": "seed_deployment_checklist_colocated_001",
+  "scenario_id": "seed_deployment_checklist_colocated_001",
+  "supported_apps": [
+    "open_todo",
+    "open_messenger",
+    "open_calendar",
+    "open_maps",
+    "open_shop",
+    "open_code_editor"
+  ],
+  "warnings": []
+}

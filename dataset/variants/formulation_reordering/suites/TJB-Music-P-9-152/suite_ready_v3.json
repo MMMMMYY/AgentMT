@@ -1,0 +1,16 @@
+{
+  "task_id": "TJB-Music-P-9-152",
+  "scenario_id": null,
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "io01",
+      "prompt": "Please search Shazam term 'bad guy billie eilish', locale en-US, limit 5, offset 0, get Shazam song details (key 40333609) locale en-US, get Shazam song count (key 40333609), get Billboard chart (Billboard Global 200) for 2020-09-19, get Billboard Japan Hot 100 for 2019-05-11, range 1-20, get Billboard chart (Billboard 200) for 2019-05-11, search Spotify q 'billie eilish bad guy', type tracks, limit 10, get Independent Albums for week 2019-05-11, and list radio channels keyword 'billie eilish'. I'm pulling together a quick music brief.",
+      "transformation": "sentence_permutation",
+      "sentence_multiset_preserved": true,
+      "information_order_changed": true,
+      "eligible_pilot": true,
+      "validation_basis": "deterministic span preservation and dependency exclusion rules"
+    }
+  ]
+}

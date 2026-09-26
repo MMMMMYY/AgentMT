@@ -1,0 +1,236 @@
+{
+  "task_id": "AIP-054",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "I took a photo yesterday at the beach from my Cloud Drive.\n\nCould you design a \"Beach Vibes\" Instagram post and share the photo on Instagram?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original task elements and information, rephrasing as a polite request."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p02",
+      "prompt": "I took a photo yesterday at the beach from my Cloud Drive.\n\nIs it possible to design a \"Beach Vibes\" Instagram post and share the photo on Instagram?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt asks if it's 'possible' to perform the actions, which is an ability question, not a direct request to execute. This changes the task from a command to an inquiry about capability."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p03",
+      "prompt": "I took a photo yesterday at the beach from my Cloud Drive.\n\nCan you please design a \"Beach Vibes\" Instagram post and share the photo on Instagram?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original task elements and information, rephrasing as a polite request."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p04",
+      "prompt": "I took a photo yesterday at the beach from my Cloud Drive.\n\nPlease help me design a \"Beach Vibes\" Instagram post and share the photo on Instagram.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original task elements and information, rephrasing as a polite request for help."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p05",
+      "prompt": "I took a photo yesterday at the beach from my Cloud Drive.\n\nDesign a \"Beach Vibes\" Instagram post and share the photo on Instagram, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original task elements and information, rephrasing as a polite request."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n01",
+      "prompt": "I took a photo yesterday at the beach from my Cloud Drive.\n\nCan you design a \"Beach Vibes\" Instagram post and share the photo on Instagram?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original task elements and information, rephrasing as a neutral request."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n02",
+      "prompt": "I took a photo yesterday at the beach from my Cloud Drive.\n\nAre you able to design a \"Beach Vibes\" Instagram post and share the photo on Instagram?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt asks if the system is 'able' to perform the actions, which is an ability question, not a direct request to execute. This changes the task from a command to an inquiry about capability."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n03",
+      "prompt": "I took a photo yesterday at the beach from my Cloud Drive.\n\nCan you help me design a \"Beach Vibes\" Instagram post and share the photo on Instagram?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original task elements and information, rephrasing as a neutral request for help."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n04",
+      "prompt": "I took a photo yesterday at the beach from my Cloud Drive.\n\nPlease design a \"Beach Vibes\" Instagram post and share the photo on Instagram.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original task elements and information, rephrasing as a neutral request."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n05",
+      "prompt": "I took a photo yesterday at the beach from my Cloud Drive.\n\nDesign a \"Beach Vibes\" Instagram post and share the photo on Instagram.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original task elements and information, rephrasing as a neutral command."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i01",
+      "prompt": "I took a photo yesterday at the beach from my Cloud Drive.\n\nJust design a \"Beach Vibes\" Instagram post and share the photo on Instagram.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original task elements and information, rephrasing as an impolite command. 'Just' implies a direct, unadorned instruction."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i02",
+      "prompt": "I took a photo yesterday at the beach from my Cloud Drive.\n\nDesign a \"Beach Vibes\" Instagram post and share the photo on Instagram. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original task elements and information, adding an impolite imperative 'Do it' at the end, reinforcing the command."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i03",
+      "prompt": "I took a photo yesterday at the beach from my Cloud Drive.\n\nThis time, design a \"Beach Vibes\" Instagram post and share the photo on Instagram.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original task elements and information, adding 'This time' which implies a previous conversation or failed attempt, but still functions as a command."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i04",
+      "prompt": "I took a photo yesterday at the beach from my Cloud Drive.\n\nYou need to design a \"Beach Vibes\" Instagram post and share the photo on Instagram.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original task elements and information, rephrasing as an impolite directive using 'You need to'."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i05",
+      "prompt": "I took a photo yesterday at the beach from my Cloud Drive.\n\nWhy can't you design a \"Beach Vibes\" Instagram post and share the photo on Instagram?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Why can't you...', which is an explanation question, not a direct request to execute. This changes the task from a command to an inquiry about inability or refusal."
+      },
+      "eligible_pilot": false
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "3fade9ac369d846d69f38e706e27254a0d51ff35bfbbf508f563b47b43286aaa",
+  "scenario_id": "AIP-054"
+}

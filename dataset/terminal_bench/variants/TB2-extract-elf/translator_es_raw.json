@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:32:04 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"es\", \"prompt\": \"He proporcionado un archivo a.out que es un binario C compilado. Escríbeme un programa ⟦0⟧ que, cuando se ejecute con ⟦1⟧, extraiga los valores de memoria del binario y los muestre como un objeto JSON con las direcciones de memoria como claves y sus valores como enteros.\\n\\nFormato de salida de ejemplo: {⟦2⟧: 1784774249, ⟦3⟧: 1718378344, ...}\\n\\nCriterios de éxito:\\n1. Para cualquier dirección que incluyas en tu salida, el valor DEBE coincidir con la solución de referencia (las direcciones con valores incorrectos fallarán la prueba)\\n2. Debes extraer al menos el 75% de los valores de memoria que están presentes en la solución de referencia\\n\\nNota: Los valores de salida deben ser enteros, no cadenas.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.016590631336247157
+    }
+  ],
+  "create_time": "2026-09-23T08:32:03.403722Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "g46zaorSGK__lb4Pp-PHsAM",
+  "usage_metadata": {
+    "candidates_token_count": 218,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 218
+      }
+    ],
+    "prompt_token_count": 282,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 282
+      }
+    ],
+    "total_token_count": 500,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

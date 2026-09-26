@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:46:59 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"I need to find Chicago airports for my trip next year.\",\n  \"task\": \"show me the airport with the most central location to Chicago city center, then see details about Midway International Airport (MDW), then check what flights are arriving at KMDW on September 1, 2025, around noon, and finally get me complete information about flight WN3764, which should be the flight departing from the easternmost airport\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.01610573865834949
+    }
+  ],
+  "create_time": "2026-09-08T10:46:58.535989Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "ouefarXbINTJ1t8PpPbSqAs",
+  "usage_metadata": {
+    "candidates_token_count": 103,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 103
+      }
+    ],
+    "prompt_token_count": 294,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 294
+      }
+    ],
+    "total_token_count": 397,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

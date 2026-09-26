@@ -1,0 +1,4 @@
+{
+  "context": "I'm looking for information about the Empire State Building in New York.",
+  "task": "find its coordinates, then check what county is located at longitude -73.98609 and latitude 45.50737, then see a list of all counties in Virginia, then geocode King County in Washington, United States and find places within 1000 meters of its coordinates, then from those results show me details about Goatea since it's the closest spot, then find the address at coordinates -123.0470199, 49.2813458, then tell me the timezone at longitude -123.0469687 and latitude 47.3871102, and check the elevation using the GMT offset value of -8"
+}

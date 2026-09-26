@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:42:03 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adds politeness, but the core request for weather information remains a functional request for action.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"Changes from a direct request to a question about the system's capability or possibility, rather than a direct command to execute the task.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adds politeness, but the core request for weather information remains a functional request for action.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'help me tell me' fundamentally changes the requested action from receiving information to assisting the user in providing it, which is a different task.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adds politeness to a direct imperative, maintaining the core request for weather information.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Common conversational phrasing of the direct request, maintaining the core request for weather information.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"Changes from a direct request to a question about the system's capability or ability, rather than a direct command to execute the task.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'help me tell me' fundamentally changes the requested action from receiving information to assisting the user in providing it, which is a different task.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adds politeness to a direct imperative, maintaining the core request for weather information.\"\n    },\n    {\n      \"id\": \"n"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "MAX_TOKENS",
+      "avg_logprobs": -0.5155511058048962
+    }
+  ],
+  "create_time": "2026-09-08T10:41:43.656725Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "Z-afatWKKIuY89kPxIe7mQ8",
+  "usage_metadata": {
+    "candidates_token_count": 674,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 674
+      }
+    ],
+    "prompt_token_count": 844,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 844
+      }
+    ],
+    "thoughts_token_count": 3407,
+    "total_token_count": 4925,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

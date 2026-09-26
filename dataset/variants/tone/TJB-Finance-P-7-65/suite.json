@@ -1,0 +1,236 @@
+{
+  "task_id": "TJB-Finance-P-7-65",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "Could you generate a comprehensive trading signal for TSLA by analyzing multiple technical indicators across different timeframes in parallel, run: Twelve Data: KAMA (symbol=TSLA, interval=15min, time_period=14, outputsize=50, series_type=close); Twelve Data: AROON (symbol=TSLA, interval=1h, time_period=14, outputsize=50); Twelve Data: CRSI (symbol=TSLA, interval=1day, outputsize=30); Twelve Data: HT_PHASOR (symbol=TSLA, interval=4h, outputsize=40, series_type=close); Twelve Data: MIDPOINT (symbol=TSLA, interval=1day, time_period=14, outputsize=30, series_type=close); Twelve Data: MOM (symbol=TSLA, interval=1week, time_period=10, outputsize=30, series_type=close); Yahoo Finance_v2: stock/institution-ownership (symbol=TSLA)?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Could you generate...', which is a question about ability, not a direct request to execute the task."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p02",
+      "prompt": "Is it possible to generate a comprehensive trading signal for TSLA by analyzing multiple technical indicators across different timeframes in parallel, run: Twelve Data: KAMA (symbol=TSLA, interval=15min, time_period=14, outputsize=50, series_type=close); Twelve Data: AROON (symbol=TSLA, interval=1h, time_period=14, outputsize=50); Twelve Data: CRSI (symbol=TSLA, interval=1day, outputsize=30); Twelve Data: HT_PHASOR (symbol=TSLA, interval=4h, outputsize=40, series_type=close); Twelve Data: MIDPOINT (symbol=TSLA, interval=1day, time_period=14, outputsize=30, series_type=close); Twelve Data: MOM (symbol=TSLA, interval=1week, time_period=10, outputsize=30, series_type=close); Yahoo Finance_v2: stock/institution-ownership (symbol=TSLA)?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Is it possible to generate...', which is a question about possibility, not a direct request to execute the task."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p03",
+      "prompt": "Can you please generate a comprehensive trading signal for TSLA by analyzing multiple technical indicators across different timeframes in parallel, run: Twelve Data: KAMA (symbol=TSLA, interval=15min, time_period=14, outputsize=50, series_type=close); Twelve Data: AROON (symbol=TSLA, interval=1h, time_period=14, outputsize=50); Twelve Data: CRSI (symbol=TSLA, interval=1day, outputsize=30); Twelve Data: HT_PHASOR (symbol=TSLA, interval=4h, outputsize=40, series_type=close); Twelve Data: MIDPOINT (symbol=TSLA, interval=1day, time_period=14, outputsize=30, series_type=close); Twelve Data: MOM (symbol=TSLA, interval=1week, time_period=10, outputsize=30, series_type=close); Yahoo Finance_v2: stock/institution-ownership (symbol=TSLA)?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Can you please generate...', which is a question about ability, not a direct request to execute the task."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p04",
+      "prompt": "Please help me generate a comprehensive trading signal for TSLA by analyzing multiple technical indicators across different timeframes in parallel, run: Twelve Data: KAMA (symbol=TSLA, interval=15min, time_period=14, outputsize=50, series_type=close); Twelve Data: AROON (symbol=TSLA, interval=1h, time_period=14, outputsize=50); Twelve Data: CRSI (symbol=TSLA, interval=1day, outputsize=30); Twelve Data: HT_PHASOR (symbol=TSLA, interval=4h, outputsize=40, series_type=close); Twelve Data: MIDPOINT (symbol=TSLA, interval=1day, time_period=14, outputsize=30, series_type=close); Twelve Data: MOM (symbol=TSLA, interval=1week, time_period=10, outputsize=30, series_type=close); Yahoo Finance_v2: stock/institution-ownership (symbol=TSLA).",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Please help me generate...' is an indirect request but still clearly conveys the intent for the task to be executed."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p05",
+      "prompt": "Generate a comprehensive trading signal for TSLA by analyzing multiple technical indicators across different timeframes in parallel, run: Twelve Data: KAMA (symbol=TSLA, interval=15min, time_period=14, outputsize=50, series_type=close); Twelve Data: AROON (symbol=TSLA, interval=1h, time_period=14, outputsize=50); Twelve Data: CRSI (symbol=TSLA, interval=1day, outputsize=30); Twelve Data: HT_PHASOR (symbol=TSLA, interval=4h, outputsize=40, series_type=close); Twelve Data: MIDPOINT (symbol=TSLA, interval=1day, time_period=14, outputsize=30, series_type=close); Twelve Data: MOM (symbol=TSLA, interval=1week, time_period=10, outputsize=30, series_type=close); Yahoo Finance_v2: stock/institution-ownership (symbol=TSLA), please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Generate... please' is a direct request with added politeness, maintaining task equivalence."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n01",
+      "prompt": "Can you generate a comprehensive trading signal for TSLA by analyzing multiple technical indicators across different timeframes in parallel, run: Twelve Data: KAMA (symbol=TSLA, interval=15min, time_period=14, outputsize=50, series_type=close); Twelve Data: AROON (symbol=TSLA, interval=1h, time_period=14, outputsize=50); Twelve Data: CRSI (symbol=TSLA, interval=1day, outputsize=30); Twelve Data: HT_PHASOR (symbol=TSLA, interval=4h, outputsize=40, series_type=close); Twelve Data: MIDPOINT (symbol=TSLA, interval=1day, time_period=14, outputsize=30, series_type=close); Twelve Data: MOM (symbol=TSLA, interval=1week, time_period=10, outputsize=30, series_type=close); Yahoo Finance_v2: stock/institution-ownership (symbol=TSLA)?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Can you generate...', which is a question about ability, not a direct request to execute the task."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n02",
+      "prompt": "Are you able to generate a comprehensive trading signal for TSLA by analyzing multiple technical indicators across different timeframes in parallel, run: Twelve Data: KAMA (symbol=TSLA, interval=15min, time_period=14, outputsize=50, series_type=close); Twelve Data: AROON (symbol=TSLA, interval=1h, time_period=14, outputsize=50); Twelve Data: CRSI (symbol=TSLA, interval=1day, outputsize=30); Twelve Data: HT_PHASOR (symbol=TSLA, interval=4h, outputsize=40, series_type=close); Twelve Data: MIDPOINT (symbol=TSLA, interval=1day, time_period=14, outputsize=30, series_type=close); Twelve Data: MOM (symbol=TSLA, interval=1week, time_period=10, outputsize=30, series_type=close); Yahoo Finance_v2: stock/institution-ownership (symbol=TSLA)?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Are you able to generate...', which is a question about ability, not a direct request to execute the task."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n03",
+      "prompt": "Can you help me generate a comprehensive trading signal for TSLA by analyzing multiple technical indicators across different timeframes in parallel, run: Twelve Data: KAMA (symbol=TSLA, interval=15min, time_period=14, outputsize=50, series_type=close); Twelve Data: AROON (symbol=TSLA, interval=1h, time_period=14, outputsize=50); Twelve Data: CRSI (symbol=TSLA, interval=1day, outputsize=30); Twelve Data: HT_PHASOR (symbol=TSLA, interval=4h, outputsize=40, series_type=close); Twelve Data: MIDPOINT (symbol=TSLA, interval=1day, time_period=14, outputsize=30, series_type=close); Twelve Data: MOM (symbol=TSLA, interval=1week, time_period=10, outputsize=30, series_type=close); Yahoo Finance_v2: stock/institution-ownership (symbol=TSLA)?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Can you help me generate...', which is a question about ability, not a direct request to execute the task."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n04",
+      "prompt": "Please generate a comprehensive trading signal for TSLA by analyzing multiple technical indicators across different timeframes in parallel, run: Twelve Data: KAMA (symbol=TSLA, interval=15min, time_period=14, outputsize=50, series_type=close); Twelve Data: AROON (symbol=TSLA, interval=1h, time_period=14, outputsize=50); Twelve Data: CRSI (symbol=TSLA, interval=1day, outputsize=30); Twelve Data: HT_PHASOR (symbol=TSLA, interval=4h, outputsize=40, series_type=close); Twelve Data: MIDPOINT (symbol=TSLA, interval=1day, time_period=14, outputsize=30, series_type=close); Twelve Data: MOM (symbol=TSLA, interval=1week, time_period=10, outputsize=30, series_type=close); Yahoo Finance_v2: stock/institution-ownership (symbol=TSLA).",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Please generate...' is a direct request, maintaining task equivalence."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n05",
+      "prompt": "Generate a comprehensive trading signal for TSLA by analyzing multiple technical indicators across different timeframes in parallel, run: Twelve Data: KAMA (symbol=TSLA, interval=15min, time_period=14, outputsize=50, series_type=close); Twelve Data: AROON (symbol=TSLA, interval=1h, time_period=14, outputsize=50); Twelve Data: CRSI (symbol=TSLA, interval=1day, outputsize=30); Twelve Data: HT_PHASOR (symbol=TSLA, interval=4h, outputsize=40, series_type=close); Twelve Data: MIDPOINT (symbol=TSLA, interval=1day, time_period=14, outputsize=30, series_type=close); Twelve Data: MOM (symbol=TSLA, interval=1week, time_period=10, outputsize=30, series_type=close); Yahoo Finance_v2: stock/institution-ownership (symbol=TSLA).",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Generate...' is a direct imperative, maintaining task equivalence."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i01",
+      "prompt": "Just generate a comprehensive trading signal for TSLA by analyzing multiple technical indicators across different timeframes in parallel, run: Twelve Data: KAMA (symbol=TSLA, interval=15min, time_period=14, outputsize=50, series_type=close); Twelve Data: AROON (symbol=TSLA, interval=1h, time_period=14, outputsize=50); Twelve Data: CRSI (symbol=TSLA, interval=1day, outputsize=30); Twelve Data: HT_PHASOR (symbol=TSLA, interval=4h, outputsize=40, series_type=close); Twelve Data: MIDPOINT (symbol=TSLA, interval=1day, time_period=14, outputsize=30, series_type=close); Twelve Data: MOM (symbol=TSLA, interval=1week, time_period=10, outputsize=30, series_type=close); Yahoo Finance_v2: stock/institution-ownership (symbol=TSLA).",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Just generate...' is a direct imperative, maintaining task equivalence, despite the impolite tone."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i02",
+      "prompt": "Generate a comprehensive trading signal for TSLA by analyzing multiple technical indicators across different timeframes in parallel, run: Twelve Data: KAMA (symbol=TSLA, interval=15min, time_period=14, outputsize=50, series_type=close); Twelve Data: AROON (symbol=TSLA, interval=1h, time_period=14, outputsize=50); Twelve Data: CRSI (symbol=TSLA, interval=1day, outputsize=30); Twelve Data: HT_PHASOR (symbol=TSLA, interval=4h, outputsize=40, series_type=close); Twelve Data: MIDPOINT (symbol=TSLA, interval=1day, time_period=14, outputsize=30, series_type=close); Twelve Data: MOM (symbol=TSLA, interval=1week, time_period=10, outputsize=30, series_type=close); Yahoo Finance_v2: stock/institution-ownership (symbol=TSLA). Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'Generate... Do it.' is a direct imperative, maintaining task equivalence."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i03",
+      "prompt": "This time, generate a comprehensive trading signal for TSLA by analyzing multiple technical indicators across different timeframes in parallel, run: Twelve Data: KAMA (symbol=TSLA, interval=15min, time_period=14, outputsize=50, series_type=close); Twelve Data: AROON (symbol=TSLA, interval=1h, time_period=14, outputsize=50); Twelve Data: CRSI (symbol=TSLA, interval=1day, outputsize=30); Twelve Data: HT_PHASOR (symbol=TSLA, interval=4h, outputsize=40, series_type=close); Twelve Data: MIDPOINT (symbol=TSLA, interval=1day, time_period=14, outputsize=30, series_type=close); Twelve Data: MOM (symbol=TSLA, interval=1week, time_period=10, outputsize=30, series_type=close); Yahoo Finance_v2: stock/institution-ownership (symbol=TSLA).",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'This time, generate...' is a direct imperative, maintaining task equivalence. The 'This time' implies a previous conversation but doesn't change the current task."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i04",
+      "prompt": "You need to generate a comprehensive trading signal for TSLA by analyzing multiple technical indicators across different timeframes in parallel, run: Twelve Data: KAMA (symbol=TSLA, interval=15min, time_period=14, outputsize=50, series_type=close); Twelve Data: AROON (symbol=TSLA, interval=1h, time_period=14, outputsize=50); Twelve Data: CRSI (symbol=TSLA, interval=1day, outputsize=30); Twelve Data: HT_PHASOR (symbol=TSLA, interval=4h, outputsize=40, series_type=close); Twelve Data: MIDPOINT (symbol=TSLA, interval=1day, time_period=14, outputsize=30, series_type=close); Twelve Data: MOM (symbol=TSLA, interval=1week, time_period=10, outputsize=30, series_type=close); Yahoo Finance_v2: stock/institution-ownership (symbol=TSLA).",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt 'You need to generate...' is a direct instruction, maintaining task equivalence."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i05",
+      "prompt": "Why can't you generate a comprehensive trading signal for TSLA by analyzing multiple technical indicators across different timeframes in parallel, run: Twelve Data: KAMA (symbol=TSLA, interval=15min, time_period=14, outputsize=50, series_type=close); Twelve Data: AROON (symbol=TSLA, interval=1h, time_period=14, outputsize=50); Twelve Data: CRSI (symbol=TSLA, interval=1day, outputsize=30); Twelve Data: HT_PHASOR (symbol=TSLA, interval=4h, outputsize=40, series_type=close); Twelve Data: MIDPOINT (symbol=TSLA, interval=1day, time_period=14, outputsize=30, series_type=close); Twelve Data: MOM (symbol=TSLA, interval=1week, time_period=10, outputsize=30, series_type=close); Yahoo Finance_v2: stock/institution-ownership (symbol=TSLA)?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt asks 'Why can't you generate...', which is a question about ability/explanation, not a direct request to execute the task."
+      },
+      "eligible_pilot": false
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "36f11d915041bf3e8f331db85eb9bd9254813fa885e5b8e04928710136d512bb",
+  "scenario_id": "TJB-Finance-P-7-65"
+}

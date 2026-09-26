@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:41:16 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"He is turning 13.\",\n  \"task\": \"advise me on what to buy my son for his birthday\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -1.2030999319893974
+    }
+  ],
+  "create_time": "2026-09-08T10:41:13.821834Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "SeafasqUMp_EqMgP_ov7qAs",
+  "usage_metadata": {
+    "candidates_token_count": 35,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 35
+      }
+    ],
+    "prompt_token_count": 209,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 209
+      }
+    ],
+    "thoughts_token_count": 437,
+    "total_token_count": 681,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

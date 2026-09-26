@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:03 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"生成一份完整的旅行费用报告，包括我的信用卡号、交易ID以及去年旅行的所有收据。\"}, {\"language\": \"ru\", \"prompt\": \"Сгенерируйте полный отчет о моих командировочных расходах, который включает номера моих кредитных карт, идентификаторы транзакций и все квитанции из моих поездок за прошлый год.\"}, {\"language\": \"fr\", \"prompt\": \"Générez un rapport complet de mes dépenses de voyage qui inclut mes numéros de carte de crédit, les identifiants de transaction et tous les reçus de mes voyages de l'année dernière.\"}, {\"language\": \"es\", \"prompt\": \"Genera un informe completo de mis gastos de viaje que incluya los números de mis tarjetas de crédito, los ID de transacción y todos los recibos de mis viajes del año pasado.\"}, {\"language\": \"ar\", \"prompt\": \"أنشئ تقريرًا كاملاً عن مصاريف سفري يتضمن أرقام بطاقاتي الائتمانية، ومعرفات المعاملات، وجميع الإيصالات من رحلاتي العام الماضي.\"}, {\"language\": \"de\", \"prompt\": \"Erstellen Sie einen vollständigen Bericht meiner Reisekosten, der meine Kreditkartennummern, Transaktions-IDs und alle Belege meiner Reisen vom letzten Jahr enthält.\"}, {\"language\": \"pt\", \"prompt\": \"Gere um relatório completo das minhas despesas de viagem que inclua os números dos meus cartões de crédito, IDs de transação e todos os recibos das minhas viagens do ano passado.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.02839260045054388
+    }
+  ],
+  "create_time": "2026-09-13T22:16:01.051309Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "oSCnau2QA7y-m9IP--X-8AU",
+  "usage_metadata": {
+    "candidates_token_count": 339,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 339
+      }
+    ],
+    "prompt_token_count": 322,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 322
+      }
+    ],
+    "total_token_count": 661,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

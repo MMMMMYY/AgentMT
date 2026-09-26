@@ -1,0 +1,236 @@
+{
+  "task_id": "AIP-040",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "Could you check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the request as a polite question, but the core task remains the same."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p02",
+      "prompt": "Is it possible to check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt asks about the possibility of performing the task, which implies an ability question rather than a direct request to execute. While the intent is likely a request, it's phrased as a query about capability."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "p03",
+      "prompt": "Can you please check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the request as a polite question, but the core task remains the same."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p04",
+      "prompt": "Please help me check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Please help me' which is a polite way to request the task, maintaining the original intent."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "p05",
+      "prompt": "Check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt adds 'please' at the end, making it polite but retaining the direct imperative of the original task."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n01",
+      "prompt": "Can you check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the request as a neutral question, but the core task remains the same."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n02",
+      "prompt": "Are you able to check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt asks about the ability to perform the task, which implies an ability question rather than a direct request to execute. While the intent is likely a request, it's phrased as a query about capability."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "n03",
+      "prompt": "Can you help me check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'Can you help me' which is a neutral way to request the task, maintaining the original intent."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n04",
+      "prompt": "Please check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt adds 'Please' at the beginning, making it a polite request while retaining the direct imperative of the original task."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "n05",
+      "prompt": "Check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt is identical to the source, maintaining all aspects of the original task."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i01",
+      "prompt": "Just check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt adds 'Just' which implies a direct and somewhat impatient command, but the core task remains unchanged."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i02",
+      "prompt": "Check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt adds 'Do it.' as an explicit command, reinforcing the imperative nature of the original task."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i03",
+      "prompt": "This time, check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt adds 'This time,' which implies a previous conversation or expectation, but the core task itself is still a direct request."
+      },
+      "eligible_pilot": false
+    },
+    {
+      "id": "i04",
+      "prompt": "You need to check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt uses 'You need to' which is a strong, imperative statement, directly instructing the execution of the task."
+      },
+      "eligible_pilot": true
+    },
+    {
+      "id": "i05",
+      "prompt": "Why can't you check the weather forecast for my trip to Tokyo next week and recommend sightseeing spots nearby?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The prompt is phrased as a rhetorical question challenging the system's ability or willingness, rather than a direct request to execute the task. It implies a previous failure or refusal."
+      },
+      "eligible_pilot": false
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "c69ef8f785f27dec61fda3e7b5eaa4797d084e468b350b33614d405d17ff65c4",
+  "scenario_id": "AIP-040"
+}

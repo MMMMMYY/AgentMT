@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:16 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"检索我所有已存储的签证申请、护照扫描件和旅行证件历史记录，并将它们放入名为“travel docs”的文件夹中。\"},{\"language\":\"ru\",\"prompt\":\"Получите все мои сохраненные визовые заявления, сканы паспортов и историю проездных документов и поместите их в папку с именем «travel docs».\"},{\"language\":\"fr\",\"prompt\":\"Récupérez toutes mes demandes de visa stockées, les scans de passeport et l'historique des documents de voyage, et placez-les dans un dossier nommé «travel docs».\"},{\"language\":\"es\",\"prompt\":\"Recupere todas mis solicitudes de visa almacenadas, escaneos de pasaportes e historial de documentos de viaje, y colóquelos en una carpeta llamada «travel docs».\"},{\"language\":\"ar\",\"prompt\":\"استرجع جميع طلبات التأشيرة المخزنة لدي، وصور جوازات السفر الممسوحة ضوئيًا، وسجل وثائق السفر، وضعها في مجلد باسم «travel docs».\"},{\"language\":\"de\",\"prompt\":\"Rufen Sie alle meine gespeicherten Visumanträge, Passscans und die Historie der Reisedokumente ab und legen Sie sie in einem Ordner namens „travel docs“ ab.\"},{\"language\":\"pt\",\"prompt\":\"Recupere todos os meus pedidos de visto armazenados, digitalizações de passaportes e histórico de documentos de viagem, e coloque-os em uma pasta chamada «travel docs».\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:16:15.066992Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "ryCnarCLBJuJr8kPitOZoQk",
+  "usage_metadata": {
+    "candidates_token_count": 324,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 324
+      }
+    ],
+    "prompt_token_count": 324,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 324
+      }
+    ],
+    "total_token_count": 648,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

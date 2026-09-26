@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:40:11 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"\",\n  \"task\": \"reschedule the delivery of my furniture to next Monday afternoon\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -1.9744805230034723
+    }
+  ],
+  "create_time": "2026-09-08T10:40:08.871778Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "COafauKaNbWs1t8P2I-A2Aw",
+  "usage_metadata": {
+    "candidates_token_count": 27,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 27
+      }
+    ],
+    "prompt_token_count": 160,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 160
+      }
+    ],
+    "thoughts_token_count": 324,
+    "total_token_count": 511,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

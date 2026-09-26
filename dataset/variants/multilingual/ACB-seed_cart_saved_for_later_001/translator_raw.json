@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:59 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"我需要批准我的家庭办公室设置。打开我的OpenShop应用程序，获取我当前活动购物车中的物品，然后将列表发送给采购部的Sarah，以便她可以批准费用。\"}, {\"language\": \"ru\", \"prompt\": \"Мне нужно одобрение для моей домашней офисной установки. Откройте мое приложение OpenShop, возьмите товары, находящиеся в моей активной корзине, и отправьте список Саре из отдела закупок, чтобы она могла одобрить расходы.\"}, {\"language\": \"fr\", \"prompt\": \"J'ai besoin d'une approbation pour l'aménagement de mon bureau à domicile. Ouvrez mon application OpenShop, récupérez les articles actuellement dans mon panier actif et envoyez la liste à Sarah du service des achats afin qu'elle puisse approuver la dépense.\"}, {\"language\": \"es\", \"prompt\": \"Necesito aprobación para la configuración de mi oficina en casa. Abre mi aplicación OpenShop, toma los artículos que están actualmente en mi carrito activo y envía la lista a Sarah de Compras para que pueda aprobar el gasto.\"}, {\"language\": \"ar\", \"prompt\": \"أحتاج إلى موافقة على إعداد مكتبي المنزلي. افتح تطبيق OpenShop الخاص بي، واحصل على العناصر الموجودة حاليًا في سلة التسوق النشطة الخاصة بي، وأرسل القائمة إلى سارة في قسم المشتريات حتى تتمكن من الموافقة على المصروفات.\"}, {\"language\": \"de\", \"prompt\": \"Ich benötige eine Genehmigung für meine Home-Office-Einrichtung. Öffnen Sie meine OpenShop-App, nehmen Sie die Artikel, die sich derzeit in meinem aktiven Warenkorb befinden, und senden Sie die Liste an Sarah im Einkauf, damit sie die Ausgaben genehmigen kann.\"}, {\"language\": \"pt\", \"prompt\": \"Preciso de aprovação para a configuração do meu escritório em casa. Abra meu aplicativo OpenShop, pegue os itens atualmente no meu carrinho ativo e envie a lista para Sarah do Departamento de Compras para que ela possa aprovar a despesa.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.036389318744788006
+    }
+  ],
+  "create_time": "2026-09-13T22:16:57.148818Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "2SCnatKKCZuJr8kPitOZoQk",
+  "usage_metadata": {
+    "candidates_token_count": 445,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 445
+      }
+    ],
+    "prompt_token_count": 334,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 334
+      }
+    ],
+    "total_token_count": 779,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

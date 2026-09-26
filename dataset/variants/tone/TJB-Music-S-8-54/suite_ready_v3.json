@@ -1,0 +1,419 @@
+{
+  "task_id": "TJB-Music-S-8-54",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "Could you check what was trending on the Billboard 200 chart on May 20, 2023, and find the highest-ranked female artist album, then search for Taylor Swift Midnights on Spotify, but get me the original album release rather than any special editions, then show me details about Taylor Swift as the artist, then see the top 10 songs on this week's pop chart from Genius, and finally, search Shazam for the song \"HUNTR/X - Golden\" and tell me how popular it is by getting its play count and full song details?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order, with 'Could you' adding politeness without altering the core task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p02",
+      "prompt": "Is it possible to check what was trending on the Billboard 200 chart on May 20, 2023, and find the highest-ranked female artist album, then search for Taylor Swift Midnights on Spotify, but get me the original album release rather than any special editions, then show me details about Taylor Swift as the artist, then see the top 10 songs on this week's pop chart from Genius, and finally, search Shazam for the song \"HUNTR/X - Golden\" and tell me how popular it is by getting its play count and full song details?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the request as a question about capability ('Is it possible to'), which implies an explanation or confirmation is needed before execution, rather than a direct request to execute the task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p03",
+      "prompt": "Can you please check what was trending on the Billboard 200 chart on May 20, 2023, and find the highest-ranked female artist album, then search for Taylor Swift Midnights on Spotify, but get me the original album release rather than any special editions, then show me details about Taylor Swift as the artist, then see the top 10 songs on this week's pop chart from Genius, and finally, search Shazam for the song \"HUNTR/X - Golden\" and tell me how popular it is by getting its play count and full song details?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order, with 'Can you please' adding politeness without altering the core task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p04",
+      "prompt": "Please help me check what was trending on the Billboard 200 chart on May 20, 2023, and find the highest-ranked female artist album, then search for Taylor Swift Midnights on Spotify, but get me the original album release rather than any special editions, then show me details about Taylor Swift as the artist, then see the top 10 songs on this week's pop chart from Genius, and finally, search Shazam for the song \"HUNTR/X - Golden\" and tell me how popular it is by getting its play count and full song details.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order, with 'Please help me' adding politeness without altering the core task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "p05",
+      "prompt": "Check what was trending on the Billboard 200 chart on May 20, 2023, and find the highest-ranked female artist album, then search for Taylor Swift Midnights on Spotify, but get me the original album release rather than any special editions, then show me details about Taylor Swift as the artist, then see the top 10 songs on this week's pop chart from Genius, and finally, search Shazam for the song \"HUNTR/X - Golden\" and tell me how popular it is by getting its play count and full song details, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order, with 'please' at the end adding politeness without altering the core task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n01",
+      "prompt": "Can you check what was trending on the Billboard 200 chart on May 20, 2023, and find the highest-ranked female artist album, then search for Taylor Swift Midnights on Spotify, but get me the original album release rather than any special editions, then show me details about Taylor Swift as the artist, then see the top 10 songs on this week's pop chart from Genius, and finally, search Shazam for the song \"HUNTR/X - Golden\" and tell me how popular it is by getting its play count and full song details?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order, with 'Can you' as a neutral request to execute the task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n02",
+      "prompt": "Are you able to check what was trending on the Billboard 200 chart on May 20, 2023, and find the highest-ranked female artist album, then search for Taylor Swift Midnights on Spotify, but get me the original album release rather than any special editions, then show me details about Taylor Swift as the artist, then see the top 10 songs on this week's pop chart from Genius, and finally, search Shazam for the song \"HUNTR/X - Golden\" and tell me how popular it is by getting its play count and full song details?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the request as a question about capability ('Are you able to'), which implies an explanation or confirmation is needed before execution, rather than a direct request to execute the task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n03",
+      "prompt": "Can you help me check what was trending on the Billboard 200 chart on May 20, 2023, and find the highest-ranked female artist album, then search for Taylor Swift Midnights on Spotify, but get me the original album release rather than any special editions, then show me details about Taylor Swift as the artist, then see the top 10 songs on this week's pop chart from Genius, and finally, search Shazam for the song \"HUNTR/X - Golden\" and tell me how popular it is by getting its play count and full song details?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order, with 'Can you help me' as a neutral request to execute the task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n04",
+      "prompt": "Please check what was trending on the Billboard 200 chart on May 20, 2023, and find the highest-ranked female artist album, then search for Taylor Swift Midnights on Spotify, but get me the original album release rather than any special editions, then show me details about Taylor Swift as the artist, then see the top 10 songs on this week's pop chart from Genius, and finally, search Shazam for the song \"HUNTR/X - Golden\" and tell me how popular it is by getting its play count and full song details.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order, with 'Please' as a neutral request to execute the task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "n05",
+      "prompt": "Check what was trending on the Billboard 200 chart on May 20, 2023, and find the highest-ranked female artist album, then search for Taylor Swift Midnights on Spotify, but get me the original album release rather than any special editions, then show me details about Taylor Swift as the artist, then see the top 10 songs on this week's pop chart from Genius, and finally, search Shazam for the song \"HUNTR/X - Golden\" and tell me how popular it is by getting its play count and full song details.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order, using an imperative verb which directly requests execution."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i01",
+      "prompt": "Just check what was trending on the Billboard 200 chart on May 20, 2023, and find the highest-ranked female artist album, then search for Taylor Swift Midnights on Spotify, but get me the original album release rather than any special editions, then show me details about Taylor Swift as the artist, then see the top 10 songs on this week's pop chart from Genius, and finally, search Shazam for the song \"HUNTR/X - Golden\" and tell me how popular it is by getting its play count and full song details.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The word 'Just' does not change the task or authorization."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order. 'Just' adds an impolite tone but does not change the executability of the task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i02",
+      "prompt": "Check what was trending on the Billboard 200 chart on May 20, 2023, and find the highest-ranked female artist album, then search for Taylor Swift Midnights on Spotify, but get me the original album release rather than any special editions, then show me details about Taylor Swift as the artist, then see the top 10 songs on this week's pop chart from Genius, and finally, search Shazam for the song \"HUNTR/X - Golden\" and tell me how popular it is by getting its play count and full song details. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Do it' does not change the task or authorization."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order. 'Do it' adds an impolite tone but does not change the executability of the task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i03",
+      "prompt": "This time, check what was trending on the Billboard 200 chart on May 20, 2023, and find the highest-ranked female artist album, then search for Taylor Swift Midnights on Spotify, but get me the original album release rather than any special editions, then show me details about Taylor Swift as the artist, then see the top 10 songs on this week's pop chart from Genius, and finally, search Shazam for the song \"HUNTR/X - Golden\" and tell me how popular it is by getting its play count and full song details.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'This time' implies a previous attempt, which is a change in context."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order. 'This time' implies a previous conversation or failed attempt, but the task itself is still a direct request for execution."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i04",
+      "prompt": "You need to check what was trending on the Billboard 200 chart on May 20, 2023, and find the highest-ranked female artist album, then search for Taylor Swift Midnights on Spotify, but get me the original album release rather than any special editions, then show me details about Taylor Swift as the artist, then see the top 10 songs on this week's pop chart from Genius, and finally, search Shazam for the song \"HUNTR/X - Golden\" and tell me how popular it is by getting its play count and full song details.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The phrase 'You need to' does not change the task or authorization."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt maintains all original requests and their order. 'You need to' adds an impolite tone but does not change the executability of the task."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "id": "i05",
+      "prompt": "Why can't you check what was trending on the Billboard 200 chart on May 20, 2023, and find the highest-ranked female artist album, then search for Taylor Swift Midnights on Spotify, but get me the original album release rather than any special editions, then show me details about Taylor Swift as the artist, then see the top 10 songs on this week's pop chart from Genius, and finally, search Shazam for the song \"HUNTR/X - Golden\" and tell me how popular it is by getting its play count and full song details?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "The phrase 'Why can't you' shifts the task from performing the actions to explaining an inability to perform them, and also implies a lack of authorization."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The prompt rephrases the request as a question about capability ('Why can't you'), which implies an explanation is needed before execution, rather than a direct request to execute the task. It also implies a previous conversation or a challenge to the system's ability."
+      },
+      "protected_literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numbers": []
+      }
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "40479a1af8039b26e4a3c7246e6db59950b1fc4c49ab13c57bf840c2bfd107e3",
+  "scenario_id": "TJB-Music-S-8-54",
+  "review_protocol": "pragmatic_equivalence_v2",
+  "review_protocol_sha256": "2b387114723187ae3bda767678be617a87a62328697ff6ef3dbd19908bae80f2",
+  "deterministic_literal_audit": "v1"
+}

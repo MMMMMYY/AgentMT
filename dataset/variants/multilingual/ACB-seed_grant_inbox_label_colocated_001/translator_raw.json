@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:25 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"在中午之前，将我电子邮件收件箱中相关的拨款准备材料转发给拨款审查委员会。\"},{\"language\":\"ru\",\"prompt\":\"Перешлите соответствующие материалы по подготовке гранта из моего почтового ящика в Комитет по рассмотрению грантов до полудня.\"},{\"language\":\"fr\",\"prompt\":\"Transférez les documents pertinents de préparation de subvention de ma boîte de réception e-mail au Comité d'examen des subventions avant midi.\"},{\"language\":\"es\",\"prompt\":\"Reenvíe los materiales relevantes de preparación de la subvención de mi bandeja de entrada de correo electrónico al Comité de Revisión de Subvenciones antes del mediodía.\"},{\"language\":\"ar\",\"prompt\":\"أعد توجيه مواد إعداد المنحة ذات الصلة من صندوق بريدي الإلكتروني إلى لجنة مراجعة المنح قبل الظهر.\"},{\"language\":\"de\",\"prompt\":\"Leiten Sie die relevanten Materialien zur Grant-Vorbereitung aus meinem E-Mail-Posteingang vor Mittag an den Grant Review Committee weiter.\"},{\"language\":\"pt\",\"prompt\":\"Encaminhe os materiais relevantes de Preparação da Concessão da minha caixa de entrada de e-mail para o Comitê de Revisão da Concessão antes do meio-dia.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:17:23.371178Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "8yCnaurTFpOcmecP1-vzoQs",
+  "usage_metadata": {
+    "candidates_token_count": 269,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 269
+      }
+    ],
+    "prompt_token_count": 313,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 313
+      }
+    ],
+    "total_token_count": 582,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

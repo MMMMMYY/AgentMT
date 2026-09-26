@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:46:22 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"I'm creating a comprehensive geographic analysis of the Grand Canyon area.\",\n  \"task\": \"list places nearby to sense foot traffic; add a quick map check; tell me what neighborhood/area '36.0544,-112.1401' falls in; add a quick map check; show a background tile for context; show a background tile for context; and add a quick map check\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-08T10:46:20.737104Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "fOefatD-LNfGqMgPu_izuAQ",
+  "usage_metadata": {
+    "candidates_token_count": 97,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 97
+      }
+    ],
+    "prompt_token_count": 288,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 288
+      }
+    ],
+    "total_token_count": 385,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

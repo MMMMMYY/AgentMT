@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:47:32 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Could you' changes the request into a question about ability, but the core task remains the same. The information about currency options is moved to the beginning as a statement.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Is it possible to' changes the request into a question about possibility, but the core task remains the same. The information about currency options is moved to the beginning as a statement.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Can you please' changes the request into a question about ability, but the core task remains the same. The information about currency options is moved to the beginning as a statement.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Please help me' changes the request into a plea for assistance, but the core task remains the same. The information about currency options is moved to the beginning as a statement.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The addition of 'please' at the end maintains the politeness and the core task. The information about currency options is moved to the beginning as a statement.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Can you' changes the request into a question about ability, but the core task remains the same. The information about currency options is moved to the beginning as a statement.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Are you able to' changes the request into a question about ability, but the core task remains the same. The information about currency options is moved to the beginning as a statement.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Can you help me' changes the request into a question about assistance, but the core task remains the same. The information about currency options is moved to the beginning as a statement.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The addition of 'Please' at the beginning maintains the politeness and the core task. The information about currency options is moved to the beginning as a statement.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request is a direct imperative, maintaining the core task. The information about currency options is moved to the beginning as a statement.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The addition of 'Just' makes the tone impolite but the core task remains the same. The information about currency options is moved to the beginning as a statement.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The addition of 'Do it.' makes the tone impolite and demanding, but the core task remains the same. The information about currency options is moved to the beginning as a statement.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The addition of 'This time,' implies a previous interaction and makes the tone impolite, but the core task remains the same. The information about currency options is moved to the beginning as a statement.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'You need to' makes the tone impolite and demanding, but the core task remains the same. The information about currency options is moved to the beginning as a statement.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Why can't you' changes the request from an instruction to a question about the system's inability, thus not directly executing the task. The information about currency options is moved to the beginning as a statement.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.039274392490918776
+    }
+  ],
+  "create_time": "2026-09-08T10:47:26.612059Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "vuefatutJZymlb4P56O2sAo",
+  "usage_metadata": {
+    "candidates_token_count": 1327,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1327
+      }
+    ],
+    "prompt_token_count": 1798,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1798
+      }
+    ],
+    "total_token_count": 3125,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

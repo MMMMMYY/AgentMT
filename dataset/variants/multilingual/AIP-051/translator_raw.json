@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:24 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"创建名为“Weekend Chill”的播放列表，其中包含我播放次数最多的歌曲。\"}, {\"language\": \"ru\", \"prompt\": \"Создайте плейлист под названием \\\"Weekend Chill\\\" с моими самыми прослушиваемыми песнями.\"}, {\"language\": \"fr\", \"prompt\": \"Créez une playlist intitulée \\\"Weekend Chill\\\" avec mes chansons les plus écoutées.\"}, {\"language\": \"es\", \"prompt\": \"Crea una lista de reproducción titulada \\\"Weekend Chill\\\" con mis canciones más reproducidas.\"}, {\"language\": \"ar\", \"prompt\": \"أنشئ قائمة تشغيل بعنوان \\\"Weekend Chill\\\" تتضمن أغنياتي الأكثر تشغيلاً.\"}, {\"language\": \"de\", \"prompt\": \"Erstelle eine Wiedergabeliste mit dem Titel „Weekend Chill“ mit meinen meistgespielten Liedern.\"}, {\"language\": \"pt\", \"prompt\": \"Crie uma playlist intitulada \\\"Weekend Chill\\\" com as minhas músicas mais tocadas.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.021963167190551757
+    }
+  ],
+  "create_time": "2026-09-13T22:16:22.284765Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "tiCnat2wEZ7f-O4P7-Cr0Q8",
+  "usage_metadata": {
+    "candidates_token_count": 220,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 220
+      }
+    ],
+    "prompt_token_count": 311,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 311
+      }
+    ],
+    "total_token_count": 531,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:52:27 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The interrogative form 'Could you schedule...' is a conventional request and does not alter the task or authorization. The information order is preserved.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The interrogative form 'Is it possible to schedule...' is a conventional request and does not alter the task or authorization. The information order is preserved.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The interrogative form 'Can you please schedule...' is a conventional request and does not alter the task or authorization. The information order is preserved.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Please help me schedule...' is a conventional request and does not alter the task or authorization. The information order is preserved.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The imperative form followed by 'please' is a conventional request and does not alter the task or authorization. The information order is preserved.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The interrogative form 'Can you schedule...' is a conventional request and does not alter the task or authorization. The information order is preserved.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The interrogative form 'Are you able to schedule...' is a conventional request and does not alter the task or authorization. The information order is preserved.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Can you help me schedule...' is a conventional request and does not alter the task or authorization. The information order is preserved.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The imperative form 'Please schedule...' is a conventional request and does not alter the task or authorization. The information order is preserved.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The imperative form 'Schedule...' is a conventional request and does not alter the task or authorization. The information order is preserved.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The word 'Just' adds a nuance of impatience or directness but does not change the core task, authorization, or information order.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Do it' adds a nuance of command but does not change the core task, authorization, or information order.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'This time' implies a previous attempt, which is a change in context but not a change to the task, authorization, or information order of the current request.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'You need to schedule...' implies a command or obligation but does not change the core task, authorization, or information order.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Why can't you schedule...' shifts the task from requesting an action to asking for an explanation or reason for inability, thus changing the task.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.04055437378641171
+    }
+  ],
+  "create_time": "2026-09-08T10:52:21.595862Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "5eifapavJOmx1t8P_qfo0Qs",
+  "usage_metadata": {
+    "candidates_token_count": 1201,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1201
+      }
+    ],
+    "prompt_token_count": 1508,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1508
+      }
+    ],
+    "total_token_count": 2709,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

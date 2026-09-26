@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:42:58 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original is a direct request for advice. The transformed request asks 'Could you advise me', which is an ability question, not a direct request to execute.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original is a direct request for advice. The transformed request asks 'Is it possible to advise me', which is an ability question, not a direct request to execute.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original is a direct request for advice. The transformed request asks 'Can you please advise me', which is an ability question, not a direct request to execute.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original is a direct request for advice. The transformed request asks 'Please help me advise me', which is an ability question, not a direct request to execute.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request 'Advise me on what to buy my son for his birthday, please' is a direct request for advice, similar to the original.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original is a direct request for advice. The transformed request asks 'Can you advise me', which is an ability question, not a direct request to execute.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original is a direct request for advice. The transformed request asks 'Are you able to advise me', which is an ability question, not a direct request to execute.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original is a direct request for advice. The transformed request asks 'Can you help me advise me', which is an ability question, not a direct request to execute.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request 'Please advise me on what to buy my son for his birthday' is a direct request for advice, similar to the original.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request 'Advise me on what to buy my son for his birthday' is a direct request for advice, similar to the original.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request 'Just advise me on what to buy my son for his birthday' is a direct request for advice, similar to the original.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request 'Advise me on what to buy my son for his birthday. Do it.' is a direct request for advice, similar to the original.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request 'This time, advise me on what to buy my son for his birthday' is a direct request for advice, similar to the original. 'This time' implies a previous conversation, but the core request remains.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The transformed request 'You need to advise me on what to buy my son for his birthday' is a direct request for advice, similar to the original.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The original is a direct request for advice. The transformed request asks 'Why can't you advise me', which is an ability question and implies a previous conversation, not a direct request to execute.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.023945763567024637
+    }
+  ],
+  "create_time": "2026-09-08T10:42:53.014736Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "reafapBz0vyczA-X3bHABA",
+  "usage_metadata": {
+    "candidates_token_count": 1276,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1276
+      }
+    ],
+    "prompt_token_count": 1065,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1065
+      }
+    ],
+    "total_token_count": 2341,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

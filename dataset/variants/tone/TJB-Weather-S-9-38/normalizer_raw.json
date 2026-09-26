@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:47:15 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"I need to analyze weather conditions for an aviation event.\",\n  \"task\": \"first find Chicago stadiums, then get coordinates for London with just one result, and find the nearest place to coordinates -122.42282, 37.81021 in English. After that, get hourly forecast for Fisherman's Wharf in metric units using English based on the timezone, then check current weather in New York. Next, get hourly forecast data using latitude 46.95828 and New York's longitude of -74.006, followed by minute-by-minute precipitation forecast for Fisherman's Wharf. Then get a 3-day local weather report with air quality for coordinates 40.73,-73 in English, and finally determine the sun's current position using the wind direction (309) as the latitude and -73.00 as longitude\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.0022197204392130783
+    }
+  ],
+  "create_time": "2026-09-08T10:47:13.893022Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "seefat7ANp_EqMgP_ov7qAs",
+  "usage_metadata": {
+    "candidates_token_count": 205,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 205
+      }
+    ],
+    "prompt_token_count": 382,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 382
+      }
+    ],
+    "total_token_count": 587,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

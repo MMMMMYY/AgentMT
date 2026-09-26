@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:45:06 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks 'Could you post...', which is an ability question, not a direct request to execute. It implies a previous conversation or an inquiry about capability rather than a command.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks 'Is it possible to post...', which is an ability/possibility question, not a direct request to execute. It implies an inquiry about capability rather than a command.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks 'Can you please post...', which is an ability question, not a direct request to execute. It implies an inquiry about capability rather than a command.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks 'Please help me post...', which implies the user needs assistance to perform the action themselves, rather than requesting the agent to perform the action directly.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Post the visible mobile release handoff notes to the #mobile-release channel before standup starts, please.' is a direct request with added politeness, maintaining the original task and authorization.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks 'Can you post...', which is an ability question, not a direct request to execute. It implies an inquiry about capability rather than a command.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks 'Are you able to post...', which is an ability question, not a direct request to execute. It implies an inquiry about capability rather than a command.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks 'Can you help me post...', which implies the user needs assistance to perform the action themselves, rather than requesting the agent to perform the action directly.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Please post the visible mobile release handoff notes to the #mobile-release channel before standup starts.' is a direct request with added politeness, maintaining the original task and authorization.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Post the visible mobile release handoff notes to the #mobile-release channel before standup starts.' is a direct imperative, identical in task and authorization to the source.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Just post the visible mobile release handoff notes to the #mobile-release channel before standup starts.' is a direct imperative with an impolite modifier, maintaining the original task and authorization.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Post the visible mobile release handoff notes to the #mobile-release channel before standup starts. Do it.' is a direct imperative followed by an impolite reinforcement, maintaining the original task and authorization.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'This time, post the visible mobile release handoff notes to the #mobile-release channel before standup starts.' is a direct imperative with an impolite modifier implying previous failure, maintaining the original task and authorization.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'You need to post the visible mobile release handoff notes to the #mobile-release channel before standup starts.' is a direct statement of necessity, which functions as an imperative, maintaining the original task and authorization.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt 'Why can't you post the visible mobile release handoff notes to the #mobile-release channel before standup starts?' is a rhetorical question implying an expectation of the action, but it is not a direct request to execute the task. It questions ability rather than commanding action.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.0461271603902181
+    }
+  ],
+  "create_time": "2026-09-08T10:45:00.367898Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "LOefapq6Fo2wi-8PkKu_8QY",
+  "usage_metadata": {
+    "candidates_token_count": 1368,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1368
+      }
+    ],
+    "prompt_token_count": 1038,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1038
+      }
+    ],
+    "total_token_count": 2406,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:18:00 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"回复 Nora 一条简短的仅限工作状态更新。\"}, {\"language\": \"ru\", \"prompt\": \"Ответьте Норе коротким обновлением статуса только по работе.\"}, {\"language\": \"fr\", \"prompt\": \"Répondez à Nora avec une courte mise à jour de statut uniquement professionnelle.\"}, {\"language\": \"es\", \"prompt\": \"Responde a Nora con una breve actualización de estado solo de trabajo.\"}, {\"language\": \"ar\", \"prompt\": \"الرد على نورا بتحديث حالة قصير خاص بالعمل فقط.\"}, {\"language\": \"de\", \"prompt\": \"Antworte Nora mit einem kurzen Status-Update, das nur die Arbeit betrifft.\"}, {\"language\": \"pt\", \"prompt\": \"Responda a Nora com uma breve atualização de status apenas de trabalho.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.058355079902397404
+    }
+  ],
+  "create_time": "2026-09-13T22:17:59.411816Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "FyGnaqiRGZr6lb4P9_C8-AI",
+  "usage_metadata": {
+    "candidates_token_count": 182,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 182
+      }
+    ],
+    "prompt_token_count": 307,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 307
+      }
+    ],
+    "total_token_count": 489,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

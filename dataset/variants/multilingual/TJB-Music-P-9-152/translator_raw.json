@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:37:14 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"我正在整理一份快速音乐简报。请搜索 Shazam 术语“bad guy billie eilish”，区域设置为 en-US，限制 5，偏移量 0，获取 Shazam 歌曲详细信息（键 40333609），区域设置为 en-US，获取 Shazam 歌曲计数（键 40333609），获取 2020-09-19 的 Billboard 排行榜（Billboard Global 200），获取 2019-05-11 的 Billboard Japan Hot 100，范围 1-20，获取 2019-05-11 的 Billboard 排行榜（Billboard 200），搜索 Spotify 查询“billie eilish bad guy”，类型为 tracks，限制 10，获取 2019-05-11 周的 Independent Albums，并列出关键词为“billie eilish”的广播频道。\"}, {\"language\": \"ru\", \"prompt\": \"Я собираю краткую музыкальную справку. Пожалуйста, найдите в Shazam термин 'bad guy billie eilish', локаль en-US, лимит 5, смещение 0, получите детали песни Shazam (ключ 40333609) локаль en-US, получите количество песен Shazam (ключ 40333609), получите чарт Billboard (Billboard Global 200) за 2020-09-19, получите Billboard Japan Hot 100 за 2019-05-11, диапазон 1-20, получите чарт Billboard (Billboard 200) за 2019-05-11, найдите в Spotify запрос 'billie eilish bad guy', тип tracks, лимит 10, получите Independent Albums за неделю 2019-05-11 и перечислите радиоканалы по ключевому слову 'billie eilish'.\"}, {\"language\": \"fr\", \"prompt\": \"Je prépare un bref résumé musical. Veuillez rechercher le terme Shazam 'bad guy billie eilish', locale en-US, limite 5, décalage 0, obtenir les détails de la chanson Shazam (clé 40333609) locale en-US, obtenir le nombre de chansons Shazam (clé 40333609), obtenir le classement Billboard (Billboard Global 200) pour le 2020-09-19, obtenir le Billboard Japan Hot 100 pour le 2019-05-11, plage 1-20, obtenir le classement Billboard (Billboard 200) pour le 2019-05-11, rechercher sur Spotify la requête 'billie eilish bad guy', type tracks, limite 10, obtenir les Independent Albums pour la semaine du 2019-05-11, et lister les chaînes de radio avec le mot-clé 'billie eilish'.\"}, {\"language\": \"es\", \"prompt\": \"Estoy preparando un breve informe musical. Por favor, busca en Shazam el término 'bad guy billie eilish', configuración regional en-US, límite 5, desplazamiento 0, obtén los detalles de la canción de Shazam (clave 40333609) configuración regional en-US, obtén el recuento de canciones de Shazam (clave 40333609), obtén la lista de Billboard (Billboard Global 200) para el 2020-09-19, obtén la lista Billboard Japan Hot 100 para el 2019-05-11, rango 1-20, obtén la lista de Billboard (Billboard 200) para el 2019-05-11, busca en Spotify la consulta 'billie eilish bad guy', tipo tracks, límite 10, obtén los Independent Albums para la semana del 2019-05-11, y lista los canales de radio con la palabra clave 'billie eilish'.\"}, {\"language\": \"ar\", \"prompt\": \"أقوم بتجميع موجز موسيقي سريع. يرجى البحث في Shazam عن المصطلح 'bad guy billie eilish'، المنطقة en-US، الحد 5، الإزاحة 0، الحصول على تفاصيل أغنية Shazam (المفتاح 40333609) المنطقة en-US، الحصول على عدد أغاني Shazam (المفتاح 40333609)، الحصول على مخطط Billboard (Billboard Global 200) لتاريخ 2020-09-19، الحصول على Billboard Japan Hot 100 لتاريخ 2019-05-11، النطاق 1-20، الحصول على مخطط Billboard (Billboard 200) لتاريخ 2019-05-11، البحث في Spotify عن الاستعلام 'billie eilish bad guy'، النوع tracks، الحد 10، الحصول على Independent Albums للأسبوع 2019-05-11، وسرد قنوات الراديو بالكلمة الرئيسية 'billie eilish'.\"}, {\"language\": \"de\", \"prompt\": \"Ich stelle ein kurzes Musik-Briefing zusammen. Bitte suchen Sie bei Shazam nach dem Begriff 'bad guy billie eilish', Gebietsschema en-US, Limit 5, Offset 0, rufen Sie die Shazam-Songdetails ab (Schlüssel 40333609) Gebietsschema en-US, rufen Sie die Shazam-Songanzahl ab (Schlüssel 40333609), rufen Sie die Billboard-Charts (Billboard Global 200) für den 19.09.2020 ab, rufen Sie die Billboard Japan Hot 100 für den 11.05.2019 ab, Bereich 1-20, rufen Sie die Billboard-Charts (Billboard 200) für den 11.05.2019 ab, suchen Sie bei Spotify nach 'billie eilish bad guy', Typ Tracks, Limit 10, rufen Sie die Independent Albums für die Woche vom 11.05.2019 ab und listen Sie Radiosender mit dem Stichwort 'billie eilish' auf.\"}, {\"language\": \"pt\", \"prompt\": \"Estou a preparar um breve resumo musical. Por favor, pesquise no Shazam o termo 'bad guy billie eilish', localidade en-US, limite 5, deslocamento 0, obtenha os detalhes da música do Shazam (chave 40333609) localidade en-US, obtenha a contagem de músicas do Shazam (chave 40333609), obtenha a tabela Billboard (Billboard Global 200) para 2020-09-19, obtenha a Billboard Japan Hot 100 para 2019-05-11, intervalo 1-20, obtenha a tabela Billboard (Billboard 200) para 2019-05-11, pesquise no Spotify a consulta 'billie eilish bad guy', tipo tracks, limite 10, obtenha os Independent Albums para a semana de 2019-05-11 e liste os canais de rádio com a palavra-chave 'billie eilish'.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:37:04.380957Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "kCWnap2gF8WY89kPrMKq2Q8",
+  "usage_metadata": {
+    "candidates_token_count": 1659,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1659
+      }
+    ],
+    "prompt_token_count": 510,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 510
+      }
+    ],
+    "total_token_count": 2169,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

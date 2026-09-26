@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:41:47 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The core action and information are preserved. 'Could you' is a polite rephrasing of 'Can you', maintaining the request as an ability/permission question.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The core action and information are preserved. 'Is it possible to' is an equivalent way of asking about the ability or feasibility of the action, similar to 'Can you'.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The core action and information are preserved. Adding 'please' to 'Can you' maintains the request as an ability/permission question.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The task changes from the system directly ordering to the system helping the user order. This is a direct request for assistance, not a question about the system's ability to perform the order itself.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The request changes from an ability question ('Can you order?') to a direct command ('Order...').\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"This request is identical to the source request, preserving all aspects.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The core action and information are preserved. 'Are you able to' is a direct rephrasing of 'Can you', maintaining the request as an ability question.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "MAX_TOKENS",
+      "avg_logprobs": -0.6429322201548224
+    }
+  ],
+  "create_time": "2026-09-08T10:41:26.699319Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "VuafarfXKuXsi-8PrP-WsAI",
+  "usage_metadata": {
+    "candidates_token_count": 602,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 602
+      }
+    ],
+    "prompt_token_count": 816,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 816
+      }
+    ],
+    "thoughts_token_count": 3480,
+    "total_token_count": 4898,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

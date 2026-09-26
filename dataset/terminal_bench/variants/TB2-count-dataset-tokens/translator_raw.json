@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:30:28 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"告诉我 huggingface 上 ryanmarten/OpenThoughts-1k-sample 数据集中科学领域有多少 deepseek token。\\n数据集的 README 提供了关于如何使用该数据集的关键信息。\\n你应该使用 Qwen2.5-1.5B-Instruct 分词器来确定 token 的数量。\\n要提供最终答案，请将 token 的整数数量（不带空格或逗号，例如 ⟦0⟧）写入文件 ⟦1⟧。\"}, {\"language\":\"ru\",\"prompt\":\"Скажите, сколько токенов deepseek содержится в научной области набора данных ryanmarten/OpenThoughts-1k-sample на huggingface.\\nФайл README набора данных содержит критически важную информацию о том, как использовать набор данных.\\nВы должны использовать токенизатор Qwen2.5-1.5B-Instruct для определения количества токенов.\\nЧтобы предоставить окончательный ответ, запишите целое число токенов без пробелов или запятых (например, ⟦0⟧) в файл ⟦1⟧.\"}, {\"language\":\"fr\",\"prompt\":\"Dites-moi combien de tokens deepseek il y a dans le domaine scientifique de l'ensemble de données ryanmarten/OpenThoughts-1k-sample sur huggingface.\\nLe README de l'ensemble de données fournit des informations critiques sur la façon d'utiliser l'ensemble de données.\\nVous devriez utiliser le tokenizer Qwen2.5-1.5B-Instruct pour déterminer le nombre de tokens.\\nPour fournir la réponse finale, écrivez le nombre entier de tokens sans espaces ni virgules (par exemple ⟦0⟧) dans le fichier ⟦1⟧.\"}, {\"language\":\"es\",\"prompt\":\"Dime cuántos tokens deepseek hay en el dominio científico del conjunto de datos ryanmarten/OpenThoughts-1k-sample en huggingface.\\nEl README del conjunto de datos proporciona información crítica sobre cómo usar el conjunto de datos.\\nDebes usar el tokenizador Qwen2.5-1.5B-Instruct para determinar el número de tokens.\\nPara proporcionar la respuesta final, escribe el número entero de tokens sin espacios ni comas (por ejemplo, ⟦0⟧) en el archivo ⟦1⟧.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-23T08:30:25.634607Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "IY6zau_dJrefivYP58So6Ao",
+  "usage_metadata": {
+    "candidates_token_count": 481,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 481
+      }
+    ],
+    "prompt_token_count": 292,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 292
+      }
+    ],
+    "total_token_count": 773,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

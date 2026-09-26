@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:38:44 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"\\\"Could you\\\" is a polite variant of \\\"Can you\\\" and retains the request for action and implied authorization.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"This is a question about possibility, not a direct request to execute the task. It asks for an explanation of ability rather than requesting the action itself.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"Adding \\\"please\\\" enhances politeness without altering the core request or implied authorization.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"\\\"Help me reschedule\\\" is an indirect but equivalent request for the system to perform the rescheduling, retaining implied authorization.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"A direct imperative with a polite tag retains the request and implied authorization.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"This prompt is identical to the source.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"This is a question about the system's ability, not a direct request to execute the task. It asks for an explanation of ability rather than requesting the action itself.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"\\\"Can you help me reschedule\\\" is an indirect but equivalent request for the system to perform the rescheduling, retaining implied authorization.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"A direct imperative with \\\"please\\\" retains the request and implied authorization.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"A direct imperative retains the request and implied authorization.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"\\\"Just\\\" adds emphasis but the core imperative request and implied authorization remain.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The first sentence is a complete and equivalent request, reinforced by \\\"Do it\\\", retaining implied authorization.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"\\\"This time\\\" adds context implying a previous interaction, but the core imperative request and implied authorization remain.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"\\\"You need to\\\" is a strong directive that functions as an imperative request, assuming the system's ability.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"This is a question about the system's inability, not a request to execute the task. It asks for an explanation of inability rather than requesting the action itself.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.26074385466399014
+    }
+  ],
+  "create_time": "2026-09-08T10:38:28.518971Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "pOWfarvWH4uY89kPxIe7mQ8",
+  "usage_metadata": {
+    "candidates_token_count": 1080,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1080
+      }
+    ],
+    "prompt_token_count": 1027,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1027
+      }
+    ],
+    "thoughts_token_count": 2510,
+    "total_token_count": 4617,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

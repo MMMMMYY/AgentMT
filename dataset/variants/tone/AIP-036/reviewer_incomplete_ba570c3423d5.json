@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:41:38 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The task is clearly requested using a polite 'Could you' form, which is a common way to make a request. The information source is provided, and the task details are preserved.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks 'Is it possible to determine...', which is a question about the system's ability or possibility, not a direct request to perform the action. The original is a direct request for information.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The task is clearly requested using a polite 'Can you please' form. The information source is provided, and the task details are preserved.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Please help me determine', which is a direct and polite request to perform the task. The information source is provided, and the task details are preserved.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses an imperative 'Determine...' followed by 'please', which is a direct and polite request to perform the task. The information source is provided, and the task details are preserved.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks 'Can you determine...', which is a question about the system's ability, not a direct request to perform the action. The original is a direct request for information.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks 'Are you able to determine...', which is an explicit question about the system's ability, not a direct request to perform the action. The original is a direct request for information.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt asks 'Can you help me determine...', which is a question about the system's ability to help, not a direct request to perform the action. The original is a direct request for information.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Please determine', which is a direct request to perform the task. The information source is provided, and the task details are preserved.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses an imperative 'Determine...', which is a direct request to perform the task. The information source is provided, and the task details are"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "MAX_TOKENS"
+    }
+  ],
+  "create_time": "2026-09-08T10:41:17.334229Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "TeafapWzFO3J1t8P3JK_-A0",
+  "usage_metadata": {
+    "candidates_token_count": 869,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 869
+      }
+    ],
+    "prompt_token_count": 1047,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1047
+      }
+    ],
+    "thoughts_token_count": 3212,
+    "total_token_count": 5128,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

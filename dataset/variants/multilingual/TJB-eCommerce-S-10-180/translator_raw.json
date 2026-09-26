@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Mon, 14 Sep 2026 01:39:52 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"我正在查看一个SKU为W003078383的Wayfair梳妆台，想查看所有可用的产品信息和图片。在查看了该产品的评论后，我想了解它的保修选项以及Wayfair为此提供的任何上门服务。我还对专业组装服务W010630670的融资选项感兴趣。然后，我想将其与BestBuy的类似iPhone进行比较，特别是寻找亚马逊德国上评价最高的iPhone型号（MQ623LL/A）。最后，在Zappos上搜索相同的型号，并向我展示产品9098084的详细信息。\"},{\"language\":\"ru\",\"prompt\":\"Я смотрю на комод Wayfair с артикулом W003078383 и хочу увидеть всю доступную информацию о продукте и изображения. После просмотра отзывов об этом продукте я хотел бы узнать о его гарантийных вариантах и любых услугах на дому, которые Wayfair предлагает для него. Меня также интересуют варианты финансирования профессиональной сборочной услуги W010630670. Затем я хочу сравнить это с аналогичными iPhone в BestBuy, в частности, ищу самую высокооцененную модель iPhone (MQ623LL/A) на Amazon Germany. Наконец, найдите эту же модель на Zappos и покажите мне подробную информацию о продукте 9098084.\"},{\"language\":\"fr\",\"prompt\":\"Je regarde une commode Wayfair avec le SKU W003078383 et je veux voir toutes les informations et images disponibles sur le produit. Après avoir consulté les avis sur ce produit, j'aimerais connaître ses options de garantie et tous les services à domicile que Wayfair propose pour celui-ci. Je suis également intéressé par les options de financement pour le service d'assemblage professionnel W010630670. Ensuite, je veux comparer cela avec des iPhones similaires chez BestBuy, en recherchant spécifiquement le modèle d'iPhone le mieux noté (MQ623LL/A) sur Amazon Allemagne. Enfin, recherchez ce même modèle sur Zappos et montrez-moi des informations détaillées sur le produit 9098084.\"},{\"language\":\"es\",\"prompt\":\"Estoy viendo una cómoda Wayfair con SKU W003078383 y quiero ver toda la información e imágenes disponibles del producto. Después de revisar las reseñas de este producto, me gustaría saber sobre sus opciones de garantía y cualquier servicio a domicilio que Wayfair ofrezca para él. También me interesan las opciones de financiación para el servicio de montaje profesional W010630670. Luego, quiero comparar esto con iPhones similares en BestBuy, buscando específicamente el modelo de iPhone mejor valorado (MQ623LL/A) en Amazon Alemania. Finalmente, busca este mismo modelo en Zappos y muéstrame información detallada sobre el producto 9098084.\"},{\"language\":\"ar\",\"prompt\":\"أنا أنظر إلى خزانة أدراج من Wayfair برقم SKU W003078383 وأرغب في رؤية جميع معلومات المنتج والصور المتاحة. بعد التحقق من مراجعات هذا المنتج، أود معرفة خيارات الضمان الخاصة به وأي خدمات منزلية تقدمها Wayfair له. أنا مهتم أيضًا بخيارات التمويل لخدمة التجميع الاحترافية W010630670. بعد ذلك، أرغب في مقارنة هذا مع أجهزة iPhone المماثلة في BestBuy، وبالتحديد أبحث عن طراز iPhone الأعلى تقييمًا (MQ623LL/A) على أمازون ألمانيا. أخيرًا، ابحث عن هذا الطراز نفسه على Zappos واعرض لي معلومات مفصلة حول المنتج 9098084.\"},{\"language\":\"de\",\"prompt\":\"Ich schaue mir eine Wayfair-Kommode mit der SKU W003078383 an und möchte alle verfügbaren Produktinformationen und Bilder sehen. Nachdem ich die Bewertungen für dieses Produkt überprüft habe, möchte ich mehr über die Garantieoptionen und alle Heimdienste erfahren, die Wayfair dafür anbietet. Ich interessiere mich auch für Finanzierungsoptionen für den professionellen Montageservice W010630670. Dann möchte ich dies mit ähnlichen iPhones bei BestBuy vergleichen, insbesondere suche ich nach dem am besten bewerteten iPhone-Modell (MQ623LL/A) auf Amazon Deutschland. Suchen Sie schließlich nach demselben Modell auf Zappos und zeigen Sie mir detaillierte Informationen zu Produkt 9098084.\"},{\"language\":\"pt\",\"prompt\":\"Estou a ver uma cómoda Wayfair com o SKU W003078383 e quero ver todas as informações e imagens disponíveis do produto. Depois de verificar as avaliações deste produto, gostaria de saber sobre as suas opções de garantia e quaisquer serviços domésticos que a Wayfair oferece para ele. Também estou interessado em opções de financiamento para o serviço de montagem profissional W010630670. Em seguida, quero comparar isto com iPhones semelhantes na BestBuy, procurando especificamente o modelo de iPhone mais bem avaliado (MQ623LL/A) na Amazon Alemanha. Finalmente, procure este mesmo modelo na Zappos e mostre-me informações detalhadas sobre o produto 9098084.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-14T01:39:46.686136Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "YlCnarjwKdD1lb4PhafTwQM",
+  "usage_metadata": {
+    "candidates_token_count": 1186,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1186
+      }
+    ],
+    "prompt_token_count": 441,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 441
+      }
+    ],
+    "total_token_count": 1627,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

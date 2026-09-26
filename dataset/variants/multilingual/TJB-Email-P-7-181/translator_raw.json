@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:18:19 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"正在进行列表清理——完成以下检查。检查 marketing@newsletter.com，如果是临时或有问题则进行标记。验证 updates@dailydeals.net 的有效性和可送达性。确定 info@techblog.org 是否为临时/一次性地址。检查该地址是否为角色/团队收件箱（支持/销售）。检查 onlineshopping.com 是否可用或已被占用。验证 news@mediacompany.org 的有效性和可送达性。验证 contact@businessupdates.com 的有效性和可送达性。\"},{\"language\":\"ru\",\"prompt\":\"Выполняется очистка списка — завершите проверки ниже. Проверьте marketing@newsletter.com и пометьте, если это одноразовый или проблемный адрес. Проверьте updates@dailydeals.net на действительность и доставляемость. Определите, является ли info@techblog.org временным/одноразовым адресом. Проверьте, является ли адрес почтовым ящиком роли/команды (поддержка/продажи). Проверьте, доступен ли onlineshopping.com или уже занят. Проверьте news@mediacompany.org на действительность и доставляемость. Проверьте contact@businessupdates.com на действительность и доставляемость.\"},{\"language\":\"fr\",\"prompt\":\"Exécution d'un nettoyage de liste — effectuez les vérifications ci-dessous. Vérifiez marketing@newsletter.com et signalez s'il s'agit d'une adresse jetable ou problématique. Vérifiez la validité et la délivrabilité de updates@dailydeals.net. Déterminez si info@techblog.org est une adresse temporaire/jetable. Vérifiez si l'adresse est une boîte de réception de rôle/équipe (support/ventes). Vérifiez si onlineshopping.com est disponible ou déjà pris. Vérifiez la validité et la délivrabilité de news@mediacompany.org. Vérifiez la validité et la délivrability de contact@businessupdates.com.\"},{\"language\":\"es\",\"prompt\":\"Ejecutando una limpieza de lista — complete las verificaciones a continuación. Verifique marketing@newsletter.com y marque si es desechable o problemático. Verifique updates@dailydeals.net para su validez y capacidad de entrega. Determine si info@techblog.org es una dirección temporal/desechable. Verifique si la dirección es un buzón de rol/equipo (soporte/ventas). Verifique si onlineshopping.com está disponible o ya está ocupado. Verifique news@mediacompany.org para su validez y capacidad de entrega. Verifique contact@businessupdates.com para su validez y capacidad de entrega.\"},{\"language\":\"ar\",\"prompt\":\"جارٍ تنظيف القائمة — أكمل الفحوصات أدناه. تحقق من marketing@newsletter.com وقم بوضع علامة إذا كان بريدًا مؤقتًا أو إشكاليًا. تحقق من updates@dailydeals.net للتأكد من صلاحيته وقابليته للتسليم. حدد ما إذا كان info@techblog.org عنوانًا مؤقتًا/يمكن التخلص منه. تحقق مما إذا كان العنوان عبارة عن صندوق بريد دور/فريق (دعم/مبيعات). تحقق مما إذا كان onlineshopping.com متاحًا أم مشغولًا بالفعل. تحقق من news@mediacompany.org للتأكد من صلاحيته وقابليته للتسليم. تحقق من contact@businessupdates.com للتأكد من صلاحيته وقابليته للتسليم.\"},{\"language\":\"de\",\"prompt\":\"Führe eine Listenbereinigung durch — schließe die folgenden Prüfungen ab. Überprüfe marketing@newsletter.com und markiere, ob es sich um eine Wegwerf- oder problematische Adresse handelt. Überprüfe updates@dailydeals.net auf Gültigkeit und Zustellbarkeit. Ermittle, ob info@techblog.org eine temporäre/Wegwerfadresse ist. Überprüfe, ob die Adresse ein Rollen-/Team-Posteingang ist (Support/Vertrieb). Überprüfe, ob onlineshopping.com verfügbar oder bereits vergeben ist. Überprüfe news@mediacompany.org auf Gültigkeit und Zustellbarkeit. Überprüfe contact@businessupdates.com auf Gültigkeit und Zustellbarkeit.\"},{\"language\":\"pt\",\"prompt\":\"Executando uma limpeza de lista — complete as verificações abaixo. Verifique marketing@newsletter.com e sinalize se for descartável ou problemático. Verifique updates@dailydeals.net quanto à validade e entregabilidade. Determine se info@techblog.org é um endereço temporário/descartável. Verifique se o endereço é uma caixa de entrada de função/equipe (suporte/vendas). Verifique se onlineshopping.com está disponível ou já foi ocupado. Verifique news@mediacompany.org quanto à validade e entregabilidade. Verifique contact@businessupdates.com quanto à validade e entregabilidade.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:18:13.976274Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "JSGnapLLO_a6ld8P5NXBoA0",
+  "usage_metadata": {
+    "candidates_token_count": 1081,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1081
+      }
+    ],
+    "prompt_token_count": 443,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 443
+      }
+    ],
+    "total_token_count": 1524,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

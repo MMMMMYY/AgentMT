@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:32:08 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"es\", \"prompt\": \"Se le proporciona el archivo de salida de una configuración Raman. Lo usamos para medir una muestra de grafeno.\\nAjuste los picos G y 2D del espectro y devuelva el x0, gamma, amplitud y desplazamiento de los picos y escríbalos en un archivo llamado ⟦0⟧.\\n\\nEl archivo debe tener el siguiente formato:\\n{\\n  ⟦1⟧: {\\n    ⟦2⟧: <⟦3⟧>,\\n    ⟦4⟧: <⟦5⟧>,\\n    ⟦6⟧: <⟦7⟧>,\\n    ⟦8⟧: <⟦9⟧>\\n  },\\n  ⟦10⟧: {\\n    ⟦11⟧: <⟦12⟧>,\\n    ⟦13⟧: <⟦14⟧>,\\n    ⟦15⟧: <⟦16⟧>,\\n    ⟦17⟧: <⟦18⟧>\\n  }\\n}\\n\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-23T08:32:07.336914Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "h46zapLIFLCM89kPv9LQ-AM",
+  "usage_metadata": {
+    "candidates_token_count": 220,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 220
+      }
+    ],
+    "prompt_token_count": 301,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 301
+      }
+    ],
+    "total_token_count": 521,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

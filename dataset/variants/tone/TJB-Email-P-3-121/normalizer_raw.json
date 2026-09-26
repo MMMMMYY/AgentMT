@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:45:44 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"End-stage deliverability review; complete the following checks.\",\n  \"task\": \"extract public contact emails from https://partnertech.com, verify marketing@clientcompany.com for validity and deliverability, and run the corresponding check for GetTempMail\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-08T10:45:43.595833Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "V-efavmuJIWNnMwP59mxkQ8",
+  "usage_metadata": {
+    "candidates_token_count": 62,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 62
+      }
+    ],
+    "prompt_token_count": 243,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 243
+      }
+    ],
+    "total_token_count": 305,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

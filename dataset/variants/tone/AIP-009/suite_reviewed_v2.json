@@ -1,0 +1,343 @@
+{
+  "task_id": "AIP-009",
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "p01",
+      "prompt": "Could you reschedule my follow-up appointment with Dr. Lee to next Friday at 10 AM?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "\"Could you\" is a polite variant of \"Can you\" and retains the request for action and implied authorization."
+      }
+    },
+    {
+      "id": "p02",
+      "prompt": "Is it possible to reschedule my follow-up appointment with Dr. Lee to next Friday at 10 AM?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "This is a question about possibility, not a direct request to execute the task. It asks for an explanation of ability rather than requesting the action itself."
+      }
+    },
+    {
+      "id": "p03",
+      "prompt": "Can you please reschedule my follow-up appointment with Dr. Lee to next Friday at 10 AM?",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Adding \"please\" enhances politeness without altering the core request or implied authorization."
+      }
+    },
+    {
+      "id": "p04",
+      "prompt": "Please help me reschedule my follow-up appointment with Dr. Lee to next Friday at 10 AM.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "\"Help me reschedule\" is an indirect but equivalent request for the system to perform the rescheduling, retaining implied authorization."
+      }
+    },
+    {
+      "id": "p05",
+      "prompt": "Reschedule my follow-up appointment with Dr. Lee to next Friday at 10 AM, please.",
+      "tone": "polite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "p05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "A direct imperative with a polite tag retains the request and implied authorization."
+      }
+    },
+    {
+      "id": "n01",
+      "prompt": "Can you reschedule my follow-up appointment with Dr. Lee to next Friday at 10 AM?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "This prompt is identical to the source."
+      }
+    },
+    {
+      "id": "n02",
+      "prompt": "Are you able to reschedule my follow-up appointment with Dr. Lee to next Friday at 10 AM?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n02",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "This is a question about the system's ability, not a direct request to execute the task. It asks for an explanation of ability rather than requesting the action itself."
+      }
+    },
+    {
+      "id": "n03",
+      "prompt": "Can you help me reschedule my follow-up appointment with Dr. Lee to next Friday at 10 AM?",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "\"Can you help me reschedule\" is an indirect but equivalent request for the system to perform the rescheduling, retaining implied authorization."
+      }
+    },
+    {
+      "id": "n04",
+      "prompt": "Please reschedule my follow-up appointment with Dr. Lee to next Friday at 10 AM.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "A direct imperative with \"please\" retains the request and implied authorization."
+      }
+    },
+    {
+      "id": "n05",
+      "prompt": "Reschedule my follow-up appointment with Dr. Lee to next Friday at 10 AM.",
+      "tone": "neutral",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Conventional request phrasing."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "n05",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "A direct imperative retains the request and implied authorization."
+      }
+    },
+    {
+      "id": "i01",
+      "prompt": "Just reschedule my follow-up appointment with Dr. Lee to next Friday at 10 AM.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Grammatical Just + imperative; do is not duplicated before the task verb",
+      "review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Adds an adverb that implies impatience but does not change the core request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i01",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "\"Just\" adds emphasis but the core imperative request and implied authorization remain."
+      }
+    },
+    {
+      "id": "i02",
+      "prompt": "Reschedule my follow-up appointment with Dr. Lee to next Friday at 10 AM. Do it.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "Full task retained before Do it",
+      "review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Adds an imperative that implies impatience but does not change the core request."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i02",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "The first sentence is a complete and equivalent request, reinforced by \"Do it\", retaining implied authorization."
+      }
+    },
+    {
+      "id": "i03",
+      "prompt": "This time, reschedule my follow-up appointment with Dr. Lee to next Friday at 10 AM.",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Adds 'This time' implying a previous attempt, but the task remains the same."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i03",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "\"This time\" adds context implying a previous interaction, but the core imperative request and implied authorization remain."
+      }
+    },
+    {
+      "id": "i04",
+      "prompt": "You need to reschedule my follow-up appointment with Dr. Lee to next Friday at 10 AM.",
+      "tone": "impolite",
+      "context_sensitive": false,
+      "realization_note": "",
+      "review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Adds a statement of obligation but the task remains the same."
+      },
+      "eligible_pilot": true,
+      "previous_review": {
+        "id": "i04",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "\"You need to\" is a strong directive that functions as an imperative request, assuming the system's ability."
+      }
+    },
+    {
+      "id": "i05",
+      "prompt": "Why can't you reschedule my follow-up appointment with Dr. Lee to next Friday at 10 AM?",
+      "tone": "impolite",
+      "context_sensitive": true,
+      "realization_note": "",
+      "review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": true,
+        "information_order_preserved": true,
+        "reason": "Changes the task from a request to an inquiry about inability."
+      },
+      "eligible_pilot": false,
+      "previous_review": {
+        "id": "i05",
+        "task_equivalent": false,
+        "authorization_equivalent": false,
+        "information_order_preserved": true,
+        "reason": "This is a question about the system's inability, not a request to execute the task. It asks for an explanation of inability rather than requesting the action itself."
+      }
+    }
+  ],
+  "missing_numeric_tokens": [],
+  "reviewer": "gemini-2.5-flash",
+  "review_type": "same_model_separate_context_not_human_gold",
+  "source_sha256": "3213aacc4bb1c6e19e16eb28df4b4a3ff0bb634fff565e3fd1155f2932ec1bac",
+  "scenario_id": "AIP-009",
+  "review_protocol": "pragmatic_equivalence_v2",
+  "review_protocol_sha256": "2b387114723187ae3bda767678be617a87a62328697ff6ef3dbd19908bae80f2"
+}

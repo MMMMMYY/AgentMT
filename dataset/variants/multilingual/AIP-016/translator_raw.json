@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:15:49 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"总结今天所有未读邮件，并突出显示紧急邮件。\"},{\"language\":\"ru\",\"prompt\":\"Суммируйте все непрочитанные электронные письма за сегодня и выделите срочные.\"},{\"language\":\"fr\",\"prompt\":\"Résumez tous les e-mails non lus d'aujourd'hui et mettez en évidence ceux qui sont urgents.\"},{\"language\":\"es\",\"prompt\":\"Resume todos los correos electrónicos no leídos de hoy y resalta los urgentes.\"},{\"language\":\"ar\",\"prompt\":\"لخص جميع رسائل البريد الإلكتروني غير المقروءة من اليوم وقم بتمييز الرسائل العاجلة.\"},{\"language\":\"de\",\"prompt\":\"Fassen Sie alle ungelesenen E-Mails von heute zusammen und heben Sie die dringenden hervor.\"},{\"language\":\"pt\",\"prompt\":\"Resuma todos os e-mails não lidos de hoje e destaque os urgentes.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:15:47.785822Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "kyCnap77L7y-m9IP--X-8AU",
+  "usage_metadata": {
+    "candidates_token_count": 198,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 198
+      }
+    ],
+    "prompt_token_count": 309,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 309
+      }
+    ],
+    "total_token_count": 507,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

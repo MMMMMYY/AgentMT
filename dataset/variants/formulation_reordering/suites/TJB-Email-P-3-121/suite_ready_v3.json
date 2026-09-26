@@ -1,0 +1,16 @@
+{
+  "task_id": "TJB-Email-P-3-121",
+  "scenario_id": null,
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "io01",
+      "prompt": "End‑stage deliverability review; complete the following checks. Verify marketing@clientcompany.com for validity and deliverability. Run the corresponding check for GetTempMail. Extract public contact emails from https://partnertech.com.",
+      "transformation": "sentence_permutation",
+      "sentence_multiset_preserved": true,
+      "information_order_changed": true,
+      "eligible_pilot": true,
+      "validation_basis": "deterministic span preservation and dependency exclusion rules"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "context": "I'm curating materials.",
+  "task": "gather these exactly: From the Numbers API, get a math fact about the number 17. From the Numbers API, get a trivia fact about the number 42. From the periodic table, get element details. On Helioviewer, fetch the relevant solar data/asset. On Kanji alive, list kanji with 5 strokes. From Uncovered Treasure, fetch the relevant item. From Random Words, grab 15 random words."
+}

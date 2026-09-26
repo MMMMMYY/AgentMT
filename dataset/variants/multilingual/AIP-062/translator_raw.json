@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:44 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"我听到外面有噪音。你能去前门看看发生了什么吗？\"},{\"language\":\"ru\",\"prompt\":\"Я услышал шум снаружи. Можешь проверить, что случилось у входной двери?\"},{\"language\":\"fr\",\"prompt\":\"J'ai entendu un bruit dehors. Peux-tu vérifier ce qui s'est passé à la porte d'entrée ?\"},{\"language\":\"es\",\"prompt\":\"Escuché un ruido afuera. ¿Puedes revisar qué pasó en la puerta principal?\"},{\"language\":\"ar\",\"prompt\":\"سمعت ضوضاء في الخارج. هل يمكنك التحقق مما حدث عند الباب الأمامي؟\"},{\"language\":\"de\",\"prompt\":\"Ich habe draußen ein Geräusch gehört. Kannst du nachsehen, was an der Haustür passiert ist?\"},{\"language\":\"pt\",\"prompt\":\"Ouvi um barulho lá fora. Você pode verificar o que aconteceu na porta da frente?\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:16:43.319390Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "yyCnap6_E8O_m9IPwJmQuAg",
+  "usage_metadata": {
+    "candidates_token_count": 193,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 193
+      }
+    ],
+    "prompt_token_count": 311,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 311
+      }
+    ],
+    "total_token_count": 504,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

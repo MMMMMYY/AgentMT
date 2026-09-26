@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:32:04 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"fr\", \"prompt\": \"Vous recevez le fichier de sortie d'une installation Raman. Nous l'avons utilisé pour mesurer un échantillon de graphène.\\nAjustez les pics G et 2D du spectre et renvoyez le x0, le gamma, l'amplitude et le décalage des pics et écrivez-les dans un fichier appelé ⟦0⟧.\\n\\nLe fichier doit avoir le format suivant :\\n{\\n  ⟦1⟧: {\\n    ⟦2⟧: <⟦3⟧>,\\n    ⟦4⟧: <⟦5⟧>,\\n    ⟦6⟧: <⟦7⟧>,\\n    ⟦8⟧: <⟦9⟧>\\n  },\\n  ⟦10⟧: {\\n    ⟦11⟧: <⟦12⟧>,\\n    ⟦13⟧: <⟦14⟧>,\\n    ⟦15⟧: <⟦16⟧>,\\n    ⟦17⟧: <⟦18⟧>\\n  }\\n}\\n\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-23T08:32:03.152987Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "g46zapurCcnBnMwPndmP8A4",
+  "usage_metadata": {
+    "candidates_token_count": 228,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 228
+      }
+    ],
+    "prompt_token_count": 301,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 301
+      }
+    ],
+    "total_token_count": 529,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

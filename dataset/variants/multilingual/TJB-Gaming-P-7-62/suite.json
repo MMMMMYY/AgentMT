@@ -1,0 +1,165 @@
+{
+  "task_id": "TJB-Gaming-P-7-62",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "I'm preparing for the upcoming Rocket League tournament in Europe this weekend Let's run these in parallel: check Rocket League tournaments in europe; check Rocket League player population; pull Hall of Fame games for 2022 from OpenCritic; check what free games are on Epic Games Store in UK; card; list Lost Ark classes; and find the best current deals for 'batman' (up to 10 results).",
+  "source_sha256": "023245d863c2373b13b70de3e29e8461045df494031c956c7d01cc53ba344c98",
+  "status": "reviewed",
+  "variants": [
+    {
+      "language": "zh",
+      "prompt": "我正在准备本周末在欧洲举行的火箭联盟锦标赛。让我们并行运行这些：查看欧洲的火箭联盟锦标赛；查看火箭联盟玩家数量；从OpenCritic中提取2022年的名人堂游戏；查看Epic Games Store在英国有哪些免费游戏；卡片；列出失落的方舟职业；并查找“batman”的最佳当前交易（最多10个结果）。",
+      "id": "lang_zh",
+      "literal_check": {
+        "passed": false,
+        "missing_strings": [],
+        "missing_numeric_tokens": [
+          "10",
+          "2022"
+        ],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": false,
+      "review": {
+        "language": "zh",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All tasks, conditions, and tone are preserved accurately."
+      }
+    },
+    {
+      "language": "ru",
+      "prompt": "Я готовлюсь к предстоящему турниру Rocket League в Европе в эти выходные. Давайте запустим их параллельно: проверить турниры Rocket League в Европе; проверить количество игроков Rocket League; вытащить игры Зала славы за 2022 год из OpenCritic; проверить, какие бесплатные игры есть в Epic Games Store в Великобритании; карта; перечислить классы Lost Ark; и найти лучшие текущие предложения для 'batman' (до 10 результатов).",
+      "id": "lang_ru",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ru",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All tasks, conditions, and tone are preserved accurately."
+      }
+    },
+    {
+      "language": "fr",
+      "prompt": "Je me prépare pour le prochain tournoi Rocket League en Europe ce week-end. Exécutons ces tâches en parallèle : vérifier les tournois Rocket League en Europe ; vérifier la population de joueurs de Rocket League ; extraire les jeux du Hall of Fame pour 2022 depuis OpenCritic ; vérifier quels jeux gratuits sont disponibles sur l'Epic Games Store au Royaume-Uni ; carte ; lister les classes de Lost Ark ; et trouver les meilleures offres actuelles pour 'batman' (jusqu'à 10 résultats).",
+      "id": "lang_fr",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "fr",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All tasks, conditions, and tone are preserved accurately."
+      }
+    },
+    {
+      "language": "es",
+      "prompt": "Me estoy preparando para el próximo torneo de Rocket League en Europa este fin de semana. Ejecutemos esto en paralelo: verificar torneos de Rocket League en Europa; verificar la población de jugadores de Rocket League; extraer juegos del Salón de la Fama de 2022 de OpenCritic; verificar qué juegos gratuitos hay en Epic Games Store en el Reino Unido; tarjeta; listar clases de Lost Ark; y encontrar las mejores ofertas actuales para 'batman' (hasta 10 resultados).",
+      "id": "lang_es",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "es",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All tasks, conditions, and tone are preserved accurately."
+      }
+    },
+    {
+      "language": "ar",
+      "prompt": "أستعد لبطولة Rocket League القادمة في أوروبا نهاية هذا الأسبوع. دعنا ننفذ هذه المهام بالتوازي: التحقق من بطولات Rocket League في أوروبا؛ التحقق من عدد لاعبي Rocket League؛ سحب ألعاب قاعة المشاهير لعام 2022 من OpenCritic؛ التحقق من الألعاب المجانية المتوفرة في Epic Games Store في المملكة المتحدة؛ بطاقة؛ سرد فئات Lost Ark؛ والعثور على أفضل العروض الحالية لـ 'batman' (حتى 10 نتائج).",
+      "id": "lang_ar",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ar",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All tasks, conditions, and tone are preserved accurately."
+      }
+    },
+    {
+      "language": "de",
+      "prompt": "Ich bereite mich auf das bevorstehende Rocket League Turnier in Europa dieses Wochenende vor. Lassen Sie uns diese parallel ausführen: Rocket League Turniere in Europa überprüfen; Rocket League Spielerpopulation überprüfen; Hall of Fame Spiele für 2022 von OpenCritic abrufen; überprüfen, welche kostenlosen Spiele im Epic Games Store in Großbritannien verfügbar sind; Karte; Lost Ark Klassen auflisten; und die besten aktuellen Angebote für 'batman' finden (bis zu 10 Ergebnisse).",
+      "id": "lang_de",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "de",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All tasks, conditions, and tone are preserved accurately."
+      }
+    },
+    {
+      "language": "pt",
+      "prompt": "Estou me preparando para o próximo torneio de Rocket League na Europa neste fim de semana. Vamos executar estas tarefas em paralelo: verificar torneios de Rocket League na Europa; verificar a população de jogadores de Rocket League; extrair jogos do Hall da Fama de 2022 do OpenCritic; verificar quais jogos gratuitos estão na Epic Games Store no Reino Unido; cartão; listar classes de Lost Ark; e encontrar as melhores ofertas atuais para 'batman' (até 10 resultados).",
+      "id": "lang_pt",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "pt",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All tasks, conditions, and tone are preserved accurately."
+      }
+    }
+  ],
+  "english_source": {
+    "language": "en",
+    "prompt": "I'm preparing for the upcoming Rocket League tournament in Europe this weekend Let's run these in parallel: check Rocket League tournaments in europe; check Rocket League player population; pull Hall of Fame games for 2022 from OpenCritic; check what free games are on Epic Games Store in UK; card; list Lost Ark classes; and find the best current deals for 'batman' (up to 10 results).",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation"
+}

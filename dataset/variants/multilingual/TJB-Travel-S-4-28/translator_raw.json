@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:37:35 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"我需要查找明年旅行的芝加哥机场。您能给我显示离芝加哥市中心位置最居中的机场吗？找到后，我想查看中途国际机场 (MDW) 的详细信息。然后，查看 2025 年 9 月 1 日中午左右抵达 KMDW 的航班。最后，您能给我提供航班 WN3764 的完整信息吗？这应该是从最东边的机场起飞的航班。\"}, {\"language\": \"ru\", \"prompt\": \"Мне нужно найти аэропорты Чикаго для моей поездки в следующем году. Не могли бы вы показать мне аэропорт с наиболее центральным расположением относительно центра Чикаго? Как только вы его найдете, я хотел бы увидеть подробности о международном аэропорте Мидуэй (MDW). Затем проверьте, какие рейсы прибывают в KMDW 1 сентября 2025 года около полудня. Наконец, не могли бы вы предоставить мне полную информацию о рейсе WN3764, который должен быть рейсом, вылетающим из самого восточного аэропорта?\"}, {\"language\": \"fr\", \"prompt\": \"Je dois trouver les aéroports de Chicago pour mon voyage l'année prochaine. Pourriez-vous me montrer l'aéroport le plus central par rapport au centre-ville de Chicago ? Une fois que vous l'avez trouvé, j'aimerais voir les détails sur l'aéroport international Midway (MDW). Ensuite, vérifiez quels vols arrivent à KMDW le 1er septembre 2025, vers midi. Enfin, pouvez-vous me donner des informations complètes sur le vol WN3764, qui devrait être le vol partant de l'aéroport le plus à l'est ?\"}, {\"language\": \"es\", \"prompt\": \"Necesito encontrar aeropuertos de Chicago para mi viaje el próximo año. ¿Podría mostrarme el aeropuerto con la ubicación más céntrica con respecto al centro de Chicago? Una vez que lo encuentre, me gustaría ver los detalles sobre el Aeropuerto Internacional Midway (MDW). Luego, verifique qué vuelos llegan a KMDW el 1 de septiembre de 2025, alrededor del mediodía. Finalmente, ¿puede darme información completa sobre el vuelo WN3764, que debería ser el vuelo que sale del aeropuerto más oriental?\"}, {\"language\": \"ar\", \"prompt\": \"أحتاج إلى العثور على مطارات شيكاغو لرحلتي العام المقبل. هل يمكنك أن تريني المطار ذو الموقع الأكثر مركزية لوسط مدينة شيكاغو؟ بمجرد العثور عليه، أود رؤية تفاصيل حول مطار ميدواي الدولي (MDW). ثم، تحقق من الرحلات الجوية التي تصل إلى KMDW في 1 سبتمبر 2025، حوالي الظهر. أخيرًا، هل يمكنك تزويدي بمعلومات كاملة عن الرحلة WN3764، والتي يجب أن تكون الرحلة المغادرة من المطار الأقصى شرقًا؟\"}, {\"language\": \"de\", \"prompt\": \"Ich muss für meine Reise nächstes Jahr Flughäfen in Chicago finden. Könnten Sie mir den Flughafen mit der zentralsten Lage zum Stadtzentrum von Chicago zeigen? Sobald Sie ihn gefunden haben, möchte ich Details zum Midway International Airport (MDW) sehen. Überprüfen Sie dann, welche Flüge am 1. September 2025 gegen Mittag in KMDW ankommen. Können Sie mir schließlich vollständige Informationen zum Flug WN3764 geben, der der Flug sein sollte, der vom östlichsten Flughafen abfliegt?\"}, {\"language\": \"pt\", \"prompt\": \"Preciso encontrar aeroportos de Chicago para minha viagem no próximo ano. Você poderia me mostrar o aeroporto com a localização mais central para o centro da cidade de Chicago? Assim que o encontrar, gostaria de ver detalhes sobre o Aeroporto Internacional Midway (MDW). Em seguida, verifique quais voos estão chegando em KMDW em 1º de setembro de 2025, por volta do meio-dia. Finalmente, você pode me fornecer informações completas sobre o voo WN3764, que deve ser o voo partindo do aeroporto mais a leste?\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.029053753284367365
+    }
+  ],
+  "create_time": "2026-09-13T22:37:31.444276Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "qyWnavSOG8GGm9IPoJKR4Ak",
+  "usage_metadata": {
+    "candidates_token_count": 921,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 921
+      }
+    ],
+    "prompt_token_count": 397,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 397
+      }
+    ],
+    "total_token_count": 1318,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Finance-P-10-36",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Finance",
+  "taskType": "parallel tool orchestration",
+  "prompt": "I need a comprehensive analysis of Tesla (TSLA) to make an investment decision In parallel, please run: Twelve Data: RSI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MACD (symbol=TSLA, interval=1day, outputsize=30, fast_period=12, slow_period=26); Twelve Data: BBANDS (symbol=TSLA, interval=1day, time_period=20, outputsize=30); Twelve Data: LINEARREGSLOPE (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Twelve Data: MFI (symbol=TSLA, interval=1day, time_period=14, outputsize=30); Stock Sentiment API: News Sentiment Data (ticker=TSLA); Stock Sentiment API: Market Data (ticker=TSLA); Realtime Crypto Prices: Get Realtime Rates (symbol=BTC); Bybit: Get Index Price Kline (symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000); Twelve Data: NATR (symbol=TSLA, interval=1day, time_period=14, outputsize=30).",
+  "scope": "",
+  "trajectoryType": "parallel",
+  "referenceSteps": 10,
+  "positiveOracle": "1. Twelve Data: RSI | required: symbol=TSLA, interval=1day | optional: time_period=14, outputsize=30\n2. Twelve Data: MACD | required: symbol=TSLA, interval=1day | optional: fast_period=12, slow_period=26, outputsize=30\n3. Twelve Data: BBANDS | required: symbol=TSLA, interval=1day | optional: time_period=20, outputsize=30\n4. Twelve Data: LINEARREGSLOPE | required: symbol=TSLA, interval=1day | optional: time_period=14, outputsize=30\n5. Twelve Data: MFI | required: symbol=TSLA, interval=1day | optional: time_period=14, outputsize=30\n6. Stock Sentiment API: News Sentiment Data | required: ticker=TSLA\n7. Stock Sentiment API: Market Data | required: ticker=TSLA\n8. Realtime Crypto Prices: Get Realtime Rates | required: symbol=BTC\n9. Bybit: Get Index Price Kline | required: symbol=BTCUSDT, category=linear, interval=D, end=1718236800000, start=1715644800000 | optional: limit=30\n10. Twelve Data: NATR | required: symbol=TSLA, interval=1day | optional: time_period=14, outputsize=30",
+  "negativeOracle": "",
+  "referenceTrajectory": "Twelve Data: RSI ∥ Twelve Data: MACD ∥ Twelve Data: BBANDS ∥ Twelve Data: LINEARREGSLOPE ∥ Twelve Data: MFI ∥ Stock Sentiment API: News Sentiment Data ∥ Stock Sentiment API: Market Data ∥ Realtime Crypto Prices: Get Realtime Rates ∥ Bybit: Get Index Price Kline ∥ Twelve Data: NATR",
+  "sourceLocator": "public_data/parallel/Finance/simple_ver.json | item=36",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/parallel/Finance/simple_ver.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 25 clean candidates in Finance/parallel/10-tool stratum."
+}

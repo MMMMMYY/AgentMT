@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:32:14 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"translations\": [\n    {\n      \"language\": \"zh\",\n      \"prompt\": \"修复文件 ⟦0⟧ 中不完整的加法交换律证明。该文件包含一个需要完成的部分证明。\\n\\n定理指出自然数的加法是可交换的（forall n m : nat, n + m = m + n）。\\n证明尝试使用了归纳法，但缺少一些关键步骤。\\n\\n你的任务是：\\n1. 分析 ⟦1⟧ 中不完整的证明\\n2. 添加缺失的步骤以完成证明\\n3. 使用 coqc 编译完成的证明\\n\\n证明应使用 Coq 的策略完成，最终编译的证明应在 ⟦2⟧.vo 中。\"\n    },\n    {\n      \"language\": \"ru\",\n      \"prompt\": \"Исправьте неполное доказательство коммутативности сложения в файле ⟦0⟧. Файл содержит частичное доказательство, которое необходимо завершить.\\n\\nТеорема утверждает, что сложение коммутативно для натуральных чисел (forall n m : nat, n + m = m + n).\\nПопытка доказательства использует индукцию, но в ней отсутствуют некоторые важные шаги.\\n\\nВаша задача:\\n1. Проанализировать неполное доказательство в ⟦1⟧\\n2. Добавить недостающие шаги для завершения доказательства\\n3. Скомпилировать завершенное доказательство с помощью coqc\\n\\nДоказательство должно быть завершено с использованием тактик Coq, а окончательное скомпилированное доказательство должно находиться в ⟦2⟧.vo.\"\n    },\n    {\n      \"language\": \"fr\",\n      \"prompt\": \"Corrigez la preuve incomplète de la commutativité de l'addition dans le fichier ⟦0⟧. Le fichier contient une preuve partielle qui doit être complétée.\\n\\nLe théorème stipule que l'addition est commutative pour les nombres naturels (forall n m : nat, n + m = m + n).\\nLa tentative de preuve utilise l'induction mais il manque quelques étapes cruciales.\\n\\nVotre tâche est de :\\n1. Analyser la preuve incomplète dans ⟦1⟧\\n2. Ajouter les étapes manquantes pour compléter la preuve\\n3. Compiler la preuve complétée en utilisant coqc\\n\\nLa preuve doit être complétée en utilisant les tactiques de Coq et la preuve compilée finale doit être dans ⟦2⟧.vo.\"\n    },\n    {\n      \"language\": \"es\",\n      \"prompt\": \"Arregla la prueba incompleta de la conmutatividad de la adición en el archivo ⟦0⟧. El archivo contiene una prueba parcial que necesita ser completada.\\n\\nEl teorema establece que la adición es conmutativa para los números naturales (forall n m : nat, n + m = m + n).\\nEl intento de prueba utiliza inducción pero le faltan algunos pasos cruciales.\\n\\nTu tarea es:\\n1. Analizar la prueba incompleta en ⟦1⟧\\n2. Añadir los pasos que faltan para completar la prueba\\n3. Compilar la prueba completada usando coqc\\n\\nLa prueba debe ser completada usando las tácticas de Coq y la prueba compilada final debe estar en ⟦2⟧.vo.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-23T08:32:11.141152Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "i46zauDOCNb6lb4P2fPhuA8",
+  "usage_metadata": {
+    "candidates_token_count": 750,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 750
+      }
+    ],
+    "prompt_token_count": 327,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 327
+      }
+    ],
+    "total_token_count": 1077,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

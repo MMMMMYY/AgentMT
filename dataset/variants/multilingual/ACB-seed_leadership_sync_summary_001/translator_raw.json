@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:31 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"在OpenMessenger中阅读Priya最新的领导层同步回顾，并在#engineering-general频道发布我们讨论内容的简要摘要，以便团队了解情况。\"}, {\"language\": \"ru\", \"prompt\": \"Прочитайте последний обзор синхронизации руководства Прии в OpenMessenger и опубликуйте краткое изложение того, что мы обсуждали, в канале #engineering-general, чтобы команда была в курсе.\"}, {\"language\": \"fr\", \"prompt\": \"Lisez le dernier récapitulatif de synchronisation de leadership de Priya dans OpenMessenger et publiez un bref résumé de ce que nous avons discuté sur le canal #engineering-general afin que l'équipe soit au courant.\"}, {\"language\": \"es\", \"prompt\": \"Lee el último resumen de sincronización de liderazgo de Priya en OpenMessenger y publica un breve resumen de lo que discutimos en el canal #engineering-general para que el equipo esté al tanto.\"}, {\"language\": \"ar\", \"prompt\": \"اقرأ ملخص مزامنة القيادة الأخير لـ Priya في OpenMessenger وانشر ملخصًا موجزًا لما ناقشناه في قناة #engineering-general حتى يكون الفريق على اطلاع.\"}, {\"language\": \"de\", \"prompt\": \"Lesen Sie Priyas neueste Zusammenfassung der Führungssynchronisierung in OpenMessenger und posten Sie eine kurze Zusammenfassung dessen, was wir besprochen haben, im Kanal #engineering-general, damit das Team auf dem Laufenden ist.\"}, {\"language\": \"pt\", \"prompt\": \"Leia o último resumo da sincronização de liderança de Priya no OpenMessenger e publique um breve resumo do que discutimos no canal #engineering-general para que a equipe esteja ciente.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.0360282001599588
+    }
+  ],
+  "create_time": "2026-09-13T22:17:29.873139Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "-SCnarOlNcvXgrYP0q_s4Qo",
+  "usage_metadata": {
+    "candidates_token_count": 366,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 366
+      }
+    ],
+    "prompt_token_count": 330,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 330
+      }
+    ],
+    "total_token_count": 696,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:37:44 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"比赛时间通知——对于我的行李清单，你能收集一下：35.1983,-111.6513（America/Phoenix）的天文信息（日/月）；按坐标划分的小时预报；每日点数据；35.1983,-111.6513的空气质量预报；任何活跃的天气警报；半径范围内的附近城市；以及meteostat：小时点数据。\"}, {\"language\": \"ru\", \"prompt\": \"Звонок в игровое время — Для моего списка вещей, не могли бы вы собрать: астрономию (солнце/луна) для 35.1983,-111.6513 (America/Phoenix); почасовой прогноз по координатам; ежедневные точечные данные; прогноз качества воздуха для 35.1983,-111.6513; любые активные погодные предупреждения; близлежащие города в радиусе; и meteostat: почасовые точечные данные.\"}, {\"language\": \"fr\", \"prompt\": \"Appel de dernière minute — Pour ma liste de colisage, pourriez-vous rassembler : l'astronomie (soleil/lune) pour 35.1983,-111.6513 (America/Phoenix) ; les prévisions horaires par coordonnées ; les données ponctuelles quotidiennes ; les prévisions de qualité de l'air pour 35.1983,-111.6513 ; toute alerte météo active ; les villes proches dans un rayon ; et meteostat : données ponctuelles horaires.\"}, {\"language\": \"es\", \"prompt\": \"Llamada de última hora — Para mi lista de equipaje, ¿podrías recopilar: astronomía (sol/luna) para 35.1983,-111.6513 (America/Phoenix); pronóstico horario por coordenadas; datos de puntos diarios; pronóstico de calidad del aire para 35.1983,-111.6513; cualquier alerta meteorológica activa; ciudades cercanas dentro de un radio; y meteostat: datos de puntos horarios?\"}, {\"language\": \"ar\", \"prompt\": \"مكالمة وقت اللعب — لقائمة أغراضي، هل يمكنك جمع: علم الفلك (الشمس/القمر) لـ 35.1983,-111.6513 (America/Phoenix)؛ توقعات كل ساعة بالإحداثيات؛ بيانات النقطة اليومية؛ توقعات جودة الهواء لـ 35.1983,-111.6513؛ أي تنبيهات طقس نشطة؛ المدن القريبة ضمن دائرة نصف قطرها؛ و meteostat: بيانات النقطة كل ساعة.\"}, {\"language\": \"de\", \"prompt\": \"Spielzeit-Anruf — Für meine Packliste, könnten Sie sammeln: Astronomie (Sonne/Mond) für 35.1983,-111.6513 (America/Phoenix); stündliche Vorhersage nach Koordinaten; tägliche Punktdaten; Luftqualitätsvorhersage für 35.1983,-111.6513; alle aktiven Wetterwarnungen; nahegelegene Städte innerhalb eines Radius; und meteostat: Stündliche Punktdaten.\"}, {\"language\": \"pt\", \"prompt\": \"Chamada de última hora — Para minha lista de embalagem, você poderia reunir: astronomia (sol/lua) para 35.1983,-111.6513 (America/Phoenix); previsão horária por coordenadas; dados de ponto diários; previsão da qualidade do ar para 35.1983,-111.6513; quaisquer alertas meteorológicos ativos; cidades próximas dentro de um raio; e meteostat: Dados de Ponto Horários.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.039065857636763755
+    }
+  ],
+  "create_time": "2026-09-13T22:37:40.342788Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "tCWnaoT2FM-pr8kPwNDvwA4",
+  "usage_metadata": {
+    "candidates_token_count": 868,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 868
+      }
+    ],
+    "prompt_token_count": 388,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 388
+      }
+    ],
+    "total_token_count": 1256,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,162 @@
+{
+  "task_id": "TJB-eCommerce-P-7-101",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "I'm comparing retailers and want a clear snapshot. Please fetch product info, and search Wayfair for 'furniture categories', and fetch product info, and fetch product info, and fetch product info, and list Asos categories country US, lang en-US, and search Zappos for 'home furniture' sort best_seller page 1.",
+  "source_sha256": "0621f3da2157133ec0544f39c177c7a006366ae038c1ee2049996d99eb5b6418",
+  "status": "reviewed",
+  "variants": [
+    {
+      "language": "zh",
+      "prompt": "我正在比较零售商，想要一个清晰的快照。请获取产品信息，并在 Wayfair 上搜索“furniture categories”，然后获取产品信息，然后获取产品信息，然后获取产品信息，并列出 Asos 类别，国家 US，语言 en-US，并在 Zappos 上搜索“home furniture”，按 best_seller 排序，第 1 页。",
+      "id": "lang_zh",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "zh",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks, authorizations, and maintains the original tone and order of information."
+      }
+    },
+    {
+      "language": "ru",
+      "prompt": "Я сравниваю розничных продавцов и хочу получить четкий снимок. Пожалуйста, получите информацию о продукте, найдите на Wayfair 'furniture categories', получите информацию о продукте, получите информацию о продукте, получите информацию о продукте, перечислите категории Asos для страны US, языка en-US, и найдите на Zappos 'home furniture', отсортируйте по best_seller, страница 1.",
+      "id": "lang_ru",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ru",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation correctly captures all instructions, authorizations, and preserves the original tone and sequence of information."
+      }
+    },
+    {
+      "language": "fr",
+      "prompt": "Je compare des détaillants et je veux un aperçu clair. Veuillez récupérer les informations sur les produits, rechercher sur Wayfair 'furniture categories', récupérer les informations sur les produits, récupérer les informations sur les produits, récupérer les informations sur les produits, et lister les catégories Asos pour le pays US, la langue en-US, et rechercher sur Zappos 'home furniture' trié par best_seller page 1.",
+      "id": "lang_fr",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "fr",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately reflects all tasks, authorizations, and maintains the original tone and order of information."
+      }
+    },
+    {
+      "language": "es",
+      "prompt": "Estoy comparando minoristas y quiero una instantánea clara. Por favor, obtén información del producto, busca en Wayfair 'furniture categories', obtén información del producto, obtén información del producto, obtén información del producto, y lista las categorías de Asos para el país US, idioma en-US, y busca en Zappos 'home furniture' ordenar por best_seller página 1.",
+      "id": "lang_es",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "es",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation correctly conveys all tasks, authorizations, and maintains the original tone and order of information."
+      }
+    },
+    {
+      "language": "ar",
+      "prompt": "أنا أقارن تجار التجزئة وأريد لقطة واضحة. الرجاء جلب معلومات المنتج، والبحث في Wayfair عن 'furniture categories'، وجلب معلومات المنتج، وجلب معلومات المنتج، وجلب معلومات المنتج، وسرد فئات Asos للبلد US، واللغة en-US، والبحث في Zappos عن 'home furniture' ترتيب best_seller الصفحة 1.",
+      "id": "lang_ar",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ar",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately reflects all tasks, authorizations, and maintains the original tone and order of information."
+      }
+    },
+    {
+      "language": "de",
+      "prompt": "Ich vergleiche Einzelhändler und möchte eine klare Momentaufnahme. Bitte rufen Sie Produktinformationen ab, suchen Sie bei Wayfair nach 'furniture categories', rufen Sie Produktinformationen ab, rufen Sie Produktinformationen ab, rufen Sie Produktinformationen ab, listen Sie Asos-Kategorien für Land US, Sprache en-US auf und suchen Sie bei Zappos nach 'home furniture' sortiert nach best_seller Seite 1.",
+      "id": "lang_de",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "de",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation correctly captures all instructions, authorizations, and preserves the original tone and sequence of information."
+      }
+    },
+    {
+      "language": "pt",
+      "prompt": "Estou comparando varejistas e quero um panorama claro. Por favor, busque informações do produto, e pesquise na Wayfair por 'furniture categories', e busque informações do produto, e busque informações do produto, e busque informações do produto, e liste as categorias da Asos para o país US, idioma en-US, e pesquise na Zappos por 'home furniture' ordenar por best_seller página 1.",
+      "id": "lang_pt",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "pt",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks, authorizations, and maintains the original tone and order of information."
+      }
+    }
+  ],
+  "english_source": {
+    "language": "en",
+    "prompt": "I'm comparing retailers and want a clear snapshot. Please fetch product info, and search Wayfair for 'furniture categories', and fetch product info, and fetch product info, and fetch product info, and list Asos categories country US, lang en-US, and search Zappos for 'home furniture' sort best_seller page 1.",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation"
+}

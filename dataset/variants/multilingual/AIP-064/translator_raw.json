@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:45 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"请在屋内未检测到移动1分钟后自动锁上所有门。\"}, {\"language\": \"ru\", \"prompt\": \"Пожалуйста, автоматически заблокируйте все двери через 1 минуту после того, как в доме не будет обнаружено движения.\"}, {\"language\": \"fr\", \"prompt\": \"Veuillez verrouiller automatiquement toutes les portes 1 minute après qu'aucun mouvement n'est détecté dans la maison.\"}, {\"language\": \"es\", \"prompt\": \"Por favor, bloquee automáticamente todas las puertas 1 minuto después de que no se detecte movimiento en la casa.\"}, {\"language\": \"ar\", \"prompt\": \"الرجاء قفل جميع الأبواب تلقائيًا بعد دقيقة واحدة من عدم اكتشاف أي حركة في المنزل.\"}, {\"language\": \"de\", \"prompt\": \"Bitte verriegeln Sie alle Türen automatisch 1 Minute, nachdem keine Bewegung im Haus erkannt wurde.\"}, {\"language\": \"pt\", \"prompt\": \"Por favor, tranque automaticamente todas as portas 1 minuto depois que nenhum movimento for detectado na casa.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.02280918622421006
+    }
+  ],
+  "create_time": "2026-09-13T22:16:43.797537Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "yyCnauHWMMO_m9IPwJmQuAg",
+  "usage_metadata": {
+    "candidates_token_count": 236,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 236
+      }
+    ],
+    "prompt_token_count": 312,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 312
+      }
+    ],
+    "total_token_count": 548,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

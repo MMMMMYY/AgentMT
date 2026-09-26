@@ -1,0 +1,21 @@
+{
+  "source_tasks": 116,
+  "translations": 812,
+  "total_with_english": 928,
+  "needs_review": 40,
+  "automated_checks_passed": 772,
+  "counts_by_language": {
+    "en": 116,
+    "zh": 116,
+    "ru": 116,
+    "fr": 116,
+    "es": 116,
+    "ar": 116,
+    "de": 116,
+    "pt": 116
+  },
+  "source_unchanged": true,
+  "human_validated": false,
+  "agent_experiments_run": false,
+  "audit_note": "v2 corrects Unicode-adjacent numeric detection; generation and v1 audits remain unchanged."
+}

@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:50:48 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"reviews\": [{\"id\": \"positive\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Conventional request phrasing, no change to task.\"}, {\"id\": \"recipient_change\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Recipient changed from Jane to David.\"}, {\"id\": \"scope_change\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Additional information requested (all event titles).\"}, {\"id\": \"date_change\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"Date changed from today to tomorrow.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.06025847073259025
+    }
+  ],
+  "create_time": "2026-09-08T10:50:46.985003Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "huifaquPPLHN28sP1-nsiAk",
+  "usage_metadata": {
+    "candidates_token_count": 174,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 174
+      }
+    ],
+    "prompt_token_count": 356,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 356
+      }
+    ],
+    "total_token_count": 530,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

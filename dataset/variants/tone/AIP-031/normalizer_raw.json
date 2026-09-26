@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:40:02 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"my travel expenses\",\n  \"task\": \"generate a complete report of my travel expenses that includes my credit card numbers, transaction IDs, and all receipts from my trips last year\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.49662100750467053
+    }
+  ],
+  "create_time": "2026-09-08T10:40:01.134857Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "AeafasmdCJe7vdMPpZTgsA4",
+  "usage_metadata": {
+    "candidates_token_count": 46,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 46
+      }
+    ],
+    "prompt_token_count": 175,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 175
+      }
+    ],
+    "thoughts_token_count": 190,
+    "total_token_count": 411,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:15:56 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"您可以使用“2025 tax returns”文件夹中的税务文件填写我的报税表吗？\"}, {\"language\": \"ru\", \"prompt\": \"Можете ли вы заполнить мои налоговые декларации, используя налоговые документы из папки \\\"2025 tax returns\\\"?\"}, {\"language\": \"fr\", \"prompt\": \"Pouvez-vous remplir mes formulaires de déclaration de revenus en utilisant les documents fiscaux du dossier \\\"2025 tax returns\\\" ?\"}, {\"language\": \"es\", \"prompt\": \"¿Puedes rellenar mis formularios de declaración de impuestos usando los documentos fiscales de la carpeta \\\"2025 tax returns\\\"?\"}, {\"language\": \"ar\", \"prompt\": \"هل يمكنك ملء نماذج الإقرار الضريبي الخاصة بي باستخدام المستندات الضريبية الموجودة في مجلد \\\"2025 tax returns\\\"؟\"}, {\"language\": \"de\", \"prompt\": \"Können Sie meine Steuererklärungsformulare mit den Steuerdokumenten im Ordner „2025 tax returns“ ausfüllen?\"}, {\"language\": \"pt\", \"prompt\": \"Você pode preencher meus formulários de declaração de imposto de renda usando os documentos fiscais na pasta \\\"2025 tax returns\\\"?\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.01728211167038128
+    }
+  ],
+  "create_time": "2026-09-13T22:15:54.110479Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "miCnao_fBq3RqMgP54i9yQw",
+  "usage_metadata": {
+    "candidates_token_count": 279,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 279
+      }
+    ],
+    "prompt_token_count": 324,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 324
+      }
+    ],
+    "total_token_count": 603,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

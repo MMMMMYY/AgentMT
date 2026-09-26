@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:46:10 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their sequence. The introductory context is preserved. The 'Could you' phrasing is a polite way to ask for the same actions.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their sequence. The introductory context is preserved. The 'Is it possible to' phrasing is a polite way to ask for the same actions.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their sequence. The introductory context is preserved. The 'Can you please' phrasing is a polite way to ask for the same actions.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their sequence. The introductory context is preserved. The 'Please help me' phrasing is a polite way to ask for the same actions.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their sequence. The introductory context is preserved. The 'please' at the end makes it a polite request for the same actions.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their sequence. The introductory context is preserved. The 'Can you' phrasing is a neutral way to ask for the same actions.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their sequence. The introductory context is preserved. The 'Are you able to' phrasing is a neutral way to ask for the same actions.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their sequence. The introductory context is preserved. The 'Can you help me' phrasing is a neutral way to ask for the same actions.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their sequence. The introductory context is preserved. The 'Please' at the beginning makes it a neutral request for the same actions.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their sequence. The introductory context is preserved. The imperative phrasing is a neutral way to ask for the same actions.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their sequence. The introductory context is preserved. 'Just' before the imperative makes it an impolite request for the same actions.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their sequence. The introductory context is preserved. The addition of 'Do it.' at the end makes it an impolite command for the same actions.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their sequence. The introductory context is preserved. 'This time' implies a previous interaction and an impolite expectation for the actions.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt changes the request from an action to an assertion of what the AI 'needs to do'. This is an explanation/ability question, not a direct request for execution. It implies a command rather than a request.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt changes the request from an action to a rhetorical question ('Why can't you...'). This is an explanation/ability question, not a direct request for execution. It implies a challenge rather than a request.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.050622882974760766
+    }
+  ],
+  "create_time": "2026-09-08T10:46:04.723709Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "bOefav2VLOmGqMgPzKO3uA8",
+  "usage_metadata": {
+    "candidates_token_count": 1303,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1303
+      }
+    ],
+    "prompt_token_count": 3486,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 3486
+      }
+    ],
+    "total_token_count": 4789,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

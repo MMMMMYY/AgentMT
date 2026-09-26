@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:45:40 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"I'm looking for education statistics in Indonesia.\",\n  \"task\": \"show me the number of schools in province with ID '020000', then show me the number of schools in the district with the highest total number of schools in that province, which should be district ID '020500', and finally list all the schools in sub-district '056010' within that district\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.01242388498903525
+    }
+  ],
+  "create_time": "2026-09-08T10:45:39.244759Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "U-efapf4Do2wi-8PkKu_8QY",
+  "usage_metadata": {
+    "candidates_token_count": 99,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 99
+      }
+    ],
+    "prompt_token_count": 283,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 283
+      }
+    ],
+    "total_token_count": 382,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:32:40 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"translations\": [\n    {\n      \"language\": \"zh\",\n      \"prompt\": \"设置一个本地服务，使用 Hugging Face transformer 模型运行推理。\\n\\n1. 从 Hugging Face 下载 ⟦0⟧ 情感分析模型并保存到本地目录 '⟦1⟧'。\\n2. 创建一个小的 Flask API，在 ⟦2⟧ 暴露一个端点，接受格式为 {⟦3⟧: ⟦4⟧} 的 JSON 数据的 POST 请求。\\n3. API 应以 JSON 格式返回情感分析结果（积极/消极）和置信度分数。\\n4. 服务应在端口 5000 上运行，并可从任何主机 (0.0.0.0) 访问。\\n5. 在后台运行服务。\\n\\n您可以随意安装/使用任何 Python 包，只要它们是系统范围安装的。\\n\\nAPI 架构：\\n- 端点：POST ⟦5⟧\\n- 请求正文 (JSON)：\\n  {\\n    ⟦6⟧: string  ⟦7⟧ 要分析情感的文本\\n  }\\n- 响应正文 (JSON)：\\n  {\\n    ⟦8⟧: string,  ⟦9⟧ ⟦10⟧ 或 ⟦11⟧\\n    ⟦12⟧: {\\n      ⟦13⟧: float,  ⟦14⟧ 积极情感的置信度分数 (0-1)\\n      ⟦15⟧: float   ⟦16⟧ 消极情感的置信度分数 (0-1)\\n    }\\n  }\\n- 错误响应 (JSON)：\\n  {\\n    ⟦17⟧: string  ⟦18⟧ 描述错误原因的错误消息。应返回 400 状态码。\\n  }\\n\"\n    },\n    {\n      \"language\": \"ru\",\n      \"prompt\": \"Настройте локальный сервис для выполнения вывода с помощью модели-трансформера Hugging Face.\\n\\n1. Загрузите модель анализа настроений ⟦0⟧ из Hugging Face и сохраните в локальный каталог '⟦1⟧'.\\n2. Создайте небольшой Flask API, который предоставляет конечную точку по адресу ⟦2⟧, принимающую POST-запросы с данными JSON в формате {⟦3⟧: ⟦4⟧}.\\n3. API должен возвращать результаты анализа настроений (положительные/отрицательные) с оценками достоверности в формате JSON.\\n4. Сервис должен работать на порту 5000 и быть доступным с любого хоста (0.0.0.0).\\n5. Запустите сервис в фоновом режиме.\\n\\nВы можете устанавливать/использовать любые пакеты Python, если они установлены системно.\\n\\nСхема API:\\n- Конечная точка: POST ⟦5⟧\\n- Тело запроса (JSON):\\n  {\\n    ⟦6⟧: string  ⟦7⟧ Текст для анализа настроений\\n  }\\n- Тело ответа (JSON):\\n  {\\n    ⟦8⟧: string,  ⟦9⟧ Либо ⟦10⟧, либо ⟦11⟧\\n    ⟦12⟧: {\\n      ⟦13⟧: float,  ⟦14⟧ Оценка достоверности для положительного настроения (0-1)\\n      ⟦15⟧: float   ⟦16⟧ Оценка достоверности для отрицательного настроения (0-1)\\n    }\\n  }\\n- Ответ об ошибке (JSON):\\n  {\\n    ⟦17⟧: string  ⟦18⟧ Сообщение об ошибке, описывающее, что пошло не так. Должен возвращать код состояния 400.\\n  }\\n\"\n    },\n    {\n      \"language\": \"fr\",\n      \"prompt\": \"Mettez en place un service local pour exécuter l'inférence avec un modèle de transformateur Hugging Face.\\n\\n1. Téléchargez le modèle d'analyse de sentiment ⟦0⟧ depuis Hugging Face et enregistrez-le dans le répertoire local '⟦1⟧'.\\n2. Créez une petite API Flask qui expose un point de terminaison à ⟦2⟧ qui accepte les requêtes POST avec des données JSON au format {⟦3⟧: ⟦4⟧}.\\n3. L'API doit renvoyer les résultats de l'analyse de sentiment (positif/négatif) avec les scores de confiance au format JSON.\\n4. Le service doit s'exécuter sur le port 5000 et être accessible depuis n'importe quel hôte (0.0.0.0).\\n5. Exécutez le service en arrière-plan.\\n\\nVous êtes libre d'installer/utiliser n'importe quel paquet Python tant qu'ils sont installés à l'échelle du système.\\n\\nSchéma de l'API :\\n- Point de terminaison : POST ⟦5⟧\\n- Corps de la requête (JSON) :\\n  {\\n    ⟦6⟧: string  ⟦7⟧ Le texte à analyser pour le sentiment\\n  }\\n- Corps de la réponse (JSON) :\\n  {\\n    ⟦8⟧: string,  ⟦9⟧ Soit ⟦10⟧ soit ⟦11⟧\\n    ⟦12⟧: {\\n      ⟦13⟧: float,  ⟦14⟧ Score de confiance pour un sentiment positif (0-1)\\n      ⟦15⟧: float   ⟦16⟧ Score de confiance pour un sentiment négatif (0-1)\\n    }\\n  }\\n- Réponse d'erreur (JSON) :\\n  {\\n    ⟦17⟧: string  ⟦18⟧ Message d'erreur décrivant ce qui n'a pas fonctionné. Doit renvoyer un code d'état 400.\\n  }\\n\"\n    },\n    {\n      \"language\": \"es\",\n      \"prompt\": \"Configure un servicio local para ejecutar inferencia con un modelo transformador de Hugging Face.\\n\\n1. Descargue el modelo de análisis de sentimientos ⟦0⟧ de Hugging Face y guárdelo en el directorio local '⟦1⟧'.\\n2. Cree una pequeña API Flask que exponga un punto final en ⟦2⟧ que acepte solicitudes POST con datos JSON en el formato {⟦3⟧: ⟦4⟧}.\\n3. La API debe devolver los resultados del análisis de sentimientos (positivo/negativo) con puntuaciones de confianza como JSON.\\n4. El servicio debe ejecutarse en el puerto 5000 y ser accesible desde cualquier host (0.0.0.0).\\n5. Ejecute el servicio en segundo plano.\\n\\nPuede instalar/usar cualquier paquete de Python siempre que estén instalados en todo el sistema.\\n\\nEsquema de la API:\\n- Punto final: POST ⟦5⟧\\n- Cuerpo de la solicitud (JSON):\\n  {\\n    ⟦6⟧: string  ⟦7⟧ El texto a analizar para el sentimiento\\n  }\\n- Cuerpo de la respuesta (JSON):\\n  {\\n    ⟦8⟧: string,  ⟦9⟧ O ⟦10⟧ o ⟦11⟧\\n    ⟦12⟧: {\\n      ⟦13⟧: float,  ⟦14⟧ Puntuación de confianza para el sentimiento positivo (0-1)\\n      ⟦15⟧: float   ⟦16⟧ Puntuación de confianza para el sentimiento negativo (0-1)\\n    }\\n  }\\n- Respuesta de error (JSON):\\n  {\\n    ⟦17⟧: string  ⟦18⟧ Mensaje de error que describe lo que salió mal. Debe devolver un código de estado 400.\\n  }\\n\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-23T08:32:31.372613Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "n46zaoXfFtvWqMgP8rux6AE",
+  "usage_metadata": {
+    "candidates_token_count": 1728,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1728
+      }
+    ],
+    "prompt_token_count": 540,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 540
+      }
+    ],
+    "total_token_count": 2268,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

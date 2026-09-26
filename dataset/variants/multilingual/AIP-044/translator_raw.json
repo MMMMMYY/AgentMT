@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:17 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"我正在公路旅行！你能在我附近找个加油站吗？\"}, {\"language\": \"ru\", \"prompt\": \"Я в поездке! Можете найти заправку рядом со мной?\"}, {\"language\": \"fr\", \"prompt\": \"Je suis en road trip ! Pouvez-vous trouver une station-service près de moi ?\"}, {\"language\": \"es\", \"prompt\": \"¡Estoy de viaje por carretera! ¿Puedes encontrar una gasolinera cerca de mí?\"}, {\"language\": \"ar\", \"prompt\": \"أنا في رحلة برية! هل يمكنك العثور على محطة وقود بالقرب مني؟\"}, {\"language\": \"de\", \"prompt\": \"Ich mache einen Roadtrip! Kannst du eine Tankstelle in meiner Nähe finden?\"}, {\"language\": \"pt\", \"prompt\": \"Estou em uma viagem de carro! Você pode encontrar um posto de gasolina perto de mim?\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.025690062373292213
+    }
+  ],
+  "create_time": "2026-09-13T22:16:15.779713Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "ryCnasHLL8-pr8kPwNDvwA4",
+  "usage_metadata": {
+    "candidates_token_count": 204,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 204
+      }
+    ],
+    "prompt_token_count": 312,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 312
+      }
+    ],
+    "total_token_count": 516,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

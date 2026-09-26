@@ -1,0 +1,4 @@
+{
+  "context": "I'm pulling together a quick music brief.",
+  "task": "search Shazam term 'kiss the rain', locale en-US, limit 5, download Spotify lyrics for https://soundcloud.com/yiruma-official/kiss-the-rain, get childrens songs by composer 'yiruma', get Catalog Albums for week 2023-10-14, search YouTube Music with query 'Kiss the Rain piano', lang en, limit 20, get Spotify Top 200 (global) period weekly, and get K-POP Idols for 'IU' by Stage Name"
+}

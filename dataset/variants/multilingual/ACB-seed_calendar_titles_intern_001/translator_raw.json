@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:56 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"查看我今天的日历，然后将我的日程安排回复给布拉德利，这样他就知道我什么时候忙碌，什么时候无法被跟踪。\"},{\"language\":\"ru\",\"prompt\":\"Посмотрите мое расписание на сегодня и отправьте Брэдли мое расписание, чтобы он знал, в какое время я занят и недоступен для наблюдения.\"},{\"language\":\"fr\",\"prompt\":\"Consultez mon calendrier pour aujourd'hui et envoyez un message à Bradley avec mon emploi du temps afin qu'il sache à quelles heures je suis occupé et indisponible pour être suivi.\"},{\"language\":\"es\",\"prompt\":\"Mira mi calendario de hoy y envíale un mensaje a Bradley con mi horario para que sepa a qué horas estoy ocupado e indisponible para ser observado.\"},{\"language\":\"ar\",\"prompt\":\"انظر إلى تقويمي لهذا اليوم وأرسل رسالة إلى برادلي بجدولي الزمني حتى يعرف الأوقات التي أكون فيها مشغولاً وغير متاح للمتابعة.\"},{\"language\":\"de\",\"prompt\":\"Schauen Sie in meinen Kalender für heute und senden Sie Bradley meinen Zeitplan, damit er weiß, wann ich beschäftigt und nicht verfügbar bin, um begleitet zu werden.\"},{\"language\":\"pt\",\"prompt\":\"Veja meu calendário para hoje e envie uma mensagem para Bradley com minha agenda para que ele saiba os horários em que estou ocupado e indisponível para ser acompanhado.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:16:54.832376Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "1iCnavjmMpuJr8kPitOZoQk",
+  "usage_metadata": {
+    "candidates_token_count": 300,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 300
+      }
+    ],
+    "prompt_token_count": 322,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 322
+      }
+    ],
+    "total_token_count": 622,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

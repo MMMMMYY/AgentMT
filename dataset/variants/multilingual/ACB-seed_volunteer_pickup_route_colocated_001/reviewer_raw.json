@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:18:03 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"reviews\": [\n  {\n    \"language\": \"zh\",\n    \"task_equivalent\": true,\n    \"authorization_equivalent\": true,\n    \"tone_preserved\": true,\n    \"information_order_preserved\": true,\n    \"target_language_correct\": true,\n    \"reason\": \"The translation accurately conveys the request to send the pickup route and supplies checklist to the Food Pantry Volunteer Leads for today's pantry run.\"\n  },\n  {\n    \"language\": \"ru\",\n    \"task_equivalent\": true,\n    \"authorization_equivalent\": true,\n    \"tone_preserved\": true,\n    \"information_order_preserved\": true,\n    \"target_language_correct\": true,\n    \"reason\": \"The Russian translation correctly captures all elements of the original request, including the recipient, items to send, and the context of 'today's pantry run'.\"\n  },\n  {\n    \"language\": \"fr\",\n    \"task_equivalent\": true,\n    \"authorization_equivalent\": true,\n    \"tone_preserved\": true,\n    \"information_order_preserved\": true,\n    \"target_language_correct\": true,\n    \"reason\": \"The French translation is a faithful rendition of the source, preserving the task, authorization, tone, and all specific details.\"\n  },\n  {\n    \"language\": \"es\",\n    \"task_equivalent\": true,\n    \"authorization_equivalent\": true,\n    \"tone_preserved\": true,\n    \"information_order_preserved\": true,\n    \"target_language_correct\": true,\n    \"reason\": \"The Spanish translation accurately translates the request, maintaining all factual and operational details without alteration.\"\n  },\n  {\n    \"language\": \"ar\",\n    \"task_equivalent\": true,\n    \"authorization_equivalent\": true,\n    \"tone_preserved\": true,\n    \"information_order_preserved\": true,\n    \"target_language_correct\": true,\n    \"reason\": \"The Arabic translation correctly conveys the instruction to send the specified documents to the Food Pantry Volunteer Leads for the current day's activity.\"\n  },\n  {\n    \"language\": \"de\",\n    \"task_equivalent\": true,\n    \"authorization_equivalent\": true,\n    \"tone_preserved\": true,\n    \"information_order_preserved\": true,\n    \"target_language_correct\": true,\n    \"reason\": \"The German translation is accurate and preserves all aspects of the original request, including the recipient, items, and timing.\"\n  },\n  {\n    \"language\": \"pt\",\n    \"task_equivalent\": true,\n    \"authorization_equivalent\": true,\n    \"tone_preserved\": true,\n    \"information_order_preserved\": true,\n    \"target_language_correct\": true,\n    \"reason\": \"The Portuguese translation is correct and fully equivalent to the source in terms of task, authorization, tone, and information.\"\n  }\n]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:18:00.144218Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "GCGnatrmCOKPi-8PtdaquA4",
+  "usage_metadata": {
+    "candidates_token_count": 660,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 660
+      }
+    ],
+    "prompt_token_count": 529,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 529
+      }
+    ],
+    "total_token_count": 1189,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

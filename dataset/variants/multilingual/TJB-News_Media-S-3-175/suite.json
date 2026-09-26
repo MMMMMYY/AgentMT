@@ -1,0 +1,162 @@
+{
+  "task_id": "TJB-News_Media-S-3-175",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "I need to find trending developer articles right now. After getting the latest articles, show me the top 10 latest stories about GraphQL since it seems to be appearing in multiple article titles. Then search for English language news coverage about GraphQL to see what mainstream media is saying about this technology.",
+  "source_sha256": "8ac4676962d7a809463f792151f0a813c4f2f0c67aefbc486160913128e78cde",
+  "status": "reviewed",
+  "variants": [
+    {
+      "language": "zh",
+      "prompt": "我需要立即找到热门的开发者文章。在获取最新文章后，向我展示关于 GraphQL 的最新 10 篇报道，因为它似乎出现在多个文章标题中。然后搜索关于 GraphQL 的英文新闻报道，看看主流媒体对这项技术有何评价。",
+      "id": "lang_zh",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "zh",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all tasks, authorizations, and information in the correct order and tone."
+      }
+    },
+    {
+      "language": "ru",
+      "prompt": "Мне нужно найти трендовые статьи для разработчиков прямо сейчас. После получения последних статей покажите мне 10 последних историй о GraphQL, так как он, кажется, появляется в нескольких заголовках статей. Затем найдите англоязычные новости о GraphQL, чтобы узнать, что говорят основные СМИ об этой технологии.",
+      "id": "lang_ru",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ru",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation perfectly matches the source in terms of tasks, authorizations, tone, and information order."
+      }
+    },
+    {
+      "language": "fr",
+      "prompt": "Je dois trouver les articles de développeurs tendance en ce moment. Après avoir obtenu les derniers articles, montrez-moi les 10 dernières histoires sur GraphQL, car il semble apparaître dans plusieurs titres d'articles. Ensuite, recherchez la couverture médiatique en anglais sur GraphQL pour voir ce que les médias grand public disent de cette technologie.",
+      "id": "lang_fr",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "fr",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The French translation is a precise equivalent of the source request, maintaining all conditions and nuances."
+      }
+    },
+    {
+      "language": "es",
+      "prompt": "Necesito encontrar artículos de desarrolladores de moda ahora mismo. Después de obtener los últimos artículos, muéstrame las 10 últimas historias sobre GraphQL, ya que parece estar apareciendo en varios títulos de artículos. Luego busca cobertura de noticias en inglés sobre GraphQL para ver qué dicen los medios de comunicación principales sobre esta tecnología.",
+      "id": "lang_es",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "es",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The Spanish translation is accurate and preserves all aspects of the original request, including task, authorization, tone, and order."
+      }
+    },
+    {
+      "language": "ar",
+      "prompt": "أحتاج إلى العثور على مقالات المطورين الشائعة الآن. بعد الحصول على أحدث المقالات، أظهر لي أحدث 10 قصص حول GraphQL لأنه يبدو أنه يظهر في عناوين مقالات متعددة. ثم ابحث عن تغطية إخبارية باللغة الإنجليزية حول GraphQL لمعرفة ما تقوله وسائل الإعلام الرئيسية عن هذه التقنية.",
+      "id": "lang_ar",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ar",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The Arabic translation is a faithful rendition of the source, preserving all instructions, tone, and sequence."
+      }
+    },
+    {
+      "language": "de",
+      "prompt": "Ich muss jetzt angesagte Entwicklerartikel finden. Nachdem ich die neuesten Artikel erhalten habe, zeigen Sie mir die Top 10 der neuesten Geschichten über GraphQL, da es in mehreren Artikeltiteln aufzutauchen scheint. Suchen Sie dann nach englischsprachiger Nachrichtenberichterstattung über GraphQL, um zu sehen, was die Mainstream-Medien über diese Technologie sagen.",
+      "id": "lang_de",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "de",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The German translation is accurate, maintaining all task requirements, authorizations, tone, and the order of information."
+      }
+    },
+    {
+      "language": "pt",
+      "prompt": "Preciso encontrar artigos de desenvolvedores em alta agora. Depois de obter os artigos mais recentes, mostre-me as 10 últimas histórias sobre GraphQL, já que parece estar aparecendo em vários títulos de artigos. Em seguida, procure por cobertura de notícias em inglês sobre GraphQL para ver o que a mídia mainstream está dizendo sobre esta tecnologia.",
+      "id": "lang_pt",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "pt",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The Portuguese translation is an exact match to the source, preserving all tasks, authorizations, tone, and information order."
+      }
+    }
+  ],
+  "english_source": {
+    "language": "en",
+    "prompt": "I need to find trending developer articles right now. After getting the latest articles, show me the top 10 latest stories about GraphQL since it seems to be appearing in multiple article titles. Then search for English language news coverage about GraphQL to see what mainstream media is saying about this technology.",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation"
+}

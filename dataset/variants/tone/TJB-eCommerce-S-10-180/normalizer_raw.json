@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:47:32 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"I'm looking at a Wayfair dresser with SKU W003078383. I'm also interested in financing options for professional assembly service W010630670. I want to compare this with similar iPhones at BestBuy, specifically looking for the highest-rated iPhone model (MQ623LL/A) on Amazon Germany. I want to search for this same model on Zappos.\",\n  \"task\": \"see all available product information and images for Wayfair dresser with SKU W003078383, then after checking the reviews for this product, know about its warranty options and any home services Wayfair offers for it, then show me detailed information about product 9098084 on Zappos\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.04349343981061663
+    }
+  ],
+  "create_time": "2026-09-08T10:47:30.606275Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "wuefasOAJdfGqMgPu_izuAQ",
+  "usage_metadata": {
+    "candidates_token_count": 175,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 175
+      }
+    ],
+    "prompt_token_count": 338,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 338
+      }
+    ],
+    "total_token_count": 513,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

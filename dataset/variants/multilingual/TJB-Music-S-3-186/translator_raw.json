@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:37:11 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"我是 Blackpink 的忠实粉丝，想根据她们的音乐创建一个个性化的广播电台。你能先查找这个韩国流行女团的信息，然后在 Spotify 上搜索她们的官方资料，最后根据她们的歌曲生成一个广播播放列表吗？\"}, {\"language\": \"ru\", \"prompt\": \"Я большой поклонник Blackpink и хочу создать персонализированную радиостанцию на основе их музыки. Можете ли вы сначала найти информацию об этой K-POP гёрл-группе, затем найти их официальный профиль на Spotify и, наконец, сгенерировать радио плейлист на основе их песен?\"}, {\"language\": \"fr\", \"prompt\": \"Je suis un grand fan de Blackpink et je veux créer une station de radio personnalisée basée sur leur musique. Pouvez-vous d'abord trouver des informations sur ce groupe de filles K-POP, puis rechercher leur profil officiel sur Spotify, et enfin générer une playlist radio basée sur leurs chansons ?\"}, {\"language\": \"es\", \"prompt\": \"Soy un gran fan de Blackpink y quiero crear una estación de radio personalizada basada en su música. ¿Puedes primero encontrar información sobre este grupo de chicas de K-POP, luego buscar su perfil oficial en Spotify y finalmente generar una lista de reproducción de radio basada en sus canciones?\"}, {\"language\": \"ar\", \"prompt\": \"أنا من أشد المعجبين بـ Blackpink وأرغب في إنشاء محطة إذاعية مخصصة بناءً على موسيقاهم. هل يمكنك أولاً العثور على معلومات حول فرقة فتيات الكيبوب هذه، ثم البحث عن ملفهم الشخصي الرسمي على Spotify، وأخيراً إنشاء قائمة تشغيل إذاعية بناءً على أغانيهم؟\"}, {\"language\": \"de\", \"prompt\": \"Ich bin ein großer Fan von Blackpink und möchte einen personalisierten Radiosender basierend auf ihrer Musik erstellen. Können Sie zuerst Informationen über diese K-POP-Girlgroup finden, dann ihr offizielles Profil auf Spotify suchen und schließlich eine Radio-Playlist basierend auf ihren Songs generieren?\"}, {\"language\": \"pt\", \"prompt\": \"Sou um grande fã de Blackpink e quero criar uma estação de rádio personalizada com base na música delas. Você pode primeiro encontrar informações sobre este grupo feminino de K-POP, depois procurar o perfil oficial delas no Spotify e, finalmente, gerar uma playlist de rádio com base nas músicas delas?\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.02434331502101218
+    }
+  ],
+  "create_time": "2026-09-13T22:37:07.466638Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "kyWnas69HIDVwLUPxdPvqAo",
+  "usage_metadata": {
+    "candidates_token_count": 516,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 516
+      }
+    ],
+    "prompt_token_count": 350,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 350
+      }
+    ],
+    "total_token_count": 866,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

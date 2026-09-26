@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Wed, 23 Sep 2026 08:32:08 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"language\": \"zh\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The translation accurately conveys all aspects of the original instruction, including the task, constraints, and additional information. The tone and order of information are preserved, and the target language is correct.\"\n    },\n    {\n      \"language\": \"ru\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The translation is accurate and preserves all the nuances of the original instruction. The task, authorization, tone, and information order are correctly maintained. The Russian is grammatically sound.\"\n    },\n    {\n      \"language\": \"fr\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The French translation is precise and captures all the details of the source. The task, authorization, tone, and information order are all correctly translated. The French grammar and phrasing are natural.\"\n    },\n    {\n      \"language\": \"es\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"tone_preserved\": true,\n      \"information_order_preserved\": true,\n      \"target_language_correct\": true,\n      \"reason\": \"The Spanish translation is faithful to the original instruction, conveying all the necessary information, constraints, and tone. The order of information is preserved, and the Spanish is correct and natural.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.10897212215714311
+    }
+  ],
+  "create_time": "2026-09-23T08:32:06.408424Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "ho6zauj2GPPa89kPi8HDsQ0",
+  "usage_metadata": {
+    "candidates_token_count": 433,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 433
+      }
+    ],
+    "prompt_token_count": 1045,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1045
+      }
+    ],
+    "total_token_count": 1478,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

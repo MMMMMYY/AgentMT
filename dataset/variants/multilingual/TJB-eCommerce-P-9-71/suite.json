@@ -1,0 +1,164 @@
+{
+  "task_id": "TJB-eCommerce-P-9-71",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "I'm comparing retailers and want a clear snapshot. Please list Asos categories country US, lang en-US, and list Wayfair reviews for SKU W004939121 sort HELPFUL, and show Amazon details ASIN B07GR5MSKD domain us, and search Zappos for 'crocs shoes' sort best_seller page 1, and fetch product info, and fetch product info, and get Wayfair financing for SKU W003078383, and fetch product info, and get similar items on Wayfair for SKU W003078383.",
+  "source_sha256": "0a0f9560b48f1ced54b1c605021b9d09dd62ee4a9d69b0cce834e6f3a8d6380d",
+  "status": "reviewed",
+  "variants": [
+    {
+      "language": "zh",
+      "prompt": "我正在比较零售商，想要一个清晰的快照。请列出Asos类别，国家US，语言en-US，并列出Wayfair SKU W004939121的评论，按HELPFUL排序，并显示Amazon ASIN B07GR5MSKD域us的详细信息，并搜索Zappos的“crocs shoes”，按best_seller排序，第1页，并获取产品信息，并获取产品信息，并获取Wayfair SKU W003078383的融资信息，并获取产品信息，并获取Wayfair SKU W003078383的类似商品。",
+      "id": "lang_zh",
+      "literal_check": {
+        "passed": false,
+        "missing_strings": [],
+        "missing_numeric_tokens": [
+          "1"
+        ],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": false,
+      "review": {
+        "language": "zh",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all the tasks and details from the source. The tone and order of information are preserved."
+      }
+    },
+    {
+      "language": "ru",
+      "prompt": "Я сравниваю розничных продавцов и хочу получить четкий снимок. Пожалуйста, перечислите категории Asos для страны US, язык en-US, и перечислите отзывы Wayfair для SKU W004939121, отсортированные по HELPFUL, и покажите детали Amazon для ASIN B07GR5MSKD домен us, и найдите на Zappos 'crocs shoes', отсортированные по best_seller, страница 1, и получите информацию о продукте, и получите информацию о продукте, и получите финансирование Wayfair для SKU W003078383, и получите информацию о продукте, и получите похожие товары на Wayfair для SKU W003078383.",
+      "id": "lang_ru",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ru",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation is accurate and preserves all the original instructions, details, and tone."
+      }
+    },
+    {
+      "language": "fr",
+      "prompt": "Je compare les détaillants et je veux un aperçu clair. Veuillez lister les catégories Asos pays US, langue en-US, et lister les avis Wayfair pour le SKU W004939121 triés par HELPFUL, et afficher les détails Amazon ASIN B07GR5MSKD domaine us, et rechercher sur Zappos 'crocs shoes' triés par best_seller page 1, et récupérer les informations produit, et récupérer les informations produit, et obtenir le financement Wayfair pour le SKU W003078383, et récupérer les informations produit, et obtenir des articles similaires sur Wayfair pour le SKU W003078383.",
+      "id": "lang_fr",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "fr",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation correctly captures all the tasks, parameters, and the overall tone of the source request."
+      }
+    },
+    {
+      "language": "es",
+      "prompt": "Estoy comparando minoristas y quiero una instantánea clara. Por favor, enumere las categorías de Asos país US, idioma en-US, y enumere las reseñas de Wayfair para el SKU W004939121 ordenadas por HELPFUL, y muestre los detalles de Amazon ASIN B07GR5MSKD dominio us, y busque en Zappos 'crocs shoes' ordenado por best_seller página 1, y obtenga información del producto, y obtenga información del producto, y obtenga financiación de Wayfair para el SKU W003078383, y obtenga información del producto, y obtenga artículos similares en Wayfair para el SKU W003078383.",
+      "id": "lang_es",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "es",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "All instructions, details, and the polite tone are accurately translated and preserved."
+      }
+    },
+    {
+      "language": "ar",
+      "prompt": "أنا أقارن تجار التجزئة وأريد لقطة واضحة. يرجى سرد فئات Asos البلد US، اللغة en-US، وسرد مراجعات Wayfair للمنتج SKU W004939121 مرتبة حسب HELPFUL، وإظهار تفاصيل Amazon ASIN B07GR5MSKD النطاق us، والبحث في Zappos عن 'crocs shoes' مرتبة حسب best_seller الصفحة 1، وجلب معلومات المنتج، وجلب معلومات المنتج، والحصول على تمويل Wayfair للمنتج SKU W003078383، وجلب معلومات المنتج، والحصول على عناصر مماثلة على Wayfair للمنتج SKU W003078383.",
+      "id": "lang_ar",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ar",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation is faithful to the source, maintaining all task requirements, details, and the original tone."
+      }
+    },
+    {
+      "language": "de",
+      "prompt": "Ich vergleiche Einzelhändler und möchte eine klare Momentaufnahme. Bitte listen Sie Asos-Kategorien Land US, Sprache en-US auf, und listen Sie Wayfair-Bewertungen für SKU W004939121 sortiert nach HELPFUL auf, und zeigen Sie Amazon-Details ASIN B07GR5MSKD Domain us an, und suchen Sie bei Zappos nach 'crocs shoes' sortiert nach best_seller Seite 1, und rufen Sie Produktinformationen ab, und rufen Sie Produktinformationen ab, und erhalten Sie Wayfair-Finanzierung für SKU W003078383, und rufen Sie Produktinformationen ab, und erhalten Sie ähnliche Artikel bei Wayfair für SKU W003078383.",
+      "id": "lang_de",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "de",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The German translation is precise, retaining all the specified tasks, parameters, and the polite request tone."
+      }
+    },
+    {
+      "language": "pt",
+      "prompt": "Estou comparando varejistas e quero um panorama claro. Por favor, liste as categorias Asos país US, idioma en-US, e liste as avaliações da Wayfair para o SKU W004939121 ordenadas por HELPFUL, e mostre os detalhes da Amazon ASIN B07GR5MSKD domínio us, e pesquise na Zappos por 'crocs shoes' ordenado por best_seller página 1, e busque informações do produto, e busque informações do produto, e obtenha financiamento da Wayfair para o SKU W003078383, e busque informações do produto, e obtenha itens semelhantes na Wayfair para o SKU W003078383.",
+      "id": "lang_pt",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "pt",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately reflects all the tasks, details, and the polite tone of the original request."
+      }
+    }
+  ],
+  "english_source": {
+    "language": "en",
+    "prompt": "I'm comparing retailers and want a clear snapshot. Please list Asos categories country US, lang en-US, and list Wayfair reviews for SKU W004939121 sort HELPFUL, and show Amazon details ASIN B07GR5MSKD domain us, and search Zappos for 'crocs shoes' sort best_seller page 1, and fetch product info, and fetch product info, and get Wayfair financing for SKU W003078383, and fetch product info, and get similar items on Wayfair for SKU W003078383.",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation"
+}

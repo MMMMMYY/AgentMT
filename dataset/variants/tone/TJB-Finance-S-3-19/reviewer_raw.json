@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:46:09 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt maintains all original requests and their order, using 'Could you' which is a polite way to ask for execution.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt changes the request to an ability question ('Is it possible to show me...'), which asks about the system's capability rather than directly requesting execution. This implies a previous conversation or a need for confirmation before execution.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt changes the request to an ability question ('Can you please show me...'), which asks about the system's capability rather than directly requesting execution. This implies a previous conversation or a need for confirmation before execution.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Please help me show me...', which is grammatically awkward and implies the user wants assistance in performing the action themselves, rather than the system performing it directly. It's an indirect request for execution.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses a direct imperative with 'please' at the end, which is a polite request for execution and maintains all original tasks and their order.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt changes the request to an ability question ('Can you show me...'), which asks about the system's capability rather than directly requesting execution. This implies a previous conversation or a need for confirmation before execution.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt changes the request to an ability question ('Are you able to show me...'), which asks about the system's capability rather than directly requesting execution. This implies a previous conversation or a need for confirmation before execution.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Can you help me show me...', which is grammatically awkward and implies the user wants assistance in performing the action themselves, rather than the system performing it directly. It's an indirect request for execution.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Please show me...', which is a direct and polite request for execution, maintaining all original tasks and their order.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses a direct imperative 'Show me...', which is a clear request for execution and maintains all original tasks and their order.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'Just show me...', which is an impolite but direct request for execution, maintaining all original tasks and their order.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses a direct imperative 'Show me...' followed by 'Do it.', which is an impolite but clear request for execution, maintaining all original tasks and their order.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'This time, show me...', which implies a previous interaction or failed attempt, but still directly requests the execution of the tasks in the original order.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt uses 'You need to show me...', which is an impolite but direct command for execution, maintaining all original tasks and their order.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt changes the request to a rhetorical question ('Why can't you show me...?'), which expresses frustration or doubt about the system's ability or willingness, rather than directly requesting execution. This implies a previous conversation or a challenge to the system.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.055165601046580186
+    }
+  ],
+  "create_time": "2026-09-08T10:46:03.607139Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "a-efaqOHJaXY1t8Pub_T4A8",
+  "usage_metadata": {
+    "candidates_token_count": 1325,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1325
+      }
+    ],
+    "prompt_token_count": 1664,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1664
+      }
+    ],
+    "total_token_count": 2989,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

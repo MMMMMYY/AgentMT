@@ -1,0 +1,16 @@
+{
+  "task_id": "TJB-Travel-S-7-90",
+  "scenario_id": null,
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "io01",
+      "prompt": "Could you first show me a list of countries to browse through? I'm particularly interested in the Netherlands Antilles since I heard it has a distinctive geographical status. After finding information about it, I'd like to see the highest ranked airport in that region. I think Amsterdam's Schiphol Airport (AMS) would be ideal. Then I need to check flights departing from Schiphol (EHAM) on September 1, 2025, around noon. From those flights, I'm interested in KL861 since I want to travel to the easternmost destination possible. Once I know where that flight lands, could you give me information about the arrival airport? Finally, I'd like to search for hotels in Mumbai to stay during my trip. I'm planning a trip and want to explore some unique places.",
+      "transformation": "sentence_permutation",
+      "sentence_multiset_preserved": true,
+      "information_order_changed": true,
+      "eligible_pilot": true,
+      "validation_basis": "deterministic span preservation and dependency exclusion rules"
+    }
+  ]
+}

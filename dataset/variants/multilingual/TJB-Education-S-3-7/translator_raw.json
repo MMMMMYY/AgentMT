@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:18:08 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"我正在寻找印度尼西亚的教育统计数据。你能告诉我ID为“020000”的省份的学校数量吗？然后，我想看看该省学校总数最多的地区的学校数量，该地区的ID应该是“020500”。最后，列出该地区内ID为“056010”的街道的所有学校。\"},{\"language\":\"ru\",\"prompt\":\"Я ищу статистику образования в Индонезии. Можете ли вы показать мне количество школ в провинции с ID '020000'? Затем я хотел бы увидеть количество школ в районе с наибольшим общим количеством школ в этой провинции, который должен быть районом с ID '020500'. Наконец, перечислите все школы в подрайоне '056010' в этом районе.\"},{\"language\":\"fr\",\"prompt\":\"Je recherche des statistiques sur l'éducation en Indonésie. Pouvez-vous me montrer le nombre d'écoles dans la province avec l'ID '020000'? Ensuite, j'aimerais voir le nombre d'écoles dans le district avec le plus grand nombre total d'écoles dans cette province, qui devrait être le district avec l'ID '020500'. Enfin, listez toutes les écoles du sous-district '056010' au sein de ce district.\"},{\"language\":\"es\",\"prompt\":\"Estoy buscando estadísticas de educación en Indonesia. ¿Puedes mostrarme el número de escuelas en la provincia con ID '020000'? Luego, me gustaría ver el número de escuelas en el distrito con el mayor número total de escuelas en esa provincia, que debería ser el distrito con ID '020500'. Finalmente, enumera todas las escuelas en el subdistrito '056010' dentro de ese distrito.\"},{\"language\":\"ar\",\"prompt\":\"أبحث عن إحصائيات التعليم في إندونيسيا. هل يمكنك أن تريني عدد المدارس في المقاطعة التي تحمل المعرف '020000'؟ ثم، أود أن أرى عدد المدارس في المنطقة التي بها أكبر عدد إجمالي من المدارس في تلك المقاطعة، والتي يجب أن تكون المنطقة التي تحمل المعرف '020500'. أخيرًا، اذكر جميع المدارس في المنطقة الفرعية '056010' داخل تلك المنطقة.\"},{\"language\":\"de\",\"prompt\":\"Ich suche Bildungsstatistiken in Indonesien. Können Sie mir die Anzahl der Schulen in der Provinz mit der ID '020000' zeigen? Dann möchte ich die Anzahl der Schulen im Bezirk mit der höchsten Gesamtzahl an Schulen in dieser Provinz sehen, der die Bezirks-ID '020500' haben sollte. Listen Sie schließlich alle Schulen im Unterbezirk '056010' innerhalb dieses Bezirks auf.\"},{\"language\":\"pt\",\"prompt\":\"Estou procurando estatísticas de educação na Indonésia. Você pode me mostrar o número de escolas na província com ID '020000'? Em seguida, gostaria de ver o número de escolas no distrito com o maior número total de escolas nessa província, que deve ser o distrito com ID '020500'. Finalmente, liste todas as escolas no subdistrito '056010' dentro desse distrito.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:18:05.298893Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "HSGnao2fEof_lb4PmLjb4QQ",
+  "usage_metadata": {
+    "candidates_token_count": 734,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 734
+      }
+    ],
+    "prompt_token_count": 408,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 408
+      }
+    ],
+    "total_token_count": 1142,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:44 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"在站会开始前，将可见的移动发布交接说明发布到#mobile-release频道。\"}, {\"language\": \"ru\", \"prompt\": \"Опубликуйте видимые примечания по передаче мобильного релиза в канал #mobile-release до начала стендапа.\"}, {\"language\": \"fr\", \"prompt\": \"Publiez les notes de transfert de la version mobile visible sur le canal #mobile-release avant le début du standup.\"}, {\"language\": \"es\", \"prompt\": \"Publica las notas de entrega de la versión móvil visible en el canal #mobile-release antes de que comience la reunión diaria.\"}, {\"language\": \"ar\", \"prompt\": \"انشر ملاحظات تسليم إصدار الهاتف المحمول المرئية إلى قناة #mobile-release قبل بدء الاجتماع اليومي.\"}, {\"language\": \"de\", \"prompt\": \"Veröffentlichen Sie die sichtbaren Übergabenotizen zur mobilen Version vor Beginn des Standups im Kanal #mobile-release.\"}, {\"language\": \"pt\", \"prompt\": \"Publique as notas de entrega da versão móvel visível no canal #mobile-release antes do início do standup.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.04233250822074682
+    }
+  ],
+  "create_time": "2026-09-13T22:17:43.289115Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "ByGnatvSEa3RqMgP54i9yQw",
+  "usage_metadata": {
+    "candidates_token_count": 257,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 257
+      }
+    ],
+    "prompt_token_count": 315,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 315
+      }
+    ],
+    "total_token_count": 572,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

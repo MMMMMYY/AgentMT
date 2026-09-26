@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-eCommerce-S-3-17",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "eCommerce",
+  "taskType": "Country/Store Discovery → Category Browsing → Search Auto-Complete",
+  "prompt": "I'd like to browse an international shopping site. First, show me the list of supported countries in French. Then, I want to see product categories available in the United Arab Emirates since I heard they offer the most currency options. Finally, I'm looking for swimwear - can you show me auto-complete suggestions for \"bikini top\" in the US store using USD currency?",
+  "scope": "Asos",
+  "trajectoryType": "sequential",
+  "referenceSteps": 3,
+  "positiveOracle": "1. Asos: countries/list | optional: lang=fr-FR\n2. Asos: categories/list | optional: lang=AE,en-GB, country=AE\n3. Asos: v2/auto-complete | required: q=bikini top | optional: store=US, country=US, currency=USD, lang=en-US",
+  "negativeOracle": "",
+  "referenceTrajectory": "Asos: countries/list → Asos: categories/list → Asos: v2/auto-complete",
+  "sourceLocator": "public_data/sequential/eCommerce/traj_query.json | item=17",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/sequential/eCommerce/traj_query.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 20 clean candidates in eCommerce/sequential/3-tool stratum."
+}

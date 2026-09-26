@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:47:15 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"context\": \"\",\n  \"task\": \"get detailed weather information for Manhattan by looking up ZIP code 10001 in the US to find its coordinates and hardiness zone, then doing a reverse lookup for New York at longitude -74.0060 to confirm the location, then searching for \\\"New York\\\" places in English, then, once New York City is identified, getting the daily forecast in English and a detailed weather forecast summary using the exact coordinates (40.71427, -74.00597), then finding weather stations within 75 miles of those coordinates, then getting their metadata, then retrieving climate data history for station 10637, and finally showing the monthly weather data from that station from January 1, 2024 through September 7, 2024 in metric units\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.02586849152095734
+    }
+  ],
+  "create_time": "2026-09-08T10:47:14.301344Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "suefaqCyEoCZ28sPtJDxwQY",
+  "usage_metadata": {
+    "candidates_token_count": 189,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 189
+      }
+    ],
+    "prompt_token_count": 372,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 372
+      }
+    ],
+    "total_token_count": 561,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

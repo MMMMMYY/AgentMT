@@ -1,0 +1,4 @@
+{
+  "context": "I'm looking for education statistics in Indonesia.",
+  "task": "show me the number of schools in province with ID '020000', then show me the number of schools in the district with the highest total number of schools in that province, which should be district ID '020500', and finally list all the schools in sub-district '056010' within that district"
+}

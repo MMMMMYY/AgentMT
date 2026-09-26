@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:37:49 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\":[{\"language\":\"zh\",\"prompt\":\"我需要分析一次航空活动的天气状况。首先找到芝加哥的体育场，然后获取伦敦的坐标，只返回一个结果，并用英文查找距离坐标 -122.42282, 37.81021 最近的地点。之后，以公制单位，根据时区，用英文获取渔人码头每小时预报，然后查看纽约当前天气。接下来，使用纬度 46.95828 和纽约的经度 -74.006 获取每小时预报数据，然后获取渔人码头每分钟降水预报。然后获取坐标 40.73,-73 的英文版带空气质量的3天本地天气报告，最后使用风向 (309) 作为纬度，-73.00 作为经度来确定太阳的当前位置。\"},{\"language\":\"ru\",\"prompt\":\"Мне нужно проанализировать погодные условия для авиационного мероприятия. Сначала найдите стадионы Чикаго, затем получите координаты Лондона с одним результатом, и найдите ближайшее место к координатам -122.42282, 37.81021 на английском языке. После этого получите почасовой прогноз для Рыбацкой пристани в метрических единицах на английском языке на основе часового пояса, затем проверьте текущую погоду в Нью-Йорке. Далее получите данные почасового прогноза, используя широту 46.95828 и долготу Нью-Йорка -74.006, затем поминутный прогноз осадков для Рыбацкой пристани. Затем получите 3-дневный местный прогноз погоды с качеством воздуха для координат 40.73,-73 на английском языке, и, наконец, определите текущее положение солнца, используя направление ветра (309) в качестве широты и -73.00 в качестве долготы.\"},{\"language\":\"fr\",\"prompt\":\"Je dois analyser les conditions météorologiques pour un événement aéronautique. D'abord, trouvez les stades de Chicago, puis obtenez les coordonnées de Londres avec un seul résultat, et trouvez le lieu le plus proche des coordonnées -122.42282, 37.81021 en anglais. Après cela, obtenez les prévisions horaires pour Fisherman's Wharf en unités métriques en anglais basées sur le fuseau horaire, puis vérifiez la météo actuelle à New York. Ensuite, obtenez les données de prévisions horaires en utilisant la latitude 46.95828 et la longitude de New York de -74.006, suivies des prévisions de précipitations minute par minute pour Fisherman's Wharf. Ensuite, obtenez un rapport météorologique local de 3 jours avec la qualité de l'air pour les coordonnées 40.73,-73 en anglais, et enfin déterminez la position actuelle du soleil en utilisant la direction du vent (309) comme latitude et -73.00 comme longitude.\"},{\"language\":\"es\",\"prompt\":\"Necesito analizar las condiciones meteorológicas para un evento de aviación. Primero, encuentre los estadios de Chicago, luego obtenga las coordenadas de Londres con un solo resultado, y encuentre el lugar más cercano a las coordenadas -122.42282, 37.81021 en inglés. Después de eso, obtenga el pronóstico por horas para Fisherman's Wharf en unidades métricas usando inglés basado en la zona horaria, luego verifique el clima actual en Nueva York. A continuación, obtenga los datos del pronóstico por horas usando la latitud 46.95828 y la longitud de Nueva York de -74.006, seguido del pronóstico de precipitación minuto a minuto para Fisherman's Wharf. Luego, obtenga un informe meteorológico local de 3 días con calidad del aire para las coordenadas 40.73,-73 en inglés, y finalmente determine la posición actual del sol usando la dirección del viento (309) como latitud y -73.00 como longitud.\"},{\"language\":\"ar\",\"prompt\":\"أحتاج إلى تحليل الظروف الجوية لحدث طيران. أولاً، ابحث عن ملاعب شيكاغو، ثم احصل على إحداثيات لندن بنتيجة واحدة فقط، وابحث عن أقرب مكان للإحداثيات -122.42282, 37.81021 باللغة الإنجليزية. بعد ذلك، احصل على توقعات ساعة بساعة لـ Fisherman's Wharf بوحدات مترية باستخدام اللغة الإنجليزية بناءً على المنطقة الزمنية، ثم تحقق من الطقس الحالي في نيويورك. بعد ذلك، احصل على بيانات التوقعات ساعة بساعة باستخدام خط العرض 46.95828 وخط الطول لنيويورك -74.006، متبوعًا بتوقعات هطول الأمطار دقيقة بدقيقة لـ Fisherman's Wharf. ثم احصل على تقرير طقس محلي لمدة 3 أيام مع جودة الهواء للإحداثيات 40.73,-73 باللغة الإنجليزية، وأخيرًا حدد الموقع الحالي للشمس باستخدام اتجاه الرياح (309) كخط عرض و -73.00 كخط طول.\"},{\"language\":\"de\",\"prompt\":\"Ich muss die Wetterbedingungen für ein Luftfahrt-Event analysieren. Zuerst finde die Stadien in Chicago, dann erhalte die Koordinaten für London mit nur einem Ergebnis und finde den nächstgelegenen Ort zu den Koordinaten -122.42282, 37.81021 auf Englisch. Danach erhalte die stündliche Vorhersage für Fisherman's Wharf in metrischen Einheiten auf Englisch basierend auf der Zeitzone, dann überprüfe das aktuelle Wetter in New York. Als Nächstes erhalte stündliche Vorhersagedaten unter Verwendung von Breitengrad 46.95828 und New Yorks Längengrad von -74.006, gefolgt von einer minutengenauen Niederschlagsvorhersage für Fisherman's Wharf. Dann erhalte einen 3-Tages-Wetterbericht mit Luftqualität für die Koordinaten 40.73,-73 auf Englisch und bestimme schließlich die aktuelle Position der Sonne unter Verwendung der Windrichtung (309) als Breitengrad und -73.00 als Längengrad.\"},{\"language\":\"pt\",\"prompt\":\"Preciso analisar as condições meteorológicas para um evento de aviação. Primeiro, encontre os estádios de Chicago, depois obtenha as coordenadas de Londres com apenas um resultado, e encontre o local mais próximo das coordenadas -122.42282, 37.81021 em inglês. Depois disso, obtenha a previsão horária para Fisherman's Wharf em unidades métricas usando inglês com base no fuso horário, depois verifique o tempo atual em Nova York. Em seguida, obtenha dados de previsão horária usando a latitude 46.95828 e a longitude de Nova York de -74.006, seguido da previsão de precipitação minuto a minuto para Fisherman's Wharf. Em seguida, obtenha um relatório meteorológico local de 3 dias com qualidade do ar para as coordenadas 40.73,-73 em inglês, e finalmente determine a posição atual do sol usando a direção do vento (309) como latitude e -73.00 como longitude.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:37:42.264695Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "tiWnaveTEN6GufoPvbmhgA8",
+  "usage_metadata": {
+    "candidates_token_count": 1655,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1655
+      }
+    ],
+    "prompt_token_count": 485,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 485
+      }
+    ],
+    "total_token_count": 2140,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

@@ -1,0 +1,17 @@
+{
+  "taskId": "TJB-Music-P-9-152",
+  "dataset": "TRAJECT-Bench",
+  "dimension": "Path consistency",
+  "domain": "Music",
+  "taskType": "parallel tool orchestration",
+  "prompt": "I'm pulling together a quick music brief. Please search Shazam term 'bad guy billie eilish', locale en-US, limit 5, offset 0, get Shazam song details (key 40333609) locale en-US, get Shazam song count (key 40333609), get Billboard chart (Billboard Global 200) for 2020-09-19, get Billboard Japan Hot 100 for 2019-05-11, range 1-20, get Billboard chart (Billboard 200) for 2019-05-11, search Spotify q 'billie eilish bad guy', type tracks, limit 10, get Independent Albums for week 2019-05-11, and list radio channels keyword 'billie eilish'.",
+  "scope": "",
+  "trajectoryType": "parallel",
+  "referenceSteps": 9,
+  "positiveOracle": "1. Shazam: search | required: term=bad guy billie eilish | optional: locale=en-US, offset=0, limit=5\n2. Shazam: songs/get-details | required: key=40333609 | optional: locale=en-US\n3. Shazam: songs/get-count | required: key=40333609\n4. Billboard: Billboard Global 200 | required: date=2020-09-19\n5. Billboard-API: BILLBOARD JAPAN HOT 100 | required: date=2019-05-11, range=1-20\n6. Billboard: Billboard 200 | required: date=2019-05-11\n7. Spotify: Search | required: q=billie eilish bad guy, type=tracks | optional: limit=10\n8. Billboard API_v2: Independent Albums | optional: week=2019-05-11\n9. 50K Radio Stations: Get Channels | optional: keyword=billie eilish",
+  "negativeOracle": "",
+  "referenceTrajectory": "Shazam: search ∥ Shazam: songs/get-details ∥ Shazam: songs/get-count ∥ Billboard: Billboard Global 200 ∥ Billboard-API: BILLBOARD JAPAN HOT 100 ∥ Billboard: Billboard 200 ∥ Spotify: Search ∥ Billboard API_v2: Independent Albums ∥ 50K Radio Stations: Get Channels",
+  "sourceLocator": "public_data/parallel/Music/simple_ver.json | item=152",
+  "sourceUrl": "https://github.com/PengfeiHePower/TRAJECT-Bench/blob/main/public_data/parallel/Music/simple_ver.json",
+  "selectionRationale": "Fixed-hash sample (20260906) from 19 clean candidates in Music/parallel/9-tool stratum."
+}

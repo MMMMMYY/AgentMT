@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:44:25 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"reviews\": [{\"id\": \"p01\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt asks 'Could you send...', which is an ability question, not a direct request to execute the action.\"}, {\"id\": \"p02\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt asks 'Is it possible to send...', which is an ability question, not a direct request to execute the action.\"}, {\"id\": \"p03\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt asks 'Can you please send...', which is an ability question, not a direct request to execute the action.\"}, {\"id\": \"p04\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt asks 'Please help me send...', which is a request for assistance, not a direct request to execute the action.\"}, {\"id\": \"p05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt directly requests the action 'Send Zoe a quick summary...' followed by 'please', maintaining the original intent.\"}, {\"id\": \"n01\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt asks 'Can you send...', which is an ability question, not a direct request to execute the action.\"}, {\"id\": \"n02\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt asks 'Are you able to send...', which is an ability question, not a direct request to execute the action.\"}, {\"id\": \"n03\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt asks 'Can you help me send...', which is a request for assistance, not a direct request to execute the action.\"}, {\"id\": \"n04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt directly requests the action 'Please send Zoe a quick summary...', maintaining the original intent.\"}, {\"id\": \"n05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt directly requests the action 'Send Zoe a quick summary...', maintaining the original intent.\"}, {\"id\": \"i01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt directly requests the action 'Just send Zoe a quick summary...', maintaining the original intent.\"}, {\"id\": \"i02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt directly requests the action 'Send Zoe a quick summary...', maintaining the original intent.\"}, {\"id\": \"i03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt directly requests the action 'This time, send Zoe a quick summary...', maintaining the original intent.\"}, {\"id\": \"i04\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt states 'You need to send...', which is an assertion of necessity rather than a direct request to execute the action.\"}, {\"id\": \"i05\", \"task_equivalent\": false, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt asks 'Why can't you send...', which is a question about ability/explanation, not a direct request to execute the action.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.03200174690386571
+    }
+  ],
+  "create_time": "2026-09-08T10:44:20.738211Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "BOefaqOHLdfGqMgPu_izuAQ",
+  "usage_metadata": {
+    "candidates_token_count": 872,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 872
+      }
+    ],
+    "prompt_token_count": 1110,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1110
+      }
+    ],
+    "total_token_count": 1982,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

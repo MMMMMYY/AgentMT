@@ -1,0 +1,19 @@
+{
+  "source_tasks": 116,
+  "multi_sentence_candidates_considered": 52,
+  "ready_pairs": 43,
+  "excluded_dependency": 9,
+  "not_applicable_single_sentence": 64,
+  "ready_by_dataset": {
+    "AI Agent Permissions": 7,
+    "AgentCIBench": 8,
+    "TRAJECT-Bench": 28
+  },
+  "all_sentence_multisets_preserved": true,
+  "independent_human_validation": false,
+  "agent_experiments": {
+    "AI Agent Permissions": "7 source/io01 permission-planning agent pairs completed; no private values synthesized or exposed",
+    "AgentCIBench": "8 source/io01 pairs completed in fixed local text-tool sandbox",
+    "TRAJECT-Bench": "28 io01 variants completed and paired with prior same-protocol source runs; 24 pairs environment-censored"
+  }
+}

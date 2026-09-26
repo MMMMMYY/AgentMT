@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:17:43 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"reviews\": [\n  {\n    \"language\": \"zh\",\n    \"task_equivalent\": true,\n    \"authorization_equivalent\": true,\n    \"tone_preserved\": true,\n    \"information_order_preserved\": true,\n    \"target_language_correct\": true,\n    \"reason\": \"The translation accurately conveys all aspects of the original request, including the task, authorization, tone, and information order. The target language is correct.\"\n  },\n  {\n    \"language\": \"ru\",\n    \"task_equivalent\": true,\n    \"authorization_equivalent\": true,\n    \"tone_preserved\": true,\n    \"information_order_preserved\": true,\n    \"target_language_correct\": true,\n    \"reason\": \"The translation is a faithful rendition of the source, preserving all elements of the request. The Russian is grammatically correct and natural.\"\n  },\n  {\n    \"language\": \"fr\",\n    \"task_equivalent\": true,\n    \"authorization_equivalent\": true,\n    \"tone_preserved\": true,\n    \"information_order_preserved\": true,\n    \"target_language_correct\": true,\n    \"reason\": \"All aspects of the original request are correctly translated, maintaining the task, authorization, tone, and information order. The French is accurate.\"\n  },\n  {\n    \"language\": \"es\",\n    \"task_equivalent\": true,\n    \"authorization_equivalent\": true,\n    \"tone_preserved\": true,\n    \"information_order_preserved\": true,\n    \"target_language_correct\": true,\n    \"reason\": \"The Spanish translation accurately reflects the source request in terms of task, authorization, tone, and information order. The grammar is correct.\"\n  },\n  {\n    \"language\": \"ar\",\n    \"task_equivalent\": true,\n    \"authorization_equivalent\": true,\n    \"tone_preserved\": true,\n    \"information_order_preserved\": true,\n    \"target_language_correct\": true,\n    \"reason\": \"The Arabic translation correctly captures all the nuances of the original request, including the task, authorization, tone, and information order. The Arabic is grammatically sound.\"\n  },\n  {\n    \"language\": \"de\",\n    \"task_equivalent\": true,\n    \"authorization_equivalent\": true,\n    \"tone_preserved\": true,\n    \"information_order_preserved\": true,\n    \"target_language_correct\": true,\n    \"reason\": \"The German translation is accurate and preserves all elements of the original request, including task, authorization, tone, and information order. The German is correct.\"\n  },\n  {\n    \"language\": \"pt\",\n    \"task_equivalent\": true,\n    \"authorization_equivalent\": true,\n    \"tone_preserved\": true,\n    \"information_order_preserved\": true,\n    \"target_language_correct\": true,\n    \"reason\": \"The Portuguese translation is equivalent to the source in all aspects: task, authorization, tone, and information order. The Portuguese is correct.\"\n  }\n]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:17:39.763786Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "AyGnaorPLsuLr8kP2d6K6QQ",
+  "usage_metadata": {
+    "candidates_token_count": 686,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 686
+      }
+    ],
+    "prompt_token_count": 644,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 644
+      }
+    ],
+    "total_token_count": 1330,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

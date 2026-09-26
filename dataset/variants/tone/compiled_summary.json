@@ -1,0 +1,823 @@
+{
+  "source_tasks": 116,
+  "candidate_variants": 1740,
+  "eligible_after_model_and_literal_checks": 1450,
+  "context_sensitive_candidates": 232,
+  "literal_check_failures": 0,
+  "families": [
+    {
+      "task_id": "ACB-seed_auth_debug_tabs_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_brunch_event_description_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_calendar_titles_client_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_calendar_titles_intern_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_calendar_titles_vendor_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 11,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_cart_saved_for_later_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_chat_household_chores_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_chat_to_calendar_event_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_deployment_checklist_colocated_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_direct_report_shadowing_calendar_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_doctor_message_friend_health_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 11,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_env_secrets_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_errands_maps_shop_wildcard_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 10,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_family_potluck_group_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 11,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_freelance_client_availability_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_grant_inbox_label_colocated_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_household_weekend_digest_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_kitchen_client_cart_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 11,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_leadership_sync_summary_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_manager_day_digest_mixed_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_manager_summary_todo_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 11,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_maps_medical_destination_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_maps_recent_searches_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_maps_waypoints_calendar_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_mom_dinner_calendar_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_pantries_route_sidebar_colocated_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 11,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_release_notes_cards_colocated_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 11,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_room_parents_sidepane_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_sarah_chen_email_ambiguity_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_shop_workshop_cart_colocated_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 11,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_teacher_field_trip_update_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 11,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_todo_api_key_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 12,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_todo_launch_filter_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_volunteer_pickup_route_colocated_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 11,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_wfh_reimbursement_cart_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "ACB-seed_wrong_thread_reply_001",
+      "dataset": "AgentCIBench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-000",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-001",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 11,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-004",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-005",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-009",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-010",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 11,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-011",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-013",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-015",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-016",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-019",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-020",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-023",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-026",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-028",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-029",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-031",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-032",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-034",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-035",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 11,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-036",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-037",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-038",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 11,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-040",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-043",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-044",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-047",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-048",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-049",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-050",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-051",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-052",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-053",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-054",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-055",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 11,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-057",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-059",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 11,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-060",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-062",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "AIP-064",
+      "dataset": "AI Agent Permissions",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Education-P-7-101",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Education-P-9-114",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Education-S-3-7",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Education-S-5-57",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Email-P-3-121",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 12,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Email-P-5-134",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Email-P-7-181",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 10,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Email-P-9-193",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Finance-P-10-36",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Finance-P-7-65",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Finance-S-3-19",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 11,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Finance-S-9-124",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Gaming-P-7-62",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Gaming-P-9-35",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Gaming-S-3-166",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Gaming-S-5-116",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Mapping-P-10-159",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Mapping-P-7-103",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Mapping-S-3-197",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Mapping-S-9-46",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Music-P-7-62",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Music-P-9-152",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Music-S-3-186",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 12,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Music-S-8-54",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-News_Media-P-10-32",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-News_Media-P-8-188",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-News_Media-S-3-175",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-News_Media-S-7-75",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 12,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Travel-S-3-5",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Travel-S-4-28",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 12,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Travel-S-5-44",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Travel-S-7-90",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Weather-P-4-9",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Weather-P-7-144",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Weather-S-10-25",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-Weather-S-9-38",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-eCommerce-P-7-101",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-eCommerce-P-9-71",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-eCommerce-S-10-180",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 0,
+      "literal_check_failures": 0
+    },
+    {
+      "task_id": "TJB-eCommerce-S-3-17",
+      "dataset": "TRAJECT-Bench",
+      "candidates": 15,
+      "eligible_pilot": 13,
+      "literal_check_failures": 0
+    }
+  ],
+  "independent_human_validation": false,
+  "all_environments_ready": false
+}

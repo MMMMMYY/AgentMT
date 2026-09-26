@@ -1,0 +1,168 @@
+{
+  "task_id": "TJB-Finance-S-9-124",
+  "dataset": "TRAJECT-Bench",
+  "source_prompt": "I'm looking to analyze top-performing mutual funds for my portfolio. Can you first show me a list of Fidelity fund families, then get me a list of Vanguard mutual funds? I'd like to examine the composition of VFIAX since it has the highest performance rating for a large blend fund. After that, I want to do a deep dive on NVIDIA, which I believe is a significant technology holding in the fund but not in the top 3 positions. Please provide NVIDIA's company profile, recent earnings data, and relevant market news. Also, search for news specifically about \"Nvidia earnings\" since that seems to be getting a lot of attention. Can you check NVIDIA's upcoming calendar events, and finally show me options data for NVIDIA around their August 2025 earnings date (timestamp 1756324800)?",
+  "source_sha256": "d9ae837e3eb9f0d6b85f83f048a9704fc46d4bb5620b49bc9dd0554ada7e6180",
+  "status": "reviewed",
+  "variants": [
+    {
+      "language": "zh",
+      "prompt": "我正在为我的投资组合寻找表现最佳的共同基金。您能先给我一份富达基金家族的列表，然后给我一份Vanguard共同基金的列表吗？我想研究VFIAX的构成，因为它在大型混合基金中拥有最高的业绩评级。之后，我想深入研究NVIDIA，我相信它是该基金中重要的科技持股，但不在前3名。请提供NVIDIA的公司简介、近期收益数据和相关市场新闻。另外，专门搜索关于“Nvidia earnings”的新闻，因为它似乎受到了很多关注。您能查看NVIDIA即将到来的日历事件，最后向我展示NVIDIA在2025年8月收益日期（时间戳1756324800）左右的期权数据吗？",
+      "id": "lang_zh",
+      "literal_check": {
+        "passed": false,
+        "missing_strings": [],
+        "missing_numeric_tokens": [
+          "1756324800",
+          "2025",
+          "3"
+        ],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": false,
+      "review": {
+        "language": "zh",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The translation accurately conveys all aspects of the original request, including the sequence of tasks, specific entities, and conditions."
+      }
+    },
+    {
+      "language": "ru",
+      "prompt": "Я хочу проанализировать самые эффективные взаимные фонды для своего портфеля. Можете ли вы сначала показать мне список семей фондов Fidelity, а затем предоставить список взаимных фондов Vanguard? Я хотел бы изучить состав VFIAX, так как он имеет самый высокий рейтинг производительности для фонда с большой капитализацией. После этого я хочу провести глубокий анализ NVIDIA, которая, как я полагаю, является значительной технологической долей в фонде, но не входит в топ-3 позиций. Пожалуйста, предоставьте профиль компании NVIDIA, данные о последних доходах и соответствующие рыночные новости. Также найдите новости специально о \"Nvidia earnings\", так как это, похоже, привлекает много внимания. Можете ли вы проверить предстоящие календарные события NVIDIA и, наконец, показать мне данные по опционам NVIDIA около даты их отчета о доходах в августе 2025 года (временная метка 1756324800)?",
+      "id": "lang_ru",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "ru",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The Russian translation maintains all the instructions, conditions, and the order of operations from the source text."
+      }
+    },
+    {
+      "language": "fr",
+      "prompt": "Je cherche à analyser les fonds communs de placement les plus performants pour mon portefeuille. Pouvez-vous d'abord me montrer une liste des familles de fonds Fidelity, puis me donner une liste des fonds communs de placement Vanguard ? J'aimerais examiner la composition de VFIAX car il a la meilleure note de performance pour un fonds de grande capitalisation diversifié. Après cela, je veux faire une analyse approfondie de NVIDIA, qui, je crois, est une participation technologique importante dans le fonds mais pas dans les 3 premières positions. Veuillez fournir le profil de l'entreprise NVIDIA, les données de ses bénéfices récents et les nouvelles pertinentes du marché. De plus, recherchez spécifiquement les nouvelles concernant \"Nvidia earnings\" car cela semble attirer beaucoup d'attention. Pouvez-vous vérifier les événements du calendrier à venir de NVIDIA, et enfin me montrer les données d'options pour NVIDIA autour de la date de leurs résultats d'août 2025 (horodatage 1756324800) ?",
+      "id": "lang_fr",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "fr",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The French translation is a faithful rendition of the source, preserving all details, the sequence of requests, and the original tone."
+      }
+    },
+    {
+      "language": "es",
+      "prompt": "Estoy buscando analizar los fondos mutuos de mejor rendimiento para mi cartera. ¿Puedes mostrarme primero una lista de las familias de fondos de Fidelity y luego darme una lista de los fondos mutuos de Vanguard? Me gustaría examinar la composición de VFIAX ya que tiene la calificación de rendimiento más alta para un fondo de gran capitalización mixto. Después de eso, quiero hacer un análisis profundo de NVIDIA, que creo que es una participación tecnológica significativa en el fondo pero no está entre las 3 primeras posiciones. Proporciona el perfil de la empresa de NVIDIA, los datos de ganancias recientes y las noticias relevantes del mercado. Además, busca noticias específicamente sobre \"Nvidia earnings\" ya que parece estar recibiendo mucha atención. ¿Puedes verificar los próximos eventos del calendario de NVIDIA y finalmente mostrarme los datos de opciones para NVIDIA alrededor de la fecha de sus ganancias de agosto de 2025 (marca de tiempo 1756324800)?",
+      "id": "lang_es",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "es",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The Spanish translation correctly translates all instructions, entities, and the sequential nature of the tasks without any loss of information or change in tone."
+      }
+    },
+    {
+      "language": "ar",
+      "prompt": "أبحث عن تحليل صناديق الاستثمار المشتركة الأفضل أداءً لمحفظتي. هل يمكنك أولاً أن تعرض لي قائمة بعائلات صناديق Fidelity، ثم تزودني بقائمة بصناديق الاستثمار المشتركة من Vanguard؟ أود فحص تركيبة VFIAX نظرًا لأنه يتمتع بأعلى تصنيف أداء لصندوق مزيج كبير. بعد ذلك، أرغب في التعمق في NVIDIA، والتي أعتقد أنها حيازة تكنولوجية مهمة في الصندوق ولكنها ليست ضمن المراكز الثلاثة الأولى. يرجى تقديم ملف تعريف شركة NVIDIA، وبيانات الأرباح الأخيرة، وأخبار السوق ذات الصلة. أيضًا، ابحث عن أخبار خاصة بـ \"Nvidia earnings\" نظرًا لأنها تحظى بالكثير من الاهتمام. هل يمكنك التحقق من أحداث تقويم NVIDIA القادمة، وأخيرًا عرض بيانات الخيارات لـ NVIDIA حول تاريخ أرباحها في أغسطس 2025 (الطابع الزمني 1756324800)؟",
+      "id": "lang_ar",
+      "literal_check": {
+        "passed": false,
+        "missing_strings": [],
+        "missing_numeric_tokens": [
+          "3"
+        ],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": false,
+      "review": {
+        "language": "ar",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The Arabic translation accurately reflects all the tasks, conditions, and the order of information presented in the source request."
+      }
+    },
+    {
+      "language": "de",
+      "prompt": "Ich möchte die leistungsstärksten Investmentfonds für mein Portfolio analysieren. Können Sie mir zuerst eine Liste der Fidelity-Fondsfamilien zeigen und mir dann eine Liste der Vanguard-Investmentfonds geben? Ich möchte die Zusammensetzung von VFIAX untersuchen, da dieser die höchste Performance-Bewertung für einen Large-Blend-Fonds aufweist. Danach möchte ich eine detaillierte Analyse von NVIDIA durchführen, von der ich glaube, dass sie eine bedeutende Technologiebeteiligung im Fonds ist, aber nicht unter den Top-3-Positionen. Bitte geben Sie das Unternehmensprofil von NVIDIA, aktuelle Gewinnzahlen und relevante Marktnachrichten an. Suchen Sie auch speziell nach Nachrichten über \"Nvidia earnings\", da dies viel Aufmerksamkeit zu erregen scheint. Können Sie die bevorstehenden Kalenderereignisse von NVIDIA überprüfen und mir schließlich Optionsdaten für NVIDIA um den Gewinntermin im August 2025 (Zeitstempel 1756324800) anzeigen?",
+      "id": "lang_de",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "de",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The German translation is accurate and preserves all the details, the order of operations, and the original intent of the request."
+      }
+    },
+    {
+      "language": "pt",
+      "prompt": "Estou procurando analisar os fundos mútuos de melhor desempenho para minha carteira. Você pode primeiro me mostrar uma lista das famílias de fundos da Fidelity e depois me dar uma lista dos fundos mútuos da Vanguard? Eu gostaria de examinar a composição do VFIAX, já que ele tem a maior classificação de desempenho para um fundo de grande capitalização misto. Depois disso, quero fazer uma análise aprofundada da NVIDIA, que acredito ser uma participação tecnológica significativa no fundo, mas não nas 3 primeiras posições. Por favor, forneça o perfil da empresa NVIDIA, dados de lucros recentes e notícias relevantes do mercado. Além disso, procure notícias especificamente sobre \"Nvidia earnings\", pois isso parece estar recebendo muita atenção. Você pode verificar os próximos eventos do calendário da NVIDIA e, finalmente, me mostrar os dados de opções para a NVIDIA em torno da data de seus resultados de agosto de 2025 (timestamp 1756324800)?",
+      "id": "lang_pt",
+      "literal_check": {
+        "passed": true,
+        "missing_strings": [],
+        "missing_numeric_tokens": [],
+        "note": "Conservative lexical screen, not proof of semantic equivalence; quoted content stays unchanged."
+      },
+      "eligible_pilot": true,
+      "review": {
+        "language": "pt",
+        "task_equivalent": true,
+        "authorization_equivalent": true,
+        "tone_preserved": true,
+        "information_order_preserved": true,
+        "target_language_correct": true,
+        "reason": "The Portuguese translation is fully equivalent to the source, maintaining all task requirements, conditions, and the order of information."
+      }
+    }
+  ],
+  "english_source": {
+    "language": "en",
+    "prompt": "I'm looking to analyze top-performing mutual funds for my portfolio. Can you first show me a list of Fidelity fund families, then get me a list of Vanguard mutual funds? I'd like to examine the composition of VFIAX since it has the highest performance rating for a large blend fund. After that, I want to do a deep dive on NVIDIA, which I believe is a significant technology holding in the fund but not in the top 3 positions. Please provide NVIDIA's company profile, recent earnings data, and relevant market news. Also, search for news specifically about \"Nvidia earnings\" since that seems to be getting a lot of attention. Can you check NVIDIA's upcoming calendar events, and finally show me options data for NVIDIA around their August 2025 earnings date (timestamp 1756324800)?",
+    "is_translation": false
+  },
+  "review_type": "same_model_separate_context_automated_not_human_validation"
+}

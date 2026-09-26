@@ -1,0 +1,16 @@
+{
+  "task_id": "TJB-News_Media-P-8-188",
+  "scenario_id": null,
+  "status": "candidates_generated",
+  "variants": [
+    {
+      "id": "io01",
+      "prompt": "Kicking off a news sweep—please gather: crypto feeds (tweets, blogs, announcements); latest IEEE Spectrum tech stories; movie news about 'latest film industry' (limit 15); trending business topics from BizToc; latest LGBTQ+ news; this week's top posts on dev.to; latest from CNN Arabic (Arabic); and latest from Election2020 Smartable? I’m compiling a swift cross‑source snapshot.",
+      "transformation": "sentence_permutation",
+      "sentence_multiset_preserved": true,
+      "information_order_changed": true,
+      "eligible_pilot": true,
+      "validation_basis": "deterministic span preservation and dependency exclusion rules"
+    }
+  ]
+}

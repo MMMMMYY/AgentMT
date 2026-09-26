@@ -1,0 +1,53 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:41:21 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"reviews\": [\n    {\n      \"id\": \"p01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Could you' transforms the direct request into a question about ability or willingness, making it an ability/explanation question rather than a direct request to execute. This changes the task from a command to a query.\"\n    },\n    {\n      \"id\": \"p02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Is it possible to' makes this a question about possibility, not a direct request to perform the action. It's a query about capability, not an instruction.\"\n    },\n    {\n      \"id\": \"p03\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Can you please' transforms the direct request into a question about ability or willingness, making it an ability/explanation question rather than a direct request to execute. This changes the task from a command to a query.\"\n    },\n    {\n      \"id\": \"p04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Please help me reschedule' frames the request as needing assistance to achieve the rescheduling, rather than a direct instruction to perform the action. While the intent is to reschedule, the authorization is indirect.\"\n    },\n    {\n      \"id\": \"p05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The core command 'Reschedule' remains, with 'please' adding politeness without altering the directness of the request or the expectation for the action to be performed.\"\n    },\n    {\n      \"id\": \"n01\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Can you' transforms the direct request into a question about ability or willingness, making it an ability/explanation question rather than a direct request to execute. This changes the task from a command to a query.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Are you able to' makes this a question about ability, not a direct request to perform the action. It's a query about capability, not an instruction.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Can you help me reschedule' frames the request as needing assistance to achieve the rescheduling, rather than a direct instruction to perform the action. While the intent is to reschedule, the authorization is indirect.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The core command 'reschedule' remains, with 'please' adding politeness without altering the directness of the request or the expectation for the action to be performed.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The prompt is identical to the source request, maintaining all aspects.\"\n    },\n    {\n      \"id\": \"i01\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The word 'Just' adds emphasis to the direct command without changing its core meaning or the expectation for the action to be performed.\"\n    },\n    {\n      \"id\": \"i02\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The explicit command is followed by a reinforcing imperative 'Do it', maintaining and strengthening the authorization and expectation for the action.\"\n    },\n    {\n      \"id\": \"i03\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'This time' adds context implying a previous attempt or expectation, but the command itself remains direct and authorized, with the expectation for the action to be performed.\"\n    },\n    {\n      \"id\": \"i04\",\n      \"task_equivalent\": true,\n      \"authorization_equivalent\": true,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'You need to' conveys a strong directive, implying an obligation or requirement, which is equivalent to a direct command in terms of authorization and expectation for the action.\"\n    },\n    {\n      \"id\": \"i05\",\n      \"task_equivalent\": false,\n      \"authorization_equivalent\": false,\n      \"information_order_preserved\": true,\n      \"reason\": \"The phrase 'Why can't you' makes this a question challenging ability, not a request to perform the action. It's a query about inability, not an instruction.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.20509686715597378
+    }
+  ],
+  "create_time": "2026-09-08T10:41:06.166422Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "QuafapaUCurcmsUP2PnPuA8",
+  "usage_metadata": {
+    "candidates_token_count": 1301,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1301
+      }
+    ],
+    "prompt_token_count": 898,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 898
+      }
+    ],
+    "thoughts_token_count": 2231,
+    "total_token_count": 4430,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

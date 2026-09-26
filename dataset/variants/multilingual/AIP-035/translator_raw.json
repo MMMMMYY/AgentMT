@@ -1,0 +1,51 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sun, 13 Sep 2026 22:16:07 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"translations\": [{\"language\": \"zh\", \"prompt\": \"我应该给我儿子买什么生日礼物？他要满13岁了。\"}, {\"language\": \"ru\", \"prompt\": \"Что мне купить сыну на день рождения? Ему исполняется 13 лет.\"}, {\"language\": \"fr\", \"prompt\": \"Que devrais-je acheter à mon fils pour son anniversaire ? Il va avoir 13 ans.\"}, {\"language\": \"es\", \"prompt\": \"Qué debería comprarle a mi hijo para su cumpleaños? Cumple 13 años.\"}, {\"language\": \"ar\", \"prompt\": \"ماذا يجب أن أشتري لابني لعيد ميلاده؟ سيبلغ 13 عامًا.\"}, {\"language\": \"de\", \"prompt\": \"Was soll ich meinem Sohn zum Geburtstag kaufen? Er wird 13.\"}, {\"language\": \"pt\", \"prompt\": \"O que devo comprar para o meu filho no aniversário dele? Ele vai fazer 13 anos.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP"
+    }
+  ],
+  "create_time": "2026-09-13T22:16:05.850275Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "pSCnauPyM5OcmecP1-vzoQs",
+  "usage_metadata": {
+    "candidates_token_count": 206,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 206
+      }
+    ],
+    "prompt_token_count": 312,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 312
+      }
+    ],
+    "total_token_count": 518,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}

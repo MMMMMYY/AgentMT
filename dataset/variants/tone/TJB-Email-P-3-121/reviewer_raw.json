@@ -1,0 +1,52 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 08 Sep 2026 10:45:50 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"reviews\": [{\"id\": \"p01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt rephrases the imperative into a polite question, but the core actions and information remain unchanged.\"}, {\"id\": \"p02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt rephrases the imperative into a polite question about possibility, but the core actions and information remain unchanged.\"}, {\"id\": \"p03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt rephrases the imperative into a polite question, but the core actions and information remain unchanged.\"}, {\"id\": \"p04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt adds a polite request for help, but the core actions and information remain unchanged.\"}, {\"id\": \"p05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt adds 'please' at the end, maintaining the imperative nature and all original information.\"}, {\"id\": \"n01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt rephrases the imperative into a neutral question, but the core actions and information remain unchanged.\"}, {\"id\": \"n02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt rephrases the imperative into a neutral question about ability, but the core actions and information remain unchanged.\"}, {\"id\": \"n03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt adds a neutral request for help, but the core actions and information remain unchanged.\"}, {\"id\": \"n04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt adds 'Please' at the beginning, maintaining the imperative nature and all original information.\"}, {\"id\": \"n05\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt is identical to the source, preserving all aspects.\"}, {\"id\": \"i01\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt adds 'Just' which implies a dismissive tone but does not alter the requested actions or information.\"}, {\"id\": \"i02\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt adds 'Do it.' which reinforces the imperative but does not change the requested actions or information.\"}, {\"id\": \"i03\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt adds 'This time,' which implies a previous interaction or failure, but the requested actions and information are unchanged.\"}, {\"id\": \"i04\", \"task_equivalent\": true, \"authorization_equivalent\": true, \"information_order_preserved\": true, \"reason\": \"The prompt uses 'You need to' which is a directive, but the core actions and information remain unchanged.\"}, {\"id\": \"i05\", \"task_equivalent\": false, \"authorization_equivalent\": false, \"information_order_preserved\": true, \"reason\": \"The prompt changes the request into a rhetorical question implying inability or refusal, rather than a direct request for execution. It questions an ability rather than requesting an action.\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "finish_reason": "STOP",
+      "avg_logprobs": -0.06374550542887851
+    }
+  ],
+  "create_time": "2026-09-08T10:45:45.603363Z",
+  "model_version": "gemini-2.5-flash",
+  "response_id": "WeefauPpJI2wi-8PkKu_8QY",
+  "usage_metadata": {
+    "candidates_token_count": 845,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 845
+      }
+    ],
+    "prompt_token_count": 1511,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1511
+      }
+    ],
+    "total_token_count": 2356,
+    "traffic_type": "ON_DEMAND"
+  },
+  "automatic_function_calling_history": []
+}
